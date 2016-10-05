@@ -5,7 +5,7 @@
     "default": "mon_null",
     "monsters": [
         { "monster": "mon_doom_churl", "freq": 10, "cost_multiplier": 5, "pack_size": [2,5] },
-        { "monster": "mon_imp", "freq": 100, "cost_multiplier": 0 },
+        { "monster": "mon_imp", "freq": 95, "cost_multiplier": 0 },
         { "monster": "mon_imp", "freq": 25, "cost_multiplier": 5, "pack_size": [3,7] },
         { "monster": "mon_imp_black", "freq": 25, "cost_multiplier": 1, "starts": 2 },
         { "monster": "mon_pinky", "freq": 40, "cost_multiplier": 0 },
@@ -18,13 +18,17 @@
         { "monster": "mon_hell_knight", "freq": 40, "cost_multiplier": 0 },
         { "monster": "mon_hell_knight", "freq": 5, "cost_multiplier": 5, "pack_size": [1,2] },
         { "monster": "mon_hell_baron", "freq": 15, "cost_multiplier": 5, "pack_size": [1,2], "starts": 25 },
-        { "monster": "mon_mancubus", "freq": 4, "cost_multiplier": 10 },
+        { "monster": "mon_mancubus", "freq": 5, "cost_multiplier": 10 },
         { "monster": "mon_mancubus", "freq": 10, "cost_multiplier": 10, "pack_size": [1,2], "starts": 75 },
         { "monster": "mon_cacodemon", "freq": 10, "cost_multiplier": 0 },
         { "monster": "mon_cacodemon", "freq": 15, "cost_multiplier": 0, "pack_size": [1,2], "starts": 50 },
         { "monster": "mon_mechaspider", "freq": 20, "cost_multiplier": 5, "starts": 75 },
-        { "monster": "mon_mechaspider", "freq": 4, "cost_multiplier": 200, "pack_size": [1,2] },
-        { "monster": "mon_doom_archvile", "freq": 1, "cost_multiplier": 50, "starts":   150 },
+        { "monster": "mon_mechaspider", "freq": 4, "cost_multiplier": 25, "pack_size": [1,2] },
+        { "monster": "mon_doom_archvile", "freq": 1, "cost_multiplier": 50, "starts":   100, "conditions": ["SUMMER", "AUTUMN"] },
+        { "monster": "mon_doom_archvile_2", "freq": 1, "cost_multiplier": 50, "starts":   100, "conditions": ["DAY", "SPRING", "SUMMER"] },
+        { "monster": "mon_doom_archvile_3", "freq": 1, "cost_multiplier": 50, "starts":   100, "conditions": ["DAWN", "NGIHT", "DUSK", "SPRING", "SUMMER"] },
+        { "monster": "mon_doom_archvile_4", "freq": 1, "cost_multiplier": 50, "starts":   100, "conditions": ["DAY", "AUTUMN", "WINTER"] },
+        { "monster": "mon_doom_archvile_5", "freq": 1, "cost_multiplier": 50, "starts":   100, "conditions": ["DAWN", "NGIHT", "DUSK", "AUTUMN", "WINTER"] },
         { "monster": "mon_cyberdemon", "freq": 1, "cost_multiplier": 50, "starts": 200 }
     ]
     },{

@@ -110,6 +110,117 @@
     "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
   },
   {
+    "id": "bot_imp_revive",
+    "type": "TOOL",
+    "name": "scarred imp spawner",
+    "description": "Spawns an scarred imp into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_imp_revive",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_pinky_revive",
+    "type": "TOOL",
+    "name": "scarred pinky spawner",
+    "description": "Spawns a scarred pink demon into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_pinky_revive",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_hell_knight_revive",
+    "type": "TOOL",
+    "name": "battered hell knight spawner",
+    "description": "Spawns a battered hell knight into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_hell_knight_revive",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_cacodemon_revive",
+    "type": "TOOL",
+    "name": "abhorrent cacodemon spawner",
+    "description": "Spawns an abhorrent cacodemon into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_cacodemon_revive",
+      "difficulty": 90,
+      "place_randomly": true,
+      "skill1": "survival",
+      "skill2": "melee"
+    }
+  },
+  {
+    "id": "bot_churl_revive",
+    "type": "TOOL",
+    "name": "doomed human spawner",
+    "description": "Spawns an enslaved churl into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_churl_revive",
+      "difficulty": 90,
+      "place_randomly": true,
+      "skill1": "survival",
+      "skill2": "melee"
+    }
+  },
+  {
     "id": "bot_imp",
     "type": "TOOL",
     "name": "imp spawner",

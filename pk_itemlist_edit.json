@@ -1,5 +1,15 @@
 [
     {
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "map_extra_military",
+    "entries":
+    [
+    { "item": "id_military", "prob": 8 },
+    { "group": "drugs_soldier", "prob": 5 },
+    { "group": "ammo_milspec", "prob": 5 }
+    ]
+    },{
     "type": "item_group",
     "id": "prison_weapons",
     "items":[
@@ -377,8 +387,8 @@
     ["pokeball", 10],
     ["machete", 5],
     ["chloroform_rag", 10],
-    ["antidote_posion", 10],
-    ["antidote_badpoison", 5]
+    ["antidote_posion", 12],
+    ["antidote_badpoison", 6]
     ]
     },{
         "type": "item_group",

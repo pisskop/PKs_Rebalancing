@@ -446,7 +446,7 @@
     "symbol" : "{",
     "flags" : ["OVERSIZE", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN"],
     "techniques" : [ "WBLOCK_3", "BRUTAL" ],
-    "coverage" : 67,
+    "coverage" : 75,
     "material_thickness" : 2,
     "use_action": {
     "type": "transform",
