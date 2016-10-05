@@ -1,0 +1,110 @@
+    {
+    "type": "recipe",
+    "result": "bomblet_shock",
+    "note": "crafted shock bomblets",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_BULLETS",
+    "skill_used": "fabrication",
+    "skills_required": [ "gun", 5, "electronics", 5 ],
+    "difficulty": 7,
+    "time": 35000,
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [["manual_launcher" , 6 ], [ "recipe_lab_elec", 6, "" ], [ "textbook_anarch", 8 ]],
+    "qualities": [
+        {"id":"SCREW_FINE","level":1}
+    ],
+    "tools": [[[ "soldering_iron", 80 ], [ "welder", 80 ], [ "welder_crude", 107 ], [ "toolset", 80 ]]],
+    "components": [
+        [[ "smpistol_primer", 4 ], [ "lgpistol_primer", 4 ]],
+        [[ "gunpowder", 40 ]],
+        [[ "amplifier", 4 ]],
+        [[ "circuit", 4 ]],
+        [[ "e_scrap", 8], ["transponder", 1]],
+        [[ "spess_chunk", 4 ]],
+        [[ "gold_small", 120 ], [ "silver_small", 120 ], [ "bismuth", 120 ]],
+        [[ "bomblet_casing", 4 ]]
+    ]
+    }
+
+    {
+    "type": "recipe",
+    "result": "bot_manhack_acid",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "mechanics",
+    "skills_required": [[ "electronics", 5 ], [ "computer", 5 ]],
+    "difficulty": 7,
+    "time": 8000,
+    "reversible": true,
+    "decomp_learn": 7,
+    "autolearn": false,
+    "book_learn": [[ "recipe_lab_elec", 6 ] , [ "textbook_robots", 7]],
+    "qualities": [
+      {"id":"SCREW","level":1,"amount":1}
+    ], "tools": [
+      [
+      [ "soldering_iron", 10 ],
+      [ "toolset", 10 ]
+      ]
+      ],
+    "components": [
+      [
+        [ "acidbomb", 1 ]
+      ],
+      [
+        [ "processor", 1 ]
+      ],
+      [
+        [ "RAM", 1 ]
+      ],
+      [
+        [ "power_supply", 1 ],
+        [ "plut_cell", 1 ]
+      ],
+      [
+        [ "scrap", 2 ]
+      ]
+      ]
+    }
+
+    {
+    "type": "recipe",
+    "result": "bot_manhack_fire",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "mechanics",
+    "skills_required": [[ "electronics", 5 ], [ "computer", 5 ]],
+    "difficulty": 7,
+    "time": 8000,
+    "reversible": true,
+    "decomp_learn": 7,
+    "autolearn": false,
+    "book_learn": [[ "recipe_lab_elec", 6 ] , [ "textbook_robots", 7]],
+    "qualities": [
+      {"id":"SCREW","level":1,"amount":1}
+    ], "tools": [
+      [
+      [ "soldering_iron", 10 ],
+      [ "toolset", 10 ]
+      ]
+      ],
+    "components": [
+      [
+        [ "grenade_inc", 1 ], ["gasoline", 600], ["diesel", 600]],
+      ],
+      [
+        [ "processor", 1 ]
+      ],
+      [
+        [ "RAM", 1 ]
+      ],
+      [
+        [ "power_supply", 1 ],
+        [ "plut_cell", 1 ]
+      ],
+      [
+        [ "scrap", 2 ]
+      ]
+      ]
+    }

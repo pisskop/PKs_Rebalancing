@@ -1,0 +1,38 @@
+[
+  {
+    "type" : "start_location",
+    "ident" : "doomlabs",
+    "name" : "PRM Laboratories",
+    "target" : "doomlab_lab_open"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "hell_church",
+    "name" : "Hell Citadel",
+    "target" : "hell_city_tunnel_prison_S"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "hell_fort",
+    "name" : "Hell Castle",
+    "target" : "hell_castle_B1_C"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "religous_church",
+    "name" : "Church",
+    "target" : "church"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "religous_cemetery",
+    "name" : "Religious Cemetery",
+    "target" : "cemetery_4square_10"
+  },
+  {
+    "type" : "start_location",
+    "ident" : "public_cemetery",
+    "name" : "Large Cemetery",
+    "target" : "cemetery_large_43"
+  }
+]
