@@ -80,119 +80,6 @@
         [[ "wax", 1 ], [ "tallow", 2 ], [ "tallow_tainted", 2 ], [ "lamp_oil", 25 ], [ "cooking_oil", 2 ]]
     ]
     },{
-    "type" : "recipe",
-    "result": "sac_purse_leg",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [[ "survival", 2 ], [ "tailor", 2 ]],
-    "time": 3000,
-    "reversible": false,
-    "autolearn": true,
-    "batch_time_factors":[75, 15],
-    "qualities":[ ],
-    "components": [
-        [[ "sac_purse", 3 ], [ "sac_purse_arm", 3 ], [ "sac_purse_ankle", 3 ]]
-    ]
-    },{
-    "type" : "recipe",
-    "result": "sac_purse_arm",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [[ "survival", 2 ], [ "tailor", 2 ]],
-    "time": 3000,
-    "reversible": false,
-    "autolearn": true,
-    "batch_time_factors":[75, 15],
-    "qualities":[ ],
-    "components": [
-        [[ "sac_purse", 3 ], [ "sac_purse_ankle", 3 ], [ "sac_purse_leg", 3 ]]
-    ]
-    },{
-    "type" : "recipe",
-    "result": "sac_purse_ankle",
-  "category": "CC_OTHER",
-  "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [[ "survival", 2 ], [ "tailor", 2 ]],
-    "time": 3000,
-    "reversible": false,
-    "autolearn": true,
-    "batch_time_factors":[75, 15],
-    "qualities":[ ],
-    "components": [
-        [[ "sac_purse", 3 ], [ "sac_purse_arm", 3 ], [ "sac_purse_leg", 3 ]]
-    ]
-    },{
-    "type" : "recipe",
-    "result": "sac_purse_clean_water",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "time": 3500,
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [
-        {"id":"CONTAIN","level":1,"amount":1}
-    ],
-    "components": [
-      [[ "water_clean", 1 ]],
-      [[ "sac_purse", 1 ]]
-      ]
-      },{
-    "type" : "recipe",
-    "result": "sac_purse_clean_water_ankle",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "time": 3000,
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [
-        {"id":"CONTAIN","level":1,"amount":1}
-    ],
-    "components": [
-      [[ "sac_purse_clean_water", 1 ], [ "sac_purse_clean_water_leg", 1 ], [ "sac_purse_clean_water_arm", 1 ]]
-      ]
-      },{
-    "type" : "recipe",
-    "result": "sac_purse_clean_water_arm",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "time": 3000,
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [
-        {"id":"CONTAIN","level":1,"amount":1}
-    ],
-    "components": [
-      [[ "sac_purse_clean_water", 1 ], [ "sac_purse_clean_water_leg", 1 ], [ "sac_purse_clean_water_ankle", 1 ]]
-      ]
-      },{
-    "type" : "recipe",
-    "result": "sac_purse_clean_water_leg",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_DRINKS",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "time": 3000,
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [
-        {"id":"CONTAIN","level":1,"amount":1}
-    ],
-    "components": [
-      [[ "sac_purse_clean_water", 1 ], [ "sac_purse_clean_water_arm", 1 ], [ "sac_purse_clean_water_ankle", 1 ]]
-      ]
-      },{
     "result": "broken_mechaspider",
     "type": "recipe",
     "category": "CC_NONCRAFT",
@@ -628,6 +515,31 @@
         [[ "string_6", 4]],
         [[ "ceramic_plate", 10 ]],
         [[ "shoulder_strap", 2 ]]
+    ]
+    },{
+    "type": "recipe",
+    "result": "megaarmor_torso_2",
+    "id_suffix": "recraft",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "skills_required": [ "fabrication", 4, "tailor", 5 ],
+    "difficulty": 6,
+    "time": 34000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [
+        {"id":"CUT","level":1}
+    ],
+    "tools": [
+      [ [ "hotplate", 35 ], [ "toolset", 35 ] ],
+      [ [ "sewing_kit", 90 ] ]
+    ],
+    "components": [
+        [[ "spess_chunk", 4 ]],
+        [[ "duct_tape", 100 ], [ "superglue", 2 ]],
+        [[ "duct_tape", 100 ], [ "superglue", 2 ]],
+        [[ "megaarmor_torso_2", 1 ]]
     ]
     },{
     "type": "recipe",

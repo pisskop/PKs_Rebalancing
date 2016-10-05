@@ -87,7 +87,7 @@
             }
         ],
         "traits": [
-            "PROF_POLICE"
+            "PROF_SWAT"
         ],
         "items": {
             "both": [
@@ -101,9 +101,10 @@
                 "technician_shirt_blue",
                 "armguard_hard",
                 "fanny",
+                "fanny",
                 "tac_helmet",
                 "swat_shield",
-                "baton",
+                "PR24-retracted",
                 "bomblet_launcher_dualshot",
                 "bomblet_stun",
                 "bomblet_stun",
