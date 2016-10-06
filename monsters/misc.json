@@ -29,6 +29,19 @@
     "flags": [ "SEES", "PATH_AVOID_DANGER_1", "NO_BREATHE", "PLASTIC" ]
   },
   {
+    "id": "mon_pig",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides":10,
+    "melee_cut": 4,
+    "dodge": 2,
+    "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "STALK" ],
+    "fear_triggers": [ "SOUND", "HURT" ],
+    "placate_triggers": [ "MEAT", "PLAYER_CLOSE" ]
+  },
+  {
     "id": "mon_sewer_rat",
     "type": "MONSTER",
     "edit-mode": "modify",
