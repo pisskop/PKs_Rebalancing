@@ -621,7 +621,11 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_doom_churl_revive",
+<<<<<<< HEAD
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ]
+=======
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ]
+>>>>>>> upstream/master
   },
   {
     "id": "mon_doom_slave",
