@@ -34,7 +34,7 @@
     "category": "armor",
     "name": "PRM marine underlay",
     "description": "A synthetic blue bodysuit worn under armor to provide substantial resistence to harsh elements from a variety of warzones.  Astronauts would be jealous of anyone lucky enough to wear one; if any were still alive.  Designed by the PRM corperation, it interlays readily with the marine helmet.  The suit is probably too complex to repair as normal, but some duct tape and superglue might keep it together if applied with skill.",
-    "weight": 5900,
+    "weight": 4900,
     "volume": 8,
     "price": 1300000,
     "material": [ "spess_plastic" ],
@@ -43,10 +43,11 @@
     "covers": [ "TORSO", "ARMS", "LEGS" ],
     "coverage": 100,
     "encumbrance": 10,
+    "storage": 2,
     "warmth": 20,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "flags": [ "VARSIZE", "WATERPROOF", "SKINTIGHT", "RAD_RESIST", "STURDY", "FANCY" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "SKINTIGHT", "RAD_RESIST", "STURDY", "SUPER_FANCY" ]
   },
   {
     "id": "megaarmor_torso_3",

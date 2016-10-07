@@ -48,10 +48,10 @@
     "vision_night": 10
   },
   {
-    "id": "mon_broken_cyborg_guard",
+    "id": "mon_cyborg_guard",
     "type": "MONSTER",
     "name": "guard cyborg",
-    "description": "An outdated and decrepit looking sentinel cyborg with a rather disturbing gun barrel where its arms should be.  What little flesh it has is gangranous.  Its steps are ackward and stiff with neglect.",
+    "description": "An outdated and decrepit looking sentinel cyborg with a rather disturbing gun barrel where its left arm should be.  What little flesh it has is pallid.  Its steps are ackward and stiff with neglect.",
     "default_faction": "science",
     "species": [ "ROBOT" ],
     "diff": 4,
@@ -76,8 +76,8 @@
       [ "PARROT", 120 ],
       {
         "type": "gun",
-        "cooldown": 5,
-        "move_cost": 150,
+        "cooldown": 70,
+        "move_cost": 250,
         "gun_type": "bio_blaster_gun",
         "fake_skills": [ [ "gun", 4 ] ],
         "fake_dex": 4,
@@ -87,12 +87,12 @@
         "require_targeting_player": false,
         "require_targeting_npc": false,
         "require_targeting_monster": false,
-        "targeting_cost": 200,
+        "targeting_cost": 250,
         "description": "Target aquired.  Lasers charged.  Termination imminent.",
         "no_ammo_sound": "\"Power cells depleted.\""
       } ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "HUMAN", "BONES", "NO_NECRO" ]
+    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_OP", "HUMAN", "BONES", "NO_NECRO" ]
 },
   {
     "id": "mon_manhack_missile",
