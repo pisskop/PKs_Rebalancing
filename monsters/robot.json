@@ -88,11 +88,11 @@
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "targeting_cost": 200,
-        "description": "Target aquired.  Lasers charged.  Termination emminent.",
+        "description": "Target aquired.  Lasers charged.  Termination imminent.",
         "no_ammo_sound": "\"Power cells depleted.\""
       } ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "ATTACKMON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "HUMAN", "BONES", "NO_NECRO" ]
+    "flags": [ "SEES", "HEARS", "BASHES", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "HUMAN", "BONES", "NO_NECRO" ]
 },
   {
     "id": "mon_manhack_missile",
