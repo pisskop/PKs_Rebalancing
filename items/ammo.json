@@ -124,7 +124,7 @@
     "range": 21,
     "damage": 23,
     "recoil": 200,
-    "effects": [ "INCENDIARY", "FLARE" ],
+    "effects": [ "INCENDIARY", "SHOT", "FLARE" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   },
   {
@@ -357,7 +357,7 @@
     "range": 20,
     "damage": 3,
     "pierce": 10,
-    "effects": [ "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
+    "effects": [ "INCENDIARY", "NEVER_MISFIRES", "COOKOFF", "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "emits": [ "emit_smoke_bomblet", "emit_fire_bomblet", "emit_fire_bomblet_small" ],
     "countdown_interval": 2,
@@ -415,7 +415,7 @@
     "range": 25,
     "damage": 3,
     "pierce": 10,
-    "effects": [ "INCENDIARY", "LARGE_BEANBAG", "RECOVER_9", "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
+    "effects": [ "LARGE_BEANBAG", "RECOVER_9", "NEVER_MISFIRES", "COOKOFF", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ],
     "explode_in_fire": true,
     "emits": [ "emit_dazzle_bomblet", "emit_teargas_bomblet" ],
     "countdown_interval": 2,

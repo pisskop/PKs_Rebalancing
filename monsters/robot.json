@@ -92,13 +92,13 @@
         "no_ammo_sound": "\"Power cells depleted.\""
       } ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_OP", "HUMAN", "BONES", "NO_NECRO" ]
+    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ]
   },
   {
-    "id": "mon_robot_cop",
+    "id": "mon_cyborg_cop",
     "type": "MONSTER",
     "name": "robotic cop",
-    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.",
+    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 4,
