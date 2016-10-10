@@ -190,7 +190,7 @@
       [ "IMPALE", 40 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT", "FRIEND_DIED" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "POISON", "ACIDPROOF", "ACID_BLOOD" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "HUMAN", "ACIDPROOF", "ACID_BLOOD" ]
   },
   {
     "id": "mon_twisted_body",
