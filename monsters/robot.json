@@ -256,7 +256,7 @@
     "id": "mon_robot_drone",
     "type": "MONSTER",
     "name": "Helidrone",
-    "description": "An automated anti-personnel drone produced by contract winner Hiensfeld Manufacturing; resembling a helicoptor the size of a human torso.  Equipped with a battle rifle, the drone possesses functional jet engines and a trio of aesthetic propellers that serve in close combat.",
+    "description": "An automated anti-personnel drone produced by contract winner Hiensfeld Manufacturing; resembling a helicoptor the size of a human torso.  Equipped with a battle rifle, the drone possesses functional thrusters and a trio of aesthetic propellers that serve in close combat.",
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
     "diff": 28,
@@ -290,9 +290,14 @@
         "fake_dex": 10,
         "range": 18,
         "ranges": [
-          [ 0, 8, "AUTO" ],
-          [ 9, 16, "DEFAULT" ]
-        ]
+          [ 2, 7, "AUTO" ],
+          [ 8, 15, "DEFAULT" ]
+        ],
+        "targeting_sound": "Bleerp~blip",
+        "targeting_volume": 12,
+        "targeting_cost": 150,
+        "description": "The Helidrone fires!",
+        "no_ammo_sound": "\"Bleepblop.\""
       }
     ],
     "death_drops": {
@@ -302,6 +307,6 @@
       ]
     },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
+    "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
 }
 ]

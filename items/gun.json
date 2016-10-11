@@ -1,28 +1,5 @@
 [
   {
-    "id": "pipe_launcher40mm",
-    "type": "GUNMOD",
-    "name": "40mm pipe launcher",
-    "description": "This is a home built launcher tube that can be attached to almost any rifle.  It allows a single 40mm grenade to be loaded and fired.",
-    "weight": 2080,
-    "volume": 3,
-    "price": 25000,
-    "material": [ "steel", "plastic" ],
-    "symbol": ":",
-    "color": "light_gray",
-    "location": "underbarrel",
-    "mod_targets": [ "rifle", "crossbow", "shotgun" ],
-    "gun_data": {
-      "ammo": "40mm",
-      "skill": "launcher",
-      "dispersion": 450,
-      "durability": 10,
-      "clip_size": 1
-    },
-    "dispersion_modifier": 60,
-    "min_skills": [ [ "gun", 1 ] ]
-  },
-  {
     "id": "hell_ball",
     "type": "GUN",
     "name": "hell ball shooter",
@@ -328,5 +305,51 @@
       "LIGHTNING"
     ],
     "flags": [ "NEVER_JAMS", "FIRE_100", "NO_UNLOAD", "RECHARGE" ]
+  },
+  {
+    "id": "410_lever",
+    "type": "GUN",
+    "name": "klaxon x410",
+    "description": "A compact and medium range lever-action shotgun utilizing the smaller 410 bore shells.  Capable of firing .45 rounds as well as its own 410 shells, the klaxon offers 'high versatility and reliability for the modern outdoorsman'.  The 'x' in its designation signifies its ten-round capacity.",
+    "weight": 1805,
+    "volume": 7,
+    "price": 175000,
+    "to_hit": -2,
+    "material": [ "steel", "wood" ],
+    "symbol": ")",
+    "color": "ltred",
+    "ammo": "45",
+    "skill": "shotgun",
+    "ranged_damage": 2,
+    "range": -3,
+    "dispersion": 140,
+    "durability": 5,
+    "clip_size": 10,
+    "reload": 50,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "mechanism", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
+  },
+  {
+    "id": "410_revolver",
+    "type": "GUN",
+    "name": "5410 frontier",
+    "description": "A revolver chambered to fire the small-bore 410 shotgun shells.  Marketed as a robust home-defense weapon, the 5410 Frontier is large enough to make reloading a snap with practice and accepts most third-party modifications to make the user feel as secure as possible.",
+    "weight": 715,
+    "volume": 3,
+    "price": 75000,
+    "to_hit": -2,
+    "material": [ "steel" ],
+    "symbol": ")",
+    "color": "ltred",
+    "ammo": "45",
+    "skill": "pistol",
+    "ranged_damage": 2,
+    "range": -3,
+    "dispersion": 210,
+    "durability": 9,
+    "clip_size": 6,
+    "reload": 80,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
+    "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
   }
 ]
