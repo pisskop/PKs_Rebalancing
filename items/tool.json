@@ -504,5 +504,40 @@
       "tools_needed": "syringe",
       "effects": [ { "id": "triffid_neutralization", "duration": 1 } ]
     }
+  },
+  {
+    "id": "bot_robot_drone",
+    "type": "TOOL",
+    "name": "inactive helicoptor drone",
+    "description": "This helicoptor drone is awaiting resupply and reactivation.  If you have .223 ammunition or equivalent on your person when you activate it it will be armed with it and fly off to use it on something up to 16 tiles away.",
+    "weight": 4250,
+    "volume": 35,
+    "price": 3000000,
+    "to_hit": -3,
+    "material": [ "steel", "superalloy" ],
+    "symbol": "H",
+    "color": "ltgreen",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_robot_drone",
+      "difficulty": 8,
+      "moves": 150,
+      "skill1": "electronics",
+      "skill2": "computer"
+    }
+  },
+  {
+    "id": "broken_robot_drone",
+    "type": "GENERIC",
+    "category": "other",
+    "name": "broken helicoptor drone",
+    "description": "A broken helicoptor drone.  Much less ominous now.",
+    "weight": 4250,
+    "volume": 34,
+    "price": 100000,
+    "to_hit": -3,
+    "material": [ "steel", "superalloy" ],
+    "symbol": "H",
+    "color": "ltgreen"
   }
 ]

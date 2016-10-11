@@ -54,7 +54,7 @@
     "description": "An outdated and decrepit looking sentinel cyborg with a rather disturbing gun barrel where its left arm should be.  What little flesh it has is pallid.  Its steps are ackward and stiff with neglect.",
     "default_faction": "science",
     "species": [ "ROBOT" ],
-    "diff": 4,
+    "diff": 24,
     "size": "MEDIUM",
     "hp": 70,
     "speed": 75,
@@ -92,7 +92,7 @@
         "no_ammo_sound": "\"Power cells depleted.\""
       } ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ]
+    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ]
   },
   {
     "id": "mon_cyborg_cop",
@@ -101,7 +101,7 @@
     "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
-    "diff": 4,
+    "diff": 18,
     "size": "MEDIUM",
     "hp": 105,
     "speed": 70,
@@ -147,7 +147,7 @@
         "no_ammo_sound": "\"Ammo depleted.\""
       } ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ],
+    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ],
     "anger_triggers": ["HURT", "FRIEND_ATTACKED", "SOUND", "PLAYER_CLOSE"]
   },
   {
@@ -251,5 +251,57 @@
     "death_drops": { "groups": [ [ "Shockcannon_turret", 80 ] ] },
     "death_function": [ "EXPLODE" ],
     "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ELECTRIC", "IMMOBILE", "NO_BREATHE" ]
-  }
+  },
+  {
+    "id": "mon_robot_drone",
+    "type": "MONSTER",
+    "name": "Helidrone",
+    "description": "An automated anti-personnel drone produced by contract winner Hiensfeld Manufacturing; resembling a helicoptor the size of a human torso.  Equipped with a battle rifle, the drone possesses functional jet engines and a trio of aesthetic propellers that serve in close combat.",
+    "default_faction": "defense_bot",
+    "species": [ "ROBOT" ],
+    "diff": 28,
+    "size": "SMALL",
+    "hp": 30,
+    "speed": 190,
+    "material": [ "steel" ],
+    "symbol": "H",
+    "color": "i_ltgreen",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 24,
+    "dodge": 4,
+    "armor_bash": 8,
+    "armor_cut": 14,
+    "vision_day": 50,
+    "vision_night": 12,
+    "luminance": 8,
+    "revert_to_itype": "bot_robot_drone",
+    "starting_ammo": { "556": 100 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 1,
+        "gun_type": "m4a1",
+        "ammo_type": "556",
+        "fake_skills": [ [ "gun", 6 ], [ "rifle", 4 ] ],
+        "fake_dex": 10,
+        "range": 18,
+        "ranges": [
+          [ 0, 8, "AUTO" ],
+          [ 9, 16, "DEFAULT" ]
+        ]
+      }
+    ],
+    "death_drops": {
+      "groups": [
+        [ "robots", 90 ],
+        [ "robots", 90 ]
+      ]
+    },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
+}
 ]
