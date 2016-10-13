@@ -1,0 +1,108 @@
+[
+    {
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"Braaaaaiinnnnssssssss\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"BBBBBBBBBRRRAAAAAAAIIIIINNNNNNSSSssa\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"BBBWWWAAAINNNS\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"muuuaaaaaahhh\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"oooooooooommmmmmmmmmmmmmmmmmmm\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"ssssssppppooooooookkkkkkyyy\"",
+        "volume": 6
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"SSSeennd moooorrrre medicccsss\"",
+        "volume": 8
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"Ahhhhhhhhhhhhhhhhhhhhhha\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"myuunnhaaaahhhh\"",
+        "volume": 15
+    },{
+        "type": "speech",
+        "speaker": "mon_zombie_fat",
+        "sound": "\"nnnooooommmmmmmmmmmmmmm\"",
+        "volume": 15
+    },
+    {
+    "id": "mon_zombie_fat",
+    "type": "MONSTER",
+    "edit-mode": "override",
+    "name": "Spooky Ghost",
+    "description": "A very spooky ghost.  Your hands are trembling at the thought of it.",
+    "default_faction": "zombie",
+    "categories": [ "CLASSIC" ],
+    "species": [ "ZOMBIE" ],
+    "diff": 2,
+    "size": "MEDIUM",
+    "hp": 1,
+    "speed": 50,
+    "material": [ "flesh" ],
+    "symbol": "%",
+    "color": "i_white",
+    "aggression": 50,
+    "morale": 80,
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "melee_cut": 0,
+    "dodge": 90,
+    "armor_bash": 0,
+    "armor_cut": 0,
+    "vision_day": 35,
+    "vision_night": 25,
+    "special_attacks": [
+      [ "PARROT", 20 ],
+      {
+        "type": "gun",
+        "cooldown": 20,
+        "move_cost": 250,
+        "gun_type": "bomblet_launcher_dualshot",
+        "ammo_type": "bomblet_stun",
+        "fake_skills": [ [ "gun", 7 ] ],
+        "fake_dex": 4,
+        "fake_per": 12,
+        "max_ammo": 1000,
+        "ranges":
+        [
+          [ 0, 3, "AUTO" ]
+        ],
+        "targeting_sound": "OOOOoooaaaooooOOHHHH.",
+        "targeting_volume": 12,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "targeting_cost": 150,
+        "description": "OOOOoooaaaooooOOHHHH.",
+        "no_ammo_sound": "\"OOOOoooaaaooooOOHHHH\""
+      }
+    ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "NIGHT_INVISIBILITY" ]
+  }
+]

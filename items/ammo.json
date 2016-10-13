@@ -573,7 +573,7 @@
     "id": "shot_410_hull",
     "type": "AMMO",
     "category": "spare_parts",
-    "name": "410-bore shot shell",
+    "name": "410-bore shotgun shell",
     "description": "An empty 410 bore shotgun shell.",
     "weight": 12,
     "volume": 2,
