@@ -374,7 +374,7 @@
     "recoil": 70,
     "durability": 7,
     "clip_size": 12,
-    "reload": 130,
+    "reload": 120,
     "flags": [ "NEVER_JAMS", "RELOAD_ONE" ],
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ] ]
 
@@ -396,11 +396,11 @@
     "ammo": "shot",
     "skill": "shotgun",
     "dispersion": 95,
-    "recoil": 70,
+    "recoil": 330,
     "durability": 9,
     "burst": 2,
     "clip_size": 12,
-    "reload": 120,
+    "reload": 130,
     "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ]
   }
 ]
