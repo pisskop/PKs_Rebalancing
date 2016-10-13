@@ -174,7 +174,7 @@
     "id": "mon_moth",
     "type": "MONSTER",
     "name": "giant moth",
-    "description": "A torso-sized translucent white moth.  It flutters around erradiccly, drawn to light sources.",
+    "description": "A torso-sized translucent white moth.  It flutters around erratically, drawn to light sources.",
     "default_faction": "roach",
     "categories": [ "WILDLIFE" ],
     "species": [ "INSECT" ],

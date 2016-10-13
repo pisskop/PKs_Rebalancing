@@ -61,6 +61,7 @@
     "material": [ "spess_plastic", "hardsteel" ],
     "symbol": "[",
     "color": "ltred",
+    "initial_charges": 20,
     "covers": [ "TORSO", "LEGS", "FEET", "ARMS", "HANDS" ],
     "coverage": 100,
     "encumbrance": 50,
