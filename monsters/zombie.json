@@ -9,6 +9,19 @@
     }
   },
   {
+    "id": "mon_zombie_grabber",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "special_attacks": [
+      [ "GRAB", 10 ],
+      [ "PARROT", 60 ],
+      {
+        "type": "bite",
+        "cooldown": 10
+      }
+    ]
+  },
+  {
     "id": "mon_zombie_hazmat",
     "type": "MONSTER",
     "edit-mode": "modify",
