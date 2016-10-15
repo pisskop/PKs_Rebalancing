@@ -818,8 +818,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -871,8 +871,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 20 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 15 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 }
             ]
         }
     },{
@@ -921,8 +921,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -971,8 +971,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -1021,8 +1021,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -1071,8 +1071,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -1177,8 +1177,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     },{
@@ -1227,8 +1227,8 @@
                 { "point": "terrain", "id": "t_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 9 ] }
             ],
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
-                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
+                { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6 },
+                { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
             ]
         }
     }

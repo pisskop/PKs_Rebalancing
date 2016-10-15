@@ -69,7 +69,7 @@
     "warmth": 40,
     "material_thickness": 5,
     "environmental_protection": 7,
-    "max_charges": 50,
+    "max_charges": 100,
     "ammo": "plutonium",
     "artifact_data" : {
         "effects_worn": [ "AEP_DEX_DOWN", "AEP_RESIST_ELECTRICITY" ]
@@ -103,8 +103,8 @@
     "warmth": 25,
     "material_thickness": 5,
     "environmental_protection": 7,
-    "max_charges": 50,
-    "turns_per_charge": 60,
+    "max_charges": 100,
+    "turns_per_charge": 30,
     "ammo": "plutonium",
     "revert_to": "megaarmor_torso_3",
     "artifact_data" : {

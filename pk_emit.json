@@ -114,7 +114,7 @@
     "type": "emit",
     "//": "Radiactive gas leaking. (example: revenant rocket core)",
     "field": "fd_nuke_gas",
-    "qty": 3
+    "qty": 4
   },{
     "id": "emit_sap_grenade",
     "type": "emit",
@@ -182,5 +182,21 @@
     "//": "A firevent bursts forth around the player. (example: archvile)",
     "field": "fd_fire_vent",
     "qty": 7
+  },{
+    "id": "emit_radbag",
+    "type": "emit",
+    "//": "Radiactive gas leaking. (example: shimmering zombie)",
+    "field": "fd_nuke_gas",
+    "density": 2,
+    "qty": 30,
+    "chance": 50
+  },{
+    "id": "emit_radbag_small",
+    "type": "emit",
+    "//": "Small amounts of radiactive gas leaking. (example: shimmering zombie)",
+    "field": "fd_nuke_gas",
+    "density": 1,
+    "qty": 5,
+    "chance": 50
   }
 ]
