@@ -47,7 +47,7 @@
     "type": "MONSTER",
     "edit-mode": "modify",
     "upgrades": {
-      "half_life": 8,
+      "half_life": 7,
       "into": "mon_beekeeper_pk"
     }
   },
@@ -69,7 +69,7 @@
     "id": "mon_zombie_corrosive",
     "type": "MONSTER",
     "edit-mode": "modify",
-    "emit_fields": [ "emit_acid_small" ]
+    "emit_fields": [ "emit_radiation_puff", "emit_acid_small" ]
   },
   {
     "id": "mon_zombie_cripple",
@@ -996,7 +996,7 @@
     "id": "mon_zombie_gasbag",
     "type": "MONSTER",
     "edit-mode": "modify",
-    "emit_fields": [ "emit_gas_plume" ],
+    "emit_fields": [ "emit_radiation_small", "emit_gas_stream", "emit_gas_plume" ],
     "upgrades": {
       "half_life": 18,
       "into": "mon_zombie_gasbag_pk"
@@ -1006,10 +1006,11 @@
     "id": "mon_zombie_smoker",
     "type": "MONSTER",
     "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_small", "emit_smoke_stream" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
-      "half_life": 21,
-      "into": "mon_zombie_gasbag_pk"
+      "half_life": 18,
+      "into": "mon_zombie_radbag"
     }
   },
   {
@@ -1687,7 +1688,8 @@
     "armor_cut": 5,
     "vision_day": 40,
     "vision_night": 5,
-    "luminance": 1,
+    "emit_fields": [ "emit_radiation_puff" ],
+    "luminance": 2,
     "special_attacks": [
       [ "BOOMER_GLOW", 20 ],
       [ "BREATHE", 8 ]
@@ -1695,6 +1697,41 @@
     "death_drops": "default_zombie_items",
     "death_function": [ "BOOMER_GLOW" ],
     "flags": [ "SEES", "GOODHEARING", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BILE_BLOOD", "BONES", "FAT", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+  },
+  {
+    "id": "mon_charred_nightmare",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_plume", "emit_radiation_puff" ],
+    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+  },
+  {
+    "id": "mon_irradiated_wanderer_1",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_puff" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+  },
+  {
+    "id": "mon_irradiated_wanderer_2",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_puff" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+  },
+  {
+    "id": "mon_irradiated_wanderer_3",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_puff" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+  },
+  {
+    "id": "mon_irradiated_wanderer_4",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_puff" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_zombie_gasbag_pk",
@@ -1729,7 +1766,7 @@
     "armor_fire": 10,
     "vision_day": 40,
     "vision_night": 4,
-    "emit_fields": [ "emit_gas_plume" ],
+    "emit_fields": [ "emit_gas_plume", "emit_radiation_plume" ],
     "special_attacks": [
       [ "GRAB_DRAG", 12 ],
       [ "STRETCH_ATTACK", 15 ]
@@ -1740,31 +1777,39 @@
   {
     "id": "mon_zombie_radbag",
     "type": "MONSTER",
-    "name": "shimmering zombie",
-    "description": "A shimmering humanoid constantly surrounded by a cloud of gas you suspect isn't healthy to breathe.  Best get your Prussian Blues.",
+    "name": "smoldering zombie",
+    "description": "A faintly shimmering and leathery humanoid within a cloud of misty vapors.  Horrible burns pock its rough flakey skin.  Just looking at it make your skin prickle; being close it makes you feel tingly in a very bad way.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
-    "diff": 14,
+    "diff": 16,
     "size": "MEDIUM",
     "hp": 80,
-    "speed": 85,
+    "speed": 90,
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "ltgreen_yellow",
     "aggression": 100,
     "morale": 100,
-    "melee_skill": 4,
+    "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides": 5,
-    "melee_cut": 2,
-    "dodge": 2,
-    "armor_bash": 5,
-    "vision_day": 45,
-    "vision_night": 7,
-    "emit_fields": [ "emit_radbag" ],
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "melee_damage": [
+      {
+        "damage_type": "heat",
+        "amount": 2
+      }
+    ],
+    "dodge": 5,
+    "armor_bash": 8,
+    "armor_cut": 2,
+    "vision_day": 50,
+    "vision_night": 9,
+    "luminance": 3,
+    "emit_fields": [ "emit_radbag", "emit_radiation_small", "emit_radiation_plume", "emit_gas_plume" ],
     "special_attacks": [ [ "GRAB", 20 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
   }
 ]

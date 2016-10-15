@@ -732,29 +732,5 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED" ] }
-  },
-  {
-    "id": "bomblet_radioactive",
-    "type": "AMMO",
-    "name": "radiation zombie ammo",
-    "description": "Dis here be radioactive ammo for a zombie to spit at you.  currently a test.",
-    "weight": 80,
-    "volume": 1,
-    "material": [ "plastic", "powder" ],
-    "symbol": "*",
-    "color": "ltgreen",
-    "ammo_type": "bomblet",
-    "range": 20,
-    "damage": 0,
-    "effects": [ "RECOVER_9", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "RADIOACTIVE" ],
-    "explode_in_fire": true,
-    "countdown_interval": 2,
-    "countdown_destroy": true,
-    "countdown_action": {
-      "target": "bomblet_stun_act",
-      "target_charges": 1,
-      "active": true,
-      "type": "transform"
-    }
   }
 ]

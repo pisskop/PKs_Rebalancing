@@ -175,7 +175,7 @@
     "vision_night": 25,
     "revert_to_itype": "bot_manhack_missile",
     "starting_ammo": { "rocket_core": 1 },
-    "emit_fields": [ "emit_radiation_revenant_rocket" ],
+    "emit_fields": [ "emit_radiation_plume" ],
     "special_attacks": [
       [ "KAMIKAZE", 0 ],
       [ "DISAPPEAR", 300 ]

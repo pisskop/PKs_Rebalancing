@@ -1,8 +1,16 @@
 [
     {
+    "id": "emit_gas_stream",
+    "type": "emit",
+    "//": "a stream of toxic gas (example: gasbag)",
+    "field": "fd_toxic_gas",
+    "qty": 3,
+    "density": 3,
+    "chance": 75
+  },{
     "id": "emit_gas_plume",
     "type": "emit",
-    "//": "occassional wafts of toxic gas (example: gasbag)",
+    "//": "occassional wafts of toxic gas (example: biollante)",
     "field": "fd_toxic_gas",
     "qty": 2,
     "density": 2,
@@ -103,19 +111,6 @@
     "qty": 2,
     "chance": 2
   },{
-    "id": "emit_radiation_revenant_rocket",
-    "type": "emit",
-    "//": "Radiactive gas leaking. (example: revenant rocket missile)",
-    "field": "fd_nuke_gas",
-    "qty": 1,
-    "chance": 15
-  },{
-    "id": "emit_radiation",
-    "type": "emit",
-    "//": "Radiactive gas leaking. (example: revenant rocket core)",
-    "field": "fd_nuke_gas",
-    "qty": 4
-  },{
     "id": "emit_sap_grenade",
     "type": "emit",
     "//": "A compact explosion of sap. (example: sap grenade)",
@@ -124,7 +119,7 @@
   },{
     "id": "emit_smoke_bomblet",
     "type": "emit",
-    "//": "A compact explosion of toxic gas (example: fire bomblet)",
+    "//": "A compact explosion of gas (example: fire bomblet)",
     "field": "fd_smoke",
     "density": 2,
     "qty": 8
@@ -188,15 +183,31 @@
     "//": "Radiactive gas leaking. (example: shimmering zombie)",
     "field": "fd_nuke_gas",
     "density": 2,
-    "qty": 30,
-    "chance": 50
+    "qty": 20,
+    "chance": 60
   },{
-    "id": "emit_radbag_small",
+    "id": "emit_radiation_small",
     "type": "emit",
-    "//": "Small amounts of radiactive gas leaking. (example: shimmering zombie)",
+    "//": "Small amounts of radiactive gas leaking. (example: )",
     "field": "fd_nuke_gas",
     "density": 1,
-    "qty": 5,
-    "chance": 50
+    "qty": 10,
+    "chance": 60
+  },{
+    "id": "emit_radiation_plume",
+    "type": "emit",
+    "//": "dab of radiactive gas leaking. (example: glowing boomer)",
+    "field": "fd_nuke_gas",
+    "density": 2,
+    "qty": 4,
+    "chance": 25
+  },{
+    "id": "emit_radiation_puff",
+    "type": "emit",
+    "//": "dab of radiactive gas leaking. (example: glowing boomer)",
+    "field": "fd_nuke_gas",
+    "density": 2,
+    "qty": 3,
+    "chance": 10
   }
 ]

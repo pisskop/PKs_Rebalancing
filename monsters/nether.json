@@ -1,5 +1,17 @@
 [
   {
+    "id": "mon_blank",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_puff" ]
+  },
+  {
+    "id": "mon_vortex",
+    "type": "MONSTER",
+    "edit-mode": "modify",
+    "emit_fields": [ "emit_radiation_plume" ]
+  },
+  {
     "id": "mon_gracke",
     "type": "MONSTER",
     "edit-mode": "override",

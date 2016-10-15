@@ -739,7 +739,7 @@
     "color": "yellow_red",
     "initial_charges": 5,
     "turns_per_charge": 1,
-    "emits": [ "emit_fvent_vile" ],
+    "emits": [ "emit_fvent_vile", "emit_radiation_plume" ],
     "countdown_interval": 5,
     "countdown_destroy": true,
     "countdown_action": {
@@ -764,7 +764,7 @@
     "color": "yellow_red",
     "initial_charges": 5,
     "turns_per_charge": 1,
-    "emits": [ "emit_fvent_archvile", "emit_fvent_vile" ],
+    "emits": [ "emit_fvent_archvile", "emit_fvent_vile", "emit_radiation_plume" ],
     "countdown_interval": 5,
     "countdown_destroy": true,
     "countdown_action": {

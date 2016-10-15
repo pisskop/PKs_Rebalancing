@@ -236,7 +236,7 @@
     "armor_fire": 15,
     "vision_day": 40,
     "vision_night": 4,
-    "emit_fields": [ "emit_smoke_stream" ],
+    "emit_fields": [ "emit_smoke_stream", "emit_radiation_puff" ],
     "special_attacks": [
       {
         "type": "bite",
