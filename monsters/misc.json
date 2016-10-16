@@ -37,7 +37,7 @@
     "melee_dice_sides":10,
     "melee_cut": 4,
     "dodge": 2,
-    "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "STALK" ],
+    "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "SOUND" ],
     "fear_triggers": [ "SOUND", "HURT" ],
     "placate_triggers": [ "MEAT", "PLAYER_CLOSE" ]
   },
@@ -1019,5 +1019,51 @@
     "fear_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BLEED", "BONES", "SWARMS", "GROUP_MORALE" ]
+  },
+  {
+    "id": "mon_pig_saber",
+    "type": "MONSTER",
+    "name": "sabertooth pig",
+    "description": "A feral swine that has grown large, oversized teeth sticking out of its mouth; with which to sink into slender prey.  Such as the elongated limbs of humans, or those of the burrowing giant spider.  Copious amounts of fatty flesh line it muscular body, granting an imposing presence for something that hardly reaches up to your naval in height.",
+    "default_faction": "pig",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
+    "diff": 16,
+    "size": "MEDIUM",
+    "hp": 70,
+    "speed": 130,
+    "material": [ "flesh" ],
+    "symbol": "p",
+    "color": "ltred",
+    "aggression": -1,
+    "morale": 75,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 12,
+    "melee_cut": 2,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 6
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 5,
+    "armor_cut": 1,
+    "vision_day": 35,
+    "vision_night": 10,
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 25,
+        "min_mul": 0.5,
+        "no_infection_chance": 5
+      }
+    ],
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "BLEED", "BONES", "FAT", "LEATHER" ],
+    "anger_triggers": [ "PLAYER_WEAK", "STALK", "PLAYER_CLOSE" ],
+    "fear_triggers": [ "SOUND", "HURT", "FIRE" ],
+    "placate_triggers": [ "MEAT", "FRIEND_ATTACKED" ]
   }
 ]

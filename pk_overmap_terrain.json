@@ -15,7 +15,7 @@
         "sym": 73,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -24,7 +24,7 @@
         "sym": 73,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -33,7 +33,7 @@
         "sym": 73,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -42,7 +42,7 @@
         "sym": 73,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -51,7 +51,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -60,7 +60,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -69,7 +69,7 @@
         "sym": 73,
         "color": "i_magenta",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -78,7 +78,7 @@
         "sym": 73,
         "color": "i_magenta",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -87,7 +87,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -96,7 +96,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -105,7 +105,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -114,7 +114,7 @@
         "sym": 73,
         "color": "red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },
 
@@ -125,7 +125,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -134,7 +134,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -143,7 +143,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -152,7 +152,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -170,7 +170,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -179,7 +179,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -188,7 +188,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -206,7 +206,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -215,7 +215,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -224,7 +224,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -233,7 +233,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -242,7 +242,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -251,7 +251,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -260,7 +260,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -269,7 +269,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -278,7 +278,7 @@
         "sym": 79,
         "color": "i_red",
         "see_cost": 5,
-        "extras": "field",
+        "extras": "doom",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -287,7 +287,6 @@
         "sym": 46,
         "color": "brown",
         "see_cost": 2,
-        "extras": "field",
         "mondensity": 5
     },{
         "type": "overmap_terrain",
@@ -296,7 +295,6 @@
         "sym": 46,
         "color": "brown",
         "see_cost": 2,
-        "extras": "field",
         "mondensity": 3
     },{
         "type": "overmap_terrain",
@@ -305,7 +303,6 @@
         "sym": 79,
         "color": "ltgrey",
         "see_cost": 2,
-        "extras": "field",
         "mondensity": 3
     },{
         "type" : "overmap_terrain",
@@ -989,7 +986,7 @@
     "sym": 76,
     "color": "blue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -998,7 +995,7 @@
     "sym": 76,
     "color": "ltblue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1007,7 +1004,7 @@
     "sym": 76,
     "color": "ltblue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1016,7 +1013,7 @@
     "sym": 76,
     "color": "blue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1025,7 +1022,7 @@
     "sym": 76,
     "color": "blue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1034,7 +1031,7 @@
     "sym": 76,
     "color": "blue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1043,7 +1040,7 @@
     "sym": 76,
     "color": "blue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1052,7 +1049,7 @@
     "sym": 76,
     "color": "cyan",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1061,7 +1058,7 @@
     "sym": 76,
     "color": "red",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1070,7 +1067,7 @@
     "sym": 76,
     "color": "red",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1079,7 +1076,7 @@
     "sym": 76,
     "color": "ltblue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     },{
     "type": "overmap_terrain",
@@ -1088,7 +1085,7 @@
     "sym": 76,
     "color": "ltblue",
     "see_cost": 5,
-    "extras": "none",
+    "extras": "doom",
     "mondensity": 2
     }
 ]

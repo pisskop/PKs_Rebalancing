@@ -280,6 +280,7 @@
     "revert_to_itype": "bot_robot_drone",
     "starting_ammo": { "556": 100 },
     "special_attacks": [
+      [ "PARROT", 30 ],
       {
         "type": "gun",
         "cooldown": 1,

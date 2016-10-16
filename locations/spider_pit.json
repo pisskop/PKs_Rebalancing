@@ -52,6 +52,9 @@
             ],
             "place_monsters": [
                 { "monster": "GROUP_SPIDER", "x": [ 3 , 20 ], "y": [ 3 , 20 ], "repeat": [ 1 , 2 ] }
+            ],
+            "set": [
+                { "point": "radiation", "amount": [50, 60], "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 15 , 75 ] }
             ]
         }
     }

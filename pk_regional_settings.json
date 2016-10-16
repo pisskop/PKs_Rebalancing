@@ -2,7 +2,7 @@
    {
       "type": "region_settings",
       "id": "default",                      "//": "identifier, when region_map is in it will determine alternatives ('desert' etc)",
-      "house_basement_chance": 3,           "//": "one_in(n) houses with basements",
+      "house_basement_chance": 6,           "//": "one_in(n) houses with basements",
       "default_oter": "field",              "//": "default oter_id (anything that isn't a house/road/etc) some become forests",
       "default_groundcover": {              "//": "biome settings for generic 'grass_or_dirt' (which is reproduced below",
           "primary": "t_grass",             "//": "default ter_id on ground",
@@ -37,75 +37,97 @@
           },
           "boosted_other_percent": 50.0,    "//": "...accounts for this % of total coverage"
       },
-      "map_extras": {                       "//": "mapping for weighted lists of extras",
+      "map_extras": {      
+      "//": "mapping for weighted lists of extras",
           "field": {
-              "chance": 90,                 "//": "one in # chance of spawning an extra",
-              "extras": {                   "//": "weighted list",
-                  "mx_helicopter": 40,
-                  "mx_military": 8,
+              "//": "More helicoptor and drugs and goodies.",
+              "chance": 90,
+              "extras": {
+                  "mx_helicopter": 30,
+                  "mx_military": 10,
                   "mx_science": 20,
-                  "mx_collegekids": 25,
-                  "mx_drugdeal": 20,
+                  "mx_collegekids": 60,
+                  "mx_drugdeal": 25,
                   "mx_supplydrop": 10,
-                  "mx_portal": 3,
-                  "mx_minefield": 50,
-                  "mx_crater": 10,
-                  "mx_fumarole": 8,
+                  "mx_portal": 4,
+                  "mx_minefield": 30,
+                  "mx_crater": 15,
+                  "mx_fumarole": 10,
                   "mx_portal_in": 1,
-                  "mx_anomaly": 3
+                  "mx_anomaly": 5
               }
           },
           "road": {
-              "chance": 75,                 "//": "one in # chance of spawning an extra",
-              "extras": {                   "//": "weighted list",
-                  "mx_helicopter": 40,
-                  "mx_military": 25,
-                  "mx_science": 40,
+              "//": "More stuff in the way",
+              "chance": 75,
+              "extras": {
+                  "mx_helicopter": 30,
+                  "mx_military": 15,
+                  "mx_science": 25,
                   "mx_collegekids": 50,
                   "mx_roadblock": 100,
-                  "mx_drugdeal": 30,
+                  "mx_drugdeal": 20,
                   "mx_supplydrop": 10,
                   "mx_portal": 5,
-                  "mx_minefield": 80,
-                  "mx_crater": 10,
-                  "mx_fumarole": 8,
-                  "mx_portal_in": 2,
+                  "mx_minefield": 100,
+                  "mx_crater": 50,
+                  "mx_fumarole": 10,
+                  "mx_portal_in": 1,
                   "mx_anomaly": 3
               }
           },
           "building": {
-              "chance": 90,                 "//": "one in # chance of spawning an extra",
-              "extras": {                   "//": "weighted list",
-                  "mx_military": 5,
-                  "mx_science": 12,
-                  "mx_collegekids": 15,
+              "//": "More drugs and craters and kids",
+              "chance": 90,
+              "extras": {
+                  "mx_military": 3,
+                  "mx_science": 8,
+                  "mx_collegekids": 20,
+                  "mx_drugdeal": 20,
                   "mx_portal": 5,
-                  "mx_minefield": 5,
-                  "mx_crater": 60,
-                  "mx_fumarole": 8,
-                  "mx_portal_in": 1,
+                  "mx_crater": 80,
+                  "mx_fumarole": 5,
+                  "mx_portal_in": 2,
                   "mx_anomaly": 3
               }
           },
           "subway": {
-              "chance": 75,                 "//": "one in # chance of spawning an extra",
-              "extras": {                   "//": "weighted list",
+              "//": "More anomalies",
+              "chance": 60,
+              "extras": {
                   "mx_military": 5,
-                  "mx_science": 12,
+                  "mx_science": 15,
                   "mx_collegekids": 15,
-                  "mx_portal": 7,
-                  "mx_fumarole": 20,
-                  "mx_portal_in": 1,
-                  "mx_anomaly": 3
+                  "mx_supplydrop": 5,
+                  "mx_portal": 10,
+                  "mx_minefield": 5,
+                  "mx_fumarole": 25,
+                  "mx_portal_in": 3,
+                  "mx_anomaly": 5
+              },
+          "doom": {
+              "//": "radiation, lava, and supplies",
+              "chance": 25,
+              "extras": {
+                  "mx_military": 15,
+                  "mx_science": 25,
+                  "mx_collegekids": 5,
+                  "mx_supplydrop": 15,
+                  "mx_portal": 10,
+                  "mx_crater": 15,
+                  "mx_fumarole": 50,
+                  "mx_portal_in": 10,
+                  "mx_anomaly": 15
+              }
               }
           }
       },
       "num_forests": 250,                   "//": "# of forest chunks",
-      "forest_size_min": 15,                "//": "size range of forest chunk",
-      "forest_size_max": 40,                "//": "note: 32400 tiles in omap, 250*minmax = 3750-10000 default_oters become forests",
-      "swamp_maxsize": 4,                   "//": "SWAMPINESS // Affects the size of a swamp",
-      "swamp_river_influence": 5,           "//": "voodoo magic sauce: more increases swampyness of forests around rivers",
-      "swamp_spread_chance": 8500,          "//": "one_in(n) chance a swampy forest makes a swamp in a non-forest. Apparently.",
+      "forest_size_min": 12,                "//": "size range of forest chunk",
+      "forest_size_max": 60,                "//": "note: 32400 tiles in omap, 250*minmax = 3750-10000 default_oters become forests",
+      "swamp_maxsize": 6,                   "//": "SWAMPINESS // Affects the size of a swamp",
+      "swamp_river_influence": 6,           "//": "voodoo magic sauce: more increases swampyness of forests around rivers",
+      "swamp_spread_chance": 7500,          "//": "one_in(n) chance a swampy forest makes a swamp in a non-forest. Apparently.",
       "city": {
           "type": "town",
           "shop_radius": 80,                "//": "determine radial frequency of shops / parks / houses for towns. tldr: less means more",
@@ -163,10 +185,10 @@
           }
       },
       "weather": {
-        "base_temperature" : 6.5,
-        "base_humidity" : 66.0,
+        "base_temperature" : 6.0,
+        "base_humidity" : 60.0,
         "base_pressure" : 1015.0,
-        "base_acid" : 0.0
+        "base_acid" : 0.1
       }
    }
 ]
