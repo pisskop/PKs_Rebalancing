@@ -230,7 +230,7 @@
     {
     "id": "sac_purse_clean_water_ankle",
     "type": "TOOL_ARMOR",
-    "category": "comestible",
+    "category": "food",
     "name": "sealed ankle-purse of clean water",
     "description": "A sealed purse of water.  activate to consume its contents.",
     "weight": 265,
@@ -249,7 +249,7 @@
     {
     "id": "sac_purse_clean_water",
     "type": "TOOL_ARMOR",
-    "category": "comestible",
+    "category": "food",
     "name": "sealed purse of clean water",
     "description": "A sealed purse of water.  activate to consume its contents.",
     "weight": 265,
@@ -272,7 +272,7 @@
   {
     "id": "sac_purse_clean_water_leg",
     "type": "TOOL_ARMOR",
-    "category": "comestible",
+    "category": "food",
     "name": "sealed leg-purse of clean water",
     "description": "A sealed purse of water.  activate to consume its contents.",
     "weight": 265,
@@ -297,7 +297,7 @@
   {
     "id": "sac_purse_clean_water_arm",
     "type": "TOOL_ARMOR",
-    "category": "comestible",
+    "category": "food",
     "name": "sealed arm-purse of clean water",
     "description": "A sealed purse of water.  activate to consume its contents.",
     "weight": 265,

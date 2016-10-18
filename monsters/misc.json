@@ -1024,7 +1024,7 @@
     "id": "mon_pig_saber",
     "type": "MONSTER",
     "name": "sabertooth pig",
-    "description": "A feral swine that has grown large, oversized teeth sticking out of its mouth; with which to sink into slender prey.  Such as the elongated limbs of humans, or those of the burrowing giant spider.  Copious amounts of fatty flesh line it muscular body, granting an imposing presence for something that hardly reaches up to your naval in height.",
+    "description": "A feral swine that has grown in large, oversized teeth sticking out of its mouth; with which to sink into slender prey.  Such as the elongated limbs of humans, or those of the burrowing giant spider.  Copious amounts of fatty flesh line it muscular body, granting an imposing presence for something that hardly reaches up to your naval in height.",
     "default_faction": "pig",
     "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
@@ -1047,7 +1047,7 @@
         "amount": 6
       }
     ],
-    "dodge": 3,
+    "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 1,
     "vision_day": 35,

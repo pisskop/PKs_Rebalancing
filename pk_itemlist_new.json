@@ -166,7 +166,7 @@
     },{
         "type": "item_group",
         "id": "marloss_man_gear",
-        "//": "Having Killed MM, who is def an endgame mob, you deserve a badly damaged gun.  Granades are blacklisted unless looney mod is in.",
+        "//": "Having Killed MM, who is def an endgame mob, you deserve a badly damaged gun.",
         "items": [
     ["m249", 12],
     ["l_lmg_223", 7],
@@ -177,8 +177,7 @@
     ["belt223", 2 ],
     ["belt308", 1],
     ["223", 4],
-    ["reloaded_556_incendiary", 3],
-    ["granade", 3]
+    ["reloaded_556_incendiary", 3]
     ]
     },{
     "type": "item_group",
@@ -265,6 +264,7 @@
     ["megaarmor_boots_1", 25],
     ["power_armor_helmet_basic", 20],
     ["flamethrower", 20],
+    ["plut_cell", 20],
     ["LAW_Packed", 20],
     ["megaarmor_torso_3", 15],
     ["rx12_injector", 15],
