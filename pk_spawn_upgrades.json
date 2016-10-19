@@ -204,8 +204,9 @@
     "name": "GROUP_TANGELA",
     "default": "mon_vinebeast",
     "monsters": [
-      { "monster": "mon_vinebeast_terminal", "freq": 750, "cost_multiplier": 5 },
-      { "monster": "mon_vinebeast_pk", "freq": 150, "cost_multiplier": 10 }
+      { "monster": "mon_vinebeast_terminal", "freq": 740, "cost_multiplier": 5 },
+      { "monster": "mon_vinebeast_pk", "freq": 150, "cost_multiplier": 10 },
+      { "monster": "mon_creeper_hub", "freq": 10, "cost_multiplier": 10 }
     ]
     },{
     "type":"monstergroup",

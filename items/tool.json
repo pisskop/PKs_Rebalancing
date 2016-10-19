@@ -109,7 +109,7 @@
       "monster_id": "mon_manhack_missile",
       "friendly_msg": "The missile takes off uncertainly!",
       "hostile_msg": "You mis-program the missile; it's hostile!",
-      "difficulty": 6,
+      "difficulty": 4,
       "moves": 75,
       "place_randomly": true,
       "skill1": "electronics",

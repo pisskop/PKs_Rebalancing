@@ -1,9 +1,7 @@
 [
     {
     "type": "mapgen",
-        "om_terrain": [
-            "doomlab_f00_20"
-        ],
+        "om_terrain": [ "doomlab_f00_20" ],
         "//":  "base model",
         "method": "json",
         "weight": 150,
@@ -66,10 +64,10 @@
                 "@": { "monster": "mon_turret" }
             },
             "mapping": {
-                "L": { "items": { "item": "mil_accessories", "chance": 10 }},
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "T": { "items": { "item": "dining", "chance": 10 }},
-                "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 }]}
+                "L": { "items": { "item": "mil_accessories", "chance": 10 } },
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "T": { "items": { "item": "dining", "chance": 10 } },
+                "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -143,7 +141,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "T": { "items": { "item": "dining", "chance": 10 }},
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
@@ -220,7 +218,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "T": { "items": { "item": "dining", "chance": 10 }},
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 }]}
             },
@@ -301,7 +299,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "T": { "items": { "item": "dining", "chance": 10 }},
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
@@ -382,7 +380,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "T": { "items": { "item": "dining", "chance": 10 }},
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
@@ -1028,9 +1026,9 @@
                 "^": "f_indoor_plant"
             },
             "mapping": {
-                "L": { "items": { "item": "cleaning", "chance": 45 }},
-                "B": { "items": [{ "item": "bookstore_misc", "chance": 25 }, { "item": "homebooks", "chance": 20 }]},
-                "d": { "items": { "item": "office", "chance": 15 }}
+                "L": { "items": { "item": "cleaning", "chance": 45 } },
+                "B": { "items": [ { "item": "bookstore_misc", "chance": 25 }, { "item": "homebooks", "chance": 20 } ] },
+                "d": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1089,7 +1087,7 @@
                 "L": "f_locker"
             },
             "mapping": {
-                "L": { "items": { "item": "office", "chance": 10 }}
+                "L": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1148,7 +1146,7 @@
                 "L": "f_locker"
             },
             "mapping": {
-                "L": { "items": { "item": "office", "chance": 10 }}
+                "L": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1206,8 +1204,8 @@
                 "L": "f_locker"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "L": { "items": { "item": "dresser", "chance": 5 }}
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1256,7 +1254,7 @@
             ],
             "terrain": {
                 "-": "t_sconc_wall",
-                "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+                "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
                 " ": "t_thconc_floor"
             },
             "furniture": {
@@ -1266,8 +1264,8 @@
                 "L": "f_locker"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "L": { "items": { "item": "dresser", "chance": 5 }}
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1318,7 +1316,7 @@
                 "-": "t_sconc_wall",
                 "=": "t_wall",
                 "x": "t_door_c",
-                "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+                "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
                 " ": "t_thconc_floor"
             },
             "furniture": {
@@ -1333,9 +1331,9 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "L": { "items": { "item": "dresser", "chance": 5 }},
-                "b": { "items": { "item": "softdrugs", "chance": 10 }}
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
+                "b": { "items": { "item": "softdrugs", "chance": 10 } }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1391,6 +1389,7 @@
             },
             "furniture": {
                 "B": "f_bed",
+                "b": "f_bench",
                 "L": "f_locker",
                 "f": "f_rack",
                 "}": "f_vending_c",
@@ -1399,9 +1398,9 @@
                 "?": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "L": { "items": { "item": "dresser", "chance": 5 }},
-                "b": { "items": { "item": "softdrugs", "chance": 10 }}
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
+                "b": { "items": { "item": "softdrugs", "chance": 10 } }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1466,8 +1465,9 @@
                 "t": { }
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
-                "L": { "items": [{ "item": "dresser", "chance": 25 }, { "item": "lab_dorm", "chance": 15 }, { "item": "softdrugs", "chance": 10 }]}
+                "B": { "items": { "item": "bed", "chance": 20 } },
+                "b": { "items": { "item": "textbooks", "chance": 10 } },
+                "L": { "items": [ { "item": "dresser", "chance": 25 }, { "item": "lab_dorm", "chance": 15 }, { "item": "softdrugs", "chance": 10 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1691,7 +1691,7 @@
             },
             "mapping": {
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
@@ -1750,7 +1750,7 @@
                 "C": "f_counter"
             },
             "mapping": {
-                "C": { "items": { "item": "chem_lab", "chance": 3 }}
+                "C": { "items": { "item": "chem_lab", "chance": 5 }}
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1812,7 +1812,7 @@
             },
             "mapping": {
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
@@ -1878,7 +1878,7 @@
             },
             "mapping": {
                 "L": { "items": { "item": "mags_obscure", "chance": 4 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }}
+                "C": { "items": { "item": "chem_lab", "chance": 8 }}
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -1942,7 +1942,7 @@
                 "^": "f_indoor_plant"
             },
             "mapping": {
-                "C": { "items": { "item": "rare", "chance": 5 }}
+                "C": { "items": { "item": "rare", "chance": 15 }}
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -2011,9 +2011,9 @@
             "mapping": {
                 "X": { "items": { "item": "robots", "chance": 15 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
-                "f": { "items": [{ "item": "prison_weapons", "chance": 2 }, { "item": "prison_armor", "chance": 2 }]}
+                "f": { "items": [{ "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 }]}
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -2086,7 +2086,7 @@
                 "p": { "items": { "item": "robots", "chance": 20 }},
                 "}": { "items": { "item": "fridge", "chance": 50 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
@@ -2163,7 +2163,7 @@
             "mapping": {
                 "}": { "items": { "item": "seeds", "chance": 30 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
@@ -2236,7 +2236,7 @@
                 "p": { "items": { "item": "chem_school", "chance": 20 }},
                 "X": { "items": { "item": "surgery", "chance": 10 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
@@ -2308,9 +2308,9 @@
                 "p": { "items": { "item": "chem_school", "chance": 20 }},
                 "X": { "items": { "item": "mechanics", "chance": 10 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
-                "C": { "items": { "item": "chem_lab", "chance": 2 }},
+                "C": { "items": { "item": "chem_lab", "chance": 8 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
-                "f": { "items": [{ "item": "prison_weapons", "chance": 2 }, { "item": "prison_armor", "chance": 2 }]}
+                "f": { "items": [{ "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 }]}
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -2846,12 +2846,12 @@
             },
             "mapping": {
                 "}": { "items": { "item": "fridge", "chance": 50 }},
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "C": { "items": { "item": "waitingroom", "chance": 10 }},
                 "T": { "items": { "item": "dining", "chance": 10 }},
                 "b": { "items": { "item": "waitingroom", "chance": 25 }},
-                "L": { "items": { "item": "office", "chance": 35 }},
-                "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
+                "L": { "items": [ { "item": "office", "chance": 35 }, { "item": "army_personal_locker", "chance": 20 }, { "item": "military", "chance": 10 } ] },
+                "f": { "items": [ { "item": "prison_weapons", "chance": 15 }, { "item": "prison_armor", "chance": 15 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -2925,7 +2925,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }},
                 "p": { "items": { "item": "cannedfood", "chance": 30 }},
@@ -2993,7 +2993,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "d": { "items": { "item": "cubical_office", "chance": 15 }}
             },
             "place_monsters": [
@@ -3137,8 +3137,8 @@
                 "d": "f_desk"
             },
             "mapping": {
-                "L": { "items": { "item": "home_hw", "chance": 40 }},
-                "X": { "items": [{ "item": "home_hw", "chance": 5 }, { "item": "hardware_bulk", "chance": 10 }]}
+                "L": { "items": { "item": "home_hw", "chance": 40 } },
+                "X": { "items": [ { "item": "home_hw", "chance": 5 }, { "item": "hardware_bulk", "chance": 10 } ] }
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -3217,7 +3217,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "B": { "items": { "item": "bed", "chance": 4 }},
+                "B": { "items": { "item": "bed", "chance": 20 }},
                 "p": { "items": { "item": "harddrugs", "chance": 35 }},
                 "f": { "items": { "item": "lmoe_guns", "chance": 20 }},
                 "L": { "items": { "item": "mil_armor", "chance": 35 }},
