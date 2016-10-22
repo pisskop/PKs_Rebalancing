@@ -1,6 +1,56 @@
 [
     {
     "type": "item_group",
+    "id": "mutagen_science",
+    "//": "low mutagen finding chances",
+    "items": [
+      ["purifier", 5],
+      ["iv_purifier", 1],
+      ["mutagen", 15],
+      ["iv_mutagen", 3],
+      ["mutagen_alpha", 4],
+      ["iv_mutagen_alpha", 1],
+      ["mutagen_beast", 8],
+      ["iv_mutagen_beast", 1],
+      ["mutagen_bird", 8],
+      ["iv_mutagen_bird", 1],
+      ["mutagen_cattle", 7],
+      ["iv_mutagen_cattle", 1],
+      ["mutagen_cephalopod", 8],
+      ["iv_mutagen_cephalopod", 1],
+      ["mutagen_chimera", 5],
+      ["iv_mutagen_chimera", 1],
+      ["mutagen_elfa", 6],
+      ["iv_mutagen_elfa", 1],
+      ["mutagen_feline", 9],
+      ["iv_mutagen_feline", 1],
+      ["mutagen_fish", 8],
+      ["iv_mutagen_fish", 1],
+      ["mutagen_insect", 8],
+      ["iv_mutagen_insect", 1],
+      ["mutagen_lizard", 8],
+      ["iv_mutagen_lizard", 1],
+      ["mutagen_lupine", 9],
+      ["iv_mutagen_lupine", 1],
+      ["mutagen_medical", 6],
+      ["iv_mutagen_medical", 1],
+      ["mutagen_plant", 8],
+      ["iv_mutagen_plant", 1],
+      ["mutagen_raptor", 4],
+      ["iv_mutagen_raptor", 1],
+      ["mutagen_rat", 7],
+      ["iv_mutagen_rat", 1],
+      ["mutagen_slime", 8],
+      ["iv_mutagen_slime", 1],
+      ["mutagen_spider", 9],
+      ["iv_mutagen_spider", 1],
+      ["mutagen_troglobite", 7],
+      ["iv_mutagen_troglobite", 1],
+      ["mutagen_ursine", 8],
+      ["iv_mutagen_ursine", 1]
+    ]
+    },{
+    "type": "item_group",
     "subtype": "collection",
     "comment": "9mm drops",
     "id": "furvivor_glock",
@@ -225,8 +275,11 @@
         "type": "item_group",
         "id": "doom_corpse",
         "items":[
-    ["corpse", 7],
-    ["human_flesh", 1]
+      { "group": "doom_stimpack", "damage": [1, 3], "prob": 3 },
+      { "group": "ammo_common", "damage": [1, 3], "prob": 3 },
+      { "group": "doom_armor", "damage": [1, 3], "prob": 3 },
+      ["corpse", 7],
+      ["human_flesh", 1]
     ]
     },{
         "type": "item_group",
@@ -252,7 +305,9 @@
     ["oxycodone", 8],
     ["morphine", 8],
     ["soulcube_charging", 5],
-    ["chloroform_rag", 5]
+    ["chloroform_rag", 5],
+    ["mutagen", 5 ],
+    ["purifier", 5 ]
     ]
     },{
         "type": "item_group",
@@ -308,7 +363,9 @@
     ["m3_carlgustav", 5],
     ["portal", 5],
     ["teleporter", 5],
-    ["pokeball", 5]
+    ["pokeball", 5],
+    ["mutagen", 5 ],
+    ["purifier", 3 ]
     ]
     },{
         "type": "item_group",

@@ -324,7 +324,7 @@
     "armor_cut": 12,
     "armor_acid": 2,
     "armor_fire": 2,
-    "vision_day": 30,
+    "vision_day": 25,
     "vision_night": 5,
     "special_attacks": [
       {

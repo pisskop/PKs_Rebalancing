@@ -1,5 +1,4 @@
 [
-    
     {
         "id" : "iv_purifier",
         "copy-from" : "iv_mutagen",
@@ -12,6 +11,8 @@
         "addiction_potential" : 10,
         "use_action" : "PURIFY_IV"
     },
+
+
     {
         "id" : "mutagen",
         "type" : "COMESTIBLE",

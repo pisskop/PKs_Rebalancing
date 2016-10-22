@@ -5,9 +5,39 @@
     "id": "map_extra_military",
     "entries":
     [
-    { "item": "id_military", "prob": 8 },
+    { "item": "id_military", "prob": 3 },
+    { "group": "softdrugs", "prob": 2 },
     { "group": "drugs_soldier", "prob": 5 },
     { "group": "ammo_milspec", "prob": 5 }
+    ]
+    },{
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "map_extra_science",
+    "entries":
+    [
+    { "group": "harddrugs", "prob": 1 },
+    { "group": "mutagen_science", "prob": 4 },
+    { "item": "purifier", "prob": 1 }
+    ]
+    },{
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "map_extra_police",
+    "entries":
+    [
+    { "group": "softdrugs", "prob": 1 },
+    { "group": "prison_armor", "prob": 1 },
+    { "group": "cop_armory", "prob": 1 }
+    ]
+    },{
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "map_extra_drugdeal",
+    "entries":
+    [
+    { "item": "mutagen", "prob": 2 },
+    { "item": "purifier", "prob": 1 }
     ]
     },{
     "type": "item_group",
@@ -128,7 +158,10 @@
     ["antidote_posion", 10],
     ["antidote_badpoison", 5],
     ["ithaca_doom", 10 ],
-    ["ithaca_doom_dual", 5 ]
+    ["ithaca_doom_dual", 5 ],
+    ["mutagen", 10 ],
+    ["mutagen_spider", 5],
+    ["purifier", 5 ]
     ]
     },{
     "type": "item_group",
@@ -183,14 +216,6 @@
     ["bomblet_launcher_rotary", 8],
     ["bomblet_launcher_dualshot", 8],
     ["bomblet_undermod", 10]
-    ]
-    },{
-    "type": "item_group",
-    "id": "science",
-    "items":[
-    ["pokeball", 3],
-    ["bot_turret_shockcannon", 3],
-    ["chloroform_rag", 3]
     ]
     },{
     "type": "item_group",
@@ -297,7 +322,11 @@
     ["berserker_drug", 10],
     ["chloroform_rag", 10],
     ["antidote_badpoison", 10],
-    ["ithaca_doom_dual", 15 ]
+    ["ithaca_doom_dual", 15 ],
+    ["mutagen", 10 ],
+    ["iv_mutagen", 10 ],
+    ["purifier", 8 ],
+    ["iv_purifier", 8 ]
     ]
     },{
     "type": "item_group",
@@ -462,7 +491,11 @@
     ["medikit", 4],
     ["bot_manhack_missile", 4],
     ["berserker_drug", 2],
-    ["antidote_badpoison", 2]
+    ["antidote_badpoison", 2],
+    ["pokeball", 3],
+    ["bot_turret_shockcannon", 3],
+    ["mutagen", 5 ],
+    ["purifier", 3 ]
     ]
     },{
     "type": "item_group",
