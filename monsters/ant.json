@@ -345,7 +345,6 @@
           }
         ]
       },
-      [ "GRAB", 30 ],
       [ "GRAB_DRAG", 15 ],
       {
         "type": "leap",

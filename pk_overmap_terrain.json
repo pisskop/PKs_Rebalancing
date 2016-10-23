@@ -954,6 +954,15 @@
     "mondensity" : 2
     },{
     "type" : "overmap_terrain",
+    "id" : "farm_wine_cellar",
+    "name" : "basement",
+    "sym" : 35,
+    "color" : "i_brown",
+    "see_cost" : 2,
+    "extras" : "field",
+    "mondensity" : 2
+    },{
+    "type" : "overmap_terrain",
     "id" : "farm_31",
     "name" : "road",
     "sym" : 4194417,

@@ -808,7 +808,7 @@
         ".[......................",
         ".[''''''''''''''''''''''",
         ".['''''''^''''''''''''''",
-        ".[''''''''''''''''>>''''",
+        ".[''''''''''''''''''''''",
         ".[''''''''''''''''''''''",
         ".[''''''''^'''''''''''''",
         ".['''^''^www''''''''''''",
@@ -1762,5 +1762,76 @@
             ",": "t_pavement_y"
             }
     }
+    },{
+    "type" : "mapgen",
+    "om_terrain" : "farm_wine_cellar",
+    "method": "json",
+    "weight": 100,
+    "object": {
+        "fill_ter": "t_rock_floor",
+        "rows": [
+            "########################",
+            "########################",
+            "##  DDDDDDD X1llXX    ##",
+            "##K                  K##",
+            "##T                  T##",
+            "##K   K1K      K1K   K##",
+            "##T                  T##",
+            "##K   KTK      KTK   K##",
+            "##T                  T##",
+            "##K   K1K      K1K   K##",
+            "##T  DDDDDDD         ###",
+            "##K              XX#####",
+            "##  DDDDDDDDD    XX#####",
+            "#############    #######",
+            "##333#333DwW#++#########",
+            "##83 x      #  #########",
+            "##333######+#  + <######",
+            "###########=#  #########",
+            "#^ BB^BB^BB #+##########",
+            "#             SSS#######",
+            "#k cTTc     A   S#d#####",
+            "#  cTTc          + #####",
+            "#^       kFFC&kkC# bb###",
+            "########################"
+            ],
+        "terrain": {
+            " ": "t_rock_floor",
+            "#": "t_rock",
+            "1": "t_little_column",
+            "+": [ "t_door_c", "t_door_c", "t_door_o"],
+            "x": "t_door_bar_c",
+            "<": "t_stairs_up"
+       },
+       "furniture": {
+            "8": "f_shackle",
+            "K": "f_standing_tank",
+            "l": "f_clay_kiln",
+            "3": [ "f_hay", "f_hay", "f_hay", "f_hay", "f_null"],
+            "=": "f_large_canvas_wall",
+            "X": "f_crate_o",
+            "B": "f_bookcase",
+            "^": "f_indoor_plant",
+            "c": "f_chair",
+            "T": "f_table",
+            "b": "f_bed",
+            "d": "f_dresser",
+            "S": "f_sofa",
+            "A": "f_armchair",
+            "D": "f_rack",
+            "k": "f_dresser",
+            "F": "f_fridge",
+            "C": "f_cupboard",
+            "&": "f_sink",
+            "w": "f_washer",
+            "W": "f_dryer"
+       },
+       "place_items": [
+           { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 10 },
+           { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 10 },
+           { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 15 },
+           { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 15 }
+       ]
     }
+  }
 ]

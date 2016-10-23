@@ -307,6 +307,6 @@
       ]
     },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
-}
+    "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_1", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
+  }
 ]

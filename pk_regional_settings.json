@@ -44,13 +44,13 @@
               "chance": 90,
               "extras": {
                   "mx_helicopter": 30,
-                  "mx_military": 10,
-                  "mx_science": 20,
-                  "mx_collegekids": 60,
+                  "mx_military": 15,
+                  "mx_science": 25,
+                  "mx_collegekids": 50,
                   "mx_drugdeal": 25,
-                  "mx_supplydrop": 10,
-                  "mx_portal": 4,
-                  "mx_minefield": 30,
+                  "mx_supplydrop": 15,
+                  "mx_portal": 5,
+                  "mx_minefield": 10,
                   "mx_crater": 15,
                   "mx_fumarole": 10,
                   "mx_portal_in": 1,
@@ -67,11 +67,11 @@
                   "mx_collegekids": 50,
                   "mx_roadblock": 100,
                   "mx_drugdeal": 20,
-                  "mx_supplydrop": 10,
+                  "mx_supplydrop": 15,
                   "mx_portal": 5,
                   "mx_minefield": 100,
                   "mx_crater": 50,
-                  "mx_fumarole": 10,
+                  "mx_fumarole": 15,
                   "mx_portal_in": 1,
                   "mx_anomaly": 3
               }
@@ -80,10 +80,10 @@
               "//": "More drugs and craters and kids",
               "chance": 90,
               "extras": {
-                  "mx_military": 3,
-                  "mx_science": 8,
-                  "mx_collegekids": 20,
-                  "mx_drugdeal": 20,
+                  "mx_military": 5,
+                  "mx_science": 10,
+                  "mx_collegekids": 25,
+                  "mx_drugdeal": 25,
                   "mx_portal": 5,
                   "mx_crater": 80,
                   "mx_fumarole": 5,
@@ -98,8 +98,9 @@
                   "mx_military": 5,
                   "mx_science": 15,
                   "mx_collegekids": 15,
-                  "mx_supplydrop": 5,
+                  "mx_supplydrop": 10,
                   "mx_portal": 10,
+                  "mx_crater": 15,
                   "mx_minefield": 5,
                   "mx_fumarole": 25,
                   "mx_portal_in": 3,
@@ -114,8 +115,8 @@
                   "mx_collegekids": 5,
                   "mx_supplydrop": 15,
                   "mx_portal": 10,
-                  "mx_crater": 15,
-                  "mx_fumarole": 50,
+                  "mx_crater": 20,
+                  "mx_fumarole": 40,
                   "mx_portal_in": 10,
                   "mx_anomaly": 15
               }
@@ -186,9 +187,9 @@
       },
       "weather": {
         "base_temperature" : 6.0,
-        "base_humidity" : 60.0,
-        "base_pressure" : 1015.0,
-        "base_acid" : 0.1
+        "base_humidity" : 56.0,
+        "base_pressure" : 1025.0,
+        "base_acid" : 0.2
       }
    }
 ]

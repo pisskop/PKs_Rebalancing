@@ -78,8 +78,19 @@
             "h_mod_min": [-1]
         },
     "scaling_mods": {
-            "h_mod_min": [-1]
+            "h_mod_min": [-1.5]
         }
+    },{
+    "type": "effect_type",
+    "id": "blob_inject",
+    "max_intensity": 1,
+    "int_decay_tick": 1,
+      "base_mods": {
+        "pain_min": [30, 15],
+        "pain_max": [70, 40],
+        "hurt_min": [10],
+        "hurt_max": [40]
+      }
     },{
     "type": "effect_type",
     "id": "spider_web_slow",
@@ -206,6 +217,20 @@
             "int_mod": [-1],
             "per_mod": [1],
             "stamina_min": [-1]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "blob_injector",
+        "miss_messages": [["Under your skin something wriggles.", 4]],
+        "rating": "bad",
+        "resist_traits": ["PARAIMMUNE"],
+        "pain_sizing": true,
+        "main_parts_only": true,
+        "base_mods": {
+            "per_mod": [-1, 0],
+            "dex_mod": [-3, -1],
+            "str_mod": [-1, 0]
         }
     }
 ]

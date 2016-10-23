@@ -446,6 +446,7 @@
             { "point":[1,4,0], "overmap": "farm_drive_s"},
             { "point":[2,4,0], "overmap": "farm_crops_s"},
             { "point":[3,4,0], "overmap": "farm_crops_se"},
+            { "point":[1,0,-1], "overmap": "farm_wine_cellar"},
             { "point":[-1,5,0], "overmap": "road_ew", "connect": "road"},
             { "point":[0,5,0], "overmap": "road_ew"},
             { "point":[1,5,0], "overmap": "road_ew"},

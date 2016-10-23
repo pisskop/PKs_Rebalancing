@@ -1331,6 +1331,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
+                "}": { "items": { "item": "vending_food", "chance": 60 }},
                 "B": { "items": { "item": "bed", "chance": 20 } },
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }
@@ -1398,6 +1399,7 @@
                 "?": "f_toilet"
             },
             "mapping": {
+                "}": { "items": { "item": "vending_food", "chance": 60 }},
                 "B": { "items": { "item": "bed", "chance": 20 } },
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }
@@ -2161,6 +2163,8 @@
                 "2": "f_plant_mature"
             },
             "mapping": {
+                "#": { "items": { "item": "hydro", "chance": 15 }},
+                "2": { "items": { "item": "hydro", "chance": 35 }},
                 "}": { "items": { "item": "seeds", "chance": 30 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
                 "C": { "items": { "item": "chem_lab", "chance": 8 }},
@@ -2765,6 +2769,8 @@
                 "L": "f_locker"
             },
             "mapping": {
+                "#": { "items": { "item": "hydro", "chance": 15 }},
+                "2": { "items": { "item": "hydro", "chance": 35 }},
                 "p": { "items": { "item": "waitingroom", "chance": 20 }},
                 "L": { "items": { "item": "office", "chance": 35 }},
                 "C": { "items": { "item": "chem_lab", "chance": 10 }},
