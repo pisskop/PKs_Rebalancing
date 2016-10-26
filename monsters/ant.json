@@ -168,7 +168,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
-      [ "SHRIEK_ALERT", 50 ],
+      [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],

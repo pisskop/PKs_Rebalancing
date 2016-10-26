@@ -1616,11 +1616,11 @@
         },
         "mapping": {
             ",": { "item": [
-                { "item": "wheat", "chance": [ 1,240 ] },
-                    { "item": "seed_wheat", "chance": [ 1,240 ] },
-                    { "item": "straw_pile", "chance": [ 1,240 ] },
-                    { "item": "withered", "chance": [ 1,60 ] }
-                    ]
+                 { "item": "wheat", "chance": [ 1,240 ] },
+                 { "item": "seed_wheat", "chance": [ 1,240 ] },
+                 { "item": "straw_pile", "chance": [ 1,240 ] },
+                 { "item": "withered", "chance": [ 1,60 ] }
+                 ]
             }
         }
     }
@@ -1819,19 +1819,13 @@
             "S": "f_sofa",
             "A": "f_armchair",
             "D": "f_rack",
-            "k": "f_dresser",
+            "k": "f_counter",
             "F": "f_fridge",
             "C": "f_cupboard",
             "&": "f_sink",
             "w": "f_washer",
             "W": "f_dryer"
-       },
-       "place_items": [
-           { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 10 },
-           { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 10 },
-           { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 15 },
-           { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 15 }
-       ]
+       }
     }
   }
 ]
