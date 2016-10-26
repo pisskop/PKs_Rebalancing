@@ -1783,7 +1783,7 @@
         "description" : "Local organisms seem to regard open spore-dispersal as a danger, and attack the Mycus.  Accordingly our local spore sacs remain quiescent, until local guidance determines that it is safe to germinate.  Rapid development taxes local nutrient reserves but ensures rapid and effective growth.",
         "valid" : false,
         "prereqs" : ["M_SPORES"],
-        "cancels" : ["M_BLOSSOMS", "M_BLOOM"],
+        "cancels" : ["M_BLOOM"],
         "threshreq" : ["THRESH_MYCUS"],
         "category" : ["MUTCAT_MYCUS"],
         "active"     :    true,
@@ -1802,7 +1802,7 @@
         "prereqs" : ["M_DEPENDENT"],
         "prereqs2" : ["M_IMMUNE"],
         "changes_to" : ["M_BLOOM"],
-        "cancels" : ["M_SPORES", "M_FERTILE"],
+        "cancels" : ["M_SPORES"],
         "threshreq" : ["THRESH_MYCUS"],
         "category" : ["MUTCAT_MYCUS"]
     },{
