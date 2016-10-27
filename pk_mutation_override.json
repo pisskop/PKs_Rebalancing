@@ -182,7 +182,7 @@
         "id" : "THICKSKIN",
         "name" : "Thick-Skinned",
         "points" : 1,
-        "description" : "Your skin is tough.  Cutting damage is slightly reduced for you.  Slightly decreases wet penalties.",
+        "description" : "Your skin is tough.  Cutting damage is slightly reduced for you (armor: +1 cut).  Slightly decreases wet penalties.",
         "starting_trait" : true,
         "category" : ["MUTCAT_LIZARD", "MUTCAT_CATTLE", "MUTCAT_CHIMERA", "MUTCAT_RAPTOR"],
         "cancels" : ["THINSKIN"],
@@ -644,7 +644,7 @@
         "id" : "THINSKIN",
         "name" : "Thin-Skinned",
         "points" : -1,
-        "description" : "Your skin is fragile.  Cutting damage is slightly increased for you.",
+        "description" : "Your skin is fragile.  Cutting damage is slightly increased for you (armor: -2 cut).",
         "starting_trait" : true,
         "cancels" : ["THICKSKIN"],
         "armor" : [ { "parts" : "ALL", "cut" : -2 } ],
@@ -1260,7 +1260,7 @@
         "points" : 2,
         "visibility" : 10,
         "ugliness" : 8,
-        "description" : "We have adapted local physical structure to Mycus physiology.  Greatly reduces wet effects.",
+        "description" : "We have adapted local physical structure to Mycus physiology.  Greatly reduces wet effects (armor: +1 cut, +2 bash).",
         "valid" : false,
         "purifiable": false,
         "category" : ["MUTCAT_MYCUS"],
@@ -1288,7 +1288,7 @@
         "points" : 5,
         "visibility" : 10,
         "ugliness" : 8,
-        "description" : "We have incorporated the dense amphibole fibers used in Mycus core towers.  Greatly reduces speed, but also damage, flammability, and wet effects.",
+        "description" : "We have incorporated the dense amphibole fibers used in Mycus core towers.  Greatly reduces speed, but also damage (armor: +2 cut, +3 bash), flammability, and wet effects.",
         "valid" : false,
         "purifiable": false,
         "category" : ["MUTCAT_MYCUS"],
@@ -1315,7 +1315,7 @@
         "points" : 2,
         "visibility" : 10,
         "ugliness" : 3,
-        "description" : "A set of flexible green scales has grown to cover your body, acting as natural armor.  Somewhat reduces wet effects.",
+        "description" : "A set of flexible green scales has grown to cover your body, acting as natural armor (armor: +2 cut, +1 bash, +1 acid, +1 bio).  Somewhat reduces wet effects.",
         "category" : ["MUTCAT_CHIMERA", "MUTCAT_RAPTOR", "MUTCAT_LIZARD"],
         "prereqs" : ["SKIN_ROUGH"],
         "changes_to" : ["THICK_SCALES", "SLEEK_SCALES"],
@@ -1340,7 +1340,7 @@
         "visibility" : 10,
         "ugliness" : 4,
         "mixed_effect" : true,
-        "description" : "A set of heavy green scales has grown to cover your body, acting as natural armor.  While difficult to penetrate, it also limits your flexibility, resulting in a -2 penalty to Dexterity.  Greatly reduces wet effects.",
+        "description" : "A set of heavy green scales has grown to cover your body, acting as natural armor (armor: +5 cut, +2 bash, +3 acid, +1 bio).  While difficult to penetrate, it also limits your flexibility, resulting in a -2 penalty to Dexterity.  Greatly reduces wet effects.",
         "prereqs" : ["SCALES"],
         "threshreq" : ["THRESH_LIZARD"],
         "category" : ["MUTCAT_LIZARD"],
@@ -1357,7 +1357,7 @@
             { "part" : "HAND_R", "ignored" : 4 },
             { "part" : "TORSO", "ignored" : 30 }
         ],
-        "armor" : [ { "parts" : "ALL", "cut" : 5, "bash" : 2, "acid" : 2, "bio" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "cut" : 5, "bash" : 2, "acid" : 3, "bio" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "SLEEK_SCALES",
@@ -1365,7 +1365,7 @@
         "points" : 4,
         "visibility" : 10,
         "ugliness" : 4,
-        "description" : "A set of very flexible and slick scales has grown to cover your body.  These act as weak natural armor, improve your ability to swim, and make you difficult to grab.  Mostly reduces wet effects and dampens electricity.",
+        "description" : "A set of very flexible and slick scales has grown to cover your body.  These act as weak natural armor (armor: +1 bash, +2 cut, +2 acid, +2 electric) improve your ability to swim, and make you difficult to grab.  Mostly reduces wet effects and dampens electricity.",
         "prereqs" : ["SCALES"],
         "cancels" : ["THICK_SCALES", "FEATHERS"],
         "category" : ["MUTCAT_FISH"],
@@ -1381,7 +1381,7 @@
             { "part" : "HAND_R", "good" : 5 },
             { "part" : "TORSO", "good" : 40 }
         ],
-        "armor" : [ { "parts" : "ALL", "cut" : 2, "acid" : 1, "electric" : 2 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2, "acid" : 2, "electric" : 2 } ]
     },{
         "type" : "mutation",
         "id" : "LIGHT_BONES",
@@ -1397,12 +1397,12 @@
         "visibility" : 10,
         "ugliness" : 3,
         "bodytemp_modifiers" : [50, 100],
-        "description" : "Iridescent feathers have grown to cover your entire body, providing a marginal protection against attacks and minor protection from cold.  They also provide a natural waterproofing.",
+        "description" : "Iridescent feathers have grown to cover your entire body, providing a marginal protection against attacks and minor protection from cold (armor: +2 bash, +1 cut, +1 acid).  They also provide a natural waterproofing.",
         "leads_to" : ["DOWN"],
         "prereqs" : ["SKIN_ROUGH"],
         "cancels" : ["THICK_SCALES", "SLEEK_SCALES"],
         "category" : ["MUTCAT_BIRD"],
-        "armor" : [ { "parts" : "ALL", "bash" : 2, "cut" : 1, "acid" : 1, "electric" : 2 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 2, "cut" : 1, "acid" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "DOWN",
@@ -1412,11 +1412,11 @@
         "ugliness" : 1,
         "bodytemp_modifiers" : [300, 800],
         "bodytemp_sleep" : 250,
-        "description" : "You shan't need to migrate south with your layer of insulated down.  It's even better with no apes around to kill you for it!",
+        "description" : "You shan't need to migrate south with your layer of insulated down.  It's even better with no apes around to kill you for it! (armor: +5 bash, +1 cut, +2 acid, +2 electric)",
         "prereqs" : ["FEATHERS"],
         "threshreq": ["THRESH_BIRD"],
         "category" : ["MUTCAT_BIRD"],
-        "armor" : [ { "parts" : "ALL", "bash" : 5, "cut" : 1, "acid" : 3, "electric" : 4 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 5, "cut" : 1, "acid" : 2, "electric" : 2 } ]
     },{
         "type" : "mutation",
         "id" : "LIGHTFUR",
@@ -1440,12 +1440,12 @@
         "ugliness" : 3,
         "bodytemp_modifiers" : [750, 1500],
         "bodytemp_sleep" : 500,
-        "description" : "Thick black fur has grown to cover your entire body, providing a marginal protection against attacks, and considerable protection from cold.",
+        "description" : "Thick black fur has grown to cover your entire body, providing a marginal protection against attacks (armor: +1 bash, +1 cut, +1 acid) and considerable protection from cold.",
         "cancels" : ["SCALES", "FEATHERS", "CHITIN", "PLANTSKIN", "FELINE_FUR", "LUPINE_FUR", "CHITIN_FUR"],
         "changes_to" : ["URSINE_FUR"],
         "prereqs" : ["LIGHTFUR"],
         "category" : ["MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_RAT"],
-        "armor" : [ { "parts" : "ALL", "bash" : 2, "cut" : 1, "acid" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 1, "acid" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "URSINE_FUR",
@@ -1455,11 +1455,11 @@
         "ugliness" : 3,
         "bodytemp_modifiers" : [750, 1500],
         "bodytemp_sleep" : 500,
-        "description" : "Your fur has grown out and thickened, providing noticeable protection from attacks as well as considerable insulation.",
+        "description" : "Your fur has grown out and thickened, providing noticeable protection from attacks as well as considerable insulation (armor: +3 bash, +4 cut, +1 acid) .",
         "cancels" : ["SCALES", "FEATHERS", "CHITIN", "PLANTSKIN", "FELINE_FUR", "LUPINE_FUR", "CHITIN_FUR"],
         "prereqs" : ["LIGHTFUR"],
         "category" : ["MUTCAT_URSINE"],
-        "armor" : [ { "parts" : "ALL", "bash" : 3, "cut" : 4, "acid" : 2, "electric" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 3, "cut" : 4, "acid" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "LUPINE_FUR",
@@ -1469,11 +1469,11 @@
         "ugliness" : 3,
         "bodytemp_modifiers" : [750, 1500],
         "bodytemp_sleep" : 500,
-        "description" : "Dense gray fur has grown to cover your entire body, providing a marginal protection against attacks, and considerable protection from cold.",
+        "description" : "Dense gray fur has grown to cover your entire body, providing a marginal protection against attacks, and considerable protection from cold (armor: +2 bash, +3 cut, +1 acid, +1 electric).",
         "cancels" : ["SCALES", "FEATHERS", "CHITIN", "PLANTSKIN", "FELINE_FUR", "FUR", "CHITIN_FUR"],
         "prereqs" : ["LIGHTFUR"],
         "category" : ["MUTCAT_LUPINE"],
-        "armor" : [ { "parts" : "ALL", "bash" : 3, "cut" : 2, "acid" : 3, "electric" : 2 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 2, "cut" : 3, "acid" : 1, "electric" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "FELINE_FUR",
@@ -1483,7 +1483,7 @@
         "ugliness" : 3,
         "bodytemp_modifiers" : [500, 1000],
         "bodytemp_sleep" : 300,
-        "description" : "You've grown sleek brown fur, providing some protection from cold.",
+        "description" : "You've grown sleek brown fur, providing some protection from cold (armor: +2 bash, +2 cut, +2 acid, +1 electric).",
         "cancels" : ["SCALES", "FEATHERS", "CHITIN", "PLANTSKIN", "FUR", "LUPINE_FUR", "CHITIN_FUR"],
         "prereqs" : ["LIGHTFUR"],
         "leads_to" : ["LYNX_FUR"],
@@ -1496,10 +1496,10 @@
         "points" : 1,
         "visibility" : 8,
         "ugliness" : 1,
-        "description" : "Your fur's grown out significantly around your cheeks and neck.  It provides minor protection against attacks.",
+        "description" : "Your fur's grown out significantly around your cheeks and neck.  It provides minor protection against attacks (armor: +1 cut).",
         "prereqs" : ["FELINE_FUR"],
         "category" : ["MUTCAT_FELINE"],
-        "armor" : [ { "parts" : [ "HEAD", "MOUTH" ], "bash" : 1, "cut" : 2 } ]
+        "armor" : [ { "parts" : [ "HEAD", "MOUTH" ], "cut" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN",
@@ -1507,7 +1507,7 @@
         "points" : 2,
         "visibility" : 3,
         "ugliness" : 2,
-        "description" : "Your epidermis has turned into a thin, flexible layer of chitin.  It provides minor protection from wounds.  Slightly reduces wet effects.",
+        "description" : "Your epidermis has turned into a thin, flexible layer of chitin.  It provides minor protection from wounds.  Slightly reduces wet effects (armor: +1 bash, +2 cut, +2 acid, +1 bio).",
         "prereqs" : ["SKIN_ROUGH"],
         "cancels" : ["SCALES", "FEATHERS", "LIGHTFUR", "PLANTSKIN"],
         "changes_to" : ["CHITIN2", "CHITIN_FUR"],
@@ -1524,7 +1524,7 @@
             { "part" : "HAND_R", "ignored" : 1 },
             { "part" : "TORSO", "ignored" : 10 }
         ],
-        "armor" : [ { "parts" : "ALL", "bash" : 3, "cut" : 2, "acid" : 1, "electric" : 1, "bio" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2, "acid" : 2, "bio" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN2",
@@ -1533,7 +1533,7 @@
         "visibility" : 6,
         "ugliness" : 3,
         "mixed_effect" : true,
-        "description" : "You've grown a chitin exoskeleton, much like that of an insect.  It provides considerable physical protection, but reduces your dexterity by 1.  Somewhat reduces wet effects.",
+        "description" : "You've grown a chitin exoskeleton, much like that of an insect.  It provides considerable physical protection, but reduces your dexterity by 1.  Somewhat reduces wet effects (armor: +3 bash, +5 cut, +3 acid, +1 bio).",
         "prereqs" : ["CHITIN"],
         "changes_to" : ["CHITIN3"],
         "category" : ["MUTCAT_INSECT"],
@@ -1549,7 +1549,7 @@
             { "part" : "HAND_R", "ignored" : 2 },
             { "part" : "TORSO", "ignored" : 18 }
         ],
-        "armor" : [ { "parts" : "ALL", "bash" : 4, "cut" : 6, "acid" : 4, "electric" : 2, "bio" : 2 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 3, "cut" : 5, "acid" : 3, "bio" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN3",
@@ -1557,7 +1557,7 @@
         "points" : 2,
         "visibility" : 8,
         "ugliness" : 5,
-        "description" : "You've grown a chitin exoskeleton made of thick, stiff plates.  It provides excellent physical protection, but reduces your dexterity by 1 and encumbers all body parts but your eyes and mouth.  Greatly reduces wet effects.",
+        "description" : "You've grown a chitin exoskeleton made of thick, stiff plates.  It provides excellent physical protection, but reduces your dexterity by 2 and encumbers all body parts but your eyes and mouth (armor: +8 bash, +12 cut, +3 acid, +2 bio).  Greatly reduces wet effects.",
         "prereqs" : ["CHITIN2", "CHITIN_FUR2"],
         "category" : ["MUTCAT_SPIDER"],
         "changes_to" : ["CHITIN_FUR3"],
@@ -1586,7 +1586,10 @@
             [ "FOOT_R", 10 ]
         ],
         "restricts_gear" : [ "HEAD" ],
-        "armor" : [ { "parts" : "ALL", "bash" : 14, "cut" : 8, "acid" : 5, "electric" : 2, "bio" : 2 } ]
+        "passive_mods" : {
+            "dex_mod" : -1
+        },
+        "armor" : [ { "parts" : "ALL", "bash" : 8, "cut" : 12, "acid" : 3, "bio" : 2 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN_FUR",
@@ -1596,11 +1599,11 @@
         "ugliness" : 4,
         "bodytemp_modifiers" : [100, 150],
         "bodytemp_sleep" : 50,
-        "description" : "You've developed some sort of hair growing out of your chitin.  It's a bit warmer than not having hair.",
+        "description" : "You've developed some sort of hair growing out of your chitin.  It's a bit warmer than not having hair (armor: +1 cut).",
         "prereqs" : ["CHITIN", "LIGHTFUR"],
         "category" : ["MUTCAT_SPIDER"],
         "changes_to" : ["CHITIN_FUR2"],
-        "armor" : [ { "parts" : "ALL", "bash" : 2, "cut" : 2, "acid" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "cut" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN_FUR2",
@@ -1610,11 +1613,11 @@
         "ugliness" : 4,
         "bodytemp_modifiers" : [150, 250],
         "bodytemp_sleep" : 75,
-        "description" : "Your chitin hair has thickened and spread across your body.  It provides minor warmth and helps you sense nearby vibrations.",
+        "description" : "Your chitin hair has thickened and spread across your body.  It provides minor warmth and helps you sense nearby vibrations (armor: +1 bash, +2 cut, +1 acid).",
         "prereqs" : ["CHITIN_FUR"],
         "category" : ["MUTCAT_SPIDER"],
         "changes_to" : ["CHITIN_FUR3", "CHITIN3"],
-        "armor" : [ { "parts" : "ALL", "bash" : 4, "cut" : 4, "acid" : 2, "electric" : 1, "bio" : 1 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2, "acid" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "CHITIN_FUR3",
@@ -1624,7 +1627,7 @@
         "ugliness" : 4,
         "bodytemp_modifiers" : [150, 250],
         "bodytemp_sleep" : 75,
-        "description" : "Your exoskeleton has hardened considerably--restricting movement, granted--and boasts a fine coat of hairs that put feline whiskers to shame.",
+        "description" : "Your exoskeleton has hardened considerably--restricting movement, granted--and boasts a fine coat of hairs that put feline whiskers to shame (armor: +6 bash, +10 cut, +4 acid, +2 electricity, +2 bio).",
         "encumbrance_always" : [
             [ "TORSO", 13 ],
             [ "HEAD", 13 ],
@@ -1641,7 +1644,7 @@
         "threshreq" : ["THRESH_SPIDER"],
         "category" : ["MUTCAT_SPIDER"],
         "restricts_gear" : [ "HEAD" ],
-        "armor" : [ { "parts" : "ALL", "bash" : 8, "cut" : 12, "acid" : 4, "electric" : 2, "bio" : 2 } ]
+        "armor" : [ { "parts" : "ALL", "bash" : 6, "cut" : 10, "acid" : 4, "electric" : 2, "bio" : 2 } ]
     },{
         "type" : "mutation",
         "id" : "CF_HAIR",
@@ -1649,7 +1652,7 @@
         "points" : 3,
         "visibility" : 1,
         "ugliness" : 1,
-        "description" : "Significant amounts of your hairs have loosened.  If some creature tries to attack you, your assailant is quite likely to get fine, bristly chitin in an irritating spot; it doesn't carry your venom but it will be distracting.",
+        "description" : "Significant amounts of your hairs have loosened.  If some creature tries to attack you, your assailant is quite likely to get fine, bristly chitin in an irritating spot; it doesn't carry your venom but it will be distracting (armor: +1 bash, +2 cut).",
         "prereqs" : ["CHITIN_FUR2", "CHITIN_FUR3"],
         "threshreq" : ["THRESH_SPIDER"],
         "category" : ["MUTCAT_SPIDER"],
@@ -1661,7 +1664,7 @@
         "points" : 1,
         "visibility" : 1,
         "ugliness" : 2,
-        "description" : "Your skin is covered with fine spines.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive moderate damage.",
+        "description" : "Your skin is covered with fine spines.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive moderate damage (armor: +1 bash, +2 cut).",
         "changes_to" : ["QUILLS"],
         "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2 } ]
     },{
@@ -1671,7 +1674,7 @@
         "points" : 2,
         "visibility" : 3,
         "ugliness" : 3,
-        "description" : "Your body is covered with large quills.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive significant damage.",
+        "description" : "Your body is covered with large quills.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive significant damage (armor: +1 bash, +2 cut).",
         "prereqs" : ["SPINES"],
         "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2 } ]
     },{
@@ -1681,7 +1684,7 @@
         "points" : 3,
         "visibility" : 3,
         "ugliness" : 2,
-        "description" : "Your skin is light green and has a slightly woody quality to it.  This provides a weak armor, and helps you retain moisture, resulting in less thirst.  Greatly decreases wet penalties.",
+        "description" : "Your skin is light green and has a slightly woody quality to it.  This provides a weak armor, and helps you retain moisture, resulting in less thirst.  Greatly decreases wet penalties (armor: +2 cut).",
         "cancels" : ["FEATHERS", "LIGHTFUR", "FUR", "CHITIN", "CHITIN2", "CHITIN3", "SCALES"],
         "changes_to" : ["BARK"],
         "leads_to" : ["THORNS", "LEAVES"],
@@ -1706,7 +1709,7 @@
         "points" : 5,
         "visibility" : 10,
         "ugliness" : 3,
-        "description" : "Your skin is coated in a light bark, like that of a tree.  This provides resistance to bashing and cutting damage and minor protection from fire.  Greatly reduces wet effects.",
+        "description" : "Your skin is coated in a light bark, like that of a tree.  This provides resistance to bashing and cutting damage and minor protection from fire.  Greatly reduces wet effects (armor: +5 bash, +2 cut).",
         "prereqs" : ["PLANTSKIN"],
         "category" : ["MUTCAT_PLANT"],
         "wet_protection" : [
@@ -1739,7 +1742,7 @@
         "points" : 6,
         "visibility" : 8,
         "ugliness" : 3,
-        "description" : "All the hair on your body has turned to long, grass-like leaves.  Apart from being physically striking, these provide you with a minor amount of nutrition while in sunlight.  Slightly reduces wet effects.",
+        "description" : "All the hair on your body has turned to long, grass-like leaves.  Apart from being physically striking, these provide you with a minor amount of nutrition while in sunlight.  Slightly reduces wet effects (armor: +1 cut).",
         "prereqs" : ["PLANTSKIN", "BARK"],
         "category" : ["MUTCAT_PLANT", "MUTCAT_ELFA"],
         "wet_protection" : [
@@ -2053,7 +2056,7 @@
         "points" : 1,
         "visibility" : 5,
         "ugliness" : 4,
-        "description" : "The skin on your hands is a mucous membrane and produces a thick, acrid slime.  Attacks using your hand will cause minor acid damage.  Slightly increases wet benefits.",
+        "description" : "The skin on your hands is a mucous membrane and produces a thick, acrid slime.  Attacks using your hand will cause minor acid damage.  Slightly increases wet benefits (armor: +1 cut, +3 acid).",
         "prereqs" : ["SLIMY"],
         "category" : ["MUTCAT_SLIME"],
         "wet_protection" : [
@@ -2128,7 +2131,7 @@
         "name" : "Padded Feet",
         "points" : 1,
         "visibility" : 1,
-        "description" : "The bottoms of your feet are strongly padded.  You receive no movement penalty for not wearing shoes, and even receive a 10% bonus when moving barefoot.",
+        "description" : "The bottoms of your feet are strongly padded.  You receive no movement penalty for not wearing shoes, and even receive a 10% bonus when moving barefoot (armor: +2 bash, +1 cut).",
         "cancels" : ["HOOVES", "LEG_TENTACLES", "RAP_TALONS", "ROOTS1", "ROOTS2", "ROOTS3"],
         "category" : ["MUTCAT_BEAST", "MUTCAT_URSINE", "MUTCAT_FELINE", "MUTCAT_LUPINE"],
         "armor" : [ { "parts" : [ "FOOT_L", "FOOT_R" ], "bash" : 2, "cut" : 1 } ]
@@ -2160,7 +2163,7 @@
         "visibility" : 2,
         "ugliness" : 2,
         "mixed_effect" : true,
-        "description" : "Your feet have fused into hooves.  This allows kicking attacks to do much more damage, provides natural armor, and removes the need to wear shoes; however, you can not wear shoes of any kind.  Reduces wet effects.",
+        "description" : "Your feet have fused into hooves.  This allows kicking attacks to do much more damage, provides natural armor, and removes the need to wear shoes; however, you can not wear shoes of any kind.  Reduces wet effects (armor: +1 bash, +3 acid).",
         "cancels" : ["PADDED_FEET", "LEG_TENTACLES", "RAP_TALONS", "ROOTS1", "ROOTS2", "ROOTS3"],
         "category" : ["MUTCAT_CATTLE", "MUTCAT_CHIMERA"],
         "wet_protection":[
@@ -2169,12 +2172,12 @@
         ],
         "restricts_gear" : [ "FOOT_L", "FOOT_R" ],
         "destroys_gear" : true,
-        "armor" : [ { "parts" : [ "FOOT_L", "FOOT_R" ], "bash" : 1 } ],
+        "armor" : [ { "parts" : [ "FOOT_L", "FOOT_R" ], "bash" : 1, "acid" : 3 } ],
         "attacks" : {
             "attack_text_u" : "You kick %s with your hooves",
             "attack_text_npc" : "%1$s kicks %2$s with their hooves",
             "chance" : 15,
-            "strength_damage" : { "damage_type" : "stab", "amount" : 4 }
+            "strength_damage" : { "damage_type" : "stab", "amount" : 6 }
         }
     },{
         "type" : "mutation",
@@ -2815,7 +2818,7 @@
         "points" : 2,
         "visibility" : 4,
         "ugliness" : 2,
-        "description" : "You have a pair of large, feathered wings.  Your body is too heavy to be able to fly, but you can use them to slow your descent during a fall, and will not take falling damage under any circumstances.",
+        "description" : "You have a pair of large, feathered wings.  Your body is too heavy to be able to fly, but you can use them to slow your descent during a fall, and will not take falling damage under any circumstances (armor: +1 bash, +1 cut).",
         "prereqs" : ["WINGS_STUB"],
         "cancels" : ["WINGS_BAT", "WINGS_INSECT", "WINGS_BUTTERFLY"],
         "category" : ["MUTCAT_BIRD"],
@@ -3036,7 +3039,7 @@
         "ugliness" : 1,
         "bodytemp_modifiers" : [200, 200],
         "mixed_effect" : true,
-        "description" : "You've put on some additional weight around your body.  It slows you down a little, but helps your swimming and warmth.",
+        "description" : "You've put on some additional weight around your body.  It slows you down a little, but helps your swimming and warmth  (armor: +2 bash, +1 cut).",
         "prereqs" : ["STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4"],
         "leads_to" : ["HIBERNATE"],
         "category" : ["MUTCAT_URSINE"],
@@ -3054,7 +3057,7 @@
             [ "ARM_L", 10 ],
             [ "ARM_R", 10 ]
         ],
-        "description" : "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2, bash armor: 1), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
+        "description" : "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2), (armor: +1 bash), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
         "prereqs" : ["STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4"],
         "changes_to": ["LARGE_OK", "HUGE"],
         "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_LIZARD"],
@@ -3068,7 +3071,7 @@
         "name" : "Large",
         "points" : 2,
         "visibility" : 1,
-        "description" : "You carry your rugged body with the dignity you deserve.  Strength +2, bash armor: 1.",
+        "description" : "You carry your rugged body with the dignity you deserve.  Strength +2 (armor: +1 bash).",
         "prereqs" : ["LARGE"],
         "prereqs2" : ["STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4"],
         "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE", "THRESH_LIZARD"],
@@ -3087,7 +3090,7 @@
         "visibility" : 4,
         "ugliness" : 4,
         "mixed_effect" : true,
-        "description" : "You have grown even more massive, to the point where you cannot usefully fit into human-sized clothing or vehicles.  Much of it is powerful muscle mass (Strength +5, minor armor), but it's a real pain to haul around.",
+        "description" : "You have grown even more massive, to the point where you cannot usefully fit into human-sized clothing or vehicles.  Much of it is powerful muscle mass (Strength +5)(armor: +3 bash, +1 cut), but it's a real pain to haul around.",
         "prereqs" : ["LARGE", "LARGE_OK"],
         "prereqs2" : ["STR_UP_3", "STR_UP_4"],
         "changes_to": ["HUGE_OK"],
@@ -3106,7 +3109,7 @@
         "visibility" : 4,
         "ugliness" : 3,
         "mixed_effect" : true,
-        "description" : "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +5, bashing, cutting armor.",
+        "description" : "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +5 (armor: +3 bash, +1 cut).",
         "prereqs" : ["HUGE"],
         "prereqs2" : ["STR_UP_3", "STR_UP_4"],
         "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE"],
@@ -3304,7 +3307,7 @@
         "points" : 4,
         "visibility" : 10,
         "ugliness" : 10,
-        "description" : "Your brain has evolved beyond human imagination.  You'll show them the REAL meaning of 'gray goo'!",
+        "description" : "Your brain has evolved beyond human imagination.  You'll show them the REAL meaning of 'gray goo' (armor: -3 bash)!",
         "valid" : false,
         "purifiable" : false,
         "leads_to" : ["SLIMESPAWNER"],
@@ -4106,7 +4109,7 @@
         "points" : 4,
         "visibility" : 7,
         "ugliness" : 8,
-        "description" : "Your body's slime output has become sticky and gel-like.  Protects from acid somewhat.  Greatly increases wet benefits.",
+        "description" : "Your body's slime output has become sticky and gel-like.  Protects from acid somewhat (armor: +2 cut, +4 acid).  Greatly increases wet benefits.",
         "leads_to" : ["AMORPHOUS"],
         "prereqs" : ["SLIMY"],
         "threshreq" : ["THRESH_SLIME"],
@@ -4131,7 +4134,7 @@
         "points" : -2,
         "visibility" : 10,
         "ugliness" : 10,
-        "description" : "Your flesh is a pleasing gel-like consistency.  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably.",
+        "description" : "Your flesh is a pleasing gel-like consistency.  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably (armor: +6 bash, +1 cut).",
         "purifiable" : false,
         "leads_to" : ["INT_SLIME", "PER_SLIME"],
         "prereqs" : ["VISCOUS"],
@@ -4444,7 +4447,7 @@
         "points" : -2,
         "visibility" : 8,
         "ugliness" : 2,
-        "description" : "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits, but really get in the way.  They're simply too small to help you in the air.",
+        "description" : "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits (armor: +1 bash and cut), but really get in the way.  They're simply too small to help you in the air (armor: +1 bash, +1 cut).",
         "category" : ["MUTCAT_RAPTOR"],
         "wet_protection" : [
             { "part" : "ARM_L", "neutral" : 50 },
@@ -4456,7 +4459,7 @@
             [ "ARM_L", 20 ],
             [ "ARM_R", 20 ]
         ],
-        "armor" : [ { "parts" : [ "ARM_L", "ARM_R" ], "bash" : 1, "cut" : 2 } ]
+        "armor" : [ { "parts" : [ "ARM_L", "ARM_R" ], "bash" : 1, "cut" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "INSECT_ARMS",
@@ -4652,7 +4655,7 @@
         "points" : -5,
         "visibility" : 8,
         "ugliness" : 3,
-        "description" : "You have grown a thick shell over your torso, providing excellent armor.  You find you can use the empty space as 16 storage space, but cannot wear anything on your torso.  Somewhat reduces wet effects.",
+        "description" : "You have grown a thick shell over your torso, providing excellent armor.  You find you can use the empty space as 16 storage space, but cannot wear anything on your torso.  Somewhat reduces wet effects (armor: +10 bash, +14 cut).",
         "prereqs" : ["CHITIN"],
         "cancels" : ["CHITIN3"],
         "changes_to" : ["SHELL2"],
@@ -4662,7 +4665,7 @@
         ],
         "restricts_gear" : [ "TORSO" ],
         "destroys_gear" : true,
-        "armor" : [ { "parts" : "TORSO", "bash" : 10, "cut" : 16 } ]
+        "armor" : [ { "parts" : "TORSO", "bash" : 10, "cut" : 14 } ]
     },{
         "type" : "mutation",
         "id" : "SHELL2",
@@ -4673,7 +4676,7 @@
         "bodytemp_modifiers" : [500, 750],
         "bodytemp_sleep" : 200,
         "mixed_effect" : true,
-        "description" : "Your protective shell has grown large enough to accommodate--if need be--your whole body.  Activate to pull your head and limbs into your shell, trading mobility and vision for warmth and shelter.",
+        "description" : "Your protective shell has grown large enough to accommodate--if need be--your whole body.  Activate to pull your head and limbs into your shell, trading mobility and vision for warmth and shelter (armor: +14 bash, +18 cut).",
         "encumbrance_always" : [[ "TORSO", 10 ]],
         "prereqs" : ["SHELL"],
         "threshreq" : ["THRESH_CEPHALOPOD"],
@@ -4684,7 +4687,7 @@
         "active"     :    true,
         "restricts_gear" : [ "TORSO" ],
         "destroys_gear" : true,
-        "armor" : [ { "parts" : "TORSO", "bash" : 14, "cut" : 20 } ]
+        "armor" : [ { "parts" : "TORSO", "bash" : 14, "cut" : 18 } ]
     },{
         "type" : "mutation",
         "id" : "LEG_TENTACLES",
