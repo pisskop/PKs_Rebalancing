@@ -6,7 +6,7 @@
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
-    "skills_required": [ ["cooking", 2 ], [ "firstaid", 2 ] ],
+    "skills_required": [ [ "firstaid", 2 ] ],
     "difficulty": 3,
     "time": 10000,
     "autolearn": true,
@@ -31,7 +31,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ], [ "recipe_labchem", 6 ] ],
     "qualities":[
@@ -78,7 +78,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "survival", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_creepy", 6 ] ],
     "qualities":[
@@ -124,7 +124,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "survival", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_maiar", 6 ] ],
     "qualities":[
@@ -145,8 +145,8 @@
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
-    "skills_required": [ ["cooking", 3 ], [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "skills_required": [ [ "firstaid", 3 ] ],
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_maiar", 2 ] ],
     "qualities":[
@@ -169,7 +169,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 6 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_maiar", 6 ] ],
     "qualities":[
@@ -190,8 +190,8 @@
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
-    "skills_required": [ ["cooking", 3 ], [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "skills_required": [ [ "firstaid", 3 ] ],
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_maiar", 2 ] , [ "recipe_creepy", 2 ] ],
     "qualities":[
@@ -214,7 +214,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_maiar", 6 ] , [ "recipe_creepy", 6 ] ],
     "qualities":[
@@ -235,8 +235,8 @@
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
-    "skills_required": [ ["cooking", 3 ], [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "skills_required": [ [ "firstaid", 3 ] ],
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -259,7 +259,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -270,7 +270,8 @@
     ],
     "components": [
       [ [ "mutagen_fish", 2 ] ],
-      [ [ "fish", 2 ], [ "slime_scrap", 2 ] ]
+      [ [ "fish", 2 ],
+      [ "slime_scrap", 2 ] ]
     ]
   },
   {
@@ -304,7 +305,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_creepy", 6 ] ],
     "qualities":[
@@ -326,7 +327,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ] ],
-    "difficulty": 9,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -337,7 +338,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "offal", 4 ], [ "raw_fur", 2 ], [ "raw_leather", 2 ] ],
+      [ [ "offal", 4 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -349,7 +350,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "survival", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -371,7 +372,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ] ],
-    "difficulty": 4,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -382,7 +383,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "offal", 4 ], [ "raw_fur", 2 ], [ "raw_leather", 2 ] ],
+      [ [ "raw_fur", 1 ], [ "raw_leather", 1 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -394,7 +395,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 3 ],
-    "difficulty": 9,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 8 ] , [ "recipe_animal", 8 ] ],
     "qualities":[
@@ -441,7 +442,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -462,10 +463,10 @@
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
-    "skills_required": [ [ "cooking", 2 ], [ "firstaid", 3 ] ],
+    "skills_required": [ [ "firstaid", 3 ] ],
     "difficulty": 3,
     "time": 10000,
-    "book_learn": [ [ "recipe_animal", 6 ] ],
+    "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
       {"id":"CHEM","level":2,"amount":1}
     ],
@@ -474,7 +475,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat", 6 ], [ "offal", 3 ] ],
+      [ [ "meat", 8 ], [ "offal", 4 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -486,7 +487,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 6,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 8 ] , [ "recipe_animal", 8 ] ],
     "qualities":[
@@ -508,7 +509,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -519,7 +520,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat", 3 ] ],
+      [ [ "stomach", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -531,7 +532,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 4 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] ,  [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -553,7 +554,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_creepy", 2 ] ],
     "qualities":[
@@ -564,7 +565,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "tallow", 2 ], [ "meat_tainted", 6 ], [ "can_chowder", 1 ], [ "can_clams", 1 ] ],
+      [ [ "tallow", 4 ], [ "can_chowder", 1 ], [ "can_clams", 1 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -576,7 +577,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_creepy", 6 ] ],
     "qualities":[
@@ -598,7 +599,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ] ],
-    "difficulty": 4,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -609,7 +610,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "egg_bird", 1 ] ],
+      [ [ "egg_bird", 1 ], [ "feather", 10 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -621,7 +622,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "survival", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -643,7 +644,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "firstaid", 3 ] ],
-    "difficulty": 4,
+    "difficulty": 3,
     "time": 10000,
     "book_learn": [ [ "recipe_animal", 2 ] ],
     "qualities":[
@@ -666,7 +667,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 5 ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_animal", 6 ] ],
     "qualities":[
@@ -699,7 +700,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat_tainted", 6 ], [ "tallow_tainted", 2 ] ],
+      [ [ "meat_tainted", 8 ], [ "tallow_tainted", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -711,7 +712,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "firstaid", 4 ], [ "survival", 4 ] ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_serum", 6 ] , [ "recipe_maiar", 6 ] ],
     "qualities":[
@@ -758,7 +759,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 4 ], [ "firstaid", 5 ] ],
-    "difficulty": 7,
+    "difficulty": 6,
     "time": 15000,
     "book_learn": [ [ "recipe_medicalmut", 6 ] , [ "recipe_serum", 6 ] ],
     "qualities":[
@@ -781,7 +782,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 4 ],
-    "difficulty": 7,
+    "difficulty": 6,
     "time": 10000,
     "book_learn": [ ["textbook_gaswarfare", 6] , ["atomic_survival", 6] , ["record_patient", 6] , ["recipe_maiar", 6] , [ "recipe_labchem", 5] ],
     "qualities":[
@@ -829,7 +830,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ], [ "firstaid", 2 ] ],
-    "difficulty": 3,
+    "difficulty": 4,
     "time": 20000,
     "book_learn": [ [ "recipe_alpha", 3 ] ],
     "qualities":[
@@ -852,7 +853,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 5 ], [ "firstaid", 4 ] ],
-    "difficulty": 7,
+    "difficulty": 6,
     "time": 15000,
     "book_learn": [ [ "recipe_alpha", 6 ] ],
     "qualities":[
@@ -875,7 +876,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ], [ "firstaid", 3 ] ],
-    "difficulty": 3,
+    "difficulty": 4,
     "time": 12500,
     "book_learn": [ [ "recipe_elfa", 2 ] ],
     "qualities":[
@@ -897,7 +898,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 5 ], [ "firstaid", 5 ] ],
-    "difficulty": 7,
+    "difficulty": 6,
     "time": 15000,
     "book_learn": [ [ "recipe_elfa", 6 ] ],
     "qualities":[
@@ -920,7 +921,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 2 ], [ "firstaid", 2 ] ],
-    "difficulty": 3,
+    "difficulty": 4,
     "time": 15000,
     "book_learn": [ [ "recipe_chimera", 2] ],
     "qualities":[
@@ -944,7 +945,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 4 ], [ "firstaid", 4 ] ],
-    "difficulty": 7,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_chimera", 6 ] ],
     "qualities":[
@@ -966,7 +967,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ [ "survival", 3 ], [ "firstaid", 3 ] ],
-    "difficulty": 2,
+    "difficulty": 4,
     "time": 12500,
     "book_learn": [ [ "recipe_raptor", 2 ] ],
     "qualities":[
@@ -988,7 +989,7 @@
     "subcategory": "CSC_CHEM_MUTAGEN",
     "skill_used": "cooking",
     "skills_required": [ "firstaid", 3 ],
-    "difficulty": 10,
+    "difficulty": 5,
     "time": 15000,
     "book_learn": [ [ "recipe_raptor", 9 ] ],
     "qualities":[

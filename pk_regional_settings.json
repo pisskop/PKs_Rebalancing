@@ -190,7 +190,7 @@
         "base_temperature" : 6.0,
         "base_humidity" : 58.0,
         "base_pressure" : 1025.0,
-        "base_acid" : 0.2
+        "base_acid" : 0.25
       }
    }
 ]

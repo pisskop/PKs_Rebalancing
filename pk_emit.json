@@ -106,7 +106,7 @@
     "id": "emit_fungacidal_small",
     "type": "emit",
     "//": "A wafts of fungacidal gas (example: butterfly)",
-    "field": "fd_fungal_haze",
+    "field": "fd_fungicidal_gas",
     "density": 1,
     "qty": 2,
     "chance": 2

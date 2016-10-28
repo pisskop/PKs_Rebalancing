@@ -49,6 +49,14 @@
         "cancels" : ["BADKNEES"]
     },{
         "type" : "mutation",
+        "id" : "SQUEAMISH",
+        "name" : "Squeamish",
+        "points" : -1,
+        "starting_trait" : true,
+        "description" : "You can't even think about putting filthy clothes on yourself, especially from zombies' corpses.",
+        "category" : ["MUTCAT_ALPHA", "MUTCAT_ELFA"]
+    },{
+        "type" : "mutation",
         "id" : "GOODCARDIO",
         "name" : "Indefatigable",
         "points" : 2,
@@ -145,9 +153,10 @@
         "id" : "TOUGH_FEET",
         "name" : "Tough Feet",
         "points" : 1,
-        "description" : "The bottoms of your feet are tough and you are accustomed to going barefoot.  You receive no movement penalty for not wearing shoes.",
+        "description" : "The bottoms of your feet are tough and you are accustomed to going barefoot.  You receive no movement penalty for not wearing shoes (armor: +1 bash, +1 cut).",
         "starting_trait" : true,
-        "category" : ["MUTCAT_CATTLE", "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_TROGLOBITE"]
+        "category" : ["MUTCAT_CATTLE", "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_TROGLOBITE"],
+        "armor" : [ { "parts" : [ "FOOT_L", "FOOT_R" ], "bash" : 1, "cut" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "TOUGH",
@@ -471,7 +480,7 @@
         "points" : 1,
         "description" : "Your scent is quite weak.  Animals that track your scent will do so with more difficulty.",
         "starting_trait" : true,
-        "category" : ["MUTCAT_ALPHA", "MUTCAT_LIZARD"],
+        "category" : ["MUTCAT_ELFA", "MUTACT_PLANT", "MUTCAT_LIZARD"],
         "cancels" : ["SMELLY"]
     },{
         "type" : "mutation",
@@ -590,7 +599,7 @@
         "description" : "You are terrible at organizing and storing your possessions.  You can carry 40% less volume.",
         "starting_trait" : true,
         "cancels" : ["PACKMULE"],
-        "category" : ["MUTCAT_BIRD", "MUTCAT_LUPINE"]
+        "category" : ["MUTCAT_LUPINE"]
     },{
         "type" : "mutation",
         "id" : "ILLITERATE",
@@ -654,11 +663,11 @@
         "id" : "MEATARIAN",
         "name" : "Hates Vegetables",
         "points" : -2,
-        "description" : "You, like many children, hated eating your vegetables; however, you didn't outgrow it.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
+        "description" : "You, like many, hate eating your vegetables.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
         "starting_trait" : true,
         "valid" : false,
         "cancels" : ["VEGETARIAN"],
-        "category" : ["MUTCAT_URSINE", "MUTCAT_LUPINE"]
+        "category" : ["MUTCAT_SPIDER", "MUTCAT_LUPINE"]
     },{
         "type" : "mutation",
         "id" : "ANTIFRUIT",
@@ -685,7 +694,7 @@
         "points" : -1,
         "description" : "Something in those heavily processed foods doesn't agree with you.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
         "starting_trait" : true,
-        "category" : ["MUTCAT_BEAST", "MUTCAT_RAPTOR", "MUTCAT_ALPHA"]
+        "category" : ["MUTCAT_BEAST", "MUTCAT_RAPTOR", "MUTCAT_ALPHA", "MUTCAT_FELINE"]
     },{
         "type" : "mutation",
         "id" : "ANTIWHEAT",
@@ -730,7 +739,7 @@
         "description" : "It's easier for you to become addicted to substances, and harder to rid yourself of these addictions.",
         "starting_trait" : true,
         "valid" : false,
-        "category" : ["MUTCAT_MEDICAL"],
+        "category" : ["MUTCAT_MEDICAL", "MUTCAT_ALPHA"],
         "cancels" : ["NONADDICTIVE"]
     },{
         "type" : "mutation",
@@ -758,6 +767,7 @@
         "points" : -2,
         "description" : "You suffer from a minor chemical imbalance, whether mental or physical.  Minor changes to your internal chemistry will manifest themselves on occasion, such as hunger, sleepiness, narcotic effects, etc.",
         "starting_trait" : true,
+        "cancels" : ["SAVANT"],
         "category" : ["MUTCAT_SLIME", "MUTCAT_MEDICAL", "MUTCAT_CHIMERA", "MUTCAT_ELFA"]
     },{
         "type" : "mutation",
@@ -820,7 +830,8 @@
         "description" : "You tend to specialize in one skill and be poor at all others.  You advance at half speed in all skills except your best one.  Note that combining this with Fast Learner  will come out to a slower rate of learning for all skills.",
         "starting_trait" : true,
         "valid" : false,
-        "category" : ["MUTCAT_ALPHA", "MUTCAT_ELFA", "MUTCAT_CHIMERA"]
+        "cancels" : ["CHEMIMBALANCE"],
+        "category" : ["MUTCAT_ALPHA", "MUTCAT_CHIMERA"]
     },{
         "type" : "mutation",
         "id" : "PACIFIST",
@@ -1223,6 +1234,33 @@
         ]
     },{
         "type" : "mutation",
+        "id" : "LUNGS",
+        "name" : "Enlarged Lungs",
+        "points" : 2,
+        "visibility" : 0,
+        "ugliness" : 0,
+        "description" : "Your lungs have begun to expand; and your diaphragm as well.  Breathing comes easier to you, allowing for faster stamina recovery.",
+        "category" : ["MUTCAT_BEAST", "MUTCAT_LUPINE", "MUTCAT_FELINE", "MUTCAT_ALPHA", "MUTCAT_CHIMERA", "MUTCAT_BIRD"],
+        "changes_to" : ["LUNGS_2"],
+        "cancels" : [ "GILLS", "GILLS_CEPH"],
+        "passive_mods" : {
+            "stamina_min" : 3
+        }
+    },{
+        "type" : "mutation",
+        "id" : "LUNGS_2",
+        "name" : "Robust Lungs",
+        "points" : 2,
+        "visibility" : 0,
+        "ugliness" : 0,
+        "description" : "Your lungs are now fit for ROARING!  Combat is much easier as well.",
+        "category" : ["MUTCAT_BEAST", "MUTCAT_FELINE", "MUTCAT_CHIMERA"],
+        "cancels" : [ "GILLS", "GILLS_CEPH"],
+        "passive_mods" : {
+            "stamina_min" : 3
+        }
+    },{
+        "type" : "mutation",
         "id" : "GILLS",
         "name" : "Gills",
         "points" : 2,
@@ -1248,7 +1286,7 @@
         "category" : ["MUTCAT_CEPHALOPOD"],
         "cancels" : ["GILLS"],
         "wet_protection" : [
-            { "part" : "HEAD", "good" : 1 }
+            { "part" : "HEAD", "good" : 2 }
         ],
         "passive_mods" : {
             "stamina_min" : 3
@@ -1666,7 +1704,7 @@
         "ugliness" : 2,
         "description" : "Your skin is covered with fine spines.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive moderate damage (armor: +1 bash, +2 cut).",
         "changes_to" : ["QUILLS"],
-        "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2 } ]
+        "category" : ["MUTCAT_CEPHALOPOD", "MUTCAT_FISH", "MUTCAT_CHIMERA", "MUTCAT_LIZARD", "MUTCAT_MEDICAL"]
     },{
         "type" : "mutation",
         "id" : "QUILLS",
@@ -1676,6 +1714,7 @@
         "ugliness" : 3,
         "description" : "Your body is covered with large quills.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive significant damage (armor: +1 bash, +2 cut).",
         "prereqs" : ["SPINES"],
+        "category" : ["MUTCAT_CHIMERA"],
         "armor" : [ { "parts" : "ALL", "bash" : 1, "cut" : 2 } ]
     },{
         "type" : "mutation",
@@ -2072,8 +2111,8 @@
         "visibility" : 1,
         "description" : "Your limbs seem to have a little more 'give' to them.  +1 Dexterity.",
         "changes_to" : ["BENDY2"],
-        "threshreq" : ["THRESH_SLIME", "THRESH_ELFA"],
-        "category" : ["MUTCAT_SLIME", "MUTCAT_ELFA"],
+        "threshreq" : ["THRESH_SLIME", "THRESH_ELFA", "THRESH_CEPHALOPOD", "THRESH_PLANT", "THRESH_SPIDER"],
+        "category" : ["MUTCAT_SLIME", "MUTCAT_ELFA", "MUTCAT_CEPHALOPOD", "MUTCAT_PLANT", "MUTCAT_SPIDER"],
         "passive_mods" : {
             "dex_mod" : 1
         }
@@ -2088,9 +2127,9 @@
         "purifiable" : false,
         "prereqs" : ["BENDY1"],
         "changes_to" : ["BENDY3"],
-        "threshreq" : ["THRESH_SLIME"],
+        "threshreq" : ["THRESH_SLIME", "THRESH_CEPHALOPOD"],
         "leads_to" : ["AMORPHOUS"],
-        "category" : ["MUTCAT_SLIME"],
+        "category" : ["MUTCAT_SLIME", "MUTCAT_CEPHALOPOD"],
         "passive_mods" : {
             "dex_mod" : 3,
             "str_mod" : -2
@@ -2103,7 +2142,7 @@
         "visibility" : 2,
         "ugliness" : 2,
         "mixed_effect" : true,
-        "description" : "Your pseudopod-like limbs can fit into anything!  +5 Dexterity, -4 Strength.",
+        "description" : "Your pseudopod-like limbs can fit into anything!  +6 Dexterity, -4 Strength.",
         "valid" : false,
         "purifiable" : false,
         "prereqs" : ["BENDY2"],
@@ -2111,7 +2150,7 @@
         "threshreq" : ["THRESH_SLIME"],
         "category" : ["MUTCAT_SLIME"],
         "passive_mods" : {
-            "dex_mod" : 5,
+            "dex_mod" : 6,
             "str_mod" : -4
         }
     },{
@@ -2779,7 +2818,7 @@
         "purifiable" : false,
         "prereqs" : ["CARNIVORE", "THRESH_URSINE"],
         "prereqs2" : ["PRED3"],
-        "cancels" : ["PACIFIST"],
+        "cancels" : ["PACIFIST", "SAVANT"],
         "threshreq" : ["THRESH_BEAST", "THRESH_RAPTOR", "THRESH_CHIMERA", "THRESH_URSINE"],
         "category" : ["MUTCAT_BEAST", "MUTCAT_RAPTOR", "MUTCAT_CHIMERA", "MUTCAT_URSINE"],
         "passive_mods" : {
@@ -3060,7 +3099,7 @@
         "description" : "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2), (armor: +1 bash), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
         "prereqs" : ["STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4"],
         "changes_to": ["LARGE_OK", "HUGE"],
-        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_LIZARD"],
+        "category" : ["MUTCAT_URSINE", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_LIZARD", "MUTCAT_CHIMERA", "MUTCAT_PLANT"],
         "passive_mods" : {
             "str_mod" : 2
         },
@@ -3074,10 +3113,10 @@
         "description" : "You carry your rugged body with the dignity you deserve.  Strength +2 (armor: +1 bash).",
         "prereqs" : ["LARGE"],
         "prereqs2" : ["STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4"],
-        "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE", "THRESH_LIZARD"],
+        "threshreq" : ["THRESH_URSINE", "THRESH_BEAST", "THRESH_CATTLE", "THRESH_LIZARD", "THRESH_PLANT"],
         "changes_to": ["HUGE"],
         "leads_to" : ["MUT_TOUGH"],
-        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_LIZARD"],
+        "category" : ["MUTCAT_URSINE", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_LIZARD", "MUTCAT_CHIMERA", "MUTCAT_PLANT"],
         "passive_mods" : {
             "str_mod" : 2
         },
@@ -3094,7 +3133,7 @@
         "prereqs" : ["LARGE", "LARGE_OK"],
         "prereqs2" : ["STR_UP_3", "STR_UP_4"],
         "changes_to": ["HUGE_OK"],
-        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE"],
+        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_CHIMERA"],
         "passive_mods" : {
             "str_mod" : 5
         },
@@ -3112,11 +3151,12 @@
         "description" : "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +5 (armor: +3 bash, +1 cut).",
         "prereqs" : ["HUGE"],
         "prereqs2" : ["STR_UP_3", "STR_UP_4"],
-        "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE"],
+        "threshreq" : ["THRESH_URSINE", "THRESH_CATTLE", "THRESH_CHIMERA"],
         "leads_to" : ["MUT_TOUGH"],
-        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE"],
+        "category" : ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_CHIMERA"],
         "passive_mods" : {
-            "str_mod" : 5
+            "str_mod" : 5,
+            "stamina_min" : 2
         },
         "restricts_gear" : [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
         "destroys_gear" : true,
@@ -3514,7 +3554,7 @@
         "description" : "Your skin is rather pale.",
         "changes_to" : ["ALBINO"],
         "leads_to" : ["TROGLO"],
-        "category" : ["MUTCAT_LUPINE"]
+        "category" : ["MUTCAT_LUPINE", "MUTCAT_TROGLOBITE"]
     },{
         "type" : "mutation",
         "id" : "SPOTS",
@@ -3580,7 +3620,8 @@
         "description" : "You're a real head-turner.  Some people will react well to your appearance, and most people have an easier time trusting you.",
         "cancels" : ["UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3"],
         "prereqs" : ["PRETTY"],
-        "changes_to" : ["BEAUTIFUL2"]
+        "changes_to" : ["BEAUTIFUL2"],
+        "category" : ["MUTCAT_FELINE", "MUTCAT_ELFA", "MUTCAT_BIRD"]
     },{
         "type" : "mutation",
         "id" : "BEAUTIFUL2",
@@ -4086,7 +4127,7 @@
         "points" : 2,
         "visibility" : 7,
         "ugliness" : 6,
-        "description" : "Your body is coated with a fine slime.  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits.",
+        "description" : "Your body is coated with a fine slime.  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits (armor: +1 cut).",
         "leads_to" : ["SLIME_HANDS"],
         "changes_to" : ["VISCOUS"],
         "category" : ["MUTCAT_FISH", "MUTCAT_SLIME", "MUTCAT_TROGLOBITE", "MUTCAT_CEPHALOPOD"],
@@ -4101,7 +4142,8 @@
             { "part" : "HAND_L", "neutral" : 2, "good" : 3 },
             { "part" : "HAND_R", "neutral" : 2, "good" : 3 },
             { "part" : "TORSO", "neutral" : 14, "good" : 26 }
-        ]
+        ],
+        "armor" : [ { "parts" : "ALL", "cut" : 1 } ]
     },{
         "type" : "mutation",
         "id" : "VISCOUS",
@@ -4447,7 +4489,7 @@
         "points" : -2,
         "visibility" : 8,
         "ugliness" : 2,
-        "description" : "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits (armor: +1 bash and cut), but really get in the way.  They're simply too small to help you in the air (armor: +1 bash, +1 cut).",
+        "description" : "Your arms have grown vibrantly colored feathers.  They effectively waterproof your arms and take the edge off hits, but really get in the way.  They're simply too small to help you in the air (armor: +1 bash, +1 cut).",
         "category" : ["MUTCAT_RAPTOR"],
         "wet_protection" : [
             { "part" : "ARM_L", "neutral" : 50 },
@@ -5167,13 +5209,6 @@
         "valid" : false,
         "description" : "Mind the bugs, would you kindly?.",
         "threshold" : true
-    },{
-        "type" : "mutation",
-        "id" : "SQUEAMISH",
-        "name" : "Squeamish",
-        "points" : -1,
-        "starting_trait" : true,
-        "description" : "You can't even think about putting filthy clothes on yourself, especially from zombies' corpses."
     }
 ]
 

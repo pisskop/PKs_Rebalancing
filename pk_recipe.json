@@ -332,7 +332,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "launcher", 4 ],
+    "skills_required": [ "launcher", 2 ],
     "difficulty": 6,
     "time": 55000,
     "reversible": false,
