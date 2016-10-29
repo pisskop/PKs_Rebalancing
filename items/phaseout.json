@@ -350,5 +350,92 @@
           "type": "transform"
     },
     "flags": [ "BULKY", "FRAGILE" ]
+  },
+  {
+    "id": "acidbomb_large_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "large acidbomb",
+    "description": "A thrown acidbomb, in the process of loosing its liquid.",
+    "weight": 1640,
+    "volume": 1,
+    "material": [ "glass" ],
+    "symbol": "*",
+    "color": "i_green",
+    "initial_charges": 1,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_acid",
+      "fields_radius": 1,
+      "fields_min_density": 3,
+      "fields_max_density": 3
+    }
+  },
+  {
+    "id": "acidbomb_medium_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "medium acidbomb",
+    "description": "A thrown acidbomb, in the process of loosing its liquid.",
+    "weight": 1231,
+    "volume": 3,
+    "material": [ "glass" ],
+    "symbol": "*",
+    "color": "i_ltgreen",
+    "initial_charges": 1,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_acid",
+      "fields_radius": 1,
+      "fields_min_density": 1,
+      "fields_max_density": 3,
+      "no_deactivate_msg": "Its a bug that you can see this, but that doesnt mean it won't kill you.  Throw it!"
+    }
+  },
+  {
+    "id": "acidbomb_small_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "small acidbomb",
+    "description": "A thrown acidbomb, in the process of loosing its liquid.",
+    "weight": 813,
+    "volume": 2,
+    "material": [ "glass" ],
+    "symbol": "*",
+    "color": "green",
+    "initial_charges": 1,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_acid",
+      "fields_radius": 1,
+      "fields_min_density": 0,
+      "fields_max_density": 2,
+      "no_deactivate_msg": "Its a bug that you can see this, but that doesnt mean it won't kill you.  Throw it!"
+    }
+  },
+  {
+    "id": "acidbomb_micro_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "micro acidbomb",
+    "description": "A thrown acidbomb, in the process of loosing its liquid.",
+    "weight": 285,
+    "volume": 1,
+    "material": [ "glass" ],
+    "symbol": "*",
+    "color": "ltgreen",
+    "initial_charges": 1,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_acid",
+      "fields_radius": 0,
+      "fields_min_density": 1,
+      "fields_max_density": 2,
+      "no_deactivate_msg": "Its a bug that you can see this, but that doesnt mean it won't kill you.  Throw it!"
+    }
   }
 ]

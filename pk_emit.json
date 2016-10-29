@@ -43,7 +43,7 @@
     "field": "fd_acid",
     "qty": 2,
     "density": 1,
-    "chance": 15
+    "chance": 12
   },{
     "id": "emit_acid_trail_slow",
     "type": "emit",
@@ -126,7 +126,7 @@
   },{
     "id": "emit_fire_bomblet",
     "type": "emit",
-    "//": "A compact explosion of acid. (example: fire bomblet)",
+    "//": "A compact explosion of fire. (example: fire bomblet)",
     "field": "fd_fire",
     "density": 2,
     "qty": 3
@@ -164,6 +164,20 @@
     "field": "fd_tear_gas",
     "density": 2,
     "qty": 2
+  },{
+    "id": "emit_acid_medium",
+    "type": "emit",
+    "//": "A medium spray of acid. (example: acidbomb medium)",
+    "field": "fd_acid",
+    "density": 2,
+    "qty": 9
+  },{
+    "id": "emit_acid_large",
+    "type": "emit",
+    "//": "A large spray of acid. (example: acidbomb large)",
+    "field": "fd_acid",
+    "density": 3,
+    "qty": 7
   },{
     "id": "emit_fvent_vile",
     "type": "emit",

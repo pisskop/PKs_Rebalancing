@@ -467,13 +467,15 @@
     "symbol": "*",
     "color": "i_green",
     "ammo_type": "thrown",
-    "use_action": {
-      "target": "acidbomb_large_act",
-      "target_charges": 0,
-      "active": true,
-      "type": "transform"
-    },
-    "flags": [ "ACT_ON_RANGED_HIT" ]
+    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
+    "emits": [ "emit_acid_large" ],
+    "countdown_interval": 5,
+    "countdown_destroy": true,
+    "countdown_action": {
+        "type": "explosion",
+        "explosion": {
+        }
+    }
   },
   {
     "id": "acidbomb_medium",
@@ -490,13 +492,15 @@
     "symbol": "*",
     "color": "i_ltgreen",
     "ammo_type": "thrown",
-    "use_action": {
-      "target": "acidbomb_medium_act",
-      "target_charges": 0,
-      "active": true,
-      "type": "transform"
-    },
-    "flags": [ "ACT_ON_RANGED_HIT" ]
+    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
+    "emits": [ "emit_acid_medium" ],
+    "countdown_interval": 5,
+    "countdown_destroy": true,
+    "countdown_action": {
+        "type": "explosion",
+        "explosion": {
+        }
+    }
   },
   {
     "id": "acidbomb_small",
@@ -513,13 +517,15 @@
     "symbol": "*",
     "color": "green",
     "ammo_type": "thrown",
-    "use_action": {
-      "target": "acidbomb_small_act",
-      "target_charges": 0,
-      "active": true,
-      "type": "transform"
-    },
-    "flags": [ "ACT_ON_RANGED_HIT" ]
+    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
+    "emits": [ "emit_acid_small" ],
+    "countdown_interval": 5,
+    "countdown_destroy": true,
+    "countdown_action": {
+        "type": "explosion",
+        "explosion": {
+        }
+    }
   },
   {
     "id": "acidbomb_micro",
@@ -536,13 +542,15 @@
     "symbol": "*",
     "color": "ltgreen",
     "ammo_type": "thrown",
-    "use_action": {
-      "target": "acidbomb_micro_act",
-      "target_charges": 0,
-      "active": true,
-      "type": "transform"
-    },
-    "flags": [ "ACT_ON_RANGED_HIT" ]
+    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
+    "emits": [ "emit_acid_trail_slow" ],
+    "countdown_interval": 5,
+    "countdown_destroy": true,
+    "countdown_action": {
+        "type": "explosion",
+        "explosion": {
+        }
+    }
   },
   {
     "id": "molotov_micro",
