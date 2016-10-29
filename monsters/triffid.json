@@ -713,13 +713,13 @@
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,
-    "starting_ammo": { "EMPbomb": 3, "c4": 1 },
+    "starting_ammo": { "c4": 1, "EMPbomb": 3 },
     "special_attacks": [
       [ "VINE", 5 ],
       [ "KAMIKAZE", 0 ],
       [ "RATTLE", 3 ]
     ],
-    "special_when_hit": [ "ZAPBACK", 20 ],
+    "special_when_hit": [ "ZAPBACK", 40 ],
     "anger_triggers": [ "SOUND", "PLAYER_WEAK" ],
     "death_function": [ "EXPLODE", "ACID", "SMOKEBURST" ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "CAN_DIG", "ANIMAL", "NOHEAD", "BASHES" ],

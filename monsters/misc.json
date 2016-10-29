@@ -1065,5 +1065,40 @@
     "anger_triggers": [ "PLAYER_WEAK", "STALK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "SOUND", "HURT", "FIRE" ],
     "placate_triggers": [ "MEAT", "FRIEND_ATTACKED" ]
+  },
+  {
+    "id": "mon_mole_large",
+    "type": "MONSTER",
+    "name": "large mole",
+    "description": "A rather large if mundane looking mole, tunneling around in search of roots and small insects to eat.  Though known for undermining foundation, this cat-sized mole is of no real threat to a human.",
+    "default_faction": "mole",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
+    "diff": 8,
+    "size": "SMALL",
+    "hp": 12,
+    "speed": 80,
+    "material": [ "flesh" ],
+    "symbol": "e",
+    "color": "brown",
+    "aggression": 20,
+    "morale": 20,
+    "melee_skill": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      }
+    ],
+    "melee_cut": 1,
+    "dodge": 1,
+    "vision_day": 20,
+    "vision_night": 7,
+    "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK" ],
+    "fear_triggers": [ "HURT" ],
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
   }
 ]
