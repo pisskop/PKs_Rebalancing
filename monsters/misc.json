@@ -31,7 +31,7 @@
   {
     "id": "mon_pig",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_pig",
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides":10,
@@ -44,7 +44,7 @@
   {
     "id": "mon_sewer_rat",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_sewer_rat",
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 2,
@@ -67,7 +67,7 @@
   {
     "id": "mon_black_rat",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_black_rat",
     "categories": [ "WILDLIFE" ],
     "diff": 3,
     "hp": 8,
@@ -99,7 +99,7 @@
   {
     "id": "mon_rat_king",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_rat_king",
     "diff": 18,
     "hp": 250,
     "speed": 40,
@@ -132,7 +132,7 @@
   {
     "id": "mon_horse",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_horse",
     "categories": [ "WILDLIFE" ],
     "hp": 110,
     "speed": 210,
@@ -158,7 +158,7 @@
   {
     "id": "mon_bear",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_bear",
     "diff": 18,
     "hp": 140,
     "speed": 170,
@@ -273,7 +273,7 @@
   {
     "id": "mon_cougar",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_cougar",
     "diff": 15,
     "hp": 80,
     "speed": 190,
@@ -377,7 +377,7 @@
   {
     "id": "mon_dog",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_dog",
     "hp": 35,
     "speed": 170,
     "aggression": 2,
@@ -437,7 +437,7 @@
   {
     "id": "mon_moose",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_moose",
     "diff": 15,
     "hp": 170,
     "speed": 200,
@@ -527,7 +527,7 @@
   {
     "id": "mon_wolf",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_wolf",
     "diff": 12,
     "hp": 55,
     "speed": 165,
@@ -562,7 +562,7 @@
   {
     "id": "mon_coyote",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_coyote",
     "hp": 28,
     "upgrades": {
       "half_life": 17,

@@ -2,49 +2,49 @@
   {
     "id": "mon_eyebot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_eyebot",
     "vision_night": 20
   },
   {
     "id": "mon_secubot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_secubot",
     "vision_night": 10
   },
   {
     "id": "mon_copbot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_copbot",
     "vision_night": 15
   },
   {
     "id": "mon_tripod",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_tripod",
     "vision_night": 30
   },
   {
     "id": "mon_chickenbot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_chickenbot",
     "vision_night": 20
   },
   {
     "id": "mon_tankbot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_tankbot",
     "vision_night": 20
   },
   {
     "id": "mon_turret_searchlight",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_turret_searchlight",
     "vision_night": 50
   },
   {
     "id": "mon_laserturret",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_laserturret",
     "vision_night": 10
   },
   {

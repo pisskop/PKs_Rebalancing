@@ -469,7 +469,7 @@
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_large" ],
-    "countdown_interval": 5,
+    "countdown_interval": 7,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",
@@ -494,7 +494,7 @@
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_medium" ],
-    "countdown_interval": 5,
+    "countdown_interval": 7,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",
@@ -519,7 +519,7 @@
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_small" ],
-    "countdown_interval": 5,
+    "countdown_interval": 7,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",
@@ -544,7 +544,7 @@
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_trail_slow" ],
-    "countdown_interval": 5,
+    "countdown_interval": 13,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",

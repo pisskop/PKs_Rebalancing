@@ -65,7 +65,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "biollante_bud", 1 ], [ "datura_seed", 16 ] ],
+      [ [ "biollante_bud", 1 ], [ "datura_seed", 8 ] ],
       [ [ "fighter_sting", 3 ], [ "poppy_bud", 4 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
@@ -338,7 +338,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "offal", 4 ] ],
+      [ [ "raw_leather", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -383,7 +383,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "raw_fur", 1 ], [ "raw_leather", 1 ] ],
+      [ [ "raw_fur", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -430,7 +430,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat", 6 ] ],
+      [ [ "offal", 6 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -475,7 +475,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat", 8 ], [ "offal", 4 ] ],
+      [ [ "bone", 10 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -520,7 +520,7 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "stomach", 2 ] ],
+      [ [ "stomach_large", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -700,7 +700,8 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "meat_tainted", 8 ], [ "tallow_tainted", 2 ] ],
+      [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
+      [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
@@ -931,10 +932,10 @@
       [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
     ],
     "components": [
-      [ [ "mutagen_lizard", 1 ], [ "mutagen_cephalopod", 1 ] ],
-      [ [ "mutagen_bird", 1 ], [ "mutagen_elfa", 1 ] ],
-      [ [ "mutagen_beast", 1 ], [ "mutagen_ursine", 1 ] ],
-      [ [ "mutagen_cattle", 1 ], [ "mutagen_plant", 1 ] ]
+      [ [ "mutagen_lizard", 1 ], [ "mutagen_cephalopod", 1 ], [ "mutagen_bird", 1 ] ],
+      [ [ "mutagen_bird", 1 ], [ "mutagen_elfa", 1 ], [ "mutagen_lizard", 1 ] ],
+      [ [ "mutagen_beast", 1 ], [ "mutagen_ursine", 1 ], [ "mutagen_cattle", 1 ] ],
+      [ [ "mutagen_cattle", 1 ], [ "mutagen_plant", 1 ], [ "mutagen_beast", 1 ] ]
     ]
   },
   {

@@ -1,0 +1,16 @@
+[
+  {
+    "type" : "npc_class",
+    "id" : "NC_DOOMGUY",
+    "name" : "security",
+    "job_description" : "I'm just getting knee deep in the dead.",
+    "bonus_str" : { "rng"  : [ 1, 4 ] },
+    "bonus_dex" : { "rng"  : [ -2, 2 ] },
+    "bonus_int" : { "rng"  : [ -3, 0 ] },
+    "bonus_per" : { "rng"  : [ -2, 2 ] },
+    "worn_override": "NC_DOOMGUY_worn",
+    "carry_override": "NC_DOOMGUY_carried",
+    "weapon_override": "NC_DOOMGUY_weapon",
+    "traits": [ [ "TERRIFYING", 80 ], [ "20_15",  80 ] ]
+  }
+]

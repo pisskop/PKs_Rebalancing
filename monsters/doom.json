@@ -175,7 +175,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_pinky_revive",
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "POISON", "BLEED", "BONES", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BLEED", "BONES", "PUSH_MON", "GROUP_BASH", "NIGHT_INVISIBILITY", "GROUP_MORALE" ]
   },
   {
     "id": "mon_lostsoul",
@@ -621,7 +621,9 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_doom_churl_revive",
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
+    "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "FRIEND_DIED", "MEAT" ]
   },
   {
     "id": "mon_doom_slave",
@@ -648,7 +650,10 @@
     "armor_cut": 3,
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "GUILT" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "GUILT" ],
+    "anger_triggers": [ "PLAYER_WEAK" ],
+    "fear_triggers": [ "HURT", "FRIEND_DIED" ],
+    "placate_triggers": [ "FRIEND_ATTACKED", "MEAT" ]
   },
   {
     "id": "mon_doom_cur",

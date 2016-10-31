@@ -2,7 +2,7 @@
   {
     "id": "mon_slug_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_slug_giant",
     "name": "giant slug",
     "emit_fields": [ "emit_acid_trail_slow" ],
     "flags": [ "SEES", "SMELLS", "BASHES", "ACIDPROOF", "FAT", "ARTHROPOD_BLOOD" ]
@@ -250,7 +250,7 @@
   {
     "id": "mon_spider_cellar_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_cellar_giant",
     "hp": 45,
     "speed": 145,
     "melee_skill": 6,
@@ -273,7 +273,7 @@
   {
     "id": "mon_spider_widow_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_widow_giant",
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 8,
@@ -284,7 +284,7 @@
   {
     "id": "mon_spider_trapdoor_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_trapdoor_giant",
     "description": "A gigantic spider with a bulbous thorax.  It digs an underground burrow that serves as a pit to trap unwary prey.",
     "diff": 15,
     "hp": 60,
@@ -316,7 +316,7 @@
   {
     "id": "mon_spider_jumping_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_jumping_giant",
     "hp": 35,
     "melee_skill": 5,
     "melee_dice": 1,
@@ -348,7 +348,7 @@
   {
     "id": "mon_spider_web_s",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_web_s",
     "description": "A still immature giant grass spider.  Too young to be truly venomous, or to walk proficiently for that matter",
     "diff": 7,
     "hp": 20,
@@ -380,7 +380,7 @@
   {
     "id": "mon_spider_web",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_web",
     "description": "A giant mutated grass spider, it waits for prey to become ensnared in the vast webs that it weaves between the trees.",
     "diff": 14,
     "hp": 40,
@@ -413,7 +413,7 @@
   {
     "id": "mon_spider_wolf_giant",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_spider_wolf_giant",
     "diff": 20,
     "size": "MEDIUM",
     "hp": 40,
@@ -867,7 +867,7 @@
   {
     "id": "mon_bee",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_bee",
     "description": "With a stinger the size of a kitchen knife, this dog-sized insect's black and yellow markings warn you to leave it undisturbed.  Its fine coat of bristles seems to attract electric charge.",
     "hp": 35,
     "melee_skill": 4,

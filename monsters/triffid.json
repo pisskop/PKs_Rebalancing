@@ -2,7 +2,7 @@
   {
     "id": "mon_creeper_hub",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_creeper_hub",
     "name": "crowned creeper",
     "description": "A thick stalk with rapidly sprouting tendrils at the base and a 'crown' of deep magenta pitchers at its head.  The pitchers taper into o-rings, pointing at various angles away from the hub.  From the center of the crown stems a single large, mace-like tentacle that flails around menacingly.",
     "size": "LARGE",
@@ -36,7 +36,7 @@
   {
     "id": "mon_creeper_vine",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_creeper_vine",
     "name": "creeping grass",
     "description": "A vine-like tendril that is rooted to the ground.  It flails about constantly in a violent fashion for a time before disappearing into the Earth.",
     "hp": 5,
@@ -54,7 +54,7 @@
   {
     "id": "mon_biollante",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_biollante",
     "armor_acid": 4,
     "emit_fields": [ "emit_gas_plume", "emit_radiation_puff" ],
     "death_drops": {
@@ -75,7 +75,7 @@
   {
     "id": "mon_triffid",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_triffid",
     "death_drops": {
       "subtype": "collection",
       "groups": [
@@ -92,7 +92,7 @@
   {
     "id": "mon_fungal_fighter",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_fungal_fighter",
     "melee_skill": 8,
     "melee_dice": 1,
     "melee_dice_sides": 8,
@@ -116,7 +116,7 @@
   {
     "id": "mon_vinebeast",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_vinebeast",
     "speed": 90,
     "armor_bash": 18,
     "armor_cut": 2,

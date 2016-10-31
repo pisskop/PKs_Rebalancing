@@ -313,6 +313,8 @@
     "hp": 65,
     "death_function": [ "NORMAL" ],
     "description": "A tortured slave; a living survivor, beaten, starved, wearing tattered rags and wielding a crude weapon.  They look hungry enough to eat anything.",
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "REVIVES", "REVIVES_HEALTHY" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "POISON", "CLIMBS", "LEATHER", "BONES", "REVIVES", "REVIVES_HEALTHY" ],
+    "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "FRIEND_DIED", "MEAT" ]
     }
 ]

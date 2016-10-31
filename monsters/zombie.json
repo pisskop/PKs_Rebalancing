@@ -2,7 +2,7 @@
   {
     "id": "mon_zombie",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie",
     "upgrades": {
       "half_life": 8,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
@@ -11,7 +11,7 @@
   {
     "id": "mon_zombie_grabber",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_grabber",
     "special_attacks": [
       [ "GRAB", 10 ],
       [ "PARROT", 60 ],
@@ -24,7 +24,7 @@
   {
     "id": "mon_zombie_hazmat",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_hazmat",
     "hp": 70,
     "melee_skill": 3,
     "melee_dice": 2,
@@ -36,7 +36,7 @@
   {
     "id": "mon_zombie_rot",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_rot",
     "upgrades": {
       "half_life": 8,
       "into_group": "GROUP_ZOMBIE_DECAY"
@@ -45,7 +45,7 @@
   {
     "id": "mon_beekeeper",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_beekeeper",
     "upgrades": {
       "half_life": 7,
       "into": "mon_beekeeper_pk"
@@ -54,21 +54,21 @@
   {
     "id": "mon_zombie_shrieker",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_shrieker",
     "vision_day": 50,
     "vision_night": 2
   },
   {
     "id": "mon_zombie_screecher",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_screecher",
     "vision_day": 50,
     "vision_night": 3
   },
   {
     "id": "mon_zombie_corrosive",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_corrosive",
     "emit_fields": [ "emit_radiation_puff", "emit_acid_small" ]
   },
   {
@@ -329,7 +329,7 @@
   {
     "id": "mon_zombie_child",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_child",
     "upgrades": {
       "half_life": 10,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
@@ -682,14 +682,14 @@
   {
     "id": "mon_zombie_survivor",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_survivor",
     "hp": 160,
     "burn_into": "mon_zombie_scorched_pk"
   },
   {
     "id": "mon_zombie_crawler",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_crawler",
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
       "half_life": 14,
@@ -699,7 +699,7 @@
   {
     "id": "mon_zombie_tough",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_tough",
     "burn_into": "mon_zombie_smoker",
     "upgrades": {
       "half_life": 21,
@@ -795,7 +795,7 @@
   {
     "id": "mon_zombie_master",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_master",
     "vision_day": 50,
     "vision_night": 9,
     "special_attacks": [
@@ -812,7 +812,7 @@
   {
     "id": "mon_zombie_necro",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_necro",
     "vision_day": 50,
     "vision_night": 9,
     "special_attacks": [
@@ -829,7 +829,7 @@
   {
     "id": "mon_zombie_hulk",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_hulk",
     "burn_into": "mon_zombie_fiend_pk",
     "upgrades": {
       "half_life": 49,
@@ -839,7 +839,7 @@
   {
     "id": "mon_zombie_electric",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_electric",
     "burn_into": "mon_zombie_scorched_shocker",
     "upgrades": {
       "half_life": 14,
@@ -895,7 +895,7 @@
   {
     "id": "mon_zombie_brute_shocker",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_brute_shocker",
     "hp": 240,
     "melee_skill": 4,
     "melee_dice": 3,
@@ -917,7 +917,7 @@
   {
     "id": "mon_zombie_brute_ninja",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_brute_ninja",
     "hp": 220,
     "speed": 110,
     "melee_skill": 10,
@@ -940,7 +940,7 @@
   {
     "id": "mon_zombie_brute_grappler",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_brute_grappler",
     "hp": 280,
     "speed": 95,
     "melee_skill": 7,
@@ -973,7 +973,7 @@
   {
     "id": "mon_zombie_biter",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_biter",
     "description": "A distorted human body with sleek muscles.  Its jaws have elongated into a ursine-like snout, dripping with foul smelling saliva.",
     "diff": 16,
     "hp": 100,
@@ -995,7 +995,7 @@
   {
     "id": "mon_zombie_gasbag",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_gasbag",
     "emit_fields": [ "emit_radiation_small", "emit_gas_stream", "emit_gas_plume" ],
     "upgrades": {
       "half_life": 18,
@@ -1005,7 +1005,7 @@
   {
     "id": "mon_zombie_smoker",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_smoker",
     "emit_fields": [ "emit_radiation_small", "emit_smoke_stream" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
@@ -1016,7 +1016,7 @@
   {
     "id": "mon_zombie_shady",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_shady",
     "burn_into": "mon_zombie_crawler_pk_weak",
     "upgrades": {
       "half_life": 11,
@@ -1114,7 +1114,7 @@
   {
     "id": "mon_zombie_hollow",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_hollow",
     "hp": 115,
     "speed": 80,
     "melee_skill": 7,
@@ -1255,7 +1255,7 @@
   {
     "id": "mon_zombie_swimmer",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_swimmer",
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
       "half_life": 14,
@@ -1347,7 +1347,7 @@
   {
     "id": "mon_zombie_mancroc",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_zombie_mancroc",
     "hp": 120,
     "speed": 100,
     "melee_skill": 4,
@@ -1433,7 +1433,7 @@
   {
     "id": "mon_skeleton",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_skeleton",
     "burn_into": "mon_skeleton_scorched",
     "upgrades": {
       "half_life": 14,
@@ -1701,35 +1701,35 @@
   {
     "id": "mon_charred_nightmare",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_charred_nightmare",
     "emit_fields": [ "emit_radiation_plume", "emit_radiation_puff" ],
     "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_1",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_irradiated_wanderer_1",
     "emit_fields": [ "emit_radiation_puff" ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_2",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_irradiated_wanderer_2",
     "emit_fields": [ "emit_radiation_puff" ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_3",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_irradiated_wanderer_3",
     "emit_fields": [ "emit_radiation_puff" ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_4",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_irradiated_wanderer_4",
     "emit_fields": [ "emit_radiation_puff" ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },

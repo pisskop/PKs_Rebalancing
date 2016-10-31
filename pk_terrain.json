@@ -1,8 +1,8 @@
 [
     {
-        "type" : "terrain",
-        "id" : "t_guardrail_bg_dp",
-        "edit-mode": "modify",
+        "type": "terrain",
+        "id": "t_guardrail_bg_dp",
+        "copy-from": "t_guardrail_bg_dp",
         "name": "guard rail",
         "symbol": "#",
         "color": "ltgray",
@@ -19,9 +19,9 @@
             ]
         }
     },{
-        "type" : "terrain",
-        "id" : "t_bars",
-        "edit-mode": "modify",
+        "type": "terrain",
+        "id": "t_bars",
+        "copy-from": "t_bars",
         "name": "metal bars",
         "examine_action": "bars",
         "symbol": "\"",
@@ -40,9 +40,9 @@
             ]
         }
     },{
-        "type" : "terrain",
-        "id" : "t_door_bar_c",
-        "edit-mode": "modify",
+        "type": "terrain",
+        "id": "t_door_bar_c",
+        "copy-from": "t_door_bar_c",
         "name": "closed bar door",
         "comment": "Unlocked, only created at map gen",
         "symbol": "+",
@@ -63,9 +63,9 @@
             ]
         }
     },{
-        "type" : "terrain",
-        "id" : "t_door_bar_o",
-        "edit-mode": "modify",
+        "type": "terrain",
+        "id": "t_door_bar_o",
+        "copy-from": "t_door_bar_o",
         "name": "open bar door",
         "symbol": "'",
         "color": "cyan",
@@ -84,9 +84,9 @@
             ]
         }
     },{
-        "type" : "terrain",
-        "id" : "t_door_bar_locked",
-        "edit-mode": "modify",
+        "type": "terrain",
+        "id": "t_door_bar_locked",
+        "copy-from": "t_door_bar_locked",
         "name": "closed bar door",
         "comment": "Locked",
         "symbol": "+",

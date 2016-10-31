@@ -2,19 +2,19 @@
   {
     "id": "mon_blank",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_blank",
     "emit_fields": [ "emit_radiation_puff" ]
   },
   {
     "id": "mon_vortex",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_vortex",
     "emit_fields": [ "emit_radiation_plume" ]
   },
   {
     "id": "mon_gracke",
     "type": "MONSTER",
-    "edit-mode": "override",
+    "copy-from": "mon_gracke",
     "name": "gracken",
     "description": "A bizarre humanoid creature with a calculating stare.  Its twitching hands move so fast they appear to be nothing but blurs.",
     "default_faction": "nether",

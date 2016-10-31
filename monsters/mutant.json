@@ -2,7 +2,7 @@
   {
     "id": "mon_dermatik_larva",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_dermatik_larva",
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 2,
@@ -21,7 +21,7 @@
   {
     "id": "mon_dermatik",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_dermatik",
     "hp": 85,
     "speed": 125,
     "aggression": 0,
@@ -53,7 +53,7 @@
   {
     "id": "mon_coyote_wolf",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_coyote_wolf",
     "hp": 25,
     "upgrades": {
       "half_life": 19,
@@ -63,13 +63,13 @@
   {
     "id": "mon_sewer_fish",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_sewer_fish",
     "default_faction": "mutant_predator"
   },
   {
     "id": "mon_sludge_crawler",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_sludge_crawler",
     "default_faction": "mutant_omnivore",
     "emit_fields": [ "emit_sludge" ],
     "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
@@ -77,7 +77,7 @@
   {
     "id": "mon_chud",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_chud",
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 8,
@@ -86,7 +86,7 @@
   {
     "id": "mon_one_eye",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_one_eye",
     "default_faction": "mutant_omnivore",
     "melee_skill": 9,
     "melee_dice": 2,
@@ -96,13 +96,13 @@
   {
     "id": "mon_crawler",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_crawler",
     "default_faction": "mutant_predator"
   },
   {
     "id": "mon_dark_wyrm",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_dark_wyrm",
     "default_faction": "dark_wyrm",
     "melee_skill": 8,
     "melee_dice": 2,
@@ -119,12 +119,12 @@
     "emit_fields": [ "emit_acid_small", "emit_acid_trail_slow" ],
     "special_attacks": [ [ "ACID_ACCURATE", 15 ] ],
     "special_when_hit": [ "ACIDSPLASH", 80 ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "BASHES", "BORES", "POISON", "SUNDEATH", "ACIDPROOF" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "BASHES", "BORES", "POISON", "SUNDEATH", "ACIDPROOF", "LEATHER" ]
   },
   {
     "id": "mon_amigara_horror",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_amigara_horror",
     "default_faction": "amigara",
     "hp": 200,
     "melee_skill": 15,
@@ -151,19 +151,19 @@
   {
     "id": "mon_dog_thing",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_dog_thing",
     "default_faction": "mutant_predator"
   },
   {
     "id": "mon_thing",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_thing",
     "default_faction": "mutant_predator"
   },
   {
     "id": "mon_human_snail",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_human_snail",
     "default_faction": "mutant_omnivore",
     "hp": 80,
     "speed": 60,
@@ -195,7 +195,7 @@
   {
     "id": "mon_twisted_body",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_twisted_body",
     "description": "A human body, but with its limbs impossibly twisted.  It clambers around swiftly, making awful rasping moans.",
     "default_faction": "twisted_body",
     "hp": 60,
@@ -217,11 +217,11 @@
   {
     "id": "mon_jabberwock",
     "type": "MONSTER",
-    "edit-mode": "modify",
+    "copy-from": "mon_jabberwock",
     "upgrades": {
       "half_life": 28,
       "into": "mon_jabberwock_pk",
-      "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
+      "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "FUR", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
     }
   },
   {
@@ -255,7 +255,7 @@
       [ "FEAR_PARALYZE", 3 ]
     ],
     "death_function": [ "JABBERWOCKY" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "FUR", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
   },
   {
     "id": "mon_bat_vampire",

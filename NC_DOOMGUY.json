@@ -1,0 +1,146 @@
+[
+  {
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "NC_DOOMGUY_worn",
+    "entries":
+    [
+    { "group": "NC_DOOMGUY_accessories", "prob": 50, "count": [1, 2] },
+    { "group": "NC_DOOMGUY_torso" },
+    { "group": "bags" },
+    { "group": "NC_DOOMGUY_legs" },
+    { "group": "NC_DOOMGUY_feet" },
+    { "group": "NC_DOOMGUY_arms" },
+    { "group": "NC_DOOMGUY_hands" },
+    { "group": "NC_DOOMGUY_head" }
+    ]
+  },{
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "NC_DOOMGUY_carried",
+    "entries":
+    [
+    { "group": "NC_DOOMGUY_ammo", "count": [2, 3] },
+    { "group": "fridge", "count": [1, 2] },
+    { "group": "stash_food", "count": [1, 3] },
+    { "group": "drugs_soldier", "count": [1, 2] },
+    { "group": "doom_stimpack", "prob": 60, "count": [1, 2] }
+    ]
+  },{
+    "type" : "item_group",
+    "subtype": "collection",
+    "id": "NC_DOOMGUY_weapon",
+    "entries":
+    [
+    { "group": "NC_DOOMGUY_weapons" }
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_accessories",
+    "items":[
+      ["swat_shield", 20],
+      ["megaarmor_torso_2", 20],
+      ["gambeson", 10],
+      ["mask_filter", 10],
+      ["fancy_sunglasses", 10],
+      ["sunglasses", 5],
+      ["mask_dust", 5],
+      ["lsurvivor_suit", 5],
+      ["knee_pads", 5],
+      ["elbow_pads", 5]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_torso",
+    "items":[
+      ["megaarmor_torso_1", 30],
+      ["sleeveless_duster", 20],
+      ["duster_leather", 20],
+      ["kevlar", 15],
+      ["hazmat_suit", 10],
+      ["megaarmor_torso_3", 5]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_legs",
+    "items":[
+      ["megaarmor_leggings_1", 20],
+      ["chaps_leather", 20],
+      ["pants_leather", 20],
+      ["bunker_pants", 10],
+      ["legguard_hard", 10],
+      ["legguard_metal", 10],
+      ["kilt", 10]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_feet",
+    "items":[
+      ["megaarmor_boots_1", 20],
+      ["boots_bunker", 20],
+      ["boots_combat", 20],
+      ["boots", 20],
+      ["boots_bone", 10],
+      ["boots_chitin", 10]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_arms",
+    "items":[
+      ["null", 5],
+      ["armguard_hard", 25],
+      ["megaarmor_armguards_1", 20],
+      ["armguard_larmor", 20],
+      ["armguard_soft", 15],
+      ["vambrace_larmor", 10]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_hands",
+    "items":[
+      ["null", 20],
+      ["gloves_fingerless", 20],
+      ["megaarmor_gloves_1", 20],
+      ["gloves_leather", 20],
+      ["wetsuit_gloves", 10],
+      ["nomex_gloves", 10]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_head",
+    "items":[
+    ["megaarmor_head_1", 20],
+    ["helmet_army", 20],
+    ["hat_hard", 15],
+    ["helmet_motor", 10],
+    ["helmet_bike", 10],
+    ["helmet_bone_megabear", 10],
+    ["helmet_chitin", 5],
+    ["hood_fsurvivor", 5],
+    ["holy_symbol", 5]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_weapons",
+    "items":[
+    ["410_revolver", 10],
+    ["410_lever", 25],
+    ["ithaca_doom", 35],
+    ["ithaca_doom_dual", 15],
+    ["knuckle_brass", 15]
+    ]
+  },{
+    "type" : "item_group",
+    "id" : "NC_DOOMGUY_ammo",
+    "items":[
+    ["shot_410_flechette", 6],
+    ["shot_410", 6],
+    ["shot_410_inc", 6],
+    ["shot_410_slug", 6],
+    ["shot_00", 100 ],
+    ["shot_slug", 100],
+    ["shot_flechette", 100],
+    ["shot_he", 10]
+    ]
+  }
+]
