@@ -1784,13 +1784,13 @@
             "##K              XX#####",
             "##  DDDDDDDDD    XX#####",
             "#############    #######",
-            "##333#333DwW#++#########",
+            "##333#333TwW#++#########",
             "##83 x      #  #########",
             "##333######+#  + <######",
             "###########=#  #########",
             "#^ BB^BB^BB #+##########",
             "#             SSS#######",
-            "#k cTTc     A   S#d#####",
+            "#T cTTc     A   S#d#####",
             "#  cTTc          + #####",
             "#^       kFFC&kkC# bb###",
             "########################"
@@ -1825,7 +1825,16 @@
             "&": "f_sink",
             "w": "f_washer",
             "W": "f_dryer"
-       }
+       },
+        "mapping": {
+            "D": { "items": [{ "item": "wines_worthy", "chance": [12] }, { "item": "alcohol", "chance": [8] }, { "item": "trash_cart", "chance": [4] }]},
+            "X": { "items": [{ "item": "stash_wood", "chance": [35] }, { "item": "stash_food", "chance": [20] }, { "item": "stash_drugs", "chance": [15] },  { "item": "tools_common", "chance": [10] }]},
+            "B": { "items": [{ "item": "homebooks", "chance": [20] }, { "item": "bookstore_misc", "chance": [15] }]},
+            "d": { "items": { "item": "dresser", "chance": [60] }},
+            "k": { "items": { "item": "kitchen", "chance": [15] }},
+            "W": { "items": { "item": "allclothes", "chance": [25] }},
+            "w": { "items": { "item": "allclothes", "chance": [25] }}
+      }
     }
   }
 ]

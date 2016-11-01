@@ -9,19 +9,7 @@ PKs Rebalancing Mod for C:DDA readme
                          https://github.com/CleverRaven/Cataclysm-DDA
                          
   This mod, as Im sure you are aware by now, overhauls all the little things about C:DDA to make it a new experience while still using the old mechanics.  Its harder to survive, sure, but not because I directly made it harder to dodge or I did some magic to the code.  I strictly only use JSON to update the game.
-  
-  
-       CHANGES
 
 
-V1.1
-  - Removed water-filled small purses.  Added seal->true tag to purses instead to allow them to hold liquids
-  - nerfed tactical shield, added it to swat-esque spawn lists
-
-
-Version 1.0
-  - Seperated the mod from github
-  - Added SWAT Pointman Profession, tactical shield, and 'Fled the Riots' Scenario
-  - Added Stamina Tonic to Doomguy Profession
-
-04OCT16  --> Document is created
+The easiest way to install this is delete any old version you may have, then to stick it into /data/mods
+  and then delete the one called pks_rebalance, should it be present.
