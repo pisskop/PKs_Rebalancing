@@ -402,14 +402,34 @@
         "occurrences": [0, 6],
         "rotate": false
     },{
+        "type" : "overmap_special",
+        "id" : "Pond",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "pond_field"}
+        ],
+        "locations" : [ "field" ],
+        "city_distance" : [-1, -1],
+        "occurrences" : [8, 40],
+        "flags" : [ "CLASSIC" ]
+    },{
+        "type" : "overmap_special",
+        "id" : "basin",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "pond_forest"}
+        ],
+        "locations" : [ "forest" ],
+        "city_distance" : [-1, -1],
+        "occurrences" : [6, 30],
+        "flags" : [ "CLASSIC" ]
+    },{
          "type" : "overmap_special",
          "id" : "bog",
          "overmaps" : [
             { "point":[0,0,0], "overmap": "pond_swamp"}
         ],
-        "locations" : [ "never" ],
-        "city_distance" : [0, -1],
-        "occurrences" : [0, 2],
+        "locations" : [ "swamp" ],
+        "city_distance" : [-1, -1],
+        "occurrences" : [0, 0],
         "flags" : [ "CLASSIC" ]
     },{
         "type" : "overmap_special",
@@ -453,7 +473,7 @@
             { "point":[2,5,0], "overmap": "road_ew"},
             { "point":[3,5,0], "overmap": "road_ew"}
         ],
-        "locations" : [ "forest_water" ],
+        "locations" : [ "wilderness" ],
         "city_distance" : [15, -1],
         "city_sizes" : [1, 16],
         "occurrences" : [0, 1],

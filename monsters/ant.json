@@ -92,6 +92,12 @@
     "armor_fire": 3,
     "vision_day": 5,
     "vision_night": 5,
+    "attack_effs": [
+      {
+        "id": "skunk_spray",
+        "duration": 400
+      }
+    ],
     "special_attacks": [
       {
         "type": "bite",
@@ -264,6 +270,12 @@
     "armor_acid": 3,
     "vision_day": 5,
     "vision_night": 5,
+    "attack_effs": [
+      {
+        "id": "skunk_spray",
+        "duration": 400
+      }
+    ],
     "special_attacks": [
       {
         "type": "bite",
@@ -326,6 +338,12 @@
     "armor_fire": 2,
     "vision_day": 25,
     "vision_night": 5,
+    "attack_effs": [
+      {
+        "id": "skunk_spray",
+        "duration": 400
+      }
+    ],
     "special_attacks": [
       {
         "type": "bite",
@@ -397,6 +415,12 @@
     "armor_fire": 2,
     "vision_day": 30,
     "vision_night": 5,
+    "attack_effs": [
+      {
+        "id": "skunk_spray",
+        "duration": 400
+      }
+    ],
     "special_attacks": [
       {
         "type": "bite",

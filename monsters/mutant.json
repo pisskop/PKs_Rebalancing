@@ -48,7 +48,13 @@
     "special_attacks": [ [ "DERMATIK", 20 ] ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "STALK" ],
     "fear_triggers": [ "HURT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "FLIES", "CHITIN", "VENOM" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "FLIES", "CHITIN"]
   },
   {
     "id": "mon_coyote_wolf",
@@ -59,6 +65,23 @@
       "half_life": 19,
       "into": "mon_coyote_wolf_zerg"
     }
+  },
+  {
+    "id": "mon_sewer_snake",
+    "type": "MONSTER",
+    "copy-from": "mon_sewer_snake",
+    "description": "An aggressive mutant variety of the worm snake, turned pale yellow from its underground life.  It swarms beneath the ground and is named for its habit of infesting sewer lines and potent smell.",
+    "attack_effs": [
+      {
+        "id": "badpoison",
+        "duration": 900
+      },
+      {
+        "id": "skunk_spray",
+        "duration": 600
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "WARM", "VENOM", "SWIMS", "LEATHER", "BONES" ]
   },
   {
     "id": "mon_sewer_fish",
@@ -288,6 +311,7 @@
     "armor_bash": 6,
     "vision_day": 10,
     "vision_night": 20,
+    "path_settings": { "max_dist": 20 },
     "special_attacks": [
       [ "SHRIEK_ALERT", 30 ],
       [ "SHRIEK_STUN", 1 ],
@@ -328,6 +352,7 @@
     "armor_cut": 1,
     "vision_day": 40,
     "vision_night": 5,
+    "path_settings": { "max_dist": 30 },
     "special_attacks": [
       [ "LONGSWIPE", 20 ],
       [ "IMPALE", 50 ],

@@ -1,11 +1,55 @@
 [
   {
+    "id": "mon_mosquito_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_mosquito_giant",
+    "description": "An enormous mutant mosquito, fluttering erratically.  Its face is dominated by a long, spear-tipped proboscis.  It attempts to cling to large enough prey.",
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_cut": 2,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 3
+      } ],
+    "attack_effs": [
+      {
+        "id": "doom_unhealth",
+        "duration": 3
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
+  },
+  {
     "id": "mon_slug_giant",
     "type": "MONSTER",
     "copy-from": "mon_slug_giant",
     "name": "giant slug",
     "emit_fields": [ "emit_acid_trail_slow" ],
     "flags": [ "SEES", "SMELLS", "BASHES", "ACIDPROOF", "FAT", "ARTHROPOD_BLOOD" ]
+  },
+  {
+    "id": "mon_centipede_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_giant",
+    "description": "A meter-long centipede with a menacing pair of pincers, dozens of spindly legs, and a highly caustic venom.",
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 6,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 4
+      } ],
+    "special_attacks": [[ "ACID_ACCURATE", 30 ]],
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS" ]
   },
   {
     "id": "mon_maggot",
@@ -279,7 +323,14 @@
     "melee_dice_sides": 8,
     "melee_cut": 3,
     "dodge": 3,
-    "emit_fields": [ "emit_web" ]
+    "emit_fields": [ "emit_web" ],
+    "attack_effs": [
+      {
+        "id": "badpoison",
+        "duration": 900
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS" ]
   },
   {
     "id": "mon_spider_trapdoor_giant",
@@ -311,7 +362,13 @@
       "half_life": 19,
       "into_group": "TRAP_SPIDER_UPGRADE"
     },
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
+    "attack_effs": [
+    {
+      "id": "poison",
+        "duration": 400
+    }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_jumping_giant",
@@ -343,7 +400,13 @@
       "half_life": 17,
       "into": "mon_spider_jumping_giant_acid"
     },
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "VENOM", "CHITIN", "CLIMBS", "ACIDPROOF", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "CHITIN", "CLIMBS", "ACIDPROOF", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_web_s",
@@ -375,7 +438,13 @@
       "half_life": 3,
       "into": "mon_spider_web"
     },
-    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "STUMBLES", "CHITIN", "CLIMBS", "VENOM", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "STUMBLES", "CHITIN", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_web",
@@ -408,7 +477,13 @@
       "half_life": 19,
       "into_group": "WEB_SPIDER_UPGRADE"
     },
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_wolf_giant",
@@ -436,7 +511,13 @@
       "half_life": 29,
       "into": "mon_spider_wolf_giant_pk"
     },
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_spider_wolf_giant_pk",
@@ -467,7 +548,13 @@
     "anger_triggers": [ "STALK", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_spider_web_queen",
@@ -604,7 +691,13 @@
       "half_life": 3,
       "into": "mon_spider_trapdoor_giant"
     },
-    "flags": [ "SEES", "SMELLS", "STUMBLES", "HEARS", "VENOM", "GRABS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "STUMBLES", "HEARS", "GRABS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_trapdoor_giant_guardian",
@@ -642,7 +735,13 @@
     "vision_day": 10,
     "vision_night": 13,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_spider_trapdoor_giant_pk",
@@ -677,7 +776,13 @@
     "vision_night": 7,
     "special_attacks": [ [ "LUNGE", 30 ] ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_web_alpha",
@@ -714,15 +819,19 @@
     "attack_effs": [
       {
         "id": "spider_web_slow",
-        "duration": 50
+        "duration": 600
       },
       {
         "id": "spider_web_alpha",
-        "duration": 33
+        "duration": 360
+      },
+      {
+      "id": "poison",
+        "duration": 400
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_web_omega",
@@ -759,15 +868,19 @@
     "attack_effs": [
       {
         "id": "spider_web_slow",
-        "duration": 50
+        "duration": 600
       },
       {
         "id": "spider_web_omega",
-        "duration": 1
+        "duration": 360
+      },
+      {
+      "id": "poison",
+        "duration": 400
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON", "PRIORITIZE_TARGETS" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "mon_spider_web_mu",
@@ -804,15 +917,19 @@
     "attack_effs": [
       {
         "id": "spider_web_slow",
-        "duration": 50
+        "duration": 600
       },
       {
         "id": "spider_web_mu",
-        "duration": 1
+        "duration": 360
+      },
+      {
+      "id": "poison",
+        "duration": 400
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "WEBWALK", "CHITIN", "CLIMBS", "PARALYZEVENOM", "HIT_AND_RUN", "PUSH_MON" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PARALYZEVENOM", "HIT_AND_RUN", "PUSH_MON" ]
   },
   {
     "id": "mon_spider_jumping_giant_acid",
@@ -862,7 +979,13 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED", "STALK" ],
     "fear_triggers": [ "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "BADVENOM", "CHITIN", "CLIMBS", "ACIDPROOF", "ACID_BLOOD", "PUSH_MON" ]
+    "attack_effs": [
+      {
+        "id": "badpoison",
+        "duration": 900
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "CHITIN", "CLIMBS", "ACIDPROOF", "ACID_BLOOD", "PUSH_MON" ]
   },
   {
     "id": "mon_bee",
@@ -890,7 +1013,13 @@
       "subtype": "collection",
       "groups": [ [ "bees", 20 ] ]
     },
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "VENOM", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },
   {
     "id": "mon_bee_scout",
@@ -933,8 +1062,14 @@
       "subtype": "collection",
       "groups": [ [ "bees", 20 ] ]
     },
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "VENOM", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },
   {
     "id": "mon_bee_soldier",
@@ -974,7 +1109,13 @@
       "groups": [ [ "bees", 20 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "VENOM", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },
   {
     "id": "mon_bee_queen",
@@ -1019,7 +1160,13 @@
       "groups": [ [ "bees", 20 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "VENOM", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC", "QUEEN" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC", "QUEEN" ]
   },
   {
     "id": "mon_bee_king",
@@ -1064,7 +1211,13 @@
       "groups": [ [ "bees", 20 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "VENOM", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },
   {
     "id": "mon_bee_larvae",
@@ -1097,5 +1250,17 @@
       "into_group": "GROUP_BEE"
     },
     "flags": [ "HEARS", "SMELLS", "LARVA", "CHITIN", "IMMOBILE" ]
+  },
+  {
+    "id": "mon_wasp",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp",
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE" ]
   }
 ]

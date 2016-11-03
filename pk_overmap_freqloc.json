@@ -637,6 +637,44 @@
         "rotate" : false,
         "flags" : [ "CLASSIC" ]
     },{
+        "type" : "overmap_special",
+        "id" : "power_station_small",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "pwr_sub_s", "connect":"road"}
+        ],
+        "locations" : [ "by_road" ],
+        "city_distance" : [-1, 25],
+        "city_sizes" : [2, 14],
+        "occurrences" : [0, 6],
+        "rotate" : true,
+        "spawns" : { "group" : "GROUP_SMALL_STATION", "population":[4, 10], "radius":[2, 4] }
+    },{
+        "type" : "overmap_special",
+        "id" : "football_field",
+        "overmaps" : [
+            { "point":[-4,2,0], "overmap": "football_field_c1_north"},
+            { "point":[-3,2,0], "overmap": "football_field_c2_north"},
+            { "point":[-2,2,0], "overmap": "football_field_c3_north"},
+            { "point":[-1,2,0], "overmap": "football_field_c4_north"},
+            { "point":[0,2,0], "overmap": "football_field_c5_north", "connect": "road"},
+            { "point":[-4,1,0], "overmap": "football_field_b1_north"},
+            { "point":[-3,1,0], "overmap": "football_field_b2_north"},
+            { "point":[-2,1,0], "overmap": "football_field_b3_north"},
+            { "point":[-1,1,0], "overmap": "football_field_b4_north"},
+            { "point":[0,1,0], "overmap": "football_field_b5_north"},
+            { "point":[-4,0,0], "overmap": "football_field_a1_north"},
+            { "point":[-3,0,0], "overmap": "football_field_a2_north"},
+            { "point":[-2,0,0], "overmap": "football_field_a3_north"},
+            { "point":[-1,0,0], "overmap": "football_field_a4_north"},
+            { "point":[0,0,0], "overmap": "football_field_a5_north"}
+        ],
+        "locations" : [ "by_road" ],
+        "city_distance" : [-1, 4],
+        "city_sizes" : [4, 12],
+        "occurrences" : [-1, 15],
+        "rotate" : true,
+        "flags" : [ "CLASSIC" ]
+    },{
         "type": "overmap_special",
         "id": "Lab",
         "overmaps":

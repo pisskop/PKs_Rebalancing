@@ -47,7 +47,7 @@
     "type": "MONSTER",
     "copy-from": "mon_beekeeper",
     "upgrades": {
-      "half_life": 7,
+      "half_life": 4,
       "into": "mon_beekeeper_pk"
     }
   },
@@ -581,7 +581,13 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
-    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC", "VENOM" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC" ]
   },
   {
     "id": "mon_zombie_child_pk",

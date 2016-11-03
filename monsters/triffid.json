@@ -313,7 +313,13 @@
       "groups": [ [ "biollante", 75 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC", "VENOM" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      }
+    ],
+    "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC" ]
   },
   {
     "id": "mon_vinebeast_terminal",
@@ -378,8 +384,7 @@
     "armor_fire": 2,
     "attack_effs": [
       {
-        "id": "spider_web_omega",
-        "duration": 1
+        "id": "spider_web_omega"
       }
     ],
     "special_attacks": [
@@ -479,6 +484,7 @@
     "armor_fire": 5,
     "vision_day": 30,
     "vision_night": 25,
+    "path_settings": { "max_dist": 25 },
     "luminance": 1,
     "attack_effs": [
       {
@@ -492,6 +498,10 @@
       {
         "id": "paralyzepoison",
         "duration": 50
+      },
+      {
+      "id": "poison",
+        "duration": 400
       }
     ],
     "special_attacks": [
@@ -509,7 +519,7 @@
         [ "biollante", 75 ]
       ]
     },
-    "flags": [ "SEES", "SMELLS", "BASHES", "GROUP_BASH", "VENOM", "DESTROYS", "ATTACKMON", "PUSH_MON", "NOHEAD" ],
+    "flags": [ "SEES", "SMELLS", "BASHES", "GROUP_BASH", "DESTROYS", "ATTACKMON", "PUSH_MON", "NOHEAD" ],
     "//": "Intentionall keep weaker than they could be.  Numbers, and perhaps an evo if its called for."
   },
   {
@@ -540,6 +550,7 @@
     "armor_fire": 4,
     "vision_day": 40,
     "vision_night": 30,
+    "path_settings": { "max_dist": 30 },
     "attack_effs": [
       {
         "id": "paralyzepoison",
@@ -589,6 +600,7 @@
     "armor_fire": 2,
     "vision_day": 30,
     "vision_night": 3,
+    "path_settings": { "max_dist": 25 },
     "special_attacks": [
       [ "VINE", 15 ],
       {
@@ -604,13 +616,23 @@
       "half_life": 14,
       "into_group": "GROUP_DIONAEA"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "VENOM", "BASHES", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      },
+      {
+        "id": "skunk_spray",
+        "duration": 300
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_dionaea",
     "type": "MONSTER",
     "name": "dionaea",
-    "description": "A rotund armored 'head' with a massive maw dominates this monster's form.  Its head hangs low when its not in use, saving energy for its coordinated slither along the ground.",
+    "description": "A rotund armored 'head' with a massive fetid maw dominates this monster's form.  Its head hangs low when its not in use, saving energy for its coordinated slither along the ground.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
     "diff": 25,
@@ -639,6 +661,7 @@
     "armor_fire": 3,
     "vision_day": 35,
     "vision_night": 10,
+    "path_settings": { "max_dist": 30 },
     "special_attacks": [
       {
         "type": "bite",
@@ -650,9 +673,18 @@
       [ "VINE", 15 ],
       [ "RANGED_PULL", 3 ]
     ],
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 400
+      },
+      {
+        "id": "skunk_spray",
+        "duration": 300
+      }
+    ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "VENOM", "BASHES", "GROUP_BASH", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ],
-    "//": "Minor concerns about their strength, but they add real meat to the triffid front lines."
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_minecraft",
@@ -678,6 +710,7 @@
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,
+    "path_settings": { "max_dist": 15 },
     "starting_ammo": { "flashbang": 1, "grenade": 1 },
     "special_attacks": [
       [ "VINE", 5 ],
@@ -713,6 +746,7 @@
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,
+    "path_settings": { "max_dist": 15 },
     "starting_ammo": { "c4": 1, "EMPbomb": 3 },
     "special_attacks": [
       [ "VINE", 5 ],
