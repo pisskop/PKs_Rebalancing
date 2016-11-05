@@ -422,16 +422,6 @@
         "occurrences" : [6, 30],
         "flags" : [ "CLASSIC" ]
     },{
-         "type" : "overmap_special",
-         "id" : "bog",
-         "overmaps" : [
-            { "point":[0,0,0], "overmap": "pond_swamp"}
-        ],
-        "locations" : [ "swamp" ],
-        "city_distance" : [-1, -1],
-        "occurrences" : [0, 0],
-        "flags" : [ "CLASSIC" ]
-    },{
         "type" : "overmap_special",
         "id" : "Plantation",
         "//": "Created and donated by Kedryn on the C:DDA Forums.",
