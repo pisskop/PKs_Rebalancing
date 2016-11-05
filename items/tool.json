@@ -2,8 +2,8 @@
   {
     "id": "pokeball",
     "type": "TOOL",
-    "name": "pocket ball",
-    "description": "A fist-sized ball that holds the ...erm, 'energy' of a monster, allowing you to transport them within safely.  Seems to conserve weight, making its use impractical.",
+    "name": "pocket ball creature warp container",
+    "description": "Creature holding container in form of ball based on experimental warp packing technology. Allows to safely transport creatures but seems to conserve weight, making its use impractical. Someone may misleadingly reference it as Pockeball.",
     "weight": 300,
     "volume": 3,
     "price": 2000000,
