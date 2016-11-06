@@ -3,7 +3,7 @@
     "id": "pokeball",
     "type": "TOOL",
     "name": "pocket ball creature warp container",
-    "description": "Creature holding container in form of ball based on experimental warp packing technology. Allows to safely transport creatures but seems to conserve weight, making its use impractical. Someone may misleadingly reference it as Pockeball.",
+    "description": "Creature holding container in form of ball based on experimental warp packing technology. Allows to safely transport creatures but seems to conserve weight, making its use impractical. Someone may misleadingly reference it as Pokeball.",
     "weight": 300,
     "volume": 3,
     "price": 2000000,
