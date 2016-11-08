@@ -1261,6 +1261,43 @@
         "duration": 400
       }
     ],
+    "vision_day": 12,
+    "vision_night": 7,
     "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE" ]
+  },
+  {
+    "id": "mon_wasp_queen",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp",
+    "name": "queen wasp",
+    "description": "This wasp seems to provide overarching direction to the other wasps.  Killing this one will probably cause them to disperse.",
+    "symbol": "a",
+    "color": "ltgray",
+    "aggression": 10,
+    "morale": 40,
+    "melee_skill": 7,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 8,
+    "dodge": 5,
+    "armor_bash": 6,
+    "armor_cut": 8,
+    "vision_day": 12,
+    "vision_night": 7,
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 600
+      }
+    ],
+    "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE", "QUEEN" ]
+  },
+  {
+    "id": "mon_wasp_larvae",
+    "type": "MONSTER",
+    "copy-from": "mon_bee_larvae",
+    "default_faction": "wasp",
+    "name": "larval wasp",
+    "description": "A wriggling larvae that will mature into a giant wasp if allowed to grow."
   }
 ]

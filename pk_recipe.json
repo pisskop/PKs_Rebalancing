@@ -1044,5 +1044,29 @@
         [[ "scrap", 6 ]],
         [[ "string_36", 1 ], [ "string_6", 6 ]]
     ]
+    },{
+    "result": "wasp_glue_super",
+    "type": "recipe",
+    "result_mult": 2,
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "fabrication",
+    "skills_required": [[ "cooking", 2 ], [ "survival", 3 ]],
+    "difficulty": 4,
+    "time": 37000,
+    "autolearn": true,
+    "reversible": false,
+    "book_learn": [["survival_book", 3], [ "recipe_creepy", 3]],
+    "qualities": [
+        {"id":"COOK","level":1}, {"id":"BOIL","level":2}
+    ],
+    "tools": [[[ "hotplate", 21 ], [ "toolset", 21 ], [ "fire", -1 ]]],
+    "components": [
+        [["wasp_glue", 3]],
+        [["water_clean", 1], ["water", 1]],
+        [["water_acid", 1], ["water_acid_weak", 2]],
+        [["fertilizer_commercial", 50], ["fertilizer_liquid", 50], ["material_quicklime", 50], ["material_limestone", 50], ["fungicide", 50]],
+        [["bag_plastic", 1]]
+    ]
     }
 ]

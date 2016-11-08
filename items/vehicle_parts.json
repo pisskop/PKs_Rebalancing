@@ -1,5 +1,15 @@
 [
-    {
+    
+  {
+    "id": "storage_battery_removable",
+    "copy-from": "storage_battery",
+    "type": "vehicle_part",
+    "name": "swappable storage battery",
+    "item": "storage_battery",
+    "difficulty": 0,
+    "location": "on_battery_mount",
+    "extend": { "flags": [ "TOOL_NONE", "NEEDS_BATTERY_MOUNT", "REVERSIBLE" ] }
+  },{
     "id": "aisle_lights",
     "type": "vehicle_part",
     "name": "aisle lights",

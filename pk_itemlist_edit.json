@@ -6,7 +6,7 @@
     "entries":
     [
     { "item": "id_military", "prob": 3 },
-    { "group": "softdrugs", "prob": 2 },
+    { "group": "prefab_chems", "prob": 2 },
     { "group": "drugs_soldier", "prob": 5 },
     { "group": "ammo_milspec", "prob": 5 }
     ]
@@ -17,6 +17,7 @@
     "entries":
     [
     { "group": "harddrugs", "prob": 1 },
+    { "group": "prefab_chems", "prob": 6 },
     { "group": "mutagen_science", "prob": 4 },
     { "item": "purifier", "prob": 1 }
     ]
@@ -27,6 +28,7 @@
     "entries":
     [
     { "group": "softdrugs", "prob": 1 },
+    { "group": "prefab_chems", "prob": 1 },
     { "group": "prison_armor", "prob": 1 },
     { "group": "cop_armory", "prob": 1 }
     ]
@@ -36,6 +38,7 @@
     "id": "map_extra_drugdeal",
     "entries":
     [
+    { "group": "prefab_chems", "prob": 1 },
     { "item": "mutagen", "prob": 2 },
     { "item": "purifier", "prob": 1 }
     ]
@@ -135,6 +138,7 @@
     "type": "item_group",
     "id": "spider",
     "items":[
+    { "group": "prefab_chems", "prob": 30 },
     { "group": "bomblet_ammo", "prob": 50, "count": [2, 5] },
     ["megaarmor_leggings_1", 8],
     ["megaarmor_gloves_1", 8],
@@ -160,13 +164,15 @@
     ["ithaca_doom", 10 ],
     ["ithaca_doom_dual", 5 ],
     ["mutagen", 10 ],
-    ["mutagen_spider", 5],
-    ["purifier", 5 ]
+    ["iv_mutagen_spider", 10],
+    ["purifier", 5 ],
+    ["wasp_glue_super", 15]
     ]
     },{
     "type": "item_group",
     "id": "helicopter",
     "items":[
+    { "group": "prefab_chems", "prob": 5 },
     { "group": "bomblet_ammo", "prob": 20, "count": [1, 2] },
     ["megaarmor_leggings_1", 7],
     ["megaarmor_gloves_1", 7],
@@ -192,6 +198,7 @@
     "type": "item_group",
     "id": "military",
     "items":[
+    { "group": "prefab_chems", "prob": 2 },
     ["megaarmor_leggings_1", 8],
     ["megaarmor_gloves_1", 8],
     ["megaarmor_armguards_1", 8],
@@ -242,6 +249,7 @@
     "type": "item_group",
     "id": "survivorzed_extra",
     "items":[
+    { "group": "prefab_chems", "prob": 2 },
     { "group": "bomblet_ammo", "prob": 5, "count": [1, 2] },
     ["410_lever", 2],
     ["410_revolver", 2],
@@ -260,7 +268,8 @@
     ["antidote_posion", 5],
     ["antidote_badpoison", 2],
     ["pipe_solid_spear", 15],
-    ["pipe_solid", 10]
+    ["pipe_solid", 10],
+    ["wasp_glue_super", 8]
     ]
     },{
     "type": "item_group",
@@ -385,6 +394,7 @@
     "type": "item_group",
     "//": "Healing items appropriate for soldiers and other paramilitary forces",
     "entries": [
+    { "group": "prefab_chems", "prob": 4 },
     { "item": "berserker_drug", "prob": 15 },
     { "item": "stamina_vial", "prob": 35 },
     { "item": "medikit", "prob": 25 },
@@ -396,6 +406,7 @@
     "id": "swat_gear",
     "subtype": "distribution",
     "items":[
+    { "group": "prefab_chems", "prob": 1 },
     { "group": "bomblet_ammo", "prob": 10, "count": [1, 2] },
     ["megaarmor_leggings_1", 8],
     ["megaarmor_gloves_1", 8],
@@ -418,6 +429,7 @@
         "subtype": "collection",
         "id": "mon_zombie_scientist_death_drops",
         "entries": [
+    { "group": "prefab_chems", "prob": 1 },
     { "item": "bot_manhack_fire", "prob": 2 },
     { "item": "bot_manhack", "prob": 10 },
     { "item": "acidbomb_medium", "prob": 2 },
@@ -560,6 +572,7 @@
     "type": "item_group",
     "id": "hardrugs",
     "items": [
+    { "group": "prefab_chems", "prob": 1 },
     ["stamina_vial", 12 ],
     ["medikit", 8 ],
     ["berserker_drug", 8 ],
@@ -593,8 +606,33 @@
     "type": "item_group",
     "id": "mansion_books",
     "items": [
-      ["null", 20 ],
-      { "group": "doom_stimpack", "damage": [1, 3], "prob": 50 }
+      ["null", 50 ]
+    ]
+    },{
+    "type": "item_group",
+    "id": "drugs_analgesic",
+    "items": [
+    ["stamina_vial", 30 ],
+    ["medikit", 20 ]
+    ]
+    },{
+    "type": "item_group",
+    "id": "drugs_heal_simple",
+    "items": [
+    ["stamina_vial", 10 ],
+    ["medikit", 2 ]
+    ]
+    },{
+    "type": "item_group",
+    "id": "drugs_emergency",
+    "items": [
+      { "group": "prefab_chems", "prob": 4 }
+    ]
+    },{
+    "type": "item_group",
+    "id": "drugs_rare",
+    "items": [
+      { "group": "prefab_chems", "prob": 10 }
     ]
     }
 ]

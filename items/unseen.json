@@ -23,6 +23,27 @@
     "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
   },
   {
+    "id": "bot_tripod",
+    "type": "TOOL",
+    "name": "tribot spawner",
+    "description": "Spawns an tribot into the world.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_tripod",
+      "place_randomly": true
+    }
+  },
+  {
     "id": "bot_imp_revive",
     "type": "TOOL",
     "name": "scarred imp spawner",

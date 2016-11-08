@@ -385,5 +385,50 @@
     "symbol": ",",
     "color": "green",
     "ammo_type": "components"
+  },{
+    "type" : "COMESTIBLE",
+    "id" : "egg_wasp",
+    "name" : "wasp egg",
+    "sub": "egg_reptile",
+    "weight" : 60,
+    "color" : "white",
+    "spoils_in" : 672,
+    "comestible_type" : "FOOD",
+    "symbol" : "o",
+    "quench" : -6,
+    "healthy" : 0,
+    "nutrition" : 25,
+    "description" : "An egg belonging to a wasp.  Feels gross and coarse and silky.",
+    "fun" : -18
+  },
+  {
+    "type":"GENERIC",
+    "id": "wasp_glue",
+    "symbol": ",",
+    "sub": "bone_glue",
+    "color": "ltgray",
+    "name": "wasp glue",
+    "description": "Glue made from a wasps saliva, some plant material, and whatever they've eaten.  Makes a fairly weak glue, but can be dried and processed into an adhesive with some effort.",
+    "price": 1800,
+    "material": "paper",
+    "weight": 50,
+    "volume": 1,
+    "to_hit": -2,
+    "flags" : ["UNRECOVERABLE"]
+  },
+  {
+    "type":"GENERIC",
+    "id": "wasp_glue_super",
+    "symbol": ",",
+    "sub": "superglue",
+    "color": "dkgray",
+    "name": "wasp adhesive",
+    "description": "Glue mixed with acid water and dried after being mixed with nitrates to firm it up.  Makes a strong glue that is capable of a wide range of uses.",
+    "price": 1800,
+    "material": "paper",
+    "weight": 60,
+    "volume": 1,
+    "to_hit": -2,
+    "flags" : ["UNRECOVERABLE"]
   }
 ]

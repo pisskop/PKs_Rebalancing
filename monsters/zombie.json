@@ -46,6 +46,8 @@
     "id": "mon_beekeeper",
     "type": "MONSTER",
     "copy-from": "mon_beekeeper",
+    "vision_day": 30,
+    "vision_night": 5,
     "upgrades": {
       "half_life": 4,
       "into": "mon_beekeeper_pk"
@@ -554,7 +556,7 @@
     "speed": 50,
     "material": [ "flesh" ],
     "symbol": "Z",
-    "color": "pink",
+    "color": "ltred",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 5,
@@ -564,6 +566,8 @@
     "dodge": 0,
     "armor_bash": 7,
     "armor_cut": 11,
+    "vision_day": 35,
+    "vision_night": 5,
     "emit_fields": [ "emit_flesh_slough" ],
     "special_attacks": [
       [ "GRAB", 20 ],
@@ -696,6 +700,8 @@
     "id": "mon_zombie_crawler",
     "type": "MONSTER",
     "copy-from": "mon_zombie_crawler",
+    "vision_day": 30,
+    "vision_night": 5,
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
       "half_life": 14,
@@ -926,6 +932,7 @@
     "copy-from": "mon_zombie_brute_ninja",
     "hp": 220,
     "speed": 110,
+    "aggression": 75,
     "melee_skill": 10,
     "melee_dice": 6,
     "melee_dice_sides": 4,
@@ -1023,6 +1030,7 @@
     "id": "mon_zombie_shady",
     "type": "MONSTER",
     "copy-from": "mon_zombie_shady",
+    "aggression": 75,
     "burn_into": "mon_zombie_crawler_pk_weak",
     "upgrades": {
       "half_life": 11,

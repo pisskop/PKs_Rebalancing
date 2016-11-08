@@ -12,7 +12,7 @@
     "vision_night": 2,
     "starting_ammo": { "bot_fungal_boil": 4 },
     "special_attacks": [
-      [ "FUNGUS_BRISTLE", 20 ],
+      [ "FUNGUS_BRISTLE", 5 ],
       [ "FUNGUS", 240 ],
       [ "TENTACLE", 50 ],
       [ "GRENADIER", 120 ]
@@ -33,7 +33,7 @@
     "vision_night": 30,
     "starting_ammo": { "bot_fungal_boil": 8 },
     "special_attacks": [
-      [ "FUNGUS_BRISTLE", 30 ],
+      [ "FUNGUS_BRISTLE", 20 ],
       [ "FUNGUS", 30 ],
       [ "GRENADIER", 60 ]
     ],
@@ -180,7 +180,7 @@
       },
       [ "LUNGE", 60 ],
       [ "FUNGUS", 180 ],
-      [ "FUNGUS_INJECT", 40 ]
+      [ "FUNGUS_INJECT", 60 ]
     ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND", "FIRE" ],
@@ -238,7 +238,7 @@
     "diff": 1,
     "size": "LARGE",
     "hp": 145,
-    "speed": 170,
+    "speed": 145,
     "material": [ "flesh" ],
     "symbol": "M",
     "color": "dkgray",
@@ -256,7 +256,7 @@
     "vision_night": 10,
     "special_attacks": [
       [ "SMASH", 40 ],
-      [ "FUNGUS", 180 ],
+      [ "FUNGUS", 120 ],
       [ "HOWL", 60 ]
     ],
     "anger_triggers": [ "FIRE", "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
@@ -298,8 +298,8 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
-      [ "FUNGUS", 240 ],
-      [ "FUNGUS_INJECT", 50 ],
+      [ "FUNGUS", 120 ],
+      [ "FUNGUS_INJECT", 60 ],
       {
         "type": "bite",
         "cooldown": 7,
@@ -365,8 +365,8 @@
           }
         ]
       },
-      [ "GRAB", 60 ],
-      [ "FUNGUS", 240 ],
+      [ "GRAB", 40 ],
+      [ "FUNGUS", 180 ],
       [ "FUNGUS_INJECT", 60 ]
     ],
     "death_function": [ "NORMAL", "FUNGUS" ],

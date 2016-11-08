@@ -19,7 +19,7 @@
       "half_life": 14,
       "into_group": "GROUP_ANT"
     },
-    "flags": [ "HEARS", "SMELLS", "KEENNOSE", "LARVA", "CHITIN" ]
+    "flags": [ "HEARS", "SMELLS", "KEENNOSE", "LARVA", "CHITIN", "SWARMS" ]
   },
   {
     "id": "mon_ant",

@@ -66,7 +66,7 @@
     "id": "mon_zolf",
     "type": "MONSTER",
     "copy-from": "mon_zolf",
-    "hp": 75,
+    "hp": 65,
     "speed": 125,
     "melee_skill": 5,
     "melee_dice": 2,
@@ -76,6 +76,7 @@
     "armor_bash": 3,
     "armor_cut": 1,
     "special_attacks": [
+        [ "HOWL", 20 ],
       {
         "type": "bite",
         "cooldown": 7,
@@ -85,6 +86,40 @@
     ],
     "burn_into": "mon_zolf_scorched"
   },
+  {
+    "id": "mon_zolf_shady",
+    "type": "MONSTER",
+    "copy-from": "mon_zolf",
+    "name": "dark howler",
+    "description": "A zombified wolf with a shady disposition.  There are dirty white fangs, but you can't make out much else.",
+    "diff": 16,
+    "hp": 55,
+    "speed": 135,
+    "color": "igreen",
+    "aggression": 75,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 5,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 3
+      }
+    ],
+    "dodge": 4,
+    "armor_bash": 3,
+    "armor_cut": 1,
+    "vision_day": 10,
+    "vision_night": 45,
+    "special_attacks": [
+      [ "HOWL", 20 ],
+      [ "LUNGE", 20 ]
+    ],
+    "death_function": [ "NORMAL" ],
+    "burn_into": "mon_zolf_scorched",
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "SWARMS" ]
+},
   {
     "id": "mon_zougar",
     "type": "MONSTER",

@@ -1,5 +1,21 @@
 [
-    {
+  {
+    "type": "item_group",
+    "id": "prefab_chems",
+    "//": "pre-apocolypse drugs that are uncommon/rare or require uncommon ingredients.",
+    "items": [
+      ["mutagen", 8],
+      ["purifier", 4],
+      ["antidote_posion", 20],
+      ["antidote_badpoison", 4],
+      ["stamina_vial", 12],
+      ["berserker_drug", 8],
+      ["medikit", 12],
+      ["chem_hydrogen_peroxide", 15],
+      ["aspirin", 20]
+    ]
+  },
+  {
     "type": "item_group",
     "id": "mutagen_science",
     "//": "low mutagen finding chances",

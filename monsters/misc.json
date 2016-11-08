@@ -698,7 +698,7 @@
     "dodge": 5,
     "vision_day": 40,
     "anger_triggers": [ "PLAYER_CLOSE", "STALK", "FRIEND_ATTACKED" ],
-    "fear_triggers": [ "SOUND", "HURT", "FRIEND_DIED" ],
+    "fear_triggers": [ "SOUND", "HURT", "FRIEND_DIED", "FIRE" ],
     "placate_triggers": [ "SOUND", "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "BONES", "FEATHER", "HARDTOSHOOT", "HIT_AND_RUN" ]
@@ -1041,7 +1041,7 @@
     "vision_day": 20,
     "vision_night": 7,
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK" ],
-    "fear_triggers": [ "HURT" ],
+    "fear_triggers": [ "HURT", "SOUND", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "SWARMS", "GROUP_MORALE", "CAN_DIG" ]
   }

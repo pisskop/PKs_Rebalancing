@@ -223,7 +223,7 @@
     {
         "type": "effect_type",
         "id": "poison",
-        "copy-from": "badpoison",
+        "copy-from": "poison",
         "name": ["Poisoned"],
         "apply_message": "You feel poisoned!",
         "desc": ["You have been poisoned!"],
@@ -233,7 +233,7 @@
       "int_decay_step": -1,
       "int_decay_tick": 400,
       "max_duration": 400,
-      "decay_messages": [["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
+      "decay_messages": [["You feel a little better.", "neutral"], ["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
         "rating": "bad",
         "resist_traits": ["POISRESIST"],
         "pain_sizing": true,
@@ -247,7 +247,9 @@
             "pain_min": [1],
             "pain_chance": [150, 900],
             "hurt_min": [1],
-            "hurt_chance": [450, 2700]
+            "hurt_chance": [450, 2700],
+            "vomit_chance": [300],
+            "vomit_tick": [30]
         },
         "scaling_mods": {
             "per_mod": [-1, -0.5],
@@ -257,7 +259,8 @@
             "pain_min": [0.5],
             "pain_chance": [-25, -200],
             "hurt_min": [1],
-            "hurt_chance": [-25, -900]
+            "hurt_chance": [-25, -900],
+            "vomit_chance": [-90]
         }
     },
     {
@@ -273,7 +276,7 @@
       "int_decay_step": -1,
       "int_decay_tick": 900,
       "max_duration": 900,
-      "decay_messages": [["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
+      "decay_messages": [["You feel a little better.", "neutral"], ["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
         "rating": "bad",
         "resist_traits": ["POISRESIST"],
         "pain_sizing": true,
@@ -288,7 +291,9 @@
             "pain_chance": [100, 500],
             "hurt_min": [1],
             "hurt_max": [2],
-            "hurt_chance": [300, 1800]
+            "hurt_chance": [300, 1800],
+            "vomit_chance": [210],
+            "vomit_tick": [30]
         },
         "scaling_mods": {
             "per_mod": [-1],
@@ -299,7 +304,8 @@
             "pain_chance": [-20, -100],
             "hurt_min": [1],
             "hurt_max": [2],
-            "hurt_chance": [-25, -500]
+            "hurt_chance": [-25, -500],
+            "vomit_chance": [-60]
         }
   }
 ]

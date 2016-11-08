@@ -21,13 +21,36 @@
     "id": "mon_tripod",
     "type": "MONSTER",
     "copy-from": "mon_tripod",
-    "vision_night": 30
+    "description": "The Honda Minuteman, a 4-foot tall robot walking on three spidery legs used as aids in tactical infiltrations, guerilla warfare, and small deep field operations.  For weapons, it has a trio of spiked retractable cables and a powerful welder for cutting into steel and concrete.",
+    "size": "MEDIUM",
+    "hp": "60",
+    "melee_skill": 8,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 6,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 6
+      },{
+        "damage_type": "heat",
+        "amount": 4
+      }
+    ],
+    "vision_night": 25,
+    "path_settings": { "max_dist": 30 },
+    "special_attacks": [ [ "GRAB", 5 ] ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "BASHES", "BORES", "PUSH_MON", "PATH_AVOID_DANGER_1", "NO_BREATHE", "ELECTRONIC", "CLIMBS", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "mon_chickenbot",
     "type": "MONSTER",
     "copy-from": "mon_chickenbot",
-    "vision_night": 20
+    "vision_night": 20,
+    "starting_ammo": { "40mm_frag": 100, "556": 1000, "bot_tripod": 2 },
+    "path_settings": { "max_dist": 50 },
+    "special_attacks": [ [ "CHICKENBOT", 5 ], [ "GRENADIER", 3 ] ],
+    "flags": [ "SEES", "HEARS", "BASHES", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
   },
   {
     "id": "mon_tankbot",
