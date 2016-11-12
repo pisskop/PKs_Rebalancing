@@ -156,7 +156,7 @@
     "symbol": "s",
     "color": "ltgray",
     "aggression": -1,
-    "morale": 60,
+    "morale": 50,
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 6,
@@ -171,8 +171,8 @@
     "armor_bash": 5,
     "armor_cut": 10,
     "armor_fire": 5,
-    "vision_day": 5,
-    "vision_night": 5,
+    "vision_day": 7,
+    "vision_night": 7,
     "special_attacks": [
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]

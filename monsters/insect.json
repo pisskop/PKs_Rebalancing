@@ -993,6 +993,8 @@
     "copy-from": "mon_bee",
     "description": "With a stinger the size of a kitchen knife, this dog-sized insect's black and yellow markings warn you to leave it undisturbed.  Its fine coat of bristles seems to attract electric charge.",
     "hp": 35,
+    "aggression": -10,
+    "morale": 40,
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 5,
@@ -1019,7 +1021,8 @@
         "duration": 400
       }
     ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
+    "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ]
   },
   {
     "id": "mon_bee_scout",
@@ -1057,7 +1060,6 @@
     "vision_day": 11,
     "vision_night": 5,
     "special_when_hit": [ "ZAPBACK", 25 ],
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE" ],
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "bees", 20 ] ]
@@ -1069,7 +1071,8 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
+    "anger_triggers": [ "HURT", "FRIEND_DIED" ]
   },
   {
     "id": "mon_bee_soldier",
@@ -1103,7 +1106,6 @@
     "vision_day": 11,
     "vision_night": 5,
     "special_when_hit": [ "ZAPBACK", 15 ],
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE" ],
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "bees", 20 ] ]
@@ -1115,7 +1117,8 @@
         "duration": 400
       }
     ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
+    "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE" ]
   },
   {
     "id": "mon_bee_queen",
@@ -1205,7 +1208,7 @@
     "vision_night": 5,
     "special_attacks": [ [ "SHOCKSTORM", 60 ] ],
     "special_when_hit": [ "ZAPBACK", 35 ],
-    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE" ],
+    "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "bees", 20 ] ]

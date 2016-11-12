@@ -176,6 +176,8 @@
     "overmaps" : [
       { "point":[0,-2,0], "overmap": "s_restaurant_fast_south"},
       { "point":[0,-1,0], "overmap": "s_lot"},
+      { "point":[2,-2,0], "overmap": "house_west"},
+      { "point":[4,-2,0], "overmap": "house_west"},
       { "point":[0,0,0], "overmap": "house_east"},
       { "point":[0,1,0], "overmap": "field"},
       { "point":[0,2,0], "overmap": "house_south"},
@@ -183,6 +185,7 @@
       { "point":[0,4,0], "overmap": "house_north"},
       { "point":[0,5,0], "overmap": "field"},
       { "point":[0,6,0], "overmap": "house_west"},
+      { "point":[0,8,0], "overmap": "house_south"},
       { "point":[1,0,0], "overmap": "house_west"},
       { "point":[1,1,0], "overmap": "field"},
       { "point":[1,2,0], "overmap": "house_south"},
@@ -190,6 +193,7 @@
       { "point":[1,4,0], "overmap": "house_north"},
       { "point":[1,5,0], "overmap": "field"},
       { "point":[1,6,0], "overmap": "house_east"},
+      { "point":[1,8,0], "overmap": "house_east"},
       { "point":[2,1,0], "overmap": "bar_south"},
       { "point":[2,2,0], "overmap": "road_ns"},
       { "point":[2,3,0], "overmap": "road_nesw"},
@@ -199,16 +203,21 @@
       { "point":[3,1,0], "overmap": "field"},
       { "point":[3,2,0], "overmap": "park"},
       { "point":[3,3,0], "overmap": "road_ew"},
-      { "point":[3,4,0], "overmap": "park"},
+      { "point":[3,4,0], "overmap": "warehouse_south"},
       { "point":[3,5,0], "overmap": "field"},
       { "point":[3,6,0], "overmap": "house_west"},
+      { "point":[3,8,0], "overmap": "house_south"},
       { "point":[4,1,0], "overmap": "field"},
       { "point":[4,2,0], "overmap": "field"},
       { "point":[4,3,0], "overmap": "road_ew"},
       { "point":[4,4,0], "overmap": "field"},
       { "point":[4,5,0], "overmap": "field"},
+      { "point":[4,8,0], "overmap": "house_west"},
       { "point":[5,3,0], "overmap": "church_east"},
-      { "point":[6,1,0], "overmap": "pond_field"}
+      { "point":[6,0,0], "overmap": "house_east"},
+      { "point":[6,1,0], "overmap": "house_east"},
+      { "point":[6,7,0], "overmap": "house_west"},
+      { "point":[7,4,0], "overmap": "pond_field"}
     ],
     "connections" : [
     { "point" : [-1,-1,0], "terrain" : "road"},
@@ -291,10 +300,26 @@
     ],
     "locations": [ "forest" ],
     "city_distance": [1, -1],
-    "city_sizes": [1, 12],
+    "city_sizes": [1, 16],
     "occurrences": [1, 6],
     "rotate": true,
-    "spawns": { "group": "GROUP_TRIFFID", "population":[650,1400], "radius":[25,60] }
+    "spawns": { "group": "GROUP_TRIFFID", "population":[500,1250], "radius":[25,60] }
+  },{
+    "type": "overmap_special",
+    "id": "Triffid Grove Swamp",
+    "overmaps":
+    [
+      { "point":[0,0,0], "overmap": "triffid_grove_swamp"},
+      { "point":[0,0,-1], "overmap": "triffid_roots"},
+      { "point":[0,0,-2], "overmap": "triffid_roots"},
+      { "point":[0,0,-3], "overmap": "triffid_finale"}
+    ],
+    "locations": [ "swamp" ],
+    "city_distance": [1, -1],
+    "city_sizes": [1, 16],
+    "occurrences": [0, 3],
+    "rotate": true,
+    "spawns": { "group": "GROUP_TRIFFID_SWAMP", "population":[500,1250], "radius":[25,60] }
   },{
     "type": "overmap_special",
     "id": "Fungal Bloom",

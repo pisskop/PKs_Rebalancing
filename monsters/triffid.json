@@ -282,7 +282,7 @@
     "diff": 16,
     "size": "LARGE",
     "hp": 70,
-    "speed": 60,
+    "speed": 120,
     "material": [ "veggy" ],
     "symbol": "S",
     "color": "green",
@@ -319,7 +319,7 @@
         "duration": 400
       }
     ],
-    "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC" ]
+    "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "SWIMS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC" ]
   },
   {
     "id": "mon_vinebeast_terminal",
@@ -583,7 +583,7 @@
     "diff": 10,
     "size": "MEDIUM",
     "hp": 80,
-    "speed": 70,
+    "speed": 150,
     "material": [ "veggy" ],
     "symbol": "D",
     "color": "ltgreen",
@@ -626,7 +626,7 @@
         "duration": 300
       }
     ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "SWIMS", "BASHES", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_dionaea",
@@ -638,7 +638,7 @@
     "diff": 25,
     "size": "LARGE",
     "hp": 200,
-    "speed": 60,
+    "speed": 120,
     "material": [ "veggy" ],
     "symbol": "D",
     "color": "green",
@@ -684,7 +684,7 @@
       }
     ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "SWIMS", "BASHES", "GROUP_BASH", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
   },
   {
     "id": "mon_minecraft",

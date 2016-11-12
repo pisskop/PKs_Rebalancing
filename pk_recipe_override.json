@@ -1,5 +1,28 @@
 [
   {
+    "result": "broken_tripod",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": 300000,
+    "qualities": [
+      { "id": "SCREW", "level": 1, "amount": 1 },
+      { "id": "SAW_M", "level": 1, "amount": 1 }
+    ],
+    "tools": [
+      [ [ "soldering_iron", 10 ], [ "toolset", 10 ] ],
+      [ [ "oxy_torch", 20 ], [ "welder", 100 ], [ "toolset", 150 ], [ "welder_crude", 150 ] ]
+    ],
+    "components": [
+      [ [ "power_supply", 12 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "welder", 1 ] ],
+      [ [ "wire", 4 ] ],
+      [ [ "motor", 2 ] ],
+      [ [ "steel_chunk", 60 ] ]
+    ]
+  },{
     "type" : "recipe",
     "result": "mutagen",
     "override": true,

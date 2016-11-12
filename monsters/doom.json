@@ -771,7 +771,7 @@
     "special_attacks": [ [ "FEAR_PARALYZE", 25 ] ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "IMMOBILE", "GUILT", "POISON", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "IMMOBILE", "POISON", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_soulcube",

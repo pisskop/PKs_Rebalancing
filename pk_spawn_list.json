@@ -1143,6 +1143,30 @@
     ]
   },{
     "type":"monstergroup",
+    "name": "GROUP_TRIFFID_SWAMP",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_triffid_young", "freq": 50, "cost_multiplier": 1, "pack_size": [ 1,3 ] },
+      { "monster": "mon_triffid", "freq": 20, "cost_multiplier": 3 },
+      { "monster": "mon_triffid_pk", "freq": 5, "cost_multiplier": 3 },
+      { "monster": "mon_fungal_fighter", "freq": 50, "cost_multiplier": 3, "pack_size": [ 3,5 ] },
+      { "monster": "mon_vinebeast", "freq": 50, "cost_multiplier": 3, "pack_size": [ 1,3 ] },
+      { "monster": "mon_triffid_queen", "freq": 10, "cost_multiplier": 5, "pack_size": [ 1,3 ] },
+      { "monster": "mon_creeper_root", "freq": 75, "cost_multiplier": 3, "pack_size": [ 1,3 ] },
+      { "monster": "mon_creeper_hub", "freq": 15, "cost_multiplier": 13, "starts":  100 },
+      { "monster": "mon_creeper_vine_pk", "freq": 60, "cost_multiplier": 15, "pack_size": [ 3,5 ] },
+      { "monster": "mon_dionaea_sprout", "freq": 75, "cost_multiplier": 3 },
+      { "monster": "mon_dionaea", "freq": 35, "cost_multiplier": 7, "starts":  100 },
+      { "monster": "mon_treent", "freq": 35, "cost_multiplier": 10, "starts":  25 },
+      { "monster": "mon_treent_green", "freq": 35, "cost_multiplier": 7, "starts": 75 },
+      { "monster": "mon_minecraft", "freq": 30, "cost_multiplier": 10, "pack_size": [ 1,4 ], "starts":  50 },
+      { "monster": "mon_minecraft_charged", "freq": 30, "cost_multiplier": 15, "pack_size": [ 1,3 ], "starts":  100 },
+      { "monster": "mon_triffid_heart", "freq": 0, "cost_multiplier": 0 },
+      { "monster": "mon_spider_wolf_giant", "freq":  50, "cost_multiplier": 6, "pack_size": [ 1,4 ], "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_spider_wolf_giant", "freq":  10, "cost_multiplier": 15, "pack_size": [ 1,3 ], "starts":  100, "conditions": ["SPRING", "SUMMER", "AUTUMN"] }
+    ]
+  },{
+    "type":"monstergroup",
     "name": "GROUP_FUNGI",
     "default": "mon_fungus_boil",
     "monsters": [
@@ -1592,9 +1616,9 @@
     "name": "GROUP_BEE",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_bee", "freq": 300, "cost_multiplier": 0 },
+      { "monster": "mon_bee", "freq": 200, "cost_multiplier": 0 },
       { "monster": "mon_bee_scout", "freq": 200, "cost_multiplier": 0 },
-      { "monster": "mon_bee_soldier", "freq": 150, "cost_multiplier": 3, "pack_size": [1,3] },
+      { "monster": "mon_bee_soldier", "freq": 125, "cost_multiplier": 3, "pack_size": [1,3] },
       { "monster": "mon_bee_king", "freq": 75, "cost_multiplier": 5 },
       { "monster": "mon_bee_queen", "freq": 0, "cost_multiplier": 0 },
       { "monster": "mon_bee_larvae", "freq": 0, "cost_multiplier": 0 }

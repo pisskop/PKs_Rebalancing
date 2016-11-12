@@ -25,7 +25,7 @@
       "torso_power": 20,
       "effects": [
         { "id": "pkill1", "duration": 30 },
-        { "id": "doom_unhealth", "duration": 5 }
+        { "id": "doom_unhealth", "duration": 10 }
       ]
     },
     "flags": [ "USE_ON_NPC" ]
