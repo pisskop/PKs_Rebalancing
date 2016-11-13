@@ -650,7 +650,7 @@
     ["bomblet_launcher_rotary", 20],
     ["bomblet_launcher_dualshot", 20],
     ["bfg_shell", 25],
-    ["BFG", 15],
+    ["BFG", 15]
     ]
   },
   {
@@ -672,7 +672,7 @@
     "id": "ammo_milspec",
     "//": "Military specification ammo found at military sites.",
     "items": [
-      { "group": "bomblet_ammo", "prob": 40 },
+      { "group": "bomblet_ammo", "prob": 40 }
     ]
   }
 ]
