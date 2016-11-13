@@ -224,7 +224,7 @@
     "id": "mon_bear_weak",
     "type": "MONSTER",
     "name": "bear",
-    "copy-from": "mon_zombie_fat",
+    "copy-from": "mon_bear",
     "description": "The American black bear.  A large omnivorous scavenger, it has powerful claws and jaws, and is an effective ambush hunter.  It can pose a considerable threat, although most individuals are shy around humans.  This one has mottled fur and desperate, hungry eyes.",
     "hp": 120,
     "speed": 140,

@@ -739,5 +739,60 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED" ] }
+  },
+  {
+    "id": "bfg_shell",
+    "type": "AMMO",
+    "name": "BFG shell",
+    "name_plural": "BFG shells",
+    "description": "A large green sphere, glowing very faintly and runed with a swirling pattern that flows beneath the surface.  Upon violent impact, its internal mechanisms will destabilize the material within.  Notably, it is fireproof.",
+    "weight": 150,
+    "volume": 8,
+    "price": 45000,
+    "material": [ "spess_plastic", "powder" ],
+    "symbol": "*",
+    "color": "ltgreen",
+    "count": 2,
+    "ammo_type": "bfg_plutonium",
+    "range": 40,
+    "damage": 35,
+    "pierce": 20,
+    "effects": [ "RECOVER_99", "NO_EMBED", "BOUNCE", "PLASMA", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "LEAK_ALWAYS", "LEAK_DAM", "RADIOACTIVE" ],
+    "emits": [ "emit_bfg_rad", "emit_plasma", "emit_fatigue_big", "emit_fatigue" ],
+    "countdown_interval": 2,
+    "countdown_action": {
+      "target": "bfg_shell_act",
+      "target_charges": 1,
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "bfg_shell_act",
+    "type": "TOOL",
+    "name": "stun bomblet",
+    "description": "A Glowing Sphere of concentrated energy, unfurling and writhing as it destroys the fabric of reality.",
+    "weight": 80,
+    "volume": 2,
+    "price": 45000,
+    "material": [ "plastic", "powder" ],
+    "symbol": "*",
+    "color": "ltblue",
+    "initial_charges": 1,
+    "max_charges": 1,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "emp_blast_radius": 5,
+      "explosion": {
+        "power": 60,
+        "distance_factor": 0.4,
+        "shrapnel": 4,
+        "fields_type": "fd_rubble",
+        "fields_radius": 2,
+        "fields_min_density": 0,
+        "fields_max_density": 1
+      }
+    }
   }
 ]

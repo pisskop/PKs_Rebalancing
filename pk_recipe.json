@@ -1068,5 +1068,22 @@
         [["fertilizer_commercial", 50], ["fertilizer_liquid", 50], ["material_quicklime", 50], ["material_limestone", 50], ["fungicide", 50]],
         [["bag_plastic", 1]]
     ]
-    }
+    },{
+  "type" : "recipe",
+  "result": "bfg_shell",
+  "category": "CC_AMMO",
+  "subcategory": "CSC_AMMO_OTHER",
+  "skill_used": "fabrication",
+  "skills_required": ["electronics",  7],
+  "difficulty": 7,
+  "time": 95000,
+  "book_learn": [ [ "recipe_lab_elec", 7 ] ],
+  "qualities":[
+    {"id":"SAW_M","level":1}, {"id":"SCREW","level":1}, {"id":"HAMMER","level":2} ],
+  "components": [
+    [ [ "plut_slurry_dense", 4 ] ],
+    [ [ "spess_plastic", 8 ] ],
+    [ [ "rocket_core", 4 ] ]
+  ]
+  }
 ]

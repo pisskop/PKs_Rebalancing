@@ -4,5 +4,11 @@
         "id": "bomblet",
         "name": "bomblet",
         "default": "bomblet_explosive"
+    },
+    {
+        "type": "ammunition_type",
+        "id": "bfg_plutonium",
+        "name": "bfg shell",
+        "default": "bfg_shell"
     }
 ]

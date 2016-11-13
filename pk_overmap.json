@@ -643,7 +643,7 @@
     ],
     "locations" : [ "field" ],
     "city_distance" : [-1, -1],
-    "occurrences" : [5, 15],
+    "occurrences" : [3, 15],
     "flags" : [ "CLASSIC" ]
   },{
     "type" : "overmap_special",
@@ -653,7 +653,7 @@
     ],
     "locations" : [ "forest" ],
     "city_distance" : [-1, -1],
-    "occurrences" : [5, 15],
+    "occurrences" : [3, 15],
     "flags" : [ "CLASSIC" ]
   },{
      "type" : "overmap_special",
@@ -663,7 +663,7 @@
     ],
     "locations" : [ "swamp" ],
     "city_distance" : [-1, -1],
-    "occurrences" : [3, 9],
+    "occurrences" : [2, 9],
     "flags" : [ "CLASSIC" ]
   },{
     "type" : "overmap_special",

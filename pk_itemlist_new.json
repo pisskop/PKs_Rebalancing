@@ -329,6 +329,8 @@
         "type": "item_group",
         "id": "doom_lootpack",
         "items":[
+    ["bfg_shell", 35],
+    ["BFG", 35],
     ["megaarmor_torso_1", 25],
     ["megaarmor_torso_2", 25],
     ["megaarmor_head_1", 25],
