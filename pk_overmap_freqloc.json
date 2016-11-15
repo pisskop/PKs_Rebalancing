@@ -127,6 +127,37 @@
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
+        "type" : "overmap_special",
+        "id" : "Motel",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "motel_entrance_north"},
+            { "point":[-1,0,0], "overmap": "motel_1_north"},
+            { "point":[-1,1,0], "overmap": "motel_2_north"},
+            { "point":[0,1,0], "overmap": "motel_3_north"}
+        ],
+        "connections" : [
+            { "point" : [0,-1,0], "terrain" : "road", "existing" : true }
+        ],
+        "locations" : [ "land" ],
+        "city_distance" : [10, 120],
+        "city_sizes" : [1, 12],
+        "occurrences" : [0, 5],
+        "flags" : [ "CLASSIC" ]
+  },{
+        "type" : "overmap_special",
+        "id" : "Gas Station",
+        "overmaps" : [
+            { "point":[0,0,0], "overmap": "s_gas_north" }
+        ],
+        "connections" : [
+            { "point" : [0,-1,0], "terrain" : "road", "existing" : true }
+        ],
+        "locations" : [ "land" ],
+        "city_distance" : [10, 200],
+        "city_sizes" : [4, 12],
+        "occurrences" : [0, 4],
+        "flags" : [ "CLASSIC" ]
+  },{
     "type": "overmap_special",
     "id": "Hazardous Waste Sarcophagus",
     "overmaps": [
@@ -246,7 +277,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [-1, -1],
     "city_sizes": [1, 12],
-    "occurrences": [0, 6],
+    "occurrences": [0, 8],
     "rotate": true,
     "spawns": { "group": "GROUP_GOO", "population":[100,200], "radius":[5,15] }
   },{
@@ -422,7 +453,7 @@
     "locations": [ "land" ],
     "city_distance": [-1, 2],
     "city_sizes": [4, 12],
-    "occurrences": [1, 4],
+    "occurrences": [0, 4],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -752,9 +783,26 @@
       { "point":[5,8,-3], "overmap": "necropolis_d_78_north"},
       { "point":[6,8,-3], "overmap": "necropolis_d_79_north"},
       { "point":[7,8,-3], "overmap": "necropolis_d_80_north"},
-      { "point":[8,8,-3], "overmap": "necropolis_d_81_north"}
+      { "point":[8,8,-3], "overmap": "necropolis_d_81_north"},
+      { "point":[-5,-4,0], "overmap": "house_north"},
+      { "point":[-5,-6,0], "overmap": "house_south"},
+      { "point":[-2,-4,0], "overmap": "house_west"},
+      { "point":[-1,-6,0], "overmap": "house_west"},
+      { "point":[-3,-4,0], "overmap": "house_north"},
+      { "point":[-3,-5,0], "overmap": "house_east"},
+      { "point":[-3,-6,0], "overmap": "house_south"},
+      { "point":[-7,-3,0], "overmap": "s_restaurant_fast_south"},
+      { "point": [-7,-5,0], "overmap": "sub_station_south" },
+      { "point":[-10,-7,0], "overmap": "radio_tower"},
+      { "point":[4,-2,0], "overmap": "sai"}
+      
     ],
       "connections": [
+        { "point": [-7,-5,-1], "terrain": "subway" },
+        { "point": [-7,-4,0], "terrain": "road" },
+        { "point": [-10,-6,0], "terrain": "road" },
+        { "point": [-5,-5,0], "terrain": "road" },
+        { "point": [-4,-5,0], "terrain": "road" },
         { "point": [5,-1,0], "terrain": "road" },
         { "point": [-1,7,0], "terrain": "road" },
         { "point": [4,9,0], "terrain": "road" }
@@ -874,7 +922,7 @@
         { "point": [3,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 8],
+    "city_distance": [-1, 12],
     "city_sizes": [1, 12],
     "occurrences": [0, 2],
     "rotate": true,
@@ -939,6 +987,9 @@
     "overmaps": [
       { "point":[0,0,0], "overmap": "bandit_cabin"}
     ],
+      "connections": [
+        { "point": [1,0,0], "terrain": "road", "existing": true }
+    ],
     "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 16],
@@ -952,6 +1003,9 @@
       { "point":[1,0,0], "overmap": "bandit_camp_2"},
       { "point":[0,1,0], "overmap": "bandit_camp_3"},
       { "point":[1,1,0], "overmap": "bandit_camp_4"}
+    ],
+      "connections": [
+        { "point": [-1,0,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "forest" ],
     "city_distance": [10, -1],
@@ -1217,7 +1271,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [4, -1],
     "city_sizes": [2, 10],
-    "occurrences": [1, 12],
+    "occurrences": [0, 12],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1228,7 +1282,7 @@
     "locations": [ "wilderness", "swamp"],
     "city_distance": [4, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 7],
+    "occurrences": [0, 7],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -1265,6 +1319,21 @@
       { "point":[0,0,0], "overmap": "radio_tower"}
     ],
       "connections": [
+        { "point": [0,-1,0], "terrain": "road" }
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [8, -1],
+    "city_sizes": [4, 12],
+    "occurrences": [2, 6],
+    "rotate": true,
+    "flags": [ "CLASSIC" ]
+  },{
+    "type": "overmap_special",
+    "id": "Radio Tower",
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "radio_tower"}
+    ],
+      "connections": [
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "wilderness" ],
@@ -1293,7 +1362,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [0, -1],
     "city_sizes": [4, 12],
-    "occurrences": [2, 4],
+    "occurrences": [0, 4],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -1328,7 +1397,7 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 5],
+    "occurrences": [0, 5],
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -1381,7 +1450,7 @@
     "locations": [ "field" ],
     "city_distance": [10, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 7],
+    "occurrences": [0, 7],
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -1449,7 +1518,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [-1,4],
     "city_sizes": [4,12],
-    "occurrences": [1,2],
+    "occurrences": [ 1, 2 ],
     "rotate": true,
     "flags": ["CLASSIC"]
   },{
@@ -1470,7 +1539,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [-1,-1],
     "city_sizes": [4,12],
-    "occurrences": [0,2],
+    "occurrences": [ 0, 2 ],
     "rotate": true,
     "flags": ["CLASSIC"]
   },{
@@ -1489,7 +1558,7 @@
     "locations": [ "land" ],
     "city_distance": [-1,3],
     "city_sizes": [4,12],
-    "occurrences": [0,4],
+    "occurrences": [ 0, 4 ],
     "rotate": true,
     "flags": ["CLASSIC"]
   },{
@@ -1511,7 +1580,7 @@
     "locations": [ "land" ],
     "city_distance": [-1, 8],
     "city_sizes": [6, 12],
-    "occurrences": [1, 4],
+    "occurrences": [ 0, 4 ],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   }

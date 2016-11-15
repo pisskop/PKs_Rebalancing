@@ -19,5 +19,14 @@
     "allowed_locs": [ "s_bookstore", "s_grocery", "police", "s_garage", "s_library", "hospital", "mall_a_30", "religous_church", "religous_cemetery", "public_cemetery" ],
     "professions": [ "riot_cop", "cop", "sniper_police", "riot_police", "bionic_cop", "swat", "swat_heavy" ],
     "flags": [ "SUR_START" ]
+  },
+  {
+    "type": "scenario",
+    "ident": "isolationist",
+    "name": "Out of Town",
+    "points": 1,
+    "description": "You were outside of civilization when the bombs fell; you didn't even know the end had come, or that everyone was (un)dead.  Will this ignorance save you from the fate of the rest?",
+    "start_name": "Out of City",
+    "allowed_locs": [ "Swamp Shack", "campground", "survivalist farm", "farm unsettled", "cabin_woods" ]
   }
 ]

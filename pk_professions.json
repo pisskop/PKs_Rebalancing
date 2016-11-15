@@ -113,12 +113,80 @@
                 "stamina_vial"
             ],
                 "male": [
-                    "boxer_shorts"
+                    "boxer_briefs"
                 ],
                 "female": [
                     "bra",
-                    "boxer_briefs"
+                    "boxer_shorts"
                 ]
+        }
+    },
+    {
+            "type": "profession",
+            "ident": "huntsman",
+            "name": "Hunter",
+            "description": "Taking to the woods for long periods of isolated hunting, your reliance on techonology has been limited compared to others of your generation.  In addition to your gear, you carry a bow for hunting and a stub revolver for protection.",
+            "points": 5,
+            "skills": [
+            {
+                "level": 3,
+                "name": "survival"
+            },
+            {
+                "level": 3,
+                "name": "archery"
+            },
+            {
+                "level": 2,
+                "name": "fabrication"
+            },
+            {
+                "level": 2,
+                "name": "gun"
+            },
+            {
+                "level": 2,
+                "name": "traps"
+            }
+        ],
+        "traits": [
+            "LIGHTSTEP",
+            "OUTDOORSMAN"
+        ],
+        "items": {
+            "both": [
+                "mocassins",
+                "gloves_fingerless",
+                "union_suit",
+                "pants",
+                "longshirt",
+                "vest",
+                "vest_leather",
+                "armguard_soft",
+                "vambrace_larmor",
+                "leather_pouch",
+                "leather_pouch",
+                "hat_fur",
+                "quiver",
+                "sheath",
+                "knife_hunting",
+                "shortbow",
+                "arrow_wood",
+                "arrow_wood",
+                "arrow_wood",
+                "arrow_wood",
+                "ruger_lcr_38",
+                "38_special",
+                "mil_mess_kit",
+                "multitool",
+                "matches",
+                "canteen",
+                "1st_aid",
+                "salt",
+                "stamina_vial",
+                "beartrap",
+                "beartrap"
+            ]
         }
     }
 ]
