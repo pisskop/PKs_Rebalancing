@@ -249,7 +249,7 @@
     { "point": [2,4,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 4],
+    "city_distance": [-1, 8],
     "city_sizes": [4, 12],
     "occurrences": [0, 2],
     "rotate": true,
