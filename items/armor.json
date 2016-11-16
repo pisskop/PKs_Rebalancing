@@ -138,7 +138,7 @@
     "material_thickness": 4,
     "environmental_protection": 5,
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "VARSIZE", "STURDY", "SUN_GLASSES", "WATERPROOF", "THERMOMETER", "WATCH" ]
+    "flags": [ "VARSIZE", "STURDY", "SUN_GLASSES", "WATERPROOF", "THERMOMETER", "HYGROMETER", "BAROMETER", "WATCH" ]
   },
   {
     "id": "megaarmor_leggings_1",

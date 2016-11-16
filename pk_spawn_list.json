@@ -867,8 +867,8 @@
       { "monster": "mon_zombie_master", "freq": 2, "cost_multiplier": 30, "starts":  25 },
       { "monster": "mon_zombie_master", "freq": 1, "cost_multiplier": 60, "pack_size": [1,2], "starts":  50 },
 
-      { "monster": "mon_zombie_shady", "freq": 15, "cost_multiplier": 6, "pack_size": [1,2] },
-      { "monster": "mon_zombie_shady", "freq": 10, "cost_multiplier": 21, "pack_size": [3,7], "starts":  2 },
+      { "monster": "mon_zombie_shady", "freq": 10, "cost_multiplier": 6, "pack_size": [1,2] },
+      { "monster": "mon_zombie_shady", "freq": 5, "cost_multiplier": 21, "pack_size": [3,7], "starts":  2 },
       { "monster": "mon_zombie_hollow", "freq": 3, "cost_multiplier": 10, "starts":  2 },
 
       { "monster": "mon_beekeeper", "freq": 10, "cost_multiplier": 3, "pack_size": [2,5] },

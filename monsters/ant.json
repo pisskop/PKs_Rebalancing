@@ -323,14 +323,14 @@
     "melee_damage": [
       {
         "damage_type": "bash",
-        "amount": 5
+        "amount": 3
       },
       {
         "damage_type": "acid",
         "amount": 1
       }
     ],
-    "melee_cut": 6,
+    "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 8,
     "armor_cut": 12,
@@ -400,14 +400,14 @@
     "melee_damage": [
       {
         "damage_type": "bash",
-        "amount": 8
+        "amount": 5
       },
       {
         "damage_type": "acid",
         "amount": 1
       }
     ],
-    "melee_cut": 6,
+    "melee_cut": 4,
     "dodge": 3,
     "armor_bash": 12,
     "armor_cut": 16,
