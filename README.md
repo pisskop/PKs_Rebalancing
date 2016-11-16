@@ -13,3 +13,7 @@ PKs Rebalancing Mod for C:DDA readme
 
 The easiest way to install this is delete any old version you may have, then to stick it into /data/mods
   and then delete the one called pks_rebalance, should it be present.
+
+
+The wikie for the mod is:
+http://www.wiki.cataclysmdda.com/index.php?title=Pisskop%27s_Rebalancing_Mod#Pisskop.27s_Rebalancing_Mod
