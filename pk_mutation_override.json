@@ -3191,11 +3191,41 @@
         "threshreq": ["THRESH_URSINE", "THRESH_BEAST", "THRESH_CATTLE", "THRESH_LIZARD", "THRESH_PLANT"],
         "changes_to": ["HUGE"],
         "leads_to": ["MUT_TOUGH"],
-        "category": ["MUTCAT_URSINE", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_LIZARD", "MUTCAT_CHIMERA", "MUTCAT_PLANT"],
+        "category": ["MUTCAT_URSINE", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_LIZARD", "MUTCAT_PLANT"],
         "passive_mods": {
             "str_mod": 2
         },
         "armor": [ { "parts": [ "TORSO", "ARM_L", "ARM_R" ], "bash": 2 } ]
+    },{
+        "type": "mutation",
+        "id": "LARGE_CHIMERA",
+        "name": "Burdgeoning Presence",
+        "points": 2,
+        "visibility": 1,
+        "description": "Your physical frame has begun to expand to reflect the beast within.  You now have ample flesh to support the AllTheThings, but find it harder to wear that constricting clothing. Strength +3, (armor: +3 bash, +1 cut).",
+        "encumbrance_always": [
+            [ "TORSO", 5 ],
+            [ "HEAD", 5 ],
+            [ "EYES", 5 ],
+            [ "MOUTH", 5 ],
+            [ "ARM_L", 5 ],
+            [ "ARM_R", 5 ],
+            [ "HAND_L", 5 ],
+            [ "HAND_R", 5 ],
+            [ "LEG_L", 5 ],
+            [ "LEG_R", 5 ],
+            [ "FOOT_L", 5 ],
+            [ "FOOT_R", 5 ]
+        ],
+        "prereqs": ["LARGE"],
+        "prereqs2": ["STR_UP_3", "STR_UP_4"],
+        "changes_to": ["HUGE_OK"],
+        "leads_to": ["MUT_TOUGH"],
+        "category": ["MUTCAT_CHIMERA"],
+        "passive_mods": {
+            "str_mod": 3
+        },
+        "armor": [ { "parts": [ "ALL" ], "bash": 3, "cut": 1 } ]
     },{
         "type": "mutation",
         "id": "HUGE",
@@ -3223,7 +3253,7 @@
         "visibility": 4,
         "ugliness": 3,
         "mixed_effect": true,
-        "description": "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +5 (armor: +3 bash, +1 cut).",
+        "description": "Your cardiovascular system has caught up with your huge muscular physique, so who needs pathetic human cars?  Strength +5 (armor: +4 bash, +1 cut).",
         "prereqs": ["HUGE"],
         "prereqs2": ["STR_UP_3", "STR_UP_4"],
         "threshreq": ["THRESH_URSINE", "THRESH_CATTLE", "THRESH_CHIMERA"],

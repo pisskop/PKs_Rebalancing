@@ -209,7 +209,7 @@
                 "1": ["t_underbrush", "t_shrub", "t_shrub", "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass", "t_grass", "t_grass"]
             },
             "furniture": {
-            ">": "f_boulder_medium",
+                ">": "f_boulder_medium",
                 "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"]
             },
             "set": [

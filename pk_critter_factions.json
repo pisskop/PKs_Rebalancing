@@ -10,9 +10,23 @@
         "by_mood": ["small_animal", "utility_bot"]
     },{
         "type": "MONSTER_FACTION",
+        "name": "dog",
+        "by_mood": ["small_animal", "dog"]
+    },{
+        "type": "MONSTER_FACTION",
         "name": "pidgeon",
         "base_faction": "small_animal",
         "friendly": ["zombie"]
+    },{
+        "type": "MONSTER_FACTION",
+        "name": "wasp",
+        "base_faction": "insect",
+        "neutral": ["small_animal"],
+        "by_mood": ["insect", "zombie", "triffid"]
+    },{
+        "type" : "MONSTER_FACTION",
+        "name" : "dermatik",
+        "base_faction" : "wasp"
     },{
         "type": "MONSTER_FACTION",
         "name": "ant",
@@ -27,7 +41,7 @@
     },{
         "type": "MONSTER_FACTION",
         "name": "triffid",
-        "friendly": ["spider"],
+        "friendly": ["spider", "bee"],
         "neutral": ["small_animal"],
         "by_mood": ["bot", "insect", "mutant_small"]
     },{
@@ -39,10 +53,30 @@
         "by_mood": ["insect", "spider"]
     },{
         "type": "MONSTER_FACTION",
+        "name": "spider_wolf",
+        "base_faction": "spider",
+        "by_mood": ["zombie"]
+    },{
+        "type": "MONSTER_FACTION",
+        "name": "spider_trapdoor",
+        "base_faction": "spider",
+        "by_mood": ["small_animal"]
+    },{
+        "type": "MONSTER_FACTION",
+        "name": "spider_widow",
+        "base_faction": "spider",
+        "by_mood": ["small_animal"]
+    },{
+        "type": "MONSTER_FACTION",
+        "name": "spider_cellar",
+        "base_faction": "spider",
+        "by_mood": ["small_animal"]
+    },{
+        "type": "MONSTER_FACTION",
         "name": "zombie",
         "friendly": ["blob", "cult"],
         "neutral": ["small_animal", "insect", "mutant_small", "cat"],
-        "by_mood": ["ant"]
+        "by_mood": ["ant", "spider_wolf", "wasp"]
     },{
         "type": "MONSTER_FACTION",
         "name": "doom",

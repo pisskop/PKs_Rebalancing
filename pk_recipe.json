@@ -766,7 +766,7 @@
         {"id":"CUT","level":1}
     ],
     "components": [
-        [[ "canister_empty", 1 ], [ "can_food", 2 ], [ "can_drink", 2 ], [ "clay_canister", 2 ]],
+        [[ "canister_empty", 1 ], [ "can_food_unsealed", 2 ], [ "can_drink_unsealed", 2 ], [ "clay_canister", 2 ]],
         [[ "veggy_tainted", 2 ]],
         [[ "string_36", 1 ]],
         [[ "fertilizer_commercial", 3 ], [ "fertilizer_liquid", 3 ], [ "marloss_seed", 1 ]]

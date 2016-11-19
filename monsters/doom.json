@@ -206,7 +206,7 @@
     "armor_stab": 20,
     "armor_acid": 1,
     "vision_day": 35,
-    "vision_night": 7,
+    "vision_night": 5,
     "path_settings": { "max_dist": 30 },
     "luminance": 10,
     "starting_ammo": { "flaming_skull": 66 },

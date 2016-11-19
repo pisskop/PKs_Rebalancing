@@ -67,10 +67,9 @@
       { "monster": "mon_zombie_brute_grappler", "freq": 5, "cost_multiplier": 10 },
       { "monster": "mon_zombie_brute_ninja", "freq": 5, "cost_multiplier": 10 },
 
-      { "monster": "mon_zombie_necro", "freq": 5, "cost_multiplier": 25 },
-      { "monster": "mon_zombie_master", "freq": 5, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_lord", "freq": 3, "cost_multiplier": 80 },
-      { "monster": "mon_zombie_hulk", "freq": 3, "cost_multiplier": 50 },
+      { "monster": "mon_zombie_necro", "freq": 3, "cost_multiplier": 25 },
+      { "monster": "mon_zombie_master", "freq": 1, "cost_multiplier": 30 },
+      { "monster": "mon_zombie_lord", "freq": 1, "cost_multiplier": 80 },
 
       { "monster": "mon_blob_large", "freq": 10, "cost_multiplier": 25 }
     ]
@@ -109,11 +108,10 @@
       { "monster": "mon_zombie_grappler", "freq": 25, "cost_multiplier": 7 },
 
       { "monster": "mon_zombie_brute", "freq": 30, "cost_multiplier": 7 },
-      { "monster": "mon_zombie_brute_grappler", "freq": 5, "cost_multiplier": 20 },
-      { "monster": "mon_zombie_brute_ninja", "freq": 5, "cost_multiplier": 20 },
-      { "monster": "mon_zombie_necro", "freq": 3, "cost_multiplier": 25 },
-      { "monster": "mon_zombie_master", "freq": 3, "cost_multiplier": 30 },
-      { "monster": "mon_zombie_hulk", "freq": 1, "cost_multiplier": 80 },
+      { "monster": "mon_zombie_brute_grappler", "freq": 2, "cost_multiplier": 20 },
+      { "monster": "mon_zombie_brute_ninja", "freq": 2, "cost_multiplier": 20 },
+      { "monster": "mon_zombie_necro", "freq": 2, "cost_multiplier": 25 },
+      { "monster": "mon_zombie_master", "freq": 1, "cost_multiplier": 30 },
 
       { "monster": "mon_blob", "freq": 5, "cost_multiplier": 25 },
       { "monster": "mon_blob_large", "freq": 5, "cost_multiplier": 35 }

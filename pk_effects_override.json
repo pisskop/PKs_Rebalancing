@@ -18,6 +18,7 @@
       "speed_mod": [-3]
     },
     "scaling_mods": {
+      "dex_mod": [-0.1],
       "speed_mod": [-5],
       "hurt_min": [1],
       "hurt_chance": [20],
@@ -31,6 +32,7 @@
     "desc": ["Your %s is starting to feel the damage cold has wrought."],
     "part_descs": true,
     "base_mods": {
+       "dex_mod": [-0.5],
        "pain_min": [1],
        "pain_max_val": [50],
        "pain_chance": [3],

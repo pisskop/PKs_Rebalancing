@@ -1,5 +1,29 @@
 [
   {
+    "id": "mon_rattlesnake",
+    "type": "MONSTER",
+    "copy-from": "mon_rattlesnake",
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 700
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
+  },
+  {
+    "id": "mon_rattlesnake_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_rattlesnake_giant",
+    "attack_effs": [
+      {
+        "id": "poison",
+        "duration": 1200
+      }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
+  },
+  {
     "id": "mon_null",
     "type": "MONSTER",
     "copy-from": "mon_null",
