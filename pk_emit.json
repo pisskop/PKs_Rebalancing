@@ -245,5 +245,12 @@
     "field": "fd_plasma",
     "qty": 9,
     "chance": 75
+  },{
+    "id": "emit_bile",
+    "type": "emit",
+    "//": "Emission of bil gibblies (example: huge boomer)",
+    "field": "fd_bile",
+    "qty": 2,
+    "chance": 4
   }
 ]

@@ -41,9 +41,9 @@
       [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
     ],
     "components": [
-      [ [ "tallow_tainted", 2 ], [ "dry_meat_tainted", 3 ], [ "slime_scrap", 5 ], [ "fetus", 1 ], [ "arm", 1 ], [ "leg", 1 ] ],
-      [ [ "bleach", 2 ], [ "oxy_powder", 200 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "tallow_tainted", 1 ], [ "dry_meat_tainted", 2 ], [ "slime_scrap", 3 ], [ "fetus", 1 ], [ "arm", 1 ], [ "leg", 1 ] ],
+      [ [ "bleach", 2 ], [ "oxy_powder", 40 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -90,7 +90,7 @@
       [ [ "mutagen", 1 ] ],
       [ [ "biollante_bud", 1 ], [ "datura_seed", 8 ] ],
       [ [ "fighter_sting", 3 ], [ "poppy_bud", 4 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20] ]
     ]
   },
   {
@@ -136,7 +136,7 @@
       [ [ "mutagen", 1 ] ],
       [ [ "honey_bottled", 3], [ "honeycomb", 5 ], [ "bee_sting", 2 ], [ "wasp_sting", 2 ] ],
       [ [ "bee_sting", 1 ], [ "wasp_sting", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -181,7 +181,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "spider_egg", 2 ], [ "chitin_piece", 4 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -226,7 +226,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "sewage", 1 ], [ "slime_scrap", 4 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -271,7 +271,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "fish", 2 ], [ "can_sardine", 1 ], [ "can_tuna", 1 ], [ "can_salmon", 1 ], [ "can_herring", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -317,7 +317,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "meat_tainted", 6 ], [ "dry_meat_tainted", 3 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -362,7 +362,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "raw_leather", 2 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -407,7 +407,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "raw_fur", 2 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -454,7 +454,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "offal", 6 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -499,7 +499,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "bone", 10 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -544,7 +544,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "stomach_large", 2 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -589,7 +589,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "tallow", 4 ], [ "can_chowder", 1 ], [ "can_clams", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -634,7 +634,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "egg_bird", 1 ], [ "feather", 10 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -679,7 +679,7 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "egg_reptile", 1 ], [ "vaccine_shot", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -725,7 +725,7 @@
       [ [ "mutagen", 1 ] ],
       [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
       [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -772,7 +772,7 @@
       [ [ "heroin", 5 ], [ "oxycodone", 10 ], [ "tramadol", 15 ], [ "diazepam", 15 ], [ "codeine", 20 ], [ "poppy_pain", 20 ] ],
       [ [ "lsd", 5 ], [ "prozac", 10 ], [ "thorazine", 10 ], [ "adderall", 10 ], [ "xanax", 10 ], [ "pills_sleep", 10 ], [ "poppy_sleep", 15 ] ],
       [ [ "vitamins", 10 ], [ "iodine", 10 ], [ "disinfectant", 4 ], [ "hflesh_powder", 6 ], [ "protein_powder", 5 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -795,7 +795,7 @@
     "components": [
       [ [ "mutagen_medical", 2 ] ],
       [ [ "slime_scrap", 1 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {
@@ -819,8 +819,8 @@
       [ [ "royal_jelly", 1 ], [ "royal_jelly_sap", 1 ] ],
       [ [ "mutagen", 1 ] ],
       [ [ "human_flesh", 2 ] ],
-      [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
-      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+      [ [ "bleach", 1 ], [ "oxy_powder", 20 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
   {

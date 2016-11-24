@@ -19,6 +19,14 @@
    "use_action": "HOTPLATE"
   },
   {
+    "id": "cell_phone_flashlight",
+    "copy-from": "cell_phone_flashlight",
+    "type": "TOOL",
+    "name": "cell phone - Flashlight",
+    "name_plural": "cell phones - Flashlight",
+    "turns_per_charge": 10
+  },
+  {
     "id": "pipe_launcher40mm",
     "type": "GUNMOD",
     "name": "40mm pipe launcher",

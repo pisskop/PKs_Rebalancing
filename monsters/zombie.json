@@ -1702,7 +1702,7 @@
     "armor_cut": 5,
     "vision_day": 40,
     "vision_night": 5,
-    "emit_fields": [ "emit_radiation_puff" ],
+    "emit_fields": [ "emit_radiation_puff", "emit_bile" ],
     "luminance": 2,
     "special_attacks": [
       [ "BOOMER_GLOW", 20 ],

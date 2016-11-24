@@ -188,5 +188,68 @@
                 "beartrap"
             ]
         }
+    },
+    {
+            "type": "profession",
+            "ident": "mutant_crafter",
+            "name": "MutantaCo Lab Assistant",
+            "description": "You were a staff member for the clinical tests for a new product called 'mutagen' when the bombs fell.  In the chaos you grabbed some gear and left the others.",
+            "points": 5,
+            "skills": [
+            {
+                "level": 2,
+                "name": "cooking"
+            },
+            {
+                "level": 2,
+                 "name": "computer"
+            },
+            {
+                "level": 1,
+                "name": "survival"
+            },
+            {
+                "level": 1,
+                "name": "firstaid"
+            },
+            {
+                "level": 1,
+                "name": "speech"
+            }
+        ],
+        "items": {
+            "male": [
+                "briefs"
+            ],
+            "female": [
+                "bra",
+                "panties"
+            ],
+            "both": [
+                "dress_shirt",
+                "pants",
+                "socks",
+                "boots",
+                "coat_lab",
+                "mbag",
+                "gloves_rubber",
+                "glasses_safety",
+                "recipe_labchem",
+                "chemistry_set",
+                "battery",
+                "battery",
+                "scalpel",
+                "syringe",
+                "syringe",
+                "oxy_powder",
+                "lye_powder",
+                "tallow_tainted",
+                "tallow_tainted",
+                "tallow_tainted",
+                "tallow_tainted",
+                "tallow_tainted",
+                "tallow_tainted"
+            ]
+        }
     }
 ]

@@ -173,7 +173,7 @@
     "base_mods": {
       "stamina_min": [-1],
       "speed_mod": [-5],
-      "health_min": [1],
+      "health_min": [-1],
       "health_chance": [50],
       "health_tick": [30]
     }

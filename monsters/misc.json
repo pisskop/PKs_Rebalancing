@@ -5,7 +5,7 @@
     "copy-from": "mon_rattlesnake",
     "attack_effs": [
       {
-        "id": "poison",
+        "id": "badpoison",
         "duration": 700
       }
     ],
@@ -17,7 +17,7 @@
     "copy-from": "mon_rattlesnake_giant",
     "attack_effs": [
       {
-        "id": "poison",
+        "id": "badpoison",
         "duration": 1200
       }
     ],
