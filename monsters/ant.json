@@ -486,8 +486,8 @@
     "vision_night": 5,
     "special_attacks": [
       [ "ANTQUEEN", 3 ],
-      [ "FLAMETHROWER", 10 ],
-      [ "SHRIEK_ALERT", 15 ]
+      [ "FLAMETHROWER", 20 ],
+      [ "SHRIEK_ALERT", 5 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
@@ -526,9 +526,9 @@
     "vision_day": 20,
     "vision_night": 5,
     "special_attacks": [
-      [ "ANTQUEEN", 21 ],
+      [ "ANTQUEEN", 30 ],
       [ "FLAMETHROWER", 30 ],
-      [ "SHRIEK_ALERT", 30 ],
+      [ "SHRIEK_ALERT", 20 ],
       [ "SHRIEK_STUN", 1 ]
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],

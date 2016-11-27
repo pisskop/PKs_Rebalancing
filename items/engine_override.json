@@ -1,0 +1,32 @@
+[
+    {
+    "abstract": "engine_diesel",
+    "copy-from": "engine_combustion",
+    "type": "ENGINE",
+    "name": "base diesel engine",
+    "fuel": "diesel",
+    "efficiency": 60,
+    "idle": 400,
+    "optimum": 1800,
+    "redline": 3200,
+    "gears": [ 3.891, 2.74, 1.652, 1.134, 0.912 ],
+    "start_time": 60,
+    "start_energy": 160,
+    "extend": { "faults": [ "fault_engine_pump_diesel", "fault_engine_glow_plug" ] },
+    "flags": [ "COLD_START" ]
+  },
+  {
+    "abstract": "engine_gasoline",
+    "copy-from": "engine_combustion",
+    "type": "ENGINE",
+    "name": "base gasoline engine",
+    "fuel": "gasoline",
+    "efficiency": 40,
+    "idle": 150,
+    "optimum": 2000,
+    "redline": 3800,
+    "gears": [ 3.166, 1.882, 1.296, 0.972, 0.738 ],
+    "start_time": 30,
+    "extend": { "faults": [ "fault_engine_pump_fuel" ] }
+  }
+]
