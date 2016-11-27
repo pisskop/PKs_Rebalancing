@@ -1,0 +1,16 @@
+[
+  {
+    "id": "diesel",
+    "type": "AMMO",
+    "copy-from": "diesel",
+    "name": "diesel",
+    "energy": 250
+  },
+  {
+    "id": "gasoline",
+    "type": "AMMO",
+    "copy-from": "gasoline",
+    "name": "gasoline",
+    "energy": 175
+  }
+]
