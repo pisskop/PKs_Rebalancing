@@ -220,5 +220,52 @@
       "activation_message" : "You take some heartburn medicine.",
       "effects" : [ { "id" : "tummy_tablet", "duration" : 5800 } ]
     }
+  },
+  {
+    "id" : "gummy_vitamins",
+    "copy-from": "vitamins",
+    "type" : "COMESTIBLE",
+    "name" : "gummy vitamin",
+    "description" : "Essential dietary nutrients conveniently packaged in a fruit-flavored chewy candy form to disguise the ionized iron contained within.  An option of last resort when a balanced diet is not possible, this will also cleanse the body of minor toxins and radioactive particles.  Excess use can cause hypervitaminosis and in some cases overdose.",
+    "stim" : -1,
+    "fun" : 4,
+    "charges" : 10,
+    "stack_size" : 10,
+    "use_action" : {
+      "type" : "consume_drug",
+      "activation_message" : "You take the %s.",
+      "effects" : [ { "id" : "chelated_iron", "duration" : 480 } ],
+      "vitamins": [
+         [ "calcium", 24, 48 ],
+         [ "iron", 48, 62 ],
+         [ "vitA", 24, 48 ],
+         [ "vitB", 24, 48 ],
+         [ "vitC", 24, 48 ]
+      ]
+    }
+  },
+  {
+    "type" : "COMESTIBLE",
+    "id" : "fertilizer_chelated",
+    "copy-from" :"fungicide",
+    "sub": "fertilizer_commercial",
+    "name" : "aquarium fertilizer",
+    "name_plural" : "aquarium fertilizer",
+    "color" : "ltred",
+    "stim" : -10,
+    "healthy" : -12,
+    "fun" : -15,
+    "charges" : 100,
+    "stack_size" : 100,
+    "description" : "Agricultural grade ionically treated fertilizer for cleansing minerals from aquariums.  Could remove radiation from the body in a pinch.",
+    "price" : 1500,
+    "use_action" : {
+      "type" : "consume_drug",
+      "activation_message" : "You consume a helping of the %s.",
+      "effects" : [ { "id" : "chelated_iron", "duration" : 1200 }, { "id" : "chelated_iron", "duration" : 8000 }, { "id" : "chelated_iron", "duration" : 600 } ],
+      "vitamins": [
+         [ "iron", 62, 86 ]
+      ]
+    }
   }
 ]

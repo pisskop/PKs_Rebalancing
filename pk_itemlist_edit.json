@@ -76,7 +76,8 @@
     ["410_lever", 10],
     ["e_tool_chinese", 10],
     ["ithaca_doom", 15 ],
-    ["ithaca_doom_dual", 5 ]
+    ["ithaca_doom_dual", 5 ],
+    ["fertilizer_chelated", 12 ]
     ]
     },{
     "type": "item_group",
@@ -88,7 +89,9 @@
     ["shot_410_slug", 8],
     ["e_tool_chinese", 8],
     ["ithaca_doom", 15 ],
-    ["ithaca_doom_dual", 4 ]
+    ["ithaca_doom_dual", 4 ],
+    ["fertilizer_chelated", 12 ],
+    ["gummy_vitamins", 10 ]
     ]
     },{
     "type": "item_group",
@@ -166,7 +169,9 @@
     ["mutagen", 10 ],
     ["iv_mutagen_spider", 10],
     ["purifier", 5 ],
-    ["wasp_glue_super", 15]
+    ["wasp_glue_super", 15],
+    ["fertilizer_chelated", 12 ],
+    ["gummy_vitamins", 10 ]
     ]
     },{
     "type": "item_group",
@@ -269,7 +274,9 @@
     ["antidote_badpoison", 2],
     ["pipe_solid_spear", 15],
     ["pipe_solid", 10],
-    ["wasp_glue_super", 8]
+    ["wasp_glue_super", 8],
+    ["fertilizer_chelated", 4 ],
+    ["gummy_vitamins", 8 ]
     ]
     },{
     "type": "item_group",
@@ -514,7 +521,9 @@
     ["pokeball", 3],
     ["bot_turret_shockcannon", 3],
     ["mutagen", 5 ],
-    ["purifier", 3 ]
+    ["purifier", 3 ],
+    ["fertilizer_chelated", 15 ],
+    ["gummy_vitamins", 5 ]
     ]
     },{
     "type": "item_group",
@@ -614,7 +623,9 @@
     "items": [
     ["stamina_vial", 25 ],
     ["medikit", 15 ],
-    ["pepto", 40]
+    ["pepto", 40],
+    ["fertilizer_chelated", 10 ],
+    ["gummy_vitamins", 20 ]
     ]
     },{
     "type": "item_group",
@@ -681,6 +692,41 @@
     "//": "Military specification ammo found at military sites.",
     "items": [
       { "group": "bomblet_ammo", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "home_hw",
+    "items": [
+    ["fertilizer_chelated", 14 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mischw",
+    "items": [
+    ["fertilizer_chelated", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "hardware_bulk",
+    "items": [
+    ["fertilizer_chelated", 40 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "hardware",
+    "items": [
+    ["fertilizer_chelated", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "farming_tools",
+    "items": [
+    ["fertilizer_chelated", 20 ]
     ]
   }
 ]
