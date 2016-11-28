@@ -185,7 +185,7 @@
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You consume a helping of the %s.",
-      "effects" : [ { "id" : "rad_reduce", "duration" : 300 } ],
+      "effects" : [ { "id" : "rad_reduce", "duration" : 240 } ],
       "vitamins": [
          [ "calcium", 0, 4 ],
          [ "iron", 0, 12 ]
@@ -207,7 +207,7 @@
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You consume a helping of the %s.",
-      "effects" : [ { "id" : "rad_reduce", "duration" : 300 }, { "id" : "rad_reduce", "duration" : 30 } ],
+      "effects" : [ { "id" : "rad_reduce", "duration" : 240 }, { "id" : "rad_reduce", "duration" : 30 } ],
       "vitamins": [
          [ "iron", 0, 6 ]
       ]
