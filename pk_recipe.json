@@ -22,7 +22,8 @@
     "components": [
         [[ "plant_sac", 3 ]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "water",
     "id_suffix": "from plant",
@@ -41,7 +42,8 @@
     "components": [
         [[ "plant_sac", 3 ]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "sac_treated",
   "category": "CC_OTHER",
@@ -61,7 +63,8 @@
         [[ "sac_empty", 1 ]],
         [[ "salt", 10 ], [ "salt_water", 1 ], ["saline", 3],  [ "seasoning_salt", 25]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "sac_purse",
   "category": "CC_OTHER",
@@ -79,7 +82,8 @@
         [[ "sinew", 50 ], [ "thread", 50 ], [ "plant_fibre", 50], [ "yarn", 25], [ "string_6", 1]],
         [[ "wax", 1 ], [ "tallow", 2 ], [ "tallow_tainted", 2 ], [ "lamp_oil", 25 ], [ "cooking_oil", 2 ]]
     ]
-    },{
+  },
+  {
     "result": "broken_mechaspider",
     "type": "recipe",
     "category": "CC_NONCRAFT",
@@ -93,7 +97,8 @@
         [["spider_brain", 1 ]],
         [["arachnotron_guts", 1]]
     ]
-    },{
+  },
+  {
     "result": "spider_steak",
     "type": "recipe",
     "result_mult": 6,
@@ -109,7 +114,8 @@
     "components": [
         [["spider_brain", 1 ]]
     ]
-    },{
+  },
+  {
     "result": "arachnotron_guts",
     "type": "recipe",
     "category": "CC_NONCRAFT",
@@ -142,7 +148,8 @@
         [["robot_controls", 1]],
         [["meat_tainted", 4]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "spider_steak_cooked",
     "category": "CC_FOOD",
@@ -160,7 +167,8 @@
     "components": [
     [[ "spider_steak", 1]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "spider_steak_fried",
     "category": "CC_FOOD",
@@ -183,7 +191,8 @@
         [[ "spider_steak", 2 ]],
         [[ "flour", 1 ], [ "cornmeal", 1 ], [ "flatbread", 1 ], [ "tortilla_corn", 1 ], [ "bread", 1 ], [ "wastebread", 1 ], [ "cornbread", 1 ], [ "biscuit", 1 ], [ "hardtack", 1 ], [ "crackers", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "spider_steak_soup",
     "category": "CC_FOOD",
@@ -210,7 +219,8 @@
           [ "acorns_cooked", 1 ]],
         [[ "spider_steak", 2], [ "spider_steak_cooked", 2 ], ["spider_steak_fried", 2], ["spider_steak_sandwich", 2], ["spider_steak_pickled", 1]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "spider_steak_sandwich",
     "category": "CC_FOOD",
@@ -229,7 +239,8 @@
         [[ "pickle", 1], [ "veggy_pickled", 1], [ "onion", 1], [ "irradiated_onion", 1], [ "can_tomato", 1 ], [ "irradiated_tomato", 1 ], [ "tomato", 1]],
         [[ "ketchup", 1 ], [ "mustard", 1], [ "horseradish", 1 ], [ "mayonnaise", 1], [ "bacon", 2 ],  [ "seasoning_salt", 15], [ "soysauce", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "jar_spider_steak_pickled",
     "category": "CC_FOOD",
@@ -253,7 +264,8 @@
         [[ "spider_steak", 1]],
         [[ "vinegar", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bot_manhack_fire",
     "category": "CC_OTHER",
@@ -278,7 +290,8 @@
         [[ "power_supply", 1 ], [ "plut_cell", 1 ]],
         [[ "scrap", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_launcher_single",
     "note": "standalone_weapon",
@@ -298,7 +311,8 @@
         [[ "2x4", 1 ], [ "stick", 2 ]],
         [[ "nail", 3 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_launcher_double",
     "note": "standalone_weapon",
@@ -325,7 +339,8 @@
         [[ "scrap", 3 ]],
         [[ "2x4", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_undermod",
     "note": "underbarrel_mount",
@@ -348,7 +363,8 @@
         [[ "nail", 2 ]],
         [[ "spring", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_explosive",
     "note": "crafted explosive bomblets",
@@ -371,7 +387,8 @@
         [[ "lead", 80 ], [ "gold_small", 80 ], [ "silver_small", 80 ], [ "tin", 80 ], [ "bismuth", 80 ], [ "solder_wire", 80 ]],
         [[ "bomblet_casing", 4 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_frag",
     "note": "crafted frag bomblets",
@@ -394,7 +411,8 @@
         [[ "lead", 120 ], [ "gold_small", 120 ], [ "silver_small", 120 ], [ "tin", 120 ], [ "bismuth", 120 ], [ "solder_wire", 120 ]],
         [[ "bomblet_casing", 4 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_fire",
     "note": "crafted fire bomblets",
@@ -418,7 +436,8 @@
         [[ "bismuth", 50 ], [ "incendiary", 50 ], ["gasoline", 200], ["diesel", 200], [ "denat_alcohol", 200 ], [ "chem_ethanol", 200 ]],
         [[ "bomblet_casing", 4 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_acid",
     "note": "crafted acid bomblets",
@@ -441,7 +460,8 @@
         [[ "bomblet_casing", 4 ]],
         [[ "acid", 6 ], [ "acidbomb", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_stun",
     "note": "crafted stun bomblets",
@@ -465,7 +485,8 @@
         [[ "lead", 80 ], [ "gold_small", 80 ], [ "silver_small", 80 ], [ "tin", 80 ], [ "solder_wire", 80 ]],
         [[ "bomblet_casing", 4 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bomblet_casing",
     "note": "crafted bomblet cases",
@@ -490,7 +511,7 @@
         [[ "plastic_chunk", 10 ]],
         [[ "scrap", 10 ]]
     ]
-    },
+  },
 
     {
     "type": "recipe",
@@ -516,7 +537,8 @@
         [[ "ceramic_plate", 10 ]],
         [[ "shoulder_strap", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_torso_1",
     "id_suffix": "repair",
@@ -546,7 +568,8 @@
         [[ "duct_tape", 100 ], [ "superglue", 2 ]],
         [[ "megaarmor_torso_1", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_torso_2",
     "id_suffix": "recraft",
@@ -571,7 +594,8 @@
         [[ "duct_tape", 100 ], [ "superglue", 2 ]],
         [[ "megaarmor_torso_2", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_leggings_1",
     "id_suffix": "uncraft",
@@ -590,7 +614,8 @@
         [[ "spess_chunk", 10 ]],
         [[ "neoprene", 8 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_boots_1",
     "id_suffix": "uncraft",
@@ -613,7 +638,8 @@
         [[ "scrap", 4 ]],
         [[ "rag", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_gloves_1",
     "id_suffix": "uncraft",
@@ -632,7 +658,8 @@
         [[ "spess_chunk", 2 ]],
         [[ "leather", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megaarmor_armguards_1",
     "id_suffix": "uncraft",
@@ -651,7 +678,8 @@
         [[ "spess_chunk", 4 ]],
         [[ "neoprene", 6 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "molotov_micro",
     "category": "CC_WEAPON",
@@ -667,7 +695,8 @@
         [[ "string_6", 1 ]],
         [[ "rag", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "acidbomb_micro",
     "category": "CC_WEAPON",
@@ -683,7 +712,8 @@
         [[ "string_6", 1 ]],
         [[ "rag", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "acidbomb_small",
     "category": "CC_WEAPON",
@@ -699,7 +729,8 @@
         [[ "string_6", 2 ]],
         [[ "rag", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "acidbomb_medium",
     "category": "CC_WEAPON",
@@ -715,7 +746,8 @@
         [[ "string_6", 2 ]],
         [[ "rag", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "acidbomb_large",
     "category": "CC_WEAPON",
@@ -732,7 +764,8 @@
         [[ "string_36", 1 ]],
         [[ "rag", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "acidbomb_large",
     "id_suffix": "jar",
@@ -749,7 +782,8 @@
         [[ "string_36", 1 ]],
         [[ "rag", 3 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "bot_fungal_boil_egg",
     "category": "CC_WEAPON",
@@ -771,7 +805,8 @@
         [[ "string_36", 1 ]],
         [[ "fertilizer_commercial", 3 ], [ "fertilizer_liquid", 3 ], [ "marloss_seed", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megabear_skull_clean",
     "byproducts": [ [ "fat", 2 ] ],
@@ -796,7 +831,8 @@
         [[ "water", 4 ], ["water_clean", 4]],
         [[ "rag", 2 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "megabear_skull_clean",
     "id_suffix": "picked",
@@ -820,7 +856,8 @@
         [[ "water", 2 ], ["water_clean", 2]],
         [[ "rag", 1 ]]
     ]
-    },{
+  },
+  {
     "type": "recipe",
     "result": "helmet_bone_megabear",
     "category": "CC_ARMOR",
@@ -846,7 +883,8 @@
         [[ "salt_water", 1 ], ["water", 3], ["water_clean", 3]],
         [[ "rag", 1 ]]
     ]
-    },{
+  },
+  {
     "result": "triffid_sap",
     "result_mult": 3,
     "type": "recipe",
@@ -870,7 +908,8 @@
         [["plant_sac", 1], ["water_clean", 1], ["water", 1]],
         [["paper", 3], ["wrapper", 3], ["bag_plastic", 3]]
     ]
-    },{
+  },
+  {
     "result": "triffid_sap_grenade",
     "type": "recipe",
     "category": "CC_CHEM",
@@ -892,7 +931,8 @@
         [["water_acid", 1], ["water_acid_weak", 2]],
         [[ "clay_canister", 1 ], [ "flask_glass", 1 ], [ "bottle_glass", 1 ]]
     ]
-    },{
+  },
+  {
     "result": "royal_jelly_sap",
     "type": "recipe",
     "result_mult": 2,
@@ -916,7 +956,8 @@
         [["water_clean", 2]],
         [["chem_hydrogen_peroxide", 2]]
     ]
-    },{
+  },
+  {
     "result": "fighter_sting_juice",
     "type": "recipe",
     "category": "CC_CHEM",
@@ -940,7 +981,8 @@
         [["water_clean", 1], ["water", 1]],
         [["salt_water", 1]]
     ]
-    },{
+  },
+  {
     "result": "antidote_posion",
     "result_mult": 2,
     "type": "recipe",
@@ -963,7 +1005,8 @@
         [["royal_jelly_sap", 1], ["royal_jelly", 1]],
         [["water_acid", 2], ["water_acid_weak", 2]]
     ]
-    },{
+  },
+  {
     "result": "antidote_badpoison",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -986,7 +1029,8 @@
         [["disinfectant", 3], ["chem_hydrogen_peroxide_conc", 1], ["chem_hydrogen_peroxide", 3]],
         [["water_acid", 2], ["water_acid_weak", 2]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "pipe_solid_spear",
     "category": "CC_WEAPON",
@@ -1003,7 +1047,8 @@
         [[ "leather", 1 ]],
         [[ "string_36", 1 ], [ "string_6", 6 ]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "bot_turret_shockcannon",
     "category": "CC_ELECTRONIC",
@@ -1027,7 +1072,8 @@
         [[ "power_supply", 1 ], [ "plut_cell", 1 ]],
         [[ "scrap", 15 ]]
     ]
-    },{
+  },
+  {
     "type" : "recipe",
     "result": "chime_scrap",
     "category": "CC_OTHER",
@@ -1044,12 +1090,13 @@
         [[ "scrap", 6 ]],
         [[ "string_36", 1 ], [ "string_6", 6 ]]
     ]
-    },{
+  },
+  {
     "result": "wasp_glue_super",
     "type": "recipe",
     "result_mult": 2,
     "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_DRUGS",
+    "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "fabrication",
     "skills_required": [[ "cooking", 2 ], [ "survival", 3 ]],
     "difficulty": 4,
@@ -1068,7 +1115,8 @@
         [["fertilizer_commercial", 50], ["fertilizer_liquid", 50], ["material_quicklime", 50], ["material_limestone", 50], ["fungicide", 50]],
         [["bag_plastic", 1]]
     ]
-    },{
+  },
+  {
   "type" : "recipe",
   "result": "bfg_shell",
   "category": "CC_AMMO",
@@ -1085,5 +1133,25 @@
     [ [ "spess_chunk", 8 ] ],
     [ [ "rocket_core", 4 ] ]
   ]
+  },
+  {
+    "type" : "recipe",
+    "result": "clay_boiled",
+  "category": "CC_CHEM",
+  "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": 16000,
+    "reversible": false,
+    "autolearn": true,
+    "batch_time_factors":[35, 4],
+    "qualities":[
+        {"id":"BOIL","level":1,"amount":1}
+    ],
+    "components": [
+        [[ "clay_lump", 1 ]],
+        [[ "salt", 10 ], [ "salt_water", 1 ], ["saline", 3],  [ "seasoning_salt", 25]],
+        [[ "water", 1 ], [ "water_clean", 1 ]]
+    ]
   }
 ]
