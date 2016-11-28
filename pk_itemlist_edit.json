@@ -468,7 +468,8 @@
         "id": "vet_softdrug",
         "items": [
     ["pokeball", 3],
-    ["machete", 8]
+    ["machete", 8],
+    ["pepto", 10]
     ]
     },{
         "type": "item_group",
@@ -586,7 +587,7 @@
     ["berserker_drug", 8 ],
     ["mutagen", 5 ],
     ["purifier", 2 ],
-    ["mutagen_medical", 1 ]
+    ["mutagen_medical", 1]
     ]
     },{
     "type": "item_group",
@@ -595,7 +596,8 @@
     ["stamina_vial", 35 ],
     ["medikit", 20 ],
     ["antidote_posion", 15],
-    ["antidote_badpoison", 5]
+    ["antidote_badpoison", 5],
+    ["pepto", 50]
     ]
     },{
     "type": "item_group",
@@ -603,14 +605,16 @@
     "items": [
     ["stamina_vial", 65 ],
     ["medikit", 25 ],
-    ["berserker_drug", 4 ]
+    ["berserker_drug", 4 ],
+    ["pepto", 50]
     ]
     },{
     "type": "item_group",
     "id": "allsporting",
     "items": [
     ["stamina_vial", 25 ],
-    ["medikit", 15 ]
+    ["medikit", 15 ],
+    ["pepto", 40]
     ]
     },{
     "type": "item_group",

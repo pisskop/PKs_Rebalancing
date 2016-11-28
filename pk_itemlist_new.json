@@ -12,6 +12,7 @@
       ["berserker_drug", 8],
       ["medikit", 12],
       ["chem_hydrogen_peroxide", 15],
+      ["pepto", 15],
       ["aspirin", 20]
     ]
   },
@@ -65,7 +66,8 @@
       ["mutagen_ursine", 8],
       ["iv_mutagen_ursine", 1]
     ]
-    },{
+  },
+  {
     "type": "item_group",
     "subtype": "collection",
     "comment": "9mm drops",
@@ -75,7 +77,8 @@
         { "group": "bags", "damage": [1, 4], "prob": 10 },
         { "group": "furvivor_ninemm", "damage": [2, 4], "prob": 75, "count": [1, 2]}
     ]
-    },{
+  },
+  {
     "type": "item_group",
     "subtype": "collection",
     "comment": "shot drops",
@@ -86,7 +89,8 @@
         { "group": "furvivor_shot_gun", "damage": [2, 4], "prob": 80},
         { "group": "furvivor_shot_ammo", "damage": [2, 4], "prob": 25}
     ]
-    },{
+  },
+  {
     "type": "item_group",
     "subtype": "collection",
     "comment": "deagle drops",
@@ -118,24 +122,24 @@
         { "group": "pk_melee", "damage": [2, 4], "prob": 50}
     ]
     },{
-        "type": "item_group",
-        "subtype": "collection",
-        "comment": "shot drops",
-        "id": "marloss_man_drops",
-        "entries":
-        [
-            { "group": "mon_zombie_survivor_death_drops", "damage": [2, 4] },
-            { "group": "bags", "damage": [1, 4], "prob": 10 },
-            { "group": "marloss_man_gear", "damage": [2, 4], "prob": 33 },
-            { "group": "marloss_man_nommies", "damage": [0, 1], "prob": 95, "count": [3, 5] }
-        ]
-    },
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "shot drops",
+    "id": "marloss_man_drops",
+    "entries":
+    [
+       { "group": "mon_zombie_survivor_death_drops", "damage": [2, 4] },
+       { "group": "bags", "damage": [1, 4], "prob": 10 },
+       { "group": "marloss_man_gear", "damage": [2, 4], "prob": 33 },
+       { "group": "marloss_man_nommies", "damage": [0, 1], "prob": 95, "count": [3, 5] }
+    ]
+  },
 
-    {
-        "type": "item_group",
-        "id": "furvivor_ninemm",
-        "//": "cheap glock and mag for glock",
-        "items": [
+  {
+      "type": "item_group",
+      "id": "furvivor_ninemm",
+      "//": "cheap glock and mag for glock",
+      "items": [
     ["glockmag", 10],
     ["glock_19", 10],
     ["9mm", 4],
@@ -309,6 +313,7 @@
     ["codeine", 18],
     ["tramadol", 18],
     ["aspirin", 15],
+    ["pepto", 15],
     ["adrenaline_injector", 12],
     ["berserker_drug", 12],
     ["quikclot", 12],

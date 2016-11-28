@@ -107,18 +107,9 @@
     "see_cost": 5,
     "extras": "doom",
     "mondensity": 3
-  },{
-    "type": "overmap_terrain",
-    "id": "lab_complex_B1",
-    "name": "lab foyer",
-    "sym": 73,
-    "color": "red",
-    "see_cost": 5,
-    "extras": "doom",
-    "mondensity": 3
   },
 
-    {
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_NW",
     "name": "hell castle",
@@ -288,14 +279,6 @@
     "color": "brown",
     "see_cost": 2,
     "mondensity": 5
-  },{
-    "type": "overmap_terrain",
-    "id": "trapdoor_pit_loner",
-    "name": "field",
-    "sym": 46,
-    "color": "brown",
-    "see_cost": 2,
-    "mondensity": 3
   },{
     "type": "overmap_terrain",
     "id": "trapdoor_pit_b1",
