@@ -1092,7 +1092,7 @@
     "type" : "overmap_terrain",
     "id" : "hunter_shack",
     "name" : "swamp shack",
-    "sym" : 70,
+    "sym" : 67,
     "color" : "cyan",
     "see_cost" : 5,
     "extras" : "field"
@@ -1104,5 +1104,21 @@
     "color" : "light_red",
     "see_cost" : 5,
     "known_down" : true
+  },{
+    "type" : "overmap_terrain",
+    "id" : "sludge_pit",
+    "name" : "sludge pit",
+    "sym" : 126,
+    "color" : "light_gray",
+    "see_cost" : 5,
+    "mondensity": 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "sludge_pit_under",
+    "name" : "sludge pit",
+    "sym" : 126,
+    "color" : "light_gray",
+    "see_cost" : 5,
+    "mondensity": 3
   }
 ]

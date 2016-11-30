@@ -185,6 +185,7 @@
     "items":[
       { "group": "prefab_chems", "prob": 30 },
       { "group": "bomblet_ammo", "prob": 50, "count": [2, 5] },
+      ["plut_cell", 15],
       ["megaarmor_leggings_1", 8],
       ["megaarmor_gloves_1", 8],
       ["megaarmor_armguards_1", 8],
@@ -571,13 +572,13 @@
     ]
   },
   {
-        "type": "item_group",
-        "id": "corpses_human",
-        "items":[
-    ["corpse", 25],
-    ["bone_human", 10],
-    ["bone_tainted", 10],
-    ["human_flesh", 5]
+    "type": "item_group",
+    "id": "corpses_human",
+    "items":[
+      ["corpse", 25],
+      ["bone_human", 10],
+      ["bone_tainted", 10],
+      ["human_flesh", 5]
     ]
   },
   {

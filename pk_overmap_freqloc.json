@@ -87,7 +87,7 @@
     "locations": [ "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 4],
+    "occurrences": [1, 4],
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -101,7 +101,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [-1, 2],
     "city_sizes": [2, 14],
-    "occurrences": [0, 4],
+    "occurrences": [0, 5],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -138,10 +138,10 @@
     "connections" : [
       { "point" : [0,-1,0], "terrain" : "road", "existing" : true }
     ],
-    "locations" : [ "land" ],
+    "locations" : [ "land", "swamp" ],
     "city_distance" : [12, -1],
     "city_sizes" : [1, 12],
-    "occurrences" : [0, 5],
+    "occurrences" : [0, 2],
     "flags" : [ "CLASSIC" ]
   },{
     "type" : "overmap_special",
@@ -153,7 +153,7 @@
       { "point" : [0,-1,0], "terrain" : "road", "existing" : true }
     ],
     "locations" : [ "land" ],
-    "city_distance" : [10, 200],
+    "city_distance" : [12, -1],
     "city_sizes" : [4, 12],
     "occurrences" : [1, 4],
     "flags" : [ "CLASSIC" ]
@@ -870,7 +870,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [5, -1],
     "city_sizes": [12, 30],
-    "occurrences": [0, 4],
+    "occurrences": [0, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -1478,7 +1478,7 @@
     "locations": [ "land" ],
     "city_distance": [10, 200],
     "city_sizes": [1, 12],
-    "occurrences": [ 1,2 ],
+    "occurrences": [ 0 , 2 ],
     "rotate": true,
     "extras": "build",
     "flags": [ "CLASSIC" ]
@@ -1494,7 +1494,7 @@
     "locations": [ "land" ],
     "city_distance": [10, 200],
     "city_sizes": [1, 12],
-    "occurrences": [ 1, 3 ],
+    "occurrences": [ 0 , 2 ],
     "rotate": true,
     "extras": "build",
     "flags": [ "CLASSIC" ]
@@ -1510,7 +1510,7 @@
     "locations": [ "land" ],
     "city_distance": [10, 200],
     "city_sizes": [1, 12],
-    "occurrences": [ 0, 3 ],
+    "occurrences": [ 0, 2 ],
     "rotate": true,
     "extras": "build",
     "flags": [ "CLASSIC" ]

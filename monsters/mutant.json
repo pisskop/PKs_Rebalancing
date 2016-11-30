@@ -98,6 +98,39 @@
     "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
   },
   {
+    "id": "mon_sludge_crawler_queen",
+    "type": "MONSTER",
+    "name": "sludge crawler",
+    "description": "A large sluglike creature, nine feet long and the width of a refrigerator.  Its black body glistens as it oozes its way along the ground.  Eye stalks occasionally push their way out of the oily mass and look around.  This big mama looks important.",
+    "default_faction": "mutant_omnivore",
+    "species": [ "MUTANT" ],
+    "diff": 13,
+    "size": "LARGE",
+    "hp": 420,
+    "speed": 60,
+    "material": [ "flesh" ],
+    "symbol": "S",
+    "color": "ltgray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 3,
+    "melee_dice_sides": 8,
+    "melee_damage": [
+      {
+        "damage_type": "acid",
+        "amount": 6
+      }
+    ],
+    "emit_fields": [ "emit_sludge" ],
+    "dodge": 10,
+    "armor_bash": 8,
+    "vision_day": 10,
+    "vision_night": 30,
+    "death_function": [ "MELT" ],
+    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB", "HARDTOSHOOT" ]
+  },
+  {
     "id": "mon_chud",
     "type": "MONSTER",
     "copy-from": "mon_chud",

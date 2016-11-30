@@ -181,7 +181,7 @@
     "charges": 1,
     "quench": -10,
     "fun": -8,
-    "parasites": 24,
+    "parasites": 12,
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You consume a helping of the %s.",

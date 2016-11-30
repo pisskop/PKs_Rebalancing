@@ -1137,8 +1137,8 @@
   {
     "type" : "recipe",
     "result": "clay_boiled",
-  "category": "CC_CHEM",
-  "subcategory": "CSC_CHEM_DRUGS",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
     "skill_used": "survival",
     "difficulty": 1,
     "time": 16000,

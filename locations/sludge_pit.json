@@ -1,0 +1,135 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [
+      "sludge_pit"
+    ],
+    "method": "json",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_tar",
+      "rows": [
+        "########################",
+        "########################",
+        "##                    ##",
+        "##            o       ##",
+        "##      x             ##",
+        "##                 o  ##",
+        "##   x           o    ##",
+        "##                    ##",
+        "##                    ##",
+        "##           >        ##",
+        "##                 l  ##",
+        "##                    ##",
+        "##             l      ##",
+        "##               l    ##",
+        "##             l      ##",
+        "##       >       l    ##",
+        "##       x            ##",
+        "##                    ##",
+        "##                    ##",
+        "##                    ##",
+        "##                    ##",
+        "##                    ##",
+        "########################",
+        "########################"
+            ],
+      "terrain": {
+        ">": "t_slope_down",
+        "x": ["t_sludge", "t_tar"],
+        "o": ["t_sludge", "t_tar"],
+        "l": ["t_sludge", "t_tar"],
+        " ": ["t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt"],
+        "#": ["t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt"]
+      },
+      "furniture": {
+        " ": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
+        "#": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null"]
+      },
+      "set": [
+        { "point": "radiation", "amount": [80, 120], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 350 , 500 ] }
+      ],
+      "place_fields": [
+        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 5 ] },
+        { "field": "fd_gas_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 1, "repeat": [ 0 , 3 ] }
+      ],
+      "monster": {
+        "x": { "monster": "mon_sludge_crawler" },
+        "l": { "monster": "mon_sewer_snake" },
+        "o": { "monster": "mon_twisted_body" }
+      },
+      "place_items": [
+        { "item": "corpses_human", "chance": 80, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
+        { "item": "default_zombie_items", "chance": 80, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] }
+      ]
+    }
+  },{
+    "type": "mapgen",
+    "om_terrain": [
+      "sludge_pit_under"
+    ],
+    "method": "json",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "########################",
+        "########################",
+        "##                    ##",
+        "##               l    ##",
+        "##              l     ##",
+        "##                l   ##",
+        "##                 l  ##",
+        "##            l       ##",
+        "##        x           ##",
+        "##           <        ##",
+        "##   x           l    ##",
+        "##          x         ##",
+        "##       X            ##",
+        "##                    ##",
+        "##                    ##",
+        "##   x   <            ##",
+        "##                    ##",
+        "##                    ##",
+        "##                    ##",
+        "##                    ##",
+        "##                o   ##",
+        "##              o     ##",
+        "########################",
+        "########################"
+        ],
+      "terrain": {
+        "<": "t_slope_up",
+        "X": ["t_sludge", "t_tar"],
+        "x": ["t_sludge", "t_tar"],
+        "o": ["t_sludge", "t_tar"],
+        "l": ["t_sludge", "t_tar"],
+        " ": ["t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_rock"],
+        "#": ["t_tar", "t_sludge", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock"]
+      },
+      "furniture": {
+        " ": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"]
+      },
+      "set": [
+        { "point": "radiation", "amount": [80, 120], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 300 , 500 ] }
+      ],
+      "place_fields": [
+        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 1 ] },
+        { "field": "fd_gas_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 1, "repeat": [ 0 , 2 ] }
+      ],
+      "monster": {
+        "x": { "monster": "mon_sludge_crawler" },
+        "X": { "monster": "mon_sludge_crawler_queen" },
+        "l": { "monster": "mon_sewer_snake" },
+        "o": { "monster": "mon_twisted_body" }
+      },
+      "place_items": [
+        { "item": "corpses_human", "chance": 85, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
+        { "item": "default_zombie_items", "chance": 85, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
+        { "item": "spider", "chance": 90, "x": [ 3, 20 ], "y": [ 3, 20 ] },
+        { "item": "spider", "chance": 65, "x": [ 3, 20 ], "y": [ 3, 20 ] },
+        { "item": "spider", "chance": 65, "x": [ 3, 20 ], "y": [ 3, 20 ] }
+      ]
+    }
+  }
+]

@@ -18,7 +18,8 @@
         { "item": "pipe_solid", "count": [0, 2] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_bars",
     "copy-from": "t_bars",
@@ -39,7 +40,8 @@
         { "item": "scrap", "count": [2, 5] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_door_bar_c",
     "copy-from": "t_door_bar_c",
@@ -62,7 +64,8 @@
         { "item": "scrap", "count": [2, 5] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_door_bar_o",
     "copy-from": "t_door_bar_o",
@@ -83,7 +86,8 @@
         { "item": "scrap", "count": [2, 5] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_door_bar_locked",
     "copy-from": "t_door_bar_locked",
@@ -104,7 +108,8 @@
         { "item": "scrap", "count": [2, 5] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_iron_fence",
     "name": "iron wrought fence",
@@ -124,7 +129,8 @@
         { "item": "scrap", "count": [6, 12] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_iron_gate_c",
     "name": "closed iron gate",
@@ -144,7 +150,8 @@
         { "item": "scrap", "count": [10, 21] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_iron_gate_o",
     "name": "open iron gate",
@@ -164,7 +171,8 @@
         { "item": "scrap", "count": [10, 21] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_iron_gate_l",
     "name": "locked iron gate",
@@ -184,7 +192,8 @@
         { "item": "scrap", "count": [10, 21] }
       ]
     }
-  },{
+  },
+  {
     "type": "terrain",
     "id": "t_iron_fence_posts",
     "name": "mangled iron fence",
@@ -202,7 +211,8 @@
         { "item": "pipe_solid", "count": [4, 8] }
       ]
     }
-  },{
+  },
+  {
     "type" : "terrain",
     "id" : "t_paper",
     "copy-from": "t_paper",
@@ -219,7 +229,8 @@
       "sound_fail_vol": 12,
       "ter_set": "t_null"
     }
-  },{
+  },
+  {
     "type" : "terrain",
     "id" : "t_paper_floor",
     "name": "paper floor",
@@ -236,5 +247,23 @@
       "sound_fail_vol": 4,
       "ter_set": "t_null"
     }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_tar",
+    "name": "tar",
+    "symbol": "~",
+    "color": "dkgray",
+    "move_cost": 8,
+    "flags": ["TRANSPARENT", "CONTAINER", "FLAMMABLE", "PLACE_ITEM", "SWIMMABLE"]
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_sludge",
+    "name": "sludge",
+    "symbol": "~",
+    "color": "ltgray",
+    "move_cost": 6,
+    "flags": ["TRANSPARENT", "CONTAINER", "FLAMMABLE_HARD", "PLACE_ITEM", "SWIMMABLE"]
   }
 ]

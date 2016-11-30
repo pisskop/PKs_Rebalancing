@@ -353,7 +353,7 @@
       { "point":[0,0,0], "overmap": "fungal_flowers"}
     ],
     "locations": [ "swamp" ],
-    "city_distance": [5, -1],
+    "city_distance": [8, -1],
     "city_sizes": [1, 12],
     "occurrences": [1, 2],
     "rotate": false,
@@ -380,9 +380,9 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [5, -1],
     "city_sizes": [1, 16],
-    "occurrences": [0, 20],
+    "occurrences": [0, 12],
     "rotate": false,
-    "spawns": { "group": "GROUP_ANT", "population":[1000,2500], "radius":[20,50] }
+    "spawns": { "group": "GROUP_ANT", "population":[800,2400], "radius":[20,50] }
   },{
     "type": "overmap_special",
     "id": "Spider Pit",
@@ -714,5 +714,17 @@
     "city_sizes": [1, 16],
     "occurrences": [0, 1],
     "flags": [ "CLASSIC" ]
+  },{
+    "type": "overmap_special",
+    "id": "sludge pit",
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "sludge_pit"},
+      { "point":[0,0,-1], "overmap": "sludge_pit_under"}
+    ],
+    "locations": [ "swamp", "field" ],
+    "city_distance": [0, -1],
+    "city_sizes": [4, 16],
+    "occurrences": [1, 5],
+    "spawns": { "group":  "GROUP_SLUDGE", "population":[25,50], "radius":[7,15] }
   }
 ]
