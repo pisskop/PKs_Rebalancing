@@ -1120,5 +1120,14 @@
     "color" : "light_gray",
     "see_cost" : 5,
     "mondensity": 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "barn_old",
+    "name" : "derelict barn",
+    "sym" : 35,
+    "color" : "i_brown",
+    "see_cost" : 5,
+    "extras" : "field",
+    "mondensity" : 3
   }
 ]

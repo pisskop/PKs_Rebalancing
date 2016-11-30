@@ -6,7 +6,7 @@
       { "point":[0,0,0], "overmap": "crater"}
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [-1, -1],
+    "city_distance": [0, -1],
     "occurrences": [0, 12],
     "flags": [ "BLOB", "CLASSIC" ]
   },{
@@ -87,7 +87,7 @@
     "locations": [ "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 4],
+    "occurrences": [0, 4],
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -99,7 +99,7 @@
       { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [-1, 2],
+    "city_distance": [0, 4],
     "city_sizes": [2, 14],
     "occurrences": [0, 5],
     "rotate": true
@@ -121,7 +121,7 @@
       { "point": [1,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [-1, 4],
+    "city_distance": [0, 4],
     "city_sizes": [4, 12],
     "occurrences": [1, 3],
     "rotate": true,
@@ -176,7 +176,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 3]
+    "occurrences": [0, 3]
   },{
     "type": "overmap_special",
     "id": "Cathedral",
@@ -195,9 +195,9 @@
       { "point": [1,-1,0], "terrain": "road" }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [-1, 8],
+    "city_distance": [0, 8],
     "city_sizes": [4, 16],
-    "occurrences": [1, 3],
+    "occurrences": [0, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -230,7 +230,7 @@
     ],
     "locations": [ "field" ],
     "city_distance": [12, -1],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [0, 1],
     "rotate": true,
     "flags": [ "CLASSIC" ]
@@ -247,24 +247,25 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [4, 10],
     "city_sizes": [4, 16],
-    "occurrences": [2, 10],
+    "occurrences": [1, 10],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
     "id": "Evac Shelter Wilderness",
     "overmaps": [
-      { "point":[0,0,0], "overmap": "shelter"},
-      { "point":[0,0,-1], "overmap": "shelter_under"},
-      { "point":[-1,0,0], "overmap": "s_lot"}
+      { "point":[-1,-1,0], "overmap": "shelter"},
+      { "point":[-1,-1,-1], "overmap": "shelter_under"},
+      { "point":[0,1,0], "overmap": "s_lot"},
+      { "point":[-1,1,0], "overmap": "barn_old"}
     ],
     "connections": [
-      { "point": [-1,-1,0], "terrain": "road" }
+      { "point": [0,0,0], "terrain": "road" }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [-1, 16],
+    "city_distance": [8, -1],
     "city_sizes": [4, 16],
-    "occurrences": [2, 6],
+    "occurrences": [1, 6],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -275,8 +276,8 @@
       { "point":[0,0,0], "overmap": "slimepit_down"}
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [-1, -1],
-    "city_sizes": [1, 12],
+    "city_distance": [0, -1],
+    "city_sizes": [4, 12],
     "occurrences": [0, 8],
     "rotate": true,
     "spawns": { "group": "GROUP_GOO", "population":[100,200], "radius":[5,15] }
@@ -315,7 +316,7 @@
       { "point": [1,-1,0], "terrain": "road" }
     ],
     "locations": [ "wilderness", "swamp" ],
-    "city_distance": [-1, 8],
+    "city_distance": [2, 12],
     "city_sizes": [4, 12],
     "occurrences": [1, 3],
     "rotate": true,
@@ -333,7 +334,7 @@
       { "point": [1,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "wilderness", "swamp" ],
-    "city_distance": [1, 6],
+    "city_distance": [0, 4],
     "city_sizes": [4, 12],
     "occurrences": [0, 2],
     "rotate": true,
@@ -451,9 +452,9 @@
       { "point": [1,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 2],
+    "city_distance": [0, 2],
     "city_sizes": [4, 12],
-    "occurrences": [1, 4],
+    "occurrences": [0, 4],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -809,7 +810,7 @@
     ],
     "locations": [ "swamp", "wilderness" ],
     "city_distance": [8, -1],
-    "city_sizes": [1, 16],
+    "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": true
   },{
@@ -847,8 +848,8 @@
     ],
     "locations": [ "wilderness" ],
     "city_distance": [2, 12],
-    "city_sizes": [1, 16],
-    "occurrences": [1, 2],
+    "city_sizes": [4, 16],
+    "occurrences": [1, 1],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -869,7 +870,7 @@
     ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [5, -1],
-    "city_sizes": [12, 30],
+    "city_sizes": [42, 30],
     "occurrences": [0, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]
@@ -895,9 +896,9 @@
         { "point": [3,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 8],
-    "city_sizes": [1, 12],
-    "occurrences": [0, 3],
+    "city_distance": [0, 8],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 2],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -922,8 +923,8 @@
         { "point": [3,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 12],
-    "city_sizes": [1, 12],
+    "city_distance": [0, 12],
+    "city_sizes": [4, 12],
     "occurrences": [1, 2],
     "rotate": true,
     "flags": [ "CLASSIC" ]
@@ -948,7 +949,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
-    "occurrences": [1, 3],
+    "occurrences": [1, 2],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -993,7 +994,7 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 3],
+    "occurrences": [0, 2],
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -1036,9 +1037,9 @@
         { "point": [-1,0,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 20],
+    "city_distance": [0, 20],
     "city_sizes": [2, 14],
-    "occurrences": [1, 8],
+    "occurrences": [1, 6],
     "rotate": true,
     "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 10], "radius":[2, 5] }
   },{
@@ -1101,9 +1102,9 @@
         { "point": [0,3,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "field" ],
-    "city_distance": [-1, 6],
+    "city_distance": [0, 6],
     "city_sizes": [4, 16],
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": true,
     "flags": [ "CLASSIC" ]
   },{
@@ -1148,7 +1149,7 @@
     ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [10, -1],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [1, 5],
     "rotate": true
   },{
@@ -1160,8 +1161,8 @@
       { "point":[0,0,-1], "overmap": "lmoe_under"}
     ],
     "locations": [ "forest", "swamp" ],
-    "city_distance": [15, -1],
-    "city_sizes": [1, 12],
+    "city_distance": [0, -1],
+    "city_sizes": [4, 12],
     "occurrences": [1, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]
@@ -1175,7 +1176,7 @@
     ],
     "locations": [ "swamp" ],
     "city_distance": [15, -1],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [1, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]
@@ -1351,7 +1352,7 @@
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [-1, -1],
+    "city_distance": [0, -1],
     "city_sizes": [4, 12],
     "occurrences": [1, 8],
     "rotate": true,
@@ -1477,7 +1478,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [10, 200],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [ 0 , 2 ],
     "rotate": true,
     "extras": "build",
@@ -1493,7 +1494,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [10, 200],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [ 0 , 2 ],
     "rotate": true,
     "extras": "build",
@@ -1509,7 +1510,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [10, 200],
-    "city_sizes": [1, 12],
+    "city_sizes": [4, 12],
     "occurrences": [ 0, 2 ],
     "rotate": true,
     "extras": "build",
@@ -1530,7 +1531,7 @@
         { "point": [0,2,-1], "terrain": "sewer" }
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [-1,4],
+    "city_distance": [0,4],
     "city_sizes": [4,12],
     "occurrences": [ 1, 2 ],
     "rotate": true,
@@ -1551,7 +1552,7 @@
         { "point": [0,2,-1], "terrain": "sewer" }
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [-1,-1],
+    "city_distance": [0,-1],
     "city_sizes": [4,12],
     "occurrences": [ 0, 2 ],
     "rotate": true,
@@ -1570,7 +1571,7 @@
         { "point": [2,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1,3],
+    "city_distance": [0,4],
     "city_sizes": [4,12],
     "occurrences": [ 0, 4 ],
     "rotate": true,
@@ -1592,7 +1593,7 @@
       { "point": [0,-2,-1], "terrain": "subway" }
     ],
     "locations": [ "land" ],
-    "city_distance": [-1, 8],
+    "city_distance": [0, 8],
     "city_sizes": [6, 12],
     "occurrences": [ 1, 4 ],
     "rotate": true,
