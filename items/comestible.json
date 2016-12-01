@@ -176,7 +176,7 @@
     "copy-from": "clay_lump",
     "name": "lump of clay",
     "category": "other",
-    "description": "A fresh piece of clay.  Can be used in crafting or eaten raw to satiate hunger and cleanse the body of some radiation.",
+    "description": "A fresh piece of clay.  Can be used in crafting, boiled to remove harmful bacteria, or eaten raw to satiate hunger and cleanse the body of some radiation.",
     "comestible_type": "MED",
     "charges": 1,
     "quench": -10,

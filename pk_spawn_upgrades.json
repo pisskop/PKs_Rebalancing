@@ -3,11 +3,20 @@
     "type":"monstergroup",
     "name": "GROUP_ZOMBIE_BRUTE",
     "default": "mon_zombie_brute",
-    "//": "PKs Brute upgrade list.",
     "monsters": [
       { "monster": "mon_zombie_brute_grappler", "freq": 500, "cost_multiplier": 1 },
       { "monster": "mon_zombie_brute_ninja", "freq": 250, "cost_multiplier": 1 },
       { "monster": "mon_zombie_hulk", "freq": 50, "cost_multiplier": 10 }
+    ]
+    },{
+    "type":"monstergroup",
+    "name": "GROUP_ZOMBIE_SMOKER",
+    "default": "mon_zombie_smoker",
+    "monsters": [
+      { "monster": "mon_zombie_smoker_pk", "freq": 325, "cost_multiplier": 3 },
+      { "monster": "mon_zombie_radbag", "freq": 50, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_shady_ghost", "freq": 50, "cost_multiplier": 7 },
+      { "monster": "mon_charred_nightmare", "freq": 25, "cost_multiplier": 5 }
     ]
     },{
     "type":"monstergroup",
@@ -22,9 +31,10 @@
       { "monster": "mon_skeleton_husk", "freq": 25, "cost_multiplier": 10 },
       { "monster": "mon_beekeeper", "freq": 150, "cost_multiplier": 1 },
       { "monster": "mon_beekeeper_pk", "freq": 100, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_shady_ghost", "freq": 50, "cost_multiplier": 7 },
+      { "monster": "mon_zombie_shady_ghost", "freq": 40, "cost_multiplier": 7 },
       { "monster": "mon_zombie_crawler_pk_weak", "freq": 50, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_radbag", "freq": 50, "cost_multiplier": 20 },
+      { "monster": "mon_zombie_radbag", "freq": 10, "cost_multiplier": 20 },
+      { "monster": "mon_zombie_smoker_pk", "freq": 5, "cost_multiplier": 10 },
       { "monster": "mon_zombie_crawler_pk", "freq": 10, "cost_multiplier": 40 }
     ]
     },{

@@ -1022,8 +1022,8 @@
     "emit_fields": [ "emit_radiation_small", "emit_smoke_stream" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
-      "half_life": 18,
-      "into": "mon_zombie_radbag"
+      "half_life": 35,
+      "into_group": "GROUP_ZOMBIE_SMOKER"
     }
   },
   {
@@ -1821,6 +1821,43 @@
     "vision_night": 9,
     "luminance": 3,
     "emit_fields": [ "emit_radbag", "emit_radiation_small", "emit_radiation_plume", "emit_gas_plume" ],
+    "special_attacks": [ [ "GRAB", 20 ] ],
+    "death_drops": "mon_zombie_hulk_death_drops",
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+  },
+  {
+    "id": "mon_zombie_smoker_pk",
+    "type": "MONSTER",
+    "name": "zombie incus",
+    "description": "A stout, shadowy humanoid that emits a constant aura of smog around it.  This thick smoke hides its allies and obscures vision through it.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE" ],
+    "diff": 16,
+    "size": "MEDIUM",
+    "hp": 80,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "ltgreen_yellow",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "melee_damage": [
+      {
+        "damage_type": "heat",
+        "amount": 2
+      }
+    ],
+    "dodge": 5,
+    "armor_bash": 8,
+    "armor_cut": 2,
+    "vision_day": 50,
+    "vision_night": 9,
+    "emit_fields": [ "emit_smoke_blast", "emit_radiation_small", "emit_radiation_plume" ],
     "special_attacks": [ [ "GRAB", 20 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],

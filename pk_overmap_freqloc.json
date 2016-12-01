@@ -425,13 +425,15 @@
       { "point":[7,8,0], "overmap": "mall_a_80_north"},
       { "point":[8,8,0], "overmap": "mall_a_81_north"},
       { "point":[4,10,0], "overmap": "sub_station_north"},
-      { "point":[3,-2,0], "overmap": "sub_station_south"}
+      { "point":[3,-2,0], "overmap": "sub_station_south"},
+      { "point":[4,10,-1], "overmap": "subway_station"},
+      { "point":[3,-2,-1], "overmap": "subway_station"}
     ],
     "connections": [
       { "point": [2,-1,0], "terrain": "road" },
       { "point": [4,9,0], "terrain": "road" },
-      { "point": [4,10,-1], "terrain": "subway" },
-      { "point": [3,-2,-1], "terrain": "subway" }
+      { "point": [4,9,-1], "terrain": "subway" },
+      { "point": [4,-2,-1], "terrain": "subway" }
     ],
     "locations": [ "land" ],
     "city_distance": [1, -1],
@@ -794,12 +796,13 @@
       { "point":[-3,-6,0], "overmap": "house_south"},
       { "point":[-7,-3,0], "overmap": "s_restaurant_fast_south"},
       { "point": [-7,-5,0], "overmap": "sub_station_south" },
+      { "point": [-7,-5,-1], "overmap": "subway_station" },
       { "point":[-10,-7,0], "overmap": "radio_tower"},
       { "point":[4,-2,0], "overmap": "sai"}
       
     ],
       "connections": [
-        { "point": [-7,-5,-1], "terrain": "subway" },
+        { "point": [-7,-6,-1], "terrain": "subway" },
         { "point": [-7,-4,0], "terrain": "road" },
         { "point": [-10,-6,0], "terrain": "road" },
         { "point": [-5,-5,0], "terrain": "road" },
@@ -1586,11 +1589,12 @@
       { "point":[-2,1,0], "overmap": "office_tower_2_b1_north"},
       { "point":[-1,1,0], "overmap": "office_tower_2_b2_north"},
       { "point":[0,1,0], "overmap": "office_tower_2_b3_north"},
-      { "point":[0,-2,0], "overmap": "sub_station_south"}
+      { "point":[0,-2,0], "overmap": "sub_station_south"},
+      { "point":[0,-2,-1], "overmap": "subway_station"}
     ],
       "connections": [
         { "point": [0,-1,0], "terrain": "road" },
-      { "point": [0,-2,-1], "terrain": "subway" }
+      { "point": [-2,-1,-1], "terrain": "subway" }
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],

@@ -285,12 +285,13 @@
       { "point":[1,6,0], "overmap": "apartments_con_tower_NE_north"},
       { "point":[0,7,0], "overmap": "apartments_con_tower_SW_north"},
       { "point":[1,7,0], "overmap": "apartments_con_tower_SE_north"},
-      { "point": [-2,2,0], "overmap": "sub_station_east" }
+      { "point": [-2,2,0], "overmap": "sub_station_east" },
+      { "point": [-2,2,-1], "overmap": "subway_station" }
     ],
     "connections": [
     { "point": [-1,2,0], "terrain": "road" },
     { "point": [2,5,0], "terrain": "road" },
-    { "point": [-2,2,-1], "terrain": "subway" }
+    { "point": [-1,2,-1], "terrain": "subway" }
     ],
     "locations": [ "land" ],
     "city_distance": [0, 4],

@@ -2,6 +2,16 @@
   
   {
     "type": "effect_type",
+    "id": "cureall",
+    "//": "This is the royal jelly effect, it should cure pretty much everything.",
+    "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu"],
+    "base_mods": {
+      "pkill_min": [15],
+      "rad_amount": [-75]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "foodpoison",
     "name": ["Food Poisoning"],
     "desc": ["Your stomach is extremely upset, and you are quite nauseous."],

@@ -239,7 +239,8 @@
     "blocks_effects": ["poison", "stung", "fungus", "paralyzepoison"],
     "base_mods": {
       "pain_amount": [1],
-      "pain_chance": [40]
+      "pain_chance": [40],
+      "rad_amount": [-25]
     },
     "scaling_mods": {
       "pain_chance": [-10]
@@ -260,7 +261,8 @@
                        "doom_unhealth"],
     "base_mods": {
       "pain_amount": [1],
-      "pain_chance": [20]
+      "pain_chance": [20],
+      "rad_amount": [-50]
     },
     "scaling_mods": {
       "pain_chance": [-5]
