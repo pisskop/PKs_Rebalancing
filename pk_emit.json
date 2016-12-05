@@ -205,16 +205,16 @@
     "//": "Radiactive gas leaking. (example: smoldering zombie)",
     "field": "fd_nuke_gas",
     "density": 2,
-    "qty": 20,
-    "chance": 60
+    "qty": 16,
+    "chance": 50
   },{
     "id": "emit_radiation_small",
     "type": "emit",
     "//": "Small amounts of radiactive gas leaking. (example: bloated zombie)",
     "field": "fd_nuke_gas",
     "density": 1,
-    "qty": 10,
-    "chance": 60
+    "qty": 6,
+    "chance": 50
   },{
     "id": "emit_radiation_plume",
     "type": "emit",
@@ -222,7 +222,7 @@
     "field": "fd_nuke_gas",
     "density": 2,
     "qty": 4,
-    "chance": 25
+    "chance": 20
   },{
     "id": "emit_radiation_puff",
     "type": "emit",
@@ -230,7 +230,7 @@
     "field": "fd_nuke_gas",
     "density": 2,
     "qty": 3,
-    "chance": 10
+    "chance": 5
   },{
     "id": "emit_bfg_rad",
     "type": "emit",

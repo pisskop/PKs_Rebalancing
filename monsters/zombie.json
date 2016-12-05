@@ -1686,7 +1686,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 15,
     "size": "LARGE",
-    "hp": 120,
+    "hp": 60,
     "speed": 85,
     "material": [ "flesh" ],
     "symbol": "Z",

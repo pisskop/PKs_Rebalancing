@@ -1,5 +1,41 @@
 [
   {
+    "id": "duster",
+    "//": "Why the hell is the survivor and bog-standard trenchcoat the same encumbrance as a duster but not the leather/fur ones?",
+    "type": "ARMOR",
+    "copy-from": "duster",
+    "name": "duster",
+    "description": "A rugged full-length duster coat.  Has many pockets for storage.",
+    "encumbrance": 12,
+    "storage": 24
+  },
+  {
+    "id": "duster_survivor",
+    "type": "ARMOR",
+    "copy-from": "duster_survivor",
+    "category": "armor",
+    "name": "survivor duster",
+    "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
+    "encumbrance": 14
+  },
+  {
+    "id": "sleeveless_duster",
+    "type": "ARMOR",
+    "copy-from": "sleeveless_duster",
+    "name": "sleeveless duster",
+    "description": "A rugged full-length duster that leaves your arms unencumbered.  Has plenty of storage space due to its many pockets.",
+    "encumbrance": 12
+  },
+  {
+    "id": "sleeveless_duster_survivor",
+    "type": "ARMOR",
+    "copy-from": "sleeveless_duster_survivor",
+    "category": "armor",
+    "name": "sleeveless survivor duster",
+    "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets.  Comfortable, durable, and great for storage.",
+    "encumbrance": 14
+  },
+  {
     "id": "fireman_belt",
     "type": "ARMOR",
     "name": "firefighter belt",

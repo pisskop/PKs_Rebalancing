@@ -1,5 +1,32 @@
 [
   {
+    "result": "duster_leather",
+    "type": "recipe",
+    "override": true,
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": 200000,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
+    "tools": [ [ [ "sewing_kit", 60 ] ] ],
+    "components": [ [ [ "leather", 29 ], [ "tanned_hide", 5 ] ] ]
+  },
+  {
+    "result": "trenchcoat_leather",
+    "type": "recipe",
+    "override": true,
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": 200000,
+    "autolearn": true,
+    "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
+    "tools": [ [ [ "sewing_kit", 45 ] ] ],
+    "components": [ [ [ "leather", 22 ], [ "tanned_hide", 4 ] ] ]
+  },{
     "result": "broken_tripod",
     "type": "uncraft",
     "skill_used": "electronics",

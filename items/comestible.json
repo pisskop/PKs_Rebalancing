@@ -167,7 +167,8 @@
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You take some heartburn medicine.",
-      "effects" : [ { "id" : "tummy_tablet", "duration" : 5800 } ]
+      "effects" : [ { "id" : "tummy_tablet", "duration" : 5800 } ],
+    "flags" : "NPC_SAFE"
     }
   },
   {
@@ -190,7 +191,8 @@
          [ "calcium", 0, 4 ],
          [ "iron", 0, 12 ]
       ]
-    }
+    },
+    "flags" : "NPC_SAFE"
   },
   {
     "type": "COMESTIBLE",
@@ -211,7 +213,8 @@
       "vitamins": [
          [ "iron", 0, 6 ]
       ]
-    }
+    },
+    "flags" : "NPC_SAFE"
   },
   {
     "id" : "gummy_vitamins",
@@ -234,7 +237,8 @@
          [ "vitB", 24, 48 ],
          [ "vitC", 24, 48 ]
       ]
-    }
+    },
+    "flags" : "NPC_SAFE"
   },
   {
     "type" : "COMESTIBLE",
@@ -258,6 +262,7 @@
       "vitamins": [
          [ "iron", 62, 86 ]
       ]
-    }
+    },
+    "flags" : "NPC_SAFE"
   }
 ]
