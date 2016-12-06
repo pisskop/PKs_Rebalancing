@@ -129,10 +129,11 @@
     },{
     "type":"monstergroup",
     "name": "GROUP_ZOMBIE_GRAB",
-    "default": "mon_zombie_grabber",
+    "default": "mon_zombie_runner_pk",
     "monsters": [
-      { "monster": "mon_zombie_grappler", "freq": 400, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_biter", "freq": 300, "cost_multiplier": 7 },
+      { "monster": "mon_zombie_grabber", "freq": 100, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_grappler", "freq": 200, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_biter", "freq": 200, "cost_multiplier": 7 },
       { "monster": "mon_zombie_scales", "freq": 200, "cost_multiplier": 10 }
     ]
     },{
