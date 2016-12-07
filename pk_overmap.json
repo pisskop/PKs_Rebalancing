@@ -394,7 +394,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 12],
     "rotate": false,
-    "spawns": { "group": "GROUP_ANT", "population":[800,2400], "radius":[20,50] }
+    "spawns": { "group": "GROUP_ANT", "population":[700,2100], "radius":[20,45] }
   },{
     "type": "overmap_special",
     "id": "Spider Pit",

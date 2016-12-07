@@ -163,6 +163,7 @@
     "container" : "bottle_plastic_small",
     "charges" : 10,
     "symbol" : "%",
+    "phase": "liquid",
     "color" : "white",
     "use_action" : {
       "type" : "consume_drug",
