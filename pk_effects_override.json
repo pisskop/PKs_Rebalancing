@@ -1,5 +1,9 @@
 [
-  
+  {
+    "type": "effect_type",
+    "id": "hallu",
+    "max_duration": 2700
+  },
   {
     "type": "effect_type",
     "id": "cureall",
@@ -143,6 +147,38 @@
   },
   {
     "type": "effect_type",
+    "id": "cold",
+    "name": [
+      "Chilly",
+       "Cold",
+       "Freezing"
+    ],
+    "desc": [
+      "Your %s is exposed to the cold.",
+      "Your %s is very exposed to the cold.",
+      "Your %s is dangerously cold!"
+    ],
+    "speed_name": "Cold",
+    "max_intensity": 3,
+    "part_descs": true,
+    "base_mods": {
+      "speed_mod": [-3],
+      "dex_mod": [-0.6]
+    },
+    "scaling_mods": {
+      "speed_mod": [-12],
+      "int_mod": [-0.5],
+      "dex_mod": [-0.6],
+      "hurt_min": [1],
+      "hurt_chance": [90],
+      "pkill_tick": [10],
+      "pkill_min": [1],
+      "pkill_max_val": [60],
+      "stamina_min": [-2]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "frostbite",
     "name": [
       "Frostnip",
@@ -156,17 +192,17 @@
     "speed_name": "Frostbite",
     "dur_add_perc": 0,
     "base_mods": {
-      "dex_mod": [-0.4],
-      "speed_mod": [-3],
+      "dex_mod": [-0.6],
+      "speed_mod": [-5],
       "pain_min": [1],
       "pain_chance": [25],
       "pain_tick": [35]
     },
     "scaling_mods": {
-      "dex_mod": [-0.1],
-      "speed_mod": [-5],
+      "dex_mod": [-0.6],
+      "speed_mod": [-10],
       "hurt_min": [1],
-      "hurt_chance": [20],
+      "hurt_chance": [12],
       "hurt_tick": [20]
     }
   },

@@ -19,7 +19,7 @@
     "copy-from": "battery",
     "name" : "battery",
     "description" : "A set of universal batteries.  Used to charge almost any electronic device.",
-    "energy": 6
+    "energy": 4
   },
   {
     "type" : "AMMO",
