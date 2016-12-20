@@ -83,8 +83,8 @@
         "by_mood": ["small_animal"]
     },{
         "type": "MONSTER_FACTION",
-        "base_faction": "doom",
         "name": "upper_doom",
+        "base_faction": "doom",
         "neutral": ["small_animal", "utility_bot"]
     },{
         "type": "MONSTER_FACTION",
