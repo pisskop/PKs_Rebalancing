@@ -16,8 +16,8 @@
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
     "upgrades": {
-      "half_life": 14,
-      "into_group": "GROUP_ANT"
+      "half_life": 3,
+      "into_group": "GROUP_LARVAL_ANT"
     },
     "flags": [ "HEARS", "SMELLS", "KEENNOSE", "LARVA", "CHITIN", "SWARMS" ]
   },

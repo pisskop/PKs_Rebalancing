@@ -86,7 +86,7 @@
     "range": 20,
     "damage": 6,
     "recoil": 200,
-    "effects": [ "INCENDIARY", "FLARE", "TRAIL" ],
+    "effects": [ "FLARE", "TRAIL" ],
     "flags": [ "NOGIB" ]
   },
   {
@@ -107,7 +107,7 @@
     "range": 13,
     "damage": 17,
     "recoil": 200,
-    "effects": [ "INCENDIARY", "SHOT" ],
+    "effects": [ "SHOT" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   },
   {
@@ -128,7 +128,7 @@
     "range": 21,
     "damage": 23,
     "recoil": 200,
-    "effects": [ "INCENDIARY", "SHOT", "FLARE" ],
+    "effects": [ "SHOT", "FLARE" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   },
   {
@@ -149,7 +149,7 @@
     "range": 30,
     "damage": 17,
     "recoil": 200,
-    "effects": [ "INCENDIARY", "LIGHTNING" ],
+    "effects": [ "LIGHTNING" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   },
   {
@@ -209,7 +209,7 @@
     "range": 25,
     "damage": 13,
     "pierce": 25,
-    "effects": [ "NAPALM", "PLASMA", "WIDE", "FLAME", "TRAIL", "SMOKE", "NEVER_MISFIRES" ]
+    "effects": [ "NAPALM", "PLASMA", "WIDE", "TRAIL", "SMOKE", "NEVER_MISFIRES" ]
   },
   {
     "id": "bomblet_vile",

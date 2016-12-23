@@ -392,7 +392,7 @@
     "dodge": 6,
     "armor_bash": 2,
     "armor_cut": 5,
-    "vision_day": 15,
+    "vision_day": 20,
     "vision_night": 7,
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED", "STALK" ],
     "fear_triggers": [ "HURT", "FIRE" ],

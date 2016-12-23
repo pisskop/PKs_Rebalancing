@@ -831,7 +831,7 @@
     "vision_day": 55,
     "vision_night": 5,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "bomblet_vile": 66, "bot_imp_revive": 3, "bot_pinky_revive": 1 },
+    "starting_ammo": { "bomblet_vile": 100, "bot_imp_revive": 3, "bot_pinky_revive": 1 },
     "special_attacks": [
       [ "RESURRECT", 30 ],
       [ "UPGRADE", 30 ],
@@ -864,25 +864,25 @@
     "id": "mon_doom_archvile_2",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 66, "bot_churl_revive": 5 }
+    "starting_ammo": { "bomblet_vile": 100, "bot_churl_revive": 5 }
   },
   {
     "id": "mon_doom_archvile_3",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 66, "bot_pinky_revive": 2, "bot_cacodemon_revive": 1 }
+    "starting_ammo": { "bomblet_vile": 100, "bot_pinky_revive": 2, "bot_cacodemon_revive": 1 }
   },
   {
     "id": "mon_doom_archvile_4",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 66, "bot_cacodemon_revive": 2 }
+    "starting_ammo": { "bomblet_vile": 100, "bot_cacodemon_revive": 2 }
   },
   {
     "id": "mon_doom_archvile_5",
     "type": "MONSTER",
     "copy-from": "mon_doom_archvile",
-    "starting_ammo": { "bomblet_vile": 66, "bot_hell_knight_revive": 2 }
+    "starting_ammo": { "bomblet_vile": 100, "bot_hell_knight_revive": 2 }
   },
   {
     "id": "mon_doom_archdemon",

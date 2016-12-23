@@ -25,7 +25,7 @@
     "vision_night": 5,
     "hp": 240,
     "death_function": [ "NORMAL" ],
-    "starting_ammo": { "bomblet_archvile": 66 },
+    "starting_ammo": { "bomblet_archvile": 100 },
     "special_attacks":
     [
       [ "RESURRECT", 0 ],

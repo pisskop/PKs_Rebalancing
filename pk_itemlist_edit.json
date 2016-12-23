@@ -129,6 +129,8 @@
       ["e_tool_chinese", 8],
       ["ithaca_doom", 15 ],
       ["ithaca_doom_dual", 4 ],
+      ["iodine", 5],
+      ["prussian_blue", 5],
       ["fertilizer_chelated", 12 ],
       ["gummy_vitamins", 10 ]
     ]
@@ -208,6 +210,8 @@
       ["bone", 15],
       ["bone_human", 15],
       ["bone_tainted", 5],
+      ["iodine", 15],
+      ["prussian_blue", 15],
       ["antidote_posion", 10],
       ["antidote_badpoison", 5],
       ["ithaca_doom", 10 ],
@@ -324,6 +328,8 @@
     ["swat_shield", 3],
     ["medikit", 8],
     ["bot_manhack", 8],
+    ["iodine", 5],
+    ["prussian_blue", 5],
     ["chloroform_rag", 3],
     ["rocket_core", 3],
     ["antidote_posion", 5],
@@ -485,7 +491,9 @@
     { "item": "stamina_vial", "prob": 35 },
     { "item": "medikit", "prob": 25 },
     { "item": "chloroform_rag", "prob": 10 },
-    { "item": "antidote_posion", "prob": 10 }
+    { "item": "antidote_posion", "prob": 10 },
+    ["iodine", 15],
+    ["prussian_blue", 15]
     ]
   },
   {
@@ -509,7 +517,9 @@
     ["bomblet_stun", 15],
     ["bomblet_launcher_dualshot", 10],
     ["bomblet_launcher_rotary", 10],
-    ["bot_turret_shockcannon", 5]
+    ["bot_turret_shockcannon", 5],
+    ["iodine", 5],
+    ["prussian_blue", 5]
     ]
   },
   {
@@ -595,6 +605,8 @@
     "items":[
       ["antidote_posion", 10],
       ["triffid_sap", 10],
+      ["iodine", 8],
+      ["prussian_blue", 8],
       ["stamina_vial", 8],
       ["chloroform_rag", 5],
       ["triffid_sap_grenade", 5],

@@ -233,7 +233,7 @@
       "effects" : [ { "id" : "chelated_iron", "duration" : 480 }, { "id" : "rad_reduce", "duration" : 480 } ],
       "vitamins": [
          [ "calcium", 24, 48 ],
-         [ "iron", 24, 62 ],
+         [ "iron", 24, 48 ],
          [ "vitA", 24, 48 ],
          [ "vitB", 24, 48 ],
          [ "vitC", 24, 48 ]
@@ -261,7 +261,7 @@
       "activation_message" : "You consume a helping of the %s.",
       "effects" : [ { "id" : "chelated_iron", "duration" : 1200 }, { "id" : "chelated_iron", "duration" : 800 }, { "id" : "chelated_iron", "duration" : 600 },              { "id" : "rad_reduce", "duration" : 1200 }, { "id" : "rad_reduce", "duration" : 800 }, { "id" : "rad_reduce", "duration" : 600 } ],
       "vitamins": [
-         [ "iron", 62, 86 ]
+         [ "iron", 36, 48 ]
       ]
     },
     "flags" : "NPC_SAFE"
