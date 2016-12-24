@@ -161,7 +161,7 @@
         "//": "strong jaws"
       }
     ],
-    "burn_into": "mon_bear_smoky"
+    "burn_into": "mon_bear_smoky_pk"
   },
   {
     "id": "mon_horse_zombie",
@@ -336,10 +336,10 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "PUSH_MON" ]
   },
   {
-    "id": "mon_bear_smoky",
+    "id": "mon_bear_smoky_pk",
     "type": "MONSTER",
-    "edit-mode": "override",
-    "name": "Smoky bear",
+    "copy_from": "mon_bear_smoky",
+    "name": "Smoky Bear",
     "description": "A smoking husk is all that remains of this once proud bear.  Its black eyes gaze at you with malice... and hunger.",
     "default_faction": "bear",
     "categories": [ "WILDLIFE" ],

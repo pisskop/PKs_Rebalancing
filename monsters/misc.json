@@ -93,6 +93,8 @@
         "duration": 1
       }
     ],
+    "vision_day": 3,
+    "vision_night": 20,
     "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "SWIMS", "ANIMAL", "PATH_AVOID_DANGER_1", "FUR", "BONES", "SWARMS" ]
   },
   {
@@ -112,8 +114,8 @@
     "dodge": 3,
     "armor_bash": 0,
     "armor_cut": 1,
-    "vision_day": 30,
-    "vision_night": 12,
+    "vision_day": 25,
+    "vision_night": 10,
     "special_attacks": [
       {
         "type": "bite",

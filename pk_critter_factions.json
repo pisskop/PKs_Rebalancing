@@ -14,9 +14,18 @@
         "by_mood": ["small_animal", "dog"]
     },{
         "type": "MONSTER_FACTION",
+        "name": "fish",
+        "base_faction": "small_animal",
+        "by_mood": ["fish", "small_animal"]
+    },{
+        "type": "MONSTER_FACTION",
         "name": "pidgeon",
         "base_faction": "small_animal",
         "friendly": ["zombie"]
+    },{
+        "type": "MONSTER_FACTION",
+        "name": "rat",
+        "by_mood": ["zombie", "small_animal", "rat"]
     },{
         "type": "MONSTER_FACTION",
         "name": "wasp",
@@ -75,7 +84,7 @@
         "type": "MONSTER_FACTION",
         "name": "zombie",
         "friendly": ["blob", "cult"],
-        "neutral": ["small_animal", "insect", "mutant_small", "cat"],
+        "neutral": ["small_animal", "insect", "mutant_small", "cat", "rat"],
         "by_mood": ["ant", "spider_wolf", "wasp"]
     },{
         "type": "MONSTER_FACTION",

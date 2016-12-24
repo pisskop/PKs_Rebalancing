@@ -274,5 +274,13 @@
       { "monster": "mon_spider_trapdoor_giant_guardian", "freq": 100, "cost_multiplier": 15 },
       { "monster": "mon_spider_trapdoor_giant_pk", "freq": 750, "cost_multiplier": 5 }
     ]
-    }
+    },{
+    "type":"monstergroup",
+    "name":  "MI_GO_EVO",
+    "default": "mon_mi_go_terminal",
+    "monsters": [
+      { "monster": "mon_mi_go_terminal", "freq": 666, "cost_multiplier": 0 },
+      { "monster": "mon_mi_go_fly", "freq": 333, "cost_multiplier": 0 }
+    ]
+  }
 ]

@@ -28,7 +28,7 @@
         { "id": "doom_unhealth", "duration": 10 }
       ]
     },
-    "flags": [ "USE_ON_NPC" ]
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "berserker_drug",
@@ -54,7 +54,7 @@
       "moves": 250,
       "type": "transform"
     },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "NO_UNLOAD" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "berserker_drug_act",
@@ -80,7 +80,7 @@
       "type": "consume_drug",
       "effects": [ { "id": "doom_stimpack", "duration": 40 } ]
     },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "stamina_vial",
@@ -107,7 +107,7 @@
         { "id": "stamina_regen", "duration": 150 }
       ]
     },
-    "flags": [ "NO_RELOAD", "NO_UNLOAD" ]
+    "flags": [ "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },{
     "id": "antidote_posion",
     "type": "COMESTIBLE",
@@ -129,7 +129,8 @@
         { "id": "triffid_cure", "duration": 1 },
         { "id": "doom_unhealth", "duration": 5 }
       ]
-    }
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "antidote_badpoison",
@@ -149,7 +150,8 @@
       "type": "consume_drug",
       "tools_needed": "syringe",
       "effects": [ { "id": "triffid_neutralization", "duration": 1 } ]
-    }
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id" : "pepto",
@@ -169,7 +171,7 @@
       "type" : "consume_drug",
       "activation_message" : "You take some heartburn medicine.",
       "effects" : [ { "id" : "tummy_tablet", "duration" : 5800 } ],
-    "flags" : "NPC_SAFE"
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
     }
   },
   {
@@ -181,6 +183,7 @@
     "description": "A fresh piece of clay.  Can be used in crafting, boiled to remove harmful bacteria, or eaten raw to satiate hunger and cleanse the body of some radiation.",
     "comestible_type": "MED",
     "charges": 1,
+    "nutrition": 2,
     "quench": -10,
     "fun": -8,
     "parasites": 12,
@@ -193,7 +196,7 @@
          [ "iron", 0, 12 ]
       ]
     },
-    "flags" : "NPC_SAFE"
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "type": "COMESTIBLE",
@@ -204,6 +207,7 @@
     "description": "A portion of clay that has been boiled in salt to remove hard minerals and parasites.  Has improved taste over raw clay, but is not suitable for sculpting.",
     "comestible_type": "MED",
     "charges": 1,
+    "nutrition": 2,
     "quench": -13,
     "fun": -4,
     "parasites": 0,
@@ -215,7 +219,7 @@
          [ "iron", 0, 6 ]
       ]
     },
-    "flags" : "NPC_SAFE"
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id" : "gummy_vitamins",
@@ -223,6 +227,7 @@
     "type" : "COMESTIBLE",
     "name" : "gummy vitamin",
     "description" : "Essential dietary nutrients conveniently packaged in a fruit-flavored chewy candy form to disguise the ionized iron contained within.  An option of last resort when a balanced diet is not possible, this will also cleanse the body of minor toxins and radioactive particles.  Excess use can cause hypervitaminosis and in some cases overdose.",
+    "nutrition": 1,
     "stim" : -1,
     "fun" : 4,
     "charges" : 10,
@@ -239,7 +244,7 @@
          [ "vitC", 24, 48 ]
       ]
     },
-    "flags" : "NPC_SAFE"
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "type" : "COMESTIBLE",
@@ -249,11 +254,12 @@
     "name" : "aquarium fertilizer",
     "name_plural" : "aquarium fertilizer",
     "color" : "ltred",
+    "nutrition": 4,
     "stim" : -10,
     "healthy" : -12,
     "fun" : -15,
     "charges" : 100,
-    "stack_size" : 100,
+    "stack_size" : 50,
     "description" : "Agricultural grade, ionically-treated fertilizer for cleansing minerals from aquariums.  Could remove radiation from the body in a pinch.",
     "price" : 1500,
     "use_action" : {
@@ -264,6 +270,6 @@
          [ "iron", 36, 48 ]
       ]
     },
-    "flags" : "NPC_SAFE"
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   }
 ]

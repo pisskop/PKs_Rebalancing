@@ -907,5 +907,17 @@
     "items": [
     ["weldtank", 1]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "npc_misc",
+    "items": [
+      ["stamina_vial", 8],
+      ["pepto", 10],
+      ["gummy_vitamins", 20 ],
+      ["fertilizer_chelated", 6 ],
+      ["clay_boiled", 20],
+      ["clay_lump", 6]
+    ]
   }
 ]

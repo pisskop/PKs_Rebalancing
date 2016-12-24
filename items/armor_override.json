@@ -36,6 +36,24 @@
     "encumbrance": 14
   },
   {
+    "id": "jacket_leather_mod",
+    "type": "ARMOR",
+    "copy-from": "jacket_leather_mod",
+    "name": "armored leather jacket",
+    "description": "An armored jacket made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
+    "coverage": 92,
+    "encumbrance": 18
+  },
+  {
+    "id": "vest_leather_mod",
+    "type": "ARMOR",
+    "copy-from": "vest_leather_mod",
+    "name": "armored leather vest",
+    "description": "An armored vest made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.",
+    "coverage": 92,
+    "encumbrance": 18
+  },
+  {
     "id": "fireman_belt",
     "type": "ARMOR",
     "name": "firefighter belt",

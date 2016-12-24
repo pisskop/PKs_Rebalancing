@@ -208,21 +208,21 @@
     "qty": 16,
     "chance": 50
   },{
+    "id": "emit_radiation_plume",
+    "type": "emit",
+    "//": "dab of radiactive gas leaking. (example: glowing boomer)",
+    "field": "fd_nuke_gas",
+    "density": 1,
+    "qty": 4,
+    "chance": 20
+  },{
     "id": "emit_radiation_small",
     "type": "emit",
     "//": "Small amounts of radiactive gas leaking. (example: bloated zombie)",
     "field": "fd_nuke_gas",
     "density": 1,
     "qty": 6,
-    "chance": 50
-  },{
-    "id": "emit_radiation_plume",
-    "type": "emit",
-    "//": "dab of radiactive gas leaking. (example: glowing boomer)",
-    "field": "fd_nuke_gas",
-    "density": 2,
-    "qty": 4,
-    "chance": 20
+    "chance": 30
   },{
     "id": "emit_radiation_puff",
     "type": "emit",

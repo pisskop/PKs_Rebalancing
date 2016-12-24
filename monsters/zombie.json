@@ -874,6 +874,7 @@
     "id": "mon_zombie_hulk",
     "type": "MONSTER",
     "copy-from": "mon_zombie_hulk",
+    "speed": 135,
     "burn_into": "mon_zombie_fiend_pk",
     "upgrades": {
       "half_life": 49,
@@ -937,9 +938,16 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_CIV", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
   },
   {
+    "id": "mon_zombie_brute",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute",
+    "speed": 85
+  },
+  {
     "id": "mon_zombie_brute_shocker",
     "type": "MONSTER",
     "copy-from": "mon_zombie_brute_shocker",
+    "speed": 85,
     "hp": 240,
     "melee_skill": 4,
     "melee_dice": 3,
@@ -987,7 +995,7 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_brute_grappler",
     "hp": 280,
-    "speed": 95,
+    "speed": 80,
     "melee_skill": 7,
     "melee_dice": 3,
     "melee_dice_sides": 10,
@@ -1681,7 +1689,7 @@
     "diff": 60,
     "size": "HUGE",
     "hp": 650,
-    "speed": 150,
+    "speed": 135,
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "magenta_white",
