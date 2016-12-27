@@ -172,6 +172,30 @@
     "effects": [ "NEVER_MISFIRES" ]
   },
   {
+    "id": "hell_laser_queen",
+    "type": "AMMO",
+    "name": "spider laser",
+    "description": "a spiderdemon laser.  Go on, pick it up.",
+    "weight": 68,
+    "volume": 1,
+    "price": 80000,
+    "material": "plastic",
+    "symbol": "|",
+    "color": "magenta",
+    "count": 1,
+    "stack_size": 1,
+    "ammo_type": "fusion",
+    "range": 55,
+    "damage": 9,
+    "pierce": 15,
+    "effects": [ "NEVER_MISFIRES", "RECYCLED", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "BEANBAG" ],
+      "explosion": {
+        "power": 2,
+        "distance_factor": 0.3,
+        "shrapnel": 1
+      }
+  },
+  {
     "id": "cyber_rocket",
     "type": "AMMO",
     "name": "cyber rocket",

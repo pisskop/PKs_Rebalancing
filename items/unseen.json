@@ -44,6 +44,48 @@
     }
   },
   {
+    "id": "bot_cherub",
+    "type": "TOOL",
+    "name": "cherub spawner",
+    "description": "Spawns a cherub, little baby demon.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_cherub",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_cherub_fly",
+    "type": "TOOL",
+    "name": "flying cherub spawner",
+    "description": "Spawns a flying cherub, little baby demon.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_cherub_fly",
+      "place_randomly": true
+    }
+  },
+  {
     "id": "bot_imp_revive",
     "type": "TOOL",
     "name": "scarred imp spawner",

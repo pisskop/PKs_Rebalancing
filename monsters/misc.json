@@ -373,6 +373,7 @@
     "vision_day": 45,
     "vision_night": 5,
     "path_settings": { "max_dist": 25 },
+"flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BLEED", "BONES", "FAT", "GROUP_MORALE" ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT", "SOUND" ]
   },
@@ -411,7 +412,7 @@
     "anger_triggers": [ "STALK", "HURT", "FRIEND_ATTACKED", "PLAYER_WEAK" ],
     "fear_triggers": [ "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT", "SOUND" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT", "GROUP_MORALE" ]
   },
   {
     "id": "mon_moose",

@@ -106,9 +106,32 @@
     "clip_size": 666,
     "reload": 200,
     "ammo_effects": [
-      "LASER",
-      "INCENDIARY"
+      "LASER"
     ],
+    "flags": [ "NO_AMMO", "NO_UNLOAD" ]
+  },
+  {
+    "id": "hell_laser_gun_queen",
+    "type": "GUN",
+    "name": "spider trilaser",
+    "description": "a laser gun mounted on the spiderdemon.",
+    "weight": 15140,
+    "volume": 12,
+    "price": 400000,
+    "to_hit": -1,
+    "bashing": 4,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "magenta",
+    "ammo": "fusion",
+    "skill": "rifle",
+    "dispersion": 250,
+    "sight_dispersion": 100,
+    "durability": 7,
+    "burst": 9,
+    "loudness": 1,
+    "clip_size": 666,
+    "reload": 200,
     "flags": [ "NO_AMMO", "NO_UNLOAD" ]
   },
   {

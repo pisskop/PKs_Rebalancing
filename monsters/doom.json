@@ -526,8 +526,9 @@
     "vision_day": 45,
     "vision_night": 5,
     "path_settings": { "max_dist": 50 },
-    "starting_ammo": { "hell_laser": 264 },
+    "starting_ammo": { "hell_laser": 264, "bot_cherub": 3, "bot_cherub_fly": 1 },
     "special_attacks": [
+      [ "GRENADIER", 25 ],
       {
         "type": "gun",
         "cooldown": 5,
@@ -539,7 +540,7 @@
         "fake_dex": 9,
         "fake_per": 13,
         "max_ammo": 1000,
-        "ranges": [ [ 3, 50, "DEFAULT" ] ],
+        "ranges": [ [ 3, 50, "AUTO" ] ],
         "targeting_cost": 200,
         "targeting_sound": "Vvvoooooooo-",
         "targeting_volume": 50,
@@ -549,6 +550,133 @@
     ],
     "death_function": [ "SMOKEBURST", "BROKEN" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "STUMBLES", "WARM", "ELECTRONIC", "NO_BREATHE", "PUSH_MON", "INTERIOR_AMMO" ]
+  },
+  {
+    "id": "mon_mechaspider_queen",
+    "type": "MONSTER",
+    "name": "spider mastermind",
+    "description": "A HUGE brain with HUGE GUTS!  Theres also a two knubby little arms, a wicked looking tri-barreled gatling gun and sturdy metal and reinforced glass casing.",
+    "default_faction": "doom",
+    "species": [ "ABERRATION" ],
+    "diff": 45,
+    "size": "HUGE",
+    "hp": 360,
+    "speed": 85,
+    "material": [ "steel" ],
+    "symbol": "A",
+    "color": "white",
+    "aggression": 30,
+    "morale": 60,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 65,
+    "dodge": 1,
+    "armor_bash": 15,
+    "armor_cut": 25,
+    "armor_acid": 5,
+    "armor_fire": 8,
+    "vision_day": 45,
+    "vision_night": 15,
+    "path_settings": { "max_dist": 50 },
+    "starting_ammo": { "hell_laser_queen": 666, "bot_cherub": 18, "bot_cherub_fly": 7 },
+    "special_attacks": [
+      [ "UPGRADE", 10 ],
+      [ "GRENADIER", 5 ],
+      {
+        "type": "gun",
+        "cooldown": 3,
+        "move_cost": 350,
+        "gun_type": "hell_laser_gun_queen",
+        "ammo_type": "hell_laser_queen",
+        "fake_skills": [ [ "gun", 5 ], [ "rifle", 5 ] ],
+        "fake_str": 33,
+        "fake_dex": 9,
+        "fake_per": 13,
+        "max_ammo": 1000,
+        "ranges": [ [ 3, 50, "AUTO" ] ],
+        "targeting_cost": 200,
+        "targeting_sound": "rrraaaaaAHHHH-",
+        "targeting_volume": 50,
+        "description": "The arachnotron grimaces and fires its carbine!",
+        "no_ammo_sound": "-Beep-beep-beep-"
+      }
+    ],
+    "death_function": [ "SMOKEBURST", "MELT" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "STUMBLES", "WARM", "ELECTRONIC", "NO_BREATHE", "PUSH_MON", "INTERIOR_AMMO" ]
+  },
+  {
+    "id": "mon_cherub",
+    "type": "MONSTER",
+    "name": "cherub",
+    "description": "A small, legless demon with an infant-like face and a pair of small wings which can help if 'glide' into foes.  Seems to serve as a distraction for the large unweildly demonic robots.  Although it is cowardly and naive in its behaviors, its claw attack can pierce through the toughest armors.",
+    "default_faction": "doom",
+    "species": [ "ABERRATION" ],
+    "diff": 18,
+    "size": "SMALL",
+    "hp": 30,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "c",
+    "color": "yellow",
+    "aggression": 60,
+    "morale": 30,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 2,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      },
+      {
+        "damage_type": "biological",
+        "amount": 3
+      }
+    ],
+    "melee_cut": 1,
+    "dodge": 4,
+    "armor_bash": 2,
+    "armor_cut": 3,
+    "vision_day": 20,
+    "vision_night": 10,
+    "special_attacks": [
+      {
+        "type": "leap",
+        "cooldown": 20,
+        "max_range": 6
+      }
+    ],
+    "upgrades": {
+      "half_life": 128,
+      "into": "mon_cherub_fly"
+    },
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CLIMBS", "HIT_AND_RUN", "PUSH_MON", "SWARMS", "GROUP_MORALE" ]
+  },
+  {
+    "id": "mon_cherub_fly",
+    "type": "MONSTER",
+    "name": "cupid",
+    "copy-from": "mon_cherub",
+    "speed": 125,
+    "aggression": 40,
+    "morale": 40,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      },
+      {
+        "damage_type": "biological",
+        "amount": 5
+      }
+    ],
+    "dodge": 6,
+    "starting_ammo": { "bot_cherub": 1 },
+    "special_attacks": [
+      [ "GRENADIER", 15 ]
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "FLIES", "HIT_AND_RUN", "PUSH_MON", "SWARMS", "GROUP_MORALE", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_cyberdemon",
