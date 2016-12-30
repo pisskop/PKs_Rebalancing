@@ -78,7 +78,7 @@
       "vomit_chance": [300],
       "vomit_tick": [30],
       "rad_chance": [1000],
-      "rad_min": [1],
+      "rad_min": [5],
       "rad_max_val": [75]
     },
     "scaling_mods": {
@@ -127,7 +127,7 @@
       "vomit_chance": [210],
       "vomit_tick": [30],
       "rad_chance": [1000],
-      "rad_min": [1],
+      "rad_min": [5],
       "rad_max_val": [100]
     },
     "scaling_mods": {

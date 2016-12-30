@@ -298,6 +298,87 @@
     "mondensity": 3
   },{
     "type": "overmap_terrain",
+    "id": "hell_castle_B2_NW",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_N",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_NE",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_CW",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_C",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_CE",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_SW",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_S",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
+    "id": "hell_castle_B2_SE",
+    "name": "hell castle",
+    "sym": 79,
+    "color": "i_red",
+    "see_cost": 5,
+    "extras": "doom",
+    "mondensity": 3
+  },{
+    "type": "overmap_terrain",
     "id": "trapdoor_pit",
     "name": "field",
     "sym": 46,

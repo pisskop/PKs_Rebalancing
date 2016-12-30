@@ -872,8 +872,8 @@
         { "point": [1,-1,0], "terrain": "road" }
     ],
     "locations": [ "wilderness", "swamp" ],
-    "city_distance": [5, -1],
-    "city_sizes": [42, 30],
+    "city_distance": [8, 30],
+    "city_sizes": [4, 20],
     "occurrences": [0, 3],
     "rotate": true,
     "flags": [ "CLASSIC" ]

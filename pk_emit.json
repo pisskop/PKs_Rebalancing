@@ -214,7 +214,7 @@
     "field": "fd_nuke_gas",
     "density": 1,
     "qty": 4,
-    "chance": 20
+    "chance": 10
   },{
     "id": "emit_radiation_small",
     "type": "emit",
@@ -222,11 +222,11 @@
     "field": "fd_nuke_gas",
     "density": 1,
     "qty": 6,
-    "chance": 30
+    "chance": 15
   },{
     "id": "emit_radiation_puff",
     "type": "emit",
-    "//": "dab of radiactive gas leaking. (example: glowing boomer)",
+    "//": "dense dab of radiactive gas leaking. (example: glowing boomer)",
     "field": "fd_nuke_gas",
     "density": 2,
     "qty": 3,
