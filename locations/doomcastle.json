@@ -822,6 +822,7 @@
       ],
       "terrain": {
         "<": "t_stairs_up",
+        ">": "t_stairs_down",
         " ": "t_rock",
         "s": "t_rock",
         ".": "t_rock_floor",

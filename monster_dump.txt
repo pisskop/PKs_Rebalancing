@@ -17,7 +17,10 @@
 "mon_mancubus" - mancubus
 "mon_cacodemon" - cacodemon
 "mon_mechaspider" - arachnotron
+"mon_mechaspider_queen" - spider mastermind (boss)
 "mon_cyberdemon" - cyberdemon
+"mon_cherub" - cherub
+"mon_cherub_fly" - cupid
 "mon_doom_churl" - churl (human warrior)
 "mon_doom_slave" - slave (human slave)
 "mon_doom_cur" - zombie slave (ala what the pc makes)
@@ -106,6 +109,9 @@
 "mon_coyote_small" - dwarf coyote
 "mon_pig_saber" - sabertooth pig
 "mon_mole_large" - large mole
+
+"mon_mi_go_terminal" - mi-go clone
+"mon_mi_go_fly" - mi-go flier
 
 "mon_sludge_crawler_queen" - sludge crawler (boss)
 "mon_jabberwock_pk" - jabberwock (v2)
