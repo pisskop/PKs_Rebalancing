@@ -2,7 +2,10 @@
   {
     "type": "effect_type",
     "id": "hallu",
-    "max_duration": 2700
+    "max_duration": 2700,
+    "base_mods": {
+      "str_mod": [1]
+    }
   },
   {
     "type": "effect_type",
@@ -34,7 +37,10 @@
       "vomit_chance": [600, 1200],
       "rad_chance": [1500],
       "rad_min": [1],
-      "rad_max_val": [75]
+      "rad_max_val": [75],
+      "h_mod_min": [-1],
+      "h_mod_tick": [30],
+      "h_mod_chance": [20]
     },
     "scaling_mods": {
       "per_mod": [-1],
@@ -79,7 +85,10 @@
       "vomit_tick": [30],
       "rad_chance": [600],
       "rad_min": [5],
-      "rad_max_val": [75]
+      "rad_max_val": [75],
+      "h_mod_min": [-1],
+      "h_mod_tick": [50],
+      "h_mod_chance": [10]
     },
     "scaling_mods": {
       "per_mod": [-1, -0.5],
@@ -92,7 +101,10 @@
       "hurt_chance": [-50, -900],
       "vomit_chance": [-90],
       "rad_chance": [-200],
-      "rad_max_val": [25]
+      "rad_max_val": [25],
+      "h_mod_min": [-1],
+      "h_mod_tick": [50],
+      "h_mod_chance": [10]
     }
   },
   {
@@ -128,7 +140,10 @@
       "vomit_tick": [30],
       "rad_chance": [600],
       "rad_min": [5],
-      "rad_max_val": [100]
+      "rad_max_val": [100],
+      "h_mod_min": [-1],
+      "h_mod_tick": [30],
+      "h_mod_chance": [10]
     },
     "scaling_mods": {
       "per_mod": [-1],
@@ -142,7 +157,10 @@
       "hurt_chance": [-50, -500],
       "vomit_chance": [-60],
       "rad_chance": [-250],
-      "rad_max_val": [50]
+      "rad_max_val": [50],
+      "h_mod_min": [-1],
+      "h_mod_tick": [20],
+      "h_mod_chance": [10]
     }
   },
   {
@@ -163,7 +181,10 @@
     "part_descs": true,
     "base_mods": {
       "speed_mod": [-3],
-      "dex_mod": [-0.6]
+      "dex_mod": [-0.6],
+      "health_min": [-1],
+      "health_tick": [50],
+      "health_chance": [20]
     },
     "scaling_mods": {
       "speed_mod": [-12],
@@ -174,8 +195,55 @@
       "pkill_tick": [10],
       "pkill_min": [1],
       "pkill_max_val": [60],
-      "stamina_min": [-2]
+      "stamina_min": [-2],
+      "health_min": [-0.5],
+      "h_mod_min": [-1],
+      "h_mod_tick": [50],
+      "h_mod_chance": [15]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "hot",
+    "name": [
+      "Warm",
+      "Hot",
+      "Scorching"
+    ],
+    "desc": [
+      "Your %s feels warm.",
+      "Your %s is sweating from the heat.  Be careful not to get sick.",
+      "Your %s is sweating profusely!"
+    ],
+    "speed_name": "Hot",
+    "max_intensity": 3,
+    "part_descs": true,
+    "base_mods": {
+      "speed_mod": [-2],
+      "thirst_tick": [400],
+      "thirst_chance": [2],
+      "pain_min": [1],
+      "pain_chance": [2],
+      "pain_max_val": [-1],
+      "hurt_min": [1],
+      "hurt_chance": [-300],
+      "stamina_chance": [2],
+      "health_min": [-1],
+      "health_tick": [50],
+      "health_chance": [20]
+    },
+    "scaling_mods": {
+      "speed_mod": [-4],
+      "thirst_min": [1],
+      "thirst_tick": [-100],
+      "pain_max_val": [10],
+      "hurt_chance": [200],
+      "stamina_min": [-1],
+      "health_min": [-0.5],
+      "h_mod_min": [-1],
+      "h_mod_tick": [50],
+      "h_mod_chance": [15]
+     }
   },
   {
     "type": "effect_type",
@@ -185,7 +253,7 @@
       "Frostbite"
     ],
     "desc": [
-      "Your %s is frostnipped and has gone numb.",
+      "Your %s is frostnipped and has gone numb.  Careful, you'll catch a cold ...",
       "Your %s is frostbitten!  Its tissues are frozen from the cold!"
     ],
     "part_descs": true,
