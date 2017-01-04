@@ -103,7 +103,13 @@
     "id": "mon_zombie_corrosive",
     "type": "MONSTER",
     "copy-from": "mon_zombie_corrosive",
-    "emit_fields": [ "emit_radiation_puff", "emit_acid_small" ]
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 10
+      }
+    ],
+    "emit_fields": [ "emit_acid_small" ]
   },
   {
     "id": "mon_zombie_cripple",
@@ -1049,7 +1055,13 @@
     "id": "mon_zombie_gasbag",
     "type": "MONSTER",
     "copy-from": "mon_zombie_gasbag",
-    "emit_fields": [ "emit_radiation_small", "emit_gas_stream", "emit_gas_plume" ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 30
+      }
+    ],
+    "emit_fields": [ "emit_radiation_plume", "emit_gas_stream", "emit_gas_plume" ],
     "upgrades": {
       "half_life": 18,
       "into": "mon_zombie_gasbag_pk"
@@ -1059,7 +1071,13 @@
     "id": "mon_zombie_smoker",
     "type": "MONSTER",
     "copy-from": "mon_zombie_smoker",
-    "emit_fields": [ "emit_radiation_small", "emit_smoke_stream" ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 30
+      }
+    ],
+    "emit_fields": [ "emit_smoke_stream" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
       "half_life": 35,
@@ -1735,6 +1753,12 @@
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_cut": 0,
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 30
+      }
+    ],
     "dodge": 0,
     "armor_bash": 5,
     "armor_cut": 5,
@@ -1754,35 +1778,61 @@
     "id": "mon_charred_nightmare",
     "type": "MONSTER",
     "copy-from": "mon_charred_nightmare",
-    "emit_fields": [ "emit_radiation_plume", "emit_radiation_puff" ],
+    "attack_effs": [
+      {
+        "id": "rad_fives",
+        "duration": 30
+      }
+    ],
+    "emit_fields": [ "emit_radiation_small" ],
     "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_1",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_1",
-    "emit_fields": [ "emit_radiation_puff" ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 10
+      }
+    ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_2",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_2",
-    "emit_fields": [ "emit_radiation_puff" ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 12
+      }
+    ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_3",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_3",
-    "emit_fields": [ "emit_radiation_puff" ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 20
+      }
+    ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
     "id": "mon_irradiated_wanderer_4",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_4",
-    "emit_fields": [ "emit_radiation_puff" ],
+    "attack_effs": [
+      {
+        "id": "rad_fives",
+        "duration": 10
+      }
+    ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
@@ -1810,6 +1860,12 @@
         "amount": 7
       }
     ],
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 30
+      }
+    ],
     "dodge": 2,
     "armor_bash": 16,
     "armor_cut": 2,
@@ -1818,7 +1874,7 @@
     "armor_fire": 10,
     "vision_day": 40,
     "vision_night": 4,
-    "emit_fields": [ "emit_gas_plume", "emit_radiation_plume" ],
+    "emit_fields": [ "emit_gas_plume", "emit_radiation_puff" ],
     "special_attacks": [
       [ "GRAB_DRAG", 12 ],
       [ "STRETCH_ATTACK", 15 ]
@@ -1852,13 +1908,19 @@
         "amount": 2
       }
     ],
+    "attack_effs": [
+      {
+        "id": "rad_fives",
+        "duration": 30
+      }
+    ],
     "dodge": 5,
     "armor_bash": 8,
     "armor_cut": 2,
     "vision_day": 50,
     "vision_night": 9,
     "luminance": 3,
-    "emit_fields": [ "emit_radbag", "emit_radiation_small", "emit_radiation_plume", "emit_gas_plume" ],
+    "emit_fields": [ "emit_radiation_plume", "emit_gas_plume" ],
     "special_attacks": [ [ "GRAB", 20 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],
@@ -1890,12 +1952,18 @@
         "amount": 2
       }
     ],
+    "attack_effs": [
+      {
+        "id": "rad_fives",
+        "duration": 10
+      }
+    ],
     "dodge": 5,
     "armor_bash": 8,
     "armor_cut": 2,
     "vision_day": 50,
     "vision_night": 9,
-    "emit_fields": [ "emit_smoke_blast", "emit_radiation_small", "emit_radiation_plume" ],
+    "emit_fields": [ "emit_smoke_blast", "emit_radiation_small" ],
     "special_attacks": [ [ "GRAB", 20 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],

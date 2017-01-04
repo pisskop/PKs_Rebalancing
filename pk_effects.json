@@ -1,5 +1,5 @@
 [
-    {
+  {
     "type": "effect_type",
     "id": "rad_reduce",
     "int_add_val": 1,
@@ -11,6 +11,39 @@
     "scaling_mods": {
       "health_amount": [-1],
       "rad_chance": [-0.8]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "rad_tenths",
+    "int_add_val": 1,
+    "max_intensity": 9,
+    "base_mods": {
+      "rad_min": [1],
+      "rad_chance": [10],
+      "h_mod_min": [1],
+      "h_mod_chance": [100]
+    },
+    "scaling_mods": {
+      "rad_chance": [-1],
+      "h_mod_chance": [-10]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "rad_fives",
+    "int_add_val": 1,
+    "max_intensity": 5,
+    "base_mods": {
+      "rad_min": [3],
+      "rad_max": [8],
+      "rad_chance": [5],
+      "h_mod_min": [1],
+      "h_mod_chance": [20]
+    },
+    "scaling_mods": {
+      "rad_chance": [-0.4],
+      "h_mod_chance": [-2]
     }
   },
   {

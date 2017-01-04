@@ -283,6 +283,12 @@
       [ "SHRIEK_ALERT", 50 ],
       [ "SHRIEK_STUN", 1 ]
     ],
+    "attack_effs": [
+      {
+        "id": "rad_fives",
+        "duration": 10
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "NO_BREATHE", "HARDTOSHOOT", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BASHES", "WARM" ]
   },
@@ -362,6 +368,12 @@
       }
     ],
     "melee_cut": 12,
+    "attack_effs": [
+      {
+        "id": "rad_tenths",
+        "duration": 90
+      }
+    ],
     "dodge": 1,
     "armor_bash": 6,
     "armor_cut": 12,

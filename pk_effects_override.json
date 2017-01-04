@@ -55,6 +55,45 @@
   },
   {
     "type": "effect_type",
+    "id": "paralyzepoison",
+    "name": [
+      "Slowed", "Slowed", "Slowed", "Slowed", "Slowed",
+      "Sluggish", "Sluggish", "Sluggish", "Sluggish", "Sluggish",
+      "Partially Paralyzed", "Partially Paralyzed", "Partially Paralyzed", "Partially Paralyzed", "Partially Paralyzed",
+      "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed"
+      ],
+    "//": "20 max intensity, 5 each",
+    "desc": ["You are being slowed by a paralyzing poison!"],
+    "miss_messages": [["You feel stiff.", 3]],
+    "rating": "bad",
+    "max_intensity": 20,
+    "resist_traits": ["POISRESIST"],
+    "int_add_val": 1,
+    "int_decay_tick": 1500,
+    "base_mods": {
+      "dex_mod": [-0.34, -0.17],
+      "speed_mod": [-5, -3],
+      "h_mod_min": [-1, -0.5],
+      "h_mod_tick": [6, 20],
+      "h_mod_chance": [10],
+      "pain_min": [-1, -0.5],
+      "pain_min_val": [-20, -10],
+      "pain_chance": [10, 30],
+      "stamina_min": [-1, 0]
+    },
+    "scaling_mods": {
+      "dex_mod": [-0.34, -0.17],
+      "speed_mod": [-5, -3],
+      "h_mod_min": [-0.1],
+      "h_mod_tick": [6],
+      "h_mod_chance": [10],
+      "pain_min": [-0.1],
+      "pain_min_val": [-5, -3],
+      "stamina_min": [-0.1]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "poison",
     "copy-from": "poison",
     "name": ["Poisoned"],
@@ -261,14 +300,19 @@
     "dur_add_perc": 0,
     "base_mods": {
       "dex_mod": [-0.6],
-      "speed_mod": [-5],
+      "speed_mod": [-4],
       "pain_min": [1],
+      "pain_max_val": [30],
       "pain_chance": [25],
-      "pain_tick": [35]
+      "pain_tick": [15]
     },
     "scaling_mods": {
       "dex_mod": [-0.6],
-      "speed_mod": [-10],
+      "speed_mod": [-6],
+      "pain_min": [-2],
+      "pain_min_val": [-30],
+      "pain_chance": [10],
+      "pain_tick": [15],
       "hurt_min": [1],
       "hurt_chance": [12],
       "hurt_tick": [20]
