@@ -1289,7 +1289,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [4, -1],
     "city_sizes": [2, 10],
-    "occurrences": [1, 12],
+    "occurrences": [1, 4],
     "rotate": true
   },{
     "type": "overmap_special",
