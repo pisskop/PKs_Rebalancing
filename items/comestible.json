@@ -255,10 +255,10 @@
     "name_plural" : "aquarium fertilizer",
     "color" : "ltred",
     "nutrition": 4,
-    "stim" : -10,
-    "healthy" : -12,
+    "stim" : -2,
+    "healthy" : -2,
     "fun" : -15,
-    "charges" : 100,
+    "charges" : 40,
     "stack_size" : 50,
     "description" : "Agricultural grade, ionically-treated fertilizer for cleansing minerals from aquariums.  Could remove radiation from the body in a pinch.",
     "price" : 1500,
@@ -269,6 +269,23 @@
       "vitamins": [
          [ "iron", 36, 48 ]
       ]
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
+  },
+  {
+    "type" : "COMESTIBLE",
+    "id" : "medical_gauze",
+    "copy-from" :"medical_gauze",
+    "name" : "medical gauze",
+    "description" : "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe.",
+    "use_action": {
+      "type": "heal",
+      "move_cost": 200,
+      "bleed": 0.8,
+      "bite": 0.1,
+      "limb_power": 6,
+      "head_power": 4,
+      "torso_power": 3
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   }

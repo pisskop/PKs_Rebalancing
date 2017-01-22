@@ -89,7 +89,7 @@
       "fatigue_amount": [75],
       "health_min": [-1],
       "health_chance": [30],
-      "health_max_val": [10],
+      "health_min_val": [-10],
       "vomit_chance": [-1500],
       "stamina_min": [-0.5]
     }
