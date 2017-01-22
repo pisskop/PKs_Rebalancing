@@ -25,7 +25,7 @@
       "h_mod_chance": [100]
     },
     "scaling_mods": {
-      "rad_chance": [-1],
+      "rad_chance": [-0.5],
       "h_mod_chance": [-10]
     }
   },
@@ -87,7 +87,9 @@
     "scaling_mods": {
       "pkill_max_val": [5],
       "fatigue_amount": [75],
-      "health_amount": [-1],
+      "health_min": [-1],
+      "health_chance": [30],
+      "health_max_val": [10],
       "vomit_chance": [-1500],
       "stamina_min": [-0.5]
     }
@@ -124,7 +126,7 @@
       "health_min": [-1],
       "health_min_val": [-100],
       "h_mod_min": [-1],
-      "h_mod_min_val": [-50],
+      "h_mod_min_val": [-40],
       "hurt_min": [2],
       "hurt_chance": [10],
       "hurt_tick": [10]
@@ -161,8 +163,7 @@
       "pkill_amount": [5],
       "fatigue_amount": [-10],
       "thirst_amount": [15],
-      "vomit_chance": [66],
-      "vomit_tick": [12]
+      "vomit_chance": [250]
     }
   },
   {
@@ -181,18 +182,6 @@
   },
   {
     "type": "effect_type",
-    "id": "blob_inject",
-    "max_intensity": 1,
-    "int_decay_tick": 1,
-    "base_mods": {
-      "pain_min": [30, 15],
-      "pain_max": [70, 40],
-      "hurt_min": [10],
-      "hurt_max": [40]
-    }
-  },
-  {
-    "type": "effect_type",
     "id": "spider_web_slow",
     "name": [
       "web spider poison"
@@ -201,12 +190,12 @@
     "max_intensity": 10,
     "resist_trait": ["POISRESIST", "EATPOISON"],
     "base_mods": {
-      "speed_mod": [-6, -5.5],
-      "pain_amount": [3, 1]
+      "speed_mod": [-6, -5],
+      "pain_amount": [10, 4]
     },
     "scaling_mods": {
       "speed_mod": [-1, -0.5],
-      "pain_amount": [3, 1]
+      "pain_amount": [4, 3]
     }
   },
   {
@@ -271,7 +260,7 @@
     "removes_effects": ["poison", "stung", "foodpoison", "fungus", "paralyzepoison"],
     "blocks_effects": ["poison", "stung", "fungus", "paralyzepoison"],
     "base_mods": {
-      "pain_amount": [1],
+      "pain_min": [1],
       "pain_chance": [40],
       "rad_amount": [-25]
     },
@@ -293,7 +282,7 @@
     "blocks_effects": ["poison", "stung", "fungus", "badpoison", "paralyzepoison", "spider_web_mu", "spider_web_omega", "spider_web_alpha", "spider_web_slow",
                        "doom_unhealth"],
     "base_mods": {
-      "pain_amount": [1],
+      "pain_min": [1],
       "pain_chance": [20],
       "rad_amount": [-50]
     },

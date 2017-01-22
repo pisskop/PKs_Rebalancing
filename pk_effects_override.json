@@ -13,7 +13,6 @@
     "//": "This is the royal jelly effect, it should cure pretty much everything.",
     "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu"],
     "base_mods": {
-      "pkill_min": [15],
       "rad_amount": [-75]
     }
   },
@@ -35,9 +34,9 @@
       "pain_min": [1],
       "pain_chance": [300, 900],
       "vomit_chance": [600, 1200],
-      "rad_chance": [1500],
       "rad_min": [1],
       "rad_max_val": [75],
+      "rad_chance": [1500],
       "h_mod_min": [-1],
       "h_mod_tick": [30],
       "h_mod_chance": [20]
@@ -64,7 +63,7 @@
       ],
     "//": "20 max intensity, 5 each",
     "desc": ["You are being slowed by a paralyzing poison!"],
-    "miss_messages": [["You feel stiff.", 3]],
+    "miss_messages": [["You feel stiff.", 4]],
     "rating": "bad",
     "max_intensity": 20,
     "resist_traits": ["POISRESIST"],
@@ -85,8 +84,8 @@
       "dex_mod": [-0.34, -0.17],
       "speed_mod": [-5, -3],
       "h_mod_min": [-0.1],
-      "h_mod_tick": [6],
-      "h_mod_chance": [10],
+      "h_mod_tick": [-0.2],
+      "h_mod_chance": [-0.1],
       "pain_min": [-0.1],
       "pain_min_val": [-5, -3],
       "stamina_min": [-0.1]
@@ -120,13 +119,13 @@
       "pain_chance": [150, 900],
       "hurt_min": [1],
       "hurt_chance": [450, 2700],
-      "vomit_chance": [300],
-      "vomit_tick": [30],
-      "rad_chance": [600],
+      "vomit_chance": [300, 900],
+      "vomit_tick": [20],
+      "rad_chance": [400, 600],
       "rad_min": [5],
       "rad_max_val": [75],
       "h_mod_min": [-1],
-      "h_mod_tick": [50],
+      "h_mod_tick": [45],
       "h_mod_chance": [10]
     },
     "scaling_mods": {
@@ -138,12 +137,10 @@
       "pain_chance": [-25, -200],
       "hurt_min": [1],
       "hurt_chance": [-50, -900],
-      "vomit_chance": [-90],
-      "rad_chance": [-200],
+      "vomit_chance": [-120, 200],
+      "rad_chance": [-150],
       "rad_max_val": [25],
-      "h_mod_min": [-1],
-      "h_mod_tick": [50],
-      "h_mod_chance": [10]
+      "h_mod_chance": [-3, -2]
     }
   },
   {
@@ -174,12 +171,12 @@
       "pain_chance": [100, 500],
       "hurt_min": [1],
       "hurt_max": [2],
-      "hurt_chance": [300, 1800],
-      "vomit_chance": [210],
+      "hurt_chance": [300, 1500],
+      "vomit_chance": [200],
       "vomit_tick": [30],
-      "rad_chance": [600],
       "rad_min": [5],
       "rad_max_val": [100],
+      "rad_chance": [100, 300],
       "h_mod_min": [-1],
       "h_mod_tick": [30],
       "h_mod_chance": [10]
@@ -191,15 +188,14 @@
       "speed_mod": [-5],
       "pain_min": [2],
       "pain_chance": [-20, -100],
+      "hurt_chance": [-75, -500],
       "hurt_min": [1],
       "hurt_max": [2],
-      "hurt_chance": [-50, -500],
-      "vomit_chance": [-60],
-      "rad_chance": [-250],
+      "vomit_chance": [-80, -50],
       "rad_max_val": [50],
-      "h_mod_min": [-1],
-      "h_mod_tick": [20],
-      "h_mod_chance": [10]
+      "rad_chance": [-30, 100],
+      "h_mod_min": [-1, -0.5],
+      "h_mod_tick": [-10]
     }
   },
   {
@@ -222,8 +218,8 @@
       "speed_mod": [-3],
       "dex_mod": [-0.6],
       "health_min": [-1],
-      "health_tick": [50],
-      "health_chance": [20]
+      "health_tick": [60],
+      "health_chance": [25]
     },
     "scaling_mods": {
       "speed_mod": [-12],
@@ -236,6 +232,7 @@
       "pkill_max_val": [60],
       "stamina_min": [-2],
       "health_min": [-0.5],
+      "health_tick": [-10],
       "h_mod_min": [-1],
       "h_mod_tick": [50],
       "h_mod_chance": [15]
@@ -268,8 +265,8 @@
       "hurt_chance": [-300],
       "stamina_chance": [2],
       "health_min": [-1],
-      "health_tick": [50],
-      "health_chance": [20]
+      "health_tick": [60],
+      "health_chance": [25]
     },
     "scaling_mods": {
       "speed_mod": [-4],
@@ -279,6 +276,7 @@
       "hurt_chance": [200],
       "stamina_min": [-1],
       "health_min": [-0.5],
+      "health_tick": [-10],
       "h_mod_min": [-1],
       "h_mod_tick": [50],
       "h_mod_chance": [15]
