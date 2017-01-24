@@ -3,7 +3,7 @@
     "id": "medikit",
     "type": "COMESTIBLE",
     "name": "medikit",
-    "description": "A PRM brand medikit.  Can be quickly applied in battlefield situations, though it is designed to quickly attach itself to damaged tissue, not disinfect.",
+    "description": "A PRM brand medikit.  Can be quickly applied in battlefield situations; though it is designed to quickly attach itself to damaged tissue, not disinfect.",
     "weight": 400,
     "volume": 2,
     "price": 50000,
@@ -24,8 +24,9 @@
       "head_power": 20,
       "torso_power": 20,
       "effects": [
-        { "id": "pkill1", "duration": 30 },
-        { "id": "doom_unhealth", "duration": 10 }
+        { "id": "doom_unhealth", "duration": 10 },
+        { "id": "pkill1", "duration": 300 },
+        { "id": "gauze", "duration": 300 }
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -214,7 +215,7 @@
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You consume a helping of the %s.",
-      "effects" : [ { "id" : "rad_reduce", "duration" : 240 }, { "id" : "rad_reduce", "duration" : 30 } ],
+      "effects" : [ { "id" : "rad_reduce", "duration" : 240 }, { "id" : "rad_reduce", "duration" : 60 } ],
       "vitamins": [
          [ "iron", 0, 6 ]
       ]
@@ -235,7 +236,7 @@
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You take the %s.",
-      "effects" : [ { "id" : "chelated_iron", "duration" : 480 }, { "id" : "rad_reduce", "duration" : 480 } ],
+      "effects" : [ { "id" : "chelated_iron", "duration" : 600 }, { "id" : "rad_reduce", "duration" : 600 } ],
       "vitamins": [
          [ "calcium", 24, 48 ],
          [ "iron", 24, 48 ],
@@ -278,14 +279,18 @@
     "copy-from" :"medical_gauze",
     "name" : "medical gauze",
     "description" : "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe.",
+    "stack_size" : 6,
     "use_action": {
       "type": "heal",
-      "move_cost": 200,
-      "bleed": 0.8,
-      "bite": 0.1,
+      "move_cost": 300,
+      "bleed": 0.7,
+      "bite": 1,
       "limb_power": 6,
       "head_power": 4,
-      "torso_power": 3
+      "torso_power": 3,
+      "effects": [
+        { "id": "gauze", "duration": 300 }
+      ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   }

@@ -779,7 +779,7 @@
     "material": [ "spess_plastic", "powder" ],
     "symbol": "*",
     "color": "ltgreen",
-    "count": 2,
+    "count": 4,
     "ammo_type": "bfg_plutonium",
     "range": 40,
     "damage": 35,
