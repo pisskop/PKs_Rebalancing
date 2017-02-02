@@ -100,6 +100,8 @@
     "dodge": 2,
     "armor_bash": 4,
     "armor_cut": 6,
+    "vision_day": 30,
+    "vision_night": 30,
     "death_drops": {
       "subtype": "collection",
       "groups": [

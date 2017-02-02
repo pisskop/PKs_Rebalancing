@@ -293,5 +293,13 @@
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
+  },
+  {
+    "type" : "AMMO",
+    "id" : "medical_tape",
+    "copy-from": "medical_tape",
+    "name" : "medical tape",
+    "description" : "A roll of medical tape, similar to duct tape.",
+    "count" : 100
   }
 ]

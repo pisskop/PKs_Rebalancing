@@ -464,9 +464,14 @@
     "base_mods": {
       "stamina_min": [-1],
       "speed_mod": [-5],
+      "health_amount": [-10],
       "health_min": [-1],
       "health_chance": [50],
-      "health_tick": [30]
+      "health_tick": [30],
+      "h_mod_amount": [-5],
+      "h_mod_min": [-1],
+      "h_mod_chance": [100],
+      "h_mod_tick": [60]
     }
   }
 ]

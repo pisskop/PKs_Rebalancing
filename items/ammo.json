@@ -309,6 +309,7 @@
   {
     "id": "bomblet_casing",
     "type": "AMMO",
+    "copy-from": "casing",
     "category": "spare_parts",
     "name": "bomblet case",
     "description": "An empty bomblet case.",
@@ -608,6 +609,7 @@
   {
     "id": "shot_410_hull",
     "type": "AMMO",
+    "copy-from": "casing",
     "category": "spare_parts",
     "name": "410-bore shotgun shell",
     "description": "An empty 410 bore shotgun shell.",
