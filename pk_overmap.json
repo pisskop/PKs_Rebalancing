@@ -381,7 +381,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 6],
     "rotate": true,
-    "spawns": { "group": "GROUP_WASP", "population":[100,360], "radius":[25,40] }
+    "spawns": { "group": "GROUP_WASP", "population":[150,450], "radius":[30,50] }
   },{
     "type": "overmap_special",
     "id": "Anthill",

@@ -429,6 +429,9 @@
     "armor_fire": 15,
     "vision_day": 25,
     "vision_night": 3,
+    "special_attacks": [
+      [ "SCRATCH", 15 ]
+    ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched_2",
     "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS" ]
@@ -461,6 +464,9 @@
     "armor_fire": 10,
     "vision_day": 15,
     "vision_night": 5,
+    "special_attacks": [
+      [ "SCRATCH", 25 ]
+    ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
@@ -472,7 +478,7 @@
   {
     "id": "mon_zombie_fiend",
     "type": "MONSTER",
-    "edit-mode": "override",
+    "copy-from": "mon_zombie_fiend",
     "name": "fiend",
     "description": "Charred zombie with bony plates, spikes and protursions.  Moves stiffly about.",
     "default_faction": "zombie",
@@ -533,6 +539,9 @@
     "armor_fire": 12,
     "vision_day": 20,
     "vision_night": 7,
+    "special_attacks": [
+      [ "SCRATCH", 20 ]
+    ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]

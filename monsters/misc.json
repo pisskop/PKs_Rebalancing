@@ -426,15 +426,15 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 6,
-    "melee_cut": 3,
+    "melee_cut": 2,
     "melee_damage": [
       {
         "damage_type": "bash",
-        "amount": 9
+        "amount": 8
       },
       {
         "damage_type": "stab",
-        "amount": 3
+        "amount": 2
       }
     ],
     "dodge": 1,
@@ -460,15 +460,15 @@
     "melee_skill": 7,
     "melee_dice": 1,
     "melee_dice_sides": 9,
-    "melee_cut": 4,
+    "melee_cut": 3,
     "melee_damage": [
       {
         "damage_type": "bash",
-        "amount": 15
+        "amount": 14
       },
       {
         "damage_type": "stab",
-        "amount": 4
+        "amount": 3
       }
     ],
     "dodge": 2,
@@ -496,15 +496,15 @@
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 6,
-    "melee_cut": 3,
+    "melee_cut": 2,
     "melee_damage": [
       {
         "damage_type": "bash",
-        "amount": 7
+        "amount": 6
       },
       {
         "damage_type": "stab",
-        "amount": 3
+        "amount": 2
       }
     ],
     "dodge": 2,
@@ -513,7 +513,7 @@
     "armor_acid": 2,
     "vision_day": 40,
     "vision_night": 7,
-    "special_attacks": [ [ "SMASH", 50 ] ],
+    "special_attacks": [ [ "SMASH", 120 ] ],
     "anger_triggers": [ "PLAYER_CLOSE" ],
     "fear_triggers": [ "HURT" ],
     "placate_triggers": [ "PLAYER_WEAK" ],

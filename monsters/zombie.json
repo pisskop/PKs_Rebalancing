@@ -3,6 +3,14 @@
     "id": "mon_zombie",
     "type": "MONSTER",
     "copy-from": "mon_zombie",
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 5
+      },
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ]
+    ],
     "upgrades": {
       "half_life": 8,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
@@ -22,7 +30,8 @@
     "melee_dice_sides": 3,
     "melee_cut": 1,
     "special_attacks": [
-      [ "GRAB", 30 ],
+      [ "GRAB", 20 ],
+      [ "SCRATCH", 15 ],
       {
         "type": "bite",
         "cooldown": 15,
@@ -46,6 +55,7 @@
     "copy-from": "mon_zombie_grabber",
     "special_attacks": [
       [ "GRAB", 10 ],
+      [ "SCRATCH", 20 ],
       [ "PARROT", 60 ],
       {
         "type": "bite",
@@ -90,14 +100,24 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_shrieker",
     "vision_day": 50,
-    "vision_night": 2
+    "vision_night": 2,
+    "special_attacks": [
+      [ "SHRIEK", 10 ],
+      [ "GRAB", 30 ],
+      [ "SCRATCH", 15 ]
+    ]
   },
   {
     "id": "mon_zombie_screecher",
     "type": "MONSTER",
     "copy-from": "mon_zombie_screecher",
     "vision_day": 50,
-    "vision_night": 3
+    "vision_night": 3,
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 20 ],
+      [ "SHRIEK_STUN", 1 ],
+      [ "SCRATCH", 25 ]
+    ]
   },
   {
     "id": "mon_zombie_corrosive",
@@ -142,7 +162,8 @@
         "type": "bite",
         "cooldown": 5
       },
-      [ "GRAB", 5 ]
+      [ "GRAB", 5 ],
+      [ "SCRATCH", 7 ]
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -179,6 +200,7 @@
     "armor_cut": 0,
     "special_attacks": [
       [ "GRAB_DRAG", 25 ],
+      [ "SCRATCH", 7 ],
       {
         "type": "bite",
         "cooldown": 3
@@ -218,6 +240,7 @@
     "armor_cut": 5,
     "special_attacks": [
       [ "GRAB_DRAG", 10 ],
+      [ "SCRATCH", 15 ],
       {
         "type": "bite",
         "cooldown": 3
@@ -267,7 +290,8 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
-      [ "GRAB", 7 ],
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
         "cooldown": 5
@@ -309,7 +333,8 @@
     "vision_day": 35,
     "vision_night": 3,
     "special_attacks": [
-      [ "GRAB", 10 ],
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
         "cooldown": 15
@@ -351,7 +376,8 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
-      [ "GRAB", 7 ],
+      [ "GRAB", 20 ],
+      [ "SCRATCH", 15 ],
       {
         "type": "bite",
         "cooldown": 5
@@ -370,6 +396,13 @@
     "id": "mon_zombie_child",
     "type": "MONSTER",
     "copy-from": "mon_zombie_child",
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "upgrades": {
       "half_life": 10,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
@@ -402,6 +435,13 @@
     "armor_cut": 0,
     "vision_day": 35,
     "vision_night": 3,
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "death_drops": {
       "subtype": "collection",
       "groups": [
@@ -445,6 +485,13 @@
     "armor_cut": 2,
     "vision_day": 35,
     "vision_night": 3,
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "death_drops": {
       "subtype": "collection",
       "groups": [
@@ -658,6 +705,7 @@
     "vision_day": 30,
     "vision_night": 3,
     "special_attacks": [
+      [ "SCRATCH", 7 ],
       {
         "type": "bite",
         "cooldown": 10,
@@ -709,6 +757,7 @@
     "vision_day": 35,
     "vision_night": 4,
     "special_attacks": [
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
         "cooldown": 2,
@@ -732,6 +781,16 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_survivor",
     "hp": 160,
+    "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "SHRIEK", 20 ],
+      [ "SCRATCH", 15 ],
+      {
+        "type": "bite",
+        "cooldown": 15,
+        "min_mul": 1
+      }
+    ],
     "burn_into": "mon_zombie_scorched_pk"
   },
   {
@@ -740,6 +799,13 @@
     "copy-from": "mon_zombie_crawler",
     "vision_day": 30,
     "vision_night": 5,
+    "special_attacks": [
+      [ "SCRATCH", 7 ],
+      {
+        "type": "bite",
+        "cooldown": 10
+      }
+    ],
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
       "half_life": 14,
@@ -751,6 +817,15 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_tough",
     "burn_into": "mon_zombie_smoker",
+    "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ],
+      {
+        "type": "bite",
+        "cooldown": 5,
+        "min_mul": 0.7
+      }
+    ],
     "upgrades": {
       "half_life": 21,
       "into": "mon_zombie_hollow"
@@ -783,12 +858,13 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
-        "cooldown": 7,
+        "cooldown": 5,
         "min_mul": 0.7
-      },
-      [ "GRAB", 10 ]
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -826,12 +902,13 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
-        "cooldown": 10,
+        "cooldown": 5,
         "min_mul": 0.7
-      },
-      [ "GRAB", 15 ]
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -850,7 +927,8 @@
     "vision_night": 9,
     "special_attacks": [
       [ "UPGRADE", 0 ],
-      [ "FORMBLOB", 300 ]
+      [ "FORMBLOB", 300 ],
+      [ "SCRATCH", 20 ]
     ],
     "death_function": [ "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_master",
@@ -867,7 +945,8 @@
     "vision_night": 9,
     "special_attacks": [
       [ "RESURRECT", 0 ],
-      [ "FORMBLOB", 300 ]
+      [ "FORMBLOB", 300 ],
+      [ "SCRATCH", 20 ]
     ],
     "death_function": [ "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
@@ -1079,6 +1158,13 @@
     ],
     "emit_fields": [ "emit_smoke_stream" ],
     "burn_into": "mon_zombie_scorched_pk",
+    "special_attacks": [
+      [ "SCRATCH", 10 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "upgrades": {
       "half_life": 35,
       "into_group": "GROUP_ZOMBIE_SMOKER"
@@ -1089,6 +1175,14 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_shady",
     "aggression": 75,
+    "special_attacks": [
+      [ "GRAB", 10 ],
+      [ "SCRATCH", 10 ],
+      {
+        "type": "bite",
+        "cooldown": 15
+      }
+    ],
     "burn_into": "mon_zombie_crawler_pk_weak",
     "upgrades": {
       "half_life": 11,
@@ -1122,10 +1216,11 @@
     "vision_day": 5,
     "vision_night": 40,
     "special_attacks": [
-      [ "GRAB", 7 ],
+      [ "SCRATCH", 15 ],
+      [ "GRAB", 15 ],
       {
         "type": "bite",
-        "cooldown": 5
+        "cooldown": 15
       }
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED", "HURT" ],
@@ -1172,11 +1267,12 @@
     "vision_day": 10,
     "vision_night": 50,
     "special_attacks": [
+      [ "SCRATCH", 15 ],
       {
         "type": "bite",
-        "cooldown": 5
+        "cooldown": 20
       },
-      [ "GRAB", 4 ]
+      [ "GRAB", 5 ]
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED", "STALK", "HURT" ],
     "placate_triggers": [ "FIRE" ],
@@ -1235,7 +1331,8 @@
     "special_attacks": [
       [ "UPGRADE", 10 ],
       [ "FORMBLOB", 240 ],
-      [ "LONGSWIPE", 90 ]
+      [ "LONGSWIPE", 90 ],
+      [ "SCRATCH", 20 ]
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
@@ -1273,7 +1370,8 @@
     "vision_night": 10,
     "special_attacks": [
       [ "RESURRECT", 10 ],
-      [ "FORMBLOB", 240 ]
+      [ "FORMBLOB", 240 ],
+      [ "SCRATCH", 20 ]
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
@@ -1313,7 +1411,8 @@
       [ "UPGRADE", 20 ],
       [ "RESURRECT", 20 ],
       [ "FORMBLOB", 180 ],
-      [ "LONGSWIPE", 15 ]
+      [ "LONGSWIPE", 15 ],
+      [ "SCRATCH", 20 ]
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
@@ -1327,6 +1426,14 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_swimmer",
     "burn_into": "mon_zombie_scorched",
+    "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "SCRATCH", 15 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "upgrades": {
       "half_life": 14,
       "into": "mon_zombie_mancroc"
@@ -1357,11 +1464,12 @@
     "vision_day": 40,
     "vision_night": 5,
     "special_attacks": [
+      [ "GRAB", 10 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
-        "cooldown": 4
-      },
-      [ "GRAB", 8 ]
+        "cooldown": 20
+      }
     ],
     "death_drops": "mon_zombie_swimmer_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1488,7 +1596,8 @@
     "vision_night": 3,
     "emit_fields": [ "emit_gas_plume" ],
     "special_attacks": [
-      [ "GRAB", 6 ],
+      [ "GRAB", 10 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
         "cooldown": 5,
@@ -1533,7 +1642,7 @@
     "melee_damage": [
       {
         "damage_type": "stab",
-        "amount": 8
+        "amount": 6
       }
     ],
     "melee_cut": 5,
@@ -1545,6 +1654,7 @@
     "vision_day": 35,
     "vision_night": 3,
     "special_attacks": [
+      [ "SCRATCH", 10 ],
       [ "LUNGE", 30 ],
       {
         "type": "bite",
@@ -1583,7 +1693,7 @@
     "melee_damage": [
       {
         "damage_type": "stab",
-        "amount": 12
+        "amount": 10
       }
     ],
     "melee_cut": 7,
@@ -1595,6 +1705,7 @@
     "vision_day": 50,
     "vision_night": 4,
     "special_attacks": [
+      [ "SCRATCH", 10 ],
       [ "LUNGE", 15 ],
       [ "IMPALE", 30 ],
       {
