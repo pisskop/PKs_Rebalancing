@@ -43,6 +43,23 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
+    "id": "PARA_POISON",
+    "cooldown": 15,
+    "move_cost": 120,
+    "effects": [
+      { "id": "paralyzepoison", "duration": 300 },
+      { "id": "paralyzepoison", "duration": 150 },
+      { "id": "paralyzepoison", "duration": 100 },
+      { "id": "paralyzepoison", "duration": 50 }
+    ],
+    "hit_dmg_u": "The %1$s rakes you with its barbs!",
+    "hit_dmg_npc": "The %1$s rakes at <npcname> with barbs!",
+    "no_dmg_msg_u": "The %1$s tries to rake you, but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to rake at <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
     "id": "SCRIB",
     "cooldown": 20,
     "move_cost": 150,
