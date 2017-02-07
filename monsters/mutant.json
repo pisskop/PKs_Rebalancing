@@ -267,6 +267,7 @@
     "armor_cut": 2,
     "vision_day": 40,
     "vision_night": 7,
+    "special_attacks": [ [ "SCRATCH", 5 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "POISON", "HUMAN", "LEATHER", "CLIMBS", "SWARMS", "REGENERATES_10" ]
   },

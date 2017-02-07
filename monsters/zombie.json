@@ -17,6 +17,75 @@
     }
   },
   {
+    "id": "mon_zombie_runner",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_runner",
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "bite",
+        "cooldown": 5,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "amount": 10,
+            "armor_multiplier": 0.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mon_zombie_hunter",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_hunter",
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "leap",
+        "cooldown": 15,
+        "max_range": 5
+      },
+      {
+        "type": "bite",
+        "cooldown": 10,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "amount": 12,
+            "armor_multiplier": 0.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mon_zombie_predator",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_predator",
+    "special_attacks": [
+      [ "SCRATCH", 5 ],
+      {
+        "type": "leap",
+        "cooldown": 15,
+        "max_range": 7,
+        "allow_no_target": false
+      },
+      {
+        "type": "bite",
+        "cooldown": 10,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "amount": 10,
+            "armor_multiplier": 0.2
+          }
+        ]
+      },
+      { "id": "impale" }
+    ],
+  },
+  {
     "id": "mon_zombie_runner_pk",
     "type": "MONSTER",
     "copy-from": "mon_zombie",
@@ -30,8 +99,8 @@
     "melee_dice_sides": 3,
     "melee_cut": 1,
     "special_attacks": [
-      [ "GRAB", 20 ],
-      [ "SCRATCH", 15 ],
+      [ "GRAB", 10 ],
+      [ "SCRATCH", 10 ],
       {
         "type": "bite",
         "cooldown": 15,

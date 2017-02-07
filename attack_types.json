@@ -2,26 +2,31 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "test",
-    "cooldown": 10,
-    "move_cost": 150,
-    "damage_max_instance": [
-      {
-        "damage_type": "cut",
-        "amount": 3,
-        "armor_penetration": 3,
-        "armor_multiplier": 0.9
-      }
-    ],
-    "body_parts": [ [ "TORSO", 1 ] ],
+    "id": "ANT_DINJECT",
+    "cooldown": 20,
+    "move_cost": 250,
     "effects": [
-      { "id": "bleed", "duration": 100, "bp": "TORSO" },
-      { "id": "downed", "duration": 3 }
+      { "id": "skunk_spray", "duration": 400 }
     ],
-    "hit_dmg_u": "The %1$s impales your torso!",
-    "hit_dmg_npc": "The %1$s impales <npcname>'s torso!",
-    "no_dmg_msg_u": "The %1$s tries to impale your torso, but fails to penetrate your armor!",
-    "no_dmg_msg_npc": "The %1$s tries to impale <npcname>'s torso, but fails to penetrate their armor!"
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "ANT_SINJECT",
+    "cooldown": 20,
+    "move_cost": 200,
+    "effects": [
+      { "id": "skunk_spray", "duration": 400 },
+      { "id": "poison", "duration": 400 }
+    ],
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
   },
   {
     "type": "monster_attack",
@@ -29,17 +34,24 @@
     "id": "SCRATCH",
     "cooldown": 10,
     "move_cost": 150,
-    "damage_max_instance": [
-      {
-        "damage_type": "cut",
-        "amount": 3,
-        "armor_penetration": 3
-      }
-    ],
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "HAND_L", 3 ], [ "HAND_R", 3 ], [ "EYES", 2 ], [ "ARM_L", 2 ], [ "ARM_R", 2 ], [ "TORSO", 4 ] ],
     "hit_dmg_u": "The %1$s claws at you!",
     "hit_dmg_npc": "The %1$s claws at <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to claw at you but fails.",
     "no_dmg_msg_npc": "The %1$s tries to claw <npcname>, but fails to."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "SCRIB",
+    "cooldown": 20,
+    "move_cost": 150,
+    "effects": [
+      { "id": "scrib", "duration": 30 }
+    ],
+    "hit_dmg_u": "The %1$s emits a green glow!",
+    "hit_dmg_npc": "The %1$s emits a green glow!",
+    "no_dmg_msg_u": "The %1$s emits a green glow!",
+    "no_dmg_msg_npc": "The %1$s emits a green glow!"
   }
 ]

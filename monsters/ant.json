@@ -11,7 +11,7 @@
     "armor_bash": 4,
     "armor_cut": 4,
     "armor_acid": 5,
-    "special_attacks": [ [ "ACID_BARF", 15 ] ],
+    "special_attacks": [ [ "ACID_BARF", 15 ], [ "ANT_DINJECT", 30 ] ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
@@ -42,6 +42,8 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
+      [ "ANT_DINJECT", 40 ],
+      [ "GRAB", 20 ],
       {
         "type": "bite",
         "cooldown": 20,
@@ -59,8 +61,7 @@
             "armor_multiplier": 0.8
           }
         ]
-      },
-      [ "GRAB", 30 ]
+      }
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
     "upgrades": {
@@ -92,13 +93,9 @@
     "armor_fire": 3,
     "vision_day": 5,
     "vision_night": 5,
-    "attack_effs": [
-      {
-        "id": "skunk_spray",
-        "duration": 400
-      }
-    ],
     "special_attacks": [
+      [ "GRAB", 60 ],
+      [ "ANT_SINJECT", 20 ],
       {
         "type": "bite",
         "cooldown": 15,
@@ -116,21 +113,21 @@
             "armor_multiplier": 0.5
           }
         ]
-      },
-      [ "GRAB", 60 ]
+      }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "FIRE" ],
     "upgrades": {
       "half_life": 21,
       "into_group": "GROUP_SOLDIER"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "VENOM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS" ]
   },
   {
     "id": "mon_ant_queen",
     "type": "MONSTER",
     "copy-from": "mon_ant_queen",
     "special_attacks": [
+      [ "ANT_DINJECT", 40 ],
       [ "ANTQUEEN", 3 ],
       [ "SHRIEK_ALERT", 30 ]
     ],
@@ -174,6 +171,7 @@
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
+      [ "SCRIB", 600 ],
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -214,6 +212,8 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
+      [ "ANT_DINJECT", 40 ],
+      [ "GRAB", 20 ],
       {
         "type": "bite",
         "cooldown": 12,
@@ -231,8 +231,7 @@
             "armor_multiplier": 0.5
           }
         ]
-      },
-      [ "GRAB", 20 ]
+      }
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
@@ -270,13 +269,9 @@
     "armor_acid": 3,
     "vision_day": 5,
     "vision_night": 5,
-    "attack_effs": [
-      {
-        "id": "skunk_spray",
-        "duration": 400
-      }
-    ],
     "special_attacks": [
+      [ "GRAB", 60 ],
+      [ "ANT_SINJECT", 20 ],
       {
         "type": "bite",
         "cooldown": 15,
@@ -294,12 +289,11 @@
             "armor_multiplier": 0.3
           }
         ]
-      },
-      [ "GRAB", 60 ]
+      }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "VENOM" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS" ]
   },
   {
     "id": "mon_ant_soldier_pk_weak",
@@ -338,13 +332,10 @@
     "armor_fire": 2,
     "vision_day": 25,
     "vision_night": 5,
-    "attack_effs": [
-      {
-        "id": "skunk_spray",
-        "duration": 400
-      }
-    ],
     "special_attacks": [
+      [ "GRAB_DRAG", 15 ],
+      [ "ANT_DINJECT", 40 ],
+      [ "ANT_SINJECT", 40 ],
       {
         "type": "bite",
         "cooldown": 25,
@@ -363,7 +354,6 @@
           }
         ]
       },
-      [ "GRAB_DRAG", 15 ],
       {
         "type": "leap",
         "cooldown": 15,
@@ -376,7 +366,7 @@
       "half_life": 28,
       "into": "mon_ant_soldier_pk"
     },
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "VENOM", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "BASHES" ]
   },
   {
     "id": "mon_ant_soldier_pk",
@@ -415,13 +405,10 @@
     "armor_fire": 2,
     "vision_day": 30,
     "vision_night": 5,
-    "attack_effs": [
-      {
-        "id": "skunk_spray",
-        "duration": 400
-      }
-    ],
     "special_attacks": [
+      [ "GRAB_DRAG", 15 ],
+      [ "ANT_DINJECT", 40 ],
+      [ "ANT_SINJECT", 40 ],
       {
         "type": "bite",
         "cooldown": 25,
@@ -440,8 +427,6 @@
           }
         ]
       },
-      [ "GRAB", 30 ],
-      [ "GRAB_DRAG", 15 ],
       {
         "type": "leap",
         "cooldown": 15,
@@ -450,7 +435,7 @@
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "VENOM", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "BASHES" ]
   },
   {
     "id": "mon_ant_queen_firebug",
@@ -485,6 +470,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
+      [ "ANT_DINJECT", 40 ],
       [ "ANTQUEEN", 3 ],
       [ "FLAMETHROWER", 20 ],
       [ "SHRIEK_ALERT", 5 ]
@@ -526,8 +512,9 @@
     "vision_day": 20,
     "vision_night": 5,
     "special_attacks": [
+      [ "ANT_DINJECT", 40 ],
       [ "ANTQUEEN", 30 ],
-      [ "FLAMETHROWER", 30 ],
+      [ "FLAMETHROWER", 40 ],
       [ "SHRIEK_ALERT", 20 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -567,6 +554,7 @@
     "armor_fire": 12,
     "vision_day": 25,
     "vision_night": 7,
+    "special_attacks": [ [ "ANT_DINJECT", 40 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],

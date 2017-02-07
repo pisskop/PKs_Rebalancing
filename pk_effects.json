@@ -307,7 +307,7 @@
     ],
     "desc": ["You can hardly concentrate or breathe because the smell is overpowering."],
     "max_intensity": 2,
-    "apply_message": "The %s sprays you in a foul-smelling liquid!",
+    "apply_message": "The monster sprays you in a foul-smelling liquid!",
     "int_add_val": 1,
     "int_decay_step": -1,
     "int_decay_tick": 600,
@@ -323,6 +323,19 @@
       "int_mod": [-1],
       "per_mod": [-1],
       "stamina_min": [-1]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "scrib",
+    "name": [
+      "Paralyzed"
+    ],
+    "desc": ["You are paralyzed!"],
+    "apply_message": "Your joints lock up!",
+    "decay_messages": [["You can now use Free Action!", "good"]],
+    "base_mods": {
+      "speed_mod": [-100]
     }
   }
 ]
