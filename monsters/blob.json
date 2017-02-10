@@ -21,6 +21,34 @@
     "id": "mon_gelatin",
     "type": "MONSTER",
     "copy-from": "mon_gelatin",
-    "flags": [ "SMELLS", "HEARS", "PLASTIC", "NO_BREATHE", "NOHEAD", "NOGIB", "ABSORBS" ]
+    "aggression": -1,
+    "morale": 40,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 3,
+    "melee_damage": [
+      {
+        "damage_type": "acid",
+        "amount": 9
+      },
+      {
+        "damage_type": "biological",
+        "amount": 4
+      }
+    ],
+    "attack_effs": [
+      {
+        "id": "slimed",
+        "duration": 200
+      }
+    ],
+    "special_attacks": [
+      [ "FORMBLOB", 4 ],
+      [ "SLIMING", 40 ]
+    ],
+    "death_drops": "slime_death_drops",
+    "flags": [ "SMELLS", "HEARS", "PLASTIC", "NO_BREATHE", "NOHEAD", "NOGIB", "ABSORBS" ],
+    "anger_triggers": [ "HURT" ],
+    "placate_triggers": [ "FRIEND_ATTACKED" ]
   }
 ]

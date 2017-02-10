@@ -673,5 +673,25 @@
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 1 ] ],
     "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "OVERSIZE", "VARSIZE", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "mask_filter",
+    "type": "ARMOR",
+    "//": "Keeps the filter mask at 20 warmth.  In summer it presents a choice between more prot/warmth here or less warmth for less prot with a dust mask.",
+    "name": "filter mask",
+    "description": "A mask that straps over your mouth and nose and filters air.  Protects from smoke, dust, and other contaminants quite well.",
+    "weight": 260,
+    "volume": 2,
+    "price": 3500,
+    "to_hit": 1,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "MOUTH" ],
+    "coverage": 100,
+    "encumbrance": 20,
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 7
   }
 ]

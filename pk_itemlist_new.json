@@ -458,5 +458,14 @@
         ["processor", 20],
         ["steel_chunk", 40]
     ]
+  },{
+    "type": "item_group",
+    "id": "slime_death_drops",
+    "items":[
+        { "item": "bone_tainted", "damage": [0, 3], "prob": 50, "count": [ 0 , 3 ] },
+        { "item": "bone_tainted", "damage": [0, 3], "prob": 50, "count": [ 0 , 3 ] },
+        { "item": "slime_scrap", "prob": 75, "count": [ 0 , 2 ] },
+        { "item": "slime_scrap", "prob": 75, "count": [ 0 , 2 ] }
+    ]
   }
 ]

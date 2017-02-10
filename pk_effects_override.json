@@ -473,5 +473,29 @@
       "h_mod_chance": [100],
       "h_mod_tick": [60]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "slimed",
+    "name": ["Slimed"],
+    "desc": ["You're covered in thick goo!"],
+    "apply_message": "You're covered in thick goo!",
+    "rating": "bad",
+    "max_intensity": 3,
+    "miss_messages": [["This goo makes you slip", 4]],
+    "base_mods": {
+      "dex_mod": [-2],
+      "speed_mod": [-25],
+      "vomit_chance": [1900]
+    },
+    "scaling_mods": {
+      "str_mod": [-0.5],
+      "per_mod": [-0.5],
+      "dex_mod": [-1],
+      "stamina_min": [-1],
+      "vomit_chance": [-800],
+      "h_mod_amount": [-3],
+      "health_amount": [-3]
+    }
   }
 ]
