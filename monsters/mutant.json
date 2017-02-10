@@ -162,7 +162,7 @@
       [ "GRAB", 30 ],
       [ "SCRATCH", 60 ],
       [ "SMASH", 30 ]
-    ],
+    ]
   },
   {
     "id": "mon_crawler",

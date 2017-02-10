@@ -3,7 +3,7 @@
     "id": "mon_blob_large",
     "type": "MONSTER",
     "copy-from": "mon_blob_large",
-    "special_attacks": [ [ "FORMBLOB", 60 ], [ "SLIMING", 60 ] ],
+    "special_attacks": [ [ "FORMBLOB", 60 ], [ "SLIMING", 60 ] ]
   },
   {
     "id": "mon_blob",
