@@ -73,7 +73,7 @@
       "dex_mod": [-0.34, -0.17],
       "speed_mod": [-5, -3],
       "h_mod_min": [-1, -0.5],
-      "h_mod_tick": [6, 20],
+      "h_mod_tick": [30, 60],
       "h_mod_chance": [10],
       "pain_min": [-1, -0.5],
       "pain_min_val": [-20, -10],
@@ -83,9 +83,6 @@
     "scaling_mods": {
       "dex_mod": [-0.34, -0.17],
       "speed_mod": [-5, -3],
-      "h_mod_min": [-0.1],
-      "h_mod_tick": [-0.2],
-      "h_mod_chance": [-0.1],
       "pain_min": [-0.1],
       "pain_min_val": [-5, -3],
       "stamina_min": [-0.1]
@@ -125,8 +122,8 @@
       "rad_min": [5],
       "rad_max_val": [75],
       "h_mod_min": [-1],
-      "h_mod_tick": [45],
-      "h_mod_chance": [10]
+      "h_mod_tick": [60],
+      "h_mod_chance": [15]
     },
     "scaling_mods": {
       "per_mod": [-1, -0.5],
@@ -178,7 +175,7 @@
       "rad_max_val": [100],
       "rad_chance": [100, 300],
       "h_mod_min": [-1],
-      "h_mod_tick": [30],
+      "h_mod_tick": [60],
       "h_mod_chance": [10]
     },
     "scaling_mods": {
@@ -194,7 +191,6 @@
       "vomit_chance": [-80, -50],
       "rad_max_val": [50],
       "rad_chance": [-30, 100],
-      "h_mod_min": [-1, -0.5],
       "h_mod_tick": [-10]
     }
   },
@@ -218,7 +214,7 @@
       "speed_mod": [-3],
       "dex_mod": [-0.6],
       "health_min": [-1],
-      "health_tick": [60],
+      "health_tick": [80],
       "health_chance": [33],
       "h_mod_tick": [50],
       "h_mod_chance": [15]
@@ -265,7 +261,7 @@
       "hurt_chance": [-300],
       "stamina_chance": [2],
       "health_min": [-1],
-      "health_tick": [60],
+      "health_tick": [80],
       "health_chance": [33],
       "h_mod_tick": [50],
       "h_mod_chance": [15]

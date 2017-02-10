@@ -315,8 +315,7 @@
     "base_mods": {
       "speed_mod": [-2],
       "per_mod": [-1],
-      "stamina_min": [-1],
-      "h_mod_min": [-3]
+      "stamina_min": [-1]
     },
     "scaling_mods": {
       "speed_mod": [-3],
