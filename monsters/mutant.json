@@ -25,7 +25,7 @@
     "hp": 85,
     "speed": 125,
     "aggression": 0,
-    "morale": 70,
+    "morale": 60,
     "melee_skill": 7,
     "melee_dice": 1,
     "melee_dice_sides": 7,
@@ -94,6 +94,7 @@
     "type": "MONSTER",
     "copy-from": "mon_sludge_crawler",
     "default_faction": "mutant_omnivore",
+    "special_attacks": [ [ "SLIMING", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
     "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
   },
@@ -122,6 +123,7 @@
         "amount": 6
       }
     ],
+    "special_attacks": [ [ "SLIMING", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
     "dodge": 10,
     "armor_bash": 8,
@@ -137,7 +139,15 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 8,
-    "melee_cut": 0
+    "melee_cut": 1,
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 20
+      },
+      [ "GRAB", 30 ],
+      [ "SCRATCH", 15 ]
+    ]
   },
   {
     "id": "mon_one_eye",
@@ -147,13 +157,21 @@
     "melee_skill": 9,
     "melee_dice": 2,
     "melee_dice_sides": 4,
-    "melee_cut": 1
+    "melee_cut": 1,
+    "special_attacks": [
+      [ "GRAB", 30 ],
+      [ "SCRATCH", 60 ],
+      [ "SMASH", 30 ]
+    ],
   },
   {
     "id": "mon_crawler",
     "type": "MONSTER",
     "copy-from": "mon_crawler",
-    "default_faction": "mutant_predator"
+    "default_faction": "mutant_predator",
+    "special_attacks": [
+      [ "SCRATCH", 10 ]
+    ]
   },
   {
     "id": "mon_dark_wyrm",
@@ -243,7 +261,8 @@
     "emit_fields": [ "emit_slime_trail" ],
     "special_attacks": [
       [ "ACID", 15 ],
-      [ "IMPALE", 40 ]
+      [ "IMPALE", 40 ],
+      [ "SLIMING", 60 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT", "FRIEND_DIED" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "HUMAN", "ACIDPROOF", "ACID_BLOOD" ]

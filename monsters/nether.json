@@ -67,7 +67,6 @@
     "copy-from": "mon_mi_go",
     "name": "flying mi-go",
     "description": "THEY HAVE WINGS",
-    "diff": 30,
     "hp": 180,
     "speed": 125,
     "melee_skill": 8,

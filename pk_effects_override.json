@@ -203,8 +203,8 @@
     "id": "cold",
     "name": [
       "Chilly",
-       "Cold",
-       "Freezing"
+      "Cold",
+      "Freezing"
     ],
     "desc": [
       "Your %s is exposed to the cold.",
@@ -219,7 +219,9 @@
       "dex_mod": [-0.6],
       "health_min": [-1],
       "health_tick": [60],
-      "health_chance": [25]
+      "health_chance": [33],
+      "h_mod_tick": [50],
+      "h_mod_chance": [15]
     },
     "scaling_mods": {
       "speed_mod": [-12],
@@ -233,9 +235,7 @@
       "stamina_min": [-2],
       "health_min": [-0.5],
       "health_tick": [-10],
-      "h_mod_min": [-1],
-      "h_mod_tick": [50],
-      "h_mod_chance": [15]
+      "h_mod_min": [-1]
     }
   },
   {
@@ -266,7 +266,9 @@
       "stamina_chance": [2],
       "health_min": [-1],
       "health_tick": [60],
-      "health_chance": [25]
+      "health_chance": [33],
+      "h_mod_tick": [50],
+      "h_mod_chance": [15]
     },
     "scaling_mods": {
       "speed_mod": [-4],
@@ -277,9 +279,7 @@
       "stamina_min": [-1],
       "health_min": [-0.5],
       "health_tick": [-10],
-      "h_mod_min": [-1],
-      "h_mod_tick": [50],
-      "h_mod_chance": [15]
+      "h_mod_min": [-1]
      }
   },
   {
