@@ -601,8 +601,9 @@
     "city_distance": [0, -1],
     "occurrences": [3, 15]
   },{
-     "type": "overmap_special",
-     "id": "bog",
+    "type": "overmap_special",
+    "id": "bog",
+    "copy-from" : "bog",
     "city_distance": [0, -1],
     "occurrences": [0, 2]
   },{
