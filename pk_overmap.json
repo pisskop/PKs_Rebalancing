@@ -20,17 +20,6 @@
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
-    "id": "Swamp Shack",
-    "overmaps": [
-      { "point":[0,0,0], "overmap": "hunter_shack"}
-    ],
-    "locations": [ "swamp" ],
-    "city_distance": [12, -1],
-    "city_sizes": [4, 16],
-    "occurrences": [0, 8],
-    "flags": [ "CLASSIC" ]
-  },{
-    "type": "overmap_special",
     "id": "old barn",
     "overmaps": [
       { "point":[0,0,0], "overmap": "barn_old"}
@@ -63,39 +52,8 @@
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
-    "id": "Prison",
-    "overmaps": [
-      { "point":[-1,0,0], "overmap": "prison_3"},
-      { "point":[0,0,0], "overmap": "prison_2"},
-      { "point":[1,0,0], "overmap": "prison_1"},
-      { "point":[-1,1,0], "overmap": "prison_6"},
-      { "point":[0,1,0], "overmap": "prison_5"},
-      { "point":[1,1,0], "overmap": "prison_4"},
-      { "point":[-1,2,0], "overmap": "prison_9"},
-      { "point":[0,2,0], "overmap": "prison_8"},
-      { "point":[1,2,0], "overmap": "prison_7"},
-      { "point":[-1,0,-1], "overmap": "prison_b"},
-      { "point":[0,0,-1], "overmap": "prison_b_entrance"},
-      { "point":[1,0,-1], "overmap": "prison_b"},
-      { "point":[-1,1,-1], "overmap": "prison_b"},
-      { "point":[0,1,-1], "overmap": "prison_b"},
-      { "point":[1,1,-1], "overmap": "prison_b"},
-      { "point":[-1,2,-1], "overmap": "prison_b"},
-      { "point":[0,2,-1], "overmap": "prison_b"},
-      { "point":[1,2,-1], "overmap": "prison_b"}
-    ],
-    "connections": [
-    { "point": [0,-1,0], "terrain": "road" }
-    ],
-    "locations": [ "land", "swamp" ],
-    "city_distance": [3, -1],
-    "city_sizes": [4, 12],
-    "occurrences": [1, 1],
-    "rotate": false,
-    "flags": [ "CLASSIC" ]
-  },{
-    "type": "overmap_special",
     "id": "Bee Hive",
+    "copy-from" : "Bee Hive",
     "overmaps": [
       { "point":[0,0,0], "overmap": "hive"},
       { "point":[0,1,0], "overmap": "hive"},
@@ -107,8 +65,6 @@
       { "point":[2,1,0], "overmap": "hive"},
       { "point":[2,2,0], "overmap": "hive"}
     ],
-    "locations": [ "forest" ],
-    "city_distance": [10, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 3],
     "rotate": true,
@@ -241,6 +197,7 @@
   },{
     "type": "overmap_special",
     "id": "Apartments_Con",
+    "copy-from" : "Apartments_Con",
     "overmaps": [
       { "point":[0,0,0], "overmap": "apartments_con_tower_NW_north"},
       { "point":[1,0,0], "overmap": "apartments_con_tower_NE_north"},
@@ -261,10 +218,8 @@
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],
-    "city_sizes": [4, 12],
     "occurrences": [0, 2],
-    "rotate": true,
-    "flags": [ "CLASSIC" ]
+    "rotate": true
   },{
     "type": "overmap_special",
     "id": "Apartments_Con_wide",
@@ -302,6 +257,7 @@
   },{
     "type": "overmap_special",
     "id": "Triffid Grove",
+    "copy-from" : "Triffid Grove",
     "overmaps":
     [
       { "point":[0,0,0], "overmap": "triffid_grove"},
@@ -309,7 +265,6 @@
       { "point":[0,0,-2], "overmap": "triffid_roots"},
       { "point":[0,0,-3], "overmap": "triffid_finale"}
     ],
-    "locations": [ "forest" ],
     "city_distance": [1, -1],
     "city_sizes": [4, 16],
     "occurrences": [1, 4],
@@ -334,41 +289,28 @@
   },{
     "type": "overmap_special",
     "id": "Fungal Bloom",
-    "overmaps":
-    [
-      { "point":[0,0,0], "overmap": "fungal_bloom"}
-    ],
+    "copy-from" : "Fungal Bloom",
     "locations": [ "land" ],
     "city_distance": [0, -1],
-    "city_sizes": [4, 12],
     "occurrences": [1, 2],
-    "rotate": false,
     "spawns": { "group": "GROUP_FUNGI", "population":[500,1000], "radius":[30,60] }
   },{
     "type": "overmap_special",
     "id": "Fungal Tower",
+    "copy-from" : "Fungal Tower",
     "overmaps":
     [
       { "point":[0,0,0], "overmap": "fungal_tower", "connect":"road", "existing": true}
     ],
     "locations": [ "land" ],
-    "city_distance": [5, -1],
-    "city_sizes": [4, 12],
     "occurrences": [1, 2],
-    "rotate": false,
     "spawns": { "group": "GROUP_FUNGI_TOWER", "population":[200,450], "radius":[10,20] }
   },{
     "type": "overmap_special",
     "id": "Fungal Flowers",
-    "overmaps":
-    [
-      { "point":[0,0,0], "overmap": "fungal_flowers"}
-    ],
+    "copy-from" : "Fungal Flowers",
     "locations": [ "swamp" ],
     "city_distance": [8, -1],
-    "city_sizes": [4, 12],
-    "occurrences": [1, 2],
-    "rotate": false,
     "spawns": { "group": "GROUP_FUNGI_FLOWERS", "population":[50,150], "radius":[15,35] }
   },{
     "type": "overmap_special",
@@ -385,26 +327,17 @@
   },{
     "type": "overmap_special",
     "id": "Anthill",
-    "overmaps":
-    [
-      { "point":[0,0,0], "overmap": "anthill"}
-    ],
+    "copy-from" : "Anthill",
     "locations": [ "land", "swamp" ],
     "city_distance": [5, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 12],
-    "rotate": false,
     "spawns": { "group": "GROUP_ANT", "population":[700,2100], "radius":[20,45] }
   },{
     "type": "overmap_special",
     "id": "Spider Pit",
-    "overmaps": [
-      { "point":[0,0,0], "overmap": "spider_pit"},
-      { "point":[0,0,-1], "overmap": "spider_pit_under"}
-    ],
-    "locations": [ "forest" ],
+    "copy-from" : "Spider Pit",
     "city_distance": [0, -1],
-    "city_sizes": [4, 12],
     "occurrences": [2, 20],
     "rotate": true,
     "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[3,7] }
@@ -658,33 +591,20 @@
   },{
     "type": "overmap_special",
     "id": "Pond",
-    "overmaps": [
-      { "point":[0,0,0], "overmap": "pond_field"}
-    ],
-    "locations": [ "field" ],
+    "copy-from" : "Pond",
     "city_distance": [0, -1],
-    "occurrences": [3, 15],
-    "flags": [ "CLASSIC" ]
+    "occurrences": [3, 15]
   },{
     "type": "overmap_special",
     "id": "basin",
-    "overmaps": [
-      { "point":[0,0,0], "overmap": "pond_forest"}
-    ],
-    "locations": [ "forest" ],
+    "copy-from" : "basin",
     "city_distance": [0, -1],
-    "occurrences": [3, 15],
-    "flags": [ "CLASSIC" ]
+    "occurrences": [3, 15]
   },{
      "type": "overmap_special",
      "id": "bog",
-     "overmaps": [
-      { "point":[0,0,0], "overmap": "pond_swamp"}
-    ],
-    "locations": [ "swamp" ],
     "city_distance": [0, -1],
-    "occurrences": [0, 2],
-    "flags": [ "CLASSIC" ]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "Plantation",
