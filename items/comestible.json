@@ -159,7 +159,7 @@
     "type" : "COMESTIBLE",
     "comestible_type" : "MED",
     "name" : "heartburn medicine",
-    "description" : "Creamy pink heartburn syrup with a twist off cap that doubles as a dosage cup.  Repeated doses may cause drowsiness and vomitimg.",
+    "description" : "Creamy pink heartburn syrup that soothes upset stomachs; with a twist off cap that doubles as a dosage cup.  Repeated doses may cause drowsiness.",
     "weight" : 1,
     "volume" : 1,
     "price" : 1000,
