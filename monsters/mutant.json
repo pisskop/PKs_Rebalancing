@@ -71,6 +71,7 @@
     "type": "MONSTER",
     "copy-from": "mon_sewer_snake",
     "description": "An aggressive mutant variety of the worm snake, turned pale yellow from its underground life.  It swarms beneath the ground and is named for its habit of infesting sewer lines and potent smell.",
+    "default_faction": "mutant_omnivore",
     "attack_effs": [
       {
         "id": "badpoison",
@@ -94,6 +95,8 @@
     "type": "MONSTER",
     "copy-from": "mon_sludge_crawler",
     "default_faction": "mutant_omnivore",
+    "aggression": 50,
+    "morale": 80,
     "special_attacks": [ [ "SLIMING", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
     "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
