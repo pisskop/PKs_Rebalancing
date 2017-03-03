@@ -17,8 +17,7 @@
     ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, -1],
-    "occurrences": [0, 2],
-    "rotate": true
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "Mine Entrace",
@@ -74,7 +73,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [0, 4],
     "occurrences": [0, 5],
-    "rotate": true
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "Hospital",
@@ -157,7 +156,7 @@
     "city_distance": [4, 10],
     "city_sizes": [4, 16],
     "occurrences": [1, 10],
-    "rotate": true
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "Evac Shelter Wilderness",
@@ -174,7 +173,7 @@
     "city_distance": [8, -1],
     "city_sizes": [4, 16],
     "occurrences": [1, 6],
-    "rotate": true,
+    "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -318,7 +317,7 @@
     "city_distance": [1, -1],
     "city_sizes": [5, 12],
     "occurrences": [0, 1],
-    "rotate": true
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "Apartments_Mod",
@@ -683,7 +682,7 @@
     "city_distance": [8, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
-    "rotate": true
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "evac_center",
@@ -691,7 +690,7 @@
     "city_distance": [2, 12],
     "city_sizes": [4, 16],
     "occurrences": [1, 1],
-    "rotate": true
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "FEMA Camp",
@@ -726,7 +725,7 @@
     "city_distance": [0, 8],
     "city_sizes": [4, 12],
     "occurrences": [0, 2],
-    "rotate": true,
+    "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -752,8 +751,8 @@
     ],
     "locations": [ "land" ],
     "city_distance": [0, 12],
-    "occurrences": [1, 2],
-    "rotate": true
+    "rotate": false,
+    "occurrences": [1, 2]
   },{
     "type": "overmap_special",
     "id": "School",
@@ -817,6 +816,7 @@
     "city_distance": [10, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 2],
+    "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -828,7 +828,7 @@
     "locations": [ "land" ],
     "city_distance": [0, 20],
     "occurrences": [1, 6],
-    "rotate": true,
+    "rotate": false,
     "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 10], "radius":[2, 5] }
   },{
     "type" : "overmap_special",
@@ -902,8 +902,7 @@
     "id": "LMOE Shelter",
     "copy-from" : "LMOE Shelter",
     "city_distance": [0, -1],
-    "occurrences": [1, 3],
-    "rotate": true
+    "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "LMOE Shelter_swamp",
@@ -916,7 +915,7 @@
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
     "occurrences": [1, 3],
-    "rotate": true,
+    "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
@@ -991,8 +990,7 @@
     "type": "overmap_special",
     "id": "Military Bunker",
     "copy-from" : "Military Bunker",
-    "occurrences": [0, 4],
-    "rotate": true
+    "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "Military Bunker Terminal",
@@ -1008,8 +1006,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [4, -1],
     "city_sizes": [2, 10],
-    "occurrences": [1, 4],
-    "rotate": true
+    "occurrences": [1, 4]
   },{
     "type": "overmap_special",
     "id": "Military Outpost",
@@ -1198,6 +1195,6 @@
     "locations": [ "land" ],
     "city_distance": [0, 8],
     "occurrences": [ 1, 4 ],
-    "rotate": true
+    "rotate": false
   }
 ]
