@@ -25,7 +25,7 @@
     "sym": 79,
     "color" : "green",
     "see_cost" : 5,
-    "flags" : [ "ALLOW_OVERRIDE" ],
+    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
     "extras" : "subway"
   },{
     "type" : "overmap_terrain",

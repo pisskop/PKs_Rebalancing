@@ -4,7 +4,7 @@
     "id": "Crater",
     "copy-from" : "Crater",
     "city_distance": [0, -1],
-    "occurrences": [0, 12]
+    "occurrences": [0, 15]
   },{
     "type": "overmap_special",
     "id": "Lake",
@@ -39,13 +39,13 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 3],
+    "occurrences": [1, 3],
     "rotate": false
   },{
     "type": "overmap_special",
     "id": "warehouse",
     "copy-from" : "warehouse",
-    "occurrences": [0, 5],
+    "occurrences": [0, 4],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -72,7 +72,7 @@
     ],
     "locations": [ "land", "swamp" ],
     "city_distance": [0, 4],
-    "occurrences": [0, 5],
+    "occurrences": [0, 4],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -98,14 +98,14 @@
     "type": "overmap_special",
     "id": "Hazardous Waste Sarcophagus",
     "copy-from" : "Hazardous Waste Sarcophagus",
-    "occurrences": [0, 3]
+    "occurrences": [0, 1]
   },{
     "type": "overmap_special",
     "id": "Cathedral",
     "copy-from" : "Cathedral",
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
-    "occurrences": [0, 3],
+    "occurrences": [0, 1],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -114,19 +114,19 @@
     "locations": [ "field" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 12],
+    "occurrences": [0, 1],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Farm",
     "copy-from" : "Farm",
-    "locations": [ "forest", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 3]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
-    "id": "Farm_road",
-    "copy-from" : "Farm",
+    "id": "Farm_wild",
     "overmaps" : [
       { "point":[0,0,0], "overmap": "farm_3_north"},
       { "point":[1,0,0], "overmap": "farm_2_north"},
@@ -138,13 +138,10 @@
       { "point":[1,2,0], "overmap": "farm_8_north"},
       { "point":[2,2,0], "overmap": "farm_7_north"}
     ],
-      "connections": [
-        { "point": [1,-1,0], "terrain": "road", "existing": true }
-    ],
-    "locations": [ "land" ],
+    "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
-    "city_sizes": [4, 12],
-    "occurrences": [0, 2]
+    "city_sizes": [1, 12],
+    "occurrences": [0, 3]
   },{
     "type": "overmap_special",
     "id": "Evac Shelter",
@@ -155,7 +152,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [4, 10],
     "city_sizes": [4, 16],
-    "occurrences": [1, 10],
+    "occurrences": [1, 5],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -172,7 +169,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [8, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 6],
+    "occurrences": [1, 5],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -182,7 +179,7 @@
     "city_distance": [0, -1],
     "occurrences": [0, 8],
     "rotate": true,
-    "spawns": { "group": "GROUP_GOO", "population":[100,200], "radius":[5,15] }
+    "spawns": { "group": "GROUP_GOO", "population":[125,250], "radius":[8,20] }
   },{
     "type": "overmap_special",
     "id": "Home Improvement Superstore",
@@ -324,7 +321,7 @@
     "copy-from" : "Apartments_Mod",
     "locations": [ "land" ],
     "city_distance": [0, 2],
-    "occurrences": [0, 4],
+    "occurrences": [0, 3],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -698,7 +695,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, 30],
     "city_sizes": [4, 20],
-    "occurrences": [0, 3],
+    "occurrences": [0, 2],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -802,7 +799,7 @@
     ],
     "city_distance": [10, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 3]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "bandit_camp wilderness",
@@ -958,7 +955,7 @@
     ],
     "locations": [ "land", "swamp" ],
     "city_distance": [12, 30],
-    "occurrences": [1, 3]
+    "occurrences": [1, 2]
   },{
     "type": "overmap_special",
     "id": "Sewage Treatment Plant By Road",
@@ -1061,7 +1058,7 @@
     "id": "Mansion_Road",
     "copy-from" : "Mansion_Road",
     "city_distance": [0, -1],
-    "occurrences": [0, 4],
+    "occurrences": [0, 3],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1074,18 +1071,18 @@
     "id": "campsite",
     "copy-from" : "campsite",
     "locations": [ "forest", "swamp" ],
-    "occurrences": [0, 5]
+    "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "campsite_cabin_incomplete",
     "copy-from" : "campsite_cabin_incomplete",
-    "occurrences": [0, 4]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "campsite_a",
     "copy-from" : "campsite_a",
     "locations": [ "forest", "swamp" ],
-    "occurrences": [0, 5]
+    "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "campsite_field_biker",
@@ -1144,7 +1141,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [0,4],
     "city_sizes": [4,12],
-    "occurrences": [ 1, 2 ],
+    "occurrences": [ 1, 1 ],
     "rotate": true,
     "flags": ["CLASSIC"]
   },{
@@ -1164,15 +1161,15 @@
         { "point": [0,2,-1], "terrain": "sewer" }
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [0,-1],
-    "occurrences": [ 0, 2 ],
+    "city_distance": [0, -1],
+    "occurrences": [ 0, 1 ],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "garage_gas",
     "copy-from" : "garage_gas",
     "locations": [ "land" ],
-    "city_distance": [0,4],
+    "city_distance": [0, 2],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1194,7 +1191,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],
-    "occurrences": [ 1, 4 ],
+    "occurrences": [ 1, 3 ],
     "rotate": false
   }
 ]
