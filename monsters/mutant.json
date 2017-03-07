@@ -219,8 +219,6 @@
     "armor_bash": 1,
     "armor_cut": 1,
     "emit_fields": [ "emit_fatigue" ],
-    "vision_day": 15,
-    "vision_night": 30,
     "special_attacks": [
       [ "FEAR_PARALYZE", 5 ],
       [ "GRAB_DRAG", 30 ],
