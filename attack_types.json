@@ -70,10 +70,14 @@
     "id": "slash",
     "cooldown": 20,
     "move_cost": 180,
+    "effects": [
+      { "id": "bleed", "duration": 50 },
+      { "id": "bleed", "duration": 10 }
+    ],
     "damage_max_instance": [
       {
         "damage_type": "cut",
-        "amount": 12
+        "amount": 10
       },
       {
         "damage_type": "stab",

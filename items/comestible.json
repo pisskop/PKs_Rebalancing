@@ -301,5 +301,18 @@
     "name" : "medical tape",
     "description" : "A roll of medical tape, similar to duct tape.",
     "count" : 100
+  },
+    {
+        "id" : "antibiotics",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",
+        "name" : "antibiotic",
+        "copy-from": "antibiotics",
+        "description" : "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Healthy in small doses, one must be aware of the mentally addictive properties it may bring.",
+        "use_action" : "ANTIBIOTIC",
+    "fun" : -1,
+    "healthy" : 6,
+    "addiction_potential" : 20,
+    "flags" : "NPC_SAFE"
   }
 ]

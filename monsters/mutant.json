@@ -322,7 +322,7 @@
     "copy-from": "mon_dog_thing",
     "default_faction": "mutant_predator",
     "special_attacks": [
-      [ "DOGTHING", 40 ],
+      [ "DOGTHING", 80 ],
       [ "DARKMAN", 5 ]
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HARDTOSHOOT" ]
@@ -441,8 +441,8 @@
     "vision_day": 40,
     "vision_night": 7,
     "special_attacks": [
-      [ "scratch", 10 ],
-      [ "slash", 30 ]
+      [ "scratch", 20 ],
+      [ "slash", 40 ]
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "POISON", "HUMAN", "LEATHER", "CLIMBS", "SWARMS", "REGENERATES_10" ]
@@ -453,9 +453,40 @@
     "copy-from": "mon_jabberwock",
     "special_attacks": [
       [ "FLESH_GOLEM", 10 ],
-      [ "scratch", 20 ],
-      [ "slash", 30 ],
-      [ "FEAR_PARALYZE", 20 ]
+      [ "FEAR_PARALYZE", 20 ],
+      {
+        "id": "scratch",
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 14,
+            "armor_multiplier": 0.8
+          },
+          {
+            "damage_type": "stab",
+            "amount": 6,
+            "armor_multiplier": 0.8
+          }
+        ],
+        "moves": 150,
+        "cooldown": 20
+      },
+      {
+        "id": "slash",
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 16,
+            "armor_multiplier": 0.8
+          },
+          {
+            "damage_type": "stab",
+            "amount": 8,
+            "armor_multiplier": 0.8
+          }
+        ],
+        "cooldown": 30
+      }
     ],
     "upgrades": {
       "half_life": 28,
@@ -490,9 +521,24 @@
     "vision_night": 5,
     "special_attacks": [
       [ "FLESH_GOLEM", 5 ],
-      [ "slash", 20 ],
       [ "SMASH", 50 ],
-      [ "FEAR_PARALYZE", 3 ]
+      [ "FEAR_PARALYZE", 3 ],
+      {
+        "id": "slash",
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 20,
+            "armor_multiplier": 0.8
+          },
+          {
+            "damage_type": "stab",
+            "amount": 12,
+            "armor_multiplier": 0.8
+          }
+        ],
+        "cooldown": 20
+      }
     ],
     "death_function": [ "JABBERWOCKY" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "FUR", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
