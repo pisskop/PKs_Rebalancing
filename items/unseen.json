@@ -23,6 +23,48 @@
     "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
   },
   {
+    "id": "bot_thing_head",
+    "type": "TOOL",
+    "name": "thing head spawner",
+    "description": "Spawns a thing head.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_thing_head",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_thing_spider",
+    "type": "TOOL",
+    "name": "thing spider spawner",
+    "description": "Spawns a thing spider head.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_thing_spider",
+      "place_randomly": true
+    }
+  },
+  {
     "id": "bot_tripod",
     "type": "TOOL",
     "name": "tribot spawner",

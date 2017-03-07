@@ -219,6 +219,8 @@
     "armor_bash": 1,
     "armor_cut": 1,
     "emit_fields": [ "emit_fatigue" ],
+    "vision_day": 15,
+    "vision_night": 30,
     "special_attacks": [
       [ "FEAR_PARALYZE", 5 ],
       [ "GRAB_DRAG", 30 ],
@@ -227,16 +229,165 @@
     "flags": [ "SMELLS", "HEARS", "SEES", "STUMBLES", "HARDTOSHOOT", "HUMAN", "LEATHER", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ]
   },
   {
+    "id": "mon_thing_head",
+    "type": "MONSTER",
+    "name": "dog head",
+    "description": "A dogs head, with ichorous black ooze and tentacles flowing from its stump.",
+    "default_faction": "mutant",
+    "species": [ "NETHER" ],
+    "diff": 16,
+    "size": "SMALL",
+    "hp": 60,
+    "speed": 60,
+    "material": [ "flesh" ],
+    "symbol": "h",
+    "color": "dkgray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "melee_dice_sides": 4,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "thing_poison",
+        "duration": 50
+      }
+    ],
+    "dodge": 2,
+    "vision_night": 15,
+    "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "TENTACLE", 5 ],
+      [ "VINE", 10 ]
+    ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "SMELLS", "HEARS" ]
+  },
+  {
+    "id": "mon_thing_spider",
+    "type": "MONSTER",
+    "name": "spider head",
+    "description": "A detached, malformed head with ten spiderly limbs and a bemoaning stare.",
+    "default_faction": "mutant",
+    "species": [ "NETHER" ],
+    "diff": 16,
+    "size": "SMALL",
+    "hp": 40,
+    "speed": 100,
+    "material": [ "flesh" ],
+    "symbol": "s",
+    "color": "dkgray",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 0,
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2
+      },
+      {
+        "damage_type": "acid",
+        "amount": 4
+      },
+      {
+        "damage_type": "biological",
+        "amount": 1
+      }
+    ],
+    "attack_effs": [
+      {
+        "id": "thing_poison",
+        "duration": 50
+      }
+    ],
+    "dodge": 2,
+    "vision_night": 10,
+    "special_attacks": [
+      {
+        "type": "leap",
+        "cooldown": 7,
+        "max_range": 2
+      },
+      [ "LUNGE", 60 ],
+      [ "VINE", 10 ]
+    ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "SMELLS", "HEARS" ]
+  },
+  {
     "id": "mon_dog_thing",
     "type": "MONSTER",
     "copy-from": "mon_dog_thing",
-    "default_faction": "mutant_predator"
+    "default_faction": "mutant_predator",
+    "special_attacks": [
+      [ "DOGTHING", 40 ],
+      [ "DARKMAN", 5 ]
+    ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FUR", "HARDTOSHOOT" ]
+  },
+  {
+    "id": "mon_headless_dog_thing",
+    "type": "MONSTER",
+    "name": "tentacle dog",
+    "copy-from": "mon_headless_dog_thing",
+    "description": "A dog's body with a mass of ropey, black tentacles reaching out from its head.",
+    "default_faction": "mutant_predator",
+    "diff": 18,
+    "hp": 160,
+    "speed": 140,
+    "melee_skill": 8,
+    "melee_dice": 3,
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "attack_effs": [
+      {
+        "id": "thing_poison",
+        "duration": 100
+      }
+    ],
+    "dodge": 5,
+    "special_attacks": [
+      [ "TENTACLE", 5 ],
+      [ "GRENADIER", 5 ]
+    ],
+    "starting_ammo": { "bot_thing_head": 3, "bot_thing_spider": 3 },
+    "death_function": [ "THING" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "BASHES" ],
+    "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED", "SOUND" ],
+    "fear_triggers": [ "HURT", "FRIEND_ATTACKED" ]
   },
   {
     "id": "mon_thing",
     "type": "MONSTER",
     "copy-from": "mon_thing",
-    "default_faction": "mutant_predator"
+    "default_faction": "mutant_predator",
+    "hp": 180,
+    "speed": 120,
+    "melee_skill": 12,
+    "melee_dice": 5,
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "attack_effs": [
+      {
+        "id": "thing_poison",
+        "duration": 200
+      }
+    ],
+    "dodge": 3,
+    "armor_cut": 6,
+    "armor_bash": 12,
+    "armor_acid": 15,
+    "vision_night": 10,
+    "special_attacks": [
+      [ "TENTACLE", 5 ],
+      [ "GRENADIER", 5 ]
+    ],
+    "starting_ammo": { "bot_thing_head": 4, "bot_thing_spider": 4 },
+    "death_function": [ "DARKMAN", "MELT" ]
   },
   {
     "id": "mon_human_snail",
