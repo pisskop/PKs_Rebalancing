@@ -97,7 +97,7 @@
     "default_faction": "mutant_omnivore",
     "aggression": 50,
     "morale": 80,
-    "special_attacks": [ [ "SLIMING", 30 ] ],
+    "special_attacks": [ [ "sliming", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
     "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
   },
@@ -126,7 +126,7 @@
         "amount": 6
       }
     ],
-    "special_attacks": [ [ "SLIMING", 30 ] ],
+    "special_attacks": [ [ "sliming", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
     "dodge": 10,
     "armor_bash": 8,
@@ -149,7 +149,7 @@
         "cooldown": 20
       },
       [ "GRAB", 30 ],
-      [ "SCRATCH", 15 ]
+      [ "scratch", 15 ]
     ]
   },
   {
@@ -157,13 +157,14 @@
     "type": "MONSTER",
     "copy-from": "mon_one_eye",
     "default_faction": "mutant_omnivore",
+    "size": "HUGE",
     "melee_skill": 9,
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 1,
     "special_attacks": [
       [ "GRAB", 30 ],
-      [ "SCRATCH", 60 ],
+      [ "scratch", 60 ],
       [ "SMASH", 30 ]
     ]
   },
@@ -173,7 +174,7 @@
     "copy-from": "mon_crawler",
     "default_faction": "mutant_predator",
     "special_attacks": [
-      [ "SCRATCH", 10 ]
+      [ "scratch", 10 ]
     ]
   },
   {
@@ -263,9 +264,10 @@
     "vision_night": 20,
     "emit_fields": [ "emit_slime_trail" ],
     "special_attacks": [
-      [ "ACID", 15 ],
+      [ "ACID", 20 ],
+      [ "numbing_poison", 30 ],
       [ "IMPALE", 40 ],
-      [ "SLIMING", 60 ]
+      [ "sliming", 60 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT", "FRIEND_DIED" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "HUMAN", "ACIDPROOF", "ACID_BLOOD" ]
@@ -289,7 +291,10 @@
     "armor_cut": 2,
     "vision_day": 40,
     "vision_night": 7,
-    "special_attacks": [ [ "SCRATCH", 5 ] ],
+    "special_attacks": [
+      [ "scratch", 10 ],
+      [ "slash", 30 ]
+    ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "POISON", "HUMAN", "LEATHER", "CLIMBS", "SWARMS", "REGENERATES_10" ]
   },
@@ -297,6 +302,12 @@
     "id": "mon_jabberwock",
     "type": "MONSTER",
     "copy-from": "mon_jabberwock",
+    "special_attacks": [
+      [ "FLESH_GOLEM", 10 ],
+      [ "scratch", 20 ],
+      [ "slash", 30 ],
+      [ "FEAR_PARALYZE", 20 ]
+    ],
     "upgrades": {
       "half_life": 28,
       "into": "mon_jabberwock_pk",
@@ -330,6 +341,7 @@
     "vision_night": 5,
     "special_attacks": [
       [ "FLESH_GOLEM", 5 ],
+      [ "slash", 20 ],
       [ "SMASH", 50 ],
       [ "FEAR_PARALYZE", 3 ]
     ],
@@ -369,6 +381,7 @@
     "vision_night": 20,
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
+      [ "numbing_poison", 10 ],
       [ "SHRIEK_ALERT", 30 ],
       [ "SHRIEK_STUN", 1 ],
       {
@@ -411,6 +424,7 @@
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
       [ "LONGSWIPE", 20 ],
+      [ "slash", 20 ],
       [ "IMPALE", 50 ],
       {
         "type": "leap",

@@ -37,6 +37,10 @@
     "armor_cut": 2,
     "vision_day": 15,
     "vision_night": 3,
+    "special_attacks": [
+      [ "GRAB", 15 ],
+      [ "scratch", 15 ]
+    ],
     "anger_triggers": [ "PLAYER_WEAK", "FIRE", "PLAYER_CLOSE" ],
     "fear_triggers": [ "MEAT", "FRIEND_DIED" ],
     "placate_triggers": [ "HURT", "SOUND" ],
@@ -59,7 +63,10 @@
     "type": "MONSTER",
     "copy-from": "mon_mi_go",
     "name": "mi-go",
-    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance."
+    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance.",
+    "special_attacks": [
+      [ "slash", 30 ]
+    ]
   },
   {
     "id": "mon_mi_go_fly",
@@ -70,6 +77,9 @@
     "hp": 180,
     "speed": 125,
     "melee_skill": 8,
-    "dodge": 5
+    "dodge": 5,
+    "special_attacks": [
+      [ "slash", 30 ]
+    ]
   }
 ]

@@ -430,7 +430,7 @@
     "vision_day": 25,
     "vision_night": 3,
     "special_attacks": [
-      [ "SCRATCH", 15 ]
+      [ "scratch", 15 ]
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched_2",
@@ -465,7 +465,7 @@
     "vision_day": 15,
     "vision_night": 5,
     "special_attacks": [
-      [ "SCRATCH", 25 ]
+      [ "scratch", 30 ]
     ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
@@ -540,7 +540,7 @@
     "vision_day": 20,
     "vision_night": 7,
     "special_attacks": [
-      [ "SCRATCH", 20 ]
+      [ "slash", 30 ]
     ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
@@ -941,7 +941,10 @@
     "armor_acid": 4,
     "vision_day": 2,
     "vision_night": 5,
-    "special_attacks": [ [ "FORMBLOB", 240 ] ],
+    "special_attacks": [
+      [ "FORMBLOB", 240 ],
+      [ "sliming", 30 ]
+    ],
     "death_function": [ "MELT", "BLOBSPLIT" ],
     "burn_into": "mon_zanimal_skeleton",
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "BONES", "SWIMS", "NIGHT_INVISIBILITY" ]

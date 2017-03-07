@@ -2,7 +2,21 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "ANT_DINJECT",
+    "id": "wasp_sting",
+    "cooldown": 20,
+    "move_cost": 200,
+    "effects": [
+      { "id": "poison", "duration": 400 }
+    ],
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "ant_dinject",
     "cooldown": 20,
     "move_cost": 250,
     "effects": [
@@ -16,11 +30,11 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "ANT_SINJECT",
+    "id": "ant_sinject",
     "cooldown": 20,
     "move_cost": 200,
     "effects": [
-      { "id": "skunk_spray", "duration": 400 },
+      { "id": "skunk_spray", "duration": 200 },
       { "id": "poison", "duration": 400 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
@@ -31,10 +45,20 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "SCRATCH",
-    "cooldown": 10,
-    "move_cost": 150,
-    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "HAND_L", 3 ], [ "HAND_R", 3 ], [ "EYES", 2 ], [ "ARM_L", 2 ], [ "ARM_R", 2 ], [ "TORSO", 4 ] ],
+    "id": "scratch",
+    "cooldown": 20,
+    "move_cost": 160,
+    "damage_max_instance": [
+      {
+        "damage_type": "cut",
+        "amount": 5
+      },
+      {
+        "damage_type": "stab",
+        "amount": 3
+      }
+    ],
+    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "hit_dmg_u": "The %1$s claws at you!",
     "hit_dmg_npc": "The %1$s claws at <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to claw at you but fails.",
@@ -43,7 +67,29 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "PARA_POISON",
+    "id": "slash",
+    "cooldown": 20,
+    "move_cost": 180,
+    "damage_max_instance": [
+      {
+        "damage_type": "cut",
+        "amount": 12
+      },
+      {
+        "damage_type": "stab",
+        "amount": 6
+      }
+    ],
+    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
+    "hit_dmg_u": "The %1$s claws at you!",
+    "hit_dmg_npc": "The %1$s claws at <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to claw at you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to claw <npcname>, but fails to."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "para_poison",
     "cooldown": 15,
     "move_cost": 120,
     "effects": [
@@ -60,7 +106,7 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "SLIMING",
+    "id": "sliming",
     "cooldown": 30,
     "move_cost": 200,
     "effects": [
@@ -79,7 +125,7 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "SCRIB",
+    "id": "scrib",
     "cooldown": 20,
     "move_cost": 150,
     "effects": [
@@ -89,5 +135,20 @@
     "hit_dmg_npc": "The %1$s emits a green glow!",
     "no_dmg_msg_u": "The %1$s emits a green glow!",
     "no_dmg_msg_npc": "The %1$s emits a green glow!"
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "numbing_poison",
+    "cooldown": 30,
+    "move_cost": 200,
+    "effects": [
+      { "id": "paralyzepoison", "duration": 400 },
+      { "id": "paralyzepoison", "duration": 100 }
+    ],
+    "hit_dmg_u": "The %1$s injects you with a numbing poison!",
+    "hit_dmg_npc": "The %1$s injects <npcname> with a numbing poison!",
+    "no_dmg_msg_u": "The %1$s stab at you, but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to stab at <npcname>, but fails."
   }
 ]

@@ -16,9 +16,10 @@
     "attack_effs": [
       {
         "id": "doom_unhealth",
-        "duration": 3
+        "duration": 2
       }
     ],
+    "special_attacks": [ [ "numbing_poison", 20 ] ],
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
   },
   {
@@ -41,8 +42,9 @@
       {
         "damage_type": "stab",
         "amount": 4
-      } ],
-    "special_attacks": [[ "ACID_ACCURATE", 30 ]],
+      }
+    ],
+    "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ] ],
     "attack_effs": [
       {
         "id": "poison",
@@ -1258,14 +1260,9 @@
     "id": "mon_wasp",
     "type": "MONSTER",
     "copy-from": "mon_wasp",
-    "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
-    ],
     "vision_day": 12,
     "vision_night": 7,
+    "special_attacks": [ [ "wasp_sting", 20 ] ],
     "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE" ]
   },
   {
@@ -1287,12 +1284,7 @@
     "armor_cut": 8,
     "vision_day": 12,
     "vision_night": 7,
-    "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 600
-      }
-    ],
+    "special_attacks": [ [ "wasp_sting", 15 ] ],
     "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE", "QUEEN" ]
   },
   {

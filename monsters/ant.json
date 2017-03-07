@@ -11,7 +11,7 @@
     "armor_bash": 4,
     "armor_cut": 4,
     "armor_acid": 5,
-    "special_attacks": [ [ "ACID_BARF", 15 ], [ "ANT_DINJECT", 30 ] ],
+    "special_attacks": [ [ "ACID_BARF", 15 ], [ "ant_dinject", 30 ] ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
@@ -42,7 +42,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
-      [ "ANT_DINJECT", 40 ],
+      [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       {
         "type": "bite",
@@ -95,7 +95,7 @@
     "vision_night": 5,
     "special_attacks": [
       [ "GRAB", 60 ],
-      [ "ANT_SINJECT", 20 ],
+      [ "ant_sinject", 20 ],
       {
         "type": "bite",
         "cooldown": 15,
@@ -127,7 +127,7 @@
     "type": "MONSTER",
     "copy-from": "mon_ant_queen",
     "special_attacks": [
-      [ "ANT_DINJECT", 40 ],
+      [ "ant_dinject", 40 ],
       [ "ANTQUEEN", 3 ],
       [ "SHRIEK_ALERT", 30 ]
     ],
@@ -171,7 +171,7 @@
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
-      [ "SCRIB", 600 ],
+      [ "scrib", 600 ],
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -212,7 +212,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
-      [ "ANT_DINJECT", 40 ],
+      [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       {
         "type": "bite",
@@ -271,7 +271,7 @@
     "vision_night": 5,
     "special_attacks": [
       [ "GRAB", 60 ],
-      [ "ANT_SINJECT", 20 ],
+      [ "ant_sinject", 20 ],
       {
         "type": "bite",
         "cooldown": 15,
@@ -334,8 +334,8 @@
     "vision_night": 5,
     "special_attacks": [
       [ "GRAB_DRAG", 15 ],
-      [ "ANT_DINJECT", 40 ],
-      [ "ANT_SINJECT", 40 ],
+      [ "ant_dinject", 40 ],
+      [ "ant_sinject", 40 ],
       {
         "type": "bite",
         "cooldown": 25,
@@ -407,8 +407,8 @@
     "vision_night": 5,
     "special_attacks": [
       [ "GRAB_DRAG", 15 ],
-      [ "ANT_DINJECT", 40 ],
-      [ "ANT_SINJECT", 40 ],
+      [ "ant_dinject", 40 ],
+      [ "ant_sinject", 40 ],
       {
         "type": "bite",
         "cooldown": 25,
@@ -470,7 +470,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
-      [ "ANT_DINJECT", 40 ],
+      [ "ant_dinject", 40 ],
       [ "ANTQUEEN", 3 ],
       [ "FLAMETHROWER", 20 ],
       [ "SHRIEK_ALERT", 5 ]
@@ -512,7 +512,7 @@
     "vision_day": 20,
     "vision_night": 5,
     "special_attacks": [
-      [ "ANT_DINJECT", 40 ],
+      [ "ant_dinject", 40 ],
       [ "ANTQUEEN", 30 ],
       [ "FLAMETHROWER", 40 ],
       [ "SHRIEK_ALERT", 20 ],
@@ -554,7 +554,7 @@
     "armor_fire": 12,
     "vision_day": 25,
     "vision_night": 7,
-    "special_attacks": [ [ "ANT_DINJECT", 40 ] ],
+    "special_attacks": [ [ "ant_dinject", 40 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],

@@ -548,8 +548,8 @@
     "skills_required": [ "tailor", 6 ],
     "difficulty": 6,
     "time": 90000,
-    "reversible": true,
-    "autolearn": false,
+    "reversible": false,
+    "autolearn": true,
     "qualities": [
         {"id":"CUT","level":1},
         {"id":"SCREW_FINE","level":1},

@@ -15,7 +15,8 @@
       [ "FUNGUS_BRISTLE", 5 ],
       [ "FUNGUS", 240 ],
       [ "TENTACLE", 50 ],
-      [ "GRENADIER", 120 ]
+      [ "GRENADIER", 120 ],
+      [ "scratch", 20 ]
     ],
     "death_function": [ "FUNGUS", "DISINTEGRATE" ],
     "flags": [ "SEES", "NOHEAD", "POISON", "NO_BREATHE", "IMMOBILE" ]
@@ -102,6 +103,14 @@
     "species": [ "ZOMBIE", "FUNGUS" ],
     "vision_day": 7,
     "vision_night": 7,
+    "special_attacks": [
+      [ "FUNGUS", 200 ],
+      [ "scratch", 20 ],
+      {
+        "type": "bite",
+        "cooldown": 5
+      }
+    ],
     "flags": [ "SEES", "SMELLS", "STUMBLES", "WARM", "BASHES", "REVIVES", "GROUP_BASH", "POISON", "NO_BREATHE", "BONES", "PUSH_MON" ]
   },
   {
@@ -111,6 +120,11 @@
     "species": [ "ZOMBIE", "FUNGUS" ],
     "vision_day": 25,
     "vision_night": 3,
+    "special_attacks": [
+      [ "FUNGUS", 100 ],
+      [ "BOOMER", 20 ],
+      [ "scratch", 20 ]
+    ],
     "death_function": [ "FUNGUS", "FUNGUS", "BLOBSPLIT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "REVIVES", "GROUP_BASH", "POISON", "NO_BREATHE", "BONES", "FAT", "PUSH_MON" ]
   },
@@ -180,7 +194,8 @@
       },
       [ "LUNGE", 60 ],
       [ "FUNGUS", 180 ],
-      [ "FUNGUS_INJECT", 60 ]
+      [ "FUNGUS_INJECT", 60 ],
+      [ "slash", 20 ]
     ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND", "FIRE" ],
@@ -482,13 +497,14 @@
     "special_attacks": [
       [ "FUNGUS", 180 ],
       [ "SHRIEK", 120 ],
+      [ "GRAB", 15 ],
+      [ "scratch", 15 ],
       {
         "type": "bite",
         "cooldown": 20,
         "min_mul": 1,
         "no_infection_chance": 5
-      },
-      [ "GRAB", 15 ]
+      }
     ],
     "death_drops": {
       "subtype": "collection",

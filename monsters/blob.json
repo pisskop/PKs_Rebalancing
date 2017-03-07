@@ -3,13 +3,13 @@
     "id": "mon_blob_large",
     "type": "MONSTER",
     "copy-from": "mon_blob_large",
-    "special_attacks": [ [ "FORMBLOB", 60 ], [ "SLIMING", 60 ] ]
+    "special_attacks": [ [ "FORMBLOB", 60 ], [ "sliming", 60 ] ]
   },
   {
     "id": "mon_blob",
     "type": "MONSTER",
     "copy-from": "mon_blob",
-    "special_attacks": [ [ "FORMBLOB", 120 ], [ "SLIMING", 120 ] ]
+    "special_attacks": [ [ "FORMBLOB", 120 ], [ "sliming", 120 ] ]
   },
   {
     "id": "mon_blob_small",
@@ -44,7 +44,7 @@
     ],
     "special_attacks": [
       [ "FORMBLOB", 5 ],
-      [ "SLIMING", 20 ]
+      [ "sliming", 20 ]
     ],
     "death_drops": "slime_death_drops",
     "flags": [ "SMELLS", "HEARS", "PLASTIC", "NO_BREATHE", "NOHEAD", "NOGIB", "ABSORBS" ],
@@ -75,6 +75,6 @@
     "armor_bash": 10,
     "armor_cut": 30,
     "path_settings": { "max_dist": 15 },
-    "special_attacks": [ [ "PARROT", 40 ], [ "SLIMING", 20 ], [ "FORMBLOB", 40 ] ]
+    "special_attacks": [ [ "PARROT", 40 ], [ "sliming", 20 ], [ "FORMBLOB", 40 ] ]
   }
 ]

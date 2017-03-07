@@ -104,7 +104,7 @@
     "vision_night": 30,
     "special_attacks": [
       [ "PARA_STING", 10 ],
-      [ "PARA_POISON", 30 ]
+      [ "para_poison", 30 ]
     ],
     "death_drops": {
       "subtype": "collection",
@@ -394,7 +394,7 @@
       }
     ],
     "special_attacks": [
-      [ "PARA_POISON", 10 ],
+      [ "para_poison", 10 ],
       [ "GROW_VINE", 30 ],
       [ "VINE", 5 ],
       [ "SPIT_SAP", 15 ]
@@ -448,7 +448,7 @@
     "armor_fire": 3,
     "special_attacks": [
       [ "PARA_STING", 15 ],
-      [ "PARA_POISON", 60 ]
+      [ "para_poison", 60 ]
     ],
     "death_drops": {
       "subtype": "collection",
@@ -516,7 +516,7 @@
     ],
     "special_attacks": [
       [ "TRIFFID_HEARTBEAT", 50 ],
-      [ "PARA_POISON", 20 ],
+      [ "para_poison", 20 ],
       [ "PARA_STING", 10 ],
       [ "SMASH", 40 ],
       [ "RANGED_PULL", 15 ]
@@ -572,7 +572,7 @@
       [ "GROWPLANTS", 50 ],
       [ "SMASH", 30 ],
       [ "PARA_STING", 10 ],
-      [ "PARA_POISON", 15 ]
+      [ "para_poison", 15 ]
     ],
     "anger_triggers": [ "FIRE", "HURT", "FRIEND_DIED", "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
     "death_drops": {

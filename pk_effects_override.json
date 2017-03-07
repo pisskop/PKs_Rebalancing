@@ -165,7 +165,7 @@
       "per_mod": [-2],
       "dex_mod": [-1],
       "str_mod": [-2, -1],
-      "speed_mod": [-10],
+      "speed_mod": [-15],
       "pain_min": [2],
       "pain_chance": [100, 500],
       "hurt_min": [1],
