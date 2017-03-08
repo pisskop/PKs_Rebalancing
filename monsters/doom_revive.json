@@ -30,6 +30,12 @@
     [
       [ "RESURRECT", 0 ],
       [ "UPGRADE", 0 ],
+      { "id": "hammer",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 26, "armor_multiplier": 0.8 }
+        ]
+      },
       {
             "type": "gun",
             "cooldown": 30,
@@ -39,13 +45,13 @@
             "fake_str": 10,
             "fake_dex": 20,
             "fake_per": 7,
-            "fake_skills": [["gun", 9], ["launcher", 9]],
+            "fake_skills": [ ["gun", 9], ["launcher", 9] ],
             "move_cost": 100,
             "targeting_cost": 100,
             "require_targeting_player" : false,
             "require_targeting_npc" : false,
             "require_targeting_monster" : false,
-            "ranges": [[ 0, 20, "AUTO" ]],
+            "ranges": [ [ 0, 20, "AUTO" ] ],
             "description": "An aching warmth spreads within you!",
             "no_ammo_sound": "a cry of frustration!"
       }
@@ -70,8 +76,8 @@
     "speed": 110,
     "melee_skill": 5,
     "melee_dice": 3,
-    "melee_dice_sides": 5,
-    "melee_cut": 8,
+    "melee_dice_sides": 4,
+    "melee_cut": 7,
     "dodge": 3,
     "armor_bash": 2,
     "armor_cut": 2,
@@ -82,17 +88,14 @@
     "hp": 85,
     "death_function": [ "NORMAL" ],
     "starting_ammo": { "flaming_skull": 66 },
-    "special_attacks":
-    [
+    "special_attacks": [
       ["LUNGE", 40 ],
-      {
-        "type": "leap",
-        "cooldown": 25,
-        "max_range": 4
-      },
-      {
-        "type": "bite",
-        "cooldown": 60
+      [ "hammer", 20 ],
+      { "type": "leap", "cooldown": 25, "max_range": 4 },
+      { "type": "bite", "cooldown": 40,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.80 }
+        ]
       },
       {
         "type": "gun",
@@ -103,17 +106,10 @@
         "fake_str": 10,
         "fake_dex": 13,
         "fake_per": 7,
-        "fake_skills":
-        [ 
-          [ "gun", 2 ],
-          [ "pistol", 3 ]
-        ],
+        "fake_skills": [ [ "gun", 2 ], [ "pistol", 3 ] ],
         "move_cost": 150,
         "targeting_cost": 200,
-        "ranges":
-        [
-          [ 1, 10, "DEFAULT" ]
-        ],
+        "ranges": [ [ 1, 10, "DEFAULT" ] ],
         "description": "The imp lets loose a fireball!",
         "targeting_sound": "RAAAAGHH!",
         "targeting_volume": 25,
@@ -138,7 +134,7 @@
     "morale": 80,
     "speed": 95,
     "melee_skill": 5,
-    "melee_dice": 8,
+    "melee_dice": 7,
     "melee_dice_sides": 4,
     "melee_cut": 4,
     "dodge": 7,
@@ -153,7 +149,7 @@
     "death_function": "NORMAL",
     "special_attacks":
     [
-      [ "GRAB", 30 ],
+      [ "hammer", 30 ],
       [ "GRAB_DRAG", 10 ],
       {
         "type": "bite",
@@ -201,6 +197,12 @@
     [
       [ "SMASH", 60 ],
       [ "GRAB", 40 ],
+      { "id": "hammer", "cooldown": 30, "moves": 220,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 22, "armor_multiplier": 0.8 },
+          { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.8 }
+        ]
+      },
       {
         "type": "gun",
         "cooldown": 5,
@@ -252,12 +254,11 @@
     "hp": 140,
     "death_function": [ "NORMAL" ],
     "starting_ammo": { "hell_plasma_c": 122 },
-    "special_attacks":
-    [
-      {
-        "type": "bite",
-        "cooldown": 20,
-        "min_mul": 0.8
+    "special_attacks": [
+      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 3,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 38, "armor_multiplier": 0.5 }
+        ]
       },
       {
         "type": "gun",
@@ -285,6 +286,7 @@
     "id": "mon_doom_churl_revive",
     "type": "MONSTER",
     "name": "enslaved churle",
+    "description": "A tortured slave; a living survivor, beaten, starved, wearing tattered rags and wielding a crude weapon.  They look hungry enough to eat anything.",
     "species": [ "MAMMAL" ],
     "default_faction": "doom",
     "symbol": "@",
@@ -292,12 +294,13 @@
     "size": "MEDIUM",
     "material": [ "flesh" ],
     "diff": 10,
+    "hp": 65,
     "aggression": 60,
     "morale": 40,
     "speed": 115,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 12,
+    "melee_dice_sides": 10,
     "melee_cut": 6,
     "dodge": 5,
     "armor_bash": 5,
@@ -310,9 +313,15 @@
         [ "spearmelee_pk", 95 ]
       ]
     },
-    "hp": 65,
+    "special_attacks": [
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.85 },
+          { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.85 }
+        ]
+      }
+    ],
     "death_function": [ "NORMAL" ],
-    "description": "A tortured slave; a living survivor, beaten, starved, wearing tattered rags and wielding a crude weapon.  They look hungry enough to eat anything.",
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "POISON", "CLIMBS", "LEATHER", "BONES", "REVIVES", "REVIVES_HEALTHY" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_DIED", "MEAT" ]

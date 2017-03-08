@@ -29,17 +29,15 @@
     "melee_dice_sides": 4,
     "melee_cut": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 6
-      },{
-        "damage_type": "heat",
-        "amount": 4
-      }
+      { "damage_type": "stab", "amount": 6 },
+      { "damage_type": "heat", "amount": 4 }
     ],
     "vision_night": 25,
     "path_settings": { "max_dist": 30 },
-    "special_attacks": [ [ "GRAB", 5 ] ],
+    "special_attacks": [
+      [ "GRAB", 5 ],
+      [ "hammer", 20 ]
+    ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "BASHES", "BORES", "PUSH_MON", "PATH_AVOID_DANGER_1", "NO_BREATHE", "ELECTRONIC", "CLIMBS", "PRIORITIZE_TARGETS" ]
   },
   {
@@ -84,10 +82,7 @@
     "melee_dice_sides": 10,
     "melee_cut": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 18
-      }
+      { "damage_type": "stab", "amount": 18 }
     ],
     "dodge": 2,
     "armor_bash": 10,
@@ -146,7 +141,8 @@
         "targeting_cost": 250,
         "description": "Target aquired.  Lasers charged.  Termination imminent.",
         "no_ammo_sound": "\"Power cells depleted.\""
-      } ],
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ]
   },
@@ -200,7 +196,8 @@
         "targeting_cost": 150,
         "description": "Suppressing Disorder.",
         "no_ammo_sound": "\"Ammo depleted.\""
-      } ],
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ],
     "anger_triggers": ["HURT", "FRIEND_ATTACKED", "SOUND", "PLAYER_CLOSE"]

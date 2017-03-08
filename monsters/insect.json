@@ -9,15 +9,10 @@
     "melee_dice_sides": 3,
     "melee_cut": 2,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 3
-      } ],
+      { "damage_type": "stab", "amount": 3 }
+    ],
     "attack_effs": [
-      {
-        "id": "doom_unhealth",
-        "duration": 2
-      }
+      { "id": "doom_unhealth", "duration": 2 }
     ],
     "special_attacks": [ [ "numbing_poison", 20 ] ],
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
@@ -39,17 +34,11 @@
     "melee_dice_sides": 4,
     "melee_cut": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 4
-      }
+      { "damage_type": "stab", "amount": 4 }
     ],
     "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ] ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS" ]
   },
@@ -195,14 +184,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 3
-      },
-      {
-        "damage_type": "acid",
-        "amount": 1
-      }
+      { "damage_type": "stab", "amount": 3 },
+      { "damage_type": "acid", "amount": 1 }
     ],
     "melee_cut": 0,
     "dodge": 6,
@@ -237,14 +220,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 3
-      },
-      {
-        "damage_type": "acid",
-        "amount": 1
-      }
+      { "damage_type": "stab", "amount": 3 },
+      { "damage_type": "acid", "amount": 1 }
     ],
     "melee_cut": 0,
     "dodge": 5,
@@ -303,10 +280,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      }
+      { "damage_type": "stab", "amount": 2 }
     ],
     "melee_cut": 5,
     "dodge": 6,
@@ -327,10 +301,7 @@
     "dodge": 3,
     "emit_fields": [ "emit_web" ],
     "attack_effs": [
-      {
-        "id": "badpoison",
-        "duration": 900
-      }
+      { "id": "badpoison", "duration": 900 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS" ]
   },
@@ -348,10 +319,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 3
-      }
+      { "damage_type": "acid", "amount": 3 }
     ],
     "melee_cut": 6,
     "dodge": 2,
@@ -365,10 +333,7 @@
       "into_group": "TRAP_SPIDER_UPGRADE"
     },
     "attack_effs": [
-    {
-      "id": "poison",
-        "duration": 400
-    }
+    { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
@@ -381,14 +346,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 6
-      },
-      {
-        "damage_type": "acid",
-        "amount": 2
-      }
+      { "damage_type": "stab", "amount": 6 },
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 4,
     "dodge": 6,
@@ -403,10 +362,7 @@
       "into": "mon_spider_jumping_giant_acid"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "CHITIN", "CLIMBS", "ACIDPROOF", "PUSH_MON" ]
   },
@@ -424,10 +380,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 4
-      }
+      { "damage_type": "stab", "amount": 4 }
     ],
     "melee_cut": 2,
     "dodge": 1,
@@ -441,10 +394,7 @@
       "into": "mon_spider_web"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "STUMBLES", "CHITIN", "CLIMBS", "PUSH_MON" ]
   },
@@ -462,10 +412,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 8
-      }
+      { "damage_type": "stab", "amount": 8 }
     ],
     "melee_cut": 4,
     "dodge": 2,
@@ -480,10 +427,7 @@
       "into_group": "WEB_SPIDER_UPGRADE"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
   },
@@ -514,10 +458,7 @@
       "into": "mon_spider_wolf_giant_pk"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
   },
@@ -551,10 +492,7 @@
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "CHITIN", "FAT", "CLIMBS", "PATH_AVOID_DANGER_1" ]
   },
@@ -694,10 +632,7 @@
       "into": "mon_spider_trapdoor_giant"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "STUMBLES", "HEARS", "GRABS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
@@ -721,14 +656,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 10,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 6
-      },
-      {
-        "damage_type": "stab",
-        "amount": 4
-      }
+      { "damage_type": "acid", "amount": 6 },
+      { "damage_type": "stab", "amount": 4 }
     ],
     "melee_cut": 6,
     "dodge": 3,
@@ -738,10 +667,7 @@
     "vision_night": 13,
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
   },
@@ -765,10 +691,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 3
-      }
+      { "damage_type": "acid", "amount": 3 }
     ],
     "melee_cut": 6,
     "dodge": 3,
@@ -779,10 +702,7 @@
     "special_attacks": [ [ "LUNGE", 30 ] ],
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "CAN_DIG", "WEBWALK", "CHITIN", "FAT", "CLIMBS", "PUSH_MON" ]
   },
@@ -806,10 +726,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 8
-      }
+      { "damage_type": "stab", "amount": 8 }
     ],
     "melee_cut": 8,
     "dodge": 3,
@@ -819,18 +736,9 @@
     "vision_night": 10,
     "emit_fields": [ "emit_web_small" ],
     "attack_effs": [
-      {
-        "id": "spider_web_slow",
-        "duration": 600
-      },
-      {
-        "id": "spider_web_alpha",
-        "duration": 360
-      },
-      {
-      "id": "poison",
-        "duration": 400
-      }
+      { "id": "spider_web_slow", "duration": 600 },
+      { "id": "spider_web_alpha", "duration": 360 },
+      { "id": "poison", "duration": 400 }
     ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON" ]
@@ -855,10 +763,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 6
-      }
+      { "damage_type": "stab", "amount": 6 }
     ],
     "melee_cut": 6,
     "dodge": 5,
@@ -868,18 +773,9 @@
     "vision_night": 10,
     "emit_fields": [ "emit_web_small" ],
     "attack_effs": [
-      {
-        "id": "spider_web_slow",
-        "duration": 600
-      },
-      {
-        "id": "spider_web_omega",
-        "duration": 360
-      },
-      {
-      "id": "poison",
-        "duration": 400
-      }
+      { "id": "spider_web_slow", "duration": 600 },
+      { "id": "spider_web_omega", "duration": 360 },
+      { "id": "poison", "duration": 400 }
     ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PUSH_MON", "PRIORITIZE_TARGETS" ]
@@ -904,10 +800,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 12
-      }
+      { "damage_type": "stab", "amount": 12 }
     ],
     "melee_cut": 2,
     "dodge": 4,
@@ -917,18 +810,9 @@
     "vision_night": 10,
     "emit_fields": [ "emit_web_small" ],
     "attack_effs": [
-      {
-        "id": "spider_web_slow",
-        "duration": 600
-      },
-      {
-        "id": "spider_web_mu",
-        "duration": 360
-      },
-      {
-      "id": "poison",
-        "duration": 400
-      }
+      { "id": "spider_web_slow", "duration": 600 },
+      { "id": "spider_web_mu", "duration": 360 },
+      { "id": "poison", "duration": 400 }
     ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CHITIN", "CLIMBS", "PARALYZEVENOM", "HIT_AND_RUN", "PUSH_MON" ]
@@ -953,14 +837,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 10
-      },
-      {
-        "damage_type": "acid",
-        "amount": 3
-      }
+      { "damage_type": "stab", "amount": 10 },
+      { "damage_type": "acid", "amount": 3 }
     ],
     "melee_cut": 2,
     "dodge": 6,
@@ -971,21 +849,14 @@
     "special_attacks": [
       [ "ACID_ACCURATE", 25 ],
       [ "ACID_BARF", 25 ],
-      {
-        "type": "leap",
-        "cooldown": 2,
-        "max_range": 7
-      }
+      { "type": "leap", "cooldown": 2, "max_range": 7 }
     ],
     "special_when_hit": [ "ACIDSPLASH", 5 ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FRIEND_ATTACKED", "STALK" ],
     "fear_triggers": [ "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "badpoison",
-        "duration": 900
-      }
+      { "id": "badpoison", "duration": 900 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "HEARS", "CHITIN", "CLIMBS", "ACIDPROOF", "ACID_BLOOD", "PUSH_MON" ]
   },
@@ -1001,10 +872,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      }
+      { "damage_type": "stab", "amount": 2 }
     ],
     "melee_cut": 4,
     "dodge": 4,
@@ -1018,10 +886,7 @@
       "groups": [ [ "bees", 20 ] ]
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ]
@@ -1046,14 +911,8 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "electric",
-        "amount": 1
-      },
-      {
-        "damage_type": "stab",
-        "amount": 4
-      }
+      { "damage_type": "electric", "amount": 1 },
+      { "damage_type": "stab", "amount": 4 }
     ],
     "melee_cut": 2,
     "dodge": 5,
@@ -1067,10 +926,7 @@
       "groups": [ [ "bees", 20 ] ]
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
@@ -1096,10 +952,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 4
-      }
+      { "damage_type": "stab", "amount": 4 }
     ],
     "melee_cut": 6,
     "dodge": 3,
@@ -1114,10 +967,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE" ]
@@ -1142,14 +992,8 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "electric",
-        "amount": 4
-      },
-      {
-        "damage_type": "stab",
-        "amount": 6
-      }
+      { "damage_type": "electric", "amount": 4 },
+      { "damage_type": "stab", "amount": 6 }
     ],
     "melee_cut": 4,
     "dodge": 3,
@@ -1166,10 +1010,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC", "QUEEN" ]
   },
@@ -1193,14 +1034,8 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "electric",
-        "amount": 2
-      },
-      {
-        "damage_type": "stab",
-        "amount": 6
-      }
+      { "damage_type": "electric", "amount": 2 },
+      { "damage_type": "stab", "amount": 6 }
     ],
     "melee_cut": 4,
     "dodge": 4,
@@ -1217,10 +1052,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },

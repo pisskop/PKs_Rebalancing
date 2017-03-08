@@ -70,13 +70,7 @@
     "morale": 40,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 6,
-    "melee_damage": [
-      {
-        "damage_type": "bash",
-        "amount": 4
-      }
-    ],
+    "melee_dice_sides": 10,
     "melee_cut": 1,
     "dodge": 1,
     "armor_bash": 7,
@@ -105,11 +99,8 @@
     "vision_night": 7,
     "special_attacks": [
       [ "FUNGUS", 200 ],
-      [ "scratch", 20 ],
-      {
-        "type": "bite",
-        "cooldown": 5
-      }
+      [ "scratch", 25 ],
+      { "type": "bite", "cooldown": 5 }
     ],
     "flags": [ "SEES", "SMELLS", "STUMBLES", "WARM", "BASHES", "REVIVES", "GROUP_BASH", "POISON", "NO_BREATHE", "BONES", "PUSH_MON" ]
   },
@@ -123,7 +114,7 @@
     "special_attacks": [
       [ "FUNGUS", 100 ],
       [ "BOOMER", 20 ],
-      [ "scratch", 20 ]
+      [ "scratch", 25 ]
     ],
     "death_function": [ "FUNGUS", "FUNGUS", "BLOBSPLIT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "REVIVES", "GROUP_BASH", "POISON", "NO_BREATHE", "BONES", "FAT", "PUSH_MON" ]
@@ -187,15 +178,11 @@
     "vision_day": 30,
     "vision_night": 7,
     "special_attacks": [
-      {
-        "type": "leap",
-        "cooldown": 10,
-        "max_range": 4
-      },
       [ "LUNGE", 60 ],
       [ "FUNGUS", 180 ],
       [ "FUNGUS_INJECT", 60 ],
-      [ "slash", 20 ]
+      { "type": "leap", "cooldown": 10, "max_range": 4 },
+      [ "slash", 25 ]
     ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND", "FIRE" ],
@@ -222,10 +209,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 6
-      }
+      { "damage_type": "stab", "amount": 6 }
     ],
     "dodge": 2,
     "vision_day": 50,
@@ -270,9 +254,9 @@
     "vision_day": 35,
     "vision_night": 10,
     "special_attacks": [
-      [ "SMASH", 40 ],
       [ "FUNGUS", 120 ],
-      [ "HOWL", 60 ]
+      [ "HOWL", 60 ],
+      [ "hammer", 40 ]
     ],
     "anger_triggers": [ "FIRE", "HURT", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK", "SOUND" ],
@@ -301,10 +285,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      }
+      { "damage_type": "stab", "amount": 2 }
     ],
     "melee_cut": 3,
     "dodge": 3,
@@ -315,13 +296,8 @@
     "special_attacks": [
       [ "FUNGUS", 120 ],
       [ "FUNGUS_INJECT", 60 ],
-      {
-        "type": "bite",
-        "cooldown": 7,
-        "min_mul": 0.65,
-        "no_infection_chance": 9,
-        "//": "strong jaws"
-      }
+      { "type": "bite", "cooldown": 7, "min_mul": 0.65, "no_infection_chance": 9,
+        "//": "strong jaws" }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FIRE" ],
@@ -347,13 +323,7 @@
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 6,
-    "melee_damage": [
-      {
-        "damage_type": "bash",
-        "amount": 5
-      }
-    ],
+    "melee_dice_sides": 8,
     "melee_cut": 2,
     "dodge": 1,
     "armor_bash": 10,
@@ -362,27 +332,15 @@
     "vision_day": 3,
     "vision_night": 3,
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 40,
-        "accuracy": 7,
-        "no_infection_chance": 9,
-        "damage_max_instance": [
-          {
-            "damage_type": "stab",
-            "amount": 8,
-            "armor_multiplier": 0.5
-          },
-          {
-            "damage_type": "bash",
-            "amount": 18,
-            "armor_multiplier": 0.5
-          }
-        ]
-      },
       [ "GRAB", 40 ],
       [ "FUNGUS", 180 ],
-      [ "FUNGUS_INJECT", 60 ]
+      [ "FUNGUS_INJECT", 60 ],
+      { "type": "bite", "cooldown": 40, "accuracy": 7, "no_infection_chance": 9,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.7 },
+          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.7 }
+        ]
+      }
     ],
     "death_function": [ "NORMAL", "FUNGUS" ],
     "flags": [ "SEES", "SMELLS", "POISON", "CLIMBS" ]
@@ -407,10 +365,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 7
-      }
+      { "damage_type": "stab", "amount": 7 }
     ],
     "melee_cut": 1,
     "dodge": 2,
@@ -456,11 +411,12 @@
     "vision_day": 5,
     "vision_night": 3,
     "special_attacks": [
-      [ "GRAB", 30 ],
+      [ "GRAB", 20 ],
       [ "VINE", 7 ],
       [ "FUNGUS", 90 ],
       [ "TENTACLE", 20 ],
-      [ "FUNGUS_BRISTLE", 30 ]
+      [ "FUNGUS_BRISTLE", 30 ],
+      [ "para_poison", 15 ]
     ],
     "anger_triggers": [ "HURT", "STALK", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
@@ -499,12 +455,7 @@
       [ "SHRIEK", 120 ],
       [ "GRAB", 15 ],
       [ "scratch", 15 ],
-      {
-        "type": "bite",
-        "cooldown": 20,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      }
+      { "type": "bite", "cooldown": 20, "min_mul": 85, "no_infection_chance": 5 }
     ],
     "death_drops": {
       "subtype": "collection",
@@ -547,13 +498,8 @@
     "special_attacks": [
       [ "PARROT", 40 ],
       [ "FUNGUS", 300 ],
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      },
       [ "GRAB", 12 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 },
       {
         "type": "gun",
         "cooldown": 2,
@@ -614,13 +560,8 @@
     "special_attacks": [
       [ "PARROT", 40 ],
       [ "FUNGUS", 300 ],
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      },
       [ "GRAB", 30 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 },
       {
         "type": "gun",
         "cooldown": 5,
@@ -678,15 +619,10 @@
     "vision_night": 2,
     "starting_ammo": { "44fmj": 17 },
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      },
       [ "GRAB", 60 ],
       [ "FUNGUS", 300 ],
       [ "PARROT", 40 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 },
       {
         "type": "gun",
         "cooldown": 7,
@@ -745,13 +681,8 @@
     "special_attacks": [
       [ "FUNGUS", 300 ],
       [ "PARROT", 40 ],
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      },
       [ "GRAB", 30 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 },
       {
         "type": "gun",
         "cooldown": 6,
@@ -800,10 +731,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 10,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 10
-      }
+      { "damage_type": "stab", "amount": 10 }
     ],
     "melee_cut": 5,
     "dodge": 4,
@@ -814,15 +742,10 @@
     "vision_day": 50,
     "vision_night": 2,
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "min_mul": 1,
-        "no_infection_chance": 5
-      },
       [ "GRAB", 30 ],
       [ "IMPALE", 30 ],
-      [ "FUNGUS", 180 ]
+      [ "FUNGUS", 180 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 }
     ],
     "anger_triggers": [ "FRIEND_DIED", "FIRE", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],
@@ -922,7 +845,12 @@
       [ "FUNGUS", 100 ],
       [ "VINE", 7 ],
       [ "FUNGUS_INJECT", 50 ],
-      [ "FUNGUS_BRISTLE", 50 ]
+      [ "FUNGUS_BRISTLE", 50 ],
+      { "id": "scratch", "cooldown": 30, "moves": 250,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 16 }
+        ]
+      }
     ],
     "death_function": [ "NORMAL", "FUNGUS" ],
     "flags": [ "HEARS", "GOODHEARING", "SMELLS", "NOHEAD", "HARDTOSHOOT", "POISON", "GRABS", "PLASTIC" ]
@@ -947,10 +875,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "bash",
-        "amount": 6
-      }
+      { "damage_type": "bash", "amount": 6 }
     ],
     "melee_cut": 3,
     "dodge": 2,
@@ -961,16 +886,12 @@
     "vision_day": 30,
     "vision_night": 10,
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 60,
-        "min_mul": 0.8,
-        "no_infection_chance": 15
-      },
       [ "VINE", 15 ],
       [ "RANGED_PULL", 7 ],
       [ "FUNGUS_FORTIFY", 50 ],
-      [ "FUNGUS", 60 ]
+      [ "FUNGUS", 60 ],
+      [ "hammer", 30 ],
+      { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 }
     ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "NO_BREATHE", "BASHES", "GROUP_BASH", "ATTACKMON", "NOHEAD" ],
     "//": "This girl will create a 3x3 wall of fungus, then kill 1 or 2 of them to get out.  Over time this will create a hedgerow maze of sorts.  I am tempted to add one overmap, honestly."
@@ -1039,11 +960,7 @@
     "luminance": 5,
     "special_attacks": [
       [ "SHOCKSTORM", 50 ],
-      {
-        "type": "bite",
-        "cooldown": 12,
-        "no_infection_chance": 3
-      }
+      { "type": "bite", "cooldown": 12, "no_infection_chance": 3 }
     ],
     "special_when_hit": [ "ZAPBACK", 40 ],
     "death_drops": "default_zombie_death_drops",
@@ -1084,10 +1001,11 @@
     "vision_night": 5,
     "special_attacks": [
       [ "FUNGUS", 60 ],
-      {
-        "type": "bite",
-        "cooldown": 3,
-        "no_infection_chance": 5
+      { "type": "bite", "cooldown": 30, "min_mul": 85, "no_infection_chance": 5,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.80 },
+          { "damage_type": "stab", "amount": 7, "armor_multiplier": 0.80 }
+        ]
       }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],

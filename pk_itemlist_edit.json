@@ -9,6 +9,7 @@
       ["shot_410_flechette", 2],
       ["shot_410", 8],
       ["shot_410_slug", 4],
+      ["bearing", 20],
       ["e_tool_chinese", 10],
       ["mutagen", 1 ],
       ["berserker_drug", 2 ],
@@ -27,7 +28,7 @@
     "type": "item_group",
     "id": "default_zombie_items",
     "groups": [
-      ["pks_default_zed_items", 1]
+      ["pks_default_zed_items", 3]
     ]
   },
   {
@@ -205,6 +206,7 @@
       ["shot_410", 12],
       ["shot_410_inc", 12],
       ["shot_410_slug", 12],
+      ["bearing", 15],
       ["bot_turret_shockcannon", 5],
       ["swat_shield", 10],
       ["bone", 15],
@@ -248,6 +250,7 @@
       ["shot_410", 6],
       ["shot_410_inc", 6],
       ["shot_410_slug", 6],
+      ["bearing", 10],
       ["e_tool_chinese", 10],
       ["bot_turret_shockcannon", 3],
       ["antidote_posion", 3],
@@ -820,92 +823,97 @@
     "type": "item_group",
     "id": "cleaning",
     "items": [
-    ["fertilizer_chelated", 6 ],
-    ["clay_lump", 12],
-    ["clay_boiled", 4]
+      ["fertilizer_chelated", 6 ],
+      ["clay_lump", 12],
+      ["clay_boiled", 4]
     ]
   },
   {
     "type": "item_group",
     "id": "home_hw",
     "items": [
-    ["fertilizer_chelated", 14 ],
-    ["clay_lump", 8],
-    ["tinyweldtank", 1]
+      ["fertilizer_chelated", 14 ],
+      ["clay_lump", 8],
+      ["tinyweldtank", 1]
     ]
   },
   {
     "type": "item_group",
     "id": "mischw",
     "items": [
-    ["fertilizer_chelated", 10 ],
-    ["clay_lump", 8]
+      ["fertilizer_chelated", 10 ],
+      ["clay_lump", 8]
     ]
   },
   {
     "type": "item_group",
     "id": "hardware_bulk",
     "items": [
-    ["fertilizer_chelated", 40 ],
-    ["clay_lump", 8],
-    ["weldtank", 1]
+      ["fertilizer_chelated", 30 ],
+      ["clay_lump", 8],
+      ["bearing", 10],
+      ["weldtank", 1]
     ]
   },
   {
     "type": "item_group",
     "id": "hardware",
     "items": [
-    ["fertilizer_chelated", 20 ],
-    ["clay_lump", 8],
-    ["weldtank", 1],
-    ["tinyweldtank", 1]
+      ["fertilizer_chelated", 15 ],
+      ["clay_lump", 8],
+      ["bearing", 15],
+      ["weldtank", 1],
+      ["tinyweldtank", 1]
     ]
   },
   {
     "type": "item_group",
     "id": "farming_tools",
     "items": [
-    ["fertilizer_chelated", 20 ],
-    ["clay_lump", 8],
-    ["weldtank", 1]
+      ["fertilizer_chelated", 20 ],
+      ["bearing", 10],
+      ["clay_lump", 8],
+      ["weldtank", 1]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_blacksmith",
     "items": [
-    ["weldtank", 1],
-    ["tinyweldtank", 2]
+      ["bearing", 10],
+      ["weldtank", 1],
+      ["tinyweldtank", 2]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_construction",
     "items": [
-    ["tinyweldtank", 1]
+      ["tinyweldtank", 1]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_earthworking",
     "items": [
-    ["fertilizer_chelated", 40 ],
-    ["weldtank", 1],
-    ["tinyweldtank", 2]
+      ["fertilizer_chelated", 40 ],
+      ["weldtank", 1],
+      ["tinyweldtank", 2]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_entry",
     "items": [
-    ["tinyweldtank", 10]
+      ["tinyweldtank", 10]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_mechanic",
     "items": [
-    ["weldtank", 1]
+      ["bearing", 10],
+      ["weldtank", 1]
     ]
   },
   {
@@ -916,6 +924,7 @@
       ["pepto", 10],
       ["gummy_vitamins", 20 ],
       ["fertilizer_chelated", 6 ],
+      ["bearing", 1],
       ["clay_boiled", 20],
       ["clay_lump", 6]
     ]

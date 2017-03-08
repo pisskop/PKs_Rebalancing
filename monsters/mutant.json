@@ -10,11 +10,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 10,
-        "no_infection_chance": 3
-      }
+      { "type": "bite", "cooldown": 10, "no_infection_chance": 3, "moves": 250 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CAN_DIG", "LARVA" ]
   },
@@ -30,14 +26,8 @@
     "melee_dice": 1,
     "melee_dice_sides": 7,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 4
-      },
-      {
-        "damage_type": "acid",
-        "amount": 1
-      }
+      { "damage_type": "stab", "amount": 4 },
+      { "damage_type": "acid", "amount": 1 }
     ],
     "melee_cut": 3,
     "dodge": 8,
@@ -49,10 +39,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "STALK" ],
     "fear_triggers": [ "HURT" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "FLIES", "CHITIN"]
   },
@@ -73,14 +60,8 @@
     "description": "An aggressive mutant variety of the worm snake, turned pale yellow from its underground life.  It swarms beneath the ground and is named for its habit of infesting sewer lines and potent smell.",
     "default_faction": "mutant_omnivore",
     "attack_effs": [
-      {
-        "id": "badpoison",
-        "duration": 900
-      },
-      {
-        "id": "skunk_spray",
-        "duration": 600
-      }
+      { "id": "badpoison", "duration": 900 },
+      { "id": "skunk_spray", "duration": 3000 }
     ],
     "flags": [ "SEES", "SMELLS", "WARM", "VENOM", "SWIMS", "LEATHER", "BONES" ]
   },
@@ -121,10 +102,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 6
-      }
+      { "damage_type": "acid", "amount": 6 }
     ],
     "special_attacks": [ [ "sliming", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
@@ -144,12 +122,9 @@
     "melee_dice_sides": 8,
     "melee_cut": 1,
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 20
-      },
       [ "GRAB", 30 ],
-      [ "scratch", 15 ]
+      [ "scratch", 15 ],
+      { "type": "bite", "cooldown": 20 }
     ]
   },
   {
@@ -164,8 +139,9 @@
     "melee_cut": 1,
     "special_attacks": [
       [ "GRAB", 30 ],
+      [ "SMASH", 30 ],
       [ "scratch", 60 ],
-      [ "SMASH", 30 ]
+      [ "hammer", 15 ]
     ]
   },
   {
@@ -186,16 +162,16 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 8
-      }
+      { "damage_type": "stab", "amount": 8 }
     ],
     "melee_cut": 6,
     "vision_day": 2,
     "vision_night": 2,
     "emit_fields": [ "emit_acid_small", "emit_acid_trail_slow" ],
-    "special_attacks": [ [ "ACID_ACCURATE", 15 ] ],
+    "special_attacks": [
+      [ "ACID_ACCURATE", 15 ],
+      [ "hammer", 30 ]
+    ],
     "special_when_hit": [ "ACIDSPLASH", 80 ],
     "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "BASHES", "BORES", "POISON", "SUNDEATH", "ACIDPROOF", "LEATHER" ]
   },
@@ -209,10 +185,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "biological",
-        "amount": 1
-      }
+      { "damage_type": "biological", "amount": 1 }
     ],
     "melee_cut": 0,
     "dodge": 3,
@@ -220,9 +193,15 @@
     "armor_cut": 1,
     "emit_fields": [ "emit_fatigue" ],
     "special_attacks": [
-      [ "FEAR_PARALYZE", 5 ],
+      [ "FEAR_PARALYZE", 7 ],
       [ "GRAB_DRAG", 30 ],
-      [ "STRETCH_ATTACK", 5 ]
+      [ "STRETCH_ATTACK", 5 ],
+      { "id": "hammer", "cooldown": 20, "moves": 150,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.85 },
+          { "damage_type": "biological", "amount": 1 }
+        ]
+      }
     ],
     "flags": [ "SMELLS", "HEARS", "SEES", "STUMBLES", "HARDTOSHOOT", "HUMAN", "LEATHER", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ]
   },
@@ -247,10 +226,7 @@
     "melee_dice_sides": 4,
     "melee_cut": 1,
     "attack_effs": [
-      {
-        "id": "thing_poison",
-        "duration": 50
-      }
+      { "id": "thing_poison", "duration": 50 }
     ],
     "dodge": 2,
     "vision_night": 15,
@@ -283,35 +259,19 @@
     "melee_dice_sides": 4,
     "melee_cut": 0,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      },
-      {
-        "damage_type": "acid",
-        "amount": 4
-      },
-      {
-        "damage_type": "biological",
-        "amount": 1
-      }
+      { "damage_type": "stab", "amount": 2 },
+      { "damage_type": "acid", "amount": 4 },
+      { "damage_type": "biological", "amount": 1 }
     ],
     "attack_effs": [
-      {
-        "id": "thing_poison",
-        "duration": 50
-      }
+      {"id": "thing_poison", "duration": 50 }
     ],
     "dodge": 2,
     "vision_night": 10,
     "special_attacks": [
-      {
-        "type": "leap",
-        "cooldown": 7,
-        "max_range": 2
-      },
       [ "LUNGE", 60 ],
-      [ "VINE", 10 ]
+      [ "VINE", 10 ],
+      { "type": "leap", "cooldown": 7, "max_range": 2 }
     ],
     "death_function": [ "MELT" ],
     "flags": [ "SEES", "SMELLS", "HEARS" ]
@@ -342,10 +302,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 4,
     "attack_effs": [
-      {
-        "id": "thing_poison",
-        "duration": 100
-      }
+      { "id": "thing_poison", "duration": 100 }
     ],
     "dodge": 5,
     "special_attacks": [
@@ -370,10 +327,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 4,
     "attack_effs": [
-      {
-        "id": "thing_poison",
-        "duration": 200
-      }
+      { "id": "thing_poison", "duration": 200 }
     ],
     "dodge": 3,
     "armor_cut": 6,
@@ -400,10 +354,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 2
-      }
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 0,
     "dodge": 0,
@@ -414,8 +365,8 @@
     "emit_fields": [ "emit_slime_trail" ],
     "special_attacks": [
       [ "ACID", 20 ],
-      [ "numbing_poison", 30 ],
       [ "IMPALE", 40 ],
+      [ "numbing_poison", 30 ],
       [ "sliming", 60 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT", "FRIEND_DIED" ],
@@ -454,38 +405,17 @@
     "special_attacks": [
       [ "FLESH_GOLEM", 10 ],
       [ "FEAR_PARALYZE", 20 ],
-      {
-        "id": "scratch",
+      { "id": "scratch", "moves": 150, "cooldown": 20,
         "damage_max_instance": [
-          {
-            "damage_type": "cut",
-            "amount": 14,
-            "armor_multiplier": 0.8
-          },
-          {
-            "damage_type": "stab",
-            "amount": 6,
-            "armor_multiplier": 0.8
-          }
-        ],
-        "moves": 150,
-        "cooldown": 20
+          { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.8 },
+          { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
+        ]
       },
-      {
-        "id": "slash",
+      { "id": "slash",  "cooldown": 30,
         "damage_max_instance": [
-          {
-            "damage_type": "cut",
-            "amount": 16,
-            "armor_multiplier": 0.8
-          },
-          {
-            "damage_type": "stab",
-            "amount": 8,
-            "armor_multiplier": 0.8
-          }
-        ],
-        "cooldown": 30
+          { "damage_type": "cut", "amount": 16, "armor_multiplier": 0.8 },
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
+        ]
       }
     ],
     "upgrades": {
@@ -523,21 +453,11 @@
       [ "FLESH_GOLEM", 5 ],
       [ "SMASH", 50 ],
       [ "FEAR_PARALYZE", 3 ],
-      {
-        "id": "slash",
+      { "id": "slash", "cooldown": 20,
         "damage_max_instance": [
-          {
-            "damage_type": "cut",
-            "amount": 20,
-            "armor_multiplier": 0.8
-          },
-          {
-            "damage_type": "stab",
-            "amount": 12,
-            "armor_multiplier": 0.8
-          }
-        ],
-        "cooldown": 20
+          { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 },
+          { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.8 }
+        ]
       }
     ],
     "death_function": [ "JABBERWOCKY" ],
@@ -564,10 +484,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_damage": [
-      {
-        "damage_type": "biological",
-        "amount": 1
-      }
+      { "damage_type": "biological", "amount": 1 }
     ],
     "melee_cut": 4,
     "dodge": 3,
@@ -576,14 +493,10 @@
     "vision_night": 20,
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
-      [ "numbing_poison", 10 ],
+      [ "numbing_poison", 5 ],
       [ "SHRIEK_ALERT", 30 ],
       [ "SHRIEK_STUN", 1 ],
-      {
-        "type": "bite",
-        "cooldown": 3,
-        "no_infection_chance": 4
-      }
+      { "type": "bite", "cooldown": 3, "no_infection_chance": 4 }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "SOUND", "FIRE" ],
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND", "FRIEND_DIED" ],
@@ -621,19 +534,246 @@
       [ "LONGSWIPE", 20 ],
       [ "slash", 20 ],
       [ "IMPALE", 50 ],
-      {
-        "type": "leap",
-        "cooldown": 20,
-        "max_range": 3,
-        "min_consider_range": 2,
-        "max_consider_range": 7,
-        "allow_no_target": false
-      }
+      { "type": "leap", "cooldown": 20, "max_range": 3, "min_consider_range": 2, "max_consider_range": 7, "allow_no_target": false }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "KEENNOSE", "BLEED", "BONES", "FAT", "SWARMS", "GROUP_MORALE" ]
+  },
+  {
+    "id": "mon_raphael",
+    "type": "MONSTER",
+    "name": "turtle man",
+    "description": "A large green humanoid with bloated-looking skin and a hardened brown shell surrounding its midrift.  Though muscular and agile, both skin and carapace shimmer with a sickening sheen.  It wears a crude blindfold with large hole to allow vision.",
+    "default_faction": "mutant",
+    "species": [ "REPTILE" ],
+    "diff": 28,
+    "size": "MEDIUM",
+    "hp": 200,
+    "speed": 125,
+    "material": [ "flesh" ],
+    "symbol": "T",
+    "color": "red_green",
+    "aggression": 6,
+    "morale": 95,
+    "melee_skill": 7,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 7,
+    "melee_damage": [
+      { "damage_type": "stab", "amount": 15 }
+    ],
+    "dodge": 5,
+    "armor_bash": 6,
+    "armor_stab": 8,
+    "armor_cut": 14,
+    "armor_acid": 5,
+    "armor_fire": 8,
+    "vision_day": 40,
+    "vision_night": 15,
+    "special_attacks": [
+      { "id": "slash", "cooldown": 20,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.75 },
+          { "damage_type": "cut", "amount": 16, "armor_multiplier": 0.75 }
+        ]
+      },
+      { "type": "leap", "cooldown": 15, "max_range": 2 },
+      { "id": "LUNGE", "cooldown": 20,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 18, "armor_multiplier": 0.75 },
+          { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.75 }
+        ]
+      },
+      { "type": "leap", "cooldown": 15, "max_range": 2 }
+    ],
+    "death_drops": "mon_zombie_hulk_death_drops",
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "GROUP_BASH", "HUMAN", "BLEED", "BONES", "GROUP_MORALE", "REGEN_MORALE", "PATH_AVOID_DANGER_1", "HIT_AND_RUN" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "FIRE", "HURT" ]
+  },
+  {
+    "id": "mon_donatello",
+    "type": "MONSTER",
+    "name": "turtle man",
+    "copy-from": "mon_raphael",
+    "hp": 160,
+    "speed": 110,
+    "color": "pink_green",
+    "aggression": 0,
+    "morale": 80,
+    "melee_skill": 7,
+    "melee_dice": 1,
+    "melee_dice_sides": 16,
+    "melee_cut": 0,
+    "melee_damage": [
+      { "damage_type": "bash", "amount": 1 }
+    ],
+    "dodge": 6,
+    "special_attacks": [
+      [ "SMASH", 30 ],
+      [ "BIO_OP_TAKEDOWN", 30 ],
+      [ "SCIENCE", 20 ],
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "move_cost": 200,
+        "gun_type": "tihar",
+        "ammo_type": "bearing",
+        "fake_skills": [ [ "gun", 5 ], [ "rifle", 3 ] ],
+        "fake_str": 14,
+        "fake_dex": 16,
+        "fake_per": 10,
+        "max_ammo": 1000,
+        "ranges": [ [ 0, 3, "AUTO" ] ],
+        "targeting_cost": 125,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
+        "description": "The purple turtle jabs forth with lightning speed!",
+        "no_ammo_sound": "kowwabunga!"
+      }
+    ],
+    "starting_ammo": { "bearing": 1000 },
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "GROUP_BASH", "HUMAN", "BLEED", "BONES", "GROUP_MORALE", "REGEN_MORALE", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "FIRE" ],
+    "placate_triggers": [ "HURT", "PLAYER_WEAK" ]
+  },
+  {
+    "id": "mon_leonardo",
+    "type": "MONSTER",
+    "name": "turtle man",
+    "copy-from": "mon_raphael",
+    "hp": 180,
+    "speed": 115,
+    "symbol": "T",
+    "color": "ltblue_green",
+    "aggression": 0,
+    "morale": 90,
+    "melee_skill": 7,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 16,
+    "melee_damage": [
+      { "damage_type": "cut", "amount": 1 }
+    ],
+    "dodge": 6,
+    "special_attacks": [
+      [ "BIO_OP_TAKEDOWN", 40 ],
+      [ "LONGSWIPE", 30 ],
+      [ "GRAB", 10 ],
+      {
+        "id": "slash", "cooldown": 30, "moves": 200,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 22, "armor_multiplier": 0.75 }
+        ]
+      },
+      { "type": "leap", "cooldown": 10, "max_range": 3 },
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "move_cost": 250,
+        "gun_type": "flaregun",
+        "ammo_type": "signal_flare",
+        "fake_str": 14,
+        "fake_dex": 16,
+        "fake_per": 10,
+        "max_ammo": 1000,
+        "ranges": [ [ 5 , 20, "DEFAULT" ] ],
+        "targeting_cost": 200,
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
+        "description": "The blue turtle ignites the darkness!"
+      }
+    ],
+    "starting_ammo": { "signal_flare": 2 },
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "GROUP_BASH", "HUMAN", "BLEED", "BONES", "GROUP_MORALE", "REGEN_MORALE", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "PLAYER_WEAK" ]
+  },
+  {
+    "id": "mon_michelangelo",
+    "type": "MONSTER",
+    "name": "turtle man",
+    "copy-from": "mon_raphael",
+    "hp": 160,
+    "speed": 120,
+    "color": "yellow_green",
+    "aggression": -5,
+    "morale": 80,
+    "melee_skill": 6,
+    "melee_dice": 3,
+    "melee_dice_sides": 8,
+    "melee_cut": 2,
+    "melee_damage": [
+      { "damage_type": "bash", "amount": 1 }
+    ],
+    "dodge": 7,
+    "special_attacks": [
+      [ "RANGED_PULL", 10 ],
+      [ "DANCE", 7 ],
+      { "id": "hammer",
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.70 }
+        ]
+      },
+      { "type": "leap", "cooldown": 15, "max_range": 2 }
+    ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "GROUP_BASH", "HUMAN", "BLEED", "BONES", "GROUP_MORALE", "REGEN_MORALE", "PATH_AVOID_DANGER_2" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "STALK" ],
+    "placate_triggers": [ "FIRE", "PLAYER_WEAK" ]
+  },
+  {
+    "id": "mon_ratman_ninja",
+    "type": "MONSTER",
+    "name": "ratten",
+    "description": "A hunch-backed rat man-thing with vicious looking claws and a loose fitting tunic.  Hungry eyes peer into the dark and search for food - or baubles.",
+    "default_faction": "mutant",
+    "species": [ "MAMMAL" ],
+    "diff": 20,
+    "size": "MEDIUM",
+    "hp": 120,
+    "speed": 120,
+    "material": [ "flesh" ],
+    "symbol": "R",
+    "color": "dkgrey",
+    "aggression": 0,
+    "morale": 80,
+    "melee_skill": 8,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 12,
+    "dodge": 7,
+    "armor_bash": 4,
+    "armor_cut": 4,
+    "armor_acid": 1,
+    "armor_fire": 1,
+    "vision_day": 35,
+    "vision_night": 20,
+    "special_attacks": [
+      [ "BIO_OP_TAKEDOWN", 30 ],
+      [ "GRAB", 30 ],
+      { "id": "hammer", "cooldown": 15, "moves": 150,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.70 },
+          { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.70 }
+        ] },
+      { "id": "slash",
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 6 },
+          { "damage_type": "cut", "amount": 14 }
+        ]
+      },
+      { "type": "leap", "cooldown": 20, "max_range": 3 }
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "BORES", "HUMAN", "BLEED", "BONES", "REGEN_MORALE", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "HARDTOSHOOT" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
+    "placate_triggers": [ "PLAYER_WEAK" ]
   }
 ]

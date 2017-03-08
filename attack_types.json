@@ -51,11 +51,13 @@
     "damage_max_instance": [
       {
         "damage_type": "cut",
-        "amount": 5
+        "amount": 5,
+        "armor_multiplier": 0.85
       },
       {
         "damage_type": "stab",
-        "amount": 3
+        "amount": 3,
+        "armor_multiplier": 0.85
       }
     ],
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
@@ -77,18 +79,41 @@
     "damage_max_instance": [
       {
         "damage_type": "cut",
-        "amount": 10
+        "amount": 10,
+        "armor_multiplier": 0.80
       },
       {
         "damage_type": "stab",
-        "amount": 6
+        "amount": 6,
+        "armor_multiplier": 0.80
       }
     ],
-    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
-    "hit_dmg_u": "The %1$s claws at you!",
-    "hit_dmg_npc": "The %1$s claws at <npcname>!",
-    "no_dmg_msg_u": "The %1$s tries to claw at you but fails.",
-    "no_dmg_msg_npc": "The %1$s tries to claw <npcname>, but fails to."
+    "body_parts": [ [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HEAD", 3 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 3 ] ],
+    "hit_dmg_u": "The %1$s slashes at you!",
+    "hit_dmg_npc": "The %1$s slashes at <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to slash at you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to slash <npcname>, but fails to."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "hammer",
+    "cooldown": 20,
+    "move_cost": 220,
+    "effects": [
+      { "id": "stunned", "duration": 5 }
+    ],
+    "damage_max_instance": [
+      {
+        "damage_type": "bash",
+        "amount": 16,
+        "armor_multiplier": 0.80
+      }
+    ],
+    "hit_dmg_u": "The %1$s hammers at you!",
+    "hit_dmg_npc": "The %1$s hammers at <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to hammer on you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to hammer on <npcname>, but fails to."
   },
   {
     "type": "monster_attack",

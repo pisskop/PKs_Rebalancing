@@ -18,7 +18,7 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 5,
-    "melee_cut": 7,
+    "melee_cut": 6,
     "dodge": 2,
     "armor_bash": 2,
     "armor_cut": 2,
@@ -29,17 +29,10 @@
     "path_settings": { "max_dist": 30 },
     "starting_ammo": { "flaming_skull": 66 },
     "special_attacks": [
+      [ "scratch", 20 ],
       [ "LUNGE", 40 ],
-      {
-        "type": "leap",
-        "cooldown": 25,
-        "max_range": 4
-      },
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "no_infection_chance": 3
-      },
+      { "type": "leap", "cooldown": 25, "max_range": 4 },
+      { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
       {
         "type": "gun",
         "cooldown": 5,
@@ -92,17 +85,11 @@
     "path_settings": { "max_dist": 30 },
     "starting_ammo": { "flaming_ball": 66 },
     "special_attacks": [
-      [ "LUNGE", 30 ],
-      {
-        "type": "leap",
-        "cooldown": 25,
-        "max_range": 4
-      },
-      {
-        "type": "bite",
-        "cooldown": 30,
-        "no_infection_chance": 3
-      },
+      [ "LUNGE", 40 ],
+      [ "scratch", 40 ],
+      [ "slash", 40 ],
+      { "type": "leap", "cooldown": 25, "max_range": 4 },
+      { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
       {
         "type": "gun",
         "cooldown": 5,
@@ -143,7 +130,7 @@
     "morale": 80,
     "melee_skill": 5,
     "melee_dice": 3,
-    "melee_dice_sides": 8,
+    "melee_dice_sides": 7,
     "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 8,
@@ -155,24 +142,12 @@
     "vision_night": 10,
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
-      [ "GRAB", 30 ],
       [ "GRAB_DRAG", 10 ],
-      {
-        "type": "bite",
-        "cooldown": 5,
-        "accuracy": 4,
-        "no_infection_chance": 3,
+      [ "hammer", 20 ],
+      { "type": "bite", "cooldown": 5, "accuracy": 4, "no_infection_chance": 3,
         "damage_max_instance": [
-          {
-            "damage_type": "stab",
-            "amount": 12,
-            "armor_multiplier": 0.5
-          },
-          {
-            "damage_type": "bash",
-            "amount": 21,
-            "armor_multiplier": 0.5
-          }
+          { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.5 }
         ]
       }
     ],
@@ -198,7 +173,7 @@
     "morale": 70,
     "melee_skill": 3,
     "melee_dice": 1,
-    "melee_dice_sides": 15,
+    "melee_dice_sides": 13,
     "melee_cut": 2,
     "dodge": 2,
     "armor_bash": 4,
@@ -243,7 +218,7 @@
     "species": [ "ABERRATION" ],
     "diff": 20,
     "size": "MEDIUM",
-    "hp": 120,
+    "hp": 110,
     "speed": 95,
     "material": [ "bone" ],
     "symbol": "R",
@@ -252,8 +227,8 @@
     "morale": 90,
     "melee_skill": 6,
     "melee_dice": 3,
-    "melee_dice_sides": 12,
-    "melee_cut": 3,
+    "melee_dice_sides": 10,
+    "melee_cut": 0,
     "dodge": 3,
     "armor_bash": 5,
     "armor_cut": 15,
@@ -308,7 +283,14 @@
     "starting_ammo": { "hell_plasma_k": 66 },
     "special_attacks": [
       [ "SMASH", 60 ],
+      [ "slash", 40 ],
       [ "GRAB", 40 ],
+      { "id": "hammer", "cooldown": 30, "moves": 220,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.8 },
+          { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.8 }
+        ]
+      },
       {
         "type": "gun",
         "cooldown": 5,
@@ -350,7 +332,7 @@
     "morale": 150,
     "melee_skill": 7,
     "melee_dice": 2,
-    "melee_dice_sides": 14,
+    "melee_dice_sides": 13,
     "melee_cut": 5,
     "dodge": 2,
     "armor_bash": 8,
@@ -364,7 +346,14 @@
     "special_attacks": [
       [ "SMASH", 40 ],
       [ "GRAB", 30 ],
+      [ "slash", 30 ],
       [ "FLESH_GOLEM", 20 ],
+      { "id": "hammer", "cooldown": 30, "moves": 220,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.8 },
+          { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.8 }
+        ]
+      },
       {
         "type": "gun",
         "cooldown": 5,
@@ -396,7 +385,7 @@
     "species": [ "ABERRATION" ],
     "diff": 25,
     "size": "LARGE",
-    "hp": 250,
+    "hp": 240,
     "speed": 70,
     "material": [ "flesh" ],
     "symbol": "M",
@@ -409,7 +398,7 @@
     "dodge": 1,
     "armor_bash": 12,
     "armor_cut": 6,
-    "armor_stab": 12,
+    "armor_stab": 8,
     "armor_acid": 4,
     "armor_fire": 17,
     "vision_day": 40,
@@ -418,6 +407,7 @@
     "starting_ammo": { "hell_napalm": 122 },
     "special_attacks": [
       [ "SMASH", 30 ],
+      [ "hammer", 20 ],
       [ "FLAMETHROWER", 60 ],
       {
         "type": "gun",
@@ -430,7 +420,7 @@
         "fake_dex": 8,
         "fake_per": 9,
         "max_ammo": 1000,
-        "ranges": [ [ 3, 25, "DEFAULT" ] ],
+        "ranges": [ [ 3, 23, "DEFAULT" ] ],
         "targeting_cost": 200,
         "targeting_sound": "fppphh~!",
         "targeting_volume": 50,
@@ -471,10 +461,10 @@
     "path_settings": { "max_dist": 25 },
     "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 20,
-        "min_mul": 0.8
+      { "type": "bite", "cooldown": 20, "accuracy": 4, "no_infection_chance": 3,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 35, "armor_multiplier": 0.5 }
+        ]
       },
       {
         "type": "gun",
@@ -582,6 +572,11 @@
     "special_attacks": [
       [ "UPGRADE", 10 ],
       [ "GRENADIER", 5 ],
+      { "id": "hammer",
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 35, "armor_multiplier": 0.8 }
+        ]
+      },
       {
         "type": "gun",
         "cooldown": 3,
@@ -624,14 +619,8 @@
     "melee_dice": 2,
     "melee_dice_sides": 2,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      },
-      {
-        "damage_type": "biological",
-        "amount": 3
-      }
+      { "damage_type": "stab", "amount": 2 },
+      { "damage_type": "biological", "amount": 3 }
     ],
     "melee_cut": 1,
     "dodge": 4,
@@ -640,11 +629,13 @@
     "vision_day": 20,
     "vision_night": 10,
     "special_attacks": [
-      {
-        "type": "leap",
-        "cooldown": 20,
-        "max_range": 6
-      }
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 8 },
+          { "damage_type": "biological", "amount": 2 }
+        ]
+      },
+      { "type": "leap", "cooldown": 20, "max_range": 6 }
     ],
     "upgrades": {
       "half_life": 128,
@@ -665,19 +656,19 @@
     "aggression": 40,
     "morale": 40,
     "melee_damage": [
-      {
-        "damage_type": "stab",
-        "amount": 2
-      },
-      {
-        "damage_type": "biological",
-        "amount": 5
-      }
+      { "damage_type": "stab", "amount": 2 },
+      { "damage_type": "biological", "amount": 5 }
     ],
     "dodge": 6,
     "starting_ammo": { "bot_cherub": 1 },
     "special_attacks": [
-      [ "GRENADIER", 15 ]
+      [ "GRENADIER", 15 ],
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 8 },
+          { "damage_type": "biological", "amount": 3 }
+        ]
+      }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "FLIES", "HIT_AND_RUN", "PUSH_MON", "SWARMS", "GROUP_MORALE", "HARDTOSHOOT" ]
   },
@@ -712,6 +703,11 @@
     "path_settings": { "max_dist": 35 },
     "starting_ammo": { "cyber_rocket": 99 },
     "special_attacks": [
+      { "id": "hammer", "moves": 250,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 75, "armor_multiplier": 0.8 }
+        ]
+      },
       {
         "type": "gun",
         "cooldown": 5,
@@ -752,11 +748,19 @@
     "morale": 40,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 9,
+    "melee_dice_sides": 7,
     "melee_cut": 9,
     "dodge": 3,
     "armor_bash": 5,
     "armor_cut": 5,
+    "special_attacks": [
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 10, "armor_multiplier": 0.85 },
+          { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.85 }
+        ]
+      }
+    ],
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "spearmelee_pk", 95 ] ]
@@ -790,6 +794,7 @@
     "dodge": 4,
     "armor_bash": 3,
     "armor_cut": 3,
+    "special_attacks": [ [ "scratch", 20 ] ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "GUILT" ],
@@ -967,6 +972,7 @@
       [ "RESURRECT", 30 ],
       [ "UPGRADE", 30 ],
       [ "GRENADIER", 15 ],
+      [ "hammer", 20 ],
       {
         "type": "gun",
         "cooldown": 50,

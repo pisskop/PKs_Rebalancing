@@ -223,10 +223,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 8,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 2
-      }
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 4,
     "dodge": 1,
@@ -261,10 +258,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 12,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 2
-      }
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 4,
     "dodge": 2,
@@ -298,10 +292,7 @@
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 8
-      }
+      { "damage_type": "acid", "amount": 8 }
     ],
     "melee_cut": 6,
     "dodge": 2,
@@ -320,10 +311,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      }
+      { "id": "poison", "duration": 400 }
     ],
     "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "SWIMS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC" ]
   },
@@ -353,6 +341,14 @@
     "armor_stab": 15,
     "armor_acid": 1,
     "armor_fire": 2,
+    "special_attacks": [
+      { "id": "scratch", "cooldown": 20, "moves": 100,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.85 },
+          { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.85 }
+        ]
+      }
+    ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "PUSH_MON", "NOHEAD", "HARDTOSHOOT", "GRABS", "PLASTIC" ]
   },
@@ -376,10 +372,7 @@
     "melee_dice": 6,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 6
-      }
+      { "damage_type": "acid", "amount": 6 }
     ],
     "melee_cut": 6,
     "dodge": 4,
@@ -389,13 +382,11 @@
     "armor_acid": 4,
     "armor_fire": 2,
     "attack_effs": [
-      {
-        "id": "spider_web_omega"
-      }
+      { "id": "spider_web_omega", "duration": 200 }
     ],
     "special_attacks": [
       [ "para_poison", 10 ],
-      [ "GROW_VINE", 30 ],
+      [ "GROW_VINE", 20 ],
       [ "VINE", 5 ],
       [ "SPIT_SAP", 15 ]
     ],
@@ -434,10 +425,7 @@
     "melee_dice": 8,
     "melee_dice_sides": 2,
     "melee_damage": [
-      {
-        "damage_type": "biological",
-        "amount": 2
-      }
+      { "damage_type": "biological", "amount": 2 }
     ],
     "melee_cut": 4,
     "dodge": 3,
@@ -481,10 +469,7 @@
     "melee_dice": 6,
     "melee_dice_sides": 6,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 2
-      }
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 3,
     "dodge": 1,
@@ -497,22 +482,10 @@
     "path_settings": { "max_dist": 25 },
     "luminance": 1,
     "attack_effs": [
-      {
-        "id": "paralyzepoison",
-        "duration": 150
-      },
-      {
-        "id": "paralyzepoison",
-        "duration": 100
-      },
-      {
-        "id": "paralyzepoison",
-        "duration": 50
-      },
-      {
-      "id": "poison",
-        "duration": 400
-      }
+      { "id": "paralyzepoison", "duration": 200 },
+      { "id": "paralyzepoison", "duration": 150 },
+      { "id": "paralyzepoison", "duration": 100 },
+      { "id": "poison", "duration": 400 }
     ],
     "special_attacks": [
       [ "TRIFFID_HEARTBEAT", 50 ],
@@ -563,10 +536,8 @@
     "vision_night": 30,
     "path_settings": { "max_dist": 30 },
     "attack_effs": [
-      {
-        "id": "paralyzepoison",
-        "duration": 100
-      }
+      { "id": "paralyzepoison", "duration": 150 },
+      { "id": "paralyzepoison", "duration": 50 }
     ],
     "special_attacks": [
       [ "GROWPLANTS", 50 ],
@@ -615,13 +586,8 @@
     "path_settings": { "max_dist": 25 },
     "special_attacks": [
       [ "VINE", 15 ],
-      {
-        "type": "bite",
-        "cooldown": 20,
-        "min_mul": 0.5,
-        "no_infection_chance": 15,
-        "//": "baby dionaea bitch"
-      }
+      { "type": "bite", "cooldown": 20, "min_mul": 0.5, "no_infection_chance": 15,
+        "//": "baby dionaea bitch" }
     ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "upgrades": {
@@ -629,14 +595,8 @@
       "into_group": "GROUP_DIONAEA"
     },
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      },
-      {
-        "id": "skunk_spray",
-        "duration": 300
-      }
+      { "id": "poison", "duration": 400 },
+      { "id": "skunk_spray", "duration": 900 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "SWIMS", "BASHES", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]
   },
@@ -660,10 +620,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 4,
     "melee_damage": [
-      {
-        "damage_type": "bash",
-        "amount": 6
-      }
+      { "damage_type": "bash", "amount": 6 }
     ],
     "melee_cut": 5,
     "dodge": 2,
@@ -675,25 +632,14 @@
     "vision_night": 10,
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
-      {
-        "type": "bite",
-        "cooldown": 12,
-        "min_mul": 0.85,
-        "no_infection_chance": 15,
-        "//": "dionaea bitch"
-      },
+      { "type": "bite", "cooldown": 12, "min_mul": 0.85, "no_infection_chance": 15,
+        "//": "dionaea bitch" },
       [ "VINE", 15 ],
       [ "RANGED_PULL", 3 ]
     ],
     "attack_effs": [
-      {
-        "id": "poison",
-        "duration": 400
-      },
-      {
-        "id": "skunk_spray",
-        "duration": 300
-      }
+      { "id": "poison", "duration": 400 },
+      { "id": "skunk_spray", "duration": 300 }
     ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "SWIMS", "BASHES", "GROUP_BASH", "PUSH_MON", "NOHEAD", "PATH_AVOID_DANGER_2" ]

@@ -39,13 +39,60 @@
     "vision_night": 3,
     "special_attacks": [
       [ "GRAB", 15 ],
-      [ "scratch", 15 ]
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.8 }
+        ]
+      }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "FIRE", "PLAYER_CLOSE" ],
     "fear_triggers": [ "MEAT", "FRIEND_DIED" ],
     "placate_triggers": [ "HURT", "SOUND" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "NO_BREATHE", "GRABS", "BONES", "HIT_AND_RUN" ],
     "//": "http://smf.cataclysmdda.com/index.php?topic=2816.0"
+  },
+  {
+    "id": "mon_flaming_eye",
+    "type": "MONSTER",
+    "name": "flaming eye",
+    "copy-from": "mon_flaming_eye",
+    "diff": 25,
+    "hp": 250,
+    "vision_day": 30,
+    "vision_night": 30,
+    "luminance": 25,
+    "special_attacks": [ [ "STARE", 12 ] ]
+  },
+  {
+    "id": "mon_gozu",
+    "type": "MONSTER",
+    "name": "gozu",
+    "copy-from": "mon_gozu",
+    "size": "LARGE",
+    "speed": 85,
+    "aggression": 15,
+    "morale": 100,
+    "symbol": "&",
+    "color": "white",
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 8,
+    "melee_cut": 2,
+    "dodge": 4,
+    "armor_bash": 4,
+    "armor_cut": 4,
+    "vision_day": 40,
+    "special_attacks": [
+      [ "GRAB", 30 ],
+      [ "FEAR_PARALYZE", 20 ],
+      [ "hammer", 15 ],
+      { "type": "bite", "cooldown": 30,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.8 },
+          { "damage_type": "cold", "amount": 3 }
+        ]
+      }
+    ]
   },
   {
     "id": "mon_mi_go",
@@ -63,10 +110,7 @@
     "type": "MONSTER",
     "copy-from": "mon_mi_go",
     "name": "mi-go",
-    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance.",
-    "special_attacks": [
-      [ "slash", 30 ]
-    ]
+    "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance."
   },
   {
     "id": "mon_mi_go_fly",
@@ -77,9 +121,6 @@
     "hp": 180,
     "speed": 125,
     "melee_skill": 8,
-    "dodge": 5,
-    "special_attacks": [
-      [ "slash", 30 ]
-    ]
+    "dodge": 5
   }
 ]

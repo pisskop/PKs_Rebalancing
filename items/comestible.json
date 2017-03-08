@@ -104,7 +104,7 @@
     "use_action": {
       "type": "consume_drug",
       "effects": [
-        { "id": "doom_unhealth", "duration": 10 },
+        { "id": "doom_unhealth", "duration": 5 },
         { "id": "stamina_regen", "duration": 150 }
       ]
     },
@@ -257,7 +257,7 @@
     "color" : "ltred",
     "nutrition": 4,
     "stim" : -2,
-    "healthy" : -2,
+    "healthy" : -4,
     "fun" : -15,
     "charges" : 40,
     "stack_size" : 50,

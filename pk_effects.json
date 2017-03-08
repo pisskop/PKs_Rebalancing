@@ -134,7 +134,7 @@
       "fatigue_amount": [-50],
       "stamina_min": [-3],
       "health_min": [-1],
-      "health_min_val": [-100],
+      "health_min_val": [-60],
       "h_mod_min": [-1],
       "h_mod_min_val": [-40],
       "hurt_min": [2],

@@ -3,13 +3,19 @@
     "id": "mon_blob_large",
     "type": "MONSTER",
     "copy-from": "mon_blob_large",
-    "special_attacks": [ [ "FORMBLOB", 60 ], [ "sliming", 60 ] ]
+    "special_attacks": [
+       [ "FORMBLOB", 60 ],
+       [ "sliming", 60 ]
+    ]
   },
   {
     "id": "mon_blob",
     "type": "MONSTER",
     "copy-from": "mon_blob",
-    "special_attacks": [ [ "FORMBLOB", 120 ], [ "sliming", 120 ] ]
+    "special_attacks": [
+      [ "FORMBLOB", 120 ],
+      [ "sliming", 120 ]
+    ]
   },
   {
     "id": "mon_blob_small",
@@ -27,20 +33,11 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 9
-      },
-      {
-        "damage_type": "biological",
-        "amount": 4
-      }
+      { "damage_type": "acid", "amount": 9 },
+      { "damage_type": "biological", "amount": 4 }
     ],
     "attack_effs": [
-      {
-        "id": "slimed",
-        "duration": 200
-      }
+      { "id": "slimed", "duration": 200 }
     ],
     "special_attacks": [
       [ "FORMBLOB", 5 ],
@@ -48,7 +45,7 @@
     ],
     "death_drops": "slime_death_drops",
     "flags": [ "SMELLS", "HEARS", "PLASTIC", "NO_BREATHE", "NOHEAD", "NOGIB", "ABSORBS" ],
-    "anger_triggers": [ "HURT" ],
+    "anger_triggers": [ "HURT", "FRIEND_DIED" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ]
   },
   {
@@ -63,18 +60,21 @@
     "melee_dice": 8,
     "melee_dice_sides": 5,
     "melee_damage": [
-      {
-        "damage_type": "acid",
-        "amount": 20
-      },
-      {
-        "damage_type": "biological",
-        "amount": 1
-      }
+      { "damage_type": "acid", "amount": 20 },
+      { "damage_type": "biological", "amount": 1 }
     ],
     "armor_bash": 10,
     "armor_cut": 30,
     "path_settings": { "max_dist": 15 },
-    "special_attacks": [ [ "PARROT", 40 ], [ "sliming", 20 ], [ "FORMBLOB", 40 ] ]
+    "special_attacks": [
+      [ "PARROT", 40 ],
+      [ "sliming", 20 ],
+      [ "FORMBLOB", 40 ],
+      { "id": "hammer", "cooldown": 40, "moves": 250,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.5 }
+        ]
+      }
+    ]
   }
 ]
