@@ -1119,6 +1119,8 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_shady",
     "aggression": 75,
+    "vision_day": 6,
+    "vision_night": 40,
     "special_attacks": [
       [ "GRAB", 10 ],
       [ "scratch", 20 ],

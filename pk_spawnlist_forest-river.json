@@ -347,7 +347,7 @@
       { "monster": "mon_worm", "freq":  1, "cost_multiplier": 0, "starts": 100, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_worm", "freq":  1, "cost_multiplier": 0, "starts": 200, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
 
-      { "monster": "mon_graboid", "freq":  1, "cost_multiplier": 0, "starts": 100, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_graboid", "freq":  1, "cost_multiplier": 0, "starts": 50, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_graboid", "freq":  1, "cost_multiplier": 0, "starts": 100, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_graboid", "freq":  1, "cost_multiplier": 0, "starts": 200, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
 

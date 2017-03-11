@@ -258,15 +258,15 @@
     "nutrition": 4,
     "stim" : -2,
     "healthy" : -4,
-    "fun" : -15,
-    "charges" : 40,
-    "stack_size" : 50,
+    "fun" : -20,
+    "charges" : 30,
+    "stack_size" : 30,
     "description" : "Agricultural grade, ionically-treated fertilizer for cleansing minerals from aquariums.  Could remove radiation from the body in a pinch.",
     "price" : 1500,
     "use_action" : {
       "type" : "consume_drug",
       "activation_message" : "You consume a helping of the %s.",
-      "effects" : [ { "id" : "chelated_iron", "duration" : 1200 }, { "id" : "chelated_iron", "duration" : 800 }, { "id" : "chelated_iron", "duration" : 600 },              { "id" : "rad_reduce", "duration" : 1200 }, { "id" : "rad_reduce", "duration" : 800 }, { "id" : "rad_reduce", "duration" : 600 } ],
+      "effects" : [ { "id" : "chelated_iron", "duration" : 1200 }, { "id" : "chelated_iron", "duration" : 800 }, { "id" : "chelated_iron", "duration" : 600 },              { "id" : "rad_reduce", "duration" : 1200 }, { "id" : "rad_reduce", "duration" : 800 } ],
       "vitamins": [
          [ "iron", 36, 48 ]
       ]
@@ -311,8 +311,8 @@
         "description" : "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Healthy in small doses, one must be aware of the mentally addictive properties it may bring.",
         "use_action" : "ANTIBIOTIC",
     "fun" : -1,
-    "healthy" : 6,
-    "addiction_potential" : 20,
+    "healthy" : 5,
+    "addiction_potential" : 30,
     "flags" : "NPC_SAFE"
   }
 ]

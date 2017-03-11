@@ -164,7 +164,7 @@
     "armor_acid": 2,
     "vision_day": 40,
     "special_attacks": [ [ "hammer", 15 ] ],
-    "anger_triggers": [ "FRIEND_DIED" ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ]
   },
@@ -388,7 +388,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 2,
     "melee_damage": [
-      { "damage_type": "bash", "amount": 8 },
+      { "damage_type": "bash", "amount": 11 },
       { "damage_type": "stab", "amount": 2 }
     ],
     "dodge": 1,
@@ -416,7 +416,7 @@
     "melee_dice_sides": 9,
     "melee_cut": 3,
     "melee_damage": [
-      { "damage_type": "bash", "amount": 14 },
+      { "damage_type": "bash", "amount": 16 },
       { "damage_type": "stab", "amount": 3 }
     ],
     "dodge": 2,
@@ -446,7 +446,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 2,
     "melee_damage": [
-      { "damage_type": "bash", "amount": 6 },
+      { "damage_type": "bash", "amount": 8 },
       { "damage_type": "stab", "amount": 2 }
     ],
     "dodge": 2,
