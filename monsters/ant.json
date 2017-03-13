@@ -25,7 +25,7 @@
     "id": "mon_ant",
     "type": "MONSTER",
     "copy-from": "mon_ant",
-    "melee_skill": 6,
+    "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 8,
     "melee_damage": [
@@ -41,7 +41,7 @@
     "special_attacks": [
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 7, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
@@ -62,7 +62,7 @@
     "speed": 105,
     "aggression": 7,
     "morale": 100,
-    "melee_skill": 7,
+    "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 10,
     "melee_damage": [
@@ -78,7 +78,7 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 8, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.5 }
@@ -112,7 +112,7 @@
     "id": "mon_ant_scrib",
     "type": "MONSTER",
     "name": "forager ant",
-    "description": "A small giant ant with a carapace shell.  Is capable of a surprising range of vocal expression for a bug, including ear-splitting wails.",
+    "description": "A small giant ant with a carapace shell.  It is capable of a surprising range of vocal expression for a bug, including ear-splitting wails.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "diff": 7,
@@ -125,11 +125,8 @@
     "aggression": -1,
     "morale": 50,
     "melee_skill": 5,
-    "melee_dice": 1,
-    "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 4 }
-    ],
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
     "melee_cut": 2,
     "dodge": 1,
     "armor_bash": 5,
@@ -138,7 +135,7 @@
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
-      [ "scrib", 600 ],
+      [ "scrib", 480 ],
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -178,7 +175,7 @@
     "special_attacks": [
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
-      { "type": "bite", "cooldown": 12, "accuracy": 15, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 15, "armor_multiplier": 0.5 }
@@ -205,7 +202,7 @@
     "color": "red",
     "aggression": 7,
     "morale": 100,
-    "melee_skill": 8,
+    "melee_skill": 7,
     "melee_dice": 2,
     "melee_dice_sides": 10,
     "melee_cut": 6,
@@ -218,7 +215,7 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 10, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 12, "armor_multiplier": 0.5 }
@@ -263,7 +260,7 @@
       [ "GRAB_DRAG", 15 ],
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.5 }
@@ -303,7 +300,7 @@
     "color": "magenta",
     "aggression": 8,
     "morale": 80,
-    "melee_skill": 8,
+    "melee_skill": 7,
     "melee_dice": 2,
     "melee_dice_sides": 8,
     "melee_damage": [
@@ -321,7 +318,7 @@
       [ "GRAB_DRAG", 15 ],
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 7, "no_infection_chance": 9,
+      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.5 }
@@ -391,7 +388,7 @@
     "color": "i_ltred",
     "aggression": 0,
     "morale": 100,
-    "melee_skill": 5,
+    "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 7,
     "melee_cut": 4,
@@ -402,10 +399,10 @@
     "vision_day": 20,
     "vision_night": 5,
     "special_attacks": [
-      [ "ant_dinject", 40 ],
+      [ "ant_dinject", 30 ],
       [ "ANTQUEEN", 30 ],
-      [ "FLAMETHROWER", 40 ],
-      [ "SHRIEK_ALERT", 20 ],
+      [ "FLAMETHROWER", 50 ],
+      [ "SHRIEK_ALERT", 15 ],
       [ "SHRIEK_STUN", 1 ]
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],

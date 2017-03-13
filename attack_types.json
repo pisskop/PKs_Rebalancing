@@ -22,9 +22,13 @@
     "attack_type": "melee",
     "id": "ant_dinject",
     "cooldown": 20,
-    "move_cost": 250,
+    "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.85 },
+      { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.85 }
+    ],
     "effects": [
-      { "id": "skunk_spray", "duration": 400 }
+      { "id": "skunk_spray", "duration": 600 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
     "hit_dmg_npc": "The %1$s stings <npcname>!",
@@ -37,8 +41,11 @@
     "id": "ant_sinject",
     "cooldown": 20,
     "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 },
+      { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
+    ],
     "effects": [
-      { "id": "skunk_spray", "duration": 200 },
       { "id": "poison", "duration": 400 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
@@ -53,8 +60,8 @@
     "cooldown": 20,
     "move_cost": 160,
     "damage_max_instance": [
-      { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 },
-      { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.85 }
+      { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.9 },
+      { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.9 }
     ],
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "hit_dmg_u": "The %1$s claws at you!",
@@ -94,10 +101,10 @@
     "damage_max_instance": [
       { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.80 }
     ],
-    "hit_dmg_u": "The %1$s hammers at you!",
-    "hit_dmg_npc": "The %1$s hammers at <npcname>!",
-    "no_dmg_msg_u": "The %1$s tries to hammer on you but fails.",
-    "no_dmg_msg_npc": "The %1$s tries to hammer on <npcname>, but fails to."
+    "hit_dmg_u": "The %1$s hammers on you!",
+    "hit_dmg_npc": "The %1$s hammers on <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to hammer at you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to hammer at <npcname>, but fails to."
   },
   {
     "type": "monster_attack",
@@ -105,6 +112,10 @@
     "id": "para_poison",
     "cooldown": 15,
     "move_cost": 120,
+    "damage_max_instance": [
+      { "damage_type": "acid", "amount": 1 },
+      { "damage_type": "cut", "amount": 7, "armor_multiplier": 0.9 }
+    ],
     "effects": [
       { "id": "paralyzepoison", "duration": 300 },
       { "id": "paralyzepoison", "duration": 150 },
@@ -122,6 +133,10 @@
     "id": "sliming",
     "cooldown": 30,
     "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "acid", "amount": 3 },
+      { "damage_type": "biological", "amount": 1 }
+    ],
     "effects": [
       { "id": "slimed", "duration": 400 },
       { "id": "paralyzepoison", "duration": 300 },
@@ -141,6 +156,9 @@
     "id": "scrib",
     "cooldown": 20,
     "move_cost": 150,
+    "damage_max_instance": [
+      { "damage_type": "biological", "amount": 1 }
+    ],
     "effects": [
       { "id": "scrib", "duration": 30 }
     ],
@@ -155,6 +173,9 @@
     "id": "numbing_poison",
     "cooldown": 30,
     "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
+    ],
     "effects": [
       { "id": "paralyzepoison", "duration": 400 },
       { "id": "paralyzepoison", "duration": 100 }

@@ -988,7 +988,16 @@
     "id": "mon_zombie_brute",
     "type": "MONSTER",
     "copy-from": "mon_zombie_brute",
-    "speed": 85
+    "speed": 85,
+    "special_attacks": [
+      [ "SMASH", 30 ],
+      [ "GRAB", 7 ],
+      { "id": "hammer", "cooldown": 30, "accuracy": 4,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 }
+        ]
+      }
+    ]
   },
   {
     "id": "mon_zombie_brute_shocker",
@@ -999,13 +1008,18 @@
     "melee_skill": 4,
     "melee_dice": 3,
     "melee_dice_sides": 8,
+    "melee_cut": 2,
     "melee_damage": [
       { "damage_type": "electric", "amount": 6 }
     ],
-    "melee_cut": 2,
     "dodge": 1,
     "armor_bash": 6,
     "armor_cut": 8,
+    "special_attacks": [
+      [ "SHOCKSTORM", 15 ],
+      [ "SMASH", 30 ],
+      [ "hammer", 30 ]
+    ],
     "emit_fields": [ "emit_spark" ],
     "special_when_hit": [ "ZAPBACK", 75 ],
     "burn_into": "mon_zombie_fiend_shocker"
@@ -1029,7 +1043,12 @@
     "special_attacks": [
       [ "SMASH", 40 ],
       [ "STRETCH_ATTACK", 20 ],
-      [ "LONGSWIPE", 20 ]
+      [ "LONGSWIPE", 30 ],
+      { "id": "hammer", "cooldown": 30, "accuracy": 5,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 }
+        ]
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_fiend_pk"
@@ -1055,7 +1074,12 @@
       [ "BIO_OP_TAKEDOWN", 20 ],
       [ "RANGED_PULL", 20 ],
       [ "GRAB_DRAG", 10 ],
-      { "type": "bite", "cooldown": 15, "min_mul": 0.2, "no_infection_chance": 3 }
+      { "type": "bite", "cooldown": 15, "min_mul": 0.2, "no_infection_chance": 3 },
+      { "id": "hammer", "cooldown": 30, "accuracy": 5,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 28, "armor_multiplier": 0.70 }
+        ]
+      }
     ],
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
@@ -1471,8 +1495,8 @@
       [ "slash", 20 ],
       { "type": "bite", "cooldown": 10, "accuracy": 7,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.3 },
-          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.3 }
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.5 }
         ]
       }
     ],
@@ -1500,10 +1524,10 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 3,
+    "melee_cut": 4,
     "melee_damage": [
       { "damage_type": "stab", "amount": 6 }
     ],
-    "melee_cut": 4,
     "dodge": 1,
     "armor_bash": 8,
     "armor_cut": 1,

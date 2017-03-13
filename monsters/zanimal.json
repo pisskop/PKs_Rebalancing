@@ -752,10 +752,7 @@
     "melee_skill": 2,
     "melee_dice": 2,
     "melee_dice_sides": 2,
-    "melee_damage": [
-      { "damage_type": "heat", "amount": 1 }
-    ],
-    "melee_cut": 2,
+    "melee_cut": 3,
     "dodge": 0,
     "armor_bash": 4,
     "armor_cut": 7,

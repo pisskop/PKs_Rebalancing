@@ -1,5 +1,15 @@
 [
   {
+    "type" : "terrain",
+    "id" : "t_sewage",
+    "name": "sewage",
+    "symbol": "~",
+    "color": "ltgreen",
+    "move_cost": 6,
+    "flags": ["TRANSPARENT", "SWIMMABLE", "LIQUID", "FISHABLE", "REDUCE_SCENT"],
+    "examine_action": "water_source"
+  },
+  {
     "type": "terrain",
     "id": "t_guardrail_bg_dp",
     "copy-from": "t_guardrail_bg_dp",
@@ -7,7 +17,7 @@
     "symbol": "#",
     "color": "ltgray",
     "move_cost": 3,
-    "flags": ["TRANSPARENT", "NOITEM", "REDUCE_SCENT", "MOUNTABLE", "SHORT", "THINOBSTACLE", "ROAD"],
+    "flags": ["TRANSPARENT", "NOITEM", "MOUNTABLE", "SHORT", "THINOBSTACLE", "ROAD"],
     "bash": {
       "str_min": 8, "str_max": 150,
       "sound": "crunch!",

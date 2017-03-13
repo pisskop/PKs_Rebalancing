@@ -282,5 +282,14 @@
       { "monster": "mon_mi_go_terminal", "freq": 666, "cost_multiplier": 0 },
       { "monster": "mon_mi_go_fly", "freq": 333, "cost_multiplier": 0 }
     ]
+  },
+  {
+    "type":"monstergroup",
+    "name" : "GROUP_WORM",
+    "default" : "mon_worm",
+    "monsters" : [
+      { "monster" : "mon_graboid", "freq" : 50, "cost_multiplier" : 15 },
+      { "monster" : "mon_halfworm", "freq" : 50, "cost_multiplier" : 0 }
+    ]
   }
 ]
