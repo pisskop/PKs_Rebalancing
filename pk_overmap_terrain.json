@@ -1,6 +1,26 @@
 [
   {
     "type" : "overmap_terrain",
+    "id" : "field",
+    "name" : "field",
+    "sym" : 46,
+    "color" : "brown",
+    "see_cost" : 2,
+    "extras" : "field",
+    "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 65 },
+    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "forest",
+    "name" : "forest",
+    "sym" : 70,
+    "color" : "green",
+    "see_cost" : 3,
+    "extras" : "field",
+    "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 75 },
+    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
     "id" : "sewer",
     "name" : "sewer",
     "line_drawing" : true,
@@ -1359,6 +1379,23 @@
     "see_cost" : 5,
     "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
     "mondensity": 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "sky_vortex",
+    "name" : "unempty air",
+    "sym" : 46,
+    "color" : "blue",
+    "mondensity": 3,
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "sky_vortex_ground",
+    "name" : "field",
+    "sym" : 46,
+    "color" : "brown",
+    "see_cost" : 2,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "barn_old",

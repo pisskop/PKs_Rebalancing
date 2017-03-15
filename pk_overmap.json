@@ -548,7 +548,7 @@
     { "point": [4,6,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [0, 2],
+    "city_distance": [0, 20],
     "city_sizes": [6, 16],
     "occurrences": [0, 2],
     "rotate": false
@@ -625,14 +625,37 @@
     "type": "overmap_special",
     "id": "sludge pit",
     "overmaps": [
+      { "point":[-1,-1,0], "overmap": "crater"},
+      { "point":[0,-1,0], "overmap": "crater"},
+      { "point":[1,-1,0], "overmap": "crater"},
+      { "point":[-1,0,0], "overmap": "crater"},
       { "point":[0,0,0], "overmap": "sludge_pit"},
+      { "point":[1,0,0], "overmap": "crater"},
+      { "point":[-1,1,0], "overmap": "crater"},
+      { "point":[0,1,0], "overmap": "crater"},
+      { "point":[1,1,0], "overmap": "crater"},
       { "point":[0,0,-1], "overmap": "sludge_pit_under"}
+    ],
+    "connections": [
+    { "point": [-2,0,0], "terrain": "road" }
+    ],
+    "locations": [ "swamp", "field" ],
+    "city_distance": [6, -1],
+    "city_sizes": [4, 16],
+    "occurrences": [0, 2],
+    "rotate": false,
+    "spawns": { "group":  "GROUP_SLUDGE", "population":[30,60], "radius":[8,18] }
+  },{
+    "type": "overmap_special",
+    "id": "sky anomalie",
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "sky_vortex_ground" },
+      { "point":[0,0,1], "overmap": "sky_vortex" }
     ],
     "locations": [ "swamp", "field" ],
     "city_distance": [0, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 3],
-    "rotate": false,
-    "spawns": { "group":  "GROUP_SLUDGE", "population":[25,50], "radius":[7,15] }
+    "occurrences": [0, 2],
+    "rotate": false
   }
 ]

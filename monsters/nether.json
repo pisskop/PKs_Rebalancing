@@ -9,7 +9,42 @@
     "id": "mon_vortex",
     "type": "MONSTER",
     "copy-from": "mon_vortex",
+    "default_faction": "small_animal",
     "emit_fields": [ "emit_radiation_plume" ]
+  },
+  {
+    "id": "mon_stemcell_nether",
+    "type": "MONSTER",
+    "name": "shimmering light",
+    "default_faction": "nether",
+    "size": "SMALL",
+    "speed": 220,
+    "aggression": 0,
+    "morale": 90,
+    "symbol": "*",
+    "color": "i_white",
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "melee_cut": 0,
+    "dodge": 15,
+    "armor_acid": 4,
+    "vision_day": 35,
+    "vision_night": 35,
+    "luminance": 8,
+    "special_attacks": [
+      [ "PARROT", 30 ]
+    ],
+    "upgrades": {
+      "half_life": 1,
+      "into_group": "GROUP_NETHER"
+    },
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "STUMBLES", "FLIES", "WARM", "POISON", "HIT_AND_RUN", "HARDTOSHOOT", "PUSH_MON", "ANIMAL", "ELECTRIC", "NOGIB", "NOHEAD" ],
+    "//": "A critter whose purpose is to evolve into a random nether monster.",
+    "anger_triggers": [ "FIRE", "PLAYER_CLOSE" ],
+    "fear_triggers": [ "HURT" ],
+    "placate_triggers": [ "SOUND" ]
   },
   {
     "id": "mon_gracke",
@@ -110,6 +145,7 @@
     "type": "MONSTER",
     "copy-from": "mon_mi_go",
     "name": "mi-go",
+    "hp": 180,
     "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance."
   },
   {

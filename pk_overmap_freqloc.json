@@ -196,25 +196,6 @@
     "rotate": true
   },{
     "type": "overmap_special",
-    "id": "Public Works By Road",
-    "overmaps": [
-      { "point": [0,2,0], "overmap": "road_end_north"},
-      { "point":[0,0,0], "overmap": "public_works_NW_north"},
-      { "point":[1,0,0], "overmap": "public_works_NE_north"},
-      { "point":[0,1,0], "overmap": "public_works_SW_north"},
-      { "point":[1,1,0], "overmap": "public_works_SE_north"}
-    ],
-    "connections": [
-      { "point": [0,2,0], "terrain": "road", "existing": true }
-    ],
-    "locations": [ "wilderness", "swamp" ],
-    "city_distance": [0, 4],
-    "city_sizes": [4, 12],
-    "occurrences": [0, 2],
-    "rotate": true,
-    "flags": [ "CLASSIC" ]
-  },{
-    "type": "overmap_special",
     "id": "Mall",
     "copy-from" : "Mall",
     "overmaps": [
@@ -668,9 +649,6 @@
       "connections": [
         { "point": [-7,-6,-1], "terrain": "subway" },
         { "point": [-7,-4,0], "terrain": "road" },
-        { "point": [-10,-6,0], "terrain": "road" },
-        { "point": [-5,-5,0], "terrain": "road" },
-        { "point": [-4,-5,0], "terrain": "road" },
         { "point": [5,-1,0], "terrain": "road" },
         { "point": [-1,7,0], "terrain": "road" },
         { "point": [4,9,0], "terrain": "road" }
@@ -747,7 +725,7 @@
         { "point": [3,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
-    "city_distance": [0, 12],
+    "city_distance": [0, 16],
     "rotate": false,
     "occurrences": [1, 2]
   },{
@@ -987,28 +965,20 @@
     "type": "overmap_special",
     "id": "Military Bunker",
     "copy-from" : "Military Bunker",
-    "occurrences": [0, 4]
-  },{
-    "type": "overmap_special",
-    "id": "Military Bunker Terminal",
-    "copy-from" : "Military Bunker",
-    "overmaps" : [
-      { "point":[0,-1,0], "overmap": "road_end_north" },
-      { "point":[0,0,0], "overmap": "bunker_south" },
-      { "point":[0,0,-1], "overmap": "bunker_basement" }
-    ],
-      "connections": [
-        { "point": [0,-1,0], "terrain": "road" }
-    ],
     "locations": [ "wilderness", "swamp" ],
-    "city_distance": [4, -1],
-    "city_sizes": [2, 10],
-    "occurrences": [1, 4]
+    "city_distance": [0, -1],
+    "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "Military Outpost",
     "copy-from" : "Military Outpost",
-    "occurrences": [0, 7]
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "outpost"}
+    ],
+      "connections": [
+        { "point": [0,-1,0], "terrain": "road" }
+    ],
+    "occurrences": [0, 1]
   },{
     "type": "overmap_special",
     "id": "Military Outpost_by_road",
@@ -1021,7 +991,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [4, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 3],
+    "occurrences": [1, 2],
     "rotate": false
   },{
     "type": "overmap_special",
