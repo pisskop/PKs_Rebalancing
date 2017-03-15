@@ -76,14 +76,12 @@
     "cooldown": 20,
     "move_cost": 180,
     "effects": [
-      { "id": "bleed", "duration": 80 },
-      { "id": "bleed", "duration": 20 }
+      { "id": "slashed", "duration": 5 }
     ],
     "damage_max_instance": [
-      { "damage_type": "cut", "amount": 10, "armor_multiplier": 0.80 },
-      { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.80 }
+      { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
+      { "damage_type": "stab", "amount": 4, "armor_multiplier": 0.80 }
     ],
-    "body_parts": [ [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HEAD", 3 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 3 ] ],
     "hit_dmg_u": "The %1$s slashes at you!",
     "hit_dmg_npc": "The %1$s slashes at <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to slash at you but fails.",
@@ -140,12 +138,8 @@
     "effects": [
       { "id": "slimed", "duration": 400 },
       { "id": "paralyzepoison", "duration": 300 },
-      { "id": "paralyzepoison", "duration": 300 },
-      { "id": "paralyzepoison", "duration": 200 },
-      { "id": "paralyzepoison", "duration": 200 },
-      { "id": "paralyzepoison", "duration": 200 },
-      { "id": "paralyzepoison", "duration": 150 },
-      { "id": "paralyzepoison", "duration": 150 }
+      { "id": "paralyzepoison", "duration": 100 },
+      { "id": "paralyzepoison", "duration": 20 }
     ],
     "hit_dmg_u": "The %1$s coats you in slime!",
     "hit_dmg_npc": "The %1$s coats <npcname> with slime!"
@@ -177,8 +171,8 @@
       { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
     ],
     "effects": [
-      { "id": "paralyzepoison", "duration": 400 },
-      { "id": "paralyzepoison", "duration": 100 }
+      { "id": "paralyzepoison", "duration": 600 },
+      { "id": "paralyzepoison", "duration": 20 }
     ],
     "hit_dmg_u": "The %1$s injects you with a numbing poison!",
     "hit_dmg_npc": "The %1$s injects <npcname> with a numbing poison!",

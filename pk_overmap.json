@@ -15,7 +15,7 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 3],
+    "occurrences": [0, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -43,12 +43,12 @@
       { "point":[1,1,0], "overmap": "campsite_field_biker_destroyed"}
     ],
     "connections": [
-      { "point": [0,1,0], "terrain": "road" }
+      { "point": [0,1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "forest" ],
     "city_distance": [10, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 4],
+    "occurrences": [0, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -90,7 +90,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [20, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 4],
+    "occurrences": [0, 3],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -315,7 +315,7 @@
     "locations": [ "forest" ],
     "city_distance": [0, 10],
     "city_sizes": [1, 12],
-    "occurrences": [2, 6],
+    "occurrences": [1, 6],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[3,7] }
   },{
@@ -557,13 +557,13 @@
     "id": "Pond",
     "copy-from" : "Pond",
     "city_distance": [0, -1],
-    "occurrences": [3, 15]
+    "occurrences": [2, 15]
   },{
     "type": "overmap_special",
     "id": "basin",
     "copy-from" : "basin",
     "city_distance": [0, -1],
-    "occurrences": [3, 15]
+    "occurrences": [2, 15]
   },{
     "type": "overmap_special",
     "id": "bog",
@@ -631,7 +631,7 @@
     "locations": [ "swamp", "field" ],
     "city_distance": [0, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 4],
+    "occurrences": [0, 3],
     "rotate": false,
     "spawns": { "group":  "GROUP_SLUDGE", "population":[25,50], "radius":[7,15] }
   }

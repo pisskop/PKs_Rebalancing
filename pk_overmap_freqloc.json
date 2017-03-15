@@ -39,7 +39,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 3],
+    "occurrences": [1, 2],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -152,7 +152,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [4, 10],
     "city_sizes": [4, 16],
-    "occurrences": [1, 5],
+    "occurrences": [1, 3],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -169,7 +169,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [8, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 5],
+    "occurrences": [1, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -676,7 +676,7 @@
         { "point": [4,9,0], "terrain": "road" }
     ],
     "locations": [ "swamp", "wilderness" ],
-    "city_distance": [8, -1],
+    "city_distance": [6, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": false
@@ -857,10 +857,10 @@
     "id": "football_field",
     "copy-from" : "football_field",
     "connections": [
-        { "point": [0,3,0], "terrain": "road", "existing": true }
+        { "point": [0,3,0], "terrain": "road" }
     ],
     "locations": [ "field" ],
-    "city_distance": [0, 6],
+    "city_distance": [0, 8],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": true
@@ -870,7 +870,7 @@
     "copy-from" : "Lab",
     "city_distance": [10, -1],
     "city_sizes": [8, 12],
-    "occurrences": [2, 6],
+    "occurrences": [2, 5],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -892,7 +892,7 @@
     "id": "Ice Lab",
     "copy-from" : "Ice Lab",
     "city_distance": [10, -1],
-    "occurrences": [1, 5],
+    "occurrences": [1, 4],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1028,7 +1028,7 @@
     "id": "Missile Silo",
     "copy-from" : "Missile Silo",
     "locations": [ "land", "swamp" ],
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1064,7 +1064,7 @@
     "type": "overmap_special",
     "id": "Mansion_Wild",
     "copy-from" : "Mansion_Wild",
-    "occurrences": [0, 2],
+    "occurrences": [1, 2],
     "rotate": true
   },{
     "type": "overmap_special",

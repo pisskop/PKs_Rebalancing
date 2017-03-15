@@ -785,9 +785,12 @@
         ".": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_N" ],
     "method": "json",
@@ -833,7 +836,8 @@
         "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_NE" ],
     "method": "json",
@@ -873,9 +877,12 @@
         ".": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_CW" ],
     "method": "json",
@@ -912,9 +919,12 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_C" ],
     "method": "json",
@@ -951,9 +961,12 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_CE" ],
     "method": "json",
@@ -990,9 +1003,12 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_SW" ],
     "method": "json",
@@ -1032,9 +1048,12 @@
         ".": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_S" ],
     "method": "json",
@@ -1071,9 +1090,12 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B1_SE" ],
     "method": "json",
@@ -1113,6 +1135,8 @@
         ".": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       }
     }
   },
@@ -1154,6 +1178,8 @@
         "c": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },
@@ -1170,7 +1196,8 @@
         "c": { "monster": "mon_cherub" }
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_N" ],
     "method": "json",
@@ -1221,7 +1248,8 @@
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 8 }
       ]
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_NE" ],
     "method": "json",
@@ -1259,6 +1287,8 @@
         "c": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },
@@ -1275,7 +1305,8 @@
         "c": { "monster": "mon_cherub" }
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_CW" ],
     "method": "json",
@@ -1312,6 +1343,8 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },
@@ -1324,7 +1357,8 @@
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
       ]
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_C" ],
     "method": "json",
@@ -1361,6 +1395,8 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },
@@ -1373,7 +1409,8 @@
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
       ]
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_CE" ],
     "method": "json",
@@ -1410,6 +1447,8 @@
         " ": "t_rock"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },
@@ -1422,7 +1461,8 @@
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 }
       ]
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_SW" ],
     "method": "json",
@@ -1460,6 +1500,8 @@
         "c": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "place_monsters": [
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 11 ], "y": [ 0, 11 ], "chance": 4 },
@@ -1478,7 +1520,8 @@
         "c": { "monster": "mon_cherub" }
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_S" ],
     "method": "json",
@@ -1515,6 +1558,8 @@
         "a": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "place_items": [
         { "item": "doom_lootpack", "chance": 95, "x": [ 10, 15 ], "y": [ 19, 21 ] },
@@ -1534,7 +1579,8 @@
         "a": { "monster": "mon_mechaspider" }
       }
     }
-  },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_castle_B2_SE" ],
     "method": "json",
@@ -1572,6 +1618,8 @@
         "c": "t_rock_floor"
       },
       "furniture": {
+        "S": "f_statue",
+        "s": "f_statue"
       },
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },

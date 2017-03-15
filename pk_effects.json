@@ -366,5 +366,23 @@
       "hurt_chance": [-5],
       "stamina_min": [-0.3]
     }
+  },
+  {
+    "type": "effect_type",
+    "id": "slashed",
+    "int_add_val": 1,
+    "max_intensity": 2,
+    "base_mods": {
+      "pain_min": [1],
+      "pain_max": [3],
+      "pain_chance": [3],
+      "hurt_min": [1],
+      "hurt_max": [2],
+      "hurt_chance": [10]
+    },
+    "scaling_mods": {
+      "pain_chance": [-2],
+      "hurt_chance": [-8]
+    }
   }
 ]

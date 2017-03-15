@@ -992,7 +992,7 @@
     "special_attacks": [
       [ "SMASH", 30 ],
       [ "GRAB", 7 ],
-      { "id": "hammer", "cooldown": 30, "accuracy": 4,
+      { "id": "hammer", "cooldown": 30, "accuracy": 3,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 }
         ]
@@ -1031,7 +1031,7 @@
     "hp": 220,
     "speed": 110,
     "aggression": 75,
-    "melee_skill": 10,
+    "melee_skill": 8,
     "melee_dice": 6,
     "melee_dice_sides": 4,
     "melee_cut": 6,

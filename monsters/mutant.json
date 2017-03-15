@@ -622,7 +622,7 @@
         "cooldown": 5,
         "move_cost": 200,
         "gun_type": "tihar",
-        "ammo_type": "bearing",
+        "ammo_type": "pebble",
         "fake_skills": [ [ "gun", 5 ], [ "rifle", 3 ] ],
         "fake_str": 14,
         "fake_dex": 16,
@@ -637,7 +637,7 @@
         "no_ammo_sound": "kowwabunga!"
       }
     ],
-    "starting_ammo": { "bearing": 1000 },
+    "starting_ammo": { "pebble": 1000 },
     "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "GROUP_BASH", "HUMAN", "BLEED", "BONES", "GROUP_MORALE", "REGEN_MORALE", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "FIRE" ],
     "placate_triggers": [ "HURT", "PLAYER_WEAK" ]
@@ -812,7 +812,7 @@
           { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.8 }
         ],
         "effects": [
-          { "id": "grabbed", "duration": 1000 }
+          { "id": "grabbed", "duration": 1000, "bp": "TORSO" }
         ]
       }
     ],
@@ -828,52 +828,38 @@
     "copy-from": "mon_graboid",
     "diff": 28,
     "hp": 230,
-    "speed": 180,
+    "speed": 170,
     "aggression": 50,
     "morale": 120,
     "melee_skill": 5,
-    "melee_dice": 3,
-    "melee_dice_sides": 12,
+    "melee_dice": 6,
+    "melee_dice_sides": 6,
     "melee_cut": 9,
     "armor_bash": 12,
     "armor_cut": 6,
     "armor_stab": 8,
+    "vision_day": 2,
+    "vision_night": 2,
     "special_attacks": [
       [ "RANGED_PULL", 15 ],
-      { "id": "hammer", "cooldown": 20,
+      [ "GRAB_DRAG", 25 ],
+      { "id": "hammer", "cooldown": 40,
         "damage_max_instance": [
-          { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 }
+          { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.75 }
         ]
       },
       { "type": "bite", "cooldown": 30, "accuracy": 6,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.85 },
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.85 }
+        ],
+        "effects": [
+          { "id": "grabbed", "duration": 1000, "bp": "TORSO" }
         ]
-      },
-      {
-        "type": "gun",
-        "cooldown": 5,
-        "move_cost": 250,
-        "gun_type": "tihar",
-        "ammo_type": "marble",
-        "fake_skills": [ [ "rifle", 3 ] ],
-        "fake_str": 24,
-        "fake_dex": 8,
-        "fake_per": 10,
-        "max_ammo": 1000,
-        "ranges": [ [ 0, 2, "AUTO" ] ],
-        "targeting_cost": 150,
-        "require_targeting_player": false,
-        "require_targeting_npc": false,
-        "require_targeting_monster": false,
-        "description": "Fanged tongues shot out of the graboid's mouth and shred at the foe!",
-        "no_ammo_sound": "skaaaaa!"
       }
     ],
-    "starting_ammo": { "marble": 1000 },
     "death_function": [ "WORM", "NORMAL" ],
-    "flags": [ "DIGS", "HEARS", "POISON", "GOODHEARING", "BASHES", "WARM", "LEATHER", "FAT" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "DIGS", "BASHES", "POISON", "WARM", "LEATHER", "FAT" ],
     "anger_trigger": [ "SOUND", "FRIEND_ATTACKED", "PLAYER_WEAK" ],
     "fear_trigger": [ "HURT", "FRIEND_DIED", "FIRE" ]
   },

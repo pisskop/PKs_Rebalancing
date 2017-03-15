@@ -109,7 +109,37 @@
       ]
     },
     "flags": [ "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
-  },{
+  },
+  {
+    "id": "homebrew_antiseptic",
+    "type": "COMESTIBLE",
+    "name": "homebrew antiseptic",
+    "description": "A desperate concoction of materials found in the wilderness, that will hopefully treat a wound and halt or prevent infection.  It may be susperstition, but it may also have healing properties too.  It better, for all the stinging it does.",
+    "weight": 450,
+    "volume": 1,
+    "price": 500,
+    "symbol": "%",
+    "color": "lt_green",
+    "fun": -8,
+    "healthy": 1,
+    "revert_to": "paper",
+    "comestible_type": "MED",
+    "use_action": {
+      "type": "heal",
+      "move_cost": 1200,
+      "bleed": 0.70,
+      "bite": 0.40,
+      "infect": 0.22,
+      "limb_power": 1,
+      "head_power": 2,
+      "torso_power": 1,
+      "effects": [
+        { "id": "stung", "duration": 12 }
+      ]
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
+  },
+  {
     "id": "antidote_posion",
     "type": "COMESTIBLE",
     "name": "triffid antidote",
@@ -314,5 +344,14 @@
     "healthy" : 5,
     "addiction_potential" : 30,
     "flags" : "NPC_SAFE"
+  },
+  {
+    "id" : "flu_shot",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "flu shot",
+    "copy-from": "flu_shot",
+    "description" : "Pharmaceutical flu shot designed for mass vaccinations, still in the packaging.  Purported to provide immunity to influenza.  Most work by infecting you with a weakened or inert strain or proteins of the virus to allow your natural immune response to develop.",
+    "healthy": 3
   }
 ]
