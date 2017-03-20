@@ -56,11 +56,11 @@
     "description": "A gargantuan protoplasmic blob, constantly reshaping, forming new pseudopods seemingly at will.  All over its body are eyes that form and disappear.  It looks at you with malice.",
     "aggression": 80,
     "morale": 100,
-    "melee_skill": 10,
+    "melee_skill": 9,
     "melee_dice": 8,
     "melee_dice_sides": 5,
     "melee_damage": [
-      { "damage_type": "acid", "amount": 20 },
+      { "damage_type": "acid", "amount": 10 },
       { "damage_type": "biological", "amount": 1 }
     ],
     "armor_bash": 10,

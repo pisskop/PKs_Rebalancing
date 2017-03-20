@@ -61,9 +61,9 @@
       "place_items": [
         { "item": "corpses_human", "chance": 80, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
         { "item": "default_zombie_items", "chance": 95, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "spider", "chance": 25, "x": [ 1, 22 ], "y": [ 1, 22 ] },
-        { "item": "survivorzed_extra", "chance": 25, "x": [ 1, 22 ], "y": [ 1, 22 ] },
-        { "item": "science", "chance": 25, "x": [ 1, 22 ], "y": [ 1, 22 ] }
+        { "item": "spider", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "survivorzed_extra", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "science", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ]
     }
   },{
@@ -117,7 +117,7 @@
         { "point": "radiation", "amount": [25, 35], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 100 , 200 ] }
       ],
       "place_fields": [
-        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 1 ] },
+        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 3 ] },
         { "field": "fd_gas_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 1, "repeat": [ 0 , 2 ] }
       ],
       "monster": {

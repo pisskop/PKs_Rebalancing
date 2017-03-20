@@ -311,7 +311,7 @@
     "copy-from": "mon_spider_trapdoor_giant",
     "description": "A gigantic spider with a bulbous thorax.  It digs an underground burrow that serves as a pit to trap unwary prey.",
     "diff": 15,
-    "hp": 60,
+    "hp": 55,
     "speed": 115,
     "aggression": 60,
     "morale": 100,
@@ -319,7 +319,7 @@
     "melee_dice": 1,
     "melee_dice_sides": 4,
     "melee_damage": [
-      { "damage_type": "acid", "amount": 3 }
+      { "damage_type": "acid", "amount": 2 }
     ],
     "melee_cut": 6,
     "dodge": 2,

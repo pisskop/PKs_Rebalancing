@@ -7,7 +7,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "spawns" : { "group": "GROUP_FOREST", "population": [0, 1], "chance": 65 },
+    "spawns" : { "group": "GROUP_FIELD", "population": [0, 1], "chance": 60 },
     "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
@@ -29,6 +29,15 @@
     "extras" : "subway",
     "flags" : [ "LINEAR", "ALLOW_OVERRIDE" ],
     "allow_road" : true
+  },{
+    "type" : "overmap_terrain",
+    "id" : "crater",
+    "name" : "crater",
+    "sym" : 79,
+    "color" : "red",
+    "see_cost" : 3,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "ants",
@@ -1393,7 +1402,7 @@
     "name" : "field",
     "sym" : 46,
     "color" : "brown",
-    "see_cost" : 2,
+    "see_cost" : 3,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
   },{
@@ -1405,6 +1414,96 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_00",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_01",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_02",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_10",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_11",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_12",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_20",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_21",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
+    "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "police_hub_22",
+    "name" : "police hub",
+    "sym" : 94,
+    "color" : "h_yellow",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
   }
 ]

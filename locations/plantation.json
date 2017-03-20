@@ -454,7 +454,7 @@
             ".": { "item": { "item": "rock", "chance": [ 1,600 ] } }
       },
       "place_monsters": [
-            { "monster": "GROUP_PEST", "x": [ 7 , 14 ], "y": [ 4 , 9 ], "chance": 2 }
+            { "monster": "GROUP_PEST", "x": [ 7 , 14 ], "y": [ 4 , 9 ], "chance": 4 }
       ]
     }
   },
@@ -829,7 +829,7 @@
         ">": "t_slope_down"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4 }
       ],
       "mapping": {
         ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
@@ -878,7 +878,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4 }
       ],
       "mapping": {
         ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
@@ -927,7 +927,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
       ],
       "mapping": {
         ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
@@ -976,7 +976,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
       ],
       "mapping": {
         ",": { "items": { "item": "hydro", "chance": 3 }
@@ -1024,7 +1024,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
       ],
       "mapping": {
         ",": { "items": { "item": "hydro", "chance": 3 }
@@ -1072,7 +1072,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
       ],
       "mapping": {
         ",": { "items": { "item": "hydro", "chance": 3 }
@@ -1120,7 +1120,7 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4, "repeat": [ 1 , 2 ] }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
       ],
       "mapping": {
         ",": { "items": { "item": "hydro", "chance": 3 }
