@@ -410,7 +410,7 @@
     "name": "Ithaca Fateless",
     "description": "One of the last shotguns produced via contract by manufacturer Ithaca, the Fateless is a sturdy and low maintenance underbarrel loader with a reduced barrel to increase manuverability.  With a partial aluminum  conversion, this lightweight shotgun could hold up to 12 shells and with the flick of a pin the weapon can be slamfired, allowing its user to fire new shells as fast as they can pump new shells into the chamber; without releasing the trigger.",
     "weight": 2466,
-    "volume": 7,
+    "volume": 6,
     "price": 200000,
     "to_hit": -2,
     "bashing": 6,
@@ -426,7 +426,8 @@
     "burst": 2,
     "clip_size": 12,
     "reload": 130,
-    "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ]
+    "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "bore", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
   },
   {
     "id": "BFG",

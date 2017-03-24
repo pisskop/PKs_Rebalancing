@@ -7,7 +7,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "spawns" : { "group": "GROUP_FIELD", "population": [0, 1], "chance": 60 },
+    "spawns" : { "group": "GROUP_FIELD", "population": [0, 1], "chance": 35 },
     "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",

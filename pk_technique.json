@@ -1,0 +1,23 @@
+[
+  {
+    "type" : "technique",
+    "id" : "heavy_blow",
+    "name" : "Hammerblow",
+    "unarmed_allowed" : true,
+    "melee_allowed" : true,
+    "crit_tec" : true,
+    "stun_dur" : 3,
+    "knockback_dist" : 1,
+    "weighting" : -3,
+    "messages" : [
+      "You hammer on %s",
+      "<npcname> hammers at %s"
+    ],
+    "mult_bonuses" : [
+      ["movecost", 1.75],
+      ["damage", "bash", 1.66],
+      ["damage", "cut", 0.75],
+      ["damage", "stab", 1.33]
+    ]
+  }
+]

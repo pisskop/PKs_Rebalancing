@@ -1,4 +1,19 @@
 [
+  
+  {
+    "result": "candlestick",
+    "type": "uncraft",
+    "override": true,
+    "time": 3500,
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "gold_small", 100 ] ],
+      [ [ "silver_small", 400 ] ],
+      [ [ "steel_lump", 1 ] ]
+    ]
+  },
   {
     "result": "duster_leather",
     "type": "recipe",

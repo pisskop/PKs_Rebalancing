@@ -46,7 +46,7 @@
         " ": "t_carpet_green",
         "-": "t_brick_wall",
         "_": "t_wall",
-        "+": [ "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_o" ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         ".": "t_thconc_floor",
         ",": "t_thconc_floor",
         "l": "t_thconc_floor",
@@ -80,9 +80,9 @@
         ",": { "items": { "item": "kennel_dog", "chance": 35 } }
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_ROBOT", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_ROBOT", "chance": 9, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_DOGS", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_DOGS", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
@@ -128,7 +128,7 @@
         "-": "t_brick_wall",
         "_": "t_wall",
         "|": "t_bars",
-        "+": [ "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_o" ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         ".": "t_thconc_floor",
         "C": "t_thconc_floor",
         "T": "t_thconc_floor",
@@ -170,7 +170,7 @@
         "place_monsters": [
           { "monster": "GROUP_POLICE", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_PLAIN", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_ROBOT", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_ROBOT", "chance": 9, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   },
@@ -218,7 +218,7 @@
         "]": "t_linoleum_gray",
         "M": "t_linoleum_gray",
         "C": "t_thconc_floor",
-        "+": [ "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_o" ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         "=": "t_strconc_wall",
         ".": "t_thconc_floor",
         "O": "t_thconc_floor",
@@ -265,8 +265,8 @@
         "O": { "items": [ { "item": "electronics", "chance": 20 }, { "item": "robots", "chance": 25 } ] }
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_ROBOT", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_ROBOT", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
@@ -330,9 +330,9 @@
         "B": { "items": { "item": "trash", "chance": 1 } }
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_ROBOT", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_ROBOT", "chance": 9, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   },
@@ -375,7 +375,7 @@
         " ": "t_carpet_green",
         "-": "t_brick_wall",
         "_": "t_wall",
-        "+": [ "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_o" ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         "=": [ "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter" ],
         ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt", "t_tree" ],
         "n": "t_grass",
@@ -406,17 +406,17 @@
       "mapping": {
         "B": { "items": [ { "item": "novels", "chance": 50 }, { "item": "textbooks", "chance": 10 } ] },
         "L": { "items": [ { "item": "cubical_office", "chance": 40 } ] },
-        "r": { "items": { "item": "cleaning", "chance": 85 } },
+        "r": { "items": { "item": "cleaning", "chance": 95 } },
         "T": { "items": { "item": "waitingroom", "chance": 30 } },
-        "D": { "items": { "item": "prison_armor", "chance": 80 } },
+        "D": { "items": { "item": "prison_armor", "chance": 90 } },
         "d": { "items": { "item": "office", "chance": 50 } },
         "F": { "items": { "item": "office", "chance": 15 } },
         "f": { "items": { "item": "office", "chance": 15 } }
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_ROBOT", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_ROBOT", "chance": 9, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   },
@@ -469,7 +469,7 @@
         "[": "t_linoleum_gray",
         "-": "t_brick_wall",
         "_": "t_wall",
-        "+": [ "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_c", "t_door_o" ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt", "t_tree" ],
         "M": "t_card_military",
         "X": "t_door_metal_locked",
@@ -499,20 +499,20 @@
         "B": { "items": [ { "item": "novels", "chance": 50 }, { "item": "textbooks", "chance": 10 } ] },
         "L": { "items": [ { "item": "gym", "chance": 35 }, { "item": "lab_dorm", "chance": 10 } ] },
         "l": { "items": [ 
-                        { "item": "guns_pistol_common", "chance": 6 }, { "item": "guns_pistol_rare", "chance": 3 }, { "item": "guns_pistol_common", "chance": 6 },
-                        { "item": "guns_shotgun_rare", "chance": 3 }, { "item": "guns_rifle_common", "chance": 6 }, { "item": "guns_rifle_rare", "chance": 3 },
+                        { "item": "guns_pistol_common", "chance": 7 }, { "item": "guns_pistol_rare", "chance": 3 }, { "item": "guns_pistol_common", "chance": 7 },
+                        { "item": "guns_shotgun_rare", "chance": 3 }, { "item": "guns_rifle_common", "chance": 7 }, { "item": "guns_rifle_rare", "chance": 3 },
                         { "item": "mags_pistol_rare", "chance": 5 }, { "item": "mags_shotgun_rare", "chance": 5 }, { "item": "mags_rifle_rare", "chance": 5 },
-                        { "item": "ammo_pistol_common", "chance": 8 }, { "item": "ammo_pistol_rare", "chance": 3 }, { "item": "ammo_shotgun_common", "chance": 8 },
-                        { "item": "ammo_shotgun_rare", "chance": 3 }, { "item": "ammo_rifle_common", "chance": 8 }, { "item": "ammo_rifle_rare", "chance": 3 } ] },
+                        { "item": "ammo_pistol_common", "chance": 9 }, { "item": "ammo_pistol_rare", "chance": 3 }, { "item": "ammo_shotgun_common", "chance": 9 },
+                        { "item": "ammo_shotgun_rare", "chance": 3 }, { "item": "ammo_rifle_common", "chance": 9 }, { "item": "ammo_rifle_rare", "chance": 3 } ] },
         "T": { "items": { "item": "waitingroom", "chance": 30 } },
-        "D": { "items": { "item": "office", "chance": 85 } },
+        "D": { "items": { "item": "office", "chance": 95 } },
         "d": { "items": { "item": "office", "chance": 50 } },
         "F": { "items": { "item": "office", "chance": 15 } },
         "f": { "items": { "item": "office", "chance": 15 } }
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
           { "monster": "GROUP_ROBOT", "chance": 5, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
@@ -562,8 +562,8 @@
         "f": "f_rack"
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   },
@@ -612,8 +612,8 @@
         "f": "f_rack"
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   },
@@ -662,8 +662,8 @@
         "f": "f_rack"
       },
         "place_monsters": [
-          { "monster": "GROUP_POLICE", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-          { "monster": "GROUP_PLAIN", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+          { "monster": "GROUP_POLICE", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
+          { "monster": "GROUP_PLAIN", "chance": 7, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ]
     }
   }

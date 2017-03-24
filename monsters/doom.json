@@ -403,6 +403,7 @@
     "armor_fire": 17,
     "vision_day": 40,
     "vision_night": 3,
+    "luminance": 5,
     "path_settings": { "max_dist": 25 },
     "starting_ammo": { "hell_napalm": 122 },
     "special_attacks": [
