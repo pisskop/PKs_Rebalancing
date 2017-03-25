@@ -115,7 +115,7 @@
     "city_sizes": [4, 16],
     "occurrences": [1, 1],
     "rotate": false,
-    "spawns": { "group": "GROUP_ROBOT", "population":[9,27], "radius":[75,150] }
+    "spawns": { "group": "GROUP_ROBOCOP", "population":[9,27], "radius":[75,150] }
   },{
     "type": "overmap_special",
     "id": "onestop_town",

@@ -103,7 +103,7 @@
     "type": "MONSTER",
     "name": "guard cyborg",
     "description": "An outdated and decrepit looking sentinel cyborg with a rather disturbing gun barrel where its left arm should be.  What little flesh it has is pallid.  Its steps are ackward and stiff with neglect.",
-    "default_faction": "science",
+    "default_faction": "bot",
     "species": [ "ROBOT" ],
     "diff": 24,
     "size": "MEDIUM",
@@ -361,5 +361,25 @@
     },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_1", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
+  },
+  {
+    "id": "mon_generator_SCINET",
+    "type": "MONSTER",
+    "name": "generator",
+    "description": "A generator that runs the Security, Crime, and Investigation Networking Eternal Team program.  Destroying it should stop the creation and resupply of new robots.",
+    "default_faction": "bot",
+    "species": [ "UNKNOWN" ],
+    "size": "HUGE",
+    "hp": 500,
+    "speed": 100,
+    "material": [ "steel" ],
+    "symbol": "4",
+    "color": "i_white",
+    "melee_cut": 0,
+    "armor_bash": 8,
+    "armor_cut": 14,
+    "special_attacks": [ [ "GENERATOR", 7 ] ],
+    "death_function": [ "SMOKEBURST" ],
+    "flags": [ "NOHEAD", "ACIDPROOF", "IMMOBILE" ]
   }
 ]

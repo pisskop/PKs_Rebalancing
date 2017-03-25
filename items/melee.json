@@ -136,7 +136,7 @@
     "material": [ "iron", "steel" ],
     "symbol": "/",
     "color": "dark_gray",
-    "techniques": [ "WBLOCK_1", "BRUTAL", "heavy_blow" ],
+    "techniques": [  "WIDE", "BRUTAL", "heavy_blow" ],
     "flags": [ "DURABLE_MELEE" ]
   },
   {
@@ -155,7 +155,7 @@
     "material": [ "iron", "steel" ],
     "symbol": "/",
     "color": "dark_gray",
-    "techniques": [ "WBLOCK_1", "BRUTAL", "heavy_blow" ],
+    "techniques": [  "WIDE", "BRUTAL", "heavy_blow" ],
     "flags": [ "DURABLE_MELEE", "SPEAR" ]
   }
 ]

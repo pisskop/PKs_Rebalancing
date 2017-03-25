@@ -222,6 +222,10 @@
     "base_mods": {
       "speed_mod": [-3],
       "dex_mod": [-0.6],
+      "hunger_min": [1],
+      "hunger_max": [2],
+      "hunger_tick": [600],
+      "hunger_chance": [3],
       "health_min": [-1],
       "health_tick": [90],
       "health_chance": [33],
@@ -237,7 +241,11 @@
       "pkill_tick": [10],
       "pkill_min": [1],
       "pkill_max_val": [60],
-      "stamina_min": [-2],
+      "hunger_min": [1],
+      "hunger_max": [2],
+      "hunger_tick": [-200],
+      "hunger_chance": [-1],
+      "stamina_min": [-0.5],
       "health_min": [-0.5],
       "health_tick": [-10],
       "h_mod_min": [-1]
@@ -261,8 +269,10 @@
     "part_descs": true,
     "base_mods": {
       "speed_mod": [-2],
-      "thirst_tick": [400],
-      "thirst_chance": [2],
+      "thirst_min": [1],
+      "thirst_max": [3],
+      "thirst_tick": [600],
+      "thirst_chance": [3],
       "pain_min": [1],
       "pain_chance": [2],
       "pain_max_val": [-1],
@@ -277,8 +287,9 @@
     },
     "scaling_mods": {
       "speed_mod": [-4],
-      "thirst_min": [1],
-      "thirst_tick": [-100],
+      "hunger_max": [1],
+      "thirst_tick": [-240],
+      "thirst_chance": [-1],
       "pain_max_val": [10],
       "hurt_chance": [200],
       "stamina_min": [-1],
@@ -471,12 +482,14 @@
       "speed_mod": [-5],
       "health_amount": [-10],
       "health_min": [-1],
-      "health_chance": [50],
+      "health_chance": [60],
       "health_tick": [30],
       "h_mod_amount": [-5],
       "h_mod_min": [-1],
       "h_mod_chance": [100],
-      "h_mod_tick": [60]
+      "h_mod_tick": [60],
+      "thirst_tick": [240],
+      "thirst_chance": [3]
     }
   },
   {
