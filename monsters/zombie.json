@@ -129,7 +129,10 @@
     "upgrades": {
       "half_life": 8,
       "into_group": "GROUP_ZOMBIE_DECAY"
-    }
+    },
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 }
+    ]
   },
   {
     "id": "mon_beekeeper",
@@ -167,11 +170,27 @@
     ]
   },
   {
+    "id": "mon_zombie_acidic",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_acidic",
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 }
+    ]
+  },
+  {
+    "id": "mon_zombie_spitter",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_acidic",
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 }
+    ]
+  },
+  {
     "id": "mon_zombie_corrosive",
     "type": "MONSTER",
     "copy-from": "mon_zombie_corrosive",
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 10 }
+      { "id": "rad_tenths", "duration": 30 }
     ],
     "emit_fields": [ "emit_acid_small" ]
   },
@@ -273,7 +292,7 @@
     "melee_skill": 8,
     "melee_dice": 2,
     "melee_dice_sides": 6,
-    "dodge": 3,
+    "dodge": 4,
     "armor_bash": 5,
     "armor_cut": 5,
     "special_attacks": [
@@ -396,6 +415,9 @@
     "melee_dice": 2,
     "melee_dice_sides": 7,
     "melee_cut": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 3,
@@ -939,6 +961,9 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_electric",
     "burn_into": "mon_zombie_scorched_shocker",
+    "melee_damage": [
+      { "damage_type": "electric", "amount": 4 }
+    ],
     "upgrades": {
       "half_life": 14,
       "into": "mon_zombie_electric_pk"
@@ -964,7 +989,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_damage": [
-      { "damage_type": "electric", "amount": 3 }
+      { "damage_type": "electric", "amount": 6 }
     ],
     "melee_cut": 2,
     "dodge": 3,
@@ -1010,7 +1035,7 @@
     "melee_dice_sides": 8,
     "melee_cut": 2,
     "melee_damage": [
-      { "damage_type": "electric", "amount": 6 }
+      { "damage_type": "electric", "amount": 8 }
     ],
     "dodge": 1,
     "armor_bash": 6,
@@ -1125,6 +1150,7 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_smoker",
     "attack_effs": [
+      { "id": "rad_fives", "duration": 5 },
       { "id": "rad_tenths", "duration": 30 }
     ],
     "emit_fields": [ "emit_smoke_stream" ],
@@ -1219,6 +1245,9 @@
     "melee_dice_sides": 6,
     "melee_damage": [
       { "damage_type": "true", "amount": 1 }
+    ],
+    "attack_effs": [
+      { "id": "rad_fives", "duration": 5 }
     ],
     "dodge": 6,
     "armor_bash": 6,
@@ -1527,6 +1556,9 @@
     "melee_cut": 4,
     "melee_damage": [
       { "damage_type": "stab", "amount": 6 }
+    ],
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 15 }
     ],
     "dodge": 1,
     "armor_bash": 8,

@@ -252,7 +252,7 @@
     "color": "yellow_red",
     "ammo_type": "bomblet",
     "range": 25,
-    "damage": 3,
+    "damage": 4,
     "pierce": 200,
     "effects": [ "ACT_ON_RANGED_HIT", "RECOVER_5" ],
     "use_action": {
@@ -290,7 +290,7 @@
   {
     "id": "bomblet_archdemon",
     "type": "AMMO",
-    "name": "caccodemon spawner",
+    "name": "caccodemon rune",
     "description": "The archdemon will summon these, and you will die.",
     "weight": 100,
     "volume": 1,
@@ -316,27 +316,30 @@
     "id": "bomblet_chickenbot",
     "type": "AMMO",
     "name": "chickenbomb",
-    "description": "A small cylinder filled with explosive putty.",
-    "material": [ "plastic", "powder" ],
+    "description": "A glowing hole in the ground, vaguely shaped like a star.",
+    "material": [ "steel" ],
     "symbol": "*",
     "color": "ltred",
     "count": 8,
     "ammo_type": "bomblet",
     "range": 50,
-    "dispersion": 450,
-    "sight_dispersion": 450,
-    "recoil": 450,
-    "damage": 10,
+    "dispersion": 350,
+    "sight_dispersion": 350,
+    "recoil": 100,
+    "damage": 20,
     "pierce": 10,
-    "effects": [ "NEVER_MISFIRES", "NO_EMBED", "COOKOFF", "RECOVER_99", "ACT_ON_RANGED_HIT" ],
-    "explode_in_fire": true,
+    "effects": [ "NEVER_MISFIRES", "NO_EMBED", "RECOVER_9", "ACT_ON_RANGED_HIT" ],
+    "initial_charges": 2,
+    "turns_per_charge": 1,
+    "emits": [ "emit_fire_bomblet_small" ],
     "countdown_interval": 2,
+    "countdown_destroy": true,
     "countdown_action": {
       "target": "bomblet_chickenbot_act",
-      "target_charges": 2,
       "active": true,
       "type": "transform"
-    }
+    },
+    "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
   },
   {
     "id": "bomblet_chickenbot_act",
@@ -346,13 +349,14 @@
     "description": "bwaaack",
     "symbol": "*",
     "color": "ltred",
+    "material": [ "steel" ],
     "initial_charges": 2,
     "turns_per_charge": 1,
     "use_action": {
       "type": "explosion",
-        "explosion": {
-        "power": 35,
-        "distance_factor": 0.3,
+      "explosion": {
+        "power": 40,
+        "distance_factor": 0.5,
         "shrapnel": 1
       }
     },

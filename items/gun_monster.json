@@ -10,14 +10,14 @@
     "ammo": "bomblet",
     "skill": "launcher",
     "range": 50,
-    "dispersion": 450,
-    "sight_dispersion": 450,
-    "recoil": 450,
+    "dispersion": 350,
+    "sight_dispersion": 350,
+    "recoil": 100,
     "durability": 10,
     "burst": 8,
     "clip_size": 24,
     "reload": 150,
-    "ammo_effects": [ "DRAW_AS_LINE" ],
+    "ammo_effects": [ "DRAW_AS_LINE", "LASER", "WIDE" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS" ]
   },
   {
@@ -71,11 +71,7 @@
     "loudness": 1,
     "clip_size": 1,
     "reload": 300,
-    "ammo_effects": [
-      "PLASMA",
-      "NEVER_MISFIRES",
-      "BLINDS_EYES"
-    ],
+    "ammo_effects": [ "PLASMA", "NEVER_MISFIRES", "BLINDS_EYES" ],
     "flags": [ "NEVER_JAMS", "NO_AMMO", "NO_UNLOAD" ]
   },
   {
@@ -126,9 +122,7 @@
     "loudness": 1,
     "clip_size": 666,
     "reload": 200,
-    "ammo_effects": [
-      "LASER"
-    ],
+    "ammo_effects": [ "LASER" ],
     "flags": [ "NO_AMMO", "NO_UNLOAD" ]
   },
   {

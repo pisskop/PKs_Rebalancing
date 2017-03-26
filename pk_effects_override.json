@@ -45,7 +45,7 @@
       "vomit_chance": [400, 700],
       "rad_min": [1],
       "rad_max_val": [75],
-      "rad_chance": [1500],
+      "rad_chance": [1000],
       "h_mod_min": [-1],
       "h_mod_tick": [30],
       "h_mod_chance": [20]
@@ -87,14 +87,18 @@
       "pain_min": [-1, -0.5],
       "pain_min_val": [-20, -10],
       "pain_chance": [10, 30],
-      "stamina_min": [-1, 0]
+      "stamina_min": [-1, 0],
+      "rad_min": [1],
+      "rad_chance": [100]
     },
     "scaling_mods": {
       "dex_mod": [-0.34, -0.17],
       "speed_mod": [-5, -3],
       "pain_min": [-0.1],
       "pain_min_val": [-5, -3],
-      "stamina_min": [-0.1]
+      "stamina_min": [-0.1],
+      "rad_min": [0.1],
+      "rad_chance": [-4]
     }
   },
   {

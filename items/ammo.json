@@ -550,7 +550,7 @@
     "range": 40,
     "damage": 35,
     "pierce": 20,
-    "effects": [ "RECOVER_99", "NO_EMBED", "BOUNCE", "PLASMA", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "LEAK_ALWAYS", "LEAK_DAM", "RADIOACTIVE" ],
+    "effects": [ "RECOVER_9", "NO_EMBED", "BOUNCE", "PLASMA", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION", "LEAK_ALWAYS", "LEAK_DAM", "RADIOACTIVE" ],
     "emits": [ "emit_bfg_rad", "emit_plasma", "emit_fatigue_big", "emit_fatigue" ],
     "countdown_interval": 2,
     "countdown_action": {

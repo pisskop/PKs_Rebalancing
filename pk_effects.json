@@ -29,6 +29,7 @@
     "max_intensity": 9,
     "base_mods": {
       "rad_min": [1],
+      "rad_max": [2],
       "rad_chance": [10],
       "h_mod_min": [1],
       "h_mod_chance": [100]
