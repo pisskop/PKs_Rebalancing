@@ -421,7 +421,10 @@
         "fake_dex": 8,
         "fake_per": 9,
         "max_ammo": 1000,
-        "ranges": [ [ 3, 23, "DEFAULT" ] ],
+        "ranges": [
+          [ 3, 15, "DEFAULT" ],
+          [ 16, 23, "AUTO" ]
+        ],
         "targeting_cost": 200,
         "targeting_sound": "fppphh~!",
         "targeting_volume": 50,
