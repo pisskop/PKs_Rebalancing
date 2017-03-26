@@ -10,32 +10,27 @@
     "weight": 128,
     "volume": 1,
     "price": 400,
-    "initial_charges": 5,
-    "turns_per_charge": 1,
     "use_action": {
       "type": "transform",
       "target": "handflare_act",
       "active": true,
+      "target_charges": 6,
       "msg": "You strike your flare."
     }
   },
   {
     "id": "handflare_act",
     "type": "TOOL",
-    "name": "flare",
+    "name": "struck flare",
+    "copy-from": "handflare",
     "description": "An activated flare, any moment now the chemicals will finish mixing and the flare will ignite.",
-    "material": [ "plastic", "powder" ],
-    "symbol": ";",
-    "color": "light_red",
-    "weight": 128,
-    "volume": 1,
-    "price": 400,
     "initial_charges": 6,
     "turns_per_charge": 1,
     "countdown_interval": 6,
     "countdown_action": {
       "type": "transform",
       "target": "handflare_lit",
+      "target_charges": 300,
       "active": true,
       "msg": "The flare lights up."
     }
