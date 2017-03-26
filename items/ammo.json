@@ -230,6 +230,9 @@
     "color": "red",
     "count": 1,
     "ammo_type": "gasoline",
+    "dispersion": 800,
+    "sight_dispersion": 800,
+    "recoil": 400,
     "range": 25,
     "damage": 13,
     "pierce": 25,
@@ -607,6 +610,29 @@
     "flags": [ "NPC_ACTIVATE" ]
   },
   {
+    "id": "molotov_micro_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "small homemade molotov (lit)",
+    "description": "A lit wick leading to a pool of gasoline...  maybe throw it?",
+    "weight": 285,
+    "volume": 1,
+    "material": [ "hydrocarbons", "cotton" ],
+    "symbol": "*",
+    "color": "ltred",
+    "initial_charges": 2,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "fields_type": "fd_fire",
+      "fields_radius": 0,
+      "fields_min_density": 0,
+      "fields_max_density": 2,
+      "no_deactivate_msg": "Throw it!"
+    },
+    "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
+  },
+  {
     "id": "shot_410_hull",
     "type": "AMMO",
     "copy-from": "casing",
@@ -845,5 +871,51 @@
     "recoil": 100,
     "drop": "handflare_lit",
     "effects": [ "NEVER_MISFIRES", "NO_EMBED", "RECOVER_10", "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "bomblet_chickenbot",
+    "type": "AMMO",
+    "name": "chickenbomb",
+    "description": "A small cylinder filled with explosive putty.",
+    "material": [ "plastic", "powder" ],
+    "symbol": "*",
+    "color": "ltred",
+    "count": 8,
+    "ammo_type": "bomblet",
+    "range": 50,
+    "dispersion": 500,
+    "sight_dispersion": 500,
+    "recoil": 500,
+    "damage": 3,
+    "pierce": 10,
+    "effects": [ "NEVER_MISFIRES", "NO_EMBED", "COOKOFF", "RECOVER_99", "ACT_ON_RANGED_HIT" ],
+    "explode_in_fire": true,
+    "countdown_interval": 2,
+    "countdown_action": {
+      "target": "bomblet_chickenbot_act",
+      "target_charges": 2,
+      "active": true,
+      "type": "transform"
+    }
+  },
+  {
+    "id": "bomblet_chickenbot_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "chickenbomb (act)",
+    "description": "bwaaack",
+    "symbol": "*",
+    "color": "ltred",
+    "initial_charges": 2,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+        "explosion": {
+        "power": 30,
+        "distance_factor": 0.3,
+        "shrapnel": 1
+      }
+    },
+    "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
   }
 ]

@@ -1,28 +1,5 @@
 [
   {
-    "id": "molotov_micro_act",
-    "type": "TOOL",
-    "category": "weapons",
-    "name": "small homemade molotov (lit)",
-    "description": "A lit wick leading to a pool of gasoline...  maybe throw it?",
-    "weight": 285,
-    "volume": 1,
-    "material": [ "hydrocarbons", "cotton" ],
-    "symbol": "*",
-    "color": "ltred",
-    "initial_charges": 2,
-    "turns_per_charge": 1,
-    "use_action": {
-      "type": "explosion",
-      "fields_type": "fd_fire",
-      "fields_radius": 0,
-      "fields_min_density": 0,
-      "fields_max_density": 2,
-      "no_deactivate_msg": "Throw it!"
-    },
-    "flags": [ "LIGHT_15", "TRADER_AVOID", "NPC_THROW_NOW" ]
-  },
-  {
     "id": "bot_thing_head",
     "type": "TOOL",
     "name": "thing head spawner",

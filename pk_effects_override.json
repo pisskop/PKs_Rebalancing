@@ -488,6 +488,8 @@
       "h_mod_min": [-1],
       "h_mod_chance": [100],
       "h_mod_tick": [60],
+      "thirst_min": [1],
+      "thirst_max": [2],
       "thirst_tick": [240],
       "thirst_chance": [3]
     }
