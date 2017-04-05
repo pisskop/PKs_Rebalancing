@@ -4,6 +4,10 @@
     "type": "MONSTER",
     "copy-from": "mon_fungal_hedgerow",
     "hp": 50,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 20 }
+    ],
     "armor_bash": 8,
     "armor_cut": 2,
     "armor_acid": 2,
@@ -26,6 +30,10 @@
     "type": "MONSTER",
     "copy-from": "mon_fungal_wall",
     "hp": 30,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 },
+      { "id": "rad_tenths", "duration": 30 }
+    ],
     "armor_bash": 12,
     "armor_cut": 3,
     "armor_acid": 1,
@@ -46,6 +54,9 @@
     "type": "MONSTER",
     "copy-from": "mon_fungaloid_young",
     "aggression": -25,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "special_attacks": [ [ "FUNGUS_GROWTH", 300 ] ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
     "flags": [ "HEARS", "SMELLS", "STUMBLES", "POISON", "NO_BREATHE", "NOHEAD" ]
@@ -55,6 +66,9 @@
     "type": "MONSTER",
     "copy-from": "mon_fungaloid",
     "aggression": -10,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "special_attacks": [ [ "FUNGUS", 40 ] ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
     "flags": [ "HEARS", "SMELLS", "STUMBLES", "POISON", "NO_BREATHE", "NOHEAD" ]
@@ -95,6 +109,9 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_fungus",
     "species": [ "ZOMBIE", "FUNGUS" ],
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 1 }
+    ],
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
@@ -109,6 +126,9 @@
     "type": "MONSTER",
     "copy-from": "mon_boomer_fungus",
     "species": [ "ZOMBIE", "FUNGUS" ],
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 1 }
+    ],
     "vision_day": 25,
     "vision_night": 3,
     "special_attacks": [
@@ -248,6 +268,9 @@
     "melee_dice_sides": 6,
     "melee_cut": 1,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "armor_bash": 5,
     "armor_cut": 3,
     "armor_acid": 2,
@@ -289,6 +312,9 @@
     ],
     "melee_cut": 3,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "armor_bash": 2,
     "armor_cut": 1,
     "vision_day": 40,
@@ -369,6 +395,10 @@
     ],
     "melee_cut": 1,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 }
+    ],
     "armor_bash": 6,
     "armor_cut": 2,
     "vision_day": 2,
@@ -445,6 +475,10 @@
     "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 },
+      { "id": "rad_tenths", "duration": 10 }
+    ],
     "armor_bash": 9,
     "armor_cut": 9,
     "armor_stab": 5,
@@ -488,6 +522,10 @@
     "melee_dice_sides": 6,
     "melee_cut": 8,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 7,
     "armor_cut": 7,
     "armor_stab": 3,
@@ -550,6 +588,10 @@
     "melee_dice_sides": 6,
     "melee_cut": 4,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 9,
     "armor_cut": 7,
     "armor_stab": 4,
@@ -611,6 +653,10 @@
     "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 5,
     "armor_cut": 8,
     "armor_stab": 6,
@@ -672,6 +718,10 @@
     "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 5,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 6,
     "armor_cut": 6,
     "armor_acid": 3,
@@ -735,6 +785,10 @@
     ],
     "melee_cut": 5,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 13,
     "armor_cut": 13,
     "armor_acid": 4,
@@ -777,6 +831,10 @@
     "melee_dice_sides": 9,
     "melee_cut": 5,
     "dodge": 6,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 16,
     "armor_cut": 16,
     "armor_acid": 6,
@@ -879,6 +937,10 @@
     ],
     "melee_cut": 3,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 10,
     "armor_cut": 18,
     "armor_acid": 3,
@@ -917,6 +979,10 @@
     "melee_dice_sides": 10,
     "melee_cut": 5,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 },
+      { "id": "rad_tenths", "duration": 30 }
+    ],
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,
@@ -953,6 +1019,10 @@
     "melee_dice": 2,
     "melee_dice_sides": 6,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 2,
     "armor_cut": 2,
     "vision_day": 25,

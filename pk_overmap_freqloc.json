@@ -17,7 +17,8 @@
     ],
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, -1],
-    "occurrences": [0, 2]
+    "occurrences": [0, 2],
+    "spawns" : { "group": "GROUP_BOG", "population": [0, 15], "radius":[75,200] }
   },{
     "type": "overmap_special",
     "id": "Mine Entrace",
@@ -694,8 +695,7 @@
       { "point":[2,2,0], "overmap": "megastore"}
     ],
       "connections": [
-        { "point": [-1,-1,0], "terrain": "road", "existing": true },
-        { "point": [3,-1,0], "terrain": "road" }
+        { "point": [-1,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],
@@ -722,7 +722,6 @@
       { "point":[2,2,0], "overmap": "megastore"}
     ],
       "connections": [
-        { "point": [-1,-1,0], "terrain": "road" },
         { "point": [3,-1,0], "terrain": "road" }
     ],
     "locations": [ "land" ],
@@ -836,10 +835,10 @@
     "id": "football_field",
     "copy-from" : "football_field",
     "connections": [
-        { "point": [0,3,0], "terrain": "road" }
+        { "point": [0,3,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "field" ],
-    "city_distance": [0, 8],
+    "city_distance": [0, 10],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": true

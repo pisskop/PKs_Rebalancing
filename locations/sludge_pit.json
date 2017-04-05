@@ -36,15 +36,15 @@
             ],
       "terrain": {
         ">": "t_slope_down",
-        "x": ["t_sludge", "t_tar"],
-        "o": ["t_sludge", "t_tar"],
-        "l": ["t_sludge", "t_tar"],
-        " ": ["t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt"],
-        "#": ["t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt"]
+        "x": [ "t_sludge", "t_tar" ],
+        "o": [ "t_sludge", "t_tar" ],
+        "l": [ "t_sludge", "t_tar" ],
+        " ": [ "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt" ],
+        "#": [ "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt" ]
       },
       "furniture": {
-        " ": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
-        "#": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null"]
+        " ": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
+        "#": [ "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_null" ]
       },
       "set": [
         { "point": "radiation", "amount": [20, 30], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 100 , 200 ] }
@@ -103,15 +103,15 @@
         ],
       "terrain": {
         "<": "t_slope_up",
-        "X": ["t_sludge", "t_tar"],
-        "x": ["t_sludge", "t_tar"],
-        "o": ["t_sludge", "t_tar"],
-        "l": ["t_sludge", "t_tar"],
-        " ": ["t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_rock"],
-        "#": ["t_tar", "t_sludge", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock"]
+        "X": [ "t_sludge", "t_tar" ],
+        "x": [ "t_sludge", "t_tar" ],
+        "o": [ "t_sludge", "t_tar" ],
+        "l": [ "t_sludge", "t_tar" ],
+        " ": [ "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_rock" ],
+        "#": [ "t_tar", "t_sludge", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock" ]
       },
       "furniture": {
-        " ": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"]
+        " ": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ]
       },
       "set": [
         { "point": "radiation", "amount": [25, 35], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 100 , 200 ] }

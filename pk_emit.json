@@ -12,9 +12,18 @@
     "type": "emit",
     "//": "a stream of toxic gas (example: gasbag)",
     "field": "fd_toxic_gas",
-    "qty": 3,
+    "qty": 9,
     "density": 3,
     "chance": 75
+  },
+  {
+    "id": "emit_gas_cloud",
+    "type": "emit",
+    "//": "a large cloud of toxic gas (example: swamp thing)",
+    "field": "fd_toxic_gas",
+    "qty": 22,
+    "density": 2,
+    "chance": 50
   },
   {
     "id": "emit_gas_plume",

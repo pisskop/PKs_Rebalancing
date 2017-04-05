@@ -101,6 +101,9 @@
     "melee_skill": 3,
     "melee_dice": 2,
     "melee_dice_sides": 5,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 8,
     "armor_cut": 5,
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC" ]
@@ -131,13 +134,17 @@
       "into_group": "GROUP_ZOMBIE_DECAY"
     },
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 10 }
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 15 }
     ]
   },
   {
     "id": "mon_beekeeper",
     "type": "MONSTER",
     "copy-from": "mon_beekeeper",
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "vision_day": 30,
     "vision_night": 5,
     "upgrades": {
@@ -563,6 +570,9 @@
     "melee_dice_sides": 9,
     "melee_cut": 2,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "armor_bash": 10,
     "armor_cut": 6,
     "armor_acid": 2,
@@ -678,7 +688,8 @@
     "vision_day": 35,
     "vision_night": 5,
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400 },
+      { "id": "rad_tenths", "duration": 3 }
     ],
     "emit_fields": [ "emit_flesh_slough" ],
     "special_attacks": [
@@ -763,6 +774,9 @@
     "melee_dice_sides": 5,
     "melee_cut": 5,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 3 }
+    ],
     "armor_bash": 8,
     "armor_cut": 6,
     "armor_acid": 4,
@@ -1137,6 +1151,7 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_gasbag",
     "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
       { "id": "rad_tenths", "duration": 30 }
     ],
     "emit_fields": [ "emit_radiation_plume", "emit_gas_stream", "emit_gas_plume" ],
@@ -1247,6 +1262,7 @@
       { "damage_type": "true", "amount": 1 }
     ],
     "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 },
       { "id": "rad_fives", "duration": 5 }
     ],
     "dodge": 6,
@@ -1388,6 +1404,11 @@
     "melee_dice_sides": 8,
     "melee_cut": 8,
     "dodge": 6,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 12,
     "armor_cut": 8,
     "armor_acid": 3,
@@ -1444,6 +1465,9 @@
     "melee_dice_sides": 6,
     "melee_cut": 3,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 2,
     "vision_day": 40,
     "vision_night": 5,
@@ -1485,6 +1509,9 @@
     "melee_dice_sides": 8,
     "melee_cut": 1,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 10,
     "armor_cut": 18,
     "armor_stab": 12,
@@ -1558,7 +1585,9 @@
       { "damage_type": "stab", "amount": 6 }
     ],
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 }
+      { "id": "rad_tenths", "duration": 15 },
+      { "id": "rad_tenths", "duration": 30 },
+      { "id": "rad_tenths", "duration": 45 }
     ],
     "dodge": 1,
     "armor_bash": 8,

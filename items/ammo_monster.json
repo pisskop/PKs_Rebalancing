@@ -234,7 +234,7 @@
       "type": "explosion",
       "no_deactivate_msg": "A gout of flames erupts into existence!",
       "explosion": {
-        "power": 1,
+        "power": 2,
         "distance_factor": 0.1
       }
     }
@@ -282,7 +282,7 @@
       "type": "explosion",
       "no_deactivate_msg": "A hellmouth is ripped forth!",
       "explosion": {
-        "power": 1,
+        "power": 2,
         "distance_factor": 0.1
       }
     }

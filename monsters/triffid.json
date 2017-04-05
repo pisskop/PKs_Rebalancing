@@ -40,6 +40,9 @@
     "name": "creeping grass",
     "description": "A vine-like tendril that is rooted to the ground.  It flails about constantly in a violent fashion for a time before disappearing into the Earth.",
     "hp": 5,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 3 }
+    ],
     "special_attacks": [
       [ "VINE", 10 ],
       [ "DISAPPEAR", 240 ]
@@ -64,7 +67,7 @@
         [ "biollante", 35 ],
         [ "biollante", 35 ]
       ],
-      "//": "do duplicate item_groups work here?"
+      "//": "do duplicate item_groups work here?  Yes.  they do."
     },
     "upgrades": {
       "half_life": 14,
@@ -98,6 +101,9 @@
     "melee_dice_sides": 8,
     "melee_cut": 5,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 4,
     "armor_cut": 6,
     "vision_day": 30,
@@ -227,6 +233,9 @@
     ],
     "melee_cut": 4,
     "dodge": 1,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 8,
     "armor_stab": 8,
     "special_attacks": [ [ "VINE", 7 ] ],
@@ -262,6 +271,9 @@
     ],
     "melee_cut": 4,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "armor_bash": 10,
     "armor_cut": 4,
     "armor_stab": 10,
@@ -296,6 +308,10 @@
     ],
     "melee_cut": 6,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "poison", "duration": 400 },
+      { "id": "rad_tenths", "duration": 10 }
+    ],
     "armor_bash": 8,
     "armor_cut": 6,
     "armor_stab": 12,
@@ -310,9 +326,6 @@
       "groups": [ [ "biollante", 75 ] ]
     },
     "death_function": [ "NORMAL" ],
-    "attack_effs": [
-      { "id": "poison", "duration": 400 }
-    ],
     "flags": [ "DIGS", "HEARS", "GOODHEARING", "SMELLS", "SWIMS", "PATH_AVOID_DANGER_1", "BASHES", "GROUP_BASH", "SWIMS", "NOHEAD", "PUSH_MON", "PLASTIC" ]
   },
   {
@@ -485,7 +498,9 @@
       { "id": "paralyzepoison", "duration": 200 },
       { "id": "paralyzepoison", "duration": 150 },
       { "id": "paralyzepoison", "duration": 100 },
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 100 },
+      { "id": "rad_tenths", "duration": 20 },
+      { "id": "rad_tenths", "duration": 20 }
     ],
     "special_attacks": [
       [ "TRIFFID_HEARTBEAT", 50 ],
@@ -527,6 +542,11 @@
     "melee_dice_sides": 5,
     "melee_cut": 5,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "paralyzepoison", "duration": 150 },
+      { "id": "paralyzepoison", "duration": 50 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 12,
     "armor_cut": 14,
     "armor_stab": 18,
@@ -535,10 +555,6 @@
     "vision_day": 40,
     "vision_night": 30,
     "path_settings": { "max_dist": 30 },
-    "attack_effs": [
-      { "id": "paralyzepoison", "duration": 150 },
-      { "id": "paralyzepoison", "duration": 50 }
-    ],
     "special_attacks": [
       [ "GROWPLANTS", 50 ],
       [ "SMASH", 30 ],
@@ -665,6 +681,9 @@
     "melee_dice_sides": 10,
     "melee_cut": 5,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,
@@ -701,6 +720,9 @@
     "melee_dice_sides": 10,
     "melee_cut": 5,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 30 }
+    ],
     "armor_bash": 8,
     "armor_cut": 4,
     "armor_fire": 4,

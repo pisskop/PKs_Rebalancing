@@ -400,7 +400,7 @@
     "vision_night": 5,
     "special_attacks": [
       [ "ant_dinject", 30 ],
-      [ "ANTQUEEN", 30 ],
+      [ "ANTQUEEN", 40 ],
       [ "FLAMETHROWER", 50 ],
       [ "SHRIEK_ALERT", 15 ],
       [ "SHRIEK_STUN", 1 ]

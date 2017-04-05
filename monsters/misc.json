@@ -13,7 +13,10 @@
     "type": "MONSTER",
     "copy-from": "mon_rattlesnake_giant",
     "attack_effs": [
-      { "id": "badpoison", "duration": 1200 }
+      { "id": "badpoison", "duration": 1200 },
+      { "id": "rad_tenths", "duration": 3 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 30 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
   },
@@ -46,6 +49,9 @@
     "melee_dice_sides": 10,
     "melee_cut": 12,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 2 }
+    ],
     "armor_bash": 6,
     "armor_cut": 8,
     "vision_day": 5,
@@ -85,9 +91,12 @@
     "aggression": 50,
     "morale": 100,
     "melee_skill": 3,
-    "melee_dice": 0,
-    "melee_dice_sides": 0,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
     "dodge": 1,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 }
+    ],
     "armor_bash": 2,
     "armor_cut": 4,
     "armor_acid": 6,
@@ -123,7 +132,8 @@
       { "type": "bite", "cooldown": 5, "no_infection_chance": 2, "moves": 250 }
     ],
     "attack_effs": [
-      { "id": "doom_unhealth", "duration": 1 }
+      { "id": "doom_unhealth", "duration": 1 },
+      { "id": "rad_tenths", "duration": 3 }
     ],
     "vision_day": 3,
     "vision_night": 20,
@@ -176,7 +186,9 @@
     "vision_night": 25,
     "starting_ammo": { "bot_rat": 25 },
     "attack_effs": [
-      { "id": "doom_unhealth", "duration": 10 }
+      { "id": "doom_unhealth", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 }
     ],
     "special_attacks": [
       [ "RATKING", 3 ],
@@ -733,7 +745,7 @@
     "melee_dice_sides": 2,
     "dodge": 3,
     "vision_day": 35,
-    "fear_triggers": [ "PLAYER_CLOSE" ],
+    "fear_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "BONES", "FEATHER" ]
   },
@@ -762,6 +774,11 @@
     ],
     "melee_cut": 6,
     "dodge": 5,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 60 }
+    ],
     "armor_bash": 14,
     "armor_cut": 6,
     "vision_day": 35,
@@ -813,6 +830,11 @@
     ],
     "melee_cut": 4,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 60 }
+    ],
     "armor_bash": 14,
     "armor_cut": 6,
     "vision_day": 30,
@@ -865,6 +887,11 @@
     ],
     "melee_cut": 6,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 60 }
+    ],
     "armor_bash": 10,
     "armor_cut": 6,
     "vision_day": 30,
@@ -911,6 +938,11 @@
     ],
     "melee_cut": 4,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 60 }
+    ],
     "armor_bash": 10,
     "armor_cut": 6,
     "vision_day": 30,
@@ -949,6 +981,10 @@
     ],
     "melee_cut": 4,
     "dodge": 6,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 1,
     "vision_day": 40,
     "vision_night": 5,
@@ -987,6 +1023,10 @@
       { "damage_type": "stab", "amount": 6 }
     ],
     "dodge": 2,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 },
+      { "id": "rad_tenths", "duration": 15 }
+    ],
     "armor_bash": 5,
     "armor_cut": 1,
     "vision_day": 35,
@@ -1032,6 +1072,9 @@
     ],
     "melee_cut": 1,
     "dodge": 1,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 }
+    ],
     "vision_day": 20,
     "vision_night": 7,
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK" ],
@@ -1061,6 +1104,9 @@
     "melee_dice_sides": 4,
     "melee_cut": 6,
     "dodge": 4,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 }
+    ],
     "vision_night": 20,
     "path_settings": { "max_dist": 12 },
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
@@ -1092,6 +1138,9 @@
       { "damage_type": "stab", "amount": 4 }
     ],
     "dodge": 3,
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 }
+    ],
     "vision_night": 20,
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
