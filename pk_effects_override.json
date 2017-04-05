@@ -131,7 +131,7 @@
       "hurt_chance": [450, 2700],
       "vomit_chance": [300, 900],
       "vomit_tick": [20],
-      "rad_chance": [400, 600],
+      "rad_chance": [300, 500],
       "rad_min": [5],
       "rad_max_val": [75],
       "h_mod_min": [-1],
@@ -148,7 +148,7 @@
       "hurt_min": [1],
       "hurt_chance": [-50, -900],
       "vomit_chance": [-120, 200],
-      "rad_chance": [-150],
+      "rad_chance": [-125],
       "rad_max_val": [25],
       "h_mod_chance": [-3, -2]
     }
@@ -203,7 +203,7 @@
       "hurt_max": [2],
       "vomit_chance": [-80, -50],
       "rad_max_val": [50],
-      "rad_chance": [-30, 100],
+      "rad_chance": [-30, -100],
       "h_mod_tick": [-10]
     }
   },

@@ -444,7 +444,7 @@
     "material" : [ "hardsteel", "plastic" ],
     "volume" : 18,
     "to_hit" : -1,
-    "encumbrance" : 32,
+    "encumbrance" : 26,
     "symbol" : "{",
     "flags" : ["OVERSIZE", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN"],
     "techniques" : [ "WBLOCK_3", "BRUTAL" ],
