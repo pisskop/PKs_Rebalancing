@@ -54,6 +54,25 @@
     "encumbrance": 18
   },
   {
+    "id": "dive_bag",
+    "type": "ARMOR",
+    "copy-from": "dive_bag",
+    "name": "dive bag",
+    "description": "A lightweight mesh backpack, commonly used by swimmers and divers.",
+    "weight": 512,
+    "volume": 6,
+    "price": 10900,
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "yellow",
+    "covers": [ "TORSO" ],
+    "coverage": 40,
+    "encumbrance": 9,
+    "storage": 38,
+    "material_thickness": 1,
+    "flags": [ "WATER_FRIENDLY", "BELTED" ]
+  },
+  {
     "id": "fireman_belt",
     "type": "ARMOR",
     "name": "firefighter belt",

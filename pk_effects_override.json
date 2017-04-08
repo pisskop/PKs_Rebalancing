@@ -17,6 +17,24 @@
   },
   {
     "type": "effect_type",
+    "id": "flushot",
+    "blocks_effects": ["flu", "flu_zed"]
+  },
+  {
+    "type": "effect_type",
+    "id": "onfire",
+    "name": ["On Fire"],
+    "desc": ["Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames."],
+    "remove_memorial_log": "Put out the fire.",
+    "apply_message": "You're on fire!  Wait in place to attempt to put out the fire.",
+    "apply_memorial_log": "Caught on fire.",
+    "rating": "bad",
+    "max_intensity": 3,
+    "int_dur_factor": 2,
+    "max_duration": 50
+  },
+  {
+    "type": "effect_type",
     "id": "cureall",
     "//": "This is the royal jelly effect, it should cure pretty much everything.",
     "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu"],

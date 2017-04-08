@@ -25,7 +25,7 @@
     "id": "ref_lighter_string",
     "type": "TOOL_ARMOR",
     "name": "wearable lighter",
-    "description": "A lighter with a bit of string and taping to allow it to be worn about the neck like a lanyard.",
+    "description": "A lighter with a bit of string and taping to allow it to be worn about the neck like a lanyard.  A bit fumbly to get a hold of, but perfectly servicable.",
     "weight": 25,
     "volume": 0,
     "price": 3000,

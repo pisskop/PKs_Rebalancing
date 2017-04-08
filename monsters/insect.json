@@ -14,7 +14,7 @@
     "attack_effs": [
       { "id": "doom_unhealth", "duration": 2 }
     ],
-    "special_attacks": [ [ "numbing_poison", 20 ] ],
+    "special_attacks": [ [ "numbing_poison", 20 ], [ "wound_minor", 40 ] ],
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
   },
   {
@@ -36,7 +36,7 @@
     "melee_damage": [
       { "damage_type": "stab", "amount": 4 }
     ],
-    "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ] ],
+    "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ], [ "wound_minor", 15 ] ],
     "attack_effs": [
       { "id": "poison", "duration": 400 }
     ],
@@ -262,6 +262,7 @@
     "vision_day": 5,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 20 ],
       [ "GRAB", 30 ],
       [ "VINE", 15 ]
     ],

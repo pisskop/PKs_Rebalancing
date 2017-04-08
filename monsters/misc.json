@@ -16,7 +16,8 @@
       { "id": "badpoison", "duration": 1200 },
       { "id": "rad_tenths", "duration": 3 },
       { "id": "rad_tenths", "duration": 10 },
-      { "id": "rad_tenths", "duration": 30 }
+      { "id": "rad_tenths", "duration": 30 },
+      { "id": "infection_minor", "duration": 5200 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
   },
@@ -64,7 +65,8 @@
           { "damage_type": "bash", "amount": 31, "armor_multiplier": 0.5 }
         ],
         "effects": [
-          { "id": "grabbed", "duration": 1000, "bp": "TORSO" }
+          { "id": "grabbed", "duration": 1000, "bp": "TORSO" },
+          { "id": "infection_minor", "duration": 28800 }
         ]
       }
     ],
@@ -129,11 +131,13 @@
     "melee_dice_sides": 2,
     "melee_cut": 2,
     "special_attacks": [
+      [ "wound_minor", 7 ],
       { "type": "bite", "cooldown": 5, "no_infection_chance": 2, "moves": 250 }
     ],
     "attack_effs": [
       { "id": "doom_unhealth", "duration": 1 },
-      { "id": "rad_tenths", "duration": 3 }
+      { "id": "rad_tenths", "duration": 3 },
+      { "id": "infection_minor", "duration": 2400 }
     ],
     "vision_day": 3,
     "vision_night": 20,
@@ -159,6 +163,7 @@
     "vision_day": 25,
     "vision_night": 10,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 5, "no_infection_chance": 4, "moves": 250 }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
@@ -188,9 +193,11 @@
     "attack_effs": [
       { "id": "doom_unhealth", "duration": 10 },
       { "id": "rad_tenths", "duration": 10 },
-      { "id": "rad_tenths", "duration": 10 }
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "infection_minor", "duration": 3600 }
     ],
     "special_attacks": [
+      [ "wound_minor", 60 ],
       [ "RATKING", 3 ],
       [ "GRENADIER", 15 ]
     ],
@@ -230,7 +237,7 @@
     "armor_cut": 1,
     "armor_acid": 2,
     "vision_day": 40,
-    "special_attacks": [ [ "hammer", 15 ] ],
+    "special_attacks": [ [ "hammer", 15 ], [ "wound_minor", 30 ] ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ]
@@ -260,6 +267,9 @@
         "//": "strong jaws",
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.75 }
+        ],
+        "effects": [
+          { "id": "infection_minor", "duration": 5200 }
         ]
       }
     ]
@@ -434,6 +444,7 @@
     "vision_night": 5,
     "path_settings": { "max_dist": 25 },
     "special_attacks": [
+      [ "wound_minor", 60 ],
       { "type": "bite", "cooldown": 20, "min_mul": 0.4, "no_infection_chance": 4 }
     ],
     "anger_triggers": [ "STALK", "HURT", "FRIEND_ATTACKED", "PLAYER_WEAK" ],
@@ -551,6 +562,7 @@
     "vision_night": 7,
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
+      [ "wound_minor", 40 ],
       { "type": "bite", "cooldown": 7, "min_mul": 0.5, "no_infection_chance": 5,
         "//": "strong jaws" }
     ],
@@ -629,6 +641,7 @@
     "armor_cut": 0,
     "path_settings": { "max_dist": 40 },
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "hammer", 40 ],
       { "type": "leap", "cooldown": 15, "max_range": 2 }
     ],

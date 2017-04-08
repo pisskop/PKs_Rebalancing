@@ -157,8 +157,15 @@
     "armor_cut": 10,
     "vision_day": 50,
     "vision_night": 5,
-    "special_attacks": [ 
+    "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "PARROT", 60 ],
+      { "id": "diseased swipe", "cooldown": 30, "accuracy": 2,
+          "effects": [
+            { "id": "nausea", "duration": 10 },
+            { "id": "tetanus", "duration": 121000 }
+          ]
+      },
       {
         "type": "gun",
         "cooldown": 60,

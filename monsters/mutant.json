@@ -42,7 +42,7 @@
     "armor_cut": 6,
     "vision_day": 15,
     "vision_night": 7,
-    "special_attacks": [ [ "DERMATIK", 20 ] ],
+    "special_attacks": [ [ "DERMATIK", 20 ], [ "wound_minor", 30 ] ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "STALK" ],
     "fear_triggers": [ "HURT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "FLIES", "CHITIN"]
@@ -141,6 +141,7 @@
       { "id": "rad_tenths", "duration": 20 }
     ],
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "GRAB", 30 ],
       [ "scratch", 15 ],
       { "type": "bite", "cooldown": 20 }
@@ -160,6 +161,7 @@
       { "id": "rad_tenths", "duration": 20 }
     ],
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "GRAB", 30 ],
       [ "SMASH", 30 ],
       [ "scratch", 60 ],
@@ -228,6 +230,7 @@
     "armor_cut": 1,
     "emit_fields": [ "emit_fatigue" ],
     "special_attacks": [
+      [ "wound_minor", 20 ],
       [ "FEAR_PARALYZE", 7 ],
       [ "GRAB_DRAG", 30 ],
       [ "STRETCH_ATTACK", 5 ],
@@ -439,6 +442,7 @@
     "vision_day": 40,
     "vision_night": 7,
     "special_attacks": [
+      [ "wound_minor", 40 ],
       [ "scratch", 20 ],
       [ "slash", 40 ]
     ],
@@ -555,6 +559,7 @@
     "vision_night": 20,
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
+      [ "wound_minor", 20 ],
       [ "numbing_poison", 5 ],
       [ "SHRIEK_ALERT", 30 ],
       [ "SHRIEK_STUN", 1 ],
@@ -596,6 +601,7 @@
     "vision_night": 5,
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
+      [ "wound_minor", 40 ],
       [ "LONGSWIPE", 20 ],
       [ "slash", 20 ],
       [ "IMPALE", 50 ],
@@ -869,6 +875,7 @@
     "vision_day": 35,
     "vision_night": 7,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "id": "hammer", "cooldown": 30,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 13, "armor_multiplier": 0.8 }
@@ -954,6 +961,7 @@
     "armor_bash": 3,
     "armor_cut": 2,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 30, "accuracy": 5,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 11, "armor_multiplier": 0.9 },

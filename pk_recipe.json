@@ -1224,5 +1224,25 @@
       [ [ "salt", 10 ], [ "salt_water", 1 ], [ "saline", 3 ],  [ "seasoning_salt", 25 ] ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
+  },
+  {
+    "result": "armguard_larmor_mod",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "fabrication", 3 ],
+    "time": 46000,
+    "autolearn": true,
+    "using": [ [ "filament", 20 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SEW", "level": 1 }
+    ],
+    "components": [
+      [ [ "armguard_larmor", 1 ] ],
+      [ [ "scrap", 2 ] ]
+    ]
   }
  ]

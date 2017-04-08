@@ -20,6 +20,7 @@
       [ "FUNGUS", 240 ],
       [ "TENTACLE", 50 ],
       [ "GRENADIER", 120 ],
+      [ "wound_minor", 30 ],
       [ "scratch", 20 ]
     ],
     "death_function": [ "FUNGUS", "DISINTEGRATE" ],
@@ -44,6 +45,7 @@
     "special_attacks": [
       [ "FUNGUS_BRISTLE", 20 ],
       [ "FUNGUS", 30 ],
+      [ "wound_minor", 30 ],
       [ "GRENADIER", 60 ]
     ],
     "death_function": [ "FUNGUS", "DISINTEGRATE" ],
@@ -57,7 +59,7 @@
     "attack_effs": [
       { "id": "rad_tenths", "duration": 2 }
     ],
-    "special_attacks": [ [ "FUNGUS_GROWTH", 300 ] ],
+    "special_attacks": [ [ "FUNGUS_GROWTH", 300 ], [ "wound_minor", 20 ] ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
     "flags": [ "HEARS", "SMELLS", "STUMBLES", "POISON", "NO_BREATHE", "NOHEAD" ]
   },
@@ -69,7 +71,7 @@
     "attack_effs": [
       { "id": "rad_tenths", "duration": 2 }
     ],
-    "special_attacks": [ [ "FUNGUS", 40 ] ],
+    "special_attacks": [ [ "FUNGUS", 20 ], [ "wound_minor", 30 ] ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED" ],
     "flags": [ "HEARS", "SMELLS", "STUMBLES", "POISON", "NO_BREATHE", "NOHEAD" ]
   },
@@ -92,6 +94,7 @@
     "vision_day": 3,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS_INJECT", 30 ],
       [ "GRAB", 30 ],
       [ "FUNGUS", 300 ]
@@ -115,6 +118,7 @@
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS", 200 ],
       [ "scratch", 25 ],
       { "type": "bite", "cooldown": 5 }
@@ -132,6 +136,7 @@
     "vision_day": 25,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS", 100 ],
       [ "BOOMER", 20 ],
       [ "scratch", 25 ]
@@ -162,6 +167,7 @@
     "vision_day": 5,
     "vision_night": 5,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "PLANT", 60 ],
       [ "SUICIDE", 90 ]
     ],
@@ -235,6 +241,7 @@
     "vision_day": 50,
     "vision_night": 10,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "LUNGE", 3 ],
       [ "SUICIDE", 90 ],
       [ "SHRIEK", 15 ],
@@ -277,6 +284,7 @@
     "vision_day": 35,
     "vision_night": 10,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS", 120 ],
       [ "HOWL", 60 ],
       [ "hammer", 40 ]
@@ -320,6 +328,7 @@
     "vision_day": 40,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS", 120 ],
       [ "FUNGUS_INJECT", 60 ],
       { "type": "bite", "cooldown": 7, "min_mul": 0.65, "no_infection_chance": 9,
@@ -404,6 +413,7 @@
     "vision_day": 2,
     "vision_night": 2,
     "special_attacks": [
+      [ "wound_minor", 40 ],
       [ "TENTACLE", 20 ],
       [ "FUNGUS_INJECT", 10 ],
       [ "FUNGUS", 240 ]
@@ -441,6 +451,7 @@
     "vision_day": 5,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "GRAB", 20 ],
       [ "VINE", 7 ],
       [ "FUNGUS", 90 ],
@@ -485,6 +496,7 @@
     "vision_day": 35,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "FUNGUS", 180 ],
       [ "SHRIEK", 120 ],
       [ "GRAB", 15 ],
@@ -900,6 +912,7 @@
     "armor_cut": 2,
     "armor_stab": 12,
     "special_attacks": [
+      [ "wound_minor", 5 ],
       [ "FUNGUS", 100 ],
       [ "VINE", 7 ],
       [ "FUNGUS_INJECT", 50 ],
@@ -1029,7 +1042,7 @@
     "vision_night": 3,
     "luminance": 5,
     "special_attacks": [
-      [ "SHOCKSTORM", 50 ],
+      [ "SHOCKSTORM", 45 ],
       { "type": "bite", "cooldown": 12, "no_infection_chance": 3 }
     ],
     "special_when_hit": [ "ZAPBACK", 40 ],
@@ -1065,6 +1078,7 @@
     "vision_night": 5,
     "special_attacks": [
       [ "FUNGUS", 60 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 20, "min_mul": 85, "no_infection_chance": 5,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.80 },

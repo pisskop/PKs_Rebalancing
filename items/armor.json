@@ -476,5 +476,27 @@
     "warmth": 20,
     "material_thickness": 3,
     "flags": [ "STURDY", "SKINTIGHT" ]
+  },
+  {
+    "id": "armguard_larmor_mod",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "pair of armored leather arm guards",
+    "name_plural": "pairs of armored leather arm guards",
+    "description": "A pair of tough leather arm guards.  Light and comfortable, with reinforced elbows, and rough studs and strips of metal worked in.",
+    "weight": 1130,
+    "volume": 9,
+    "price": 4000,
+    "to_hit": 1,
+    "material": [ "leather", "iron" ],
+    "symbol": "[",
+    "color": "brown",
+    "covers": [ "ARMS" ],
+    "coverage": 92,
+    "encumbrance": 18,
+    "warmth": 25,
+    "material_thickness": 4,
+    "environmental_protection": 1,
+    "flags": [ "STURDY", "BLOCK_WHILE_WORN", "BULKY" ]
   }
 ]

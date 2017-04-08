@@ -83,6 +83,7 @@
     "armor_acid": 3,
     "vision_day": 30,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "type": "leap", "cooldown": 5, "max_range": 4 },
       { "type": "bite", "cooldown": 20, "accuracy": 5, "moves": 75, "no_infection_chance": 15,
         "damage_max_instance": [
@@ -124,6 +125,7 @@
     "vision_night": 7,
     "special_attacks": [
       [ "RANGED_PULL", 25 ],
+      [ "wound_minor", 40 ],
       [ "slash", 25 ],
       { "id": "hammer", "cooldown": 20, "accuracy": 7, "moves": 175,
         "damage_max_instance": [

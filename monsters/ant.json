@@ -11,7 +11,7 @@
     "armor_bash": 4,
     "armor_cut": 4,
     "armor_acid": 5,
-    "special_attacks": [ [ "ACID_BARF", 15 ], [ "ant_dinject", 30 ] ],
+    "special_attacks": [ [ "ACID_BARF", 15 ], [ "ant_dinject", 30 ], [ "wound_minor", 20 ] ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
@@ -41,6 +41,7 @@
     "special_attacks": [
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 7, "armor_multiplier": 0.8 },
@@ -175,6 +176,7 @@
     "special_attacks": [
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
@@ -260,6 +262,7 @@
       [ "GRAB_DRAG", 15 ],
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.5 },
@@ -318,6 +321,7 @@
       [ "GRAB_DRAG", 15 ],
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 10,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.5 },
@@ -438,7 +442,7 @@
     "armor_fire": 12,
     "vision_day": 25,
     "vision_night": 7,
-    "special_attacks": [ [ "ant_dinject", 40 ] ],
+    "special_attacks": [ [ "ant_dinject", 40 ], [ "wound_minor", 30 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],

@@ -4,8 +4,9 @@
     "type": "MONSTER",
     "copy-from": "mon_blob_large",
     "special_attacks": [
-       [ "FORMBLOB", 60 ],
-       [ "sliming", 60 ]
+      [ "FORMBLOB", 60 ],
+      [ "sliming", 60 ],
+      [ "wound_minor", 30 ]
     ]
   },
   {
@@ -41,7 +42,8 @@
     ],
     "special_attacks": [
       [ "FORMBLOB", 5 ],
-      [ "sliming", 20 ]
+      [ "sliming", 20 ],
+      [ "wound_minor", 30 ]
     ],
     "death_drops": "slime_death_drops",
     "flags": [ "SMELLS", "HEARS", "PLASTIC", "NO_BREATHE", "NOHEAD", "NOGIB", "ABSORBS" ],
@@ -69,6 +71,7 @@
     "special_attacks": [
       [ "PARROT", 40 ],
       [ "sliming", 20 ],
+      [ "wound_minor", 30 ],
       [ "FORMBLOB", 40 ],
       { "id": "hammer", "cooldown": 40, "moves": 250,
         "damage_max_instance": [

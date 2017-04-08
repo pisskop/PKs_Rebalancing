@@ -2,56 +2,47 @@
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "wasp_sting",
-    "cooldown": 20,
-    "move_cost": 200,
+    "id": "impale",
+    "cooldown": 25,
+    "move_cost": 350,
     "damage_max_instance": [
-      { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.85 },
-      { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.85 }
+      {
+        "damage_type": "stab",
+        "amount": 15,
+        "armor_penetration": 15,
+        "armor_multiplier": 0.6
+      }
     ],
+    "body_parts": [ [ "TORSO", 1 ] ],
     "effects": [
-      { "id": "poison", "duration": 400 }
+      { "id": "bleed", "duration": 15, "bp": "TORSO" },
+      { "id": "stunned", "duration": 3 },
+      { "id": "grabbed", "duration": 1000, "bp": "TORSO" },
+      { "id": "infection_minor", "duration": 9400 }
     ],
-    "hit_dmg_u": "The %1$s stings you!",
-    "hit_dmg_npc": "The %1$s stings <npcname>!",
-    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
-    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+    "hit_dmg_u": "The %1$s impales your torso!",
+    "hit_dmg_npc": "The %1$s impales <npcname>'s torso!",
+    "no_dmg_msg_u": "The %1$s tries to impale your torso, but fails to penetrate your armor!",
+    "no_dmg_msg_npc": "The %1$s tries to impale <npcname>'s torso, but fails to penetrate their armor!"
   },
   {
     "type": "monster_attack",
     "attack_type": "melee",
-    "id": "ant_dinject",
-    "cooldown": 20,
-    "move_cost": 200,
+    "id": "wound_minor",
+    "cooldown": 30,
+    "move_cost": 75,
     "damage_max_instance": [
-      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.85 },
-      { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.85 }
+      { "damage_type": "bash", "amount": 7, "armor_multiplier": 0.75 },
+      { "damage_type": "cut", "amount": 3, "armor_multiplier": 0.75 }
     ],
+    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "effects": [
-      { "id": "skunk_spray", "duration": 600 }
+      { "id": "infection_minor", "duration": 4800 }
     ],
-    "hit_dmg_u": "The %1$s stings you!",
-    "hit_dmg_npc": "The %1$s stings <npcname>!",
-    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
-    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
-  },
-  {
-    "type": "monster_attack",
-    "attack_type": "melee",
-    "id": "ant_sinject",
-    "cooldown": 20,
-    "move_cost": 200,
-    "damage_max_instance": [
-      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 },
-      { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
-    ],
-    "effects": [
-      { "id": "poison", "duration": 400 }
-    ],
-    "hit_dmg_u": "The %1$s stings you!",
-    "hit_dmg_npc": "The %1$s stings <npcname>!",
-    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
-    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+    "hit_dmg_u": "The %1$s stikes you!",
+    "hit_dmg_npc": "The %1$s strikes <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to strike you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to strike <npcname>, but fails to."
   },
   {
     "type": "monster_attack",
@@ -64,6 +55,9 @@
       { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.9 }
     ],
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
+    "effects": [
+      { "id": "infection_minor", "duration": 7600 }
+    ],
     "hit_dmg_u": "The %1$s claws at you!",
     "hit_dmg_npc": "The %1$s claws at <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to claw at you but fails.",
@@ -76,7 +70,8 @@
     "cooldown": 20,
     "move_cost": 180,
     "effects": [
-      { "id": "slashed", "duration": 5 }
+      { "id": "slashed", "duration": 5 },
+      { "id": "infection_minor", "duration": 9400 }
     ],
     "damage_max_instance": [
       { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
@@ -94,7 +89,8 @@
     "cooldown": 20,
     "move_cost": 220,
     "effects": [
-      { "id": "stunned", "duration": 5 }
+      { "id": "stunned", "duration": 5 },
+      { "id": "infection_minor", "duration": 1200 }
     ],
     "damage_max_instance": [
       { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.80 }
@@ -103,6 +99,82 @@
     "hit_dmg_npc": "The %1$s hammers on <npcname>!",
     "no_dmg_msg_u": "The %1$s tries to hammer at you but fails.",
     "no_dmg_msg_npc": "The %1$s tries to hammer at <npcname>, but fails to."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "diseased swipe",
+    "cooldown": 20,
+    "move_cost": 125,
+    "effects": [
+      { "id": "nausea", "duration": 250 },
+      { "id": "infection_minor", "duration": 14400 }
+    ],
+    "damage_max_instance": [
+      { "damage_type": "cut", "amount": 9, "armor_multiplier": 0.85 },
+      { "damage_type": "bash", "amount": 5, "armor_multiplier": 0.85 }
+    ],
+    "hit_dmg_u": "The %1$s shoots their corrupted limbs towards you!",
+    "hit_dmg_npc": "The %1$s shoots their corrupted limbs towards at <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to contaminate you but fails.",
+    "no_dmg_msg_npc": "The %1$s tries to contaminate <npcname>, but fails to."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "wasp_sting",
+    "cooldown": 20,
+    "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "cut", "amount": 6, "armor_multiplier": 0.85 },
+      { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.85 }
+    ],
+    "effects": [
+      { "id": "poison", "duration": 600 },
+      { "id": "infection_minor", "duration": 6400 }
+    ],
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "ant_dinject",
+    "cooldown": 20,
+    "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.85 },
+      { "damage_type": "stab", "amount": 3, "armor_multiplier": 0.85 }
+    ],
+    "effects": [
+      { "id": "skunk_spray", "duration": 600 },
+      { "id": "infection_minor", "duration": 5200 }
+    ],
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "ant_sinject",
+    "cooldown": 20,
+    "move_cost": 200,
+    "damage_max_instance": [
+      { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 },
+      { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
+    ],
+    "effects": [
+      { "id": "poison", "duration": 400 },
+      { "id": "infection_minor", "duration": 5200 }
+    ],
+    "hit_dmg_u": "The %1$s stings you!",
+    "hit_dmg_npc": "The %1$s stings <npcname>!",
+    "no_dmg_msg_u": "The %1$s tries to sting you, but fails to pierce.",
+    "no_dmg_msg_npc": "The %1$s tries to sting <npcname>, but fails."
   },
   {
     "type": "monster_attack",
@@ -118,7 +190,8 @@
       { "id": "paralyzepoison", "duration": 300 },
       { "id": "paralyzepoison", "duration": 150 },
       { "id": "paralyzepoison", "duration": 100 },
-      { "id": "paralyzepoison", "duration": 50 }
+      { "id": "paralyzepoison", "duration": 50 },
+      { "id": "infection_minor", "duration": 3200 }
     ],
     "hit_dmg_u": "The %1$s rakes you with its barbs!",
     "hit_dmg_npc": "The %1$s rakes at <npcname> with barbs!",
@@ -139,7 +212,8 @@
       { "id": "slimed", "duration": 400 },
       { "id": "paralyzepoison", "duration": 300 },
       { "id": "paralyzepoison", "duration": 100 },
-      { "id": "paralyzepoison", "duration": 20 }
+      { "id": "paralyzepoison", "duration": 20 },
+      { "id": "infection_minor", "duration": 9600 }
     ],
     "hit_dmg_u": "The %1$s coats you in slime!",
     "hit_dmg_npc": "The %1$s coats <npcname> with slime!"
@@ -172,7 +246,8 @@
     ],
     "effects": [
       { "id": "paralyzepoison", "duration": 600 },
-      { "id": "paralyzepoison", "duration": 20 }
+      { "id": "paralyzepoison", "duration": 20 },
+      { "id": "infection_minor", "duration": 5200 }
     ],
     "hit_dmg_u": "The %1$s injects you with a numbing poison!",
     "hit_dmg_npc": "The %1$s injects <npcname> with a numbing poison!",

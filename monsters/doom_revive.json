@@ -90,6 +90,7 @@
     "starting_ammo": { "flaming_skull": 66 },
     "special_attacks": [
       ["LUNGE", 40 ],
+      [ "wound_minor", 30 ],
       [ "hammer", 20 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
       { "type": "bite", "cooldown": 40,
@@ -150,6 +151,7 @@
     "special_attacks":
     [
       [ "hammer", 30 ],
+      [ "wound_minor", 30 ],
       [ "GRAB_DRAG", 10 ],
       {
         "type": "bite",
@@ -314,6 +316,7 @@
       ]
     },
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "id": "scratch",
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.85 },

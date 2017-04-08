@@ -31,6 +31,7 @@
     "special_attacks": [
       [ "scratch", 20 ],
       [ "LUNGE", 40 ],
+      [ "wound_minor", 30 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
       { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
       {
@@ -88,6 +89,7 @@
       [ "LUNGE", 40 ],
       [ "scratch", 40 ],
       [ "slash", 40 ],
+      [ "wound_minor", 30 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
       { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
       {
@@ -144,6 +146,7 @@
     "special_attacks": [
       [ "GRAB_DRAG", 10 ],
       [ "hammer", 20 ],
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 5, "accuracy": 4, "no_infection_chance": 3,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
@@ -188,6 +191,7 @@
     "emit_fields": [ "emit_fire_small" ],
     "special_attacks": [
       [ "LUNGE", 20 ],
+      [ "wound_minor", 10 ],
       {
         "type": "gun",
         "cooldown": 5,
@@ -465,6 +469,7 @@
     "path_settings": { "max_dist": 25 },
     "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
+      [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 20, "accuracy": 4, "no_infection_chance": 3,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 35, "armor_multiplier": 0.5 }
@@ -522,6 +527,7 @@
     "path_settings": { "max_dist": 50 },
     "starting_ammo": { "hell_laser": 264, "bot_cherub": 3, "bot_cherub_fly": 1 },
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "GRENADIER", 25 ],
       {
         "type": "gun",
@@ -633,6 +639,7 @@
     "vision_day": 20,
     "vision_night": 10,
     "special_attacks": [
+      [ "wound_minor", 10 ],
       { "id": "scratch",
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 8 },
@@ -666,6 +673,7 @@
     "dodge": 6,
     "starting_ammo": { "bot_cherub": 1 },
     "special_attacks": [
+      [ "wound_minor", 10 ],
       [ "GRENADIER", 15 ],
       { "id": "scratch",
         "damage_max_instance": [
@@ -758,6 +766,7 @@
     "armor_bash": 5,
     "armor_cut": 5,
     "special_attacks": [
+      [ "wound_minor", 20 ],
       { "id": "scratch",
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 10, "armor_multiplier": 0.85 },
@@ -798,7 +807,7 @@
     "dodge": 4,
     "armor_bash": 3,
     "armor_cut": 3,
-    "special_attacks": [ [ "scratch", 20 ] ],
+    "special_attacks": [ [ "scratch", 20 ], [ "wound_minor", 30 ] ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "GUILT" ],

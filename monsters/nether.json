@@ -33,6 +33,7 @@
     "vision_night": 35,
     "luminance": 8,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "PARROT", 30 ]
     ],
     "upgrades": {
@@ -73,6 +74,7 @@
     "vision_day": 15,
     "vision_night": 3,
     "special_attacks": [
+      [ "wound_minor", 30 ],
       [ "GRAB", 15 ],
       { "id": "scratch",
         "damage_max_instance": [
