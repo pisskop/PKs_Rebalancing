@@ -383,7 +383,6 @@
     "material": [ "plastic", "steel" ],
     "symbol": "=",
     "color": "yellow",
-    "count": 10,
     "ammo_type": "components"
   },
   {

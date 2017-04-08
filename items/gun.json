@@ -83,7 +83,7 @@
     "id": "bomblet_launcher_dualshot",
     "type": "GUN",
     "name": "PRMP2 Arbiter",
-    "description": "Designed to gsrant versatility to small squad operations, the PRMP2 arbiter is a burst-capable single-handed launcher that accepts up to 2 different rounds at once to accommodate today's changing battlefield.  While more versatile than a full launcher it suffers from increased reload times and rather intense recoil.",
+    "description": "Designed to grant versatility to small squad operations, the PRMP2 arbiter is a burst-capable single-handed launcher that accepts up to 2 different rounds at once to accommodate today's changing battlefield.  While more versatile than a full launcher it suffers from increased reload times and rather intense recoil.",
     "weight": 1642,
     "volume": 3,
     "price": 175000,

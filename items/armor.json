@@ -455,5 +455,26 @@
     "msg": "The tactical shield is lowered.",
     "target": "swat_shield"
     }
+  },
+  {
+    "id": "kevlar_tee",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "lined kevlar vest",
+    "description": "A lightweight, bullet resistant vest, with a sewn-in undershirt with an undershirt for comfort.  Suitable for wearing under clothing.",
+    "weight": 2924,
+    "volume": 24,
+    "price": 80000,
+    "to_hit": -3,
+    "bashing": 6,
+    "material": [ "kevlar" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 85,
+    "encumbrance": 4,
+    "warmth": 20,
+    "material_thickness": 3,
+    "flags": [ "STURDY", "SKINTIGHT" ]
   }
 ]

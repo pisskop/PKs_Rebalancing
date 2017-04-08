@@ -342,7 +342,7 @@
         "use_action" : "ANTIBIOTIC",
     "fun" : -1,
     "healthy" : 5,
-    "addiction_potential" : 30,
+    "addiction_potential" : 50,
     "flags" : "NPC_SAFE"
   },
   {
