@@ -1689,8 +1689,8 @@
     "aggression": 100,
     "morale": 100,
     "melee_skill": 5,
-    "melee_dice": 2,
-    "melee_dice_sides": 8,
+    "melee_dice": 8,
+    "melee_dice_sides": 2,
     "melee_cut": 1,
     "dodge": 2,
     "attack_effs": [

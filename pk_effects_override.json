@@ -2,6 +2,7 @@
   {
     "type": "effect_type",
     "id": "hallu",
+    "chance": 80,
     "max_duration": 2700,
     "base_mods": {
       "str_mod": [1]
@@ -23,7 +24,7 @@
   {
     "type": "effect_type",
     "id": "onfire",
-    "chance": 60,
+    "chance": 65,
     "name": ["On Fire"],
     "desc": ["Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames."],
     "remove_memorial_log": "Put out the fire.",
@@ -38,7 +39,7 @@
     "type": "effect_type",
     "id": "cureall",
     "//": "This is the royal jelly effect, it should cure pretty much everything.",
-    "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu"],
+    "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu", "flu_zed", "infection_minor"],
     "base_mods": {
       "rad_amount": [-75],
       "health_amount": [5]
@@ -152,7 +153,7 @@
       "vomit_tick": [20],
       "rad_chance": [300, 500],
       "rad_min": [5],
-      "rad_max_val": [75],
+      "rad_max_val": [50],
       "h_mod_min": [-1],
       "h_mod_tick": [60],
       "h_mod_chance": [15]

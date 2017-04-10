@@ -316,59 +316,6 @@
   },
   {
     "type": "mutation",
-    "id": "20_15",
-    "name": "20/15 Vision",
-    "points": 2,
-    "visibility": -1,
-    "ugliness": -1,
-    "description": "Your eyes are rated at perfect human levels - just like the rest of you.  You gain +1 perception",
-    "starting_trait": true,
-    "cancels": ["BIRD_EYE", "LIZ_EYE", "FEL_EYE", "URSINE_EYE", "COMPOUND_EYES", "ELFAEYES", "CEPH_EYES", "HYPEROPIC", "MYOPIC", "NIGHTVISION2"],
-    "category": ["MUTCAT_ALPHA", "MUTCAT_MEDICAL"],
-    "passive_mods": {
-      "per_mod": 1
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "hypostasis",
-    "name": "Hypostasis",
-    "points": -2,
-    "description": "Your body continuously struggles to keep up with your new physiology  You occassionally feel less than perfect; unhealthy and in need of remedy.",
-    "starting_trait": true,
-    "category": ["MUTCAT_ALPHA", "MUTCAT_MEDICAL"],
-    "passive_mods": {
-      "health_min": -5,
-      "health_max": -1,
-      "health_chance": 10,
-      "health_tick": 600,
-      "h_mod_min": -10,
-      "h_mod_min_val": -5,
-      "h_mod_chance": 10,
-      "h_mod_tick": 600
-      }
-  },
-  {
-    "type": "mutation",
-    "id": "growpangs",
-    "name": "Growing Pangs",
-    "points": -2,
-    "description": "The molding of perfection was a success, though the clay of the past still remains.  Your body's more vestigial parts occassionally spur minor pain and stimulation within you.  A minor side effect.",
-    "starting_trait": true,
-    "category": ["MUTCAT_ALPHA"],
-    "passive_mods": {
-      "pain_min": 6,
-      "pain_max": 24,
-      "pain_chance": 10,
-      "pain_tick": 740,
-      "stim_min": 5,
-      "stim_min_val": 10,
-      "stim_chance": 25,
-      "stim_tick": 335
-      }
-  },
-  {
-    "type": "mutation",
     "id": "CANNIBAL",
     "name": "Cannibal",
     "points": 1,
@@ -634,6 +581,7 @@
     "points": -1,
     "description": "On rare occasion, you will go full-auto when you intended to fire a single shot.  This has no effect when firing semi-automatic firearms.",
     "starting_trait": true,
+    "threshreq": ["THRESH_MEDICAL", "THRESH_RAT", "THRESH_LUPINE"],
     "category": ["MUTCAT_MEDICAL", "MUTCAT_RAT", "MUTCAT_LUPINE"]
   },
   {
@@ -655,35 +603,8 @@
     "description": "You suffer from a minor chemical imbalance, whether mental or physical.  Minor changes to your internal chemistry will manifest themselves on occasion, such as hunger, sleepiness, narcotic effects, etc.",
     "starting_trait": true,
     "cancels": ["SAVANT", "CHEMREBALANCE", "CHEMREBALANCE2"],
+    "threshreq": ["THRESH_SLIME", "THRESH_MEDICAL", "THRESH_CHIMERA", "THRESH_ELFA", "THRESH_CATTLE"],
     "category": ["MUTCAT_SLIME", "MUTCAT_MEDICAL", "MUTCAT_CHIMERA", "MUTCAT_ELFA", "MUTCAT_CATTLE"]
-  },
-  {
-    "type": "mutation",
-    "id": "CHEMREBALANCE",
-    "name": "Calm Mind",
-    "points": 1,
-    "description": "Your mind is clear and directed outwards, and you find it easier to experience the world and raw emotions.  You gain a +1 to your perception.",
-    "starting_trait": true,
-    "cancels": ["SAVANT", "CHEMIMBALANCE"],
-    "changes_to": ["CHEMREBALANCE2"],
-    "category": ["MUTCAT_ALPHA", "MUTCAT_ELFA", "MUTCAT_RAPTOR", "MUTCAT_URSINE", "MUTCAT_LIZARD"],
-    "passive_mods": {
-      "per_mod": 1
-      }
-  },
-  {
-    "type": "mutation",
-    "id": "CHEMREBALANCE2",
-    "name": "Tranquil Mind",
-    "points": 2,
-    "description": "Your mind is a deep well of reflective wisdom and tranquility.  You gain a +1 to intelligence and +2 to perception.",
-    "starting_trait": true,
-    "cancels": ["SAVANT", "CHEMIMBALANCE"],
-    "category": ["MUTCAT_ELFA", "MUTCAT_URSINE"],
-    "passive_mods": {
-      "per_mod": 2,
-      "int_mod": 1
-    }
   },
   {
     "type": "mutation",
@@ -711,7 +632,7 @@
     "points": -4,
     "description": "You don't feel right unless you're carrying as much as you can.  You suffer morale penalties for carrying less than maximum volume (weight is ignored).  Xanax can help control this anxiety.",
     "starting_trait": true,
-    "valid": false,
+    "threshreq": ["THRESH_RAT"],
     "category": ["MUTCAT_RAT"]
   },
   {
@@ -734,6 +655,7 @@
     "starting_trait": true,
     "valid": false,
     "cancels": ["PSYCHOPATH", "PRED1", "PRED2", "PRED3", "PRED4"],
+    "threshreq": ["THRESH_CATTLE"],
     "category": ["MUTCAT_CATTLE"]
   },
   {
