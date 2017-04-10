@@ -8,15 +8,18 @@
     "starting_trait": true,
     "category": ["MUTCAT_ALPHA", "MUTCAT_MEDICAL"],
     "passive_mods": {
-      "health_min": -5,
+      "health_min": -2,
       "health_max": -1,
       "health_chance": 10,
       "health_tick": 600,
-      "h_mod_min": -10,
-      "h_mod_min_val": -5,
+      "h_mod_min": -2,
+      "h_mod_min_val": -1,
       "h_mod_chance": 10,
       "h_mod_tick": 600
-    }
+    },
+    "fatigue_modifier": 0.05,
+    "metabolism_modifier": 0.05,
+    "thirst_modifier": 0.05
   },
   {
     "type": "mutation",
@@ -35,7 +38,9 @@
       "stim_min_val": 10,
       "stim_chance": 25,
       "stim_tick": 335
-    }
+    },
+    "healing_awake" : -0.0001,
+    "healing_resting" : -0.001
   },
   {
     "type": "mutation",
@@ -78,5 +83,35 @@
       "per_mod": 2,
       "int_mod": 1
     }
+  },
+  {
+    "type": "mutation",
+    "id": "LUNGS",
+    "name": "Strong Lungs",
+    "points": 2,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Your lungs are well-built; your diaphragm as well.  Breathing comes easier to you, allowing for faster stamina recovery.",
+    "category": ["MUTCAT_BEAST", "MUTCAT_LUPINE", "MUTCAT_FELINE", "MUTCAT_ALPHA", "MUTCAT_CHIMERA", "MUTCAT_BIRD"],
+    "changes_to": ["LUNGS_2"],
+    "cancels": [ "GILLS", "GILLS_CEPH"],
+    "starting_trait": true,
+    "passive_mods": {
+        "stamina_min": 1
+        }
+  },
+  {
+    "type": "mutation",
+    "id": "LUNGS_2",
+    "name": "Robust Lungs",
+    "points": 3,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Your lungs are now fit for ROARING!  Combat is much easier as well.",
+    "category": ["MUTCAT_BEAST", "MUTCAT_FELINE", "MUTCAT_CHIMERA"],
+    "cancels": [ "GILLS", "GILLS_CEPH"],
+    "passive_mods": {
+        "stamina_min": 3
+        }
   }
 ]

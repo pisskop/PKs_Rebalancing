@@ -59,9 +59,22 @@
           },
           "road": {
               "//": "More stuff in the way",
-              "chance": 7,
-              "extras": {
-                  "mx_roadblock": 100
+               "//": "More stuff in the way",
+              "chance": 75,
+               "extras": {
+                  "mx_helicopter": 30,
+                  "mx_military": 15,
+                  "mx_science": 25,
+                  "mx_collegekids": 50,
+                  "mx_roadblock": 80,
+                  "mx_drugdeal": 20,
+                  "mx_supplydrop": 15,
+                  "mx_portal": 5,
+                  "mx_minefield": 80,
+                  "mx_crater": 50,
+                  "mx_fumarole": 15,
+                  "mx_portal_in": 1,
+                  "mx_anomaly": 3
               }
           },
           "building": {
