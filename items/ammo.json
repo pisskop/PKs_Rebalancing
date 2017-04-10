@@ -1,5 +1,20 @@
 [
   {
+    "id": "water_smoke",
+    "copy-from": "water",
+    "type": "COMESTIBLE",
+    "name": "smoke solution",
+    "name_plural": "smoke solution",
+    "description": "a thickened water solution, primed to evaporate into smoke.  Probably safer not to consume",
+    "category": "other",
+    "color": "cyan",
+    "count": 21,
+    "container": "bottle_plastic",
+    "nutrition": 3,
+    "quench": 9,
+    "ammo_data": { "ammo_type": "smoke_juice" },
+    "flags": [ "EATEN_COLD" ]
+  },{
     "id": "chime_scrap",
     "type": "AMMO",
     "name": "scrap chimes",

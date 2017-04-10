@@ -5,7 +5,16 @@
     "//": "A thin smoke trail (example: flare)",
     "field": "fd_smoke",
     "density": 1,
-    "chance": 5
+    "chance": 10
+  },
+  {
+    "id": "emit_smoke_machine",
+    "type": "emit",
+    "//": "A thin smoke blot (example: fog machine)",
+    "field": "fd_smoke",
+    "qty": 3,
+    "density": 1,
+    "chance": 15
   },
   {
     "id": "emit_gas_stream",

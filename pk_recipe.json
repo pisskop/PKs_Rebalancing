@@ -16,6 +16,60 @@
       [ [ "string_36", 1 ] ]
     ]
   },
+  { 
+    "type" : "recipe",
+    "result": "water_smoke",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": 5000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "flour", 2 ], [ "cooking_oil", 1 ], [ "lard", 2 ], [ "tallow", 2 ] ],
+      [ [ "sugar", 12 ], [ "honey_bottled", 2 ], [ "honey_glassed", 2 ] ],
+      [ [ "water_clean", 15 ] ]
+    ]
+  },
+  { 
+    "type" : "recipe",
+    "result": "smoke_machine_unpreped",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "book_learn": [ [ "mag_fabrication", 0 ] ],
+    "time": 8000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "water_smoke", 14 ] ],
+      [ [ "candle", 4 ] ],
+      [ [ "nail", 3 ], [ "duct_tape", 10 ] ],
+      [ [ "aluminum_foil", 100 ], [ "tin_plate", 1 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "jug_plastic", 1 ] ]
+    ]
+  },
+  { 
+    "type" : "recipe",
+    "result": "smoke_machine_unpreped",
+    "id_suffix": "decon",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 4000,
+    "reversible": true,
+    "autolearn": false,
+    "components": [
+      [ [ "nail", 3 ] ],
+      [ [ "tin_plate", 1 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "jug_plastic", 1 ] ]
+    ]
+  },
   {
     "type" : "recipe",
     "result": "homebrew_antiseptic",
