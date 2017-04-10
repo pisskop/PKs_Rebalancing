@@ -49,6 +49,19 @@
     ]
   },
   {
+    "id": "candle_smoke",
+    "copy-from": "candle",
+    "type": "GENERIC",
+    "name": "smoking candle",
+    "description": "A candle in every respect, but designed to produce a thin stream of smoke.  Often used in ceremonies or to add an air of 'ambient mystery', but could likely be used to reduce scent by windows and doors it is placed next to.",
+    "emits": [ "emit_smoke_flare" ],
+    "countdown_interval": 100,
+    "countdown_action": {
+        "type": "transform",
+        "target": "canister_empty"
+    }
+  },
+  {
     "id": "smoke_machine",
     "type": "TOOL",
     "name": "smoke machine (off)",
@@ -99,7 +112,7 @@
     "name_plural": "smoke machines (on)",
     "max_charges": 100,
     "initial_charges": 100,
-    "turns_per_charge": 96,
+    "turns_per_charge": 212,
     "revert_to": "smoke_machine",
     "emits": [ "emit_smoke_flare", "emit_smoke_machine" ],
     "use_action": {
@@ -109,20 +122,6 @@
       "msg": "You turn the smoke machine off."
     },
     "flags": [ "NO_RELOAD", "NO_REPAIR", "LIGHT_4", "CHARGEDIM", "TRADER_AVOID" ]
-  },
-  {
-    "id": "smokebomb_act",
-    "copy-from": "smokebomb",
-    "type": "GENERIC",
-    "name": "armed smoke bomb",
-    "description": "This smoke bomb has had its pin removed and is expelling thick smoke.",
-    "emits": [ "emit_smoke_stream" ],
-    "countdown_interval": 100,
-    "countdown_action": {
-        "type": "transform",
-        "target": "canister_empty"
-    },
-    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "pokeball",

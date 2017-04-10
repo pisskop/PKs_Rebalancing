@@ -5,7 +5,7 @@
     "//": "A thin smoke trail (example: flare)",
     "field": "fd_smoke",
     "density": 1,
-    "chance": 10
+    "chance": 8
   },
   {
     "id": "emit_smoke_machine",

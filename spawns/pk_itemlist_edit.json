@@ -23,7 +23,8 @@
       [ "clay_boiled", 15 ],
       [ "clay_lump", 6 ],
       [ "tinyweldtank", 2 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "ref_lighter_dare", 5 ],
+      [ "candle_smoke", 12 ]
     ]
   },
   {
@@ -119,7 +120,8 @@
       [ "ithaca_doom_dual", 5 ],
       [ "fertilizer_chelated", 18 ],
       [ "tinyweldtank", 1 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "ref_lighter_dare", 5 ],
+      [ "candle_smoke", 12 ]
     ]
   },
   {
@@ -137,7 +139,8 @@
       [ "prussian_blue", 5 ],
       [ "fertilizer_chelated", 12 ],
       [ "gummy_vitamins", 10 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "ref_lighter_dare", 5 ],
+      [ "candle_smoke", 4 ]
     ]
   },
   {
@@ -233,7 +236,8 @@
       [ "clay_lump", 10 ],
       [ "weldtank", 1 ],
       [ "tinyweldtank", 1 ],
-      [ "ref_lighter_dare", 10 ]
+      [ "ref_lighter_dare", 10 ],
+      [ "candle_smoke", 10 ]
     ]
   },
   {
@@ -350,7 +354,8 @@
     [ "fertilizer_chelated", 4 ],
     [ "gummy_vitamins", 8 ],
     [ "clay_boiled", 15 ],
-    [ "tinyweldtank", 1 ]
+    [ "tinyweldtank", 1 ],
+      [ "candle_smoke", 8 ]
     ]
   },
   {
@@ -388,14 +393,15 @@
     "type": "item_group",
     "id": "army_personal_locker",
     "items": [
-    [ "410_revolver", 2 ],
-    [ "shot_410", 4 ],
-    [ "shot_410_slug", 4 ],
-    [ "megaarmor_leggings_1", 6 ],
-    [ "megaarmor_torso_2", 6 ],
-    [ "megaarmor_gloves_1", 6 ],
-    [ "megaarmor_armguards_1", 6 ],
-    [ "megaarmor_boots_1", 3 ]
+      [ "410_revolver", 2 ],
+      [ "shot_410", 4 ],
+      [ "shot_410_slug", 4 ],
+      [ "megaarmor_leggings_1", 6 ],
+      [ "megaarmor_torso_2", 6 ],
+      [ "megaarmor_gloves_1", 6 ],
+      [ "megaarmor_armguards_1", 6 ],
+      [ "megaarmor_boots_1", 3 ],
+      [ "candle_smoke", 2 ]
     ]
   },
   {
@@ -427,7 +433,8 @@
       [ "iv_purifier", 8 ],
       [ "weldtank", 1 ],
       [ "tinyweldtank", 1 ],
-      [ "ref_lighter_dare", 10 ]
+      [ "ref_lighter_dare", 10 ],
+      [ "candle_smoke", 2 ]
     ]
   },
   {
@@ -587,7 +594,8 @@
       [ "pokeball", 3 ],
       [ "machete", 5 ],
       [ "clay_boiled", 15 ],
-      [ "homebrew_antiseptic", 5 ]
+      [ "homebrew_antiseptic", 5 ],
+      [ "candle_smoke", 1 ]
     ]
   },
   {
@@ -761,7 +769,8 @@
       [ "clay_lump", 5 ],
       [ "weldtank", 1 ],
       [ "homebrew_antiseptic", 2 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "ref_lighter_dare", 5 ],
+      [ "candle_smoke", 2 ]
     ]
   },
   {
@@ -947,7 +956,17 @@
       [ "clay_boiled", 20 ],
       [ "clay_lump", 6 ],
       [ "homebrew_antiseptic", 6 ],
-      [ "ref_lighter_dare", 1 ]
+      [ "ref_lighter_dare", 1 ],
+      [ "candle_smoke", 8 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "church",
+    "items": [
+      [ "ref_lighter_dare", 2 ],
+      [ "candle_smoke", 20 ],
+      [ "candle", 20 ]
     ]
   }
  ]
