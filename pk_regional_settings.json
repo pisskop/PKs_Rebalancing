@@ -41,7 +41,7 @@
       "//": "mapping for weighted lists of extras",
           "field": {
               "//": "More helicoptor and drugs and goodies.",
-              "chance": 90,
+              "chance": 101,
               "extras": {
                   "mx_helicopter": 30,
                   "mx_military": 15,
@@ -59,26 +59,14 @@
           },
           "road": {
               "//": "More stuff in the way",
-              "chance": 75,
+              "chance": 7,
               "extras": {
-                  "mx_helicopter": 30,
-                  "mx_military": 15,
-                  "mx_science": 25,
-                  "mx_collegekids": 50,
-                  "mx_roadblock": 80,
-                  "mx_drugdeal": 20,
-                  "mx_supplydrop": 15,
-                  "mx_portal": 5,
-                  "mx_minefield": 80,
-                  "mx_crater": 50,
-                  "mx_fumarole": 15,
-                  "mx_portal_in": 1,
-                  "mx_anomaly": 3
+                  "mx_roadblock": 100
               }
           },
           "building": {
               "//": "More drugs and craters and kids",
-              "chance": 80,
+              "chance": 60,
               "extras": {
                   "mx_military": 5,
                   "mx_science": 10,

@@ -23,6 +23,7 @@
   {
     "type": "effect_type",
     "id": "onfire",
+    "chance": 60,
     "name": ["On Fire"],
     "desc": ["Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames."],
     "remove_memorial_log": "Put out the fire.",
@@ -501,6 +502,7 @@
     "rating": "bad",
     "base_mods": {
       "stamina_min": [-1],
+      "stamina_chance": [5],
       "speed_mod": [-5],
       "health_amount": [-10],
       "health_min": [-1],

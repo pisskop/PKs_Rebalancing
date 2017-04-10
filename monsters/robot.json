@@ -44,9 +44,8 @@
     "id": "mon_chickenbot",
     "type": "MONSTER",
     "copy-from": "mon_chickenbot",
-    "description": "The Northrup ATSV, an SUV sized, heavily-armed and armored robot walking on a pair of reverse-jointed legs.  Armed with 'mass-reactive' bomblets that explode after embedding themselves into a material, the chickenbot can also electrify itself against attackers, it is an effective automated sentry, though production was limited due to a legal dispute.",
     "hp": 90,
-    "speed": 115,
+    "speed": 110,
     "melee_skill": 3,
     "melee_dice": 2,
     "melee_dice_sides": 4,
@@ -54,41 +53,19 @@
     "armor_bash": 18,
     "armor_cut": 14,
     "vision_night": 20,
-    "starting_ammo": { "bomblet_chickenbot": 840, "bot_tripod": 2 },
-    "path_settings": { "max_dist": 35 },
+    "path_settings": { "max_dist": 25 },
+    "starting_ammo": { "40mm_frag": 100, "556": 1000, "bot_tripod": 2 },
     "special_attacks": [
-      [ "GRENADIER", 20 ],
-      [ "hammer", 20 ],
-      {
-        "type": "gun",
-        "cooldown": 20,
-        "move_cost": 250,
-        "gun_type": "bomblet_launcher_chickenbot",
-        "ammo_type": "bomblet_chickenbot",
-        "fake_skills": [ [ "gun", 7 ], [ "LAUNCHER", 7 ] ],
-        "fake_dex": 4,
-        "fake_per": 12,
-        "max_ammo": 1600,
-        "ranges": [
-          [ 4, 5, "DEFAULT" ],
-          [ 6, 33, "AUTO" ]
-        ],
-        "require_targeting_player": false,
-        "require_targeting_npc": false,
-        "require_targeting_monster": false,
-        "targeting_cost": 250,
-        "description": "!!Mass-Reactive Shells slam into the ground!!",
-        "no_ammo_sound": "\"Power cells depleted.\""
-      }
+      [ "CHICKENBOT", 4 ],
+      [ "GRENADIER", 20 ]
     ],
-    "special_when_hit": [ "ZAPBACK", 75 ],
-    "flags": [ "SEES", "HEARS", "BASHES", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "mon_tankbot",
     "type": "MONSTER",
     "copy-from": "mon_tankbot",
-    "vision_night": 20
+    "vision_night": 25
   },
   {
     "id": "mon_turret_searchlight",
@@ -131,6 +108,22 @@
     },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "DIGS", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ]
+  },
+  {
+    "id": "mon_broken_cyborg",
+    "type": "MONSTER",
+    "copy-from": "mon_broken_cyborg",
+    "name": "broken cyborg",
+    "special_attacks": [
+      [ "PARROT", 20 ],
+      [ "wound_minor", 10 ],
+      { "id": "diseased swipe", "cooldown": 40, "accuracy": 1,
+          "effects": [
+            { "id": "nausea", "duration": 10 },
+            { "id": "tetanus", "duration": 121000 }
+          ]
+      }
+    ]
   },
   {
     "id": "mon_cyborg_guard",
@@ -191,7 +184,7 @@
     "id": "mon_cyborg_cop",
     "type": "MONSTER",
     "name": "robotic cop",
-    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.",
+    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.  Its weaponry is famous for being DNA locked.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 18,

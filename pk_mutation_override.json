@@ -50,6 +50,7 @@
     "points": 3,
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
+    "valid" : false,
     "category": ["MUTCAT_FISH", "MUTCAT_BIRD", "MUTCAT_INSECT", "MUTCAT_TROGLOBITE", "MUTCAT_CHIMERA", "MUTCAT_RAPTOR", "MUTCAT_FELINE"]
   },
   {
@@ -136,6 +137,7 @@
     "points": 1,
     "description": "The bottoms of your feet are tough and you are accustomed to going barefoot.  You receive no movement penalty for not wearing shoes (armor: +1 bash, +1 cut).",
     "starting_trait": true,
+    "valid" : false,
     "category": ["MUTCAT_CATTLE", "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_TROGLOBITE"],
     "armor": [ { "parts": [ "FOOT_L", "FOOT_R" ], "bash": 1, "cut": 1 } ]
   },
@@ -196,6 +198,7 @@
     "points": 2,
     "description": "You can manage to find space for anything!  You can carry 40% more volume.",
     "starting_trait": true,
+    "valid" : false,
     "cancels": ["DISORGANIZED"],
     "category": ["MUTCAT_RAT"]
   },
@@ -206,6 +209,7 @@
     "points": 2,
     "description": "You are capable of carrying far more than someone with similar strength could.  Your maximum weight carried is increased by 35%.",
     "starting_trait": true,
+    "valid" : false,
     "cancels": ["BADBACK"],
     "category": ["MUTCAT_CATTLE", "MUTCAT_TROGLOBITE", "MUTCAT_INSECT"]
   },
@@ -237,6 +241,7 @@
     "points": 1,
     "description": "Whether due to a lifetime of exposure or through simple willpower, it's harder for you to become addicted to substances, and easier to rid yourself of these addictions.",
     "starting_trait": true,
+    "valid" : false,
     "cancels": ["ADDICTIVE"]
   },
   {

@@ -71,7 +71,6 @@
     "special_attacks": [
       [ "PARROT", 40 ],
       [ "sliming", 20 ],
-      [ "wound_minor", 30 ],
       [ "FORMBLOB", 40 ],
       { "id": "hammer", "cooldown": 40, "moves": 250,
         "damage_max_instance": [

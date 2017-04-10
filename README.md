@@ -26,6 +26,7 @@ PKs Rebalancing Mod for C:DDA readme
  - Rebalanced items -> many old items are rebalanced to make the process of choosing loadout, weapons, and armor somewhat more intuitive and interesting.
  - Supporting Mods -> Compatibility patches, blacklist mods, and mod-author prefered settings all included with download.
  - New/Refurbished Mechanics ->  The return of acidic rain, the increase in radiation, the addition of a enlarged unaligned native wildlife faction, increased robotic presence, new classes and types of NPCs, reworked health modifiers, rebalanced special spawnings, new monster emissions, new status effects, and more all come together to make a new experience on a great game!
+ - Reworked mutations, diseases, and other effects.  The coregame diseases are reworked, heat/cold has more effect, and minor effects may take route.  Some monsters can cause special effects.
 
 
 

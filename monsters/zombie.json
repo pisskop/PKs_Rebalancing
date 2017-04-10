@@ -2150,7 +2150,7 @@
       { "damage_type": "heat", "amount": 2 }
     ],
     "attack_effs": [
-      { "id": "rad_fives", "duration": 30 }
+      { "id": "rad_fives", "duration": 20 }
     ],
     "dodge": 5,
     "armor_bash": 8,
