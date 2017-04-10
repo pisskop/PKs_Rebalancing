@@ -1,4 +1,4 @@
- [
+[
   {
     "type": "item_group",
     "id": "pks_default_zed_items",
@@ -968,5 +968,52 @@
       [ "candle_smoke", 20 ],
       [ "candle", 20 ]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "livingroom",
+    "items": [
+      [ "candle_smoke", 4 ],
+      [ "candle", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "kitchen",
+    "items": [
+      [ "candle_smoke", 1 ],
+      [ "candle", 2 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bedroom",
+    "items": [
+      [ "candle_smoke", 2 ],
+      [ "candle", 3 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "behindcounter",
+    "items": [
+      [ "candle_smoke", 2 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "camping",
+    "items": [
+      [ "candle_smoke", 2 ],
+      [ "candle", 4 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "shelter",
+    "items": [
+      [ "candle_smoke", 2 ],
+      [ "candle", 3 ]
+    ]
   }
- ]
+]
