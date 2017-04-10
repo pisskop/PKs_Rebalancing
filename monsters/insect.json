@@ -1095,7 +1095,7 @@
     "copy-from": "mon_wasp",
     "vision_day": 12,
     "vision_night": 7,
-    "special_attacks": [ [ "wasp_sting", 7 ] ],
+    "special_attacks": [ [ "wasp_sting", 3 ] ],
     "flags": [ "SEES", "SMELLS", "FLIES", "CHITIN", "SWARMS", "GROUP_MORALE" ]
   },
   {

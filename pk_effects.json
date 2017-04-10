@@ -2,10 +2,9 @@
   {
     "type": "effect_type",
     "id": "gauze",
-    "removes_effects": [ "bite" ],
     "base_mods": {
       "h_mod_min": [1],
-      "h_mod_chance": [200]
+      "h_mod_chance": [2000]
     }
   },
   {
@@ -393,18 +392,18 @@
     "type": "effect_type",
     "id": "infection_minor",
     "chance": 3,
-    "name": ["minor infection"],
+    "name": ["Minor Inflammation"],
     "desc": ["Your wounds are inflammed, and cause you ocassional grief."],
-    "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "INFRESIST"],
+    "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "INFRESIST", "gauze"],
     "int_add_val": 1,
     "max_intensity": 7,
     "base_mods": {
       "pain_min": [0],
-      "pain_max": [2,1],
-      "pain_max_val": [8],
+      "pain_max": [3,2],
+      "pain_max_val": [15],
       "pain_chance": [500, 900],
       "rad_min": [1],
-      "rad_max_val": [15],
+      "rad_max_val": [21],
       "rad_chance": [1600],
       "health_min": [-2, -1],
       "health_max": [1],
@@ -413,10 +412,10 @@
       "health_chance": [1800]
     },
     "scaling_mods": {
-      "pain_max": [0.3, 0.2],
+      "pain_max": [0.4],
       "pain_max_val": [5],
-      "rad_max_val": [10],
-      "pain_chance": [-35, -50],
+      "rad_max_val": [7],
+      "pain_chance": [-35, -80],
       "rad_chance": [-100, -50],
       "health_min_val": [-4]
     }

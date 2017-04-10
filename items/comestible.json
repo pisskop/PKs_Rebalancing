@@ -26,7 +26,7 @@
       "effects": [
         { "id": "doom_unhealth", "duration": 10 },
         { "id": "pkill1", "duration": 300 },
-        { "id": "gauze", "duration": 300 }
+        { "id": "gauze", "duration": 17200 }
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -308,18 +308,19 @@
     "id" : "medical_gauze",
     "copy-from" :"medical_gauze",
     "name" : "medical gauze",
-    "description" : "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe.",
+    "description" : "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe for long periods of time.",
     "stack_size" : 6,
     "use_action": {
       "type": "heal",
       "move_cost": 300,
       "bleed": 0.7,
       "bite": 1,
+      "infect" : 0.95,
       "limb_power": 6,
-      "head_power": 4,
+      "head_power": 5,
       "torso_power": 3,
       "effects": [
-        { "id": "gauze", "duration": 300 }
+        { "id": "gauze", "duration": 30000 }
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -353,5 +354,92 @@
     "copy-from": "flu_shot",
     "description" : "Pharmaceutical flu shot designed for mass vaccinations, still in the packaging.  Purported to provide immunity to influenza.  Most work by infecting you with a weakened or inert strain or proteins of the virus to allow your natural immune response to develop.",
     "healthy": 3
+  },
+  {
+    "id" : "bandages",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "bandage",
+    "description" : "Simple cloth bandages.  Used for healing small amounts of damage.",
+    "weight" : 70,
+    "volume" : 1,
+    "price" : 600,
+    "material" : "cotton",
+    "symbol" : "!",
+    "color" : "white",
+    "charges" : 3,
+    "stack_size" : 6,
+    "use_action" : {
+      "type" : "heal",
+      "limb_power" : 3,
+      "head_power" : 1,
+      "torso_power" : 4,
+      "bleed" : 0.9,
+      "move_cost" : 300,
+      "effects": [
+        { "id": "gauze", "duration": 9800 }
+      ]
+    }
+  },
+  {
+    "id" : "1st_aid",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "first aid kit",
+    "description" : "A full medical kit, with bandages, local anesthetics, and rapid healing agents.  Used for healing large amounts of damage.",
+    "weight" : 240,
+    "volume" : 1,
+    "price" : 3000,
+    "charges" : 2,
+    "stack_size" : 3,
+    "material" : "plastic",
+    "symbol" : "!",
+    "color" : "red",
+    "use_action" : {
+      "type" : "heal",
+      "limb_power" : 12,
+      "head_power" : 8,
+      "torso_power" : 16,
+      "bleed" : 0.95,
+      "bite" : 0.99,
+      "infect" : 0.90,
+      "move_cost" : 6000,
+      "long_action" : true,
+      "effects" : [
+        { "id" : "pkill1", "duration" : 120 },
+        { "id": "gauze", "duration": 7700 }
+      ]
+    }
+  },
+  {
+    "id" : "1st_aid_survivor",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "improvised first aid kit",
+    "description" : "A medical kit made with cheap, subpar components.  For when nothing else is available.",
+    "weight" : 240,
+    "volume" : 2,
+    "price" : 100,
+    "stack_size" : 2,
+    "material" : "cotton",
+    "symbol" : "!",
+    "color" : "dkgray",
+    "use_action" : {
+      "type" : "heal",
+      "limb_power" : 8,
+      "head_power" : 4,
+      "torso_power" : 6,
+      "limb_scaling" : 1,
+      "torso_scaling" : 1,
+      "head_scaling" : 1,
+      "bleed" : 1,
+      "bite" : 0.6,
+      "infect" : 0.15,
+      "move_cost" : 9500,
+      "long_action" : true,
+      "effects" : [
+        { "id": "gauze", "duration": 3200 }
+      ]
+    }
   }
 ]

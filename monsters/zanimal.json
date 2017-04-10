@@ -62,7 +62,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 660 },
-          { "id": "tapeworm", "duration": 446400 }
+          { "id": "tapeworm", "duration": 446400, "chance": 35 }
         ]
       }
     ]
@@ -80,7 +80,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 660 },
-          { "id": "paincysts", "duration": 446400 }
+          { "id": "paincysts", "duration": 446400, "chance": 35 }
         ]
       }
     ]
@@ -93,7 +93,11 @@
     "upgrades": {
       "half_life": 35,
       "into": "mon_dog_skeleton_pk"
-    }
+    },
+        "effects": [
+          { "id": "nausea", "duration": 660 },
+          { "id": "flu_zed", "duration": 4400, "chance": 35 }
+        ]
   },
   {
     "id": "mon_zombie_pig",

@@ -236,7 +236,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 200 },
-          { "id": "flu_zed", "duration": 3200 }
+          { "id": "flu_zed", "duration": 3200, "chance": 35 }
         ]
       }
     ]
@@ -257,7 +257,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 200 },
-          { "id": "flu_zed", "duration": 3200 }
+          { "id": "flu_zed", "duration": 3200, "chance": 35 }
         ]
       }
     ]
@@ -277,7 +277,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 200 },
-          { "id": "bloodworms", "duration": 446400 }
+          { "id": "bloodworms", "duration": 446400, "chance": 35 }
         ]
       }
     ]
@@ -294,7 +294,7 @@
       { "id": "diseased swipe", "cooldown": 12, "accuracy": 3,
           "effects": [
             { "id": "nausea", "duration": 200 },
-            { "id": "brainworms", "duration": 446400 }
+            { "id": "brainworms", "duration": 446400, "chance": 35 }
           ]
       }
     ]
@@ -314,7 +314,7 @@
         ],
         "effects": [
           { "id": "nausea", "duration": 200 },
-          { "id": "paincysts", "duration": 446400 }
+          { "id": "paincysts", "duration": 446400, "chance": 35 }
         ]
       }
     ]
@@ -331,7 +331,7 @@
       { "id": "diseased swipe", "cooldown": 12, "accuracy": 3,
           "effects": [
             { "id": "nausea", "duration": 200 },
-            { "id": "tetanus", "duration": 121000 }
+            { "id": "tetanus", "duration": 121000, "chance": 35 }
           ]
       }
     ]
