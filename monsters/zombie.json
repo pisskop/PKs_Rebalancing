@@ -17,6 +17,9 @@
     "id": "mon_zombie_runner",
     "type": "MONSTER",
     "copy-from": "mon_zombie_runner",
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "scratch", 5 ],
       { "type": "bite", "cooldown": 5,
@@ -68,6 +71,9 @@
     "melee_dice": 2,
     "melee_dice_sides": 3,
     "melee_cut": 1,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "GRAB", 10 ],
       [ "scratch", 5 ],
@@ -86,6 +92,9 @@
     "id": "mon_zombie_grabber",
     "type": "MONSTER",
     "copy-from": "mon_zombie_grabber",
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 2 }
+    ],
     "special_attacks": [
       [ "GRAB", 10 ],
       [ "scratch", 15 ],
@@ -130,6 +139,7 @@
     "type": "MONSTER",
     "copy-from": "mon_beekeeper",
     "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 },
       { "id": "rad_tenths", "duration": 5 }
     ],
     "vision_day": 30,
@@ -342,6 +352,9 @@
     "copy-from": "mon_zombie_shrieker",
     "vision_day": 50,
     "vision_night": 2,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "SHRIEK", 10 ],
       [ "GRAB", 30 ],
@@ -411,6 +424,9 @@
     "armor_cut": 0,
     "vision_day": 40,
     "vision_night": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 2 }
+    ],
     "special_attacks": [
       [ "GRAB", 5 ],
       [ "scratch", 20 ],
@@ -571,6 +587,9 @@
     "armor_cut": 2,
     "vision_day": 35,
     "vision_night": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "GRAB", 15 ],
       [ "scratch", 20 ],
@@ -714,6 +733,9 @@
     "armor_cut": 2,
     "vision_day": 35,
     "vision_night": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "scratch", 15 ],
       { "type": "bite", "cooldown": 5 }
@@ -834,6 +856,9 @@
     "armor_cut": 4,
     "vision_day": 40,
     "vision_night": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       { "type": "bite", "cooldown": 10, "min_mul": 0.75 }
     ],
@@ -987,6 +1012,9 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_survivor",
     "hp": 160,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "GRAB", 15 ],
       [ "SHRIEK", 20 ],
@@ -1002,6 +1030,9 @@
     "copy-from": "mon_zombie_crawler",
     "vision_day": 30,
     "vision_night": 5,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 2 }
+    ],
     "special_attacks": [
       [ "scratch", 15 ],
       { "type": "bite", "cooldown": 15 }
@@ -1093,6 +1124,9 @@
     "armor_cut": 3,
     "vision_day": 40,
     "vision_night": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "GRAB", 15 ],
       [ "scratch", 20 ],
@@ -1323,6 +1357,9 @@
     "melee_dice_sides": 7,
     "melee_cut": 4,
     "dodge": 3,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "armor_bash": 5,
     "armor_cut": 1,
     "vision_day": 25,
@@ -1618,6 +1655,9 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_swimmer",
     "burn_into": "mon_zombie_scorched",
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 2 }
+    ],
     "special_attacks": [
       [ "GRAB", 15 ],
       [ "scratch", 15 ],
@@ -1730,6 +1770,9 @@
     "armor_cut": 6,
     "vision_day": 25,
     "vision_night": 5,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "special_attacks": [
       [ "GRAB_DRAG", 25 ],
       [ "slash", 20 ],
@@ -1743,53 +1786,6 @@
     "death_drops": "mon_zombie_swimmer_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk"
-  },
-  {
-    "id": "mon_zombie_rot_pk",
-    "type": "MONSTER",
-    "name": "rotting zombie",
-    "description": "A corpse that rots even as it moves to kill.  Swarms of flies dart in and out of this monsters many bloated and oozing wounds..",
-    "default_faction": "zombie",
-    "categories": [ "CLASSIC" ],
-    "species": [ "ZOMBIE" ],
-    "diff": 6,
-    "size": "MEDIUM",
-    "hp": 75,
-    "speed": 70,
-    "material": [ "flesh" ],
-    "symbol": "Z",
-    "color": "green_yellow",
-    "aggression": 100,
-    "morale": 100,
-    "melee_skill": 5,
-    "melee_dice": 2,
-    "melee_dice_sides": 3,
-    "melee_cut": 4,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 6 }
-    ],
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 },
-      { "id": "rad_tenths", "duration": 30 },
-      { "id": "rad_tenths", "duration": 45 }
-    ],
-    "dodge": 1,
-    "armor_bash": 8,
-    "armor_cut": 1,
-    "armor_stab": 6,
-    "vision_day": 35,
-    "vision_night": 3,
-    "emit_fields": [ "emit_gas_plume" ],
-    "special_attacks": [
-      [ "GRAB", 10 ],
-      [ "scratch", 20 ],
-      [ "slash", 60 ],
-      { "type": "bite", "cooldown": 5, "accuracy": 7 }
-    ],
-    "death_drops": "default_zombie_death_drops",
-    "death_function": [ "NORMAL" ],
-    "burn_into": "mon_zombie_crawler_pk_weak",
-    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
   },
   {
     "id": "mon_skeleton",

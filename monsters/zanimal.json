@@ -266,6 +266,9 @@
     "melee_dice_sides": 15,
     "melee_cut": 3,
     "dodge": 2,
+    "attack_effs": [
+      { "id": "flu_zed", "duration": 8000, "chance": 1 }
+    ],
     "armor_bash": 1,
     "armor_cut": 1,
     "vision_day": 40,

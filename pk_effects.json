@@ -412,10 +412,10 @@
       "health_chance": [1800]
     },
     "scaling_mods": {
-      "pain_max": [0.4],
+      "pain_max": [0.4, 0.2],
       "pain_max_val": [5],
+      "pain_chance": [-50, -90],
       "rad_max_val": [7],
-      "pain_chance": [-35, -80],
       "rad_chance": [-100, -50],
       "health_min_val": [-4]
     }
@@ -432,6 +432,7 @@
       "thirst_tick": [240],
       "thirst_min": [1],
       "fatigue_tick": [50],
+      "fatigue_chnace": [3],
       "fatigue_min": [1],
       "str_mod": [-2, -1],
       "dex_mod": [-1, 0],
@@ -440,8 +441,8 @@
       "pain_min": [0],
       "pain_max": [1],
       "pain_max_val": [19],
-      "pain_tick": [30, 40],
-      "cough_chance": [600, 300],
+      "pain_tick": [40, 100],
+      "cough_chance": [400, 900],
       "vomit_chance": [4000, 7000]
     }
   }

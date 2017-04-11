@@ -55,11 +55,30 @@
     "name": "smoking candle",
     "description": "A candle in every respect, but designed to produce a thin stream of smoke.  Often used in ceremonies or to add an air of 'ambient mystery', but could likely be used to reduce scent by windows and doors it is placed next to.",
     "emits": [ "emit_smoke_flare" ],
-    "countdown_interval": 100,
-    "countdown_action": {
-        "type": "transform",
-        "target": "canister_empty"
+    "use_action": {
+      "target":  "candle_smoke_lit",
+      "msg": "You light the smoking candle.",
+      "active": true,
+      "need_fire": 1,
+      "menu_text": "Light",
+      "type": "transform"
     }
+  },
+  {
+    "id": "candle_smoke_lit",
+    "type": "TOOL",
+    "name": "smoking candle (lit)",
+    "name_plural": "smoking candles (lit)",
+    "copy-from": "candle_lit",
+    "description": "This smoking candle is lit, providing both aeromatic smoke and light.",
+    "emits": [ "emit_smoke_flare" ],
+    "use_action": {
+      "target": "candle_smoke",
+      "msg": "The candle winks out.",
+      "menu_text": "Extinguish",
+      "type": "transform"
+    },
+    "flags": [ "LIGHT_8", "TRADER_AVOID" ]
   },
   {
     "id": "smoke_machine",
@@ -112,7 +131,7 @@
     "name_plural": "smoke machines (on)",
     "max_charges": 100,
     "initial_charges": 100,
-    "turns_per_charge": 212,
+    "turns_per_charge": 158,
     "revert_to": "smoke_machine",
     "emits": [ "emit_smoke_flare", "emit_smoke_machine" ],
     "use_action": {
@@ -121,7 +140,7 @@
       "target": "smoke_machine",
       "msg": "You turn the smoke machine off."
     },
-    "flags": [ "NO_RELOAD", "NO_REPAIR", "LIGHT_4", "CHARGEDIM", "TRADER_AVOID" ]
+    "flags": [ "NO_RELOAD", "NO_REPAIR", "LIGHT_6", "CHARGEDIM", "TRADER_AVOID" ]
   },
   {
     "id": "pokeball",
