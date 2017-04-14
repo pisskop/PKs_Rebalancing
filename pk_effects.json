@@ -393,13 +393,14 @@
     "id": "infection_minor",
     "chance": 3,
     "name": ["Minor Inflammation"],
-    "desc": ["Your wounds are inflammed, and cause you ocassional grief."],
-    "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "INFRESIST", "gauze"],
+    "desc": ["Your wounds are inflammed, and cause you ocassional grief.  A stout immune system or proper dressing should help."],
+    "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "gauze"],
     "int_add_val": 1,
     "max_intensity": 7,
     "base_mods": {
+      "speed_mod": [-2, -1],
       "pain_min": [0],
-      "pain_max": [3,2],
+      "pain_max": [3, 2],
       "pain_max_val": [15],
       "pain_chance": [500, 900],
       "rad_min": [1],
@@ -412,6 +413,7 @@
       "health_chance": [1800]
     },
     "scaling_mods": {
+      "speed_mod": [-1],
       "pain_max": [0.4, 0.2],
       "pain_max_val": [5],
       "pain_chance": [-50, -90],
@@ -424,26 +426,29 @@
     "type": "effect_type",
     "id": "flu_zed",
     "chance": 35,
-    "name": ["sickness"],
-    "desc": ["Some sort of nasty vibe is gripping you."],
+    "name": ["Quivering Bowels"],
+    "desc": ["Your bowels feel weak, your blood hot, your insides like runny eggs."],
     "rating": "bad",
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT"],
+    "pain_sizing": true,
+    "harmful_cough": true,
+    "hurt_sizing": true,
     "base_mods": {
-      "thirst_tick": [240],
+      "speed_mod": [-12],
+      "thirst_tick": [180, 240],
       "thirst_min": [1],
       "fatigue_tick": [50],
-      "fatigue_chnace": [3],
+      "fatigue_chnace": [4, 8],
       "fatigue_min": [1],
       "str_mod": [-2, -1],
       "dex_mod": [-1, 0],
       "per_mod": [-1, 0],
-      "int_mod": [-2, -1],
       "pain_min": [0],
       "pain_max": [1],
-      "pain_max_val": [19],
+      "pain_max_val": [17],
       "pain_tick": [40, 100],
-      "cough_chance": [400, 900],
-      "vomit_chance": [4000, 7000]
+      "cough_chance": [800, 1200],
+      "vomit_chance": [3000, 5000]
     }
   }
 ]

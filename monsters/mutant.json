@@ -1,5 +1,22 @@
 [
   {
+    "id": "mon_razorclaw",
+    "type": "MONSTER",
+    "name": "razorclaw",
+    "copy-from": "mon_razorclaw",
+    "path_settings": { "max_dist": 5 },
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 10 },
+      { "id": "flu_zed", "duration": 14400, "chance": 5 }
+    ],
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 6 ],
+      [ "SHRIEK_STUN", 1 ],
+      [ "scratch", 20 ],
+      [ "wound_minor", 15 ]
+    ]
+  },
+  {
     "id": "mon_dermatik_larva",
     "type": "MONSTER",
     "copy-from": "mon_dermatik_larva",
@@ -411,7 +428,7 @@
     "emit_fields": [ "emit_slime_trail" ],
     "special_attacks": [
       [ "ACID", 20 ],
-      [ "IMPALE", 40 ],
+      [ "impale", 40 ],
       [ "numbing_poison", 30 ],
       [ "sliming", 60 ]
     ],
@@ -604,7 +621,7 @@
       [ "wound_minor", 40 ],
       [ "LONGSWIPE", 20 ],
       [ "slash", 20 ],
-      [ "IMPALE", 50 ],
+      [ "impale", 50 ],
       { "type": "leap", "cooldown": 20, "max_range": 3, "min_consider_range": 2, "max_consider_range": 7, "allow_no_target": false }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "PLAYER_CLOSE" ],

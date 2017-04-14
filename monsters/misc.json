@@ -4,7 +4,8 @@
     "type": "MONSTER",
     "copy-from": "mon_rattlesnake",
     "attack_effs": [
-      { "id": "badpoison", "duration": 700 }
+      { "id": "badpoison", "duration": 700 },
+      { "id": "infection_minor", "duration": 14400, "chance": 5 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
   },
@@ -17,7 +18,7 @@
       { "id": "rad_tenths", "duration": 3 },
       { "id": "rad_tenths", "duration": 10 },
       { "id": "rad_tenths", "duration": 30 },
-      { "id": "infection_minor", "duration": 5200 }
+      { "id": "infection_minor", "duration": 5200, "chance": 10 }
     ],
     "flags": [ "SEES", "HEARS", "SMELLS", "HARDTOSHOOT", "SWIMS", "LEATHER", "BONES" ]
   },

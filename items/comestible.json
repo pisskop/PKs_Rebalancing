@@ -1,5 +1,19 @@
 [
   {
+    "id": "human_flesh",
+    "copy-from": "meat",
+    "type": "COMESTIBLE",
+    "name": "human flesh",
+    "name_plural": "human fleshes",
+    "description": "Freshly butchered from a human body.",
+    "material": "hflesh",
+      "effects": [
+        { "id": "doom_unhealth", "duration": 10 },
+        { "id": "pkill1", "duration": 300 },
+        { "id": "gauze", "duration": 17200 }
+      ]
+  },
+  {
     "id": "medikit",
     "type": "COMESTIBLE",
     "name": "medikit",
@@ -333,14 +347,15 @@
     "description" : "A roll of medical tape, similar to duct tape.",
     "count" : 100
   },
-    {
-        "id" : "antibiotics",
-        "type" : "COMESTIBLE",
-        "comestible_type" : "MED",
-        "name" : "antibiotic",
-        "copy-from": "antibiotics",
-        "description" : "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Healthy in small doses, one must be aware of the mentally addictive properties it may bring.",
-        "use_action" : "ANTIBIOTIC",
+  {
+    "id" : "antibiotics",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "antibiotic",
+    "copy-from": "antibiotics",
+    "description" : "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Healthy in small doses, one must be aware of the mentally addictive properties it may bring.",
+    "use_action" : "ANTIBIOTIC",
+    "count" : 7,
     "fun" : -1,
     "healthy" : 5,
     "addiction_potential" : 50,

@@ -168,7 +168,7 @@
     "emit_fields": [ "emit_gas_plume", "emit_radiation_plume" ],
     "special_attacks": [
       [ "SPIT_SAP", 10 ],
-      [ "IMPALE", 20 ],
+      [ "impale", 20 ],
       [ "GROW_VINE", 50 ]
     ],
     "death_drops": {

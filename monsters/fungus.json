@@ -809,7 +809,7 @@
     "vision_night": 2,
     "special_attacks": [
       [ "GRAB", 30 ],
-      [ "IMPALE", 30 ],
+      [ "impale", 30 ],
       [ "FUNGUS", 180 ],
       { "type": "bite", "cooldown": 30, "min_mul": 80, "no_infection_chance": 5 }
     ],
@@ -855,7 +855,7 @@
     "starting_ammo": { "223": 150 },
     "special_attacks": [
       [ "FUNGUS", 20 ],
-      [ "IMPALE", 20 ],
+      [ "impale", 20 ],
       [ "FUNGUS_INJECT", 40 ],
       [ "FEAR_PARALYZE", 15 ],
       [ "FUNGUS_BRISTLE", 40 ],
