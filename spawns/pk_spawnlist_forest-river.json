@@ -1035,12 +1035,12 @@
       { "monster": "mon_zombie_bear_mega", "freq": 1, "cost_multiplier": 10, "starts": 750 },
       { "monster": "mon_zombie_bear_mega", "freq": 1, "cost_multiplier": 10, "starts": 900 },
 
-      { "monster": "mon_bee", "freq": 3, "cost_multiplier": 0, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
-      { "monster": "mon_bee", "freq": 2, "cost_multiplier": 0, "starts": 24, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
-      { "monster": "mon_bee", "freq": 2, "cost_multiplier": 0, "starts": 120, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_bee", "freq": 5, "cost_multiplier": 0, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_bee", "freq": 3, "cost_multiplier": 0, "starts": 24, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_bee", "freq": 3, "cost_multiplier": 0, "starts": 120, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_bee", "freq": 2, "cost_multiplier": 0, "starts": 216, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
-      { "monster": "mon_bee", "freq": 2, "cost_multiplier": 0, "starts": 336, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
-      { "monster": "mon_bee", "freq": 2, "cost_multiplier": 0, "starts": 456, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_bee", "freq": 4, "cost_multiplier": 0, "starts": 336, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
+      { "monster": "mon_bee", "freq": 3, "cost_multiplier": 0, "starts": 456, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },
 
       { "monster": "mon_fly", "freq": 4, "cost_multiplier": 0, "conditions": ["SPRING", "SUMMER", "AUTUMN"]       },
       { "monster": "mon_fly", "freq": 6, "cost_multiplier": 0, "conditions": ["DAY", "SPRING", "SUMMER", "AUTUMN"] },

@@ -152,7 +152,8 @@
       "vomit_chance": [300, 900],
       "vomit_tick": [20],
       "rad_chance": [300, 500],
-      "rad_min": [5],
+      "rad_min": [1],
+      "rad_max": [3],
       "rad_max_val": [50],
       "h_mod_min": [-1],
       "h_mod_tick": [60],
@@ -168,7 +169,7 @@
       "hurt_min": [1],
       "hurt_chance": [-50, -900],
       "vomit_chance": [-120, 200],
-      "rad_chance": [-125],
+      "rad_chance": [-75],
       "rad_max_val": [25],
       "h_mod_chance": [-3, -2]
     }
@@ -204,9 +205,10 @@
       "hurt_chance": [300, 1500],
       "vomit_chance": [200],
       "vomit_tick": [30],
-      "rad_min": [5],
+      "rad_min": [2],
+      "rad_max": [5],
       "rad_max_val": [100],
-      "rad_chance": [100, 300],
+      "rad_chance": [180, 360],
       "h_mod_min": [-1],
       "h_mod_tick": [60],
       "h_mod_chance": [10]
@@ -223,7 +225,7 @@
       "hurt_max": [2],
       "vomit_chance": [-80, -50],
       "rad_max_val": [50],
-      "rad_chance": [-30, -100],
+      "rad_chance": [-35, -75],
       "h_mod_tick": [-10]
     }
   },

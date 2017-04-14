@@ -66,9 +66,10 @@
       { "point":[2,1,0], "overmap": "hive" },
       { "point":[2,2,0], "overmap": "hive" }
     ],
+    "locations": [ "forest" ],
     "city_sizes": [4, 16],
     "occurrences": [0, 3],
-    "spawns": { "group": "GROUP_BEE", "population":[1200,3600], "radius":[40,100] }
+    "spawns": { "group": "GROUP_BEE", "population":[1200,3600], "radius":[50,120] }
   },{
     "type": "overmap_special",
     "id": "Farm_unsettled",
