@@ -8,9 +8,8 @@
     "description": "Freshly butchered from a human body.",
     "material": "hflesh",
       "effects": [
-        { "id": "doom_unhealth", "duration": 10 },
-        { "id": "pkill1", "duration": 300 },
-        { "id": "gauze", "duration": 17200 }
+        { "id": "doom_unhealth", "duration": 2 },
+        { "id": "rad_tenths", "duration": 2 }
       ]
   },
   {
@@ -303,8 +302,8 @@
     "stim" : -2,
     "healthy" : -4,
     "fun" : -20,
-    "charges" : 30,
-    "stack_size" : 30,
+    "charges" : 16,
+    "stack_size" : 16,
     "description" : "Agricultural grade, ionically-treated fertilizer for cleansing minerals from aquariums.  Could remove radiation from the body in a pinch.",
     "price" : 1500,
     "use_action" : {
@@ -326,7 +325,7 @@
     "stack_size" : 6,
     "use_action": {
       "type": "heal",
-      "move_cost": 300,
+      "move_cost": 400,
       "bleed": 0.7,
       "bite": 1,
       "infect" : 0.95,
@@ -358,7 +357,7 @@
     "count" : 7,
     "fun" : -1,
     "healthy" : 5,
-    "addiction_potential" : 50,
+    "addiction_potential" : 60,
     "flags" : "NPC_SAFE"
   },
   {
@@ -453,7 +452,7 @@
       "move_cost" : 9500,
       "long_action" : true,
       "effects" : [
-        { "id": "gauze", "duration": 3200 }
+        { "id": "gauze", "duration": 4000 }
       ]
     }
   }
