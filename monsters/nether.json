@@ -16,6 +16,7 @@
     "id": "mon_stemcell_nether",
     "type": "MONSTER",
     "name": "shimmering light",
+    "description": "A shimmering light.  It has no shape at all, yet you can see limbs and appendages poking out and into its core.  It clearly has some kind of sentience, judging by its informed actions.",
     "default_faction": "nether",
     "size": "SMALL",
     "speed": 220,
@@ -82,6 +83,7 @@
         ]
       }
     ],
+    "death_function": [ "NORMAL" ],
     "anger_triggers": [ "PLAYER_WEAK", "FIRE", "PLAYER_CLOSE" ],
     "fear_triggers": [ "MEAT", "FRIEND_DIED" ],
     "placate_triggers": [ "HURT", "SOUND" ],
@@ -160,5 +162,96 @@
     "speed": 125,
     "melee_skill": 8,
     "dodge": 5
+  },
+  {
+    "id": "mon_legion",
+    "type": "MONSTER",
+    "name": "legion",
+    "description": "A fused pile of bodies, writhing and squirming in the most base of ways. Utterly repulsive to behold, the bodies seem to be shielding something ...",
+    "default_faction": "cult",
+    "species": [ "NETHER" ],
+    "diff": 25,
+    "size": "HUGE",
+    "hp": 800,
+    "speed": 60,
+    "material": [ "flesh", "bone" ],
+    "symbol": "&",
+    "color": "red",
+    "aggression": 90,
+    "morale": 90,
+    "melee_skill": 4,
+    "melee_dice": 10,
+    "melee_dice_sides": 3,
+    "melee_cut": 10,
+    "dodge": 0,
+    "armor_bash": 9,
+    "armor_stab": 2,
+    "armor_cut": 5,
+    "armor_acid": 4,
+    "armor_fire": 4,
+    "vision_day": 8,
+    "vision_night": 8,
+    "special_attacks": [
+      [ "UPGRADE", 300 ],
+      [ "RANGED_PULL", 5 ],
+      [ "impale", 20 ],
+      [ "wound_minor", 3 ],
+      { "id": "scratch",
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.8 }
+        ]
+      }
+    ],
+    "upgrades": {
+      "half_life": 700,
+      "into": "mon_nuculais"
+    },
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "BONES" ],
+    "placate_triggers": [ "MEAT" ]
+  },
+  {
+    "id": "mon_nuculais",
+    "type": "MONSTER",
+    "name": "nuculais",
+    "description": "A humanoid sheathed entirely in a dull white light.  While majestic and exuding the air of a god amoungst mortals, something dark and forboding hangs about it; a certain veil of death and termination of substance.",
+    "default_faction": "cult",
+    "species": [ "NETHER" ],
+    "diff": 35,
+    "size": "LARGE",
+    "hp": 800,
+    "speed": 90,
+    "symbol": "&",
+    "color": "white",
+    "aggression": 90,
+    "morale": 90,
+    "melee_skill": 8,
+    "melee_dice": 4,
+    "melee_dice_sides": 7,
+    "melee_cut": 0,
+    "dodge": 3,
+    "melee_damage": [
+      { "damage_type": "biological", "amount": 6 }
+    ],
+    "armor_bash": 6,
+    "armor_stab": 2,
+    "armor_cut": 6,
+    "armor_acid": 2,
+    "armor_fire": 10,
+    "vision_day": 13,
+    "vision_night": 13,
+    "luminance": 30,
+    "special_attacks": [
+      [ "impale", 30 ],
+      { "id": "slash", "cooldown": 20, "accuracy": 6 },
+      { "id": "scratch", "cooldown": 30, "accuracy": 6,
+        "damage_max_instance": [
+          { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 },
+          { "damage_type": "true", "amount": 6 }
+        ]
+      }
+    ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "WARM", "GRABS" ]
   }
 ]

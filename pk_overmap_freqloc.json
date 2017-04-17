@@ -652,8 +652,7 @@
     ],
       "connections": [
         { "point": [-7,-6,-1], "terrain": "subway" },
-        { "point": [-7,-4,0], "terrain": "road" },
-        { "point": [5,-1,0], "terrain": "road" }
+        { "point": [-7,-4,0], "terrain": "road" }
     ],
     "locations": [ "swamp", "wilderness" ],
     "city_distance": [6, -1],
