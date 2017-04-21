@@ -32,6 +32,20 @@
     "flags": [ "CLASSIC" ]
   },{
     "type": "overmap_special",
+    "id": "cave_dusk_horror",
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "pit_topside" },
+      { "point":[0,0,-1], "overmap": "pit_dusk_horror"}
+    ],
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [8, -1],
+    "city_sizes": [4, 16],
+    "occurrences": [0, 1],
+    "rotate": false,
+    "flags": [ "CLASSIC" ],
+    "spawns" : { "group" : "GROUP_HORROR", "population":[15, 30], "radius":[40, 80] }
+  },{
+    "type": "overmap_special",
     "id": "Evac Camp Site",
     "overmaps": [
       { "point":[-1,-1,0], "overmap": "forest" },

@@ -285,5 +285,14 @@
       { "monster": "mon_zolf_scorched", "freq": 10, "cost_multiplier": 20, "conditions": ["DUSK", "NIGHT"] },
       { "monster": "mon_zombear", "freq": 10, "cost_multiplier": 5 }
     ]
+  },
+  {
+    "type":"monstergroup",
+    "name": "GROUP_HORROR",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_horror_dusk", "freq": 250, "cost_multiplier": 0, "conditions": ["NIGHT", "DUSK"] },
+      { "monster": "mon_horror_dusk", "freq": 250, "cost_multiplier": 1, "pack_size": [2,4], "conditions": ["NIGHT", "DUSK"] }
+    ]
   }
 ]

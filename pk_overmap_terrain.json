@@ -66,6 +66,24 @@
     "mondensity": 3,
     "flags" : [ "SIDEWALK", "NO_ROTATE" ]
   },{
+    "type" : "overmap_terrain",
+    "id" : "pit_topside",
+    "name" : "cave",
+    "sym" : 67,
+    "color" : "brown",
+    "see_cost" : 2,
+    "extras" : "subway",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "pit_dusk_horror",
+    "name" : "cave",
+    "sym" : 67,
+    "color" : "brown",
+    "see_cost" : 2,
+    "extras" : "subway",
+    "flags" : [ "NO_ROTATE" ]
+  },{
     "type": "overmap_terrain",
     "id": "hell_city_entranceNW",
     "name": "hell spire citadel",

@@ -978,9 +978,10 @@
     "type": "item_group",
     "id": "church",
     "items": [
-      [ "ref_lighter_dare", 2 ],
-      [ "candle_smoke", 20 ],
-      [ "candle", 20 ]
+      ["robe", 20],
+      [ "ref_lighter_dare", 5 ],
+      [ "candle_smoke", 30 ],
+      [ "candle", 30 ]
     ]
   },
   {
