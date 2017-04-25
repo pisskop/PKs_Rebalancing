@@ -55,7 +55,7 @@
     "turns_per_charge": 1,
     "use_action": {
       "type": "explosion",
-      "sound_volume": 18,
+      "sound_volume": 24,
       "sound_msg": "CLANG-chingka-ching",
       "no_deactivate_msg": "Its not active; why are you trying to deactivate it?",
       "explosion": {

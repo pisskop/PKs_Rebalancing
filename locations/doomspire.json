@@ -27,7 +27,7 @@
         "                #0######",
         "               ##.S.L.S>",
         "              ##8.......",
-        "             ##Z..C...xS",
+        "             ##Z......xS",
         "             ##........~",
         "      ########S.1..1....",
         "      0/.S.............."
@@ -55,8 +55,7 @@
       },
       "monster": {
         "Z": { "monster": "mon_doom_sacrifice" },
-        "L": { "monster": "mon_lostsoul_mount" },
-        "C": { "monster": "mon_cacodemon" }
+        "L": { "monster": "mon_lostsoul_mount" }
       },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
@@ -77,10 +76,10 @@
         { "point": "furniture", "id": "f_statue", "x": [ 20 ], "y": [ 18 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 }
+        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
       "place_items": [ 
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
@@ -117,7 +116,7 @@
         "######0#                ",
         ">S.L.S.##               ",
         ".......8##              ",
-        "Sx..C...J##             ",
+        "Sx......J##             ",
         "~........##             ",
         "....1..1.S########      ",
         "..............S.L0      "
@@ -145,8 +144,7 @@
       },
       "monster": {
         "Z": { "monster": "mon_doom_sacrifice" },
-        "L": { "monster": "mon_lostsoul_mount" },
-        "C": { "monster": "mon_cacodemon" }
+        "L": { "monster": "mon_lostsoul_mount" }
       },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
@@ -167,10 +165,10 @@
         { "point": "furniture", "id": "f_blade", "x": [ 16 ], "y": [ 23 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 }
+        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
       "place_items": [ 
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
@@ -254,10 +252,10 @@
         { "point": "furniture", "id": "f_shackle", "x": [ 17 ], "y": [ 10 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 }
+        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
       "place_items": [ 
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
@@ -343,10 +341,10 @@
         { "point": "furniture", "id": "f_spike", "x": [ 8 ], "y": [ 7 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 }
+        { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
       "place_items": [ 
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
@@ -469,7 +467,7 @@
         "#########J...L.......###",
         "######.##............###",
         "######..+............###",
-        "#########/...1.....k.###",
+        "#########/...1.......###",
         "######.##............###",
         "######..+............###",
         "#########....L.......###",
@@ -499,15 +497,13 @@
       "monster": {
         "Z": { "monster": "mon_doom_sacrifice" },
         "L": { "monster": "mon_lostsoul_mount" },
-        "R": { "monster": "mon_revenant" },
-        "s": { "monster": "mon_doom_slave" },
-        "k": { "monster": "mon_hell_knight" }
+        "s": { "monster": "mon_doom_slave" }
       },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 9, 16 ], "y": [ 2, 4 ], "chance": 2 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 9, 16 ], "y": [ 2, 4 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": 14, "y": 19, "chance": 3 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 9, 16 ], "y": [ 2, 4 ], "chance": 3 }
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 9, 16 ], "y": [ 2, 4 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": 14, "y": 19, "chance": 5 },
+        { "monster": "GROUP_DOOM_HELP", "x": [ 9, 16 ], "y": [ 2, 4 ], "chance": 2 }
       ],
       "set": [
         { "point": "furniture", "id": "f_slab", "x": 18, "y": [ 11, 23 ], "repeat": [ 2, 7 ] },
@@ -591,8 +587,8 @@
       "place_monsters": [
         { "monster": "GROUP_ZOMBIE_MID", "x": 14, "y": 9, "chance": 2 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": 14, "y": 6 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": 11, "y": 5, "chance": 2 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 11, 14 ], "y": [ 1, 4 ], "chance": 3 }
+        { "monster": "GROUP_DOOM_INFANTRY", "x": 11, "y": 5, "chance": 5 },
+        { "monster": "GROUP_DOOM_HELP", "x": [ 11, 14 ], "y": [ 1, 4 ], "chance": 2 }
       ],
       "set": [
         { "point": "furniture", "id": "f_slab", "x": 18, "y": [ 0, 4 ], "repeat": [ 1, 3 ] },
@@ -681,8 +677,8 @@
         { "point": "terrain", "id": "t_rock_floor", "x": 17, "y": 9 }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 14, 21 ], "y": [ 9, 12 ], "chance": 2, "repeat": [1,2] },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 2 }
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 14, 21 ], "y": [ 9, 12 ], "chance": 3 },
+        { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 3 }
       ]
     }
   },
@@ -741,9 +737,9 @@
       },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 16, 20 ], "y": [ 3, 6 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 16, 20 ], "y": [ 3, 6 ], "chance": 2 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 11, 13 ], "y": [ 13, 14 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 3 }
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 16, 20 ], "y": [ 3, 6 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 11, 13 ], "y": [ 13, 14 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 2 }
       ],
       "place_items": [ 
         { "item": "military", "chance": 45, "x": [ 1,2 ], "y": [ 17, 18 ], "repeat": [1,2] },
@@ -813,11 +809,10 @@
         "8": "f_shackle"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 3 },
-        { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 3 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 3 },
-        { "monster": "GROUP_ZOMBIE_MID", "x": [ 11, 12 ], "y": [ 5 ] },
-        { "monster": "GROUP_DOOM_HELP", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 }
+        { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 },
+        { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 2 },
+        { "monster": "GROUP_ZOMBIE_MID", "x": [ 11, 12 ], "y": [ 5 ] }
       ],
       "place_items": [ 
         { "item": "doom_stimpack", "chance": 85, "x": [ 21,21 ], "y": [ 19, 22 ], "repeat": [ 2, 3 ] },
@@ -897,9 +892,9 @@
         { "monster": "GROUP_DOOM_PRIEST", "x": [ 11, 12 ], "y": [ 19, 21 ] }
       ],
       "place_items": [ 
-        { "item": "doom_stimpack", "chance": 95, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ] },
-        { "item": "doom_lootpack", "chance": 95, "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 2 ] },
-        { "item": "doom_lootpack", "chance": 55, "x": [ 10, 14 ], "y": [ 19, 21 ] }
+        { "item": "doom_stimpack", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ] },
+        { "item": "doom_lootpack", "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 2 ] },
+        { "item": "doom_lootpack", "chance": 75, "x": [ 10, 14 ], "y": [ 19, 21 ] }
       ],
       "set": [
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 5 ] },

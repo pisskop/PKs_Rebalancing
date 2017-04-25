@@ -59,7 +59,6 @@
         },
         "road": {
           "//": "More stuff in the way",
-          "//": "More stuff in the way",
           "chance": 75,
           "extras": {
             "mx_helicopter": 30,

@@ -84,7 +84,7 @@
     "vision_day": 30,
     "special_attacks": [
       [ "wound_minor", 30 ],
-      { "type": "leap", "cooldown": 5, "max_range": 4 },
+      { "type": "leap", "cooldown": 3, "max_range": 3 },
       { "type": "bite", "cooldown": 20, "accuracy": 5, "moves": 75, "no_infection_chance": 15,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 9, "armor_multiplier": 0.85 }
