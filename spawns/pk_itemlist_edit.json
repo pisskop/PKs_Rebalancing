@@ -25,7 +25,8 @@
       [ "clay_lump", 6 ],
       [ "tinyweldtank", 2 ],
       [ "ref_lighter_dare", 5 ],
-      [ "candle_smoke", 12 ]
+      [ "candle_smoke", 12 ],
+      [ "lobotomizer", 1 ]
     ]
   },
   {
@@ -163,7 +164,8 @@
       [ "stamina_vial", 15 ],
       [ "410_revolver", 8 ],
       [ "swat_shield", 5 ],
-      [ "weldtank", 1 ]
+      [ "weldtank", 1 ],
+      [ "landmine", 1 ]
     ]
   },
   {
@@ -299,7 +301,8 @@
       [ "bomblet_launcher_rotary", 8 ],
       [ "bomblet_launcher_dualshot", 8 ],
       [ "bomblet_undermod", 10 ],
-      [ "medical_gauze", 1 ]
+      [ "medical_gauze", 1 ],
+      [ "landmine", 4 ]
     ]
   },
   {
@@ -613,7 +616,8 @@
       [ "chloroform_rag", 10 ],
       [ "antidote_posion", 12 ],
       [ "antidote_badpoison", 6 ],
-      [ "clay_boiled", 15 ]
+      [ "clay_boiled", 15 ],
+      [ "lobotomizer", 5 ]
     ]
   },
   {
@@ -652,7 +656,8 @@
       [ "clay_lump", 5 ],
       [ "homebrew_antiseptic", 4 ],
       [ "ref_lighter_dare", 5 ],
-      [ "medical_gauze", 6 ]
+      [ "medical_gauze", 6 ],
+      [ "lobotomizer", 1 ]
     ]
   },
   {
@@ -854,7 +859,8 @@
     "id": "ammo_milspec",
     "//": "Military specification ammo found at military sites.",
     "items": [
-      { "group": "bomblet_ammo", "prob": 40 }
+      { "group": "bomblet_ammo", "prob": 40 },
+      [ "landmine", 4 ]
     ]
   },
   {
