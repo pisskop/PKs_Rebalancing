@@ -273,7 +273,10 @@
           { "id": "infection_minor", "duration": 5200 }
         ]
       }
-    ]
+    ],
+    "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "fear_triggers": [],
+    "placate_triggers": [ "MEAT", "SOUND" ]
   },
   {
     "id": "mon_bear_pk",
@@ -295,8 +298,8 @@
     "vision_day": 30,
     "vision_night": 15,
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
-    "fear_triggers": [ "SOUND" ],
-    "placate_triggers": [ "MEAT" ]
+    "fear_triggers": [],
+    "placate_triggers": [ "MEAT", "SOUND" ]
   },
   {
     "id": "mon_bear_weak",
@@ -317,8 +320,7 @@
     "armor_cut": 3,
     "vision_day": 30,
     "vision_night": 10,
-    "anger_triggers": [ "PLAYER_CLOSE", "STALK", "FRIEND_ATTACKED" ],
-    "placate_triggers": [ "MEAT", "SOUND" ]
+    "anger_triggers": [ "PLAYER_CLOSE", "STALK", "FRIEND_ATTACKED" ]
   },
   {
     "id": "mon_cougar",

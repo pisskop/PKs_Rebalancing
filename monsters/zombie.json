@@ -2043,7 +2043,7 @@
     "type": "MONSTER",
     "copy-from": "mon_charred_nightmare",
     "attack_effs": [
-      { "id": "rad_fives", "duration": 30 }
+      { "id": "rad_fives", "duration": 20 }
     ],
     "emit_fields": [ "emit_radiation_small" ],
     "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
@@ -2080,7 +2080,7 @@
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_4",
     "attack_effs": [
-      { "id": "rad_fives", "duration": 10 }
+      { "id": "rad_fives", "duration": 5 }
     ],
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },

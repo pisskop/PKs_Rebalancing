@@ -43,7 +43,7 @@
     "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ],
-    "spawns" : { "group" : "GROUP_HORROR", "population":[15, 30], "radius":[40, 80] }
+    "spawns" : { "group" : "GROUP_HORROR", "population":[6, 18], "radius":[55, 165] }
   },{
     "type": "overmap_special",
     "id": "Evac Camp Site",
@@ -82,8 +82,8 @@
     ],
     "locations": [ "forest" ],
     "city_sizes": [4, 16],
-    "occurrences": [0, 3],
-    "spawns": { "group": "GROUP_BEE", "population":[1200,3600], "radius":[50,120] }
+    "occurrences": [1, 3],
+    "spawns": { "group": "GROUP_BEE", "population":[800,2400], "radius":[80,240] }
   },{
     "type": "overmap_special",
     "id": "Farm_unsettled",
@@ -130,7 +130,7 @@
     "city_sizes": [4, 16],
     "occurrences": [1, 1],
     "rotate": false,
-    "spawns": { "group": "GROUP_ROBOCOP", "population":[9,27], "radius":[75,150] }
+    "spawns": { "group": "GROUP_ROBOCOP", "population":[12,36], "radius":[65,130] }
   },{
     "type": "overmap_special",
     "id": "onestop_town",
@@ -265,7 +265,7 @@
     "city_sizes": [4, 16],
     "occurrences": [1, 4],
     "rotate": false,
-    "spawns": { "group": "GROUP_TRIFFID", "population":[500,1250], "radius":[25,60] }
+    "spawns": { "group": "GROUP_TRIFFID", "population":[400,1050], "radius":[30,75] }
   },{
     "type": "overmap_special",
     "id": "Triffid Grove Swamp",
@@ -281,7 +281,7 @@
     "city_sizes": [4, 16],
     "occurrences": [1, 3],
     "rotate": false,
-    "spawns": { "group": "GROUP_TRIFFID_SWAMP", "population":[500,1250], "radius":[25,60] }
+    "spawns": { "group": "GROUP_TRIFFID_SWAMP", "population":[500,1250], "radius":[35,90] }
   },{
     "type": "overmap_special",
     "id": "Fungal Bloom",
@@ -289,7 +289,7 @@
     "locations": [ "land" ],
     "city_distance": [0, -1],
     "occurrences": [1, 2],
-    "spawns": { "group": "GROUP_FUNGI", "population":[500,1000], "radius":[30,60] }
+    "spawns": { "group": "GROUP_FUNGI", "population":[350,950], "radius":[35,75] }
   },{
     "type": "overmap_special",
     "id": "Fungal Tower",
@@ -300,7 +300,7 @@
     ],
     "locations": [ "land" ],
     "occurrences": [1, 2],
-    "spawns": { "group": "GROUP_FUNGI_TOWER", "population":[200,450], "radius":[10,20] }
+    "spawns": { "group": "GROUP_FUNGI_TOWER", "population":[150,300], "radius":[12,20] }
   },{
     "type": "overmap_special",
     "id": "Fungal Flowers",
@@ -312,7 +312,7 @@
     "city_sizes" : [4, 12],
     "occurrences" : [1, 2],
     "rotate" : false,
-    "spawns": { "group": "GROUP_FUNGI_FLOWERS", "population":[50,150], "radius":[15,35] }
+    "spawns": { "group": "GROUP_FUNGI_FLOWERS", "population":[50,150], "radius":[20,45] }
   },
   {
     "type": "overmap_special",
@@ -325,7 +325,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 3],
     "rotate": false,
-    "spawns": { "group": "GROUP_WASP", "population":[150,450], "radius":[30,50] }
+    "spawns": { "group": "GROUP_WASP", "population":[150,450], "radius":[90,180] }
   },{
     "type": "overmap_special",
     "id": "Anthill",
@@ -334,7 +334,7 @@
     "city_distance": [5, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 10],
-    "spawns": { "group": "GROUP_ANT", "population":[700,2100], "radius":[20,45] }
+    "spawns": { "group": "GROUP_ANT", "population":[600,1800], "radius":[25,65] }
   },{
     "type": "overmap_special",
     "id": "Spider Pit",
@@ -342,7 +342,7 @@
     "city_distance": [0, -1],
     "occurrences": [2, 15],
     "rotate": false,
-    "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[3,7] }
+    "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[4,12] }
   },{
     "type": "overmap_special",
     "id": "spider_pit_close",
@@ -355,7 +355,7 @@
     "city_sizes": [1, 12],
     "occurrences": [0, 6],
     "rotate": false,
-    "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[3,7] }
+    "spawns": { "group":  "GROUP_SPIDER", "population":[18,54], "radius":[4,10] }
   },{
     "type": "overmap_special",
     "id": "trapdoor_spider_pit_close",
@@ -368,7 +368,7 @@
     "city_sizes": [4, 16],
     "occurrences": [2, 8],
     "rotate": false,
-    "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[3,7] }
+    "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,12] }
   },{
     "type": "overmap_special",
     "id": "trapdoor_spider_pit",
@@ -381,7 +381,7 @@
     "city_sizes": [4, 16],
     "occurrences": [2, 15],
     "rotate": false,
-    "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[3,7] }
+    "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,10] }
   },{
     "type": "overmap_special",
     "id": "hell_spire",
@@ -404,7 +404,7 @@
     "city_sizes": [5, 16],
     "occurrences": [1, 2],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[175, 350], "radius":[10,30] }
+    "spawns": { "group":  "GROUP_DOOM", "population":[150, 300], "radius":[12,35] }
   },{
     "type": "overmap_special",
     "id": "hell_castle",
@@ -443,7 +443,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 2],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[650, 1000], "radius":[25,50] }
+    "spawns": { "group":  "GROUP_DOOM", "population":[450, 900], "radius":[25,65] }
   },{
     "type": "overmap_special",
     "id": "doom_lab",
@@ -542,7 +542,6 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 3],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[150, 350], "radius":[12,36] }
   },{
     "type": "overmap_special",
     "id": "cemetery_public_large",
@@ -686,7 +685,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 2],
     "rotate": false,
-    "spawns": { "group":  "GROUP_SLUDGE", "population":[30,60], "radius":[8,18] }
+    "spawns": { "group":  "GROUP_SLUDGE", "population":[15,35], "radius":[8,24] }
   },{
     "type": "overmap_special",
     "id": "sky anomalie",

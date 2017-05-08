@@ -1030,9 +1030,16 @@
     "type": "item_group",
     "id": "shelter",
     "items": [
-      [ "candle_smoke", 2 ],
-      [ "candle", 3 ],
-      [ "medical_gauze", 4 ]
+      [ "candle_smoke",3 ],
+      [ "candle", 4 ],
+      [ "medical_gauze", 6 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "vending_food",
+    "items": [
+      [ "fresh_fries_big", 15 ]
     ]
   }
 ]

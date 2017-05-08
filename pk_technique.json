@@ -1,23 +1,42 @@
 [
   {
-    "type" : "technique",
-    "id" : "heavy_blow",
-    "name" : "Hammerblow",
-    "unarmed_allowed" : true,
-    "melee_allowed" : true,
-    "crit_tec" : true,
-    "stun_dur" : 3,
-    "knockback_dist" : 1,
-    "weighting" : -3,
-    "messages" : [
+    "type": "technique",
+    "id": "heavy_blow",
+    "name": "Hammerblow",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 3,
+    "knockback_dist": 1,
+    "weighting": -3,
+    "messages": [
       "You hammer on %s",
       "<npcname> hammers at %s"
     ],
-    "mult_bonuses" : [
+    "mult_bonuses": [
       ["movecost", 1.75],
       ["damage", "bash", 1.66],
       ["damage", "cut", 0.75],
       ["damage", "stab", 1.33]
+    ]
+  },{
+    "id": "repose",
+    "type": "technique",
+    "name": "repose",
+    "min_melee": 0,
+    "weighting": -5,
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "grab_break": true,
+    "messages": [
+      "You repose yourself as you attack.",
+      "<npcname>%s reposes themself."
+    ],
+    "mult_bonuses": [
+      [ "movecost", 1.2 ],
+      [ "damage", "bash", 0.8 ],
+      [ "damage", "cut", 0.8 ],
+      [ "damage", "stab", 0.8 ]
     ]
   }
 ]

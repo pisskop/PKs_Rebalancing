@@ -18,7 +18,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, -1],
     "occurrences": [0, 2],
-    "spawns" : { "group": "GROUP_BOG", "population": [0, 15], "radius":[75,200] }
+    "spawns" : { "group": "GROUP_BOG", "population": [1, 10], "radius":[5,50] }
   },{
     "type" : "overmap_special",
     "id" : "Cave",
@@ -63,7 +63,7 @@
     "id": "Toxic Waste Dump",
     "copy-from" : "Toxic Waste Dump",
     "occurrences": [0, 4],
-    "spawns": { "group": "GROUP_MUTATIONS", "population":[65,150], "radius":[80,160] }
+    "spawns": { "group": "GROUP_MUTATIONS", "population":[50,150], "radius":[80,240] }
   },{
     "type": "overmap_special",
     "id": "Toxic Waste Dump Swamp",
@@ -75,7 +75,7 @@
     "city_sizes": [4, 12],
     "occurrences": [1, 4],
     "flags": [ "CLASSIC" ],
-    "spawns": { "group": "GROUP_MUTATIONS", "population":[65,150], "radius":[80,160] }
+    "spawns": { "group": "GROUP_MUTATIONS", "population":[80,240], "radius":[100,300] }
   },{
     "type": "overmap_special",
     "id": "sai",
@@ -112,7 +112,7 @@
     "id": "Hazardous Waste Sarcophagus",
     "copy-from" : "Hazardous Waste Sarcophagus",
     "occurrences": [0, 1],
-    "spawns": { "group": "GROUP_MUTATIONS", "population":[120,300], "radius":[150,250] }
+    "spawns": { "group": "GROUP_MUTATIONS", "population":[100,400], "radius":[100,400] }
   },{
     "type": "overmap_special",
     "id": "Cathedral",
@@ -193,7 +193,7 @@
     "city_distance": [0, 25],
     "occurrences": [0, 6],
     "rotate": true,
-    "spawns": { "group": "GROUP_GOO", "population":[125,250], "radius":[8,20] }
+    "spawns": { "group": "GROUP_GOO", "population":[125,250], "radius":[7,21] }
   },{
     "type": "overmap_special",
     "id": "Home Improvement Superstore",
@@ -813,14 +813,14 @@
     "city_distance": [0, 20],
     "occurrences": [1, 6],
     "rotate": false,
-    "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 10], "radius":[2, 5] }
+    "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 12], "radius":[2, 5] }
   },{
     "type" : "overmap_special",
     "id" : "power_station_large",
     "copy-from" : "power_station_large",
     "locations" : [ "wilderness", "swamp" ],
     "city_distance" : [4, 20],
-    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[4, 10], "radius":[3, 5] }
+    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
   },{
     "type" : "overmap_special",
     "id" : "power_station_large By Road",
@@ -838,7 +838,7 @@
     "city_sizes" : [4, 14],
     "occurrences" : [0, 1],
     "rotate" : false,
-    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[4, 10], "radius":[3, 5] }
+    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
   },{
     "type": "overmap_special",
     "id": "football_field",

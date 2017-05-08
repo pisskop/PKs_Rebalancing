@@ -11,6 +11,6 @@
     "worn_override": "NC_DOOMGUY_worn",
     "carry_override": "NC_DOOMGUY_carried",
     "weapon_override": "NC_DOOMGUY_weapon",
-    "traits": [ [ "TERRIFYING", 80 ], [ "20_15",  80 ] ]
+    "traits": [ [ "TERRIFYING", 80 ], ["PSYCHOPATH" , 80], [ "20_15",  80 ], ["NIGHTVISION", 40] ]
   }
 ]

@@ -129,6 +129,28 @@
       ]
   },
   {
+    "type" : "COMESTIBLE",
+    "id" : "fresh_fries_big",
+    "name" : "EXTRA BIG-ASS FRIES",
+    "name_plural" : " EXTRA BIG-ASS FRIES",
+    "weight" : 175,
+    "color" : "yellow",
+    "spoils_in" : 200,
+    "container" : "box_small",
+    "comestible_type" : "FOOD",
+    "symbol" : "%",
+    "quench" : -4,
+    "healthy" : -2,
+    "nutrition" : 12,
+    "description" : "Enjoy your order of 'EXTRA BIG-ASS FRIES'.  Please come back when you can afford to make another purchase of 'EXTRA BIG-ASS FRIES'.",
+    "price" : 500,
+    "material" : "junk",
+    "volume" : 1,
+    "charges" : 2,
+    "flags" : ["EATEN_HOT"],
+    "fun" : 7
+  },
+  {
     "id": "medikit",
     "type": "COMESTIBLE",
     "name": "medikit",
