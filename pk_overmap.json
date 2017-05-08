@@ -18,7 +18,8 @@
     "occurrences": [0, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "old barn",
     "overmaps": [
@@ -30,7 +31,8 @@
     "occurrences": [0, 6],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "cave_dusk_horror",
     "overmaps": [
@@ -44,7 +46,8 @@
     "rotate": false,
     "flags": [ "CLASSIC" ],
     "spawns" : { "group" : "GROUP_HORROR", "population":[6, 18], "radius":[55, 165] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Evac Camp Site",
     "overmaps": [
@@ -65,7 +68,8 @@
     "occurrences": [0, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Bee Hive",
     "copy-from" : "Bee Hive",
@@ -84,7 +88,8 @@
     "city_sizes": [4, 16],
     "occurrences": [1, 3],
     "spawns": { "group": "GROUP_BEE", "population":[800,2400], "radius":[80,240] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Farm_unsettled",
     "overmaps": [
@@ -108,7 +113,8 @@
     "occurrences": [0, 3],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "police_hub",
     "overmaps": [
@@ -131,7 +137,8 @@
     "occurrences": [1, 1],
     "rotate": false,
     "spawns": { "group": "GROUP_ROBOCOP", "population":[12,36], "radius":[65,130] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "onestop_town",
     "overmaps": [
@@ -189,7 +196,8 @@
     "city_sizes": [4, 20],
     "rotate": false,
     "occurrences": [0, 1]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Apartments_Con",
     "copy-from" : "Apartments_Con",
@@ -216,7 +224,8 @@
     "city_sizes": [4, 20],
     "occurrences": [0, 2],
     "rotate": false
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Apartments_Con_wide",
     "overmaps": [
@@ -250,7 +259,8 @@
     "occurrences": [1, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Triffid Grove",
     "copy-from" : "Triffid Grove",
@@ -266,7 +276,8 @@
     "occurrences": [1, 4],
     "rotate": false,
     "spawns": { "group": "GROUP_TRIFFID", "population":[400,1050], "radius":[30,75] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Triffid Grove Swamp",
     "overmaps":
@@ -282,7 +293,8 @@
     "occurrences": [1, 3],
     "rotate": false,
     "spawns": { "group": "GROUP_TRIFFID_SWAMP", "population":[500,1250], "radius":[35,90] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Fungal Bloom",
     "copy-from" : "Fungal Bloom",
@@ -290,7 +302,8 @@
     "city_distance": [0, -1],
     "occurrences": [1, 2],
     "spawns": { "group": "GROUP_FUNGI", "population":[350,950], "radius":[35,75] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Fungal Tower",
     "copy-from" : "Fungal Tower",
@@ -301,7 +314,8 @@
     "locations": [ "land" ],
     "occurrences": [1, 2],
     "spawns": { "group": "GROUP_FUNGI_TOWER", "population":[150,300], "radius":[12,20] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Fungal Flowers",
     "overmaps" : [
@@ -326,7 +340,8 @@
     "occurrences": [0, 3],
     "rotate": false,
     "spawns": { "group": "GROUP_WASP", "population":[150,450], "radius":[90,180] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Anthill",
     "copy-from" : "Anthill",
@@ -335,7 +350,8 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 10],
     "spawns": { "group": "GROUP_ANT", "population":[600,1800], "radius":[25,65] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Spider Pit",
     "copy-from" : "Spider Pit",
@@ -343,7 +359,8 @@
     "occurrences": [2, 15],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[4,12] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "spider_pit_close",
     "overmaps": [
@@ -356,7 +373,8 @@
     "occurrences": [0, 6],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[18,54], "radius":[4,10] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "trapdoor_spider_pit_close",
     "overmaps": [
@@ -369,7 +387,8 @@
     "occurrences": [2, 8],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,12] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "trapdoor_spider_pit",
     "overmaps": [
@@ -382,7 +401,8 @@
     "occurrences": [2, 15],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,10] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "hell_spire",
     "overmaps":
@@ -405,7 +425,8 @@
     "occurrences": [1, 2],
     "rotate": false,
     "spawns": { "group":  "GROUP_DOOM", "population":[150, 300], "radius":[12,35] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "hell_castle",
     "overmaps":
@@ -444,7 +465,8 @@
     "occurrences": [0, 2],
     "rotate": false,
     "spawns": { "group":  "GROUP_DOOM", "population":[450, 900], "radius":[25,65] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "doom_lab",
     "overmaps":
@@ -541,8 +563,9 @@
     "city_distance": [3, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 3],
-    "rotate": false,
-  },{
+    "rotate": false
+  },
+  {
     "type": "overmap_special",
     "id": "cemetery_public_large",
     "overmaps":
@@ -592,26 +615,30 @@
     "city_sizes": [6, 16],
     "occurrences": [0, 2],
     "rotate": false
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Pond",
     "copy-from" : "Pond",
     "city_distance": [0, -1],
     "occurrences": [2, 15]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "basin",
     "copy-from" : "basin",
     "city_distance": [0, -1],
     "occurrences": [2, 15]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "bog",
     "copy-from" : "bog",
     "city_distance": [0, -1],
     "occurrences": [0, 3],
     "spawns" : { "group": "GROUP_BOG", "population": [0, 3], "chance": 60 }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "Plantation",
     "//": "Created and donated by Kedryn on the C:DDA Forums.",
@@ -662,7 +689,8 @@
     "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ]
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "sludge pit",
     "overmaps": [
@@ -686,7 +714,8 @@
     "occurrences": [0, 2],
     "rotate": false,
     "spawns": { "group":  "GROUP_SLUDGE", "population":[15,35], "radius":[8,24] }
-  },{
+  },
+  {
     "type": "overmap_special",
     "id": "sky anomalie",
     "overmaps": [
