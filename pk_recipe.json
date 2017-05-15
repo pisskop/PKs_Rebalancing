@@ -1273,6 +1273,9 @@
     "qualities": [
       { "id":"BOIL","level":1,"amount":1 }
     ],
+    "tools": [
+      [ [ "hotplate", 5 ], [ "char_smoker", 3 ], [ "toolset", 5 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ], [ "fire", -1 ] ]
+    ],
     "components": [
       [ [ "clay_lump", 1 ] ],
       [ [ "salt", 10 ], [ "salt_water", 1 ], [ "saline", 3 ],  [ "seasoning_salt", 25 ] ],

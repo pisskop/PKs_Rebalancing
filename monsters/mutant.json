@@ -478,7 +478,7 @@
     ],
     "special_attacks": [
       [ "FLESH_GOLEM", 10 ],
-      [ "FEAR_PARALYZE", 20 ],
+      [ "FEAR_PARALYZE", 40 ],
       { "id": "scratch", "moves": 150, "cooldown": 20,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.8 },

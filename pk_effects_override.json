@@ -5,7 +5,9 @@
     "chance": 80,
     "max_duration": 2700,
     "base_mods": {
-      "str_mod": [1]
+      "str_mod": [1],
+      "int_mod": [-1],
+      "per_mod": [-2]
     }
   },
   {
@@ -19,14 +21,14 @@
   {
     "type": "effect_type",
     "id": "flushot",
-    "blocks_effects": ["flu", "flu_zed"]
+    "blocks_effects": [ "flu", "flu_zed" ]
   },
   {
     "type": "effect_type",
     "id": "onfire",
     "chance": 65,
-    "name": ["On Fire"],
-    "desc": ["Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames."],
+    "name": [ "On Fire" ],
+    "desc": [ "Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames." ],
     "remove_memorial_log": "Put out the fire.",
     "apply_message": "You're on fire!  Wait in place to attempt to put out the fire.",
     "apply_memorial_log": "Caught on fire.",
@@ -38,8 +40,8 @@
   {
     "type": "effect_type",
     "id": "darkness",
-    "name": ["Darkess"],
-    "desc": ["Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames."],
+    "name": [ "Darkess" ],
+    "desc": [ "Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames." ],
     "apply_message": "Your vision flickers and goes gray!",
     "remove_message": "The world flickers back to normality.",
     "rating": "bad",
@@ -49,7 +51,7 @@
     "type": "effect_type",
     "id": "cureall",
     "//": "This is the royal jelly effect, it should cure pretty much everything.",
-    "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu", "flu_zed", "infection_minor"],
+    "removes_effects": [ "fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "blind", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison", "tetanus", "infected", "asthma", "common_cold", "flu", "flu_zed", "infection_minor" ],
     "base_mods": {
       "rad_amount": [-75],
       "health_amount": [5]
@@ -58,11 +60,11 @@
   {
     "type": "effect_type",
     "id": "foodpoison",
-    "name": ["Food Poisoning"],
-    "desc": ["Your stomach is extremely upset, and you are quite nauseous."],
-    "miss_messages": [["Your stomach bothers you.", 1]],
+    "name": [ "Food Poisoning" ],
+    "desc": [ "Your stomach is extremely upset, and you are quite nauseous." ],
+    "miss_messages": [[ "Your stomach bothers you.", 1]],
     "rating": "bad",
-    "resist_traits": ["POISRESIST"],
+    "resist_traits": [ "POISRESIST" ],
     "int_add_val": 1,
     "max_intensity": 3,
     "base_mods": {
@@ -94,8 +96,8 @@
   {
     "type": "effect_type",
     "id": "boomered",
-    "name": ["Boomered"],
-    "desc": ["Range of Sight: 1;  You are covered in magenta bile!"],
+    "name": [ "Boomered" ],
+    "desc": [ "Range of Sight: 1;  You are covered in magenta bile!" ],
     "apply_message": "You're covered in bile!",
     "rating": "bad",
     "base_mods": {
@@ -113,11 +115,11 @@
       "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed", "Totally Paralyzed"
       ],
     "//": "20 max intensity, 5 each",
-    "desc": ["You are being slowed by a paralyzing poison!"],
-    "miss_messages": [["You feel stiff.", 4]],
+    "desc": [ "You are being slowed by a paralyzing poison!" ],
+    "miss_messages": [[ "You feel stiff.", 4]],
     "rating": "bad",
     "max_intensity": 20,
-    "resist_traits": ["POISRESIST"],
+    "resist_traits": [ "POISRESIST" ],
     "int_add_val": 1,
     "int_decay_tick": 1500,
     "base_mods": {
@@ -147,18 +149,18 @@
     "type": "effect_type",
     "id": "poison",
     "copy-from": "poison",
-    "name": ["Poisoned"],
+    "name": [ "Poisoned" ],
     "apply_message": "You feel poisoned!",
-    "desc": ["You have been poisoned!"],
-    "miss_messages": [["You feel bad inside.", 2]],
+    "desc": [ "You have been poisoned!" ],
+    "miss_messages": [[ "You feel bad inside.", 2]],
     "int_add_val": 1,
     "max_intensity": 3,
     "int_decay_step": -1,
     "int_decay_tick": 600,
     "max_duration": 1200,
-    "decay_messages": [["You feel a little better.", "neutral"], ["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
+    "decay_messages": [[ "You feel a little better.", "neutral" ], [ "You feel a little better.", "neutral" ], [ "You don't feel poisoned any longer", "good" ]],
     "rating": "bad",
-    "resist_traits": ["POISRESIST"],
+    "resist_traits": [ "POISRESIST" ],
     "pain_sizing": true,
     "hurt_sizing": true,
     "main_parts_only": true,
@@ -200,18 +202,18 @@
     "type": "effect_type",
     "id": "badpoison",
     "copy-from": "badpoison",
-    "name": ["Badly Poisoned"],
+    "name": [ "Badly Poisoned" ],
     "apply_message": "You feel badly poisoned!",
-    "desc": ["You have been badly poisoned!"],
-    "miss_messages": [["You feel awful inside.", 4]],
+    "desc": [ "You have been badly poisoned!" ],
+    "miss_messages": [[ "You feel awful inside.", 4]],
     "int_add_val": 1,
     "max_intensity": 3,
     "int_decay_step": -1,
     "int_decay_tick": 900,
     "max_duration": 1800,
-    "decay_messages": [["You feel a little better.", "neutral"], ["You feel a little better.", "neutral"], ["You don't feel poisoned any longer", "good"]],
+    "decay_messages": [[ "You feel a little better.", "neutral" ], [ "You feel a little better.", "neutral" ], [ "You don't feel poisoned any longer", "good" ]],
     "rating": "bad",
-    "resist_traits": ["POISRESIST"],
+    "resist_traits": [ "POISRESIST" ],
     "pain_sizing": true,
     "hurt_sizing": true,
     "main_parts_only": true,
@@ -384,8 +386,8 @@
   {
     "type": "effect_type",
     "id": "frostbite_recovery",
-    "name": ["Defrosting"],
-    "desc": ["Your %s is starting to feel the damage cold has wrought."],
+    "name": [ "Defrosting" ],
+    "desc": [ "Your %s is starting to feel the damage cold has wrought." ],
     "part_descs": true,
     "base_mods": {
        "dex_mod": [-0.5],
@@ -494,7 +496,7 @@
     "id": "scurvy",
     "name": [ "Early scurvy", "Scurvy", "Bad Scurvy" ],
     "desc": [ "A lack of vitamin C in your diet will result in progressively worse symptoms of scurvy." ],
-    "miss_messages": [["You body quakes slightly.", 4]],
+    "miss_messages": [[ "You body quakes slightly.", 4]],
     "apply_message": "You start to develop symptoms of scurvy.",
     "remove_message": "Your scurvy has resolved.",
     "decay_messages": [
@@ -547,12 +549,12 @@
   {
     "type": "effect_type",
     "id": "slimed",
-    "name": ["Slimed"],
-    "desc": ["You're covered in thick goo!"],
+    "name": [ "Slimed" ],
+    "desc": [ "You're covered in thick goo!" ],
     "apply_message": "You're covered in thick goo!",
     "rating": "bad",
     "max_intensity": 3,
-    "miss_messages": [["This goo makes you slip", 6]],
+    "miss_messages": [[ "This goo makes you slip", 6]],
     "base_mods": {
       "dex_mod": [-2],
       "speed_mod": [-25],

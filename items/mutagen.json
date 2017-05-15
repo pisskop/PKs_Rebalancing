@@ -9,7 +9,8 @@
         "color" : "magenta",
         "healthy" : -80,
         "addiction_potential" : 10,
-        "use_action" : "PURIFY_IV"
+        "use_action" : "PURIFY_IV",
+        "addiction_type" : "mutagen"
     },
 
 
@@ -38,7 +39,8 @@
         "copy-from" : "mutagen",
         "type" : "COMESTIBLE",
         "name" : "abstract mutagen flavor",
-        "addiction_potential" : 6
+        "addiction_potential" : 6,
+        "addiction_type" : "mutagen"
     },
     {
         "id" : "mutagen_alpha",
