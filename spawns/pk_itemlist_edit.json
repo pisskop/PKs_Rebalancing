@@ -123,7 +123,8 @@
       [ "fertilizer_chelated", 18 ],
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 5 ],
-      [ "candle_smoke", 12 ]
+      [ "candle_smoke", 12 ],
+      [ "vortex_stone", 4 ]
     ]
   },
   {
@@ -241,7 +242,8 @@
       [ "weldtank", 1 ],
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 10 ],
-      [ "candle_smoke", 10 ]
+      [ "candle_smoke", 10 ],
+      [ "vortex_stone", 4 ]
     ]
   },
   {
@@ -270,7 +272,8 @@
       [ "antidote_posion", 3 ],
       [ "ithaca_doom", 5 ],
       [ "ithaca_doom_dual", 2 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "ref_lighter_dare", 5 ],
+      [ "vortex_stone", 1 ]
     ]
   },
   {
@@ -443,7 +446,8 @@
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 10 ],
       [ "candle_smoke", 2 ],
-      [ "medical_gauze", 4 ]
+      [ "medical_gauze", 4 ],
+      [ "vortex_stone", 10 ]
     ]
   },
   {
@@ -659,7 +663,8 @@
       [ "homebrew_antiseptic", 4 ],
       [ "ref_lighter_dare", 5 ],
       [ "medical_gauze", 6 ],
-      [ "lobotomizer", 1 ]
+      [ "lobotomizer", 1 ],
+      [ "vortex_stone", 4 ]
     ]
   },
   {
@@ -980,7 +985,8 @@
       [ "ref_lighter_dare", 1 ],
       [ "candle_smoke", 15 ],
       [ "1st_aid_survivor", 30 ],
-      [ "medical_gauze", 25 ]
+      [ "medical_gauze", 25 ],
+      [ "vortex_stone", 4 ]
     ]
   },
   {
@@ -990,7 +996,8 @@
       ["robe", 20],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 30 ],
-      [ "candle", 30 ]
+      [ "candle", 30 ],
+      [ "vortex_stone", 1 ]
     ]
   },
   {

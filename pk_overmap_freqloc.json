@@ -905,8 +905,18 @@
     "type" : "overmap_special",
     "id" : "Strange Cabin",
     "overmaps" : [
-      { "point":[0,0,0], "overmap": "cabin_strange"},
-      { "point":[0,0,-1], "overmap": "cabin_strange_b"}
+      { "point":[0,0,0], "overmap": "cabin_strange" },
+      { "point":[1,0,0], "overmap": "cabin_strange_100" },
+      { "point":[0,1,0], "overmap": "cabin_strange_010" },
+      { "point":[1,1,0], "overmap": "cabin_strange_110" },
+      { "point":[0,0,-1], "overmap": "cabin_strange_b" },
+      { "point":[1,0,-1], "overmap": "cabin_strange_b_101" },
+      { "point":[0,1,-1], "overmap": "cabin_strange_b_011" },
+      { "point":[1,1,-1], "overmap": "cabin_strange_b_111" },
+      { "point":[0,0,-2], "overmap": "cabin_strange_b2" }
+    ],
+    "connections": [
+      { "point": [1,2,0], "terrain": "road", "existing": true }
     ],
     "locations" : [ "forest", "swamp" ],
     "city_distance" : [20, -1],

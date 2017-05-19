@@ -38,7 +38,39 @@
     ],
     "death_function": [ "DARKMAN" ],
     "flags": [ "NOHEAD", "HARDTOSHOOT", "WEBWALK", "FLIES", "PLASTIC", "ELECTRIC", "ACIDPROOF", "SUNDEATH", "REGENERATES_IN_DARK", "NO_BREATHE" ],
-    "anger_triggers": [ "FRIEND_ATTACKED" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
+    "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "id": "mon_shadow",
+    "type": "MONSTER",
+    "name": "shadow",
+    "copy-from": "mon_shadow",
+    "default_faction": "nether",
+    "species": [ "NETHER" ],
+    "diff": 14,
+    "size": "SMALL",
+    "hp": 40,
+    "speed": 130,
+    "symbol": "A",
+    "color": "dkgray",
+    "aggression": 60,
+    "morale": 60,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "melee_cut": 4,
+    "dodge": 7,
+    "melee_damage": [
+      { "damage_type": "cold", "amount": 2 }
+    ],
+    "vision_day": 10,
+    "vision_ngiht": 50,
+    "special_attacks": [ [ "DISAPPEAR", 180 ] ],
+    "special_when_hit": [ "ZAPBACK", 100 ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "HARDTOSHOOT", "GRABS", "WEBWALK", "FLIES", "PLASTIC", "SUNDEATH", "ELECTRIC", "ACIDPROOF", "HIT_AND_RUN", "NO_BREATHE", "NOGIB" ],
+    "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
   {
@@ -65,7 +97,7 @@
     "attack_effs": [
       {
         "id": "attention",
-        "duration": 4000
+        "duration": 2000
       },
       {
         "id": "evil",
@@ -240,8 +272,11 @@
     "armor_fire": 4,
     "vision_day": 8,
     "vision_night": 8,
+    "starting_ammo": { "bot_shady": 8, "bot_hollow": 2, "bot_blind": 6, "bot_grabber": 10, "bot_acidic_pk": 4 },
     "special_attacks": [
       [ "UPGRADE", 300 ],
+      [ "GRENADIER_ELITE", 5 ],
+      [ "GRENADIER", 5 ],
       [ "RANGED_PULL", 5 ],
       [ "impale", 20 ],
       [ "wound_minor", 3 ],

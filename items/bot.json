@@ -613,5 +613,110 @@
       "skill1": "survival",
       "skill2": "firstaid"
     }
+  },
+  {
+    "id": "bot_shady",
+    "type": "TOOL",
+    "name": "shady zed spawner",
+    "description": "Spawns a shady zombie.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie_shady",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_hollow",
+    "type": "TOOL",
+    "name": "hollow zed spawner",
+    "description": "Spawns a hollow zombie.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie_hollow",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_blind",
+    "type": "TOOL",
+    "name": "blind zed spawner",
+    "description": "Spawns a blind zombie.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie_blind_pk",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_grabber",
+    "type": "TOOL",
+    "name": "grabber spawner",
+    "description": "Spawns a grabber zombie.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie_grabber",
+      "place_randomly": true
+    }
+  },
+  {
+    "id": "bot_acidic_pk",
+    "type": "TOOL",
+    "name": "Acidic spawner",
+    "description": "Spawns a very rude acidic zombie.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_zombie_acidic_pk",
+      "place_randomly": true
+    }
   }
 ]

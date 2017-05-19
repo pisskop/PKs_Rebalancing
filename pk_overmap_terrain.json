@@ -1524,5 +1524,86 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange",
+    "name" : "forest",
+    "sym" : 70,
+    "color" : "green",
+    "see_cost" : 5,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_100",
+    "name" : "forest",
+    "sym" : 70,
+    "color" : "green",
+    "see_cost" : 5,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_010",
+    "name" : "forest",
+    "sym" : 70,
+    "color" : "green",
+    "see_cost" : 5,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_110",
+    "name" : "forest",
+    "sym" : 70,
+    "color" : "green",
+    "see_cost" : 5,
+    "extras" : "field",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_b",
+    "name" : "cabin basement",
+    "sym" : 67,
+    "color" : "i_green",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_b_101",
+    "name" : "cabin basement",
+    "sym" : 67,
+    "color" : "i_green",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_b_011",
+    "name" : "cabin basement",
+    "sym" : 67,
+    "color" : "i_green",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_b_111",
+    "name" : "cabin basement",
+    "sym" : 67,
+    "color" : "i_green",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ]
+  },{
+    "type" : "overmap_terrain",
+    "id" : "cabin_strange_b2",
+    "name" : "cabin basement",
+    "sym" : 67,
+    "color": "i_red",
+    "see_cost" : 5,
+    "extras" : "build",
+    "flags" : [ "NO_ROTATE" ]
   }
 ]
