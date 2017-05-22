@@ -1,5 +1,5 @@
 [
-    {
+  {
     "type": "MOD_INFO",
     "mod-type": "SUPPLEMENTAL",
     "ident": "PK_REBALANCE",
@@ -8,16 +8,18 @@
     "category": "creatures",
     "author": "pisskop",
     "path": ""
-    },{
+  },
+  {
     "type": "ITEM_BLACKLIST",
     "items": [
-        "acidbomb",
-        "acidbomb_act"
+      "acidbomb",
+      "acidbomb_act"
     ]
-    },{
+  },
+  {
     "type": "MONSTER_WHITELIST",
     "monsters": [
         "mon_bear_smoky"
     ]
-    }
+  }
 ]

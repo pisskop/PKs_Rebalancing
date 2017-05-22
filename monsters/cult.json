@@ -5,7 +5,7 @@
     "name": "wraith",
     "copy-from": "mon_darkman",
     "description": "A large humanoid shadow, chaotically changing in shape and volume , two piercing orbs of light dominate what can only be described as its head.",
-    "default_faction": "cult",
+    "default_faction": "shadow",
     "species": [ "NETHER" ],
     "diff": 50,
     "size": "LARGE",
@@ -46,7 +46,7 @@
     "type": "MONSTER",
     "name": "shadow",
     "copy-from": "mon_shadow",
-    "default_faction": "nether",
+    "default_faction": "shadow",
     "species": [ "NETHER" ],
     "diff": 14,
     "size": "SMALL",
@@ -95,14 +95,8 @@
     "melee_dice_sides": 4,
     "melee_cut": 3,
     "attack_effs": [
-      {
-        "id": "attention",
-        "duration": 2000
-      },
-      {
-        "id": "evil",
-        "duration": 4000
-      }
+      { "id": "attention", "duration": 7700 },
+      { "id": "evil", "duration": 14400 }
     ],
     "dodge": 3,
     "vision_day": 40,
@@ -183,14 +177,8 @@
     "armor_bash": 5,
     "armor_cut": 5,
     "attack_effs": [
-      {
-        "id": "attention",
-        "duration": 250
-      },
-      {
-        "id": "evil",
-        "duration": 3000
-      }
+      { "id": "attention", "duration": 4400 },
+      { "id": "evil", "duration": 3000 }
     ],
     "death_drops": {
       "subtype": "collection",
@@ -249,7 +237,7 @@
     "type": "MONSTER",
     "name": "legion",
     "description": "A fused pile of bodies, writhing and squirming in the most base of ways. Utterly repulsive to behold, the bodies seem to be shielding something ...",
-    "default_faction": "cult",
+    "default_faction": "shadow",
     "species": [ "NETHER" ],
     "diff": 25,
     "size": "HUGE",
@@ -259,7 +247,7 @@
     "symbol": "&",
     "color": "red",
     "aggression": 90,
-    "morale": 90,
+    "morale": 70,
     "melee_skill": 4,
     "melee_dice": 10,
     "melee_dice_sides": 3,
@@ -272,7 +260,7 @@
     "armor_fire": 4,
     "vision_day": 8,
     "vision_night": 8,
-    "starting_ammo": { "bot_shady": 8, "bot_hollow": 2, "bot_blind": 6, "bot_grabber": 10, "bot_acidic_pk": 4 },
+    "starting_ammo": { "bot_shady": 12, "bot_hollow": 3, "bot_blind": 9, "bot_grabber": 15, "bot_acidic_pk": 6 },
     "special_attacks": [
       [ "UPGRADE", 300 ],
       [ "GRENADIER_ELITE", 5 ],
@@ -299,7 +287,7 @@
     "type": "MONSTER",
     "name": "nuculais",
     "description": "A humanoid sheathed entirely in a dull white light.  While majestic and exuding the air of a god amoungst mortals, something dark and forboding hangs about it; a certain veil of death and termination of substance.",
-    "default_faction": "cult",
+    "default_faction": "shadow",
     "species": [ "NETHER" ],
     "diff": 35,
     "size": "LARGE",

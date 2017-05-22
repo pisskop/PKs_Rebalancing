@@ -242,8 +242,8 @@
         "  _________   _____.....",
         "  x C&_c  x   x  c_.....",
         "  _  T_  t_   _  t_.....",
-        "  _ * _ bb_   _ bb_.....",
-        "  _## _Dbb_   _Dbb_.....",
+        "  _   _ bb_   _ bb_.....",
+        " *_## _Dbb_   _Dbb_.....",
         "___________G_G_____.....",
         "........................",
         "........................",
@@ -606,7 +606,7 @@
       "terrain": {
         " ": [ "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor" ],
         ".": [ "t_dirtfloor", "t_dirtfloor", "t_dirtfloor", "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock", "t_rock_smooth" ],
-        "|": "t_wall",
+        "#": "t_rock",
         "<": "t_ladder_up"
       },
       "furniture": {
@@ -663,7 +663,7 @@
       "terrain": {
         " ": [ "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor" ],
         ".": [ "t_dirtfloor", "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock", "t_rock_smooth" ],
-        "|": "t_wall",
+        "#": "t_rock",
         "<": "t_ladder_up"
       },
       "furniture": {

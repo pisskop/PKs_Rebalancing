@@ -118,6 +118,13 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "shadow",
+    "base_faction": "nether",
+    "neutral": [ "cult" ],
+    "by_mood": [ "blob", "zombie" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "nether",
     "neutral": [ "blob" ],
     "by_mood": [ "cult", "small_animal" ]
