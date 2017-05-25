@@ -26,7 +26,8 @@
       [ "tinyweldtank", 2 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 12 ],
-      [ "lobotomizer", 1 ]
+      [ "lobotomizer", 1 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -80,7 +81,8 @@
     [
       { "group": "prefab_chems", "prob": 1 },
       { "item": "mutagen", "prob": 2 },
-      { "item": "purifier", "prob": 1 }
+      { "item": "purifier", "prob": 1 },
+      { "item": "dr_stem_cell", "prob": 1 }
     ]
   },
   {
@@ -124,7 +126,8 @@
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 12 ],
-      [ "vortex_stone", 4 ]
+      [ "vortex_stone", 4 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -243,7 +246,8 @@
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 10 ],
       [ "candle_smoke", 10 ],
-      [ "vortex_stone", 4 ]
+      [ "vortex_stone", 4 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -366,7 +370,8 @@
       [ "tinyweldtank", 1 ],
       [ "candle_smoke", 8 ],
       [ "1st_aid_survivor", 20 ],
-      [ "medical_gauze", 4 ]
+      [ "medical_gauze", 4 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -445,9 +450,10 @@
       [ "weldtank", 1 ],
       [ "tinyweldtank", 1 ],
       [ "ref_lighter_dare", 10 ],
-      [ "candle_smoke", 2 ],
+      [ "candle_smoke", 20 ],
       [ "medical_gauze", 4 ],
-      [ "vortex_stone", 10 ]
+      [ "vortex_stone", 10 ],
+      [ "dr_stem_cell", 10 ]
     ]
   },
   {
@@ -623,7 +629,8 @@
       [ "antidote_posion", 12 ],
       [ "antidote_badpoison", 6 ],
       [ "clay_boiled", 15 ],
-      [ "lobotomizer", 5 ]
+      [ "lobotomizer", 5 ],
+      [ "dr_stem_cell", 4 ]
     ]
   },
   {
@@ -664,7 +671,8 @@
       [ "ref_lighter_dare", 5 ],
       [ "medical_gauze", 6 ],
       [ "lobotomizer", 1 ],
-      [ "vortex_stone", 4 ]
+      [ "vortex_stone", 4 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -746,7 +754,8 @@
       [ "berserker_drug", 8 ],
       [ "mutagen", 5 ],
       [ "purifier", 2 ],
-      [ "mutagen_medical", 1 ]
+      [ "mutagen_medical", 1 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -774,7 +783,8 @@
       [ "clay_boiled", 5 ],
       [ "homebrew_antiseptic", 1 ],
       [ "ref_lighter_dare", 4 ],
-      [ "medical_gauze", 12 ]
+      [ "medical_gauze", 12 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -792,7 +802,8 @@
       [ "homebrew_antiseptic", 2 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 2 ],
-      [ "medical_gauze", 25 ]
+      [ "medical_gauze", 25 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {
@@ -986,7 +997,8 @@
       [ "candle_smoke", 15 ],
       [ "1st_aid_survivor", 30 ],
       [ "medical_gauze", 25 ],
-      [ "vortex_stone", 4 ]
+      [ "vortex_stone", 4 ],
+      [ "dr_stem_cell", 1 ]
     ]
   },
   {

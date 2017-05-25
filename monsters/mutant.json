@@ -471,10 +471,7 @@
     "type": "MONSTER",
     "copy-from": "mon_jabberwock",
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 30 },
-      { "id": "rad_tenths", "duration": 40 },
-      { "id": "rad_tenths", "duration": 50 },
-      { "id": "rad_tenths", "duration": 60 }
+      { "id": "rad_tenths", "duration": 20 }
     ],
     "special_attacks": [
       [ "FLESH_GOLEM", 10 ],
@@ -522,10 +519,7 @@
     "armor_bash": 18,
     "armor_cut": 12,
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 30 },
-      { "id": "rad_tenths", "duration": 40 },
-      { "id": "rad_tenths", "duration": 50 },
-      { "id": "rad_tenths", "duration": 60 }
+      { "id": "rad_tenths", "duration": 40 }
     ],
     "vision_day": 50,
     "vision_night": 5,

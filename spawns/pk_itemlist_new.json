@@ -14,7 +14,8 @@
       [ "chem_hydrogen_peroxide", 15 ],
       [ "pepto", 15 ],
       [ "aspirin", 20 ],
-      [ "clay_boiled", 12 ]
+      [ "clay_boiled", 12 ],
+      [ "dr_stem_cell", 8 ]
     ]
    },
   {
@@ -65,7 +66,8 @@
       [ "mutagen_troglobite", 7 ],
       [ "iv_mutagen_troglobite", 1 ],
       [ "mutagen_ursine", 8 ],
-      [ "iv_mutagen_ursine", 1 ]
+      [ "iv_mutagen_ursine", 1 ],
+      [ "dr_stem_cell", 1 ]
     ]
    },
   {
@@ -346,7 +348,8 @@
       [ "mutagen", 5 ],
       [ "purifier", 5 ],
       [ "clay_boiled", 2 ],
-      [ "ref_lighter_dare", 8 ]
+      [ "ref_lighter_dare", 8 ],
+      [ "dr_stem_cell", 4 ]
     ]
    },
   {
@@ -369,6 +372,7 @@
       [ "bomblet_undermod", 15 ],
       [ "bomblet_launcher_rotary", 15 ],
       [ "ithaca_doom", 15 ],
+      [ "dr_stem_cell", 15 ],
       [ "ithaca_doom_dual", 10 ],
       [ "megaarmor_leggings_1", 10 ],
       [ "megaarmor_gloves_1", 10 ],

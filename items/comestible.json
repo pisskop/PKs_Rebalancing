@@ -615,5 +615,26 @@
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
+  },
+  {
+    "id": "dr_stem_cell",
+    "type": "COMESTIBLE",
+    "name": "Dr Stem Cell jr",
+    "description": "A heavily regulated dose of stem cells.  Though availible for sporting and industrial accidents, the majority of of treatments will be found behind the counter.  User may experience crippling pain.  Not all users may experience the same level of results.  Use as directed.  Consult your doctor if you are living, plan to live past the age of 30, or are already over the age of 30.",
+    "weight": 175,
+    "volume": 1,
+    "price": 777000,
+    "phase": "liquid",
+    "container": "flask_glass",
+    "material": [ "powder" ],
+    "symbol": ",",
+    "color": "green",
+    "comestible_type": "MED",
+    "use_action": {
+      "type": "consume_drug",
+      "tools_needed": "syringe",
+      "effects": [ { "id": "stemcell_treatment", "duration": 20 } ]
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   }
 ]
