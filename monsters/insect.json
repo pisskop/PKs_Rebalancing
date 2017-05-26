@@ -651,7 +651,7 @@
   {
     "id": "mon_spider_trapdoor_giant_guardian",
     "type": "MONSTER",
-    "name": "alpha giant trapdoor spider",
+    "name": "alpha trapdoor spider",
     "description": "A large and heavily armored trapdoor spider.  Primarily found at the center of larger congregations of trapdoor spiders that can keep it fed if food becomes scarce.",
     "default_faction": "spider_trapdoor",
     "species": [ "SPIDER" ],

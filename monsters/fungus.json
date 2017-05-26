@@ -1072,8 +1072,8 @@
     "melee_dice_sides": 3,
     "melee_cut": 12,
     "dodge": 2,
-    "armor_bash": 2,
-    "armor_cut": 2,
+    "armor_bash": 3,
+    "armor_cut": 1,
     "vision_day": 35,
     "vision_night": 5,
     "special_attacks": [
@@ -1081,8 +1081,8 @@
       [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 20, "no_infection_chance": 5,
         "damage_max_instance": [
-          { "damage_type": "cut", "amount": 14, "armor_multiplier": 0.80 },
-          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.80 }
+          { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
+          { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.80 }
         ]
       }
     ],

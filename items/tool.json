@@ -21,7 +21,8 @@
         "moves": 30,
         "moves_slow": 400
       }
-    ]
+    ],
+    "flags": [ "FIRE", "FLAMING" ]
   },
   {
     "id": "ref_lighter_string",
@@ -50,7 +51,8 @@
         "moves": 60,
         "moves_slow": 600
       }
-    ]
+    ],
+    "flags": [ "FIRE", "FLAMING" ]
   },
   {
     "id": "candle_smoke",
@@ -82,7 +84,7 @@
       "menu_text": "Extinguish",
       "type": "transform"
     },
-    "flags": [ "LIGHT_8", "TRADER_AVOID" ]
+    "flags": [ "LIGHT_8", "TRADER_AVOID", "FIRE" ]
   },
   {
     "id": "smoke_machine",

@@ -4,7 +4,7 @@
     "type": "MONSTER",
     "name": "archvile",
     "species": [ "ABERRATION" ],
-    "default_faction": "doom_upper",
+    "default_faction": "upper_doom",
     "symbol": "A",
     "color": "i_dkgray",
     "size": "MEDIUM",

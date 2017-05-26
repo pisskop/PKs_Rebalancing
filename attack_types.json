@@ -189,10 +189,9 @@
       { "damage_type": "cut", "amount": 7, "armor_multiplier": 0.9 }
     ],
     "effects": [
-      { "id": "paralyzepoison", "duration": 300 },
-      { "id": "paralyzepoison", "duration": 150 },
+      { "id": "paralyzepoison", "duration": 400 },
       { "id": "paralyzepoison", "duration": 100 },
-      { "id": "paralyzepoison", "duration": 50 },
+      { "id": "paralyzepoison", "duration": 40 },
       { "id": "infection_minor", "duration": 9800, "chance": 4 }
     ],
     "hit_dmg_u": "The %1$s rakes you with its barbs!",
@@ -204,7 +203,7 @@
     "type": "monster_attack",
     "attack_type": "melee",
     "id": "sliming",
-    "cooldown": 30,
+    "cooldown": 40,
     "move_cost": 200,
     "damage_max_instance": [
       { "damage_type": "acid", "amount": 3 },
@@ -212,8 +211,8 @@
     ],
     "effects": [
       { "id": "slimed", "duration": 400 },
-      { "id": "paralyzepoison", "duration": 300 },
-      { "id": "paralyzepoison", "duration": 100 },
+      { "id": "paralyzepoison", "duration": 200 },
+      { "id": "paralyzepoison", "duration": 30 },
       { "id": "paralyzepoison", "duration": 20 },
       { "id": "infection_minor", "duration": 9600, "chance": 4 }
     ],

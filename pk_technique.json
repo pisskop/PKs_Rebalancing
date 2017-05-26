@@ -8,7 +8,7 @@
     "crit_tec": true,
     "stun_dur": 3,
     "knockback_dist": 1,
-    "weighting": -3,
+    "weighting": -2,
     "messages": [
       "You hammer on %s",
       "<npcname> hammers at %s"
@@ -19,12 +19,13 @@
       ["damage", "cut", 0.75],
       ["damage", "stab", 1.33]
     ]
-  },{
+  },
+  {
     "id": "repose",
     "type": "technique",
     "name": "repose",
     "min_melee": 0,
-    "weighting": -10,
+    "weighting": -3,
     "crit_tec": true,
     "unarmed_allowed": true,
     "melee_allowed": true,

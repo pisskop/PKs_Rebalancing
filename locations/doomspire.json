@@ -76,8 +76,8 @@
         { "point": "furniture", "id": "f_statue", "x": [ 20 ], "y": [ 18 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
@@ -165,8 +165,8 @@
         { "point": "furniture", "id": "f_blade", "x": [ 16 ], "y": [ 23 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
-        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
+        { "monster": "GROUP_DOOM_INFANTRY", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5 },
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
@@ -810,7 +810,6 @@
       },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 },
-        { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 2 },
         { "monster": "GROUP_ZOMBIE_MID", "x": [ 11, 12 ], "y": [ 5 ] }
       ],
@@ -887,8 +886,8 @@
         "8": "f_shackle"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "x": [ 7, 11 ], "y": [ 7, 10 ] },
-        { "monster": "GROUP_DOOM", "x": [ 12, 17 ], "y": [ 7, 10 ] },
+        { "monster": "GROUP_DOOM", "x": [ 7, 11 ], "y": [ 7, 10 ], "chance": 4 },
+        { "monster": "GROUP_DOOM", "x": [ 12, 17 ], "y": [ 7, 10 ], "chance": 4 },
         { "monster": "GROUP_DOOM_PRIEST", "x": [ 11, 12 ], "y": [ 19, 21 ] }
       ],
       "place_items": [ 

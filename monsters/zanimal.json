@@ -372,7 +372,7 @@
     "id": "mon_bear_smoky_pk",
     "type": "MONSTER",
     "copy_from": "mon_bear_smoky",
-    "name": "Smoky Bear",
+    "name": "smoky bear",
     "description": "A smoking husk is all that remains of this once proud bear.  Its black eyes gaze at you with malice... and hunger.",
     "default_faction": "bear",
     "categories": [ "WILDLIFE" ],

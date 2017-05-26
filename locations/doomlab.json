@@ -70,9 +70,8 @@
                 "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -146,9 +145,8 @@
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -223,9 +221,8 @@
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -304,9 +301,8 @@
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 2, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 12, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -385,9 +381,8 @@
                 "X": { "items": [{ "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 12, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -469,7 +464,6 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOMLAB", "chance": 15, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
@@ -535,9 +529,8 @@
                        "terrain": "t_rock_floor", "furniture": "f_rack" }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
@@ -608,7 +601,7 @@
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -679,9 +672,8 @@
                        "terrain": "t_rock_floor", "furniture": "f_bookcase" }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -747,9 +739,8 @@
                 "X": { "items": { "item": "prison_armor", "chance": 4 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -821,7 +812,7 @@
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 4, "x": [ 3 , 4 ], "y": [ 15 , 16 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -894,9 +885,8 @@
                 "d": { "items": { "item": "cubical_office", "chance": 10 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -960,9 +950,8 @@
                 "d": { "items": { "item": "cubical_office", "chance": 10 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1031,9 +1020,8 @@
                 "d": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1090,9 +1078,8 @@
                 "L": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1149,9 +1136,8 @@
                 "L": { "items": { "item": "office", "chance": 15 } }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1208,9 +1194,8 @@
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1268,9 +1253,8 @@
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1337,9 +1321,8 @@
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1405,9 +1388,8 @@
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1472,9 +1454,8 @@
                 "L": { "items": [ { "item": "dresser", "chance": 25 }, { "item": "lab_dorm", "chance": 15 }, { "item": "softdrugs", "chance": 10 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1559,9 +1540,8 @@
                 "D": { "items": { "item": "trash", "chance": 25 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1630,9 +1610,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -1698,9 +1677,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1755,9 +1733,8 @@
                 "C": { "items": { "item": "chem_lab", "chance": 5 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1818,9 +1795,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1883,9 +1859,8 @@
                 "C": { "items": { "item": "chem_lab", "chance": 8 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -1948,9 +1923,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2018,9 +1992,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2093,9 +2066,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2172,9 +2144,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2245,9 +2216,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2317,9 +2287,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2401,9 +2370,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2481,9 +2449,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2548,9 +2515,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2631,9 +2597,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2705,9 +2670,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -2778,9 +2742,8 @@
                 "f": { "items": [{ "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 }]}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2860,9 +2823,8 @@
                 "f": { "items": [ { "item": "prison_weapons", "chance": 15 }, { "item": "prison_armor", "chance": 15 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -2938,9 +2900,8 @@
                 "f": { "items": { "item": "harddrugs", "chance": 5 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
@@ -3003,9 +2964,8 @@
                 "d": { "items": { "item": "cubical_office", "chance": 15 }}
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -3079,9 +3039,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -3147,9 +3106,8 @@
                 "X": { "items": [ { "item": "home_hw", "chance": 5 }, { "item": "hardware_bulk", "chance": 10 } ] }
             },
             "place_monsters": [
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
@@ -3231,7 +3189,6 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM_PRIEST", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
@@ -3452,9 +3409,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -3517,9 +3473,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -3586,9 +3541,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
@@ -3660,9 +3614,8 @@
             },
             "place_monsters": [
                 { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOM_INFANTRY", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
                 { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-                { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+                { "monster": "GROUP_DOOMLAB", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
             ],
             "place_items": [
                 { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },

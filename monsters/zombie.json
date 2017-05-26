@@ -509,7 +509,7 @@
   {
     "id": "mon_zombie_blind_pk",
     "type": "MONSTER",
-    "name": "Unseeing zombie",
+    "name": "unseeing zombie",
     "description": "A human corpse, filled with an uncanny agility.  Its pupilless, blind eyes gaze blankly and belie its grace and other perceptions.",
     "default_faction": "zombie",
     "categories": [ "CLASSIC" ],

@@ -228,7 +228,7 @@
         "require_targeting_player": false,
         "require_targeting_npc": false,
         "targeting_cost": 150,
-        "description": "Suppressing Disorder.",
+        "description": "\"Suppressing Disorder.\"",
         "no_ammo_sound": "\"Ammo depleted.\""
       }
     ],
