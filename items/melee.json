@@ -1161,8 +1161,8 @@
   },
   {
     "type":"GENERIC",
-    "id" : "spear_steel",
-    "name" : "steel spear",
+    "id" : "spear_pipe",
+    "name" : "pipe spear",
     "description" : "A stout metal pole with a sharp point.",
     "weight" : 1398,
     "to_hit" : 1,
