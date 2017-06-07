@@ -15,11 +15,5 @@
       "acidbomb",
       "acidbomb_act"
     ]
-  },
-  {
-    "type": "MONSTER_WHITELIST",
-    "monsters": [
-        "mon_bear_smoky"
-    ]
   }
 ]
