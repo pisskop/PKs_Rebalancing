@@ -18,7 +18,7 @@
       { "id": "bleed", "duration": 15, "bp": "TORSO" },
       { "id": "stunned", "duration": 3 },
       { "id": "grabbed", "duration": 1000, "bp": "TORSO" },
-      { "id": "infection_minor", "duration": 20000, "chance": 4 }
+      { "id": "infection_minor", "duration": 20000, "chance": 25 }
     ],
     "hit_dmg_u": "The %1$s impales your torso!",
     "hit_dmg_npc": "The %1$s impales <npcname>'s torso!",
@@ -57,7 +57,7 @@
     ],
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "effects": [
-      { "id": "infection_minor", "duration": 9800, "chance": 4 }
+      { "id": "infection_minor", "duration": 9800, "chance": 5 }
     ],
     "hit_dmg_u": "The %1$s claws at you!",
     "hit_dmg_npc": "The %1$s claws at <npcname>!",
@@ -72,7 +72,7 @@
     "move_cost": 180,
     "effects": [
       { "id": "slashed", "duration": 5 },
-      { "id": "infection_minor", "duration": 12000, "chance": 4 }
+      { "id": "infection_minor", "duration": 12000, "chance": 8 }
     ],
     "damage_max_instance": [
       { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
@@ -109,7 +109,7 @@
     "move_cost": 125,
     "effects": [
       { "id": "nausea", "duration": 250, "chance": 60 },
-      { "id": "infection_minor", "duration": 16000, "chance": 12 }
+      { "id": "infection_minor", "duration": 16000, "chance": 15 }
     ],
     "damage_max_instance": [
       { "damage_type": "cut", "amount": 9, "armor_multiplier": 0.85 },
@@ -132,7 +132,7 @@
     ],
     "effects": [
       { "id": "poison", "duration": 600 },
-      { "id": "infection_minor", "duration": 9800, "chance": 4 },
+      { "id": "infection_minor", "duration": 9800, "chance": 10 },
       { "id": "flu_zed", "duration": 15000, "chance": 1 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
@@ -152,7 +152,7 @@
     ],
     "effects": [
       { "id": "skunk_spray", "duration": 600 },
-      { "id": "infection_minor", "duration": 5200, "chance": 4 }
+      { "id": "infection_minor", "duration": 5200, "chance": 8 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
     "hit_dmg_npc": "The %1$s stings <npcname>!",
@@ -171,7 +171,7 @@
     ],
     "effects": [
       { "id": "poison", "duration": 400 },
-      { "id": "infection_minor", "duration": 5200, "chance": 4 }
+      { "id": "infection_minor", "duration": 5200, "chance": 8 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
     "hit_dmg_npc": "The %1$s stings <npcname>!",
@@ -189,10 +189,10 @@
       { "damage_type": "cut", "amount": 7, "armor_multiplier": 0.9 }
     ],
     "effects": [
-      { "id": "paralyzepoison", "duration": 400 },
-      { "id": "paralyzepoison", "duration": 100 },
-      { "id": "paralyzepoison", "duration": 40 },
-      { "id": "infection_minor", "duration": 9800, "chance": 4 }
+      { "id": "paralyzepoison", "duration": 300 },
+      { "id": "paralyzepoison", "duration": 120 },
+      { "id": "paralyzepoison", "duration": 30 },
+      { "id": "infection_minor", "duration": 9800, "chance": 8 }
     ],
     "hit_dmg_u": "The %1$s rakes you with its barbs!",
     "hit_dmg_npc": "The %1$s rakes at <npcname> with barbs!",
@@ -211,7 +211,7 @@
     ],
     "effects": [
       { "id": "slimed", "duration": 400 },
-      { "id": "paralyzepoison", "duration": 200 },
+      { "id": "paralyzepoison", "duration": 120 },
       { "id": "paralyzepoison", "duration": 30 },
       { "id": "paralyzepoison", "duration": 20 },
       { "id": "infection_minor", "duration": 9600, "chance": 4 }
@@ -247,8 +247,8 @@
     ],
     "effects": [
       { "id": "paralyzepoison", "duration": 600 },
-      { "id": "paralyzepoison", "duration": 20 },
-      { "id": "infection_minor", "duration": 6800, "chance": 6 }
+      { "id": "paralyzepoison", "duration": 15 },
+      { "id": "infection_minor", "duration": 6800, "chance": 12 }
     ],
     "hit_dmg_u": "The %1$s injects you with a numbing poison!",
     "hit_dmg_npc": "The %1$s injects <npcname> with a numbing poison!",

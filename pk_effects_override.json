@@ -2,12 +2,14 @@
   {
     "type": "effect_type",
     "id": "hallu",
+    "name": [ "Hallucinating" ],
+    "desc": [ "You are experiencing hallucinations.  The resulting sense of surrealism is a real stressor and distraction." ],
     "chance": 80,
-    "max_duration": 2700,
+    "max_duration": 3200,
     "base_mods": {
       "str_mod": [1],
-      "int_mod": [-1],
-      "per_mod": [-2]
+      "int_mod": [-2],
+      "per_mod": [-3]
     }
   },
   {
@@ -41,7 +43,7 @@
     "type": "effect_type",
     "id": "darkness",
     "name": [ "Darkess" ],
-    "desc": [ "Loss of health - Entire Body\nYour clothing and other equipment may be consumed by the flames." ],
+    "desc": [ "Your vision is clouded and dark.  This will fade as time passes, or you remove the source of the malady . . ." ],
     "apply_message": "Your vision flickers and goes gray!",
     "remove_message": "The world flickers back to normality.",
     "rating": "bad",
@@ -62,7 +64,7 @@
     "id": "foodpoison",
     "name": [ "Food Poisoning" ],
     "desc": [ "Your stomach is extremely upset, and you are quite nauseous." ],
-    "miss_messages": [[ "Your stomach bothers you.", 1]],
+    "miss_messages": [[ "Your stomach rolls over.", 1]],
     "rating": "bad",
     "resist_traits": [ "POISRESIST" ],
     "int_add_val": 1,
@@ -102,7 +104,7 @@
     "rating": "bad",
     "base_mods": {
       "per_mod": [-3],
-      "vomit_chance": [500]
+      "vomit_chance": [400]
     }
   },
   {
@@ -277,10 +279,10 @@
       "hunger_tick": [600],
       "hunger_chance": [3],
       "health_min": [-1],
-      "health_tick": [90],
-      "health_chance": [33],
-      "h_mod_tick": [90],
-      "h_mod_chance": [15]
+      "health_tick": [120],
+      "health_chance": [35],
+      "h_mod_tick": [12],
+      "h_mod_chance": [30]
     },
     "scaling_mods": {
       "speed_mod": [-12],
@@ -330,10 +332,10 @@
       "hurt_chance": [-300],
       "stamina_chance": [2],
       "health_min": [-1],
-      "health_tick": [90],
-      "health_chance": [33],
-      "h_mod_tick": [90],
-      "h_mod_chance": [15]
+      "health_tick": [120],
+      "health_chance": [35],
+      "h_mod_tick": [12],
+      "h_mod_chance": [20]
     },
     "scaling_mods": {
       "speed_mod": [-4],
