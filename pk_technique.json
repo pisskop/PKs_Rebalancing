@@ -2,7 +2,7 @@
   {
     "type": "technique",
     "id": "heavy_blow",
-    "name": "Hammerblow",
+    "name": "hammerblow",
     "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_tec": true,
@@ -38,7 +38,7 @@
     "mult_bonuses": [
       [ "movecost", 1.1 ],
       [ "damage", "bash", 0.9 ],
-      [ "damage", "cut", 0.9 ],
+      [ "damage", "cut", 1.0 ],
       [ "damage", "stab", 0.9 ]
     ]
   }

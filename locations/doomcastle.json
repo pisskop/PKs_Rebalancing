@@ -1561,8 +1561,8 @@
         "s": "f_statue"
       },
       "place_items": [
-        { "item": "doom_lootpack", "chance": 95, "x": [ 10, 15 ], "y": [ 19, 21 ] },
-        { "item": "doom_lootpack", "chance": 35, "x": [ 10, 15 ], "y": [ 16, 18 ] }
+        { "item": "doom_lootpack", "chance": 95, "x": [ 10, 15 ], "y": [ 19, 21 ], "repeat": [ 1, 3 ] },
+        { "item": "doom_lootpack", "chance": 35, "x": [ 10, 15 ], "y": [ 16, 18 ], "repeat": [ 1, 4 ] }
       ],
       "set": [
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23], "repeat": [ 15, 100 ] },

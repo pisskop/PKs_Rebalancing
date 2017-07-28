@@ -6,7 +6,7 @@
     "category": "food",
     "name": "water",
     "name_plural": "water",
-    "description": "Water, the stuff of life, the best thirst-quencher available..",
+    "description": "Water, the stuff of life, the best thirst-quencher available.  Not quite clean, but some dirt and radiation won't hurt too much, right?  [1 rad]",
     "weight": 250,
     "volume": 1,
     "price": 50,
@@ -27,7 +27,7 @@
     "type": "COMESTIBLE",
     "name": "clean water",
     "name_plural": "clean water",
-    "description": "Fresh, clean water.  Truly the best thing to quench your thirst.",
+    "description": "Fresh, clean water.  Truly the best thing to quench your thirst.  Mostly free of radiation and dirt. [1/10 rad]",
       "effects": [
         { "id": "rad_tenths", "duration": 1 }
       ]
@@ -38,10 +38,10 @@
     "type": "COMESTIBLE",
     "name": "mineral water",
     "name_plural": "mineral water",
-    "description": "Fancy mineral water, so fancy it makes you feel fancy just holding it.",
+    "description": "Fancy mineral water, so fancy it makes you feel fancy just holding it.  Like everything else it carries some ambient radiation. [1/10 rad]",
     "container": "bottle_glass",
     "proportional": { "quench": 1.3 },
-    "relative": { "fun": 2 },
+    "relative": { "fun": 4 },
       "effects": [
         { "id": "rad_tenths", "duration": 1 }
       ]
@@ -51,7 +51,7 @@
     "copy-from": "flesh",
     "type": "COMESTIBLE",
     "name": "stomach",
-    "description": "The stomach of a woodland creature.  It is surprisingly durable.",
+    "description": "The stomach of a woodland creature.  It is surprisingly durable. [3/10 rad]",
     "weight": 72,
     "volume": 1,
     "price": 200,
@@ -69,7 +69,7 @@
     "copy-from": "meat",
     "type": "COMESTIBLE",
     "name": "raw offal",
-    "description": "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins.",
+    "description": "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins. [3/10 rad]",
     "proportional": {
         "calories": 0.5,
         "parasites": 2.0
@@ -88,7 +88,7 @@
     "type": "COMESTIBLE",
     "name": "fillet of fish",
     "name_plural": "fillets of fish",
-    "description": "Freshly caught fish.  Makes a passable meal raw.",
+    "description": "Freshly caught fish.  Makes a passable meal raw. [6/10 rad]",
     "weight": 200,
     "volume": 1,
     "price": 500,
@@ -104,7 +104,7 @@
     "type": "COMESTIBLE",
     "name": "human flesh",
     "name_plural": "human fleshes",
-    "description": "Freshly butchered from a human body.",
+    "description": "Freshly butchered from a human body. [4/10 rad]",
     "material": "hflesh",
       "effects": [
         { "id": "rad_tenths", "duration": 4 }
@@ -116,7 +116,7 @@
     "type": "COMESTIBLE",
     "name": "chunk of meat",
     "name_plural": "chunks of meat",
-    "description": "Freshly butchered meat.  You could eat it raw, but cooking it is better.",
+    "description": "Freshly butchered meat.  You could eat it raw, but cooking it is better. [4/10 rad]",
     "weight": 200,
     "volume": 1,
     "price": 500,
@@ -139,16 +139,16 @@
     "container": "box_small",
     "comestible_type": "FOOD",
     "symbol": "%",
-    "quench": -4,
+    "quench": -7,
     "healthy": -2,
-    "nutrition": 12,
-    "description": "Enjoy your order of 'EXTRA BIG-ASS FRIES'.  Please come back when you can afford to make another purchase of 'EXTRA BIG-ASS FRIES'.",
+    "nutrition": 24,
+    "description": "Carl JR. appreciates your business.  Enjoy your order of 'EXTRA BIG-ASS FRIES'.  Please come back when you can afford to make another purchase of 'EXTRA BIG-ASS FRIES'.",
     "price": 500,
     "material": "junk",
     "volume": 1,
     "charges": 2,
     "flags": ["EATEN_HOT"],
-    "fun": 7
+    "fun": 9
   },
   {
     "id": "medikit",
@@ -206,7 +206,7 @@
       "moves": 250,
       "type": "transform"
     },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "berserker_drug_act",
@@ -232,7 +232,7 @@
       "type": "consume_drug",
       "effects": [ { "id": "doom_stimpack", "duration": 40 } ]
     },
-    "flags": [ "WATER_FRIENDLY", "BELTED", "FRAGILE", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "USE_ON_NPC", "NPC_SAFE" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "stamina_vial",
@@ -255,7 +255,7 @@
     "use_action": {
       "type": "consume_drug",
       "effects": [
-        { "id": "doom_unhealth", "duration": 5 },
+        { "id": "doom_unhealth", "duration": 4 },
         { "id": "stamina_regen", "duration": 150 }
       ]
     },
@@ -265,7 +265,7 @@
     "id": "homebrew_antiseptic",
     "type": "COMESTIBLE",
     "name": "homebrew antiseptic",
-    "description": "A desperate concoction of materials found in the wilderness, that will hopefully treat a wound and halt or prevent infection.  It may be susperstition, but it may also have healing properties too.  It better, for all the stinging it does.",
+    "description": "A desperate concoction of materials found in the wilderness, that will hopefully treat a wound and halt or prevent infection.  It may be susperstition, but it may also have healing properties too.  It had better, for all the stinging it does.",
     "weight": 450,
     "volume": 1,
     "price": 500,
@@ -386,7 +386,7 @@
     "copy-from": "clay_lump",
     "name": "boiled clay",
     "category": "",
-    "description": "A portion of clay that has been boiled in salt to remove hard minerals and parasites.  Has improved taste over raw clay, but is not suitable for sculpting.",
+    "description": "A portion of clay that has been boiled in salt to remove hard minerals and parasites.  Removes ambient radiation and has improved taste over raw clay, but is not suitable for sculpting.",
     "comestible_type": "MED",
     "charges": 1,
     "nutrition": 2,

@@ -892,8 +892,8 @@
       ],
       "place_items": [ 
         { "item": "doom_stimpack", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ] },
-        { "item": "doom_lootpack", "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 2 ] },
-        { "item": "doom_lootpack", "chance": 75, "x": [ 10, 14 ], "y": [ 19, 21 ] }
+        { "item": "doom_lootpack", "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 3 ] },
+        { "item": "doom_lootpack", "chance": 75, "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 2 ] }
       ],
       "set": [
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 5 ] },

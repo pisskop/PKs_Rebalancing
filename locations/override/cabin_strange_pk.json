@@ -252,8 +252,8 @@
         "........................"
       ],
       "mapping": {
-        "V": { "items": { "item": "vending_food", "repeat": [ 0, 3 ] } },
-        "v": { "items": { "item": "vending_drink", "repeat": [ 0, 3 ] } },
+        "V": { "items": { "item": "vending_food", "repeat": [ 0, 7 ] } },
+        "v": { "items": { "item": "vending_drink", "repeat": [ 0, 5 ] } },
         ".": { "items": { "item": "trash", "chance": 2 } },
         " ": { "items": { "item": "subway", "chance": 4 } },
         "b": { "items": { "item": "bed", "chance": 35 } },

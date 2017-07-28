@@ -43,7 +43,7 @@
         "x": ["t_grass", "t_dirtmound", "t_dirtmound", "t_dirt", "t_dirt", "t_dirt"]
       },
       "furniture": {
-        "#": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
+        "#": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
         "X": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
         "x": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"]
       },
