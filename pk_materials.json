@@ -4,7 +4,7 @@
         "ident": "spess_plastic",
         "name": "Poly-Layered Plastic",
         "salvage_id": "spess_chunk",
-        "bash_resist": 3,
+        "bash_resist": 4,
         "cut_resist": 3,
         "bash_dmg_verb": "dented",
         "cut_dmg_verb": "gouged",
