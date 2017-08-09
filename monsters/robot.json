@@ -162,10 +162,9 @@
       {
         "type": "gun",
         "cooldown": 60,
-        "move_cost": 250,
+        "move_cost": 300,
         "gun_type": "bio_blaster_gun",
-        "fake_skills": [ [ "gun", 4 ] ],
-        "fake_dex": 4,
+        "fake_dex": 0,
         "fake_per": 12,
         "max_ammo": 1000,
         "ranges": [ [ 4, 13, "DEFAULT" ] ],
