@@ -239,7 +239,7 @@
     "id": "mon_tardigrade",
     "type": "MONSTER",
     "name": "tardigrade",
-    "description": "One of the most durable creatures in the world, the tardigrade has outlived the dinosaurs and humanity both.  This is a plump and now moose-sized eight-legged critter with a creviced shell with in-laid segments.  Along the length of the shell pairs of sensory tentacles can be seen waving around.  Although its clawed digits seem to be for grasping the tentacles, due to their sheer size, lend themselves to flailing in defense.",
+    "description": "One of the most durable creatures in the world, the tardigrade has outlived the dinosaurs and humanity both.  This is a plump and now moose-sized eight-legged critter that sports a creviced shell with in-laid segments.  Along the length of the shell pairs of sensory tentacles can be seen waving around.  Although its clawed digits seem to be for grasping, the tentacles, due to their sheer size, lend themselves to flailing in defense.",
     "default_faction": "herbivore",
     "categories": [ "WILDLIFE" ],
     "species": [ "INSECT" ],

@@ -8,7 +8,7 @@
     "see_cost" : 2,
     "extras" : "field",
     "spawns" : { "group": "GROUP_FIELD", "population": [0, 1], "chance": 35 },
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "forest",
@@ -18,7 +18,7 @@
     "see_cost" : 3,
     "extras" : "field",
     "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 75 },
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "sewer",
@@ -54,7 +54,7 @@
     "sym": 79,
     "color" : "green",
     "see_cost" : 5,
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "extras" : "subway"
   },{
     "type" : "overmap_terrain",
@@ -792,7 +792,7 @@
     "see_cost" : 5,
     "extras" : "none",
     "mondensity" : 2,
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "spawns" : { "group": "GROUP_BOG", "population": [6, 30], "radius":[100,250] }
   },{
     "type" : "overmap_terrain",
@@ -802,7 +802,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -812,7 +812,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -822,7 +822,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -832,7 +832,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -842,7 +842,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -852,7 +852,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -862,7 +862,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -872,7 +872,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -882,7 +882,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -892,7 +892,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -903,7 +903,7 @@
     "see_cost" : 5,
     "extras" : "field",
     "mondensity" : 3,
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "orchard_processing",
@@ -942,7 +942,7 @@
     "color" : "yellow",
     "see_cost" : 5,
     "extras" : "none",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 4
   },{
     "type" : "overmap_terrain",
@@ -962,7 +962,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "none",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -972,7 +972,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "none",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -982,7 +982,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -992,7 +992,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1002,7 +1002,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "none",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1012,7 +1012,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1022,7 +1022,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1032,7 +1032,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1042,7 +1042,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1052,7 +1052,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1062,7 +1062,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1072,7 +1072,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1082,7 +1082,7 @@
     "color" : "i_brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1092,7 +1092,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1102,7 +1102,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1112,7 +1112,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1122,7 +1122,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1132,7 +1132,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1142,7 +1142,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1152,7 +1152,7 @@
     "color" : "brown",
     "see_cost" : 2,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
   },{
     "type" : "overmap_terrain",
@@ -1160,7 +1160,7 @@
     "name" : "plantation",
     "sym": 4194413,
     "color" : "brown",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
   },{
     "type" : "overmap_terrain",
@@ -1168,7 +1168,7 @@
     "name" : "plantation",
     "sym": 4194421,
     "color" : "brown",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
   },{
     "type" : "overmap_terrain",
@@ -1259,7 +1259,7 @@
     "color": "blue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1269,7 +1269,7 @@
     "color": "ltblue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1279,7 +1279,7 @@
     "color": "ltblue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1289,7 +1289,7 @@
     "color": "blue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1299,7 +1299,7 @@
     "color": "blue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1309,7 +1309,7 @@
     "color": "blue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1319,7 +1319,7 @@
     "color": "blue",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1329,7 +1329,7 @@
     "color": "cyan",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1339,7 +1339,7 @@
     "color": "red",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1349,7 +1349,7 @@
     "color": "red",
     "see_cost": 5,
     "extras": "doom",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
   },{
     "type": "overmap_terrain",
@@ -1379,7 +1379,7 @@
     "color" : "cyan",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ]
+    "flags" : [ "NO_ROTATE" ]
   },{
     "type" : "overmap_terrain",
     "id" : "triffid_grove_swamp",
@@ -1405,7 +1405,7 @@
     "sym": 126,
     "color" : "light_gray",
     "see_cost" : 5,
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
   },{
     "type" : "overmap_terrain",
@@ -1432,7 +1432,7 @@
     "color" : "i_brown",
     "see_cost" : 5,
     "extras" : "field",
-    "flags" : [ "ALLOW_OVERRIDE", "NO_ROTATE" ],
+    "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
   },{
     "type" : "overmap_terrain",
