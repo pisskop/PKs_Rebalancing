@@ -27,7 +27,7 @@
     "color" : "green",
     "see_cost" : 5,
     "extras" : "subway",
-    "flags" : [ "LINEAR", "ALLOW_OVERRIDE" ],
+    "flags" : [ "LINEAR" ],
     "allow_road" : true
   },{
     "type" : "overmap_terrain",
@@ -45,7 +45,7 @@
     "line_drawing" : true,
     "color" : "brown",
     "see_cost" : 5,
-    "flags" : [ "LINEAR", "ALLOW_OVERRIDE" ],
+    "flags" : [ "LINEAR" ],
     "extras" : "subway"
   },{
     "type" : "overmap_terrain",
