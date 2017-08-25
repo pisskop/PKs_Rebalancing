@@ -279,10 +279,10 @@
       "hunger_tick": [600],
       "hunger_chance": [3],
       "health_min": [-1],
-      "health_tick": [120],
+      "health_tick": [180],
       "health_chance": [35],
       "h_mod_tick": [12],
-      "h_mod_chance": [30]
+      "h_mod_chance": [60]
     },
     "scaling_mods": {
       "speed_mod": [-12],
@@ -332,10 +332,10 @@
       "hurt_chance": [-300],
       "stamina_chance": [2],
       "health_min": [-1],
-      "health_tick": [120],
+      "health_tick": [180],
       "health_chance": [35],
-      "h_mod_tick": [12],
-      "h_mod_chance": [20]
+      "h_mod_tick": [18],
+      "h_mod_chance": [40]
     },
     "scaling_mods": {
       "speed_mod": [-4],

@@ -1819,6 +1819,9 @@
     "type": "MONSTER",
     "copy-from": "mon_skeleton",
     "burn_into": "mon_skeleton_scorched",
+    "armor_bash": 0,
+    "armor_cut": 10,
+    "armor_stab": 16,
     "special_attacks": [ [ "scratch", 10 ] ],
     "upgrades": {
       "half_life": 14,
