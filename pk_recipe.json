@@ -1209,7 +1209,7 @@
     "time": 9000,
     "reversible": true,
     "decomp_learn": 2,
-    "autolearn": false,
+    "autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 1 ] , [ "textbook_robots", 1 ] ],
     "qualities" : [ { "id":"SCREW","level":1,"amount":1 } ],
     "tools": [
@@ -1232,7 +1232,7 @@
     "time": 9000,
     "reversible": true,
     "decomp_learn": 2,
-    "autolearn": false,
+    "autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 1 ] , [ "textbook_robots", 1 ] ],
     "qualities" : [ { "id":"SCREW","level":1,"amount":1 } ],
     "tools": [
