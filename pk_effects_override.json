@@ -299,7 +299,7 @@
       "hunger_chance": [-1],
       "stamina_min": [-0.5],
       "health_min": [-0.5],
-      "health_tick": [-10],
+      "health_tick": [-40],
       "h_mod_min": [-1]
     }
   },
@@ -346,7 +346,7 @@
       "hurt_chance": [200],
       "stamina_min": [-1],
       "health_min": [-0.5],
-      "health_tick": [-10],
+      "health_tick": [-40],
       "h_mod_min": [-1]
      }
   },

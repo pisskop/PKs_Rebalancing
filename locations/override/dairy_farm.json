@@ -6,6 +6,9 @@
     "is_safe": true,
     "monsters": [
       { "monster": "mon_null", "freq": 333, "cost_multiplier": 1 },
+      { "monster": "mon_horse_zombie_scorched", "freq": 66, "cost_multiplier": 3 },
+      { "monster": "mon_zolf_scorched", "freq": 66, "cost_multiplier": 5, "starts": 100 },
+      { "monster": "mon_horse_zombie_scorched", "freq": 66, "cost_multiplier": 7, "starts": 150 },
       { "monster": "mon_cow", "freq": 333, "cost_multiplier": 5, "ends": 168 },
       { "monster": "mon_cow", "freq": 200, "cost_multiplier": 5, "starts": 168, "ends": 306 },
       { "monster": "mon_cow", "freq": 100, "cost_multiplier": 5, "starts": 306, "ends": 420 },
