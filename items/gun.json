@@ -138,7 +138,7 @@
     "id": "shockcannon",
     "type": "GUN",
     "name": "shockcannon",
-    "description": "A rather unwieldy hip fired weapon, firing a burst of electricity in a rampant manner.  Not quite a tesla cannon, it never-the-less is a quite power crowd control device.",
+    "description": "A rather unwieldy hip fired weapon, firing a burst of electricity in a rampant manner.  Not quite a tesla cannon, it never-the-less is a quite power crowd control device.  Can be modified for plutonium cells or ups usage via crafting",
     "weight": 4542,
     "volume": 23,
     "price": 175000,
