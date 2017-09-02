@@ -147,7 +147,7 @@
     "id": "shockcannon_mounted",
     "type": "vehicle_part",
     "name": "mounted shockcannon",
-    "item": "shockcannon_plut",
+    "item": "shockcannon_ups",
     "location": "on_roof",
     "symbol": "t",
     "broken_symbol": "#",
@@ -158,7 +158,8 @@
     "durability": 250,
     "range": 5,
     "damage_modifier": 80,
-    "breaks_into": [ { "item": "shockcannon_plut", "prob": 25 } ],
+    "ups_charges": 5,
+    "breaks_into": [ { "item": "shockcannon_ups", "prob": 25 } ],
     "flags": [ "TURRET" ]
   },
   {

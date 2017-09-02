@@ -191,6 +191,7 @@
     "recoil": 10,
     "durability": 4,
     "burst": 3,
+    "ups_charges": 50,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ] ],
     "ammo_effects": [
       "DRAW_AS_LINE",
@@ -199,7 +200,7 @@
       "BOUNCE",
       "LIGHTNING"
     ],
-    "flags": [ "USE_UPS", "NEVER_JAMS", "FIRE_100", "NO_UNLOAD", "RECHARGE" ]
+    "flags": [ "USE_UPS", "NEVER_JAMS", "NO_UNLOAD", "RECHARGE" ]
   },
   {
     "id": "shockcannon_plut",
@@ -224,7 +225,7 @@
     "recoil": 10,
     "durability": 4,
     "burst": 3,
-    "clip_size": 10000,
+    "clip_size": 12000,
     "reload": 1,
     "valid_mod_locations": [ [ "accessories", 2 ], [ "grip", 1 ], [ "rail", 1 ] ],
     "ammo_effects": [
