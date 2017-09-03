@@ -14,7 +14,7 @@
     ],
     "components" : [
       [ [ "stick", 8 ], [ "2x4", 4 ] ],
-      [ [ "rock", 8 ], [ "steel_chunk" 8 ] ],
+      [ [ "rock", 8 ], [ "steel_chunk", 8 ] ],
       [ [ "pine_bough", 4 ], [ "willowbark", 8 ], [ "leather", 8 ], [ "rag", 10 ] ],
       [ [ "pine_bough", 4 ], [ "willowbark", 8 ], [ "leather", 8 ], [ "rag", 10 ] ]
     ],
