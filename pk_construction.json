@@ -1,0 +1,46 @@
+[
+  {
+    "type" : "construction",
+    "skill" : "survival",
+    "description" : "Construct makeshift post-fence",
+    "category" : "CONSTRUCT",
+    "required_skills" : [ [ "survival", 2 ], [ "fabrication", 3 ] ],
+    "time" : 320,
+    "qualities": [
+      [
+        { "id": "CUT", "level": 1 },
+        { "id": "HAMMER", "level": 1 }
+      ]
+    ],
+    "components" : [
+      [ [ "stick", 8 ], [ "2x4", 4 ] ],
+      [ [ "rock", 8 ], [ "lump", 8 ] ],
+      [ [ "pine_bough", 4 ], [ "willowbark", 8 ], [ "leather", 8 ], [ "rag", 10 ] ],
+      [ [ "pine_bough", 4 ], [ "willowbark", 8 ], [ "leather", 8 ], [ "rag", 10 ] ]
+    ],
+    "pre_terrain" : "t_pit_shallow",
+    "post_terrain" : "t_improvised_fence"
+  },
+  {
+    "type" : "construction",
+    "skill" : "survival",
+    "description" : "Build Improvised Shelter",
+    "category" : "CONSTRUCT",
+    "required_skills" : [ [ "survival", 2 ] ],
+    "time" : 120,
+    "qualities": [
+      [
+        { "id": "CUT", "level": 1 },
+        { "id": "HAMMER", "level": 1 }
+      ]
+    ],
+    "components" : [
+      [ [ "stick", 12 ], [ "2x4", 6 ] ],
+      [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
+      [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ],
+      [ [ "pine_bough", 3 ], [ "willowbark", 6 ], [ "leather", 6 ] ]
+    ],
+    "pre_terrain" : "t_pit_shallow",
+    "post_terrain" : "t_improvised_shelter"
+  }
+]

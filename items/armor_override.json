@@ -612,7 +612,7 @@
     "type": "ARMOR",
     "name": "pair of swim goggles",
     "name_plural": "pairs of swim goggles",
-    "description": "A small pair of goggles made for swimming.",
+    "description": "A small pair of tinted goggles made for swimming.",
     "weight": 81,
     "volume": 1,
     "price": 1100,
@@ -626,7 +626,7 @@
     "warmth": 10,
     "material_thickness": 1,
     "environmental_protection": 4,
-    "flags": [ "SKINTIGHT", "WATER_FRIENDLY", "SWIM_GOGGLES", "VARSIZE" ]
+    "flags": [ "SUN_GLASSES", "SKINTIGHT", "WATER_FRIENDLY", "SWIM_GOGGLES", "VARSIZE" ]
   },
   {
     "id": "goggles_welding",

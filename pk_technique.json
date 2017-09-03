@@ -32,8 +32,8 @@
     "grab_break": true,
     "stun_dur": 1,
     "messages": [
-      "You defensively repose yourself as you attack.",
-      "<npcname>%s defensively reposes themself."
+      "You defensively repose yourself as you attack",
+      "<npcname>%s defensively reposes themself and damages"
     ],
     "mult_bonuses": [
       [ "movecost", 1.1 ],

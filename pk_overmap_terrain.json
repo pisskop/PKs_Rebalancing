@@ -9,7 +9,8 @@
     "extras" : "field",
     "spawns" : { "group": "GROUP_FIELD", "population": [0, 1], "chance": 35 },
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "forest",
     "name" : "forest",
@@ -19,7 +20,8 @@
     "extras" : "field",
     "spawns" : { "group": "GROUP_FOREST", "population": [0, 3], "chance": 75 },
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "sewer",
     "name" : "sewer",
@@ -29,7 +31,8 @@
     "extras" : "subway",
     "flags" : [ "LINEAR" ],
     "allow_road" : true
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "crater",
     "name" : "crater",
@@ -38,7 +41,8 @@
     "see_cost" : 3,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "ants",
     "name" : "ant tunnel",
@@ -47,7 +51,8 @@
     "see_cost" : 5,
     "flags" : [ "LINEAR" ],
     "extras" : "subway"
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "ants_food",
     "name" : "ant food storage",
@@ -56,7 +61,8 @@
     "see_cost" : 5,
     "flags" : [ "NO_ROTATE" ],
     "extras" : "subway"
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "prison_6",
     "name" : "prison",
@@ -65,7 +71,8 @@
     "see_cost" : 5,
     "mondensity": 3,
     "flags" : [ "SIDEWALK", "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "pit_topside",
     "name" : "cave",
@@ -74,7 +81,8 @@
     "see_cost" : 2,
     "extras" : "subway",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "pit_dusk_horror",
     "name" : "cave",
@@ -83,7 +91,8 @@
     "see_cost" : 2,
     "extras" : "subway",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_entranceNW",
     "name": "hell spire citadel",
@@ -93,7 +102,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_entranceSW",
     "name": "hell spire citadel",
@@ -103,7 +113,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_entranceNE",
     "name": "hell spire citadel",
@@ -113,7 +124,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_entranceSE",
     "name": "hell spire citadel",
@@ -123,7 +135,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_tunnel_B1W",
     "name": "hell spire",
@@ -133,7 +146,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_tunnel_B1E",
     "name": "hell spire",
@@ -143,7 +157,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_tunnel_prison_N",
     "name": "hell spire holding cells",
@@ -153,7 +168,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_tunnel_prison_S",
     "name": "hell spire holding cells",
@@ -163,7 +179,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_tunnel_B2E",
     "name": "hell spire",
@@ -173,7 +190,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_B3N",
     "name": "hell spire arena",
@@ -183,7 +201,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_city_B3S",
     "name": "hell spire arena",
@@ -205,7 +224,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_N",
     "name": "hell castle",
@@ -215,7 +235,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_NE",
     "name": "hell castle",
@@ -225,7 +246,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_CW",
     "name": "hell castle",
@@ -235,7 +257,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_C",
     "name": "hell castle",
@@ -245,7 +268,8 @@
     "extras": "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_CE",
     "name": "hell castle",
@@ -255,7 +279,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_SW",
     "name": "hell castle",
@@ -265,7 +290,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_S",
     "name": "hell castle",
@@ -275,7 +301,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_SE",
     "name": "hell castle",
@@ -285,7 +312,8 @@
     "extras": "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_NW",
     "name": "hell castle",
@@ -295,7 +323,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_N",
     "name": "hell castle",
@@ -305,7 +334,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_NE",
     "name": "hell castle",
@@ -315,7 +345,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_CW",
     "name": "hell castle",
@@ -325,7 +356,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_C",
     "name": "hell castle",
@@ -335,7 +367,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_CE",
     "name": "hell castle",
@@ -345,7 +378,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_SW",
     "name": "hell castle",
@@ -355,7 +389,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_S",
     "name": "hell castle",
@@ -365,7 +400,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B1_SE",
     "name": "hell castle",
@@ -375,7 +411,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_NW",
     "name": "hell castle",
@@ -385,7 +422,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_N",
     "name": "hell castle",
@@ -395,7 +433,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_NE",
     "name": "hell castle",
@@ -405,7 +444,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_CW",
     "name": "hell castle",
@@ -415,7 +455,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_C",
     "name": "hell castle",
@@ -425,7 +466,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_CE",
     "name": "hell castle",
@@ -435,7 +477,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_SW",
     "name": "hell castle",
@@ -445,7 +488,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_S",
     "name": "hell castle",
@@ -455,7 +499,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "hell_castle_B2_SE",
     "name": "hell castle",
@@ -465,7 +510,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "trapdoor_pit",
     "name": "field",
@@ -474,7 +520,8 @@
     "see_cost": 2,
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 5
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "trapdoor_pit_b1",
     "name": "spider lairs",
@@ -483,7 +530,8 @@
     "see_cost": 2,
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_00",
     "name" : "public cemetery",
@@ -493,7 +541,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_10",
     "name" : "public cemetery",
@@ -503,7 +552,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_20",
     "name" : "public cemetery",
@@ -513,7 +563,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_30",
     "name" : "public cemetery",
@@ -523,7 +574,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_40",
     "name" : "public cemetery",
@@ -533,7 +585,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_50",
     "name" : "public cemetery",
@@ -543,7 +596,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_01",
     "name" : "public cemetery",
@@ -553,7 +607,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_11",
     "name" : "public cemetery",
@@ -563,7 +618,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_21",
     "name" : "public cemetery",
@@ -573,7 +629,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_31",
     "name" : "public cemetery",
@@ -583,7 +640,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_41",
     "name" : "public cemetery",
@@ -593,7 +651,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_51",
     "name" : "public cemetery",
@@ -603,7 +662,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_02",
     "name" : "public cemetery",
@@ -613,7 +673,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_12",
     "name" : "public cemetery",
@@ -623,7 +684,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_22",
     "name" : "public cemetery",
@@ -633,7 +695,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_32",
     "name" : "public cemetery",
@@ -643,7 +706,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_42",
     "name" : "public cemetery",
@@ -653,7 +717,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_52",
     "name" : "public cemetery",
@@ -663,7 +728,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_03",
     "name" : "public cemetery",
@@ -673,7 +739,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_13",
     "name" : "public cemetery",
@@ -683,7 +750,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_23",
     "name" : "public cemetery",
@@ -693,7 +761,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_33",
     "name" : "public cemetery",
@@ -703,7 +772,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_43",
     "name" : "public cemetery",
@@ -713,7 +783,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_53",
     "name" : "public cemetery",
@@ -723,7 +794,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_04",
     "name" : "public cemetery",
@@ -733,7 +805,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_14",
     "name" : "public cemetery",
@@ -743,7 +816,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_24",
     "name" : "public cemetery",
@@ -753,7 +827,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_34",
     "name" : "public cemetery",
@@ -763,7 +838,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_44",
     "name" : "public cemetery",
@@ -773,7 +849,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cemetery_large_54",
     "name" : "public cemetery",
@@ -783,7 +860,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "pond_swamp",
     "name" : "bog",
@@ -794,7 +872,8 @@
     "mondensity" : 2,
     "flags" : [ "NO_ROTATE" ],
     "spawns" : { "group": "GROUP_BOG", "population": [6, 30], "radius":[100,250] }
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_barn",
     "name" : "farm field",
@@ -804,7 +883,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_barn_f2",
     "name" : "farm field",
@@ -814,7 +894,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_house",
     "name" : "farm",
@@ -824,7 +905,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_topright",
     "name" : "farm field",
@@ -834,7 +916,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_centerleft",
     "name" : "farm field",
@@ -844,7 +927,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_centercenter",
     "name" : "farm field",
@@ -854,7 +938,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_centerright",
     "name" : "farm field",
@@ -864,7 +949,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_bottomleft",
     "name" : "farm field",
@@ -874,7 +960,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_bottomcenter",
     "name" : "farm field",
@@ -884,7 +971,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_unsettled_bottomright",
     "name" : "farm field",
@@ -894,7 +982,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "orchard_tree_apple",
     "name" : "apple orchard",
@@ -904,7 +993,8 @@
     "extras" : "field",
     "mondensity" : 3,
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "orchard_processing",
     "name" : "orchard processing",
@@ -914,7 +1004,8 @@
     "extras" : "field",
     "mondensity" : 3,
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "orchard_stall",
     "name" : "orchard stall",
@@ -924,7 +1015,8 @@
     "extras" : "field",
     "mondensity" : 3,
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "wasp_center",
     "name" : "wasp hive",
@@ -934,7 +1026,8 @@
     "extras" : "none",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "beehive_center",
     "name" : "bee hive",
@@ -944,7 +1037,8 @@
     "extras" : "none",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 4
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "barn",
     "name" : "barn",
@@ -954,7 +1048,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_house",
     "name" : "plantation house",
@@ -964,7 +1059,8 @@
     "extras" : "none",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_house_e",
     "name" : "plantation",
@@ -974,7 +1070,8 @@
     "extras" : "none",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_garden",
     "name" : "plantation",
@@ -984,7 +1081,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_garden_e",
     "name" : "plantation",
@@ -994,7 +1092,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_lot",
     "name" : "silo",
@@ -1004,7 +1103,8 @@
     "extras" : "none",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_n",
     "name" : "plantation",
@@ -1014,7 +1114,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_ne",
     "name" : "plantation",
@@ -1024,7 +1125,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops",
     "name" : "plantation",
@@ -1034,7 +1136,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_e",
     "name" : "plantation",
@@ -1044,7 +1147,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_nw",
     "name" : "plantation",
@@ -1054,7 +1158,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_s",
     "name" : "plantation",
@@ -1064,7 +1169,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_se",
     "name" : "plantation",
@@ -1074,7 +1180,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_w",
     "name" : "plantation",
@@ -1084,7 +1191,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_nw",
     "name" : "plantation",
@@ -1094,7 +1202,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_n",
     "name" : "plantation",
@@ -1104,7 +1213,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_ne",
     "name" : "plantation",
@@ -1114,7 +1224,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_w",
     "name" : "plantation",
@@ -1124,7 +1235,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_sw",
     "name" : "plantation",
@@ -1134,7 +1246,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_e",
     "name" : "plantation",
@@ -1144,7 +1257,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_pasture_se",
     "name" : "plantation",
@@ -1154,7 +1268,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "barn_drive",
     "name" : "plantation",
@@ -1162,7 +1277,8 @@
     "color" : "brown",
     "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_drive_n",
     "name" : "plantation",
@@ -1170,7 +1286,8 @@
     "color" : "brown",
     "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_drive",
     "name" : "plantation",
@@ -1178,7 +1295,8 @@
     "flags" : [ "NO_ROTATE" ],
     "color" : "brown",
     "see_cost" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_17",
     "name" : "plantation",
@@ -1188,7 +1306,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_drive_s",
     "name" : "plantation",
@@ -1196,7 +1315,8 @@
     "color" : "brown",
     "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_drive_sw",
     "name" : "plantation",
@@ -1204,7 +1324,8 @@
     "color" : "i_brown",
     "flags" : [ "NO_ROTATE" ],
     "see_cost" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_crops_sw",
     "name" : "plantation",
@@ -1214,7 +1335,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_wine_cellar",
     "name" : "basement",
@@ -1224,7 +1346,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_31",
     "name" : "road",
@@ -1233,7 +1356,8 @@
     "see_cost" : 2,	
     "flags" : [ "NO_ROTATE" ],
     "extras" : "road"
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_32",
     "name" : "road",
@@ -1242,7 +1366,8 @@
     "see_cost" : 2,
     "flags" : [ "NO_ROTATE" ],
     "extras" : "road"
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "farm_33",
     "name" : "road",
@@ -1251,7 +1376,8 @@
     "see_cost" : 2,
     "flags" : [ "NO_ROTATE" ],
     "extras" : "road"
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_f00_20",
     "name": "lab",
@@ -1261,7 +1387,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_f01_20",
     "name": "lab",
@@ -1271,7 +1398,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_comms",
     "name": "lab",
@@ -1281,7 +1409,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_office",
     "name": "lab",
@@ -1291,7 +1420,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_dorm",
     "name": "lab",
@@ -1301,7 +1431,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_lab_open",
     "name": "lab",
@@ -1311,7 +1442,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_lab_prm",
     "name": "lab",
@@ -1321,7 +1453,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_redacted",
     "name": "lab",
@@ -1331,7 +1464,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_finale",
     "name": "lab",
@@ -1341,7 +1475,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_finale_II",
     "name": "lab",
@@ -1351,7 +1486,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_stairs",
     "name": "lab",
@@ -1361,7 +1497,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type": "overmap_terrain",
     "id": "doomlab_stairs_II",
     "name": "lab",
@@ -1371,7 +1508,8 @@
     "extras": "doom",
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 2
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "hunter_shack",
     "name" : "swamp shack",
@@ -1380,7 +1518,8 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "triffid_grove_swamp",
     "name" : "triffid grove",
@@ -1389,7 +1528,8 @@
     "see_cost" : 5,
     "flags" : [ "NO_ROTATE" ],
     "known_down" : true
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "sludge_pit",
     "name" : "sludge pit",
@@ -1398,7 +1538,8 @@
     "see_cost" : 5,
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "sludge_pit_under",
     "name" : "sludge pit",
@@ -1407,7 +1548,8 @@
     "see_cost" : 5,
     "flags" : [ "NO_ROTATE" ],
     "mondensity": 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "sky_vortex",
     "name" : "unempty air",
@@ -1415,7 +1557,8 @@
     "color" : "blue",
     "mondensity": 3,
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "sky_vortex_ground",
     "name" : "field",
@@ -1424,7 +1567,8 @@
     "see_cost" : 3,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "barn_old",
     "name" : "derelict barn",
@@ -1434,7 +1578,8 @@
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_00",
     "name" : "police hub",
@@ -1444,7 +1589,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_01",
     "name" : "police hub",
@@ -1454,7 +1600,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_02",
     "name" : "police hub",
@@ -1464,7 +1611,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_10",
     "name" : "police hub",
@@ -1474,7 +1622,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_11",
     "name" : "police hub",
@@ -1484,7 +1633,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_12",
     "name" : "police hub",
@@ -1494,7 +1644,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_20",
     "name" : "police hub",
@@ -1504,7 +1655,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_21",
     "name" : "police hub",
@@ -1514,7 +1666,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "police_hub_22",
     "name" : "police hub",
@@ -1524,7 +1677,8 @@
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ],
     "mondensity" : 3
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange",
     "name" : "forest",
@@ -1533,7 +1687,8 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_100",
     "name" : "forest",
@@ -1542,7 +1697,8 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_010",
     "name" : "forest",
@@ -1551,7 +1707,8 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_110",
     "name" : "forest",
@@ -1560,7 +1717,8 @@
     "see_cost" : 5,
     "extras" : "field",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_b",
     "name" : "cabin basement",
@@ -1569,7 +1727,8 @@
     "see_cost" : 5,
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_b_101",
     "name" : "cabin basement",
@@ -1578,7 +1737,8 @@
     "see_cost" : 5,
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_b_011",
     "name" : "cabin basement",
@@ -1587,7 +1747,8 @@
     "see_cost" : 5,
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_b_111",
     "name" : "cabin basement",
@@ -1596,7 +1757,8 @@
     "see_cost" : 5,
     "extras" : "build",
     "flags" : [ "NO_ROTATE" ]
-  },{
+  },
+  {
     "type" : "overmap_terrain",
     "id" : "cabin_strange_b2",
     "name" : "cabin basement",

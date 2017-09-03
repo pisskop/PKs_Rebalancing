@@ -75,7 +75,7 @@
         "parasites": 2.0
     },
     "relative": {
-        "vitamins": [ [ "vitA", 5 ] ],
+        "vitamins": [ [ "vitA", 6 ] ],
         "fun": -5
     },
     "effects": [
@@ -375,7 +375,7 @@
       "effects": [ { "id": "rad_reduce", "duration": 240 } ],
       "vitamins": [
          [ "calcium", 0, 4 ],
-         [ "iron", 0, 12 ]
+         [ "iron", 0, 8 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -398,7 +398,25 @@
       "activation_message": "You consume a helping of the %s.",
       "effects": [ { "id": "rad_reduce", "duration": 240 }, { "id": "rad_reduce", "duration": 60 } ],
       "vitamins": [
-         [ "iron", 0, 6 ]
+         [ "iron", 0, 4 ]
+      ]
+    },
+    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
+  },
+  {
+    "id": "vitamins",
+    "copy-from": "vitamins",
+    "type": "COMESTIBLE",
+    "name": "multi-vitamin",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You take the %s.",
+      "vitamins": [
+         [ "calcium", 14, 28 ],
+         [ "iron", 14, 28 ],
+         [ "vitA", 14, 28 ],
+         [ "vitB", 14, 28 ],
+         [ "vitC", 14, 28 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -419,11 +437,11 @@
       "activation_message": "You take the %s.",
       "effects": [ { "id": "chelated_iron", "duration": 600 }, { "id": "rad_reduce", "duration": 600 } ],
       "vitamins": [
-         [ "calcium", 24, 48 ],
-         [ "iron", 24, 48 ],
-         [ "vitA", 24, 48 ],
-         [ "vitB", 24, 48 ],
-         [ "vitC", 24, 48 ]
+         [ "calcium", 16, 32 ],
+         [ "iron", 16, 32 ],
+         [ "vitA", 16, 32 ],
+         [ "vitB", 16, 32 ],
+         [ "vitC", 16, 32 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -449,7 +467,7 @@
       "activation_message": "You consume a helping of the %s.",
       "effects": [ { "id": "chelated_iron", "duration": 1200 }, { "id": "chelated_iron", "duration": 800 }, { "id": "chelated_iron", "duration": 600 },              { "id": "rad_reduce", "duration": 1000 }, { "id": "rad_reduce", "duration": 600 } ],
       "vitamins": [
-         [ "iron", 28, 40 ]
+         [ "iron", 22, 44 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
