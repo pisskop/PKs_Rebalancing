@@ -504,11 +504,12 @@
         { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -559,11 +560,12 @@
         { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -615,11 +617,12 @@
         { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",":{ "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",":{ 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -673,9 +676,9 @@
       "mapping": {
         ",": {  "item": [
           { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -722,11 +725,12 @@
         { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -775,11 +779,12 @@
         { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1169,11 +1174,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1220,11 +1226,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1271,11 +1278,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1323,11 +1331,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1378,11 +1387,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1430,11 +1440,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1482,11 +1493,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1537,11 +1549,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-          { "item": "seed_wheat", "chance": [ 1,300 ] },
-          { "item": "straw_pile", "chance": [ 1,300 ] },
-          { "item": "withered", "chance": [ 1,100 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,300 ] },
+            { "item": "seed_wheat", "chance": [ 1,300 ] },
+            { "item": "straw_pile", "chance": [ 1,300 ] },
+            { "item": "withered", "chance": [ 1,100 ] }
           ]
         }
       }
@@ -1589,11 +1602,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { "item": [
-          { "item": "wheat", "chance": [ 1,240 ] },
-          { "item": "seed_wheat", "chance": [ 1,240 ] },
-          { "item": "straw_pile", "chance": [ 1,240 ] },
-          { "item": "withered", "chance": [ 1,60 ] }
+        ",": { 
+          "item": [
+            { "item": "wheat", "chance": [ 1,240 ] },
+            { "item": "seed_wheat", "chance": [ 1,240 ] },
+            { "item": "straw_pile", "chance": [ 1,240 ] },
+            { "item": "withered", "chance": [ 1,60 ] }
           ]
         }
       }

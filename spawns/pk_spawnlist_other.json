@@ -37,7 +37,7 @@
     "name": "GROUP_SLUDGE",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_sludge_crawler", "freq":350, "cost_multiplier": 5, "pack_size": [1,2] },
+      { "monster": "mon_sludge_crawler", "freq":250, "cost_multiplier": 5, "pack_size": [1,2] },
       { "monster": "mon_twisted_body", "freq": 125, "cost_multiplier": 5, "pack_size": [1,2] },
       { "monster": "mon_sewer_snake", "freq": 50, "cost_multiplier": 3, "pack_size": [2,4] },
       { "monster": "mon_bat_vampire", "freq": 50, "cost_multiplier": 3, "pack_size": [4,7] },

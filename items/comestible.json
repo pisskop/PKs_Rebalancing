@@ -412,11 +412,11 @@
       "type": "consume_drug",
       "activation_message": "You take the %s.",
       "vitamins": [
-         [ "calcium", 14, 28 ],
-         [ "iron", 14, 28 ],
-         [ "vitA", 14, 28 ],
-         [ "vitB", 14, 28 ],
-         [ "vitC", 14, 28 ]
+         [ "calcium", 21, 42 ],
+         [ "iron", 21, 42 ],
+         [ "vitA", 21, 42 ],
+         [ "vitB", 21, 42 ],
+         [ "vitC", 21, 42 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -437,11 +437,11 @@
       "activation_message": "You take the %s.",
       "effects": [ { "id": "chelated_iron", "duration": 600 }, { "id": "rad_reduce", "duration": 600 } ],
       "vitamins": [
-         [ "calcium", 16, 32 ],
-         [ "iron", 16, 32 ],
-         [ "vitA", 16, 32 ],
-         [ "vitB", 16, 32 ],
-         [ "vitC", 16, 32 ]
+         [ "calcium", 25, 50 ],
+         [ "iron", 25, 50 ],
+         [ "vitA", 25, 50 ],
+         [ "vitB", 25, 50 ],
+         [ "vitC", 25, 50 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -467,7 +467,7 @@
       "activation_message": "You consume a helping of the %s.",
       "effects": [ { "id": "chelated_iron", "duration": 1200 }, { "id": "chelated_iron", "duration": 800 }, { "id": "chelated_iron", "duration": 600 },              { "id": "rad_reduce", "duration": 1000 }, { "id": "rad_reduce", "duration": 600 } ],
       "vitamins": [
-         [ "iron", 22, 44 ]
+         [ "iron", 30, 60 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -482,9 +482,9 @@
     "use_action": {
       "type": "heal",
       "move_cost": 400,
-      "bleed": 0.7,
-      "bite": 1,
-      "infect": 0.95,
+      "bleed": 1.0,
+      "bite": 0.7,
+      "infect": 0.3,
       "limb_power": 6,
       "head_power": 5,
       "torso_power": 3,

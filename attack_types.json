@@ -38,7 +38,7 @@
     "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "effects": [
       { "id": "infection_minor", "duration": 15000, "chance": 15 },
-      { "id": "flu_zed", "duration": 15000, "chance": 2 }
+      { "id": "flu_zed", "duration": 32000, "chance": 2 }
     ],
     "hit_dmg_u": "The %1$s stikes you!",
     "hit_dmg_npc": "The %1$s strikes <npcname>!",
@@ -72,7 +72,7 @@
     "move_cost": 180,
     "effects": [
       { "id": "slashed", "duration": 5 },
-      { "id": "infection_minor", "duration": 12000, "chance": 8 }
+      { "id": "infection_minor", "duration": 24000, "chance": 12 }
     ],
     "damage_max_instance": [
       { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
@@ -132,7 +132,7 @@
     ],
     "effects": [
       { "id": "poison", "duration": 600 },
-      { "id": "infection_minor", "duration": 9800, "chance": 10 },
+      { "id": "infection_minor", "duration": 9800, "chance": 15 },
       { "id": "flu_zed", "duration": 15000, "chance": 1 }
     ],
     "hit_dmg_u": "The %1$s stings you!",
@@ -248,6 +248,8 @@
     "effects": [
       { "id": "paralyzepoison", "duration": 600 },
       { "id": "paralyzepoison", "duration": 15 },
+      { "id": "pkill1", "duration": 400 },
+      { "id": "pkill2", "duration": 800, "chance": 30 },
       { "id": "infection_minor", "duration": 6800, "chance": 12 }
     ],
     "hit_dmg_u": "The %1$s injects you with a numbing poison!",

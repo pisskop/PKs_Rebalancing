@@ -110,7 +110,7 @@
     ],
     "special_attacks": [ [ "sliming", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
-    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
+    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_10", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB" ]
   },
   {
     "id": "mon_sludge_crawler_queen",

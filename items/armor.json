@@ -617,10 +617,10 @@
     "color": "brown",
     "covers": [ "ARMS" ],
     "coverage": 92,
-    "encumbrance": 18,
+    "encumbrance": 16,
     "warmth": 25,
-    "material_thickness": 4,
-    "environmental_protection": 1,
+    "material_thickness": 3,
+    "environmental_protection": 2,
     "flags": [ "STURDY", "BLOCK_WHILE_WORN", "BULKY" ]
   }
 ]

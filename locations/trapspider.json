@@ -39,10 +39,11 @@
         "1": ["t_underbrush", "t_shrub", "t_shrub", "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass", "t_grass", "t_grass"]
       },
       "furniture": {
-        "?": "f_boulder_medium"
+        ">": "f_boulder_medium"
       },
       "mapping": {
-        ">": { "terrain": "t_slope_down", "furniture": "f_boulder_medium" }
+        ">": { "terrain": "t_slope_down" },
+        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -98,10 +99,11 @@
         "1": ["t_underbrush", "t_shrub", "t_shrub", "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass", "t_grass", "t_grass"]
       },
       "furniture": {
-        "?": "f_boulder_medium"
+        ">": "f_boulder_medium"
       },
       "mapping": {
-      ">": { "terrain": "t_slope_down", "furniture": "f_boulder_medium" }
+        ">": { "terrain": "t_slope_down" },
+        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -157,10 +159,12 @@
         "1": ["t_underbrush", "t_shrub", "t_shrub", "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass", "t_grass", "t_grass"]
       },
       "furniture": {
-        "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"]
+        "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"],
+        ">": "f_boulder_medium"
       },
       "mapping": {
-        ">": { "terrain": "t_slope_down", "furniture": "f_boulder_medium" }
+        ">": { "terrain": "t_slope_down" },
+        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -216,10 +220,12 @@
         "1": ["t_underbrush", "t_shrub", "t_shrub", "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass", "t_grass", "t_grass"]
       },
       "furniture": {
-        "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"]
+        "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"],
+        ">": "f_boulder_medium"
       },
       "mapping": {
-        ">": { "terrain": "t_slope_down", "furniture": "f_boulder_medium" }
+        ">": { "terrain": "t_slope_down" },
+        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 5, 15 ] },
@@ -279,9 +285,9 @@
         "^": "f_rubble_rock",
         "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"]
       },
-      "place_items": [ 
-        { "item": "spider", "chance": 55, "x": [ 10, 12 ], "y": [ 9, 12 ], "repeat": [ 1, 2 ] }
-      ],
+      "mapping": {
+        " ": { "items": [ { "item": "spider", "chance": [ 1,6 ] } ] }
+      },
       "monster": {
         "O": { "monster": "mon_trapdoor_queen" },
         "o": { "monster": "mon_trapdoor_egg" },

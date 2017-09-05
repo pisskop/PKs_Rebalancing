@@ -4,7 +4,7 @@
     "id": "gauze",
     "base_mods": {
       "h_mod_min": [1],
-      "h_mod_chance": [2000]
+      "h_mod_chance": [800]
     }
   },
   {

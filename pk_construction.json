@@ -5,7 +5,7 @@
     "description" : "Construct makeshift post-fence",
     "category" : "CONSTRUCT",
     "required_skills" : [ [ "survival", 2 ], [ "fabrication", 3 ] ],
-    "time" : 320,
+    "time" : 200,
     "qualities": [
       [
         { "id": "CUT", "level": 1 },
