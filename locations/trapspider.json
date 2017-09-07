@@ -43,7 +43,7 @@
       },
       "mapping": {
         ">": { "terrain": "t_slope_down" },
-        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
+        " ": { "items": [ { "item": "spider", "chance": [ 1 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -103,7 +103,7 @@
       },
       "mapping": {
         ">": { "terrain": "t_slope_down" },
-        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
+        " ": { "items": [ { "item": "spider", "chance": [ 1 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -164,7 +164,7 @@
       },
       "mapping": {
         ">": { "terrain": "t_slope_down" },
-        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
+        " ": { "items": [ { "item": "spider", "chance": [ 1 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 7, 21 ] },
@@ -225,7 +225,7 @@
       },
       "mapping": {
         ">": { "terrain": "t_slope_down" },
-        " ": { "items": [ { "item": "spider", "chance": [ 1,80 ] } ] }
+        " ": { "items": [ { "item": "spider", "chance": [ 1 ] } ] }
       },
       "set": [
         { "point": "trap", "id": "tr_sinkhole", "x": [ 2, 20 ], "y": [ 2, 20 ], "repeat": [ 5, 15 ] },
@@ -286,7 +286,8 @@
         "o": ["f_boulder_small", "f_boulder_small", "f_boulder_small", "f_boulder_medium", "f_boulder_medium", "f_boulder_large"]
       },
       "mapping": {
-        " ": { "items": [ { "item": "spider", "chance": [ 1,6 ] } ] }
+        " ": { "items": [ { "item": "spider", "chance": [ 10 ] } ] },
+        "?": { "items": [ { "item": "spider", "chance": [ 5 ] } ] }
       },
       "monster": {
         "O": { "monster": "mon_trapdoor_queen" },

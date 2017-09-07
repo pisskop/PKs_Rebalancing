@@ -48,7 +48,7 @@
         "[": "t_fencegate_c"
       },
       "mapping": {
-        ".": { "item": { "item": "rock", "chance": [ 3 ] } },
+        ".": { "item": { "item": "rock", "chance": [ 1 ] } },
         "H": { "terrain": "t_dirtfloor", "furniture": "f_hay", "item": { "item": "straw_pile", "amount": [ 10 ] } },
         "L": { "terrain": "t_dirtfloor", "furniture": "f_locker", "items": [ { "item": "farming_tools", "chance": [ 10 ] }, { "item": "home_hw", "chance": [ 10 ] }, { "item": "tools_common", "chance": [ 10 ] } ] }
       },
@@ -56,7 +56,7 @@
         { "monster": "GROUP_PEST", "x": [ 5, 11 ], "y": [ 5, 11 ], "chance": 4 }
       ],
       "place_vehicles": [
-        { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 15 }
+        { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 25 }
       ],
       "place_items": [
         { "item": "mine_storage", "chance": 8, "x": [3,4],   "y": 10 },
@@ -113,7 +113,7 @@
         "[": [ "t_fencegate_c", "t_dirtfloor", "t_dirtfloor" ]
       },
       "mapping": {
-        ".": { "item": { "item": "rock", "chance": [ 4 ] } },
+        ".": { "item": { "item": "rock", "chance": [ 2 ] } },
         " ": { "items": { "item": "farming_tools", "chance": [ 1 ] } }
       },
       "place_monsters": [
@@ -176,7 +176,7 @@
         "[": [ "t_fencegate_c", "t_dirtfloor", "t_dirtfloor", "t_dirtfloor", "t_dirtfloor" ]
       },
       "mapping": {
-        ".": { "item": { "item": "rock", "chance": [ 5 ] } },
+        ".": { "item": { "item": "rock", "chance": [ 3 ] } },
         " ": { "items": { "item": "farming_tools", "chance": [ 1 ] } }
       },
       "place_monsters": [
@@ -242,11 +242,11 @@
         { "monster": "GROUP_PEST", "x": [ 5, 11 ], "y": [ 5, 11 ], "chance": 3, "repeat": [ 1 , 2 ] }
       ],
       "mapping": {
-        ".": { "item": { "item": "rock", "chance": [ 6 ] } },
+        ".": { "item": { "item": "rock", "chance": [ 4 ] } },
         " ": { "items": { "item": "farming_tools", "chance": [ 1 ] } }
       },
       "place_vehicles": [
-        { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 8 }
+        { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 25 }
       ],
       "place_items": [
         { "item": "mine_storage", "chance": 2, "x": [3,4],   "y": 10 },

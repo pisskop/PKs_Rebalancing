@@ -9,7 +9,7 @@
     "base_mods": {
       "str_mod": [1],
       "int_mod": [-2],
-      "per_mod": [-3]
+      "per_mod": [-1]
     }
   },
   {
