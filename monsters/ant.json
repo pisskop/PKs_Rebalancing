@@ -28,10 +28,7 @@
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 8,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 2 }
-    ],
-    "melee_cut": 5,
+    "melee_cut": 3,
     "dodge": 1,
     "armor_bash": 6,
     "armor_cut": 10,
@@ -44,8 +41,8 @@
       [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 7, "armor_multiplier": 0.8 },
-          { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
+          { "damage_type": "stab", "amount": 5, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
         ]
       }
     ],
@@ -65,11 +62,11 @@
     "morale": 100,
     "melee_skill": 5,
     "melee_dice": 1,
-    "melee_dice_sides": 10,
+    "melee_dice_sides": 8,
     "melee_damage": [
-      { "damage_type": "bash", "amount": 4 }
+      { "damage_type": "bash", "amount": 2 }
     ],
-    "melee_cut": 6,
+    "melee_cut": 5,
     "dodge": 2,
     "armor_bash": 8,
     "armor_cut": 14,
@@ -81,8 +78,8 @@
       [ "ant_sinject", 20 ],
       { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.5 }
+          { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 6, "armor_multiplier": 0.8 }
         ]
       }
     ],
@@ -113,7 +110,7 @@
     "id": "mon_ant_scrib",
     "type": "MONSTER",
     "name": "forager ant",
-    "description": "A small giant ant with a carapace shell.  It is capable of a surprising range of vocal expression for a bug, including ear-splitting wails.",
+    "description": "A nimble, child-sized giant ant with a carapace shell.  It is capable of a surprising range of vocal expression for a bug, including ear-splitting wails.",
     "default_faction": "ant",
     "species": [ "INSECT" ],
     "diff": 7,
@@ -127,16 +124,16 @@
     "morale": 50,
     "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides": 5,
+    "melee_dice_sides": 4,
     "melee_cut": 2,
-    "dodge": 1,
+    "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 10,
     "armor_fire": 5,
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
-      [ "scrib", 480 ],
+      [ "scrib", 360 ],
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -162,12 +159,12 @@
     "morale": 60,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 6,
+    "melee_dice_sides": 10,
     "melee_damage": [
-      { "damage_type": "bash", "amount": 10 }
+      { "damage_type": "bash", "amount": 3 }
     ],
-    "melee_cut": 6,
-    "dodge": 2,
+    "melee_cut": 4,
+    "dodge": 1,
     "armor_bash": 8,
     "armor_cut": 14,
     "armor_fire": 5,
@@ -179,8 +176,8 @@
       [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 15, "armor_multiplier": 0.5 }
+          { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
         ]
       }
     ],
@@ -206,9 +203,9 @@
     "morale": 100,
     "melee_skill": 7,
     "melee_dice": 2,
-    "melee_dice_sides": 10,
+    "melee_dice_sides": 7,
     "melee_cut": 6,
-    "dodge": 3,
+    "dodge": 1,
     "armor_bash": 10,
     "armor_cut": 18,
     "armor_acid": 3,
@@ -219,8 +216,8 @@
       [ "ant_sinject", 20 ],
       { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 12, "armor_multiplier": 0.5 }
+          { "damage_type": "stab", "amount": 14, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
         ]
       }
     ],
@@ -246,7 +243,7 @@
     "morale": 80,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 9,
+    "melee_dice_sides": 6,
     "melee_damage": [
       { "damage_type": "acid", "amount": 1 }
     ],
@@ -265,8 +262,8 @@
       [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.5 }
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
+          { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
         ]
       },
       {
@@ -305,7 +302,7 @@
     "morale": 80,
     "melee_skill": 7,
     "melee_dice": 2,
-    "melee_dice_sides": 8,
+    "melee_dice_sides": 6,
     "melee_damage": [
       { "damage_type": "acid", "amount": 1 }
     ],
@@ -324,8 +321,8 @@
       [ "wound_minor", 30 ],
       { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 10,
         "damage_max_instance": [
-          { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.5 },
-          { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.5 }
+          { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.8 },
+          { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
         ]
       },
       { "id": "hammer", "cooldown": 40, "moves": 250,
@@ -358,7 +355,7 @@
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 2,
-    "melee_dice_sides": 6,
+    "melee_dice_sides": 4,
     "melee_cut": 3,
     "dodge": 1,
     "armor_bash": 16,
@@ -394,7 +391,7 @@
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 2,
-    "melee_dice_sides": 7,
+    "melee_dice_sides": 4,
     "melee_cut": 4,
     "dodge": 1,
     "armor_bash": 10,
@@ -431,11 +428,11 @@
     "morale": 70,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 12,
+    "melee_dice_sides": 10,
     "melee_damage": [
       { "damage_type": "stab", "amount": 6 }
     ],
-    "dodge": 5,
+    "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 8,
     "armor_acid": 3,

@@ -84,13 +84,13 @@
     "type": "MONSTER",
     "copy-from": "mon_molebot",
     "name": "miner bot",
-    "description": "A snake-like, segmented robot built to tunnel into the ground and detonate landmines.",
+    "description": "A long snake-like, segmented robot built to  create tunnels and detonate landmines.",
     "aggression": -10,
     "hp": 80,
     "morale": 100,
     "melee_skill": 5,
     "melee_dice": 1,
-    "melee_dice_sides": 10,
+    "melee_dice_sides": 6,
     "melee_cut": 6,
     "melee_damage": [
       { "damage_type": "stab", "amount": 18 }
@@ -107,7 +107,7 @@
       ]
     },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "DIGS", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ]
   },
   {
     "id": "mon_broken_cyborg",
@@ -183,7 +183,7 @@
     "id": "mon_cyborg_cop",
     "type": "MONSTER",
     "name": "robotic cop",
-    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, the old models have on many occassions proven their worth under heavy fire.  Its weaponry is famous for being DNA locked.",
+    "description": "A cybornetic police office with a small variety of built in weapons.  Like all early-model cyborgs, it is known for its lack of agility but incredible endurance.  Not to be underestimated, these old models always proven their worth under heavy fire.  Its weaponry is famous for being DNA locked.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 18,
@@ -341,7 +341,7 @@
     "id": "mon_robot_drone",
     "type": "MONSTER",
     "name": "Helidrone",
-    "description": "An automated anti-personnel drone produced by contract winner Hiensfeld Manufacturing; resembling a helicoptor the size of a human torso.  Equipped with a battle rifle, the drone possesses functional thrusters and a trio of aesthetic propellers that serve in close combat.",
+    "description": "An automated anti-personnel drone produced by contract winner Hiensfeld Manufacturing; resembling a helicoptor the size of a human torso.  Equipped with a battle rifle, the drone possesses functional thrusters and a trio of propellers that serve in close combat.",
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
     "diff": 28,
@@ -399,11 +399,11 @@
     "id": "mon_generator_SCINET",
     "type": "MONSTER",
     "name": "generator",
-    "description": "A generator that runs the Security, Crime, and Investigation Networking Eternal Team program.  Destroying it should stop the creation and resupply of new robots.",
+    "description": "The generator that powers the Security, Crime, and Investigation Networking Eternal Team program.  Destroying it should stop the creation and resupply of new robots.",
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
     "size": "HUGE",
-    "hp": 500,
+    "hp": 200,
     "speed": 100,
     "material": [ "steel" ],
     "symbol": "4",
@@ -413,6 +413,6 @@
     "armor_cut": 14,
     "special_attacks": [ [ "GENERATOR", 7 ] ],
     "death_function": [ "SMOKEBURST" ],
-    "flags": [ "NOHEAD", "ACIDPROOF", "IMMOBILE" ]
+    "flags": [ "NOHEAD", "ACIDPROOF", "IMMOBILE", "QUEEN" ]
   }
 ]

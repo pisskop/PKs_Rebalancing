@@ -7,9 +7,8 @@
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 3,
-    "melee_cut": 2,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 3 }
+      { "damage_type": "stab", "amount": 5 }
     ],
     "attack_effs": [
       { "id": "doom_unhealth", "duration": 2 }
@@ -31,10 +30,10 @@
     "copy-from": "mon_centipede_giant",
     "description": "A meter-long centipede with a menacing pair of pincers, dozens of spindly legs, and a highly caustic venom.",
     "melee_dice": 2,
-    "melee_dice_sides": 4,
-    "melee_cut": 6,
+    "melee_dice_sides": 3,
+    "melee_cut": 3,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 4 }
+      { "damage_type": "stab", "amount": 3 }
     ],
     "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ], [ "wound_minor", 15 ] ],
     "attack_effs": [
@@ -46,7 +45,7 @@
     "id": "mon_maggot",
     "type": "MONSTER",
     "name": "giant maggot",
-    "description": "An offwhite maggot, drawn to decay in order to feed.  Will turn into a fly eventually.",
+    "description": "An offwhite giant maggot, drawn to decay in order to feed.  Will turn into a fly eventually.",
     "default_faction": "small_animal",
     "categories": [ "WILDLIFE" ],
     "species": [ "INSECT" ],
@@ -90,7 +89,7 @@
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 2,
-    "melee_cut": 3,
+    "melee_cut": 2,
     "dodge": 1,
     "armor_bash": 2,
     "vision_day": 5,
@@ -128,7 +127,7 @@
     "armor_acid": 6,
     "armor_fire": 7,
     "emit_fields": [ "emit_web" ],
-    "special_when_hit": [ "ACIDSPLASH", 50 ],
+    "special_when_hit": [ "ACIDSPLASH", 75 ],
     "death_function": [ "NORMAL" ],
     "flags": [ "NOHEAD", "WEBWALK", "STUMBLES", "IMMOBILE" ]
   },
@@ -159,7 +158,7 @@
     "armor_acid": 6,
     "armor_fire": 7,
     "emit_fields": [ "emit_web" ],
-    "special_when_hit": [ "ACIDSPLASH", 50 ],
+    "special_when_hit": [ "ACIDSPLASH", 75 ],
     "death_function": [ "NORMAL" ],
     "flags": [ "NOHEAD", "WEBWALK", "STUMBLES", "IMMOBILE" ]
   },
@@ -301,9 +300,9 @@
     "copy-from": "mon_spider_widow_giant",
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 8,
-    "melee_cut": 3,
-    "dodge": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 4,
+    "dodge": 4,
     "attack_effs": [
       { "id": "poison", "duration": 1200 },
       { "id": "badpoison", "duration": 1200 }
@@ -356,7 +355,7 @@
     "melee_cut": 4,
     "dodge": 6,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 6 },
+      { "damage_type": "stab", "amount": 2 },
       { "damage_type": "acid", "amount": 2 }
     ],
     "attack_effs": [
@@ -391,7 +390,7 @@
     "melee_cut": 2,
     "dodge": 1,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 4 }
+      { "damage_type": "stab", "amount": 2 }
     ],
     "attack_effs": [
       { "id": "poison", "duration": 400 }
@@ -423,11 +422,8 @@
     "melee_dice_sides": 6,
     "melee_cut": 4,
     "dodge": 2,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 8 }
-    ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 650 }
     ],
     "armor_bash": 2,
     "armor_cut": 6,
@@ -457,7 +453,7 @@
     "melee_cut": 8,
     "dodge": 4,
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 650 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -491,11 +487,11 @@
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 7,
-    "melee_cut": 14,
+    "melee_dice_sides": 5,
+    "melee_cut": 8,
     "dodge": 6,
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 650 }
     ],
     "armor_bash": 9,
     "armor_cut": 14,
@@ -631,8 +627,8 @@
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 1,
-    "melee_dice_sides": 1,
-    "melee_cut": 4,
+    "melee_dice_sides": 2,
+    "melee_cut": 3,
     "dodge": 0,
     "attack_effs": [
       { "id": "poison", "duration": 400 }
@@ -668,7 +664,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 10,
-    "melee_cut": 6,
+    "melee_cut": 7,
     "dodge": 3,
     "melee_damage": [
       { "damage_type": "acid", "amount": 6 },
@@ -745,7 +741,7 @@
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 4,
-    "melee_cut": 8,
+    "melee_cut": 4,
     "dodge": 3,
     "melee_damage": [
       { "damage_type": "stab", "amount": 8 }
@@ -804,7 +800,7 @@
     "id": "mon_spider_web_mu",
     "type": "MONSTER",
     "name": "giant web spider",
-    "description": "This web spider seems to have specialized to take down creatures infected with fungal spores; a surely underutilized food source.",
+    "description": "This web spider seems to have specialized to take down creatures infected with fungal spores; a surely under-utilized food source.",
     "default_faction": "spider_web",
     "species": [ "SPIDER" ],
     "diff": 14,
@@ -818,16 +814,16 @@
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 3,
+    "melee_dice_sides": 2,
     "melee_cut": 2,
     "dodge": 4,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 12 }
+      { "damage_type": "stab", "amount": 10 }
     ],
     "attack_effs": [
       { "id": "spider_web_slow", "duration": 600 },
       { "id": "spider_web_mu", "duration": 360 },
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 650 }
     ],
     "armor_bash": 3,
     "armor_cut": 8,
@@ -855,11 +851,11 @@
     "morale": 80,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 4,
+    "melee_dice_sides": 6,
     "melee_cut": 2,
     "dodge": 6,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 10 },
+      { "damage_type": "stab", "amount": 6 },
       { "damage_type": "acid", "amount": 3 }
     ],
     "attack_effs": [
@@ -895,7 +891,6 @@
     "melee_damage": [
       { "damage_type": "stab", "amount": 2 }
     ],
-    "melee_cut": 4,
     "dodge": 4,
     "attack_effs": [
       { "id": "poison", "duration": 50 }
@@ -948,7 +943,6 @@
       { "damage_type": "electric", "amount": 1 },
       { "damage_type": "stab", "amount": 4 }
     ],
-    "melee_cut": 2,
     "dodge": 5,
     "armor_bash": 4,
     "armor_cut": 6,
@@ -999,9 +993,8 @@
     "melee_dice": 2,
     "melee_dice_sides": 5,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 4 }
+      { "damage_type": "stab", "amount": 6 }
     ],
-    "melee_cut": 6,
     "dodge": 3,
     "armor_bash": 5,
     "armor_cut": 7,
@@ -1055,7 +1048,6 @@
       { "damage_type": "electric", "amount": 4 },
       { "damage_type": "stab", "amount": 6 }
     ],
-    "melee_cut": 4,
     "dodge": 3,
     "armor_bash": 4,
     "armor_cut": 6,
@@ -1110,7 +1102,6 @@
       { "damage_type": "electric", "amount": 2 },
       { "damage_type": "stab", "amount": 6 }
     ],
-    "melee_cut": 4,
     "dodge": 4,
     "armor_bash": 4,
     "armor_cut": 6,

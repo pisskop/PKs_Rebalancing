@@ -114,7 +114,7 @@
     "melee_skill": 4,
     "melee_dice": 3,
     "melee_dice_sides": 6,
-    "melee_cut": 7,
+    "melee_cut": 5,
     "armor_acid": 2,
     "emit_fields": [ "emit_flesh_slough" ],
     "special_attacks": [ [ "SMASH", 50 ] ],
@@ -131,7 +131,7 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 5,
-    "melee_cut": 5,
+    "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 1,
@@ -226,7 +226,7 @@
     "morale": 100,
     "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides": 8,
+    "melee_dice_sides": 7,
     "melee_damage": [
       { "damage_type": "stab", "amount": 14 }
     ],
@@ -263,7 +263,7 @@
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 1,
-    "melee_dice_sides": 15,
+    "melee_dice_sides": 12,
     "melee_cut": 3,
     "dodge": 2,
     "attack_effs": [
@@ -299,7 +299,7 @@
     "morale": 100,
     "melee_skill": 9,
     "melee_dice": 3,
-    "melee_dice_sides": 7,
+    "melee_dice_sides": 5,
     "melee_damage": [
       { "damage_type": "heat", "amount": 3 }
     ],
@@ -344,7 +344,7 @@
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
-    "melee_dice_sides": 9,
+    "melee_dice_sides": 7,
     "melee_damage": [
       { "damage_type": "acid",  "amount": 2 }
     ],
@@ -387,11 +387,8 @@
     "aggression": 100,
     "morale": 100,
     "melee_dice": 2,
-    "melee_dice_sides": 4,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 16 }
-    ],
-    "melee_cut": 12,
+    "melee_dice_sides": 11,
+    "melee_cut": 9,
     "attack_effs": [
       { "id": "rad_tenths", "duration": 60 }
     ],
@@ -575,7 +572,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_damage": [
-      { "damage_type": "electric", "amount": 6 }
+      { "damage_type": "electric", "amount": 4 }
     ],
     "melee_cut": 4,
     "dodge": 0,
@@ -610,7 +607,7 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 8,
-    "melee_cut": 10,
+    "melee_cut": 8,
     "dodge": 0,
     "armor_bash": 10,
     "armor_cut": 18,
@@ -646,7 +643,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 8,
     "melee_damage": [
-      { "damage_type": "electric", "amount": 8 }
+      { "damage_type": "electric", "amount": 6 }
     ],
     "melee_cut": 6,
     "dodge": 0,
@@ -746,7 +743,7 @@
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 2,
-    "melee_dice_sides": 8,
+    "melee_dice_sides": 5,
     "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 7,
@@ -782,7 +779,7 @@
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 2,
-    "melee_dice_sides": 8,
+    "melee_dice_sides": 5,
     "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 7,
@@ -852,7 +849,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 10,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 10 }
+      { "damage_type": "stab", "amount": 6 }
     ],
     "dodge": 1,
     "armor_bash": 10,
@@ -884,7 +881,7 @@
     "melee_skill": 3,
     "melee_dice": 1,
     "melee_dice_sides": 6,
-    "melee_cut": 15,
+    "melee_cut": 12,
     "dodge": 0,
     "armor_bash": 8,
     "armor_cut": 4,

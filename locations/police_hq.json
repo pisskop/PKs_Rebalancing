@@ -381,6 +381,7 @@
         " ": "t_carpet_green",
         "-": "t_brick_wall",
         "_": "t_wall",
+        ">": "t_stairs_down",
         "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         "=": [ "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter_open", "t_reinforced_glass_shutter" ],
         ":": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt", "t_tree" ],

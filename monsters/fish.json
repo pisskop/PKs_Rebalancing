@@ -86,7 +86,7 @@
     "vision_day": 30,
     "special_attacks": [
       [ "wound_minor", 30 ],
-      { "type": "leap", "cooldown": 3, "max_range": 3 },
+      { "type": "leap", "cooldown": 30, "max_range": 3 },
       { "type": "bite", "cooldown": 20, "accuracy": 5, "moves": 75, "no_infection_chance": 15,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 9, "armor_multiplier": 0.85 }
@@ -102,13 +102,13 @@
     "id": "mon_fish_lobster_giant",
     "type": "MONSTER",
     "name": "giant lobster",
-    "description": "A sea cockroach, engorged to preposterous proportions.  With a large claw for crushing and a slightly smaller large claw for scooping out flesh from hard shells, this normally sluggish monster is surprisingly agile and predatory when a meal is nearby.",
+    "description": "A sea cockroach, engorged to preposterous proportions.  With a large claw for crushing and a slightly smaller large claw for scooping out flesh from shells, this normally sluggish monster is surprisingly agile and predatory when a meal is nearby.",
     "default_faction": "fish_predator",
     "categories": [ "WILDLIFE" ],
     "species": [ "FISH" ],
     "diff": 25,
-    "size": "HUGE",
-    "hp": 180,
+    "size": "LARGE",
+    "hp": 190,
     "speed": 85,
     "material": [ "flesh" ],
     "symbol": "f",

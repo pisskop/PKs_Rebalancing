@@ -4,13 +4,13 @@
     "name": "wildlife",
     "base_faction": "animal",
     "neutral": [ "small_animal" ],
-    "by_mood": [ "zombie" ]
+    "by_mood": [ "zombie", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",
     "name": "fish",
     "base_faction": "small_animal",
-    "by_mood": [ "fish", "small_animal" ]
+    "by_mood": [ "fish", "small_animal", "spore" ]
   },
   {
     "type" : "MONSTER_FACTION",
@@ -27,7 +27,12 @@
     "type": "MONSTER_FACTION",
     "name": "finfected",
     "base_faction": "fungus",
-    "by_mood": [ "small_animal", "utility_bot" ]
+    "by_mood": [ "small_animal", "utility_bot", "spore" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "spore",
+    "base_faction": "fungus"
   },
   {
     "type": "MONSTER_FACTION",
@@ -49,7 +54,7 @@
     "type": "MONSTER_FACTION",
     "name": "wasp",
     "base_faction": "insect",
-    "neutral": [ "small_animal" ],
+    "neutral": [ "small_animal", "spore" ],
     "by_mood": [ "insect", "zombie", "triffid" ]
   },
   {
@@ -62,7 +67,7 @@
     "name": "ant",
     "base_faction": "insect",
     "neutral": [ "small_animal" ],
-    "by_mood": [ "insect", "zombie", "triffid" ]
+    "by_mood": [ "insect", "zombie", "triffid", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -83,7 +88,7 @@
     "base_faction": "insect",
     "friendly": [ "triffid" ],
     "neutral": [ "small_animal" ],
-    "by_mood": [ "insect", "spider" ]
+    "by_mood": [ "insect", "spider", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -113,8 +118,14 @@
     "type": "MONSTER_FACTION",
     "name": "zombie",
     "friendly": [ "blob", "cult" ],
-    "neutral": [ "small_animal", "insect", "mutant_small", "cat", "rat", "wildlife" ],
-    "by_mood": [ "ant", "spider_wolf", "wasp" ]
+    "neutral": [ "small_animal", "insect", "mutant_small", "cat", "rat" ],
+    "by_mood": [ "ant", "spider_wolf", "wasp", "spore" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "nether",
+    "neutral": [ "blob" ],
+    "by_mood": [ "cult", "small_animal" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -125,14 +136,8 @@
   },
   {
     "type": "MONSTER_FACTION",
-    "name": "nether",
-    "neutral": [ "blob" ],
-    "by_mood": [ "cult", "small_animal" ]
-  },
-  {
-    "type": "MONSTER_FACTION",
     "name": "doom",
-    "by_mood": [ "small_animal" ]
+    "by_mood": [ "small_animal", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",
@@ -161,7 +166,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "mutant",
-    "by_mood": [ "small_animal", "utility_bot", "mutant_omnivore" ]
+    "by_mood": [ "small_animal", "utility_bot", "mutant_omnivore", "spore" ]
   },
   {
     "type": "MONSTER_FACTION",

@@ -145,6 +145,13 @@
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "REVIVES", "GROUP_BASH", "POISON", "NO_BREATHE", "BONES", "FAT", "PUSH_MON" ]
   },
   {
+    "id": "mon_spore",
+    "type": "MONSTER",
+    "copy-from": "mon_spore",
+    "name": "spore cloud",
+    "default_faction": "spore"
+  },
+  {
     "id": "mon_fungus_boil",
     "type": "MONSTER",
     "name": "fungal boil",
