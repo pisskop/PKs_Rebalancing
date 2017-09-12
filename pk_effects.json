@@ -67,6 +67,7 @@
       "Ionic Overdose",
       "Ionic Overdose"
     ],
+    "desc": [ "Something you have consumed was never meant for eating and contains heavy metals." ],
     "int_add_val": 1,
     "max_intensity": 6,
     "base_mods": {
@@ -74,12 +75,12 @@
       "thirst_tick": [10],
       "thirst_chance": [10],
       "thirst_max_val": [25],
-      "vomit_chance": [2200]
+      "vomit_chance": [2000]
     },
     "scaling_mods": {
       "thirst_chance": [-1],
       "thirst_max_val": [35],
-      "vomit_chance": [-700]
+      "vomit_chance": [-300, -200]
     }
   },
   {
@@ -358,10 +359,8 @@
     "type": "effect_type",
     "id": "scrib",
     "chance": 95,
-    "name": [
-      "Paralyzed"
-    ],
-    "desc": ["You are paralyzed!"],
+    "name": [ "Paralyzed" ],
+    "desc": [ "You are paralyzed!" ],
     "apply_message": "Your joints lock up!",
     "decay_messages": [["You can now use Free Action!", "good"]],
     "base_mods": {
@@ -371,6 +370,8 @@
   {
     "type": "effect_type",
     "id": "thing_poison",
+    "name": [ "Biotoxin" ],
+    "desc": [ "Your body is both hot and cold, burning with pain and numbed and cold!" ],
     "int_add_val": 1,
     "max_intensity": 5,
     "int_decay_step": -1,
@@ -420,7 +421,7 @@
     "id": "infection_minor",
     "chance": 3,
     "name": ["Minor Inflammation"],
-    "desc": ["Your wounds are inflammed, and hurt.  A stout immune system or proper dressing should help."],
+    "desc": ["Your wounds are inflammed.  A stout immune system or proper dressing should help."],
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "gauze"],
     "int_add_val": 1,
     "max_intensity": 7,

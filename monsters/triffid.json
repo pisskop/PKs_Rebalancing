@@ -525,6 +525,38 @@
     "//": "Intentionall keep weaker than they could be.  Numbers, and perhaps an evo if its called for."
   },
   {
+    "id": "mon_triffid_queen",
+    "type": "MONSTER",
+    "copy-from": "mon_triffid_queen",
+    "name": "triffid queen",
+    "speed": 75,
+    "aggression": 30,
+    "morale": 80,
+    "melee_skill": 7,
+    "melee_dice": 2,
+    "melee_dice_sides": 8,
+    "melee_cut": 8,
+    "dodge": 0,
+    "armor_bash": 12,
+    "armor_cut": 8,
+    "vision_day": 11,
+    "vision_night": 11,
+    "attack_effs": [
+      { "id": "paralyzepoison", "duration": 100 },
+      { "id": "rad_tenths", "duration": 5 }
+    ],
+    "special_attacks": [
+      [ "GROWPLANTS", 3 ],
+      [ "para_poison", 15 ],
+      [ "PARA_STING", 15 ],
+      [ "VINE", 15 ],
+      [ "SPIT_SAP", 60 ]
+    ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "BASHES", "NOHEAD", "PARALYZEVENOM" ],
+    "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED" ],
+    "fear_triggers": [ "FIRE", "HURT" ]
+  },
+  {
     "id": "mon_treent_green",
     "type": "MONSTER",
     "name": "treunt",
