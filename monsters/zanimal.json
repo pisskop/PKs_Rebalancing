@@ -306,8 +306,8 @@
     "melee_cut": 7,
     "dodge": 4,
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 5 },
-      { "id": "rad_fives", "duration": 10 }
+      { "id": "rad_tenths", "duration": 15 },
+      { "id": "rad_fives", "duration": 45 }
     ],
     "armor_bash": 4,
     "armor_cut": 12,
@@ -316,9 +316,9 @@
     "armor_fire": 15,
     "vision_day": 40,
     "vision_night": 4,
-    "emit_fields": [ "emit_smoke_stream", "emit_radiation_puff" ],
+    "emit_fields": [ "emit_smoke_stream", "emit_radiation_plume" ],
     "special_attacks": [
-      { "type": "bite", "cooldown": 5, "min_mul": 0.3, "accuracy": 12 },
+      { "type": "bite", "cooldown": 5, "min_mul": 0.6, "accuracy": 12 },
       [ "SHRIEK_ALERT", 50 ],
       [ "SHRIEK_STUN", 1 ]
     ],
@@ -925,8 +925,8 @@
     "melee_cut": 0,
     "dodge": 0,
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 10 },
-      { "id": "rad_tenths", "duration": 15 }
+      { "id": "rad_tenths", "duration": 15 },
+      { "id": "rad_tenths", "duration": 30 }
     ],
     "armor_bash": 10,
     "armor_cut": 0,
@@ -938,7 +938,7 @@
       [ "FORMBLOB", 240 ],
       [ "sliming", 30 ]
     ],
-    "emit_fields": [ "emit_radiation_puff" ],
+    "emit_fields": [ "emit_radiation_plume" ],
     "death_function": [ "MELT", "BLOBSPLIT" ],
     "burn_into": "mon_zanimal_skeleton",
     "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "BONES", "SWIMS", "NIGHT_INVISIBILITY" ]

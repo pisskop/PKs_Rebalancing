@@ -1,5 +1,26 @@
 [
   {
+    "id": "bandolier_bomblet",
+    "type": "ARMOR",
+    "name": "bomblet bandolier",
+    "description" : "A bandolier, strapped onto the arm, that can contain several bomlets for ease of access.",
+    "weight": 720,
+    "volume": 2,
+    "price": 1900,
+    "material": "leather",
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [ "ARM_EITHER" ],
+    "coverage": 10,
+    "encumbrance": 3,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "bandolier",
+      "capacity": 12,
+      "ammo": [ "bomblet" ]
+    },
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ]
+  },{
     "id": "megaarmor_torso_1",
     "type": "ARMOR",
     "category": "armor",

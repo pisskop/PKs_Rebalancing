@@ -243,7 +243,8 @@
       [ "golf_club", 2 ],
       [ "glass_macuahuitl", 2 ],
       [ "longsword_inferior", 2 ],
-      [ "spear_steel", 1 ]
+      [ "spear_steel", 1 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
    },
   {
@@ -413,6 +414,7 @@
       [ "teleporter", 5 ],
       [ "pokeball", 5 ],
       [ "mutagen", 5 ],
+      [ "bomblet_launcher_brute", 5 ],
       [ "purifier", 3 ]
     ]
    },

@@ -1395,6 +1395,7 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_gasbag",
     "attack_effs": [
+      { "id": "rad_fives", "duration": 1 },
       { "id": "rad_tenths", "duration": 10 },
       { "id": "rad_tenths", "duration": 30 }
     ],
@@ -2043,14 +2044,14 @@
     "melee_dice": 3,
     "melee_dice_sides": 3,
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 30 }
+      { "id": "rad_tenths", "duration": 60 }
     ],
     "dodge": 0,
     "armor_bash": 5,
     "armor_cut": 5,
     "vision_day": 40,
     "vision_night": 5,
-    "emit_fields": [ "emit_radiation_puff", "emit_bile" ],
+    "emit_fields": [ "emit_radiation_plume", "emit_bile" ],
     "luminance": 2,
     "special_attacks": [
       [ "scratch", 20 ],
@@ -2068,7 +2069,7 @@
     "attack_effs": [
       { "id": "rad_fives", "duration": 20 }
     ],
-    "emit_fields": [ "emit_radiation_small" ],
+    "emit_fields": [ "emit_radiation_plume" ],
     "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
   },
   {
@@ -2127,7 +2128,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 10,
     "attack_effs": [
-      { "id": "rad_tenths", "duration": 30 }
+      { "id": "rad_tenths", "duration": 60 }
     ],
     "dodge": 2,
     "armor_bash": 16,
@@ -2137,7 +2138,7 @@
     "armor_fire": 10,
     "vision_day": 40,
     "vision_night": 4,
-    "emit_fields": [ "emit_gas_plume", "emit_radiation_puff" ],
+    "emit_fields": [ "emit_gas_plume", "emit_radiation_plume" ],
     "special_attacks": [
       [ "GRAB_DRAG", 12 ],
       [ "STRETCH_ATTACK", 15 ]
@@ -2169,7 +2170,8 @@
       { "damage_type": "heat", "amount": 2 }
     ],
     "attack_effs": [
-      { "id": "rad_fives", "duration": 20 }
+      { "id": "rad_tenths", "duration": 180 },
+      { "id": "rad_fives", "duration": 10 }
     ],
     "dodge": 5,
     "armor_bash": 8,
@@ -2207,6 +2209,7 @@
       { "damage_type": "heat", "amount": 2 }
     ],
     "attack_effs": [
+      { "id": "rad_tenths", "duration": 60 },
       { "id": "rad_fives", "duration": 10 }
     ],
     "dodge": 5,
@@ -2214,7 +2217,7 @@
     "armor_cut": 2,
     "vision_day": 50,
     "vision_night": 9,
-    "emit_fields": [ "emit_smoke_blast", "emit_radiation_small" ],
+    "emit_fields": [ "emit_smoke_blast", "emit_radiation_plume" ],
     "special_attacks": [
       [ "GRAB", 20 ],
       [ "slash", 20 ]

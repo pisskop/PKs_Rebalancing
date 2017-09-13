@@ -93,7 +93,8 @@
       [ "bomblet_stun", 25 ],
       [ "swat_shield", 15 ],
       [ "bot_turret_shockcannon", 5 ],
-      [ "ithaca_doom", 10 ]
+      [ "ithaca_doom", 10 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -115,7 +116,7 @@
     "type": "item_group",
     "id": "pawn",
     "items": [
-      { "group": "bomblet_ammo", "prob": 10, "count": [1, 4 ] },
+      { "group": "bomblet_ammo", "prob": 10, "count": [ 1, 4 ] },
       [ "bomblet_launcher_dualshot", 1 ],
       [ "swat_shield", 5 ],
       [ "410_lever", 10 ],
@@ -134,7 +135,7 @@
     "type": "item_group",
     "id": "mil_surplus",
     "items": [
-      { "group": "bomblet_ammo", "prob": 20, "count": [1, 4 ] },
+      { "group": "bomblet_ammo", "prob": 20, "count": [ 1, 4 ] },
       [ "swat_shield", 8 ],
       [ "shot_410_inc", 8 ],
       [ "shot_410_slug", 8 ],
@@ -146,7 +147,8 @@
       [ "fertilizer_chelated", 12 ],
       [ "gummy_vitamins", 10 ],
       [ "ref_lighter_dare", 5 ],
-      [ "candle_smoke", 4 ]
+      [ "candle_smoke", 4 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -163,7 +165,7 @@
     "type": "item_group",
     "id": "mil_hw",
     "items": [
-    { "group": "bomblet_ammo", "prob": 40, "count": [1, 2 ] },
+    { "group": "bomblet_ammo", "prob": 40, "count": [ 1, 2 ] },
       [ "medikit", 15 ],
       [ "stamina_vial", 15 ],
       [ "410_revolver", 8 ],
@@ -247,7 +249,8 @@
       [ "ref_lighter_dare", 10 ],
       [ "candle_smoke", 10 ],
       [ "vortex_stone", 4 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -255,7 +258,7 @@
     "id": "helicopter",
     "items": [
       { "group": "prefab_chems", "prob": 5 },
-      { "group": "bomblet_ammo", "prob": 20, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 20, "count": [ 1, 2 ] },
       [ "megaarmor_leggings_1", 7 ],
       [ "megaarmor_gloves_1", 7 ],
       [ "megaarmor_armguards_1", 7 ],
@@ -277,7 +280,8 @@
       [ "ithaca_doom", 5 ],
       [ "ithaca_doom_dual", 2 ],
       [ "ref_lighter_dare", 5 ],
-      [ "vortex_stone", 1 ]
+      [ "vortex_stone", 1 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -310,7 +314,8 @@
       [ "bomblet_launcher_dualshot", 8 ],
       [ "bomblet_undermod", 10 ],
       [ "medical_gauze", 1 ],
-      [ "landmine", 4 ]
+      [ "landmine", 4 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -342,7 +347,7 @@
     "id": "survivorzed_extra",
     "items": [
       { "group": "prefab_chems", "prob": 2 },
-      { "group": "bomblet_ammo", "prob": 5, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 5, "count": [ 1, 2 ] },
       [ "410_lever", 2 ],
       [ "410_revolver", 2 ],
       [ "shot_410_flechette", 4 ],
@@ -417,7 +422,8 @@
       [ "megaarmor_gloves_1", 6 ],
       [ "megaarmor_armguards_1", 6 ],
       [ "megaarmor_boots_1", 3 ],
-      [ "candle_smoke", 2 ]
+      [ "candle_smoke", 2 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -425,7 +431,7 @@
     "id": "rare",
     "//": "Items that should have very low frequencies and or few locations.",
     "items": [
-      { "group": "bomblet_ammo", "prob": 35, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 35, "count": [ 1, 2 ] },
       [ "megaarmor_torso_1", 20 ],
       [ "megaarmor_torso_2", 20 ],
       [ "megaarmor_torso_3", 10 ],
@@ -447,13 +453,14 @@
       [ "iv_mutagen", 10 ],
       [ "purifier", 8 ],
       [ "iv_purifier", 8 ],
-      [ "weldtank", 1 ],
-      [ "tinyweldtank", 1 ],
+      [ "weldtank", 5 ],
+      [ "tinyweldtank", 5 ],
       [ "ref_lighter_dare", 10 ],
       [ "candle_smoke", 20 ],
-      [ "medical_gauze", 4 ],
+      [ "medical_gauze", 5 ],
       [ "vortex_stone", 10 ],
-      [ "dr_stem_cell", 10 ]
+      [ "dr_stem_cell", 10 ],
+      [ "bomblet_launcher_brute", 5 ]
     ]
   },
   {
@@ -462,10 +469,11 @@
     "items": [
       [ "bfg_shell", 10 ],
       [ "BFG", 5 ],
-      { "group": "bomblet_ammo", "prob": 20, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 20, "count": [ 1, 2 ] },
       [ "bomblet_launcher_rotary", 10 ],
       [ "bomblet_launcher_dualshot", 10 ],
-      [ "bomblet_undermod", 10 ]
+      [ "bomblet_undermod", 10 ],
+      [ "bomblet_launcher_brute", 5 ]
     ]
   },
   {
@@ -507,7 +515,7 @@
     "type": "item_group",
     "magazine": 100,
     "items": [
-      { "group": "bomblet_ammo", "prob": 30, "count": [1, 4 ] },
+      { "group": "bomblet_ammo", "prob": 30, "count": [ 1, 4 ] },
       [ "410_lever", 10 ],
       [ "410_revolver", 15 ],
       [ "shot_410_flechette", 15 ],
@@ -515,7 +523,8 @@
       [ "shot_410_inc", 15 ],
       [ "shot_410_slug", 15 ],
       [ "swat_shield", 30 ],
-      [ "bot_turret_shockcannon", 3 ]
+      [ "bot_turret_shockcannon", 3 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -539,7 +548,7 @@
     "subtype": "distribution",
     "items": [
       { "group": "prefab_chems", "prob": 1 },
-      { "group": "bomblet_ammo", "prob": 10, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 10, "count": [ 1, 2 ] },
       [ "megaarmor_leggings_1", 8 ],
       [ "megaarmor_gloves_1", 8 ],
       [ "megaarmor_armguards_1", 8 ],
@@ -556,7 +565,8 @@
       [ "bomblet_launcher_rotary", 10 ],
       [ "bot_turret_shockcannon", 5 ],
       [ "iodine", 6 ],
-      [ "prussian_blue", 6 ]
+      [ "prussian_blue", 6 ],
+      [ "bomblet_launcher_brute", 5 ]
     ]
   },
   {
@@ -578,9 +588,9 @@
     "id": "mon_zombie_grenadier",
     "entries": [
       { "item": "swat_shield", "prob": 15, "damage": [0, 3 ] },
-      { "group": "bomblet_ammo", "prob": 10, "count": [1, 3 ] },
+      { "group": "bomblet_ammo", "prob": 10, "count": [ 1, 3 ] },
       { "item": "bot_manhack_fire", "prob": 35, "damage": [0, 3 ] },
-      { "group": "bomblet_ammo", "prob": 35, "count": [1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 35, "count": [ 1, 2 ] },
       { "item": "bomblet_launcher_dualshot", "prob": 25 }
     ]
   },
@@ -590,8 +600,8 @@
     "id": "mon_zombie_grenadier_elite",
     "entries": [
       { "item": "swat_shield", "prob": 15, "damage": [0, 3 ] },
-      { "item": "bot_manhack_fire", "prob": 50, "damage": [0, 3 ], "count": [1, 2 ] },
-      { "group": "bomblet_ammo", "prob": 40, "count": [1, 3 ] },
+      { "item": "bot_manhack_fire", "prob": 50, "damage": [0, 3 ], "count": [ 1, 2 ] },
+      { "group": "bomblet_ammo", "prob": 40, "count": [ 1, 3 ] },
       { "item": "bomblet_launcher_dualshot", "prob": 40 }
     ]
   },
@@ -672,7 +682,8 @@
       [ "medical_gauze", 6 ],
       [ "lobotomizer", 1 ],
       [ "vortex_stone", 4 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "bomblet_launcher_brute", 1 ]
     ]
   },
   {
@@ -855,7 +866,8 @@
       [ "bomblet_launcher_rotary", 20 ],
       [ "bomblet_launcher_dualshot", 20 ],
       [ "bfg_shell", 25 ],
-      [ "BFG", 15 ]
+      [ "BFG", 15 ],
+      [ "bomblet_launcher_brute", 10 ]
     ]
   },
   {

@@ -623,5 +623,22 @@
     "recoil": 100,
     "drop": "handflare_lit",
     "effects": [ "NEVER_MISFIRES", "NO_EMBED", "RECOVER_10", "ACT_ON_RANGED_HIT" ]
+  },
+  {
+    "id": "brute_shot_mag",
+    "type": "MAGAZINE",
+    "name": "brute shot strip",
+    "description": "A bit of scrap metal crafted to quickly insert bomblets into a type 25 bomblet launcher.",
+    "weight": 210,
+    "volume": 3,
+    "price": 2000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "bomblet",
+    "capacity": 12,
+    "reliability": 7,
+    "reload_time": 250,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]

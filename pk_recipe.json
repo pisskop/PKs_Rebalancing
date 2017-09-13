@@ -1347,5 +1347,33 @@
       [ [ "armguard_larmor", 1 ] ],
       [ [ "scrap", 2 ] ]
     ]
+  },
+  {
+    "result": "bandolier_bomblet",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "skills_required": [ [ "gun", 1 ], [ "pistol", 1 ] ],
+    "time": 80000,
+    "autolearn": true,
+    "using": [ [ "filament", 40 ], [ "cordage", 1 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "leather", 8 ] ] ]
+  },
+  { 
+    "type" : "recipe",
+    "result": "brute_shot_mag",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 10000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "scrap", 3 ] ]
+    ]
   }
  ]

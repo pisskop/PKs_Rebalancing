@@ -3,13 +3,19 @@
     "id": "mon_blank",
     "type": "MONSTER",
     "copy-from": "mon_blank",
-    "emit_fields": [ "emit_radiation_puff" ]
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 20 }
+    ],
+    "emit_fields": [ "emit_radiation_plume" ]
   },
   {
     "id": "mon_vortex",
     "type": "MONSTER",
     "copy-from": "mon_vortex",
     "default_faction": "small_animal",
+    "attack_effs": [
+      { "id": "rad_tenths", "duration": 5 }
+    ],
     "emit_fields": [ "emit_radiation_plume" ]
   },
   {
