@@ -612,7 +612,7 @@
     "id": "mon_cherub",
     "type": "MONSTER",
     "name": "cherub",
-    "description": "A small, legless demon with an infant-like face and a pair of small wings which can help if 'glide' into foes.  Seems to serve as a distraction for the large unweildly demonic robots.  Although it is cowardly and naive in its behaviors, its claw attack can pierce through the toughest armors.",
+    "description": "A small, legless demon with an infant-like face and a pair of small wings which help it 'glide' into foes.  Seems to serve as a distraction for the large unweildly demonic robots.  Although it is cowardly and naive in its behaviors, its claw attack can pierce through the toughest armors.",
     "default_faction": "doom",
     "species": [ "ABERRATION" ],
     "diff": 18,
@@ -626,9 +626,8 @@
     "morale": 30,
     "melee_skill": 4,
     "melee_dice": 2,
-    "melee_dice_sides": 2,
+    "melee_dice_sides": 3,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 2 },
       { "damage_type": "biological", "amount": 3 }
     ],
     "dodge": 4,
@@ -665,7 +664,6 @@
     "aggression": 40,
     "morale": 40,
     "melee_damage": [
-      { "damage_type": "stab", "amount": 2 },
       { "damage_type": "biological", "amount": 5 }
     ],
     "dodge": 6,

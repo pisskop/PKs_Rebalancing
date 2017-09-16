@@ -920,7 +920,7 @@
                         { "item":    "bowling_balls",    "chance": 80,    "x": [11,11], "y": [13,14] },
                         { "item":    "bowling_balls",    "chance": 80,    "x": [16,16], "y": [15,15] },
                         { "item":    "bowling_balls",    "chance": 80,    "x": [19,19], "y": [14,14] },
-                        { "item":    "vending_food",     "chance": 90,    "x": [12,14],   "y": [7,7] },
+                        { "item":    "vending_food_items",     "chance": 90,    "x": [12,14],   "y": [7,7] },
                         { "item":    "bowling_item",     "chance": 70,    "x": [12,22], "y": [15,22] },
                         { "item":    "bowling_trash",    "chance": 55,    "x": [16,16], "y":[8,8]      },
                         { "item":    "bowling_trash",    "chance": 55,    "x": [10,10],"y":[15, 15]  },

@@ -45,7 +45,7 @@
     "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ],
-    "spawns" : { "group" : "GROUP_HORROR", "population":[6, 18], "radius":[55, 165] }
+    "spawns" : { "group" : "GROUP_HORROR", "population":[4, 12], "radius":[55, 165] }
   },
   {
     "type": "overmap_special",

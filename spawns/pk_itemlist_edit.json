@@ -1077,7 +1077,7 @@
   },
   {
     "type": "item_group",
-    "id": "vending_food",
+    "id": "vending_food_items",
     "items": [
       [ "fresh_fries_big", 15 ]
     ]

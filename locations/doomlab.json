@@ -457,7 +457,7 @@
                 "[": { "terrain": "t_rock_floor", "furniture": "f_chair" },
                 "f": { "items": { "item": "mil_hw", "chance": 15 },
                        "terrain": "t_rock_floor", "furniture": "f_rack" },
-                "V": { "items": { "item": "vending_food", "chance": 60 }},
+                "V": { "items": { "item": "vending_food_items", "chance": 60 }},
                 "k": { "items": { "item": "rare", "chance": 90 },
                        "terrain": "t_rock_floor", "furniture": "f_locker" },
                 "X": { "items": [{ "item": "office", "chance": 25 }, { "item": "softdrugs", "chance": 10 }]}
@@ -1315,7 +1315,7 @@
                 "t": "f_toilet"
             },
             "mapping": {
-                "}": { "items": { "item": "vending_food", "chance": 60 }},
+                "}": { "items": { "item": "vending_food_items", "chance": 60 }},
                 "B": { "items": { "item": "bed", "chance": 20 } },
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }
@@ -1382,7 +1382,7 @@
                 "?": "f_toilet"
             },
             "mapping": {
-                "}": { "items": { "item": "vending_food", "chance": 60 }},
+                "}": { "items": { "item": "vending_food_items", "chance": 60 }},
                 "B": { "items": { "item": "bed", "chance": 20 } },
                 "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
                 "b": { "items": { "item": "softdrugs", "chance": 10 } }

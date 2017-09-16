@@ -1587,7 +1587,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_zombie_necro_pk",
@@ -1626,7 +1626,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_zombie_lord",
@@ -1672,7 +1672,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
   },
   {
     "id": "mon_zombie_swimmer",
