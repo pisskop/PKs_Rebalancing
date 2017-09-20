@@ -2,19 +2,17 @@
   {
     "type": "region_settings",
     "id": "default",                "//": "identifier, when region_map is in it will determine alternatives ('desert' etc)",
-    "house_basement_chance": 6,           "//": "one_in(n) houses with basements",
+    "house_basement_chance": 5,           "//": "one_in(n) houses with basements",
     "default_oter": "field",            "//": "default oter_id (anything that isn't a house/road/etc) some become forests",
-    "default_groundcover": {            "//": "biome settings for generic 'grass_or_dirt' (which is reproduced below",
-      "primary": "t_grass",             "//": "default ter_id on ground",
-      "ratio": 4,                 "//": "one_in(n) chance that it becomes...",
-      "secondary": "t_dirt",            "//": "...this instead"
-    },
+    "default_groundcover": [
+      [ "t_grass", 7850 ], [ "t_dirt",  2130 ], [ "t_tree_young", 15 ], [ "t_dirtmound", 3 ], [ "t_tree", 1 ], [ "t_tree_pine", 1 ]
+    ],
     "field_coverage": {             "//": "biome settings for builtin field mapgen. The values below replicate results of hardcoded 'field' mapgen",
-      "percent_coverage": 0.9333,       "//": "% of tiles that have a plant: one_in(120)",
+      "percent_coverage": 0.9000,       "//": "% of tiles that have a plant: one_in(120)",
       "default_ter": "t_shrub",         "//": "default plant",
       "other": {                  "//": "% of plants/features that aren't default_ter",
-        "t_shrub_blueberry": 0.4166,
-        "t_shrub_strawberry": 0.4166,
+        "t_shrub_blueberry": 0.2500,
+        "t_shrub_strawberry": 0.2500,
         "f_mutpoppy": 8.3333,
         "f_bluebell": 8.3333,
         "f_dahlia": 8.3333,
