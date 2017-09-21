@@ -144,7 +144,7 @@
     "vision_day": 10,
     "vision_night": 30,
     "death_function": [ "MELT" ],
-    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_50", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB", "HARDTOSHOOT" ]
+    "flags": [ "NOHEAD", "SEES", "POISON", "HEARS", "REGENERATES_10", "SMELLS", "SLUDGEPROOF", "SWIMS", "FLAMMABLE", "NOGIB", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_chud",
@@ -705,7 +705,7 @@
         "move_cost": 200,
         "gun_type": "tihar",
         "ammo_type": "pebble",
-        "fake_skills": [ [ "gun", 5 ], [ "rifle", 3 ] ],
+        "fake_skills": [ [ "gun", 3 ], [ "rifle", 1 ] ],
         "fake_str": 14,
         "fake_dex": 16,
         "fake_per": 10,

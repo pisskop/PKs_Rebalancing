@@ -103,6 +103,7 @@
     "clip_size": 6,
     "reload": 200,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
+    "built_in_mods": [ "bomblet_undermod" ],
     "ammo_effects": [ "DRAW_AS_LINE" ],
     "flags": [ "MODE_BURST", "NEVER_JAMS", "RELOAD_ONE" ]
   },

@@ -107,6 +107,17 @@
   },
   {
     "type": "effect_type",
+    "id": "tetanus",
+    "name": [ "Lockjaw" ],
+    "desc": [ "You have frequent muscle spasms, unable to freely move around even when not doubled over.  Lockjaw is caused by bacteria and their toxins." ],
+    "rating": "bad",
+    "resist_effects": ["valium"],
+    "base_mods": {
+      "dex_mod": [-4, 0]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "paralyzepoison",
     "name": [
       "Slowed", "Slowed", "Slowed", "Slowed", "Slowed",
@@ -129,7 +140,7 @@
       "h_mod_tick": [30, 60],
       "h_mod_chance": [10],
       "pain_min": [-1, -0.5],
-      "pain_min_val": [-20, -10],
+      "pain_min_val": [-10, 5],
       "pain_chance": [10, 30],
       "stamina_min": [-1, 0],
       "rad_min": [1],
@@ -137,7 +148,7 @@
     },
     "scaling_mods": {
       "dex_mod": [-0.34, -0.17],
-      "speed_mod": [-5, -3],
+      "speed_mod": [-3, -1],
       "pain_min": [-0.1],
       "pain_min_val": [-5, -3],
       "stamina_min": [-0.1],
@@ -530,7 +541,7 @@
     "rating": "bad",
     "base_mods": {
       "stamina_min": [-1],
-      "stamina_chance": [5],
+      "stamina_chance": [12],
       "speed_mod": [-5],
       "health_amount": [-10],
       "health_min": [-1],

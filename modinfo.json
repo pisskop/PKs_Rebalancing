@@ -7,7 +7,7 @@
     "description": "Rebalances spawn list, adds new monsters and items, adds new buildings and fortifies old buildings, and strives to create a harsher enviornment to survive in.",
     "category": "creatures",
     "author": "pisskop",
-    "version": "5.5.1",   "//": "added this back in, and general update",
+    "version": "5.5.1",   "//": "For the CDDA Launcher Program.",
     "path": ""
   },
   {

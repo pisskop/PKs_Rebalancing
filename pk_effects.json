@@ -422,7 +422,7 @@
     "id": "infection_minor",
     "chance": 3,
     "name": ["Minor Inflammation"],
-    "desc": ["Your wounds are inflammed.  A stout immune system or proper dressing should help."],
+    "desc": ["Your wounds are inflammed.  Strong immunities or proper dressing should help."],
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT", "gauze"],
     "int_add_val": 1,
     "max_intensity": 7,

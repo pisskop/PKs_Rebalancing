@@ -518,7 +518,7 @@
       "type": "heal",
       "limb_power": 0,
       "head_power": 0,
-      "torso_power": 0,
+      "torso_power": 1,
       "limb_scaling": 0,
       "torso_scaling": 0,
       "head_scaling": 0,

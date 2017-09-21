@@ -462,7 +462,7 @@
     "locations": [ "land" ],
     "city_distance": [2, 25],
     "city_sizes": [4, 16],
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": false,
     "spawns": { "group":  "GROUP_DOOM", "population":[350, 700], "radius":[25,65] }
   },
@@ -562,7 +562,7 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [3, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 3],
+    "occurrences": [0, 2],
     "rotate": false,
     "spawns": { "group":  "GROUP_DOOM", "population":[100, 200], "radius":[7,21] }
   },

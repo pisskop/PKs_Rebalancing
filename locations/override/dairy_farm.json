@@ -1,6 +1,6 @@
 [
   {
-    "name": "GROUP_COWS",
+    "name": "GROUP_COW",
     "type": "monstergroup",
     "default": "mon_null",
     "is_safe": true,
@@ -52,8 +52,8 @@
         ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt", "t_dirt" ]
       },
       "place_monsters": [
-        { "monster": "GROUP_COWS", "x": [ 1, 10 ], "y": [ 1, 9 ] },
-        { "monster": "GROUP_COWS", "x": [ 1, 12 ], "y": [ 1, 12 ] }
+        { "monster": "GROUP_COW", "x": [ 1, 10 ], "y": [ 1, 9 ] },
+        { "monster": "GROUP_COW", "x": [ 1, 12 ], "y": [ 1, 12 ] }
       ]
     }
   },
@@ -98,8 +98,8 @@
         ".": "f_null"
       },
       "place_monsters": [
-        { "monster": "GROUP_COWS", "x": [ 1, 10 ], "y": [ 1, 9 ] },
-        { "monster": "GROUP_COWS", "x": [ 1, 12 ], "y": [ 1, 12 ] }
+        { "monster": "GROUP_COW", "x": [ 1, 10 ], "y": [ 1, 9 ] },
+        { "monster": "GROUP_COW", "x": [ 1, 12 ], "y": [ 1, 12 ] }
       ]
     }
   },
