@@ -834,7 +834,7 @@
     "armor_cut": 4,
     "armor_acid": 1,
     "armor_fire": 1,
-    "vision_day": 35,
+    "vision_day": 30,
     "vision_night": 20,
     "special_attacks": [
       [ "BIO_OP_TAKEDOWN", 30 ],

@@ -64,16 +64,6 @@
   },
   {
     "type" : "overmap_terrain",
-    "id" : "prison_6",
-    "name" : "prison",
-    "sym": 112,
-    "color" : "i_ltblue",
-    "see_cost" : 5,
-    "mondensity": 3,
-    "flags" : [ "SIDEWALK", "NO_ROTATE" ]
-  },
-  {
-    "type" : "overmap_terrain",
     "id" : "pit_topside",
     "name" : "cave",
     "sym" : 67,

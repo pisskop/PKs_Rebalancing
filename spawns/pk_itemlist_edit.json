@@ -17,7 +17,7 @@
       [ "antidote_posion", 12 ],
       [ "medikit", 6 ],
       [ "stamina_vial", 15 ],
-      [ "pepto", 25 ],
+      [ "pepto", 35 ],
       [ "gummy_vitamins", 25 ],
       [ "homebrew_antiseptic", 15 ],
       [ "fertilizer_chelated", 6 ],
@@ -611,7 +611,7 @@
     "items": [
       [ "pokeball", 3 ],
       [ "machete", 8 ],
-      [ "pepto", 10 ],
+      [ "pepto", 20 ],
       [ "clay_boiled", 12 ],
       [ "homebrew_antiseptic", 15 ],
       [ "medical_gauze", 12 ]
@@ -777,7 +777,7 @@
       [ "medikit", 20 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],
-      [ "pepto", 50 ],
+      [ "pepto", 60 ],
       [ "clay_boiled", 15 ],
       [ "clay_lump", 5 ],
       [ "medical_gauze", 10 ]
@@ -790,7 +790,7 @@
       [ "stamina_vial", 65 ],
       [ "medikit", 25 ],
       [ "berserker_drug", 4 ],
-      [ "pepto", 50 ],
+      [ "pepto", 60 ],
       [ "clay_boiled", 5 ],
       [ "homebrew_antiseptic", 1 ],
       [ "ref_lighter_dare", 4 ],
@@ -804,7 +804,7 @@
     "items": [
       [ "stamina_vial", 25 ],
       [ "medikit", 15 ],
-      [ "pepto", 40 ],
+      [ "pepto", 50 ],
       [ "fertilizer_chelated", 10 ],
       [ "gummy_vitamins", 20 ],
       [ "clay_boiled", 15 ],
@@ -998,7 +998,7 @@
     "id": "npc_misc",
     "items": [
       [ "stamina_vial", 8 ],
-      [ "pepto", 10 ],
+      [ "pepto", 25 ],
       [ "gummy_vitamins", 20 ],
       [ "fertilizer_chelated", 6 ],
       [ "bearing", 3 ],

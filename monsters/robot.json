@@ -21,13 +21,13 @@
     "id": "mon_tripod",
     "type": "MONSTER",
     "copy-from": "mon_tripod",
-    "description": "The Honda Minuteman, a 4-foot tall robot walking on three spidery legs used as aids in tactical infiltrations, guerilla warfare, and small deep field operations.  For weapons, it has a trio of spiked retractable cables and a powerful welder for cutting into steel and concrete.",
+    "description": "The Honda Minuteman, a 4-foot tall robot walking on three spidery legs, used as aids in tactical infiltrations, guerilla warfare, and small deep field operations.  For weapons, it has a trio of spiked retractable cables and a powerful welder for cutting into steel and concrete.",
     "size": "MEDIUM",
     "hp": "60",
     "melee_skill": 8,
     "melee_dice": 3,
-    "melee_dice_sides": 4,
-    "melee_cut": 6,
+    "melee_dice_sides": 5,
+    "melee_cut": 0,
     "melee_damage": [
       { "damage_type": "stab", "amount": 6 },
       { "damage_type": "heat", "amount": 4 }

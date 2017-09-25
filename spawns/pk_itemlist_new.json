@@ -12,7 +12,7 @@
       [ "berserker_drug", 8 ],
       [ "medikit", 12 ],
       [ "chem_hydrogen_peroxide", 15 ],
-      [ "pepto", 15 ],
+      [ "pepto", 40 ],
       [ "aspirin", 20 ],
       [ "clay_boiled", 12 ],
       [ "dr_stem_cell", 8 ]
@@ -333,7 +333,7 @@
       [ "codeine", 18 ],
       [ "tramadol", 18 ],
       [ "aspirin", 15 ],
-      [ "pepto", 15 ],
+      [ "pepto", 20 ],
       [ "adrenaline_injector", 12 ],
       [ "berserker_drug", 12 ],
       [ "quikclot", 12 ],
