@@ -1083,7 +1083,7 @@
     "id": "mon_bee_king",
     "type": "MONSTER",
     "name": "giant royal bee",
-    "description": "A fecund bee of unknown sex.  Although the queen potentially tolerates the presence of other mating females within her hive, they are all her offspring, and if conflict arises all but one will end up leaving",
+    "description": "A fecund bee of unknown sex.  Although the queen potentially tolerates the presence of other mating females within her hive, they are all her offspring, and if conflict arises all but one will end up leaving.",
     "default_faction": "bee",
     "species": [ "INSECT" ],
     "diff": 18,

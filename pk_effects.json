@@ -272,15 +272,15 @@
     "removes_effects": [ "tetanus", "infected", "common_cold", "flu", "flu_zed", "infection_minor" ],
     "base_mods": {
       "h_mod_min": [1],
-      "h_mod_chance": [2000]
+      "h_mod_chance": [1200]
     }
   },
   {
     "type": "effect_type",
     "id": "antibiotics_2",
-    "//": "This provides immunity to various non-microbial 'diseases', and affect short-term health adversely.  Mostly noticably deters fungal infections.",
+    "//": "This provides immunity to various non-microbial 'diseases', and affects short-term health adversely.  Mostly noticably deters fungal infections.",
     "int_add_val": 1,
-    "remove_message": "Your body natural defenses surpass the effects of the antibodies.",
+    "remove_message": "Your body's natural defenses surpass the effects of the antibodies.",
     "removes_effects": [ "bloodworms", "paincysts", "brainworms" ],
     "blocks_effects": [ "fungus", "bloodworms", "paincysts", "brainworms", "tapeworm" ],
     "base_mods": {
@@ -297,8 +297,8 @@
     "int_decay_tick": 300,
     "apply_message": "You feel itchy.",
     "decay_messages": [["The toxin-negating effects of the tonic wears off.", "neutral"], ["You feel less itchy.", "good"]],
-    "removes_effects": ["poison", "stung", "foodpoison", "fungus", "paralyzepoison", "flu_zed", "infection_minor"],
-    "blocks_effects": ["poison", "stung", "fungus", "paralyzepoison", "flu_zed", "infection_minor"],
+    "removes_effects": ["bite", "poison", "stung", "foodpoison", "fungus", "paralyzepoison", "flu_zed", "infection_minor"],
+    "blocks_effects": ["bite", "poison", "stung", "fungus", "paralyzepoison", "flu_zed", "infection_minor"],
     "base_mods": {
       "pain_min": [1],
       "pain_chance": [40],
@@ -318,8 +318,8 @@
     "decay_messages": [["The toxin-negating effects of the serum wears off.", "neutral"], ["You feel less itchy.", "good"]],
     "apply_message": "You feel itchy.",
     "removes_effects": ["fungus", "dermatik", "bloodworms", "paincysts", "brainworms", "tapeworm", "poison", "stung", "badpoison", "foodpoison", "paralyzepoison",
-                        "infected", "spider_web_mu", "spider_web_omega", "spider_web_alpha", "spider_web_slow", "doom_unhealth", "flu_zed", "infection_minor"],
-    "blocks_effects": ["poison", "stung", "fungus", "badpoison", "paralyzepoison", "spider_web_mu", "spider_web_omega", "spider_web_alpha", "spider_web_slow",
+                        "bite", "infected", "spider_web_mu", "spider_web_omega", "spider_web_alpha", "spider_web_slow", "doom_unhealth", "flu_zed", "infection_minor"],
+    "blocks_effects": ["bite", "poison", "stung", "fungus", "badpoison", "paralyzepoison", "spider_web_mu", "spider_web_omega", "spider_web_alpha", "spider_web_slow",
                        "doom_unhealth", "flu_zed", "infection_minor"],
     "base_mods": {
       "pain_min": [1],
@@ -459,9 +459,7 @@
     "desc": ["Your bowels feel weak, your blood hot, your insides like runny eggs."],
     "rating": "bad",
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT"],
-    "pain_sizing": true,
     "harmful_cough": true,
-    "hurt_sizing": true,
     "base_mods": {
       "speed_mod": [-12],
       "thirst_tick": [180, 240],
@@ -470,8 +468,8 @@
       "fatigue_chnace": [4, 8],
       "fatigue_min": [1],
       "str_mod": [-2, -1],
-      "dex_mod": [-1, 0],
-      "per_mod": [-1, 0],
+      "dex_mod": [-1],
+      "per_mod": [-1],
       "pain_min": [0],
       "pain_max": [1],
       "pain_max_val": [17],
