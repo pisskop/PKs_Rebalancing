@@ -25,6 +25,16 @@
   },
   {
     "type": "effect_type",
+    "id": "pblue",
+    "name": [ "On The Blue" ],
+    "desc": [ "You have recently taken a prussain Blue pill.  More will not speed up the process." ],
+    "base_mods": {
+      "rad_chance": [180],
+      "rad_min": [-1]
+    }
+  },
+  {
+    "type": "effect_type",
     "id": "onfire",
     "chance": 65,
     "name": [ "On Fire" ],

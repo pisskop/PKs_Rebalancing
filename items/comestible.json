@@ -412,11 +412,11 @@
       "type": "consume_drug",
       "activation_message": "You take the %s.",
       "vitamins": [
-         [ "calcium", 21, 42 ],
-         [ "iron", 21, 42 ],
-         [ "vitA", 21, 42 ],
-         [ "vitB", 21, 42 ],
-         [ "vitC", 21, 42 ]
+         [ "calcium", 16, 32 ],
+         [ "iron", 16, 32 ],
+         [ "vitA", 16, 32 ],
+         [ "vitB", 16, 32 ],
+         [ "vitC", 16, 32 ]
       ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
@@ -447,6 +447,27 @@
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
+    "id" : "prussian_blue",
+    "type" : "COMESTIBLE",
+    "comestible_type" : "MED",
+    "name" : "Prussian blue tablet",
+    "description" : "Tablets containing oxidized ferrous ferrocyanide salts.  Capable of purging nuclear contaminants from the body if taken after radiation exposure.  Results take hours to manifest, and lasts all day.",
+    "weight" : 1,
+    "volume" : 1,
+    "price" : 3000,
+    "charges" : 10,
+    "stack_size" : 200,
+    "material" : "powder",
+    "flags" : "NPC_SAFE",
+    "symbol" : "!",
+    "color" : "blue",
+    "use_action" : {
+      "type" : "consume_drug",
+      "activation_message" : "You take some Prussian blue.",
+      "effects" : [ { "id" : "pblue", "duration" : 14400 } ]
+    }
+  },
+  {
     "type": "COMESTIBLE",
     "id": "fertilizer_chelated",
     "copy-from":"fungicide",
@@ -465,7 +486,7 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You consume a helping of the %s.",
-      "effects": [ { "id": "chelated_iron", "duration": 1200 }, { "id": "chelated_iron", "duration": 800 }, { "id": "chelated_iron", "duration": 600 },              { "id": "rad_reduce", "duration": 1000 }, { "id": "rad_reduce", "duration": 600 } ],
+      "effects": [ { "id": "chelated_iron", "duration": 1200 }, { "id": "chelated_iron", "duration": 800 }, { "id": "chelated_iron", "duration": 600 },              { "id": "rad_reduce", "duration": 600 }, { "id": "rad_reduce", "duration": 300 } ],
       "vitamins": [
          [ "iron", 30, 60 ]
       ]

@@ -14,7 +14,7 @@
     "max_intensity": 6,
     "base_mods": {
       "rad_min": [-1],
-      "rad_chance": [12]
+      "rad_chance": [24]
     },
     "scaling_mods": {
       "health_amount": [-1],
