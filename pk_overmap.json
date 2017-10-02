@@ -424,7 +424,7 @@
     "city_sizes": [5, 16],
     "occurrences": [1, 2],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[130, 260], "radius":[12,35] }
+    "spawns": { "group":  "GROUP_DOOM", "population":[100, 200], "radius":[12,35] }
   },
   {
     "type": "overmap_special",
@@ -464,7 +464,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[350, 700], "radius":[25,65] }
+    "spawns": { "group":  "GROUP_DOOM", "population":[150, 350], "radius":[25,65] }
   },
   {
     "type": "overmap_special",
@@ -564,7 +564,7 @@
     "city_sizes": [4, 16],
     "occurrences": [0, 2],
     "rotate": false,
-    "spawns": { "group":  "GROUP_DOOM", "population":[100, 200], "radius":[7,21] }
+    "spawns": { "group":  "GROUP_DOOM", "population":[15, 50], "radius":[7,21] }
   },
   {
     "type": "overmap_special",

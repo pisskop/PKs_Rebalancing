@@ -88,7 +88,7 @@
         { "id":"BOIL","level":1,"amount":1 }
     ],
     "tools": [
-      [ [ "hotplate", 5 ], [ "char_smoker", 3 ], [ "toolset", 5 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 5, "LIST" ], [ "char_smoker", 1 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ] ]
     ],
     "components": [
       [ [ "pine_bough", 2 ] ],
@@ -115,7 +115,7 @@
         { "id":"BOIL","level":1,"amount":1 }
     ],
     "tools": [
-      [ [ "hotplate", 5 ], [ "char_smoker", 3 ], [ "toolset", 5 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 5, "LIST" ], [ "char_smoker", 1 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ] ]
     ],
     "components": [
       [ [ "wasp_glue", 1 ], [ "bone_glue", 2 ] ],
@@ -142,7 +142,7 @@
         { "id":"BOIL","level":1,"amount":1 }
     ],
     "tools": [
-      [ [ "hotplate", 5 ], [ "char_smoker", 3 ], [ "toolset", 5 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 5, "LIST" ], [ "char_smoker", 1 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ] ]
     ],
     "components": [
       [ [ "plant_sac", 3 ] ]
@@ -287,7 +287,7 @@
     "batch_time_factors": [67, 5 ],
     "qualities": [ { "id":"COOK","level":1 } ],
     "tools": [
-    [ [ "hotplate", 7 ], [ "char_smoker", 7 ], [ "toolset", 7 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 15, "LIST" ], [ "char_smoker", 7 ] ]
     ],
     "components": [
     [ [ "spider_steak", 1 ] ]
@@ -309,7 +309,7 @@
         { "id":"COOK","level":2 }
     ],
     "tools": [
-      [ [ "hotplate", 8 ], [ "char_smoker", 8 ], [ "toolset", 8 ], [ "fire", -1 ] ],
+      [ [ "surface_heat", 8, "LIST" ], [ "char_smoker", 8 ] ],
       [ [ "cooking_oil", -1 ], [ "tallow", -1 ], [ "lard", -1 ] ]
     ],
     "components": [
@@ -331,7 +331,7 @@
     "qualities": [
       { "id":"COOK","level":3 } ],
     "tools": [
-      [ [ "hotplate", 12 ], [ "char_smoker", 12 ], [ "toolset", 12 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 12, "LIST" ], [ "char_smoker", 12 ] ]
     ],
     "components": [
       [ [ "broth", 1 ], [ "broth_bone", 1 ] ],
@@ -381,7 +381,7 @@
         { "id":"COOK","level":3 }
     ],
     "tools": [
-    [ [ "hotplate", 20 ], [ "char_smoker", 20 ], [ "toolset", 20 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 15, "LIST" ], [ "char_smoker", 20 ] ]
     ],
     "components": [
       [ [ "water", 1 ], [ "water_clean", 1 ], [ "salt_water", 1 ], [ "saline", 5 ] ],
@@ -406,7 +406,9 @@
     "qualities": [
       { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 10 ], [ "toolset", 10 ], [ "welder", 10 ], [ "welder_crude", 14 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 10 ], [ "toolset", 10 ], [ "welder", 10 ], [ "welder_crude", 14 ] ]
+    ],
     "components": [
       [ [ "gasoline", 50 ], [ "diesel", 50 ] ],
       [ [ "grenade_inc", 1 ] ],
@@ -481,7 +483,8 @@
     "qualities": [
     { "id":"SAW_M","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 100 ], [ "welder", 100 ], [ "welder_crude", 133 ], [ "toolset", 100 ], [ "large_repairkit", 10 ], [ "small_repairkit", 20 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 100 ], [ "welder", 100 ], [ "welder_crude", 133 ], [ "toolset", 100 ], [ "large_repairkit", 10 ], [ "small_repairkit", 20 ] ] ],
     "components": [
       [ [ "pipe", 1 ] ],
       [ [ "duct_tape", 50 ] ],
@@ -505,7 +508,8 @@
     "qualities": [
     { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
     "components": [
       [ [ "lgpistol_primer", 4 ] ],
       [ [ "gunpowder", 80 ] ],
@@ -529,7 +533,8 @@
     "qualities": [
     { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
     "components": [
       [ [ "shotgun_primer", 4 ] ],
       [ [ "gunpowder", 100 ] ],
@@ -553,7 +558,8 @@
     "qualities": [
     { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
     "components": [
       [ [ "lgpistol_primer", 4 ] ],
       [ [ "gunpowder", 60 ] ],
@@ -578,7 +584,8 @@
     "qualities": [
     { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
     "components": [
       [ [ "smpistol_primer", 4 ], [ "lgpistol_primer", 4 ] ],
       [ [ "gunpowder", 60 ] ],
@@ -602,7 +609,8 @@
     "qualities": [
       { "id":"SCREW","level":1 }
     ],
-    "tools": [ [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
+    "tools": [
+      [ [ "soldering_iron", 200 ], [ "welder", 200 ], [ "welder_crude", 266 ], [ "toolset", 200 ], [ "large_repairkit", 20 ], [ "small_repairkit", 40 ] ] ],
     "components": [
       [ [ "lgpistol_primer", 4 ] ],
       [ [ "gunpowder", 60 ], [ "oxy_powder", 60 ] ],
@@ -629,8 +637,7 @@
         { "id":"SCREW_FINE","level":1 }
     ],
     "tools": [
-    [ [ "hotplate", 40 ], [ "toolset", 40 ], [ "fire", -1 ], [ "char_smoker", 10 ] ],
-    [ [ "mold_plastic", -1 ] ]
+      [ [ "surface_heat", 40, "LIST" ], [ "char_smoker", 12 ] ], [ [ "mold_plastic", -1 ] ]
     ],
     "components": [
       [ [ "plastic_chunk", 10 ] ],
@@ -949,7 +956,9 @@
         [ { "id":"SAW_M","level":1 }, { "id":"SAW_M","level":1 } ],
         { "id":"COOK","level":3 }, { "id":"BOIL","level":2 }, { "id":"CONTAIN","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 60 ], [ "toolset", 60 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 60, "LIST" ] ]
+    ],
     "components": [
       [ [ "megabear_skull_unclean", 1 ] ],
       [ [ "soap", 2 ] ],
@@ -974,7 +983,9 @@
         [ { "id":"SAW_M","level":1 }, { "id":"SAW_M","level":1 } ],
         { "id":"COOK","level":3 }, { "id":"BOIL","level":2 }, { "id":"CONTAIN","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 35 ], [ "toolset", 35 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 35, "LIST" ] ]
+    ],
     "components": [
       [ [ "megabear_skull_picked", 1 ] ],
       [ [ "soap", 2 ] ],
@@ -1000,7 +1011,7 @@
         { "id":"HAMMER_FINE","level":1 }
     ],
     "tools": [
-      [ [ "hotplate", 30 ], [ "toolset", 30 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 30, "LIST" ] ]
     ],
     "components": [
       [ [ "megabear_skull_clean", 1 ] ],
@@ -1027,7 +1038,9 @@
         { "id":"COOK","level":1 }, { "id":"BOIL","level":1 },
         { "id":"HAMMER","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 12 ], [ "toolset", 12 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 12, "LIST" ] ]
+    ],
     "components": [
       [ [ "biollante_bud", 1 ] ],
       [ [ "plant_sac", 1 ], [ "water_clean", 1 ], [ "water", 1 ] ],
@@ -1049,7 +1062,9 @@
     "qualities": [
       { "id":"COOK","level":1 }, { "id":"BOIL","level":2 }
     ],
-    "tools": [ [ [ "hotplate", 17 ], [ "toolset", 17 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 17, "LIST" ] ]
+    ],
     "components": [
       [ [ "triffid_sap", 2 ], [ "triffid_sap_thrown", 2 ] ],
       [ [ "plant_sac", 1 ], [ "water_clean", 1 ], [ "water", 1 ] ],
@@ -1074,7 +1089,9 @@
         { "id":"COOK","level":3 }, { "id":"BOIL","level":2 },
         { "id":"CHEM","level":1 }, { "id":"CONTAIN","level":1, "amount":2 }
     ],
-    "tools": [ [ [ "hotplate", 20 ], [ "toolset", 20 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 20, "LIST" ] ]
+    ],
     "components": [
       [ [ "royal_jelly", 1 ] ],
       [ [ "triffid_sap", 2 ], [ "triffid_sap_thrown", 2 ] ],
@@ -1100,7 +1117,9 @@
         { "id":"HAMMER_FINE","level":1 },
         { "id":"CHEM","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 14 ], [ "toolset", 14 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 14, "LIST" ] ]
+    ],
     "components": [
       [ [ "fighter_sting", 4 ] ],
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
@@ -1124,7 +1143,8 @@
       { "id":"COOK","level":3 }, { "id":"BOIL","level":2 },
         { "id":"CHEM","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 21 ], [ "toolset", 21 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 21, "LIST" ]] ],
     "components": [
       [ [ "fighter_sting_juice", 2 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
@@ -1147,7 +1167,9 @@
       { "id":"COOK","level":3 }, { "id":"BOIL","level":2 },
         { "id":"CHEM","level":1 }
     ],
-    "tools": [ [ [ "hotplate", 21 ], [ "toolset", 21 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 21, "LIST" ] ]
+    ],
     "components": [
       [ [ "fighter_sting_juice", 3 ] ],
       [ [ "royal_jelly_sap", 1 ], [ "royal_jelly", 1 ] ],
@@ -1278,7 +1300,9 @@
     "qualities": [
       { "id":"COOK","level":1 }, { "id":"BOIL","level":2 }
     ],
-    "tools": [ [ [ "hotplate", 21 ], [ "toolset", 21 ], [ "fire", -1 ] ] ],
+    "tools": [
+      [ [ "surface_heat", 21, "LIST" ] ]
+    ],
     "components": [
       [ [ "wasp_glue", 3 ] ],
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
@@ -1320,7 +1344,7 @@
       { "id":"BOIL","level":1,"amount":1 }
     ],
     "tools": [
-      [ [ "hotplate", 5 ], [ "char_smoker", 3 ], [ "toolset", 5 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 5, "LIST" ], [ "char_smoker", 1 ], [ "coffeemaker", 5 ], [ "atomic_coffeepot", -1 ] ]
     ],
     "components": [
       [ [ "clay_lump", 1 ] ],
@@ -1374,6 +1398,42 @@
     "autolearn": true,
     "components": [
       [ [ "scrap", 3 ] ]
+    ]
+  },
+  {
+    "result": "fridge_cargo",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "difficulty": 6,
+    "skills_required": [ [ "mechanics", 3 ] ],
+    "book_learn": [ [ "textbook_mechanics", 4 ], [ "textbook_fabrication", 3 ], [ "welding_book", 4 ] ],
+    "time": 285000,
+    "qualities": [
+      {"id":"HAMMER","level":2},
+      {"id":"SAW_M","level":1},
+      {"id":"WRENCH","level":1},
+      { "id" : "GLARE", "level" : 2 }
+    ],
+    "tools": [
+      [ [ "soldering_iron", 100 ], [ "toolset", 100 ] ],
+      [ [ "oxy_torch", 25 ], [ "welder", 100 ], [ "toolset", 150 ], [ "welder_crude", 150 ] ]
+    ],
+    "components": [
+      [ [ "cargo_rack", 1 ] ],
+      [ [ "power_supply", 4 ] ],
+      [ [ "small_storage_battery", 1 ] ],
+      [ [ "cable", 150 ] ],
+      [ [ "solder_wire", 200 ] ],
+      [ [ "bearing", 20 ] ],
+      [ [ "hose", 2 ] ],
+      [ [ "steel_plate", 12 ] ],
+      [ [ "steel_lump", 4 ] ],
+      [ [ "steel_chunk", 12 ] ],
+      [ [ "plastic_chunk", 6 ] ],
+      [ [ "superglue", 1 ] ],
+      [ [ "element", 1 ] ]
     ]
   }
  ]

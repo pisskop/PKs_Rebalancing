@@ -23,7 +23,7 @@
       [ "fertilizer_chelated", 6 ],
       [ "clay_boiled", 15 ],
       [ "clay_lump", 6 ],
-      [ "tinyweldtank", 2 ],
+      [ "tinyweldtank", 3 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 12 ],
       [ "lobotomizer", 1 ],
@@ -124,11 +124,12 @@
       [ "ithaca_doom", 15 ],
       [ "ithaca_doom_dual", 5 ],
       [ "fertilizer_chelated", 18 ],
-      [ "tinyweldtank", 1 ],
+      [ "tinyweldtank", 3 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 12 ],
       [ "vortex_stone", 4 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "fridge_cargo", 1 ]
     ]
   },
   {
@@ -170,8 +171,8 @@
       [ "stamina_vial", 15 ],
       [ "410_revolver", 8 ],
       [ "swat_shield", 5 ],
-      [ "weldtank", 1 ],
-      [ "landmine", 1 ]
+      [ "weldtank", 5 ],
+      [ "landmine", 2 ]
     ]
   },
   {
@@ -244,8 +245,8 @@
       [ "homebrew_antiseptic", 3 ],
       [ "clay_boiled", 12 ],
       [ "clay_lump", 10 ],
-      [ "weldtank", 1 ],
-      [ "tinyweldtank", 1 ],
+      [ "weldtank", 2 ],
+      [ "tinyweldtank", 4 ],
       [ "ref_lighter_dare", 10 ],
       [ "candle_smoke", 10 ],
       [ "vortex_stone", 4 ],
@@ -460,7 +461,8 @@
       [ "medical_gauze", 5 ],
       [ "vortex_stone", 10 ],
       [ "dr_stem_cell", 10 ],
-      [ "bomblet_launcher_brute", 5 ]
+      [ "bomblet_launcher_brute", 5 ],
+      [ "fridge_cargo", 2 ]
     ]
   },
   {
@@ -626,7 +628,8 @@
       [ "clay_boiled", 15 ],
       [ "homebrew_antiseptic", 5 ],
       [ "candle_smoke", 1 ],
-      [ "medical_gauze", 10 ]
+      [ "medical_gauze", 10 ],
+      [ "minifridge", 4 ]
     ]
   },
   {
@@ -777,7 +780,7 @@
       [ "medikit", 20 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],
-      [ "pepto", 60 ],
+      [ "pepto", 80 ],
       [ "clay_boiled", 15 ],
       [ "clay_lump", 5 ],
       [ "medical_gauze", 10 ]
@@ -809,8 +812,8 @@
       [ "gummy_vitamins", 20 ],
       [ "clay_boiled", 15 ],
       [ "clay_lump", 5 ],
-      [ "weldtank", 1 ],
-      [ "homebrew_antiseptic", 2 ],
+      [ "weldtank", 3 ],
+      [ "homebrew_antiseptic", 5 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 2 ],
       [ "medical_gauze", 25 ],
@@ -909,7 +912,8 @@
     "items": [
       [ "fertilizer_chelated", 14 ],
       [ "clay_lump", 8 ],
-      [ "tinyweldtank", 1 ]
+      [ "tinyweldtank", 3 ],
+      [ "fridge_cargo", 3 ]
     ]
   },
   {
@@ -927,7 +931,7 @@
       [ "fertilizer_chelated", 30 ],
       [ "clay_lump", 8 ],
       [ "bearing", 10 ],
-      [ "weldtank", 1 ]
+      [ "weldtank", 3 ]
     ]
   },
   {
@@ -938,8 +942,9 @@
       [ "clay_lump", 8 ],
       [ "bearing", 15 ],
       [ "weldtank", 1 ],
-      [ "tinyweldtank", 1 ],
-      [ "ref_lighter_dare", 5 ]
+      [ "tinyweldtank", 4 ],
+      [ "ref_lighter_dare", 5 ],
+      [ "fridge_cargo", 3 ]
     ]
   },
   {
@@ -950,7 +955,8 @@
       [ "bearing", 10 ],
       [ "clay_lump", 8 ],
       [ "weldtank", 1 ],
-      [ "homebrew_antiseptic", 5 ]
+      [ "homebrew_antiseptic", 5 ],
+      [ "fridge_cargo", 2 ]
     ]
   },
   {
@@ -958,15 +964,16 @@
     "id": "tools_blacksmith",
     "items": [
       [ "bearing", 10 ],
-      [ "weldtank", 1 ],
-      [ "tinyweldtank", 2 ]
+      [ "weldtank", 2 ],
+      [ "tinyweldtank", 5 ],
+      [ "fridge_cargo", 1 ]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_construction",
     "items": [
-      [ "tinyweldtank", 1 ]
+      [ "tinyweldtank", 2 ]
     ]
   },
   {
@@ -974,15 +981,15 @@
     "id": "tools_earthworking",
     "items": [
       [ "fertilizer_chelated", 40 ],
-      [ "weldtank", 1 ],
-      [ "tinyweldtank", 2 ]
+      [ "weldtank", 2 ],
+      [ "tinyweldtank", 3 ]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_entry",
     "items": [
-      [ "tinyweldtank", 10 ]
+      [ "tinyweldtank", 12 ]
     ]
   },
   {
@@ -990,7 +997,8 @@
     "id": "tools_mechanic",
     "items": [
       [ "bearing", 10 ],
-      [ "weldtank", 1 ]
+      [ "weldtank", 4 ],
+      [ "fridge_cargo", 3 ]
     ]
   },
   {

@@ -25,7 +25,8 @@
     "time": 200000,
     "autolearn": true,
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
-    "tools": [ [ [ "sewing_kit", 60 ] ] ],
+    "tools": [
+      [ [ "sewing_kit", 60 ] ] ],
     "components": [ [ [ "leather", 29 ], [ "tanned_hide", 5 ] ] ]
   },
   {
@@ -39,7 +40,8 @@
     "time": 200000,
     "autolearn": true,
     "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 4 ] ],
-    "tools": [ [ [ "sewing_kit", 45 ] ] ],
+    "tools": [
+      [ [ "sewing_kit", 45 ] ] ],
     "components": [ [ [ "leather", 22 ], [ "tanned_hide", 4 ] ] ]
   },{
     "result": "broken_tripod",
@@ -80,7 +82,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "tallow_tainted", 1 ], [ "dry_meat_tainted", 2 ], [ "slime_scrap", 3 ], [ "fetus", 1 ], [ "arm", 1 ], [ "leg", 1 ] ],
@@ -103,7 +105,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 37 ], [ "toolset", 37 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 37, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 2 ] ],
@@ -126,7 +128,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -150,7 +152,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_plant", 2 ] ],
@@ -172,7 +174,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -196,7 +198,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_insect", 2 ] ],
@@ -218,7 +220,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -241,7 +243,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_spider", 2 ] ],
@@ -263,7 +265,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -286,7 +288,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_slime", 2 ] ],
@@ -308,7 +310,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -331,7 +333,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_fish", 2 ] ],
@@ -354,7 +356,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -377,7 +379,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_rat", 2 ] ],
@@ -399,7 +401,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -422,7 +424,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_beast", 2 ] ],
@@ -444,7 +446,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -467,7 +469,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [
@@ -491,7 +493,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -514,7 +516,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_feline", 2 ] ],
@@ -536,7 +538,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -559,7 +561,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_lupine", 2 ] ],
@@ -581,7 +583,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -604,7 +606,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_cattle", 2 ] ],
@@ -626,7 +628,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -649,7 +651,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_cephalopod", 2 ] ],
@@ -671,7 +673,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -694,7 +696,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_bird", 2 ] ],
@@ -716,7 +718,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -739,7 +741,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_lizard", 2 ] ],
@@ -761,7 +763,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -785,7 +787,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_troglobite", 2 ] ],
@@ -807,7 +809,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
@@ -832,7 +834,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_medical", 2 ] ],
@@ -855,7 +857,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "royal_jelly", 1 ], [ "royal_jelly_sap", 1 ] ],
@@ -880,7 +882,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "purifier", 2 ] ],
@@ -902,7 +904,7 @@
     "qualities":[
       {"id":"CHEM","level":2,"amount":1}
     ], "tools": [
-      [ [ "hotplate", 50 ], [ "toolset", 50 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 50, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_slime", 1 ], [ "mutagen_plant", 1 ] ],
@@ -926,7 +928,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_alpha", 2 ] ],
@@ -948,7 +950,7 @@
     "qualities":[
       {"id":"CHEM","level":2,"amount":1}
     ], "tools": [
-      [ [ "hotplate", 31 ], [ "toolset", 31 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 31, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_slime", 1 ], [ "mutagen_bird", 1 ] ],
@@ -971,7 +973,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_elfa", 2 ] ],
@@ -994,7 +996,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_lizard", 1 ], [ "mutagen_cephalopod", 1 ], [ "mutagen_bird", 1 ] ],
@@ -1018,7 +1020,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_chimera", 1 ] ],
@@ -1040,7 +1042,7 @@
     "qualities":[
       {"id":"CHEM","level":2,"amount":1}
     ], "tools": [
-      [ [ "hotplate", 31 ], [ "toolset", 31 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 31, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_lizard", 1 ] ],
@@ -1063,7 +1065,7 @@
       {"id":"CHEM","level":2,"amount":1}
     ],
     "tools": [
-      [ [ "hotplate", 25 ], [ "toolset", 25 ], [ "fire", -1 ] ]
+      [ [ "surface_heat", 25, "LIST" ] ]
     ],
     "components": [
       [ [ "mutagen_raptor", 2 ] ]

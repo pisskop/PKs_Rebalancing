@@ -535,5 +535,19 @@
     "material": [ "steel", "superalloy" ],
     "symbol": "H",
     "color": "ltgreen"
+  },
+  {
+    "type": "GENERIC",
+    "id": "fridge_cargo",
+    "name": "ice box",
+    "description": "A large fridge unit spacious enough you you to stand in and stow copious amounts of food safely.  Shelves are smaller and well-covered, and various homemade straps and holders exist to secure materials.",
+    "weight": 11752,
+    "to_hit": -10,
+    "color": "light_blue",
+    "symbol": "]",
+    "material": "steel",
+    "volume": 22,
+    "category" : "veh_parts",
+    "price": 90000
   }
 ]

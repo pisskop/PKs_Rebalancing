@@ -177,5 +177,29 @@
     "range": 25,
     "breaks_into": [ { "item": "BFG", "prob": 65 } ],
     "flags": [ "TURRET" ]
+  },
+  {
+    "type" : "vehicle_part",
+    "id" : "fridge_cargo",
+    "name" : "ice box",
+    "symbol" : "Q",
+    "color" : "light_blue",
+    "broken_symbol" : "#",
+    "broken_color" : "light_blue",
+    "damage_modifier" : 80,
+    "durability" : 300,
+    "epower" : -697,
+    "size" : 750,
+    "item" : "fridge_cargo",
+    "difficulty" : 4,
+    "location" : "center",
+    "flags" : ["CARGO", "OBSTACLE", "FRIDGE", "COVERED", "ENABLED_DRAINS_EPOWER"],
+    "breaks_into" : [
+      {"item": "steel_lump", "count": [10, 15] },
+      {"item": "steel_chunk", "count": [12, 18] },
+      {"item": "scrap", "count": [15, 24] },
+      {"item": "hose", "prob": 50, "count": [1, 2] },
+      {"item": "hose", "prob": 50, "count": [1, 2] }
+    ]
   }
 ]
