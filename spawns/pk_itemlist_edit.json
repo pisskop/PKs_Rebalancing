@@ -27,7 +27,8 @@
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 12 ],
       [ "lobotomizer", 1 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -129,7 +130,8 @@
       [ "candle_smoke", 12 ],
       [ "vortex_stone", 4 ],
       [ "dr_stem_cell", 1 ],
-      [ "fridge_cargo", 1 ]
+      [ "fridge_cargo", 1 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -149,7 +151,8 @@
       [ "gummy_vitamins", 10 ],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 4 ],
-      [ "bomblet_launcher_brute", 1 ]
+      [ "bomblet_launcher_brute", 1 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -172,7 +175,8 @@
       [ "410_revolver", 8 ],
       [ "swat_shield", 5 ],
       [ "weldtank", 5 ],
-      [ "landmine", 2 ]
+      [ "landmine", 2 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -251,7 +255,8 @@
       [ "candle_smoke", 10 ],
       [ "vortex_stone", 4 ],
       [ "dr_stem_cell", 1 ],
-      [ "bomblet_launcher_brute", 1 ]
+      [ "bomblet_launcher_brute", 1 ],
+      [ "oxy_torch", 3 ]
     ]
   },
   {
@@ -316,7 +321,8 @@
       [ "bomblet_undermod", 10 ],
       [ "medical_gauze", 1 ],
       [ "landmine", 4 ],
-      [ "bomblet_launcher_brute", 1 ]
+      [ "bomblet_launcher_brute", 1 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -462,7 +468,8 @@
       [ "vortex_stone", 10 ],
       [ "dr_stem_cell", 10 ],
       [ "bomblet_launcher_brute", 5 ],
-      [ "fridge_cargo", 2 ]
+      [ "fridge_cargo", 2 ],
+      [ "oxy_torch", 5 ]
     ]
   },
   {
@@ -526,7 +533,8 @@
       [ "shot_410_slug", 15 ],
       [ "swat_shield", 30 ],
       [ "bot_turret_shockcannon", 3 ],
-      [ "bomblet_launcher_brute", 1 ]
+      [ "bomblet_launcher_brute", 1 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -568,7 +576,8 @@
       [ "bot_turret_shockcannon", 5 ],
       [ "iodine", 6 ],
       [ "prussian_blue", 6 ],
-      [ "bomblet_launcher_brute", 5 ]
+      [ "bomblet_launcher_brute", 5 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -913,7 +922,8 @@
       [ "fertilizer_chelated", 14 ],
       [ "clay_lump", 8 ],
       [ "tinyweldtank", 3 ],
-      [ "fridge_cargo", 3 ]
+      [ "fridge_cargo", 3 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -921,7 +931,8 @@
     "id": "mischw",
     "items": [
       [ "fertilizer_chelated", 10 ],
-      [ "clay_lump", 8 ]
+      [ "clay_lump", 8 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
@@ -944,7 +955,8 @@
       [ "weldtank", 1 ],
       [ "tinyweldtank", 4 ],
       [ "ref_lighter_dare", 5 ],
-      [ "fridge_cargo", 3 ]
+      [ "fridge_cargo", 3 ],
+      [ "oxy_torch", 5 ]
     ]
   },
   {
@@ -956,7 +968,8 @@
       [ "clay_lump", 8 ],
       [ "weldtank", 1 ],
       [ "homebrew_antiseptic", 5 ],
-      [ "fridge_cargo", 2 ]
+      [ "fridge_cargo", 2 ],
+      [ "oxy_torch", 3 ]
     ]
   },
   {
@@ -966,14 +979,16 @@
       [ "bearing", 10 ],
       [ "weldtank", 2 ],
       [ "tinyweldtank", 5 ],
-      [ "fridge_cargo", 1 ]
+      [ "fridge_cargo", 1 ],
+      [ "oxy_torch", 15 ]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_construction",
     "items": [
-      [ "tinyweldtank", 2 ]
+      [ "tinyweldtank", 2 ],
+      [ "oxy_torch", 8 ]
     ]
   },
   {
@@ -982,14 +997,16 @@
     "items": [
       [ "fertilizer_chelated", 40 ],
       [ "weldtank", 2 ],
-      [ "tinyweldtank", 3 ]
+      [ "tinyweldtank", 3 ],
+      [ "oxy_torch", 3 ]
     ]
   },
   {
     "type": "item_group",
     "id": "tools_entry",
     "items": [
-      [ "tinyweldtank", 12 ]
+      [ "tinyweldtank", 12 ],
+      [ "oxy_torch", 5 ]
     ]
   },
   {
@@ -998,7 +1015,8 @@
     "items": [
       [ "bearing", 10 ],
       [ "weldtank", 4 ],
-      [ "fridge_cargo", 3 ]
+      [ "fridge_cargo", 3 ],
+      [ "oxy_torch", 5 ]
     ]
   },
   {
@@ -1071,7 +1089,8 @@
     "items": [
       [ "candle_smoke", 6 ],
       [ "candle", 8 ],
-      [ "medical_gauze", 4 ]
+      [ "medical_gauze", 4 ],
+      [ "oxy_torch", 1 ]
     ]
   },
   {
