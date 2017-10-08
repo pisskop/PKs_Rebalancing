@@ -41,5 +41,69 @@
       [ "damage", "cut", 1.0 ],
       [ "damage", "stab", 0.8 ]
     ]
+  },
+  {
+    "id": "stuck_in_1",
+    "type": "technique",
+    "name": "lodge-in risk",
+    "min_melee": 0,
+    "max_melee": 4,
+    "weighting": -20,
+    "unarmed_allowed": false,
+    "melee_allowed": true,
+    "stun_dur": 1,
+    "messages": [
+      "Your weapon gets well-lodged in the wound and takes time to remove!  It strikes for",
+      "<npcname>%s weapon gets well-lodged in the wound and takes time to remove!  It strikes for"
+    ],
+    "mult_bonuses": [
+      [ "movecost", 1.67 ],
+      [ "damage", "bash", 1.67 ],
+      [ "damage", "cut", 1.2 ],
+      [ "damage", "stab", 1.3 ]
+    ]
+  },
+  {
+    "id": "stuck_in_2",
+    "type": "technique",
+    "name": "stuck-in risk",
+    "min_melee": 0,
+    "max_melee": 5,
+    "weighting": -20,
+    "crit_tec": true,
+    "unarmed_allowed": false,
+    "melee_allowed": true,
+    "messages": [
+      "Your weapon gets stuck in the wound and takes some time to remove!  It strikes for",
+      "<npcname>%s weapon gets stuck in the wound and takes some time to remove!  It strikes for"
+    ],
+    "mult_bonuses": [
+      [ "movecost", 1.33 ],
+      [ "damage", "bash", 1.1 ],
+      [ "damage", "cut", 1.2 ],
+      [ "damage", "stab", 1.1 ]
+    ]
+  },
+  {
+    "id": "stuck_in_3",
+    "type": "technique",
+    "name": "wedge-in chance",
+    "min_melee": 4,
+    "weighting": -20,
+    "crit_tec": true,
+    "unarmed_allowed": false,
+    "melee_allowed": true,
+    "down_dur" : 1,
+    "stun_dur": 1,
+    "messages": [
+      "Your weapon leverages your opponent off-balance!  It strikes for",
+      "<npcname>%s leverages their opponent off-balance!  It strikes for"
+    ],
+    "mult_bonuses": [
+      [ "movecost", 1.25 ],
+      [ "damage", "bash", 1.2 ],
+      [ "damage", "cut", 1.25 ],
+      [ "damage", "stab", 1.2 ]
+    ]
   }
 ]

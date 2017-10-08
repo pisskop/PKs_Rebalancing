@@ -222,7 +222,7 @@
       [ "hammer", 30 ]
     ],
     "special_when_hit": [ "ACIDSPLASH", 80 ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "BASHES", "BORES", "POISON", "SUNDEATH", "ACIDPROOF", "LEATHER" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "CAN_DIG", "BASHES", "BORES", "POISON", "SUNDEATH", "ACIDPROOF", "LEATHER" ]
   },
   {
     "id": "mon_amigara_horror",

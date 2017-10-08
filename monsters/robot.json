@@ -86,8 +86,10 @@
     "copy-from": "mon_molebot",
     "name": "miner bot",
     "description": "A long snake-like, segmented robot built to  create tunnels and detonate landmines.",
-    "aggression": -10,
+    "size": "MEDIUM",
     "hp": 80,
+    "speed": 40,
+    "aggression": -10,
     "morale": 100,
     "melee_skill": 5,
     "melee_dice": 1,
@@ -96,11 +98,15 @@
     "melee_damage": [
       { "damage_type": "stab", "amount": 18 }
     ],
-    "dodge": 2,
+    "dodge": 3,
     "armor_bash": 10,
     "armor_cut": 18,
     "vision_day": 5,
     "vision_night": 5,
+    "special_attacks": [
+      [ "slash", 10 ],
+      { "type": "leap", "cooldown": 30, "max_range": 3, "allow_no_target": false }
+    ],
     "death_drops": {
       "groups": [
         [ "robots", 70 ],
@@ -108,7 +114,8 @@
       ]
     },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ],
+    "anger_triggers": ["HURT", "FRIEND_DIED", "PLAYER_CLOSE", "STALK"]
   },
   {
     "id": "mon_broken_cyborg",

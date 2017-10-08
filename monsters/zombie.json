@@ -460,7 +460,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
-      "half_life": 4,
+      "half_life": 5,
       "into_group": "GROUP_ZOMBIE_DECAY"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES" ]
@@ -498,7 +498,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
-      "half_life": 4,
+      "half_life": 5,
       "into": "mon_zombie_blind_pk"
     },
     "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -581,7 +581,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
-      "half_life": 9,
+      "half_life": 10,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -624,7 +624,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
-      "half_life": 9,
+      "half_life": 10,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -667,7 +667,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
-      "half_life": 28,
+      "half_life": 30,
       "into_group": "GROUP_ZOMBIE_EVO"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -681,7 +681,7 @@
       { "type": "bite", "cooldown": 5 }
     ],
     "upgrades": {
-      "half_life": 10,
+      "half_life": 12,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
     }
   },
@@ -726,7 +726,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched",
     "upgrades": {
-      "half_life": 10,
+      "half_life": 12,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
@@ -775,7 +775,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched",
     "upgrades": {
-      "half_life": 10,
+      "half_life": 12,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
@@ -1064,7 +1064,7 @@
     ],
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
-      "half_life": 14,
+      "half_life": 19,
       "into": "mon_zombie_crawler_pk_weak"
     }
   },
@@ -1079,7 +1079,7 @@
       { "type": "bite", "cooldown": 5, "min_mul": 0.7 }
     ],
     "upgrades": {
-      "half_life": 21,
+      "half_life": 22,
       "into": "mon_zombie_hollow"
     }
   },
@@ -1118,7 +1118,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_smoker",
     "upgrades": {
-      "half_life": 21,
+      "half_life": 22,
       "into": "mon_zombie_hollow"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -1161,7 +1161,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_smoker",
     "upgrades": {
-      "half_life": 21,
+      "half_life": 22,
       "into": "mon_zombie_hollow"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
@@ -1209,7 +1209,7 @@
     "speed": 135,
     "burn_into": "mon_zombie_fiend_pk",
     "upgrades": {
-      "half_life": 49,
+      "half_life": 57,
       "into": "mon_zombie_hulk_pk"
     }
   },
@@ -1438,7 +1438,7 @@
     ],
     "burn_into": "mon_zombie_crawler_pk_weak",
     "upgrades": {
-      "half_life": 11,
+      "half_life": 13,
       "into": "mon_zombie_shady_pk"
     }
   },
@@ -1544,7 +1544,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
     "upgrades": {
-      "half_life": 35,
+      "half_life": 39,
       "into": "mon_zombie_hollow_pk"
     },
     "flags": [ "SEES", "HEARS", "REVIVES", "STUMBLES", "SMELLS", "WARM", "BASHES", "GRABS", "GROUP_BASH", "POISON", "NO_BREATHE" ]
@@ -1688,7 +1688,7 @@
       { "type": "bite", "cooldown": 5 }
     ],
     "upgrades": {
-      "half_life": 14,
+      "half_life": 17,
       "into": "mon_zombie_mancroc"
     }
   },
@@ -1731,7 +1731,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
     "upgrades": {
-      "half_life": 14,
+      "half_life": 17,
       "into": "mon_zombie_scales"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "BLEED", "SWIMS", "REVIVES", "BONES", "PUSH_MON" ]
@@ -1821,7 +1821,7 @@
     "armor_stab": 16,
     "special_attacks": [ [ "scratch", 10 ] ],
     "upgrades": {
-      "half_life": 14,
+      "half_life": 19,
       "into": "mon_skeleton_pk"
     },
     "flags": [ "SEES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON" ]
@@ -1865,7 +1865,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_skeleton_scorched",
     "upgrades": {
-      "half_life": 35,
+      "half_life": 37,
       "into": "mon_skeleton_husk"
     },
     "flags": [ "SEES", "HEARS", "STUMBLES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON" ]
