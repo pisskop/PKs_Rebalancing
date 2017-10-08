@@ -14,7 +14,7 @@
     "max_intensity": 6,
     "base_mods": {
       "rad_min": [-1],
-      "rad_chance": [24]
+      "rad_chance": [20]
     },
     "scaling_mods": {
       "health_amount": [-1],
@@ -87,6 +87,8 @@
   {
     "type": "effect_type",
     "id": "tummy_tablet",
+    "name": [ "Soothed Stomach." ],
+    "desc": [ "You are under the effects of a stomach soother." ],
     "int_add_val": 1,
     "max_intensity": 3,
     "base_mods": {
@@ -461,7 +463,7 @@
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT"],
     "harmful_cough": true,
     "base_mods": {
-      "speed_mod": [-12],
+      "speed_mod": [-12, -10],
       "thirst_tick": [180, 240],
       "thirst_min": [1],
       "fatigue_tick": [50],

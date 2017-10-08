@@ -748,8 +748,8 @@
     "rotate": true
   },{
     "type": "overmap_special",
-    "id": "Strangle Temple",
-    "copy-from" : "Strangle Temple",
+    "id": "Strange Temple",
+    "copy-from" : "Strange Temple",
     "occurrences": [0, 2]
   },{
     "type": "overmap_special",

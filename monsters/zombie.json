@@ -1317,15 +1317,15 @@
     "melee_dice_sides": 3,
     "melee_cut": 5,
     "dodge": 4,
-    "armor_bash": 12,
-    "armor_cut": 6,
-    "vision_day": 40,
+    "armor_bash": 8,
+    "armor_cut": 4,
+    "vision_day": 25,
     "vision_night": 20,
     "special_attacks": [
       [ "SMASH", 40 ],
-      [ "STRETCH_ATTACK", 20 ],
+      [ "STRETCH_ATTACK", 30 ],
       [ "LONGSWIPE", 30 ],
-      { "id": "hammer", "cooldown": 30, "accuracy": 5,
+      { "id": "hammer", "cooldown": 40, "accuracy": 5,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 24, "armor_multiplier": 0.75 }
         ]

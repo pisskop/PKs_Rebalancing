@@ -221,7 +221,7 @@
     "symbol": "[",
     "color": "ltgray",
     "covers": [ "HANDS" ],
-    "coverage": 100,
+    "coverage": 90,
     "encumbrance": 12,
     "warmth": 15,
     "material_thickness": 2,
@@ -580,7 +580,7 @@
   {
     "type" : "ARMOR",
     "id" : "swat_shield_act",
-    "name" : "tactical shield",
+    "name" : "tactical shield (Def)",
     "description" : "A ballistic shield designed to protect the approach of its holder and anybody standing behind them.  It is heavy and somewhat cumbersome, but its protection cannot be denied.  It is currently being used, and slowing you down.",
     "weight" : 8840,
     "color" : "dkgray",
@@ -593,7 +593,7 @@
     "symbol" : "{",
     "flags" : ["OVERSIZE", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN"],
     "techniques" : [ "WBLOCK_3", "BRUTAL" ],
-    "coverage" : 75,
+    "coverage" : 80,
     "material_thickness" : 2,
     "use_action": {
     "type": "transform",

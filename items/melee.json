@@ -1,5 +1,20 @@
 [
   {
+    "type":"GENERIC",
+    "id": "sword_nail",
+    "symbol" : "!",
+    "color": "light_gray",
+    "name": "nord",
+    "description": "The nail sword, or nord for short.  This wooden sword has a dozen nails sticking at jagged angles from edge of the blade, making it much better at chopping than slashing.",
+    "material": "wood",
+    "volume": 7,
+    "weight": 648,
+    "bashing": 12,
+    "cutting": 4,
+    "to_hit": 1,
+    "techniques": ["WBLOCK_1"]
+  },
+  {
     "id": "ax",
     "type": "TOOL",
     "name": "wood axe",
