@@ -1108,5 +1108,22 @@
     "items": [
       [ "fresh_fries_big", 15 ]
     ]
+  },
+  {
+    "id": "shelter_supplies",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      [ "jacket_evac", 100 ],
+      [ "emer_blanket", 100 ],
+      [ "bandages", 50 ],
+      [ "1st_aid", 35 ],
+      [ "quikclot", 35 ],
+      [ "smoxygen_tank", 25 ],
+      [ "mask_gas", 25 ],
+      [ "flashlight", 15 ],
+      [ "e_tool_chinese", 10 ],
+      [ "matches", 5 ]
+    ]
   }
 ]

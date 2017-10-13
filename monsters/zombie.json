@@ -1941,6 +1941,7 @@
     "special_attacks": [
       [ "ACID_BARF", 30 ],
       [ "GRAB", 60 ],
+      [ "PARROT", 50 ],
       [ "FORMBLOB", 600 ]
     ],
     "special_when_hit": [ "ACIDSPLASH", 25 ],
@@ -1981,6 +1982,7 @@
     "special_attacks": [
       [ "ACID_BARF", 30 ],
       [ "GRAB", 60 ],
+      [ "PARROT", 40 ],
       [ "FORMBLOB", 240 ]
     ],
     "special_when_hit": [ "ACIDSPLASH", 10 ],

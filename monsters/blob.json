@@ -56,6 +56,7 @@
     "copy-from": "mon_shoggoth",
     "name": "shoggoth",
     "description": "A gargantuan protoplasmic blob, constantly reshaping, forming new pseudopods seemingly at will.  All over its body are eyes that form and disappear.  It looks at you with malice.",
+    "speed": 100,
     "aggression": 80,
     "morale": 100,
     "melee_skill": 9,
@@ -77,6 +78,7 @@
           { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.5 }
         ]
       }
-    ]
+    ],
+    "flags": [ "SEES", "SMELLS", "SWIMS", "PLASTIC", "SLUDGEPROOF", "ACID_BLOOD", "ACIDPROOF", "NOHEAD", "REGENERATES_50", "ABSORBS", "REGEN_MORALE", "NOGIB", "ATTACKMON" ]
   }
 ]

@@ -1350,6 +1350,25 @@
     "price" : 16000
   },
   {
+    "id": "spear_knife",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": "knife spear",
+    "description": "This is a simple wood pole made much more deadly by the blade tied to it.",
+    "weight": 1487,
+    "volume": 6,
+    "price": 1400,
+    "to_hit": 1,
+    "bashing": 4,
+    "cutting": 16,
+    "material": [ "wood", "iron" ],
+    "symbol": "/",
+    "color": "brown",
+    "techniques" : [ "WBLOCK_1", "stuck_in_2" ],
+    "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ] ],
+    "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ]
+  },
+  {
     "type":"GENERIC",
     "id" : "spear_wood",
     "name" : "wooden spear",
