@@ -48,7 +48,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "rat",
-    "by_mood": [ "zombie", "small_animal", "rat" ]
+    "by_mood": [ "zombie", "small_animal" ]
   },
   {
     "type": "MONSTER_FACTION",

@@ -982,7 +982,7 @@
     "id": "mon_finecraft",
     "type": "MONSTER",
     "name": "fungal brood",
-    "description": "This plant's dry body is now host to moist fluid sacs that hang off haphazardly; occasionally bursting into a cloud of haze.",
+    "description": "This plant's once-dry body is now host to moist fluid sacs that hang off haphazardly; occasionally bursting into a cloud of haze.",
     "default_faction": "fungus",
     "species": [ "PLANT", "FUNGUS" ],
     "diff": 20,

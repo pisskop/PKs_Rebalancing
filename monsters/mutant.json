@@ -50,7 +50,7 @@
       { "damage_type": "acid", "amount": 1 }
     ],
     "melee_cut": 3,
-    "dodge": 8,
+    "dodge": 6,
     "attack_effs": [
       { "id": "poison", "duration": 400 },
       { "id": "rad_tenths", "duration": 15 }

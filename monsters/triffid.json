@@ -611,7 +611,7 @@
     "id": "mon_dionaea_sprout",
     "type": "MONSTER",
     "name": "dionaea sprout",
-    "description": "An animate plant a little under 2 meters long, this juvenile still packs a wallop with its fetid mouth.",
+    "description": "An animated carnivorous plant a little under 2 meters long, this juvenile still packs a wallop with its fetid mouth.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
     "diff": 10,
@@ -684,7 +684,7 @@
     "vision_night": 10,
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
-      { "type": "bite", "cooldown": 12, "min_mul": 0.85, "no_infection_chance": 15,
+      { "type": "bite", "cooldown": 12, "min_mul": 0.5, "no_infection_chance": 15,
         "//": "dionaea bitch" },
       [ "VINE", 15 ],
       [ "RANGED_PULL", 3 ]

@@ -5,7 +5,7 @@
     "copy-from": "mon_zombie",
     "special_attacks": [
       { "type": "bite", "cooldown": 5 },
-      [ "GRAB", 15 ],
+      [ "GRAB", 50 ],
       [ "scratch", 20 ]
     ],
     "upgrades": {
@@ -1074,7 +1074,7 @@
     "copy-from": "mon_zombie_tough",
     "burn_into": "mon_zombie_smoker",
     "special_attacks": [
-      [ "GRAB", 15 ],
+      [ "GRAB", 30 ],
       [ "scratch", 20 ],
       { "type": "bite", "cooldown": 5, "min_mul": 0.7 }
     ],

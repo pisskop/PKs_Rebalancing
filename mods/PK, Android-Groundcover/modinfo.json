@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "PK_Android",
+    "name": "PK - Android Compatibility",
+    "description": "This is an attempt to fix the android port.",
+    "category": "balance",
+    "dependencies": [ "PK_REBALANCE" ],
+    "path": ""
+  }
+]

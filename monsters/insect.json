@@ -11,7 +11,7 @@
       { "damage_type": "stab", "amount": 5 }
     ],
     "attack_effs": [
-      { "id": "doom_unhealth", "duration": 2 }
+      { "id": "doom_unhealth", "duration": 2, "chance": 50 }
     ],
     "special_attacks": [ [ "numbing_poison", 20 ], [ "wound_minor", 30 ] ],
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
@@ -37,7 +37,7 @@
     ],
     "special_attacks": [ [ "ACID_ACCURATE", 30 ], [ "numbing_poison", 20 ], [ "wound_minor", 15 ] ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 35 }
     ],
     "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "FAT", "CLIMBS" ]
   },
@@ -285,7 +285,7 @@
       { "damage_type": "stab", "amount": 2 }
     ],
     "attack_effs": [
-      { "id": "badpoison", "duration": 800 }
+      { "id": "badpoison", "duration": 800, "chance": 25 }
     ],
     "armor_bash": 2,
     "armor_cut": 4,
@@ -304,8 +304,8 @@
     "melee_cut": 4,
     "dodge": 4,
     "attack_effs": [
-      { "id": "poison", "duration": 1200 },
-      { "id": "badpoison", "duration": 1200 }
+      { "id": "poison", "duration": 1200, "chance": 50 },
+      { "id": "badpoison", "duration": 1200, "chance": 50 }
     ],
     "emit_fields": [ "emit_web" ],
     "special_attacks": [ [ "wound_minor", 20 ] ],
@@ -330,7 +330,7 @@
       { "damage_type": "acid", "amount": 2 }
     ],
     "attack_effs": [
-    { "id": "poison", "duration": 400 }
+    { "id": "poison", "duration": 400, "chance": 15 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -359,7 +359,7 @@
       { "damage_type": "acid", "amount": 2 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 30 }
     ],
     "armor_bash": 2,
     "armor_cut": 5,
@@ -393,7 +393,7 @@
       { "damage_type": "stab", "amount": 2 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 40 }
     ],
     "armor_bash": 2,
     "armor_cut": 6,
@@ -423,7 +423,7 @@
     "melee_cut": 4,
     "dodge": 2,
     "attack_effs": [
-      { "id": "poison", "duration": 650 }
+      { "id": "poison", "duration": 650, "chance": 40 }
     ],
     "armor_bash": 2,
     "armor_cut": 6,
@@ -453,7 +453,7 @@
     "melee_cut": 8,
     "dodge": 4,
     "attack_effs": [
-      { "id": "poison", "duration": 650 }
+      { "id": "poison", "duration": 650, "chance": 20 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -491,7 +491,7 @@
     "melee_cut": 8,
     "dodge": 6,
     "attack_effs": [
-      { "id": "poison", "duration": 650 }
+      { "id": "poison", "duration": 650, "chance": 20 }
     ],
     "armor_bash": 9,
     "armor_cut": 14,
@@ -631,7 +631,7 @@
     "melee_cut": 3,
     "dodge": 0,
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 5 }
     ],
     "armor_bash": 3,
     "armor_cut": 7,
@@ -671,7 +671,7 @@
       { "damage_type": "stab", "amount": 4 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 10 }
     ],
     "armor_bash": 9,
     "armor_cut": 14,
@@ -709,7 +709,7 @@
       { "damage_type": "acid", "amount": 3 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 15 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -747,9 +747,9 @@
       { "damage_type": "stab", "amount": 8 }
     ],
     "attack_effs": [
-      { "id": "spider_web_slow", "duration": 600 },
-      { "id": "spider_web_alpha", "duration": 360 },
-      { "id": "poison", "duration": 400 }
+      { "id": "spider_web_slow", "duration": 600, "chance": 65 },
+      { "id": "spider_web_alpha", "duration": 360, "chance": 65 },
+      { "id": "poison", "duration": 400, "chance": 50 }
     ],
     "armor_bash": 4,
     "armor_cut": 10,
@@ -784,9 +784,9 @@
       { "damage_type": "stab", "amount": 6 }
     ],
     "attack_effs": [
-      { "id": "spider_web_slow", "duration": 600 },
-      { "id": "spider_web_omega", "duration": 360 },
-      { "id": "poison", "duration": 400 }
+      { "id": "spider_web_slow", "duration": 600, "chance": 65 },
+      { "id": "spider_web_omega", "duration": 360, "chance": 65 },
+      { "id": "poison", "duration": 400, "chance": 50 }
     ],
     "armor_bash": 3,
     "armor_cut": 8,
@@ -821,9 +821,9 @@
       { "damage_type": "stab", "amount": 10 }
     ],
     "attack_effs": [
-      { "id": "spider_web_slow", "duration": 600 },
-      { "id": "spider_web_mu", "duration": 360 },
-      { "id": "poison", "duration": 650 }
+      { "id": "spider_web_slow", "duration": 600, "chance": 65 },
+      { "id": "spider_web_mu", "duration": 360, "chance": 65 },
+      { "id": "poison", "duration": 650, "chance": 50 }
     ],
     "armor_bash": 3,
     "armor_cut": 8,
@@ -859,7 +859,7 @@
       { "damage_type": "acid", "amount": 3 }
     ],
     "attack_effs": [
-      { "id": "badpoison", "duration": 900 }
+      { "id": "badpoison", "duration": 900, "chance": 50 }
     ],
     "armor_bash": 3,
     "armor_cut": 7,
@@ -893,7 +893,7 @@
     ],
     "dodge": 4,
     "attack_effs": [
-      { "id": "poison", "duration": 50 }
+      { "id": "poison", "duration": 50, "chance": 75 }
     ],
     "armor_bash": 4,
     "armor_cut": 6,
@@ -967,7 +967,7 @@
       "groups": [ [ "bees", 35 ] ]
     },
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 75 }
     ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
@@ -1020,7 +1020,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 75 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ],
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "PLAYER_CLOSE" ]
@@ -1075,7 +1075,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 75 }
     ],
     "flags": [ "SEES", "SMELLS", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC", "QUEEN" ]
   },
@@ -1129,7 +1129,7 @@
     },
     "death_function": [ "NORMAL" ],
     "attack_effs": [
-      { "id": "poison", "duration": 400 }
+      { "id": "poison", "duration": 400, "chance": 50 }
     ],
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "FLIES", "STUMBLES", "CHITIN", "SWARMS", "GROUP_MORALE", "ELECTRIC" ]
   },

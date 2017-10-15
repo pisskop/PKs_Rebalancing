@@ -1,5 +1,27 @@
 [
   {
+    "id": "armor_bone",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "bone body armor",
+    "description": "Body armor consisting of a leather backing suit with bone reinforcement.  Light and strong.",
+    "weight": 2687,
+    "volume": 50,
+    "price": 100000,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "bone", "leather" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "LEGS", "TORSO" ],
+    "coverage": 95,
+    "encumbrance": 24,
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "flags": [ "VARSIZE", "STURDY" ]
+  },
+  {
     "id": "duster",
     "//": "Why the hell is the survivor and bog-standard trenchcoat the same encumbrance as a duster but not the leather/fur ones?",
     "type": "ARMOR",
