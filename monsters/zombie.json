@@ -1074,7 +1074,7 @@
     "copy-from": "mon_zombie_tough",
     "burn_into": "mon_zombie_smoker",
     "special_attacks": [
-      [ "GRAB", 30 ],
+      [ "GRAB", 60 ],
       [ "scratch", 20 ],
       { "type": "bite", "cooldown": 5, "min_mul": 0.7 }
     ],

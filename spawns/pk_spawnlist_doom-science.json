@@ -101,9 +101,9 @@
       { "monster": "mon_zombie", "freq": 45, "cost_multiplier": 0 },
       { "monster": "mon_zombie_scientist", "freq": 150, "cost_multiplier": 0, "pack_size": [1,4] },
       { "monster": "mon_zombie_hazmat", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_zombie_bio_op", "freq": 25, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_armored", "freq": 20, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_soldier", "freq": 35, "cost_multiplier": 3 },
+      { "monster": "mon_zombie_bio_op", "freq": 10, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_armored", "freq": 35, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_soldier", "freq": 35, "cost_multiplier": 0 },
       { "monster": "mon_crawler", "freq": 15, "cost_multiplier": 3 },
 
       { "monster": "mon_cherub", "freq": 3, "cost_multiplier": 0, "pack_size": [2,5] },
@@ -152,8 +152,10 @@
       { "monster": "mon_skitterbot", "freq": 85, "cost_multiplier": 0, "pack_size": [2,3] },
       { "monster": "mon_skitterbot", "freq": 1, "cost_multiplier": 0, "pack_size": [8,12] },
       { "monster": "mon_zombie_hazmat", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_zombie_bio_op", "freq": 50, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_armored", "freq": 5, "cost_multiplier": 5 }
+      { "monster": "mon_zombie_bio_op", "freq": 10, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_armored", "freq": 10, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_soldier", "freq": 30, "cost_multiplier": 0 },
+      { "monster": "mon_crawler", "freq": 5, "cost_multiplier": 3 }
     ]
   },
   {
@@ -176,8 +178,10 @@
       { "monster": "mon_skitterbot", "freq": 100, "cost_multiplier": 0 },
       { "monster": "mon_skitterbot", "freq": 50, "cost_multiplier": 0, "pack_size": [2,3] },
       { "monster": "mon_zombie_hazmat", "freq": 100, "cost_multiplier": 0 },
-      { "monster": "mon_zombie_bio_op", "freq": 50, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_armored", "freq": 5, "cost_multiplier": 5 }
+      { "monster": "mon_zombie_bio_op", "freq": 10, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_armored", "freq": 10, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_soldier", "freq": 30, "cost_multiplier": 0 },
+      { "monster": "mon_crawler", "freq": 5, "cost_multiplier": 3 }
     ]
   },
   {

@@ -3635,7 +3635,9 @@
         { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] },
+        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] },
+        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
       ],
       "monster": {
         "@": { "monster": "mon_doom_archdemon" }
