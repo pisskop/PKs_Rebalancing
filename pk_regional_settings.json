@@ -2,7 +2,6 @@
   {
     "type": "region_settings",
     "id": "default",                "//": "identifier, when region_map is in it will determine alternatives ('desert' etc)",
-    "house_basement_chance": 5,           "//": "one_in(n) houses with basements",
     "default_oter": "field",            "//": "default oter_id (anything that isn't a house/road/etc) some become forests",
     "default_groundcover": [
       [ "t_grass", 7850 ], [ "t_dirt",  2130 ], [ "t_tree_young", 15 ], [ "t_dirtmound", 3 ], [ "t_tree", 1 ], [ "t_tree_pine", 1 ]
@@ -136,6 +135,11 @@
           "park": 4,
           "pool": 1
         },
+        "houses": {
+          "house_two_story_basement": 25,
+          "house": 1250,
+          "house_base": 225
+        },
         "shops": {                  "//": "weighted list of oterrains for commercial zoning",
           "s_gas": 5,
           "s_pharm": 3,
@@ -189,6 +193,6 @@
         "base_humidity" : 58.0,
         "base_pressure" : 1025.0,
         "base_acid" : 0.25
-     }
-   }
+    }
+  }
 ]

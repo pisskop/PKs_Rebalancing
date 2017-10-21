@@ -329,7 +329,6 @@
       ],
       "mapping": {
         " ": { "items": { "item": "subway", "chance": 6 } },
-        "%": { "item": { "item": "brazier" } },
         "X": { "items": [ { "item": "art", "chance": 1 }, { "item": "medieval", "chance": 1 }, { "item": "dresser", "chance": 15 }, { "item": "church", "chance": 10 } ] },
         "B": { "furniture": "f_bookcase", "items": { "item": "novels", "chance": 40 } },
         "f": { "items": { "item": "cannedfood", "chance": 30 } },
@@ -354,7 +353,8 @@
         "X": [ "f_crate_c", "f_crate_c", "f_crate_c", "f_crate_o", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
         "x": [ "f_crate_c", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
         "L": "f_locker",
-        "1": "f_grave_monument"
+        "1": "f_grave_monument",
+        "#": "f_brazier"
       },
       "monster": {
         "*": { "monster": "mon_flesh_angel" },
