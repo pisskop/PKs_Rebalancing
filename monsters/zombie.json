@@ -1531,7 +1531,7 @@
     "id": "mon_zombie_hollow",
     "type": "MONSTER",
     "copy-from": "mon_zombie_hollow",
-    "hp": 115,
+    "hp": 110,
     "speed": 80,
     "melee_skill": 6,
     "melee_dice": 2,

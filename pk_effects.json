@@ -463,21 +463,21 @@
     "resist_effects": ["took_flumed", "INFRESIST", "DISRESISTANT"],
     "harmful_cough": true,
     "base_mods": {
-      "speed_mod": [-12, -10],
-      "thirst_tick": [180, 240],
+      "speed_mod": [-12, -5],
+      "thirst_tick": [180, 300],
       "thirst_min": [1],
       "fatigue_tick": [50],
-      "fatigue_chnace": [4, 8],
+      "fatigue_chnace": [4, 12],
       "fatigue_min": [1],
       "str_mod": [-2, -1],
-      "dex_mod": [-1],
-      "per_mod": [-1],
+      "dex_mod": [-1, 0],
+      "per_mod": [-1, 0],
       "pain_min": [0],
       "pain_max": [1],
-      "pain_max_val": [17],
-      "pain_tick": [40, 100],
-      "cough_chance": [800, 1200],
-      "vomit_chance": [3000, 5000]
+      "pain_max_val": [17, 10],
+      "pain_tick": [40, 120],
+      "cough_chance": [800, 1600],
+      "vomit_chance": [3000, 9000]
     }
   }
 ]
