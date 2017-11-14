@@ -806,7 +806,7 @@
     "special_attacks": [ [ "scratch", 20 ], [ "wound_minor", 30 ] ],
     "death_drops": "default_zombie_clothes",
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES", "GUILT" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
     "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT", "FRIEND_DIED" ],
     "placate_triggers": [ "FRIEND_ATTACKED", "MEAT" ]

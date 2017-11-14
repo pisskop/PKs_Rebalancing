@@ -451,7 +451,7 @@
     "type" : "COMESTIBLE",
     "comestible_type" : "MED",
     "name" : "Prussian blue tablet",
-    "description" : "Tablets containing oxidized ferrous ferrocyanide salts.  Capable of purging nuclear contaminants from the body if taken after radiation exposure.  Results take hours to manifest, and lasts all day.",
+    "description" : "Tablets containing oxidized ferrous ferrocyanide salts.  Capable of purging nuclear contaminants from the body if taken after radiation exposure.  Results take hours to manifest, lasts all day, and can be amplified by taking multiple doses.",
     "weight" : 1,
     "volume" : 1,
     "price" : 3000,

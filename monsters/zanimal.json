@@ -15,7 +15,7 @@
     "copy-from": "mon_dog_zombie_cop",
     "burn_into": "mon_zanimal_scorched",
     "upgrades": {
-      "half_life": 18,
+      "half_life": 19,
       "into": "mon_dog_zombie_cop_pk"
     }
   },
@@ -475,7 +475,7 @@
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
-      "half_life": 21,
+      "half_life": 24,
       "into": "mon_zombie_scorched_pk"
     },
     "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
@@ -515,7 +515,7 @@
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
     "upgrades": {
-      "half_life": 21,
+      "half_life": 24,
       "into": "mon_zombie_fiend_pk"
     },
     "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
