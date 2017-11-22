@@ -29,12 +29,11 @@
     "container" : "flask_glass",
     "symbol" : "~",
     "color" : "light_green",
-    "healthy" : -20,
+    "healthy" : -5,
     "addiction_potential" : 8,
     "addiction_type" : "mutagen",
     "use_action" : "MUTAGEN",
-    "tools_needed": "syringe",
-    "flags" : [ "MUTAGEN_WEAK" ]
+    "flags" : [ "MUTAGEN_ANY", "MUTAGEN_STRONG" ]
   },
   {
     "abstract" : "mutagen_flavor",
