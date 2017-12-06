@@ -2,13 +2,13 @@
   {
     "type": "overmap_special",
     "id": "Crater",
-    "copy-from" : "Crater",
+    "copy-from": "Crater",
     "city_distance": [0, -1],
     "occurrences": [0, 15]
   },{
     "type": "overmap_special",
     "id": "Lake",
-    "copy-from" : "Lake",
+    "copy-from": "Lake",
     "overmaps": [
       { "point":[0,0,0], "overmap": "river_center"},
       { "point":[0,1,0], "overmap": "river_center"},
@@ -18,21 +18,21 @@
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, -1],
     "occurrences": [0, 2],
-    "spawns" : { "group": "GROUP_BOG", "population": [1, 10], "radius":[5,50] }
+    "spawns": { "group": "GROUP_BOG", "population": [1, 10], "radius":[5,50] }
   },{
-    "type" : "overmap_special",
-    "id" : "Cave",
-    "overmaps" : [
+    "type": "overmap_special",
+    "id": "Cave",
+    "overmaps": [
        { "point":[0,0,0], "overmap": "cave"}
     ],
-    "locations" : [ "wilderness", "swamp" ],
-    "city_sizes" : [4, 16],
-    "occurrences" : [0, 5],
-    "rotate" : false
+    "locations": [ "wilderness", "swamp" ],
+    "city_sizes": [4, 16],
+    "occurrences": [0, 5],
+    "rotate": false
   },{
     "type": "overmap_special",
     "id": "Mine Entrace",
-    "copy-from" : "Mine Entrace",
+    "copy-from": "Mine Entrace",
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 16],
@@ -55,13 +55,13 @@
   },{
     "type": "overmap_special",
     "id": "warehouse",
-    "copy-from" : "warehouse",
+    "copy-from": "warehouse",
     "occurrences": [0, 4],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Toxic Waste Dump",
-    "copy-from" : "Toxic Waste Dump",
+    "copy-from": "Toxic Waste Dump",
     "occurrences": [0, 4],
     "spawns": { "group": "GROUP_MUTATIONS", "population":[50,150], "radius":[80,240] }
   },{
@@ -79,7 +79,7 @@
   },{
     "type": "overmap_special",
     "id": "sai",
-    "copy-from" : "sai",
+    "copy-from": "sai",
     "connections": [
       { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
@@ -90,33 +90,33 @@
   },{
     "type": "overmap_special",
     "id": "Hospital",
-    "copy-from" : "Hospital",
+    "copy-from": "Hospital",
     "city_distance": [0, 6],
     "occurrences": [1, 3],
     "rotate": true
   },{
-    "type" : "overmap_special",
-    "id" : "Motel",
-    "copy-from" : "Motel",
-    "city_distance" : [12, -1],
-    "occurrences" : [0, 2]
+    "type": "overmap_special",
+    "id": "Motel",
+    "copy-from": "Motel",
+    "city_distance": [12, -1],
+    "occurrences": [0, 2]
   },{
-    "type" : "overmap_special",
-    "id" : "Gas Station",
-    "copy-from" : "Gas Station",
-    "locations" : [ "land" ],
-    "city_distance" : [12, -1],
-    "occurrences" : [1, 4]
+    "type": "overmap_special",
+    "id": "Gas Station",
+    "copy-from": "Gas Station",
+    "locations": [ "land" ],
+    "city_distance": [12, -1],
+    "occurrences": [1, 4]
   },{
     "type": "overmap_special",
     "id": "Hazardous Waste Sarcophagus",
-    "copy-from" : "Hazardous Waste Sarcophagus",
+    "copy-from": "Hazardous Waste Sarcophagus",
     "occurrences": [0, 1],
     "spawns": { "group": "GROUP_MUTATIONS", "population":[100,400], "radius":[100,400] }
   },{
     "type": "overmap_special",
     "id": "Cathedral",
-    "copy-from" : "Cathedral",
+    "copy-from": "Cathedral",
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
@@ -124,7 +124,7 @@
   },{
     "type": "overmap_special",
     "id": "farm_abandoned",
-    "copy-from" : "farm_abandoned",
+    "copy-from": "farm_abandoned",
     "locations": [ "field" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 12],
@@ -133,7 +133,7 @@
   },{
     "type": "overmap_special",
     "id": "Farm",
-    "copy-from" : "Farm",
+    "copy-from": "Farm",
     "locations": [ "land" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
@@ -141,7 +141,7 @@
   },{
     "type": "overmap_special",
     "id": "Farm_wild",
-    "overmaps" : [
+    "overmaps": [
       { "point":[0,0,0], "overmap": "farm_3_north"},
       { "point":[1,0,0], "overmap": "farm_2_north"},
       { "point":[2,0,0], "overmap": "farm_1_north"},
@@ -155,11 +155,11 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [1, 12],
-    "occurrences": [0, 3]
+    "occurrences": [1, 4]
   },{
     "type": "overmap_special",
     "id": "Evac Shelter",
-    "copy-from" : "Evac Shelter",
+    "copy-from": "Evac Shelter",
     "connections": [
       { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
@@ -189,7 +189,7 @@
   },{
     "type": "overmap_special",
     "id": "Slime Pit",
-    "copy-from" : "Slime Pit",
+    "copy-from": "Slime Pit",
     "city_distance": [0, 25],
     "occurrences": [0, 6],
     "rotate": true,
@@ -197,7 +197,7 @@
   },{
     "type": "overmap_special",
     "id": "Home Improvement Superstore",
-    "copy-from" : "Home Improvement Superstore",
+    "copy-from": "Home Improvement Superstore",
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [0, 20],
     "city_sizes": [6, 20],
@@ -205,13 +205,13 @@
   },{
     "type": "overmap_special",
     "id": "Public Works",
-    "copy-from" : "Public Works",
+    "copy-from": "Public Works",
     "city_distance": [2, 12],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Mall",
-    "copy-from" : "Mall",
+    "copy-from": "Mall",
     "overmaps": [
       { "point":[0,0,0], "overmap": "mall_a_1_north"},
       { "point":[1,0,0], "overmap": "mall_a_2_north"},
@@ -313,7 +313,7 @@
   },{
     "type": "overmap_special",
     "id": "Apartments_Mod",
-    "copy-from" : "Apartments_Mod",
+    "copy-from": "Apartments_Mod",
     "locations": [ "land" ],
     "city_distance": [0, 2],
     "occurrences": [0, 3],
@@ -321,7 +321,7 @@
   },{
     "type": "overmap_special",
     "id": "Necropolis",
-    "copy-from" : "Necropolis",
+    "copy-from": "Necropolis",
     "overmaps": [
       { "point":[0,0,0], "overmap": "necropolis_a_1_north"},
       { "point":[1,0,0], "overmap": "necropolis_a_2_north"},
@@ -672,7 +672,7 @@
   },{
     "type": "overmap_special",
     "id": "evac_center",
-    "copy-from" : "evac_center",
+    "copy-from": "evac_center",
     "city_distance": [2, 12],
     "city_sizes": [4, 16],
     "occurrences": [1, 1],
@@ -680,7 +680,7 @@
   },{
     "type": "overmap_special",
     "id": "FEMA Camp",
-    "copy-from" : "FEMA Camp",
+    "copy-from": "FEMA Camp",
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [8, 30],
     "city_sizes": [4, 20],
@@ -715,7 +715,7 @@
   },{
     "type": "overmap_special",
     "id": "Megastore",
-    "copy-from" : "Megastore",
+    "copy-from": "Megastore",
     "overmaps": [
       { "point":[0,-1,0], "overmap": "s_lot"},
       { "point":[1,-1,0], "overmap": "s_lot"},
@@ -740,7 +740,7 @@
   },{
     "type": "overmap_special",
     "id": "School",
-    "copy-from" : "School",
+    "copy-from": "School",
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
@@ -749,8 +749,9 @@
   },{
     "type": "overmap_special",
     "id": "Strange Temple",
-    "copy-from" : "Strange Temple",
-    "occurrences": [0, 2]
+    "copy-from": "Strange Temple",
+    "locations": [ "forest" ],
+    "occurrences": [1, 2]
   },{
     "type": "overmap_special",
     "id": "Strangle Temple_swamp",
@@ -769,7 +770,7 @@
   },{
     "type": "overmap_special",
     "id": "bandit_cabin",
-    "copy-from" : "bandit_cabin",
+    "copy-from": "bandit_cabin",
     "connections": [
         { "point": [1,0,0], "terrain": "road", "existing": true }
     ],
@@ -780,7 +781,7 @@
   },{
     "type": "overmap_special",
     "id": "bandit_camp",
-    "copy-from" : "bandit_camp",
+    "copy-from": "bandit_camp",
     "connections": [
         { "point": [-1,0,0], "terrain": "road", "existing": true }
     ],
@@ -805,7 +806,7 @@
   },{
     "type": "overmap_special",
     "id": "power_station_small",
-    "copy-from" : "power_station_small",
+    "copy-from": "power_station_small",
     "connections": [
         { "point": [-1,0,0], "terrain": "road", "existing": true }
     ],
@@ -815,34 +816,34 @@
     "rotate": false,
     "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 12], "radius":[2, 5] }
   },{
-    "type" : "overmap_special",
-    "id" : "power_station_large",
-    "copy-from" : "power_station_large",
-    "locations" : [ "wilderness", "swamp" ],
-    "city_distance" : [4, 20],
-    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
+    "type": "overmap_special",
+    "id": "power_station_large",
+    "copy-from": "power_station_large",
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [4, 20],
+    "spawns": { "group": "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
   },{
-    "type" : "overmap_special",
-    "id" : "power_station_large By Road",
-    "overmaps" : [
+    "type": "overmap_special",
+    "id": "power_station_large By Road",
+    "overmaps": [
       { "point":[0,1,0], "overmap": "pwr_large_entrance"},
       { "point":[-1,1,0], "overmap": "pwr_large_2"},
       { "point":[-1,0,0], "overmap": "pwr_large_3"},
       { "point":[0,0,0], "overmap": "pwr_large_4"}
     ],
-    "connections" : [
-      { "point" : [0,2,0], "terrain" : "road", "existing": true }
+    "connections": [
+      { "point": [0,2,0], "terrain": "road", "existing": true }
     ],
-    "locations" : [ "wilderness", "swamp" ],
-    "city_distance" : [4, 20],
-    "city_sizes" : [4, 14],
-    "occurrences" : [0, 1],
-    "rotate" : false,
-    "spawns" : { "group" : "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [4, 20],
+    "city_sizes": [4, 14],
+    "occurrences": [0, 1],
+    "rotate": false,
+    "spawns": { "group": "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
   },{
     "type": "overmap_special",
     "id": "football_field",
-    "copy-from" : "football_field",
+    "copy-from": "football_field",
     "connections": [
         { "point": [0,3,0], "terrain": "road", "existing": true }
     ],
@@ -854,7 +855,7 @@
   },{
     "type": "overmap_special",
     "id": "Lab",
-    "copy-from" : "Lab",
+    "copy-from": "Lab",
     "city_distance": [10, -1],
     "city_sizes": [8, 12],
     "occurrences": [2, 4],
@@ -877,16 +878,16 @@
   },{
     "type": "overmap_special",
     "id": "Ice Lab",
-    "copy-from" : "Ice Lab",
+    "copy-from": "Ice Lab",
     "city_distance": [10, -1],
     "occurrences": [1, 3],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "LMOE Shelter",
-    "copy-from" : "LMOE Shelter",
+    "copy-from": "LMOE Shelter",
     "city_distance": [0, -1],
-    "occurrences": [1, 2]
+    "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "LMOE Shelter_swamp",
@@ -902,9 +903,9 @@
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
-    "type" : "overmap_special",
-    "id" : "Strange Cabin",
-    "overmaps" : [
+    "type": "overmap_special",
+    "id": "Strange Cabin",
+    "overmaps": [
       { "point":[0,0,0], "overmap": "cabin_strange" },
       { "point":[1,0,0], "overmap": "cabin_strange_100" },
       { "point":[0,1,0], "overmap": "cabin_strange_010" },
@@ -918,29 +919,30 @@
     "connections": [
       { "point": [1,2,0], "terrain": "road", "existing": true }
     ],
-    "locations" : [ "wilderness", "swamp" ],
-    "city_distance" : [20, -1],
-    "city_sizes" : [4, 12],
-    "occurrences" : [1, 1],
-    "rotate" : false,
-    "flags" : [ "CLASSIC" ],
-    "spawns" : { "group" : "GROUP_CABIN", "population":[40,120], "radius":[80, 240] }
+    "locations": [ "forest", "swamp" ],
+    "city_distance": [20, -1],
+    "city_sizes": [4, 12],
+    "occurrences": [1, 1],
+    "rotate": false,
+    "flags": [ "CLASSIC" ],
+    "spawns": { "group": "GROUP_CABIN", "population":[40,120], "radius":[80, 240] }
   },{
-    "type" : "overmap_special",
-    "id" : "Standing stones",
-    "overmaps" : [
+    "type": "overmap_special",
+    "id": "Standing stones",
+    "overmaps": [
       { "point":[0,0,0], "overmap": "standing_stones"}
     ],
-    "locations" : [ "forest", "swamp" ],
-    "city_distance" : [20, -1],
-    "city_sizes" : [0, 6],
-    "occurrences" : [0, 1],
-    "spawns" : { "group" : "GROUP_CABIN", "population":[25,80], "radius":[250, 500] }
+    "locations": [ "forest", "swamp" ],
+    "city_distance": [20, -1],
+    "city_sizes": [0, 6],
+    "occurrences": [0, 1],
+    "spawns": { "group": "GROUP_CABIN", "population":[25,80], "radius":[250, 500] }
   },{
     "type": "overmap_special",
     "id": "Cabin",
-    "copy-from" : "Cabin",
-    "occurrences": [0, 4]
+    "copy-from": "Cabin",
+    "locations": [ "forest" ],
+    "occurrences": [1, 4]
   },{
     "type": "overmap_special",
     "id": "Cabin_swamp",
@@ -956,7 +958,7 @@
   },{
     "type": "overmap_special",
     "id": "Sewage Treatment Plant",
-    "copy-from" : "Sewage Treatment Plant",
+    "copy-from": "Sewage Treatment Plant",
     "overmaps": [
       { "point":[0,0,0], "overmap": "s_lot"},
       { "point":[0,1,0], "overmap": "sewage_treatment"},
@@ -1008,14 +1010,14 @@
   },{
     "type": "overmap_special",
     "id": "Military Bunker",
-    "copy-from" : "Military Bunker",
+    "copy-from": "Military Bunker",
     "locations": [ "wilderness", "swamp" ],
     "city_distance": [0, -1],
     "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "Military Outpost",
-    "copy-from" : "Military Outpost",
+    "copy-from": "Military Outpost",
     "overmaps": [
       { "point":[0,0,0], "overmap": "outpost"}
     ],
@@ -1040,14 +1042,14 @@
   },{
     "type": "overmap_special",
     "id": "Missile Silo",
-    "copy-from" : "Missile Silo",
+    "copy-from": "Missile Silo",
     "locations": [ "land", "swamp" ],
     "occurrences": [0, 1],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Radio Tower",
-    "copy-from" : "Radio Tower",
+    "copy-from": "Radio Tower",
     "locations": [ "wilderness" ],
     "city_distance": [8, -1],
     "occurrences": [1, 3],
@@ -1070,37 +1072,37 @@
   },{
     "type": "overmap_special",
     "id": "Mansion_Road",
-    "copy-from" : "Mansion_Road",
+    "copy-from": "Mansion_Road",
     "city_distance": [0, -1],
     "occurrences": [1, 3],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Mansion_Wild",
-    "copy-from" : "Mansion_Wild",
+    "copy-from": "Mansion_Wild",
     "occurrences": [0, 2],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "campsite",
-    "copy-from" : "campsite",
+    "copy-from": "campsite",
     "locations": [ "forest", "swamp" ],
     "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "campsite_cabin_incomplete",
-    "copy-from" : "campsite_cabin_incomplete",
+    "copy-from": "campsite_cabin_incomplete",
     "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "campsite_a",
-    "copy-from" : "campsite_a",
+    "copy-from": "campsite_a",
     "locations": [ "forest", "swamp" ],
     "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "campsite_field_biker",
-    "copy-from" : "campsite_field_biker",
+    "copy-from": "campsite_field_biker",
     "connections": [
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
@@ -1108,7 +1110,7 @@
   },{
     "type": "overmap_special",
     "id": "campsite_field_biker_destroyed",
-    "copy-from" : "campsite_field_biker_destroyed",
+    "copy-from": "campsite_field_biker_destroyed",
     "connections": [
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
@@ -1116,7 +1118,7 @@
   },{
     "type": "overmap_special",
     "id": "rest_stop",
-    "copy-from" : "rest_stop",
+    "copy-from": "rest_stop",
     "connections": [
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
@@ -1126,14 +1128,14 @@
   },{
     "type": "overmap_special",
     "id": "roadstop_a",
-    "copy-from" : "roadstop_a",
+    "copy-from": "roadstop_a",
     "city_sizes": [4, 12],
     "occurrences": [ 0 , 2 ],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "roadstop_b",
-    "copy-from" : "roadstop_b",
+    "copy-from": "roadstop_b",
     "city_sizes": [4, 12],
     "occurrences": [ 0, 2 ],
     "rotate": true
@@ -1161,7 +1163,7 @@
   },{
     "type": "overmap_special",
     "id": "pump_station",
-    "copy-from" : "pump_station",
+    "copy-from": "pump_station",
     "overmaps": [
       { "point": [0,0,0],   "overmap": "pump_station_1_north" },
       { "point": [0,1,0],   "overmap": "pump_station_2_north" },
@@ -1181,14 +1183,14 @@
   },{
     "type": "overmap_special",
     "id": "garage_gas",
-    "copy-from" : "garage_gas",
+    "copy-from": "garage_gas",
     "locations": [ "land" ],
     "city_distance": [0, 2],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Office_Tower_2.0",
-    "copy-from" : "Office_Tower_2.0",
+    "copy-from": "Office_Tower_2.0",
     "overmaps": [
       { "point":[-2,0,0], "overmap": "office_tower_2_a1_north"},
       { "point":[-1,0,0], "overmap": "office_tower_2_a2_north"},
@@ -1201,59 +1203,112 @@
     ],
       "connections": [
         { "point": [0,-1,0], "terrain": "road" },
-      { "point": [-2,-1,-1], "terrain": "subway" }
+        { "point": [-2,-1,-1], "terrain": "subway" }
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],
     "occurrences": [ 1, 3 ],
     "rotate": false
   },{
-      "type" : "overmap_special",
-      "id" : "Shipwreck",
-      "overmaps" : [
-          { "point":[0,0,0], "overmap": "shipwreck_river_1"},
-          { "point":[1,0,0], "overmap": "shipwreck_river_2"},
-          { "point":[0,0,-1], "overmap": "shipwreck_river_3"},
-          { "point":[1,0,-1], "overmap": "shipwreck_river_4"}
-      ],
-      "locations" : [ "water" ],
-      "city_sizes" : [1, 16],
-      "occurrences" : [0, 2],
-      "rotate" : false,
-      "spawns" : { "group" : "GROUP_RAZORCLAW", "population":[40,120], "radius":[75, 175] }
+    "type": "overmap_special",
+    "id": "Shipwreck",
+    "copy-from": "Shipwreck",
+    "locations": [ "water" ],
+    "city_sizes": [1, 16],
+    "occurrences": [0, 2],
+    "rotate": false,
+    "spawns": { "group": "GROUP_RAZORCLAW", "population":[40,120], "radius":[75, 175] }
   },
   {
-    "type" : "overmap_special",
-    "id" : "Dairy Farm",
-    "overmaps" : [
-      { "point":[0,0,0], "overmap": "dairy_farm_NW"},
-      { "point":[1,0,0], "overmap": "dairy_farm_NE"},
-      { "point":[0,1,0], "overmap": "dairy_farm_SW"},
-      { "point":[1,1,0], "overmap": "dairy_farm_SE"}
-    ],
-    "connections" : [
-      { "point" : [1,-1,0], "terrain" : "road" }
-    ],
-    "locations" : [ "wilderness" ],
-    "city_distance" : [8, 30],
-    "city_sizes" : [4, 12],
-    "rotate" : false,
-    "occurrences" : [0, 2],
-    "spawns" : { "group" : "GROUP_COW", "population":[10,30], "radius":[12, 30] }
+    "type": "overmap_special",
+    "id": "Dairy Farm",
+    "copy-from": "Dairy Farm",
+    "locations": [ "wilderness" ],
+    "city_distance": [8, 25],
+    "city_sizes": [4, 12],
+    "rotate": false,
+    "occurrences": [0, 2],
+    "spawns": { "group": "GROUP_COW", "population":[10,30], "radius":[12, 30] }
   },
   {
-    "type" : "overmap_special",
-    "id" : "Sugar House",
-    "overmaps" : [
-      { "point":[0,0,0], "overmap": "sugar_house_north" }
-    ],
-    "connections" : [
-      { "point" : [0,-1,0], "terrain" : "road" }
-    ],
-    "locations" : [ "forest" ],
-    "city_distance" : [18, -1],
-    "city_sizes" : [4, 12],
-    "occurrences" : [0, 3],
-    "flags" : [ "CLASSIC" ]
+    "type": "overmap_special",
+    "id": "Sugar House",
+    "copy-from": "Sugar House",
+    "locations": [ "forest" ],
+    "city_distance": [18, -1],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 1],
+    "flags": [ "CLASSIC" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "State Park",
+    "copy-from": "State_Park",
+    "locations": [ "wilderness" ],
+    "city_distance": [ -1, 3 ],
+    "city_sizes": [ 4, 12 ],
+    "occurrences": [ 0, 2 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Fishing Pond",
+    "copy-from": "Fishing Pond",
+    "locations": [ "wilderness" ],
+    "city_distance": [ -1, 12 ],
+    "city_sizes": [ 4, 12 ],
+    "occurrences": [ 0, 2 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Derelict Property",
+    "copy-from": "Derelict Property",
+    "locations": [ "wilderness" ],
+    "city_distance": [ -1, -1 ],
+    "city_sizes": [ 1, 16 ],
+    "occurrences": [ 0, 5 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Hunting Blind",
+    "copy-from": "Hunting Blind",
+    "locations": [ "wilderness" ],
+    "city_distance": [ 8, -1 ],
+    "city_sizes": [ 1, 12 ],
+    "occurrences": [ 0, 4 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Mansion2_Road",
+    "copy-from": "Mansion2_Road",
+    "locations": [ "wilderness", "swamp" ],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 1],
+    "flags": [ "CLASSIC" ]
+  },{
+    "type": "overmap_special",
+    "id": "Mansion2_Road_Alt",
+    "copy-from": "Mansion2_Road_Alt",
+    "locations": [ "wilderness", "swamp" ],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 1],
+    "flags": [ "CLASSIC" ]
+  },{
+    "type": "overmap_special",
+    "id": "Mansion2_Wild",
+    "copy-from": "Mansion2_Wild",
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [10, -1],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 1],
+    "flags": [ "CLASSIC" ]
+  },{
+    "type": "overmap_special",
+    "id": "Mansion2_WildAlt",
+    "copy-from":  "Mansion2_WildAlt",
+    "locations": [ "wilderness", "swamp" ],
+    "city_distance": [10, -1],
+    "city_sizes": [4, 12],
+    "occurrences": [0, 1],
+    "flags": [ "CLASSIC" ]
   }
 ]
