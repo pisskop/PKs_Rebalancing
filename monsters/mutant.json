@@ -822,7 +822,7 @@
     "speed": 120,
     "material": [ "flesh" ],
     "symbol": "R",
-    "color": "dkgrey",
+    "color": "dark_gray",
     "aggression": 0,
     "morale": 80,
     "melee_skill": 8,

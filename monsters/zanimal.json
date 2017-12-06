@@ -151,7 +151,7 @@
     "diff": 16,
     "hp": 55,
     "speed": 135,
-    "color": "igreen",
+    "color": "i_green",
     "aggression": 75,
     "melee_skill": 5,
     "melee_dice": 2,
