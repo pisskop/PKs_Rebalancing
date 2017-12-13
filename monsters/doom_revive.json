@@ -6,7 +6,7 @@
     "species": [ "ABERRATION" ],
     "default_faction": "upper_doom",
     "symbol": "A",
-    "color": "i_dkgray",
+    "color": "dark_gray",
     "size": "MEDIUM",
     "material": [ "flesh" ],
     "diff": 30,

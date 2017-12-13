@@ -731,6 +731,19 @@
   },
   {
     "type": "overmap_special",
+    "id": "sky anomalie_city",
+    "overmaps": [
+      { "point":[0,0,0], "overmap": "sky_vortex_ground" },
+      { "point":[0,0,1], "overmap": "sky_vortex" }
+    ],
+    "locations": [ "swamp", "wilderness" ],
+    "city_distance": [-1, 1],
+    "city_sizes": [4, 16],
+    "occurrences": [0, 1],
+    "rotate": false
+  },
+  {
+    "type": "overmap_special",
     "id": "hunter_cabin",
     "overmaps": [
       { "point":[0,0,0], "overmap": "hunter_shack" }

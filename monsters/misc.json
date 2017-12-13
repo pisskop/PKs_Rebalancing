@@ -596,7 +596,7 @@
     "speed": 85,
     "material": [ "flesh" ],
     "symbol": "r",
-    "color": "i_dkgray",
+    "color": "dark_gray",
     "aggression": -10,
     "morale": 20,
     "melee_skill": 2,
