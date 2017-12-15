@@ -38,7 +38,7 @@
         "//": "mapping for weighted lists of extras",
         "field": {
           "//": "More helicoptor and drugs and goodies.",
-          "chance": 101,
+          "chance": 150,
           "extras": {
             "mx_helicopter": 30,
             "mx_military": 15,
@@ -56,7 +56,7 @@
         },
         "road": {
           "//": "More stuff in the way",
-          "chance": 75,
+          "chance": 90,
           "extras": {
             "mx_helicopter": 30,
             "mx_military": 15,
@@ -75,7 +75,7 @@
         },
         "building": {
           "//": "More drugs and craters and kids",
-          "chance": 60,
+          "chance": 50,
           "extras": {
             "mx_military": 5,
             "mx_science": 10,
@@ -91,7 +91,7 @@
         },
         "subway": {
           "//": "More anomalies",
-          "chance": 50,
+          "chance": 40,
           "extras": {
             "mx_military": 5,
             "mx_science": 15,
@@ -107,7 +107,7 @@
         },
         "doom": {
           "//": "radiation, lava, and supplies",
-          "chance": 25,
+          "chance": 21,
           "extras": {
             "mx_military": 15,
             "mx_science": 25,
@@ -143,7 +143,7 @@
         "shops": {                  "//": "weighted list of oterrains for commercial zoning",
           "s_gas": 5,
           "s_pharm": 4,
-          "s_grocery": 18,
+          "s_grocery": 15,
           "s_hardware": 4,
           "s_sports": 4,
           "dojo": 1,
@@ -200,7 +200,7 @@
         "base_temperature" : 5.0,
         "base_humidity" : 58.0,
         "base_pressure" : 1025.0,
-        "base_acid" : 0.25
+        "base_acid" : 0.18
     }
   }
 ]

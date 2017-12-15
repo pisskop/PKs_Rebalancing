@@ -576,8 +576,9 @@
       [ "SHRIEK_STUN", 1 ],
       { "type": "bite", "cooldown": 3, "no_infection_chance": 4 }
     ],
-    "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "SOUND", "FIRE" ],
-    "fear_triggers": [ "PLAYER_CLOSE", "SOUND", "FRIEND_DIED" ],
+    "anger_triggers": [ "PLAYER_WEAK", "FIRE", "SOUND" ],
+    "fear_triggers": [ "FRIEND_DIED", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "placate_triggers": [ "SOUND" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_1", "WARM", "FLIES", "ANIMAL", "BONES", "LEATHER", "HARDTOSHOOT", "SWARMS", "HIT_AND_RUN", "GROUP_MORALE" ]
   },
