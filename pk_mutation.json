@@ -96,9 +96,7 @@
     "changes_to": ["LUNGS_2"],
     "cancels": [ "GILLS", "GILLS_CEPH"],
     "starting_trait": true,
-    "passive_mods": {
-        "stamina_min": 1
-        }
+    "stamina_regen_modifier": 0.2
   },
   {
     "type": "mutation",
@@ -110,8 +108,6 @@
     "description": "Your lungs are now fit for ROARING!  Combat is much easier as well.",
     "category": ["MUTCAT_BEAST", "MUTCAT_FELINE", "MUTCAT_CHIMERA"],
     "cancels": [ "GILLS", "GILLS_CEPH"],
-    "passive_mods": {
-        "stamina_min": 3
-        }
+    "stamina_regen_modifier": 0.25
   }
 ]

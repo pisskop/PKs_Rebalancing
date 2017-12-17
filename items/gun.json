@@ -117,7 +117,7 @@
     "price": 280000,
     "to_hit": 1,
     "bashing": 18,
-    "cutting": 32,
+    "cutting": 36,
     "material": [ "steel", "spess_plastic" ],
     "symbol": ")",
     "color": "red",

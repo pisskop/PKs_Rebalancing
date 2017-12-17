@@ -6,7 +6,7 @@
     "symbol": "_",
     "color": "brown",
     "move_cost": 0,
-    "flags": [ "REDUCE_SCENT", "NOITEM", "PERMEABLE", "EASY_DECONSTRUCT", "CONNECT_TO_WALL", "FLAMMABLE", "AUTO_WALL_SYMBOL" ],
+    "flags": [ "NOITEM", "PERMEABLE", "EASY_DECONSTRUCT", "CONNECT_TO_WALL", "FLAMMABLE", "AUTO_WALL_SYMBOL" ],
     "bash": {
       "str_min": 8, "str_max": 16,
       "sound": "crack!",
@@ -16,6 +16,23 @@
         { "item": "stick", "count": [2, 5] },
         { "item": "splinter", "count": [4, 8] }
       ]
+    }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_pit_foxhole",
+    "name": "foxhole",
+    "symbol": "Q",
+    "color": "brown",
+    "move_cost": 10,
+    "flags": [ "TRANSPARENT", "INDOORS", "REDUCE_SCENT", "CONTAINER", "FLAMMABLE_ASH", "TINY", "MOUNTABLE", "DIGGABLE" ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 40,
+      "str_max": 100,
+      "str_min_supported": 100,
+      "bash_below": true
     }
   },
   {

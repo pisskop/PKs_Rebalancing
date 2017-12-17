@@ -43,7 +43,8 @@
     "starting_trait": true,
     "valid" : false,
     "cancels": ["BADCARDIO"],
-    "category": ["MUTCAT_FISH", "MUTCAT_CHIMERA", "MUTCAT_RAPTOR"]
+    "category": ["MUTCAT_FISH", "MUTCAT_CHIMERA", "MUTCAT_RAPTOR"],
+    "stamina_regen_modifier": 0.02
   },
   {
     "type": "mutation",
@@ -77,7 +78,8 @@
     "cancels": ["ROT1", "ROT2", "ROT3", "SLOWHEALER", "MET_RAT"],
     "changes_to": ["FASTHEALER2", "REGEN_LIZ"],
     "category": ["MUTCAT_MEDICAL", "MUTCAT_LIZARD"],
-    "metabolism_modifier": 0.1,
+    "metabolism_modifier": 0.4,
+    "stamina_regen_modifier": 0.1,
     "healing_awake" : 0.002,
     "healing_resting" : 0.005
   },
@@ -295,7 +297,8 @@
     "description": "If you are in a very dangerous situation, you may experience a temporary rush which increases your speed and strength significantly.",
     "starting_trait": true,
     "category": ["MUTCAT_BEAST", "MUTCAT_CHIMERA"],
-    "thirst_modifier": 0.05
+    "thirst_modifier": 0.05,
+    "stamina_regen_modifier": 0.5
   },
   {
     "type": "mutation",
@@ -384,7 +387,8 @@
     "starting_trait": true,
     "valid": false,
     "cancels": ["GOODCARDIO"],
-    "category": ["MUTCAT_RAT", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_ELFA"]
+    "category": ["MUTCAT_RAT", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_ELFA"],
+    "stamina_regen_modifier": -0.2
   },
   {
     "type": "mutation",
@@ -1112,9 +1116,7 @@
     "wet_protection": [
             { "part": "HEAD", "good": 1 }
         ],
-    "passive_mods": {
-        "stamina_min": 1
-        }
+    "stamina_regen_modifier": 0.2
   },
   {
     "type": "mutation",
@@ -1129,9 +1131,7 @@
     "wet_protection": [
             { "part": "HEAD", "good": 2 }
         ],
-    "passive_mods": {
-        "stamina_min": 2
-        }
+    "stamina_regen_modifier": 0.25
   },
   {
     "type": "mutation",
@@ -3116,14 +3116,12 @@
     "name": "Burdgeoning Presence",
     "points": 2,
     "visibility": 1,
-    "description": "Your physical frame has begun to expand to reflect the beast within.  You now have ample flesh to support the AllTheThings, but find it harder to wear that constricting clothing. Strength +3, (armor: +3 bash, +1 cut).",
+    "description": "Your physical frame has begun to expand to reflect the beast within.  You now have ample flesh on your limbs to support AllTheThings, but find it harder to wear that constricting clothing. Strength +3, (armor: +3 bash, +1 cut).",
     "encumbrance_always": [
-            [ "TORSO", 5 ],
             [ "HEAD", 5 ],
-            [ "EYES", 5 ],
             [ "MOUTH", 5 ],
             [ "ARM_L", 5 ],
-            [ "ARM_R", 5 ],
+            [ "ARM_R", 5],
             [ "HAND_L", 5 ],
             [ "HAND_R", 5 ],
             [ "LEG_L", 5 ],
@@ -3182,9 +3180,9 @@
     "leads_to": ["MUT_TOUGH"],
     "category": ["MUTCAT_URSINE", "MUTCAT_CATTLE", "MUTCAT_CHIMERA"],
     "passive_mods": {
-        "str_mod": 5,
-        "stamina_min": 2
+        "str_mod": 5
         },
+    "stamina_regen_modifier": 0.3,
     "hp_adjustment": -6,
     "metabolism_modifier": 0.3,
     "fatigue_modifier": 0.2,
