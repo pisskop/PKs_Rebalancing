@@ -246,7 +246,7 @@
       { "point":[0,7,0], "overmap": "apartments_con_tower_SW_north" },
       { "point":[1,7,0], "overmap": "apartments_con_tower_SE_north" },
       { "point": [-2,2,0], "overmap": "sub_station_east" },
-      { "point": [-2,2,-1], "overmap": "subway_station" }
+      { "point": [-2,2,-1], "overmap": "underground_sub_station" }
     ],
     "connections": [
     { "point": [-1,2,0], "terrain": "road" },
