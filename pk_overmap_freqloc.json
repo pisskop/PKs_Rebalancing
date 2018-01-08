@@ -296,8 +296,8 @@
       { "point":[8,8,0], "overmap": "mall_a_81_north"},
       { "point":[4,10,0], "overmap": "sub_station_north"},
       { "point":[3,-2,0], "overmap": "sub_station_south"},
-      { "point":[4,10,-1], "overmap": "subway_station"},
-      { "point":[3,-2,-1], "overmap": "subway_station"}
+      { "point":[4,10,-1], "overmap": "underground_sub_station"},
+      { "point":[3,-2,-1], "overmap": "underground_sub_station"}
     ],
     "connections": [
       { "point": [5,-1,0], "terrain": "road" },
@@ -656,7 +656,7 @@
       { "point":[-3,-6,0], "overmap": "house_south"},
       { "point":[-7,-3,0], "overmap": "s_restaurant_fast_south"},
       { "point": [-7,-5,0], "overmap": "sub_station_south" },
-      { "point": [-7,-5,-1], "overmap": "subway_station" },
+      { "point": [-7,-5,-1], "overmap": "underground_sub_station" },
       { "point":[-10,-7,0], "overmap": "radio_tower"},
       { "point":[4,-2,0], "overmap": "sai"}
     ],
@@ -1199,7 +1199,7 @@
       { "point":[-1,1,0], "overmap": "office_tower_2_b2_north"},
       { "point":[0,1,0], "overmap": "office_tower_2_b3_north"},
       { "point":[0,-2,0], "overmap": "sub_station_south"},
-      { "point":[0,-2,-1], "overmap": "subway_station"}
+      { "point":[0,-2,-1], "overmap": "underground_sub_station"}
     ],
       "connections": [
         { "point": [0,-1,0], "terrain": "road" },
