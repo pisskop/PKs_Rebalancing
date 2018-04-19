@@ -10,6 +10,12 @@
     ]
     },{
     "type":"monstergroup",
+    "name": "GROUP_ZOMBIE_TOUGH",
+    "default": "mon_zombie_hollow",
+    "monsters": [
+    ]
+    },{
+    "type":"monstergroup",
     "name": "GROUP_ZOMBIE_SMOKER",
     "default": "mon_zombie_smoker",
     "monsters": [

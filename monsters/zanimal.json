@@ -164,7 +164,7 @@
     "armor_bash": 3,
     "armor_cut": 1,
     "vision_day": 10,
-    "vision_night": 45,
+    "vision_night": 40,
     "special_attacks": [
       [ "HOWL", 20 ],
       [ "LUNGE", 20 ],

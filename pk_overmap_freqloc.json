@@ -15,7 +15,7 @@
       { "point":[1,0,0], "overmap": "river_center"},
       { "point":[1,1,0], "overmap": "river_center"}
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [8, -1],
     "occurrences": [0, 2],
     "spawns": { "group": "GROUP_BOG", "population": [1, 10], "radius":[5,50] }
@@ -25,7 +25,7 @@
     "overmaps": [
        { "point":[0,0,0], "overmap": "cave"}
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_sizes": [4, 16],
     "occurrences": [0, 5],
     "rotate": false
@@ -33,7 +33,7 @@
     "type": "overmap_special",
     "id": "Mine Entrace",
     "copy-from": "Mine Entrace",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 3]
@@ -47,7 +47,7 @@
     "connections": [
       { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
     "occurrences": [1, 2],
@@ -198,7 +198,7 @@
     "type": "overmap_special",
     "id": "Home Improvement Superstore",
     "copy-from": "Home Improvement Superstore",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [0, 20],
     "city_sizes": [6, 20],
     "occurrences": [0, 2]
@@ -681,7 +681,7 @@
     "type": "overmap_special",
     "id": "FEMA Camp",
     "copy-from": "FEMA Camp",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [8, 30],
     "city_sizes": [4, 20],
     "occurrences": [0, 2],
@@ -741,7 +741,7 @@
     "type": "overmap_special",
     "id": "School",
     "copy-from": "School",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
     "occurrences": [1, 2],
@@ -819,7 +819,7 @@
     "type": "overmap_special",
     "id": "power_station_large",
     "copy-from": "power_station_large",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [4, 20],
     "spawns": { "group": "GROUP_LARGE_STATION", "population":[6, 18], "radius":[3, 8] }
   },{
@@ -834,7 +834,7 @@
     "connections": [
       { "point": [0,2,0], "terrain": "road", "existing": true }
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [4, 20],
     "city_sizes": [4, 14],
     "occurrences": [0, 1],
@@ -870,7 +870,7 @@
       "connections": [
         { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [10, -1],
     "city_sizes": [8, 12],
     "occurrences": [0, 3],
@@ -1011,7 +1011,7 @@
     "type": "overmap_special",
     "id": "Military Bunker",
     "copy-from": "Military Bunker",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [0, -1],
     "occurrences": [1, 3]
   },{
@@ -1280,7 +1280,7 @@
     "type": "overmap_special",
     "id": "Mansion2_Road",
     "copy-from": "Mansion2_Road",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_sizes": [4, 12],
     "occurrences": [0, 1],
     "flags": [ "CLASSIC" ]
@@ -1288,7 +1288,7 @@
     "type": "overmap_special",
     "id": "Mansion2_Road_Alt",
     "copy-from": "Mansion2_Road_Alt",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_sizes": [4, 12],
     "occurrences": [0, 1],
     "flags": [ "CLASSIC" ]
@@ -1296,7 +1296,7 @@
     "type": "overmap_special",
     "id": "Mansion2_Wild",
     "copy-from": "Mansion2_Wild",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [10, -1],
     "city_sizes": [4, 12],
     "occurrences": [0, 1],
@@ -1305,7 +1305,7 @@
     "type": "overmap_special",
     "id": "Mansion2_WildAlt",
     "copy-from":  "Mansion2_WildAlt",
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [10, -1],
     "city_sizes": [4, 12],
     "occurrences": [0, 1],

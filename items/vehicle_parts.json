@@ -163,20 +163,26 @@
     "flags": [ "TURRET" ]
   },
   {
-    "id": "bfg_mounted",
     "type": "vehicle_part",
+    "id": "bfg_mounted",
+    "copy-from": "turret",
     "name": "mounted bfg",
     "item": "BFG",
-    "location": "on_roof",
-    "symbol": "t",
     "broken_symbol": "#",
-    "color": "ltgreen",
+    "color": "light_green",
     "broken_color": "dark_gray",
-    "difficulty": 7,
     "durability": 350,
     "range": 25,
     "breaks_into": [ { "item": "BFG", "prob": 65 } ],
-    "flags": [ "TURRET" ]
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 7 ], [ "electronics", 7 ] ],
+        "time": 10000
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 5 ] ]
+      }
+    }
   },
   {
     "type" : "vehicle_part",

@@ -2,8 +2,18 @@
   {
     "id": "mon_ant_larva",
     "type": "MONSTER",
-    "copy-from": "mon_ant_larva",
+    "edit-mode": "overwrite",
+    "name": "ant larva",
     "description": "A writhing mass of yellowing flesh, this little guy expels its stomach contents if disturbed.",
+    "default_faction": "ant",
+    "species": [ "INSECT" ],
+    "size": "SMALL",
+    "material": [ "iflesh" ],
+    "symbol": "a",
+    "color": "white",
+    "aggression": -1,
+    "speed": 15,
+    "morale": 10,
     "hp": 15,
     "melee_skill": 2,
     "melee_dice": 1,
@@ -24,7 +34,19 @@
   {
     "id": "mon_ant",
     "type": "MONSTER",
-    "copy-from": "mon_ant",
+    "edit-mode": "override",
+    "name": "giant ant",
+    "description": "An enormous red ant covered in chitinous plates.  It possesses a pair of wriggling antennae and vicious-looking mandibles.",
+    "default_faction": "ant",
+    "species": [ "INSECT" ],
+    "diff": 7,
+    "size": "MEDIUM",
+    "hp": 40,
+    "speed": 90,
+    "material": [ "iflesh" ],
+    "symbol": "a",
+    "color": "brown",
+    "morale": 60,
     "melee_skill": 4,
     "melee_dice": 1,
     "melee_dice_sides": 8,
@@ -46,12 +68,10 @@
         ]
       }
     ],
-    "anger_triggers": [ "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
-    "upgrades": {
-      "half_life": 10,
-      "into_group": "GROUP_DRONE"
-    },
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS" ]
+    "upgrades": { "into": "mon_ant_soldier", "half_life": 0 },
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS" ]
   },
   {
     "id": "mon_ant_soldier",

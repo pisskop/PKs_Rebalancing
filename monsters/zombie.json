@@ -1080,7 +1080,7 @@
     ],
     "upgrades": {
       "half_life": 24,
-      "into": "mon_zombie_hollow"
+      "into_group": "GROUP_ZOMBIE_TOUGH"
     }
   },
   {
@@ -1119,7 +1119,7 @@
     "burn_into": "mon_zombie_smoker",
     "upgrades": {
       "half_life": 22,
-      "into": "mon_zombie_hollow"
+      "into_group": "GROUP_ZOMBIE_TOUGH"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
   },
@@ -1162,7 +1162,7 @@
     "burn_into": "mon_zombie_smoker",
     "upgrades": {
       "half_life": 22,
-      "into": "mon_zombie_hollow"
+      "into_group": "GROUP_ZOMBIE_TOUGH"
     },
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
   },

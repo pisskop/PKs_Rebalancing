@@ -13,8 +13,6 @@
   {
     "type": "ITEM_BLACKLIST",
     "items": [
-      "acidbomb",
-      "acidbomb_act"
     ]
   }
 ]

@@ -348,7 +348,7 @@
     "locations": [ "land", "swamp" ],
     "city_distance": [5, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 10],
+    "occurrences": [1, 10],
     "spawns": { "group": "GROUP_ANT", "population":[600,1800], "radius":[25,65] }
   },
   {
@@ -370,7 +370,7 @@
     "locations": [ "forest" ],
     "city_distance": [0, 10],
     "city_sizes": [1, 12],
-    "occurrences": [0, 6],
+    "occurrences": [1, 6],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[18,54], "radius":[4,10] }
   },
