@@ -257,7 +257,7 @@
     "death_function": [ "NORMAL" ],
     "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 3,
+      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 9,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 38, "armor_multiplier": 0.5 }
         ]

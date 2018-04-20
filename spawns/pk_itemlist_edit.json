@@ -3,6 +3,7 @@
     "type": "item_group",
     "id": "pks_default_zed_items",
     "items": [
+      [ "turtleneck", 5 ],
       [ "ithaca_doom", 4 ],
       [ "410_lever", 8 ],
       [ "410_revolver", 10 ],
@@ -131,6 +132,7 @@
       [ "vortex_stone", 4 ],
       [ "dr_stem_cell", 1 ],
       [ "fridge_cargo", 1 ],
+      [ "turtleneck", 4 ],
       [ "oxy_torch", 1 ]
     ]
   },
@@ -213,6 +215,7 @@
       { "group": "prefab_chems", "prob": 30 },
       { "group": "bomblet_ammo", "prob": 50, "count": [2, 5 ] },
       [ "plut_cell", 15 ],
+      [ "turtleneck", 2 ],
       [ "megaarmor_leggings_1", 8 ],
       [ "megaarmor_gloves_1", 8 ],
       [ "megaarmor_armguards_1", 8 ],
@@ -346,7 +349,7 @@
     "type": "item_group",
     "id": "survivorzed_head",
     "items": [
-    [ "megaarmor_head_1", 2 ]
+      [ "megaarmor_head_1", 2 ]
     ]
   },
   {
@@ -390,31 +393,32 @@
     "type": "item_group",
     "id": "bio_op_torso",
     "items": [
-    [ "megaarmor_torso_1", 10 ],
-    [ "megaarmor_torso_2", 10 ],
-    [ "megaarmor_torso_3", 5 ]
+      [ "turtleneck", 1 ],
+      [ "megaarmor_torso_1", 10 ],
+      [ "megaarmor_torso_2", 10 ],
+      [ "megaarmor_torso_3", 5 ]
     ]
   },
   {
     "type": "item_group",
     "id": "bio_op_face",
     "items": [
-    [ "megaarmor_head_1", 10 ]
+      [ "megaarmor_head_1", 10 ]
     ]
   },
   {
     "type": "item_group",
     "id": "bio_op_boots",
     "items": [
-    [ "boots_combat", 10 ],
-    [ "megaarmor_boots_1", 10 ]
+      [ "boots_combat", 10 ],
+      [ "megaarmor_boots_1", 10 ]
     ]
   },
   {
     "type": "item_group",
     "id": "bio_op_gloves",
     "items": [
-    [ "megaarmor_gloves_1", 20 ]
+      [ "megaarmor_gloves_1", 20 ]
     ]
   },
   {
@@ -439,6 +443,7 @@
     "//": "Items that should have very low frequencies and or few locations.",
     "items": [
       { "group": "bomblet_ammo", "prob": 35, "count": [ 1, 2 ] },
+      [ "turtleneck", 4 ],
       [ "megaarmor_torso_1", 20 ],
       [ "megaarmor_torso_2", 20 ],
       [ "megaarmor_torso_3", 10 ],
@@ -620,6 +625,7 @@
     "type": "item_group",
     "id": "vet_softdrug",
     "items": [
+      ["1st_aid", 10],
       [ "pokeball", 3 ],
       [ "machete", 8 ],
       [ "pepto", 20 ],
@@ -645,6 +651,7 @@
     "type": "item_group",
     "id": "vet_hardrug",
     "items": [
+      ["1st_aid", 5],
       [ "pokeball", 10 ],
       [ "machete", 5 ],
       [ "chloroform_rag", 10 ],
@@ -669,6 +676,7 @@
     "type": "item_group",
     "id": "science",
     "items": [
+      ["1st_aid", 5],
       [ "antidote_posion", 10 ],
       [ "triffid_sap", 10 ],
       [ "iodine", 8 ],
@@ -770,6 +778,7 @@
     "id": "hardrugs",
     "items": [
       { "group": "prefab_chems", "prob": 1 },
+      ["1st_aid", 15],
       [ "stamina_vial", 12 ],
       [ "antidote_posion", 10 ],
       [ "antidote_badpoison", 6 ],
@@ -786,6 +795,7 @@
     "id": "softrugs",
     "items": [
       [ "stamina_vial", 35 ],
+      ["1st_aid", 15],
       [ "medikit", 20 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],
@@ -799,6 +809,7 @@
     "type": "item_group",
     "id": "sports",
     "items": [
+      ["1st_aid", 15],
       [ "stamina_vial", 65 ],
       [ "medikit", 25 ],
       [ "berserker_drug", 4 ],
@@ -814,6 +825,7 @@
     "type": "item_group",
     "id": "allsporting",
     "items": [
+      ["1st_aid", 15],
       [ "stamina_vial", 25 ],
       [ "medikit", 15 ],
       [ "pepto", 50 ],
@@ -840,6 +852,7 @@
     "type": "item_group",
     "id": "drugs_analgesic",
     "items": [
+      ["1st_aid", 10],
       [ "stamina_vial", 30 ],
       [ "medikit", 20 ],
       [ "medical_gauze", 8 ]
@@ -1043,6 +1056,7 @@
     "type": "item_group",
     "id": "church",
     "items": [
+      [ "turtleneck", 5 ],
       ["robe", 20],
       [ "ref_lighter_dare", 5 ],
       [ "candle_smoke", 30 ],
@@ -1054,6 +1068,7 @@
     "type": "item_group",
     "id": "livingroom",
     "items": [
+      [ "turtleneck", 1 ],
       [ "candle_smoke", 4 ],
       [ "candle", 5 ]
     ]
@@ -1071,9 +1086,24 @@
     "type": "item_group",
     "id": "bedroom",
     "items": [
+      [ "turtleneck", 4 ],
       [ "candle_smoke", 2 ],
       [ "candle", 3 ],
       [ "medical_gauze", 1 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "dresser",
+    "items":[
+      [ "turtleneck", 5 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "fridgesnacks",
+    "items":[
+      [ "fresh_fries_big", 15 ]
     ]
   },
   {

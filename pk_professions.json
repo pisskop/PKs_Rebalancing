@@ -6,11 +6,11 @@
     "description": "Having just torn a hole through hell itself, you stepped into a teleporter to find yourself... here.  Your radio is dead, you're out of supplies, and you're still knee-deep in the dead.  There's a whole new world to purge, but you see some old enemies ahead.",
     "points": 8,
     "skills": [
-      { "name": "gun", "level": 2 },
-      { "name": "dodge", "level": 2 },
-      { "name": "melee", "level": 1 },
-      { "name": "shotgun", "level": 1 },
-      { "name": "firstaid", "level": 1 }
+      { "name": "gun", "level": 4 },
+      { "name": "dodge", "level": 5 },
+      { "name": "melee", "level": 3 },
+      { "name": "shotgun", "level": 4 },
+      { "name": "firstaid", "level": 3 }
     ],
     "traits": [
       "PSYCHOPATH",
@@ -35,7 +35,7 @@
           "stamina_vial"
         ],
         "entries": [
-          { "item": "m1911", "ammo-item": "45_jhp", "charges": 7, "contents-item": "brass_catcher", "container-item": "holster" },
+          { "item": "m1911", "ammo-item": "45_jhp", "charges": 7, "container-item": "holster" },
           { "item": "45_jhp", "charges": 7, "container-item": "m1911mag" },
           { "item": "45_jhp", "charges": 16 },
           { "item": "ithaca_doom", "ammo-item": "shot_00", "charges": 12, "container-item":  "megaarmor_torso_1" },
@@ -198,6 +198,59 @@
         ],
         "entries": [
           { "item": "chemistry_set", "ammo-item": "battery", "charges": 100 }
+        ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "a pisskop",
+    "name": "pk, on an average day",
+    "description": "You are a rakishly handsome young person who was in their late-20s 20 years ago.  In good shape, and with a perchant for hording sentimental items, you set off on Z-day much as you did any other day . . .",
+    "points": 4,
+    "//": "gotta keep in mind balance . . .",
+      "skills": [
+        { "name": "swimming", "level": 2 },
+        { "name": "speech", "level": 2 },
+        { "name": "computer", "level": 1 },
+        { "name": "firstaid", "level": 1 },
+        { "name": "gun", "level": 1 }
+      ],
+      "traits": [
+        "PRETTY",
+        "FORGETFUL",
+        "LUNGS"
+      ],
+      "items": {
+        "male": [
+        "boxer_shorts"
+      ],
+      "female": [
+        "sports_bra",
+        "panties"
+      ],
+      "both": {
+        "items": [
+          "sneakers",
+          "socks",
+          "pants",
+          "leather_belt",
+          "tshirt",
+          "dress_shirt",
+          "turtleneck",
+          "hat_cotton",
+          "gloves_leather",
+          "cell_phone",
+          "matches",
+          "permanent_marker",
+          "cash_card",
+          "diveknife",
+          "banana",
+          "maple_candy",
+          "newest_newspaper"
+        ],
+        "entries": [
+          { "item": "flask_hip", "ammo-item": "protein_drink", "charges": 1 }
         ]
       }
     }

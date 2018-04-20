@@ -131,7 +131,7 @@
       [ "GRAB", 30 ],
       [ "FEAR_PARALYZE", 20 ],
       [ "hammer", 15 ],
-      { "type": "bite", "cooldown": 15,
+      { "type": "bite", "cooldown": 15, "no_infection_chance": 9,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.8 },
           { "damage_type": "cold", "amount": 3 }

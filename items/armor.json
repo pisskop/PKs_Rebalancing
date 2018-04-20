@@ -1,5 +1,51 @@
 [
   {
+    "id": "turtleneck",
+    "type": "ARMOR",
+    "name": "turtleneck",
+    "description": "A tasteful synthetic turtleneck, modeled after cashmere.  Unemcumbering and warm, but lacking storage.",
+    "weight": 478,
+    "volume": 10,
+    "price": 14500,
+    "material": [ "fur" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "TORSO", "ARMS", "MOUTH" ],
+    "coverage": 98,
+    "encumbrance": 10,
+    "warmth": 40,
+    "material_thickness": 3,
+    "use_action": {
+          "target": "turtleneck_rolled",
+          "msg": "You adjust the neck and collar of the turtleneck.",
+          "type": "transform"
+    },
+    "flags": [ "VARSIZE", "FANCY", "ALLOWS_NATURAL_ATTACKS" ]
+  },
+  {
+    "id": "turtleneck_rolled",
+    "type": "ARMOR",
+    "name": "turtleneck (rolled)",
+    "description": "This turtlenecks neck is rolled out of the way of the mouth.",
+    "weight": 478,
+    "volume": 10,
+    "price": 14500,
+    "material": [ "fur" ],
+    "symbol": "[",
+    "color": "white",
+    "covers": [ "TORSO", "ARMS" ],
+    "coverage": 95,
+    "encumbrance": 10,
+    "warmth": 40,
+    "material_thickness": 3,
+    "use_action": {
+          "target": "turtleneck",
+          "msg": "You adjust the neck and collar of the turtleneck.",
+          "type": "transform"
+    },
+    "flags": [ "VARSIZE", "FANCY", "ALLOWS_NATURAL_ATTACKS" ]
+  },
+  {
     "id": "bandolier_bomblet",
     "type": "ARMOR",
     "name": "bomblet bandolier",

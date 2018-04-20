@@ -645,8 +645,8 @@
       "torso_scaling": 1,
       "head_scaling": 1,
       "bleed": 1,
-      "bite": 0.6,
-      "infect": 0.15,
+      "bite": 0.65,
+      "infect": 0.35,
       "move_cost": 7000,
       "long_action": true,
       "effects": [

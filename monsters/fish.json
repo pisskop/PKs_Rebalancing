@@ -41,7 +41,7 @@
     "vision_day": 35,
     "vision_night": 7,
     "special_attacks": [
-      { "type": "bite", "cooldown": 15, "accuracy": 5, "moves": 75, "no_infection_chance": 3,
+      { "type": "bite", "cooldown": 15, "accuracy": 5, "moves": 75, "no_infection_chance": 15,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }

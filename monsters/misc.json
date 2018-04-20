@@ -133,7 +133,7 @@
     "melee_cut": 2,
     "special_attacks": [
       [ "wound_minor", 7 ],
-      { "type": "bite", "cooldown": 5, "no_infection_chance": 2, "moves": 250 }
+      { "type": "bite", "cooldown": 5, "no_infection_chance": 18, "moves": 250 }
     ],
     "attack_effs": [
       { "id": "doom_unhealth", "duration": 1 },
@@ -165,7 +165,7 @@
     "vision_night": 10,
     "special_attacks": [
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 5, "no_infection_chance": 4, "moves": 250 }
+      { "type": "bite", "cooldown": 5, "no_infection_chance": 8, "moves": 250 }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
     "fear_triggers": [ "PLAYER_CLOSE" ],
@@ -264,7 +264,7 @@
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
       [ "hammer", 30 ],
-      { "type": "bite", "cooldown": 15, "no_infection_chance": 6,
+      { "type": "bite", "cooldown": 15, "no_infection_chance": 18,
         "//": "strong jaws",
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.75 }
@@ -448,7 +448,7 @@
     "path_settings": { "max_dist": 25 },
     "special_attacks": [
       [ "wound_minor", 60 ],
-      { "type": "bite", "cooldown": 20, "min_mul": 0.4, "no_infection_chance": 4 }
+      { "type": "bite", "cooldown": 20, "min_mul": 0.4, "no_infection_chance": 15 }
     ],
     "anger_triggers": [ "STALK", "HURT", "FRIEND_ATTACKED", "PLAYER_WEAK" ],
     "fear_triggers": [ "FRIEND_DIED" ],
@@ -566,7 +566,7 @@
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
       [ "wound_minor", 40 ],
-      { "type": "bite", "cooldown": 7, "min_mul": 0.5, "no_infection_chance": 5,
+      { "type": "bite", "cooldown": 7, "min_mul": 0.5, "no_infection_chance": 18,
         "//": "strong jaws" }
     ],
     "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_WEAK", "FIRE", "PLAYER_CLOSE" ],
@@ -801,7 +801,7 @@
     "vision_night": 10,
     "special_attacks": [
       [ "FLESH_GOLEM", 20 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 7, "no_infection_chance": 5 },
+      { "type": "bite", "cooldown": 30, "accuracy": 7, "no_infection_chance": 18 },
       { "id": "hammer", "cooldown": 30,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
@@ -858,7 +858,7 @@
     "special_attacks": [
       [ "FLESH_GOLEM", 20 ],
       [ "SMASH", 60 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 8, "no_infection_chance": 5 },
+      { "type": "bite", "cooldown": 30, "accuracy": 8, "no_infection_chance": 18 },
       { "id": "hammer", "cooldown": 30,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.80 },
@@ -914,7 +914,7 @@
     "vision_night": 7,
     "special_attacks": [
       [ "hammer", 30 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 6, "no_infection_chance": 5 },
+      { "type": "bite", "cooldown": 20, "accuracy": 6, "no_infection_chance": 18 },
       { "id": "slash", "cooldown": 30,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 10, "armor_multiplier": 0.80 },
@@ -964,7 +964,7 @@
     "vision_day": 30,
     "vision_night": 7,
     "special_attacks": [
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 5 }
+      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 18 }
     ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED", "FIRE" ],
     "fear_triggers": [ "HURT", "FRIEND_DIED", "FIRE", "PLAYER_CLOSE" ],
@@ -1007,7 +1007,7 @@
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
       [ "GRAB", 40 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 9, "no_infection_chance": 9 }
+      { "type": "bite", "cooldown": 30, "accuracy": 9, "no_infection_chance": 12 }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "MEAT", "FIRE", "FIRE" ],
     "fear_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED" ],
@@ -1050,7 +1050,7 @@
     "path_settings": { "max_dist": 20 },
     "special_attacks": [
       [ "hammer", 60 ],
-      { "type": "bite", "cooldown": 25, "min_mul": 0.5, "no_infection_chance": 5 },
+      { "type": "bite", "cooldown": 25, "min_mul": 0.5, "no_infection_chance": 18 },
       { "id": "slash", "cooldown": 40,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 16, "armor_multiplier": 0.85 }

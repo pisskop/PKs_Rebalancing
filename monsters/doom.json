@@ -33,7 +33,7 @@
       [ "LUNGE", 40 ],
       [ "wound_minor", 30 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
-      { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
+      { "type": "bite", "cooldown": 30, "no_infection_chance": 9 },
       {
         "type": "gun",
         "cooldown": 5,
@@ -91,7 +91,7 @@
       [ "slash", 40 ],
       [ "wound_minor", 30 ],
       { "type": "leap", "cooldown": 25, "max_range": 4 },
-      { "type": "bite", "cooldown": 30, "no_infection_chance": 6 },
+      { "type": "bite", "cooldown": 30, "no_infection_chance": 9 },
       {
         "type": "gun",
         "cooldown": 5,
@@ -147,7 +147,7 @@
       [ "GRAB_DRAG", 10 ],
       [ "hammer", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 5, "accuracy": 4, "no_infection_chance": 3,
+      { "type": "bite", "cooldown": 5, "accuracy": 4, "no_infection_chance": 9,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 18, "armor_multiplier": 0.5 }
@@ -469,7 +469,7 @@
     "starting_ammo": { "hell_plasma_c": 122 },
     "special_attacks": [
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 4, "no_infection_chance": 3,
+      { "type": "bite", "cooldown": 20, "accuracy": 4, "no_infection_chance": 9,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 35, "armor_multiplier": 0.5 }
         ]

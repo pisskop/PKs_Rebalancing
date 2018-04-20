@@ -61,7 +61,7 @@
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 5, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
@@ -99,7 +99,7 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 6, "armor_multiplier": 0.8 }
@@ -197,7 +197,7 @@
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
@@ -237,7 +237,7 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
@@ -283,7 +283,7 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
@@ -342,7 +342,7 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 10,
+      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }

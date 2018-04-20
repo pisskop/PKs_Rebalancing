@@ -34,7 +34,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "cave_dfshelusk_horror",
+    "id": "cave_dusk_horror",
     "overmaps": [
       { "point":[0,0,0], "overmap": "pit_topside" },
       { "point":[0,0,-1], "overmap": "pit_dusk_horror"}
@@ -49,7 +49,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "Evac Camps Site",
+    "id": "Evac Camp Site",
     "overmaps": [
       { "point":[-1,-1,0], "overmap": "forest" },
       { "point":[-1,0,0], "overmap": "forest" },

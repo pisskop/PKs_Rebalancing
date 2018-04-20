@@ -7,7 +7,7 @@
     "description": "After defeating your foes in Hell you find they fled to Earth.",
     "start_name": "Doom Structures",
     "allowed_locs": [ "hell_church", "doomlabs", "hell_fort" ],
-    "professions": [ "doomguy", "riot_cop" ]
+    "professions": [ "doomguy", "riot_cop", "a pisskop" ]
   },
   {
     "type": "scenario",
@@ -17,7 +17,7 @@
     "description": "You were assigned to the last of the real riots; one of the last to flee when the rioters stopped breathing but kept moving.",
     "start_name": "Public Holdout",
     "allowed_locs": [ "s_bookstore", "s_grocery", "police", "s_garage", "s_library", "hospital_2", "mall_a_30", "religous_church", "religous_cemetery", "public_cemetery" ],
-    "professions": [ "riot_cop", "cop", "sniper_police", "riot_police", "bionic_cop", "swat", "swat_heavy" ],
+    "professions": [ "riot_cop", "cop", "sniper_police", "riot_police", "bionic_cop", "swat", "swat_heavy", "a pisskop" ],
     "flags": [ "SUR_START" ]
   },
   {
