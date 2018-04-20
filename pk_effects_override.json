@@ -13,6 +13,7 @@
   {
     "type": "effect_type",
     "id": "took_flumed",
+    "removes_effects": [ "common_cold", "flu", "infection_minor" ],
     "base_mods": {
       "rad_amount": [3],
       "health_amount": [-5]
@@ -21,7 +22,8 @@
   {
     "type": "effect_type",
     "id": "flushot",
-    "blocks_effects": [ "flu", "flu_zed" ]
+    "blocks_effects": [ "common_cold", "flu", "infection_minor" ],
+    "removes_effects": [ "common_cold", "flu", "flu_zed", "infection_minor" ]
   },
   {
     "type": "effect_type",
@@ -202,7 +204,7 @@
     "base_mods": {
       "per_mod": [-2, -1],
       "dex_mod": [-1, -1],
-      "str_mod": [-2, 0],
+      "str_mod": [-2, 1],
       "speed_mod": [-5],
       "pain_min": [1],
       "pain_chance": [150, 900],
@@ -220,9 +222,9 @@
       "h_mod_min_value": [-100]
     },
     "scaling_mods": {
-      "per_mod": [-1, -0.5],
-      "dex_mod": [-1, -1],
-      "str_mod": [-2, -1],
+      "per_mod": [-0.5, -0.25],
+      "dex_mod": [-0.5, -1],
+      "str_mod": [-1, -1],
       "speed_mod": [-5],
       "pain_min": [0.5],
       "pain_chance": [-25, -200],
@@ -277,7 +279,7 @@
     "scaling_mods": {
       "per_mod": [-1],
       "dex_mod": [-1.5],
-      "str_mod": [-1.5, -1],
+      "str_mod": [-1.25, -1],
       "speed_mod": [-5],
       "pain_min": [2],
       "pain_chance": [-20, -100],

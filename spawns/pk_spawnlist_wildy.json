@@ -52,7 +52,7 @@
       { "monster": "mon_ant_terminal", "freq": 10, "cost_multiplier": 0 },
       { "monster": "mon_ant_scrib", "freq": 250, "cost_multiplier": 0 },
       { "monster": "mon_ant_soldier_pk_weak", "freq": 40, "cost_multiplier": 5 },
-      { "monster": "mon_ant_queen_young", "freq": 25, "cost_multiplier": 9, "conditions": ["SPRING"], "starts":   75 },
+      { "monster": "mon_ant_queen_young", "freq": 10, "cost_multiplier": 9, "conditions": ["SPRING"], "starts":   75 },
       { "monster": "mon_ant_male", "freq": 60, "cost_multiplier": 7, "conditions": ["SPRING"], "starts":   25 },
       { "monster": "mon_ant_larva", "freq": 20, "cost_multiplier": 0, "conditions": ["SPRING"] },
       { "monster": "mon_ant_fungus", "freq": 1, "cost_multiplier": 20, "pack_size": [1,2], "conditions": [ "SPRING", "SUMMER" ], "starts":   50 },

@@ -347,7 +347,7 @@
     "id": "mon_zombie_shrieker",
     "type": "MONSTER",
     "copy-from": "mon_zombie_shrieker",
-    "vision_day": 50,
+    "vision_day": 45,
     "vision_night": 2,
     "attack_effs": [
       { "id": "flu_zed", "duration": 8000, "chance": 1 }
@@ -362,7 +362,7 @@
     "id": "mon_zombie_screecher",
     "type": "MONSTER",
     "copy-from": "mon_zombie_screecher",
-    "vision_day": 50,
+    "vision_day": 45,
     "vision_night": 3,
     "special_attacks": [
       [ "SHRIEK_ALERT", 20 ],
@@ -1269,7 +1269,7 @@
     "id": "mon_zombie_brute",
     "type": "MONSTER",
     "copy-from": "mon_zombie_brute",
-    "speed": 85,
+    "speed": 80,
     "special_attacks": [
       [ "SMASH", 30 ],
       [ "GRAB", 7 ],
@@ -1284,7 +1284,7 @@
     "id": "mon_zombie_brute_shocker",
     "type": "MONSTER",
     "copy-from": "mon_zombie_brute_shocker",
-    "speed": 85,
+    "speed": 75,
     "hp": 240,
     "melee_skill": 4,
     "melee_dice": 3,
@@ -1531,7 +1531,7 @@
     "id": "mon_zombie_hollow",
     "type": "MONSTER",
     "copy-from": "mon_zombie_hollow",
-    "hp": 110,
+    "hp": 100,
     "speed": 80,
     "melee_skill": 6,
     "melee_dice": 2,
@@ -1953,7 +1953,7 @@
     "id": "mon_zombie_crawler_pk",
     "type": "MONSTER",
     "name": "shambler",
-    "description": "A prone humanoidesque monster, engorged to the size of 3 men, that springs forward with a sickening sucking sound.  As it consumes bodies and materials from the ground it becomes stronger and produces several blobs.",
+    "description": "A prone humanoidesque monster, engorged to the size of 3 men, that springs forward with a sickening sucking sound.  As it consumes bodies and materials from the ground it becomes much, much stronger and produces several blobs.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
     "diff": 24,

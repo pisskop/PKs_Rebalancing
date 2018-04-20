@@ -68,7 +68,10 @@
         ]
       }
     ],
-    "upgrades": { "into": "mon_ant_soldier", "half_life": 0 },
+    "upgrades":{
+      "into_group": "GROUP_DRONE",
+      "half_life": 10
+    },
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS" ]
@@ -153,7 +156,7 @@
     "vision_day": 7,
     "vision_night": 7,
     "special_attacks": [
-      [ "scrib", 360 ],
+      [ "scrib", 120 ],
       [ "SHRIEK_ALERT", 40 ],
       [ "SHRIEK_STUN", 1 ]
     ],

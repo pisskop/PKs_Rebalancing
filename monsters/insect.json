@@ -11,7 +11,7 @@
       { "damage_type": "stab", "amount": 5 }
     ],
     "attack_effs": [
-      { "id": "doom_unhealth", "duration": 2, "chance": 50 }
+      { "id": "doom_unhealth", "duration": 2, "chance": 20 }
     ],
     "special_attacks": [ [ "numbing_poison", 20 ], [ "wound_minor", 30 ] ],
     "flags": [ "SEES", "SMELLS", "HEARS", "STUMBLES", "VENOM", "FLIES", "HIT_AND_RUN", "CHITIN", "PARALYZEVENOM", "GRABS" ]
@@ -202,7 +202,7 @@
     "id": "mon_moth",
     "type": "MONSTER",
     "name": "giant moth",
-    "description": "A torso-sized translucent white moth.  It flutters around erratically, drawn to light sources.",
+    "description": "A torso-sized translucent white moth.  It flutters around erratically, drawn to light sources, and releases a faint trail of anti-fungal powder in its wake.",
     "default_faction": "roach",
     "categories": [ "WILDLIFE" ],
     "species": [ "INSECT" ],
@@ -330,7 +330,7 @@
       { "damage_type": "acid", "amount": 2 }
     ],
     "attack_effs": [
-    { "id": "poison", "duration": 400, "chance": 15 }
+    { "id": "poison", "duration": 400, "chance": 5 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -453,7 +453,7 @@
     "melee_cut": 8,
     "dodge": 4,
     "attack_effs": [
-      { "id": "poison", "duration": 650, "chance": 20 }
+      { "id": "poison", "duration": 650, "chance": 15 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
@@ -491,7 +491,7 @@
     "melee_cut": 8,
     "dodge": 6,
     "attack_effs": [
-      { "id": "poison", "duration": 650, "chance": 20 }
+      { "id": "poison", "duration": 650, "chance": 15 }
     ],
     "armor_bash": 9,
     "armor_cut": 14,
@@ -671,7 +671,7 @@
       { "damage_type": "stab", "amount": 4 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400, "chance": 10 }
+      { "id": "poison", "duration": 400, "chance": 4 }
     ],
     "armor_bash": 9,
     "armor_cut": 14,
@@ -709,7 +709,7 @@
       { "damage_type": "acid", "amount": 3 }
     ],
     "attack_effs": [
-      { "id": "poison", "duration": 400, "chance": 15 }
+      { "id": "poison", "duration": 400, "chance": 5 }
     ],
     "armor_bash": 4,
     "armor_cut": 8,
