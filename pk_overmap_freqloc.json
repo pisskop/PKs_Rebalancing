@@ -16,12 +16,13 @@
       { "point":[1,1,0], "overmap": "river_center"}
     ],
     "locations": [ "land" ],
-    "city_distance": [8, -1],
+    "city_distance": [6, -1],
     "occurrences": [0, 2],
     "spawns": { "group": "GROUP_BOG", "population": [1, 10], "radius":[5,50] }
   },{
     "type": "overmap_special",
     "id": "Cave",
+    "copy-from": "Cave",
     "overmaps": [
        { "point":[0,0,0], "overmap": "cave"}
     ],
@@ -36,7 +37,7 @@
     "locations": [ "land" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 3]
+    "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "Mine Entrace By Road",
@@ -63,7 +64,7 @@
     "id": "Toxic Waste Dump",
     "copy-from": "Toxic Waste Dump",
     "occurrences": [0, 4],
-    "spawns": { "group": "GROUP_MUTATIONS", "population":[50,150], "radius":[80,240] }
+    "spawns": { "group": "GROUP_MUTATIONS", "population":[25,100], "radius":[80,240] }
   },{
     "type": "overmap_special",
     "id": "Toxic Waste Dump Swamp",
@@ -92,7 +93,7 @@
     "id": "Hospital",
     "copy-from": "Hospital",
     "city_distance": [0, 6],
-    "occurrences": [1, 3],
+    "occurrences": [1, 2],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -117,7 +118,7 @@
     "type": "overmap_special",
     "id": "Cathedral",
     "copy-from": "Cathedral",
-    "city_distance": [0, 8],
+    "city_distance": [0, 10],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
     "rotate": true
@@ -164,7 +165,7 @@
       { "point": [0,-1,0], "terrain": "road", "existing": true }
     ],
     "locations": [ "land", "swamp" ],
-    "city_distance": [4, 10],
+    "city_distance": [0, 16],
     "city_sizes": [4, 16],
     "occurrences": [1, 3],
     "rotate": false
@@ -183,7 +184,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [8, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 2],
+    "occurrences": [1, 3],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -684,7 +685,7 @@
     "locations": [ "land" ],
     "city_distance": [8, 30],
     "city_sizes": [4, 20],
-    "occurrences": [0, 2],
+    "occurrences": [1, 2],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -709,7 +710,7 @@
     "locations": [ "land" ],
     "city_distance": [0, 8],
     "city_sizes": [4, 12],
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -736,7 +737,7 @@
     "locations": [ "land" ],
     "city_distance": [0, 16],
     "rotate": false,
-    "occurrences": [1, 2]
+    "occurrences": [1, 1]
   },{
     "type": "overmap_special",
     "id": "School",
@@ -766,7 +767,7 @@
     "locations": [ "swamp" ],
     "city_distance": [20, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 3]
+    "occurrences": [1, 2]
   },{
     "type": "overmap_special",
     "id": "bandit_cabin",
@@ -942,7 +943,7 @@
     "id": "Cabin",
     "copy-from": "Cabin",
     "locations": [ "forest" ],
-    "occurrences": [1, 4]
+    "occurrences": [1, 3]
   },{
     "type": "overmap_special",
     "id": "Cabin_swamp",
@@ -952,7 +953,7 @@
     "locations": [ "swamp" ],
     "city_distance": [20, -1],
     "city_sizes": [4, 12],
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -1074,13 +1075,13 @@
     "id": "Mansion_Road",
     "copy-from": "Mansion_Road",
     "city_distance": [0, -1],
-    "occurrences": [1, 3],
+    "occurrences": [1, 2],
     "rotate": true
   },{
     "type": "overmap_special",
     "id": "Mansion_Wild",
     "copy-from": "Mansion_Wild",
-    "occurrences": [0, 2],
+    "occurrences": [0, 1],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -1207,7 +1208,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [0, 8],
-    "occurrences": [ 1, 3 ],
+    "occurrences": [ 0, 3 ],
     "rotate": false
   },{
     "type": "overmap_special",
@@ -1235,7 +1236,7 @@
     "id": "Sugar House",
     "copy-from": "Sugar House",
     "locations": [ "forest" ],
-    "city_distance": [18, -1],
+    "city_distance": [24, -1],
     "city_sizes": [4, 12],
     "occurrences": [0, 1],
     "flags": [ "CLASSIC" ]
@@ -1272,9 +1273,9 @@
     "id": "Hunting Blind",
     "copy-from": "Hunting Blind",
     "locations": [ "wilderness" ],
-    "city_distance": [ 8, -1 ],
+    "city_distance": [ 16, -1 ],
     "city_sizes": [ 1, 12 ],
-    "occurrences": [ 0, 4 ]
+    "occurrences": [ 0, 3 ]
   },
   {
     "type": "overmap_special",

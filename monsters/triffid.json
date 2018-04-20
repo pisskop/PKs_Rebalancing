@@ -291,7 +291,7 @@
     "id": "mon_creeper_root",
     "type": "MONSTER",
     "name": "slithering root",
-    "description": "A twisting cluster of roots, with 3 barbed vines curled limply around a wildly cluster of smaller vines.  When disturbed, it can release several of these vines.",
+    "description": "A twisting cluster of roots, with 3 barbed vines curled limply around a wildy cluster of smaller vines.  When disturbed, it can release several of these vines.",
     "default_faction": "triffid",
     "species": [ "PLANT" ],
     "diff": 16,

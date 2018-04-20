@@ -34,7 +34,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "cave_dusk_horror",
+    "id": "cave_dfshelusk_horror",
     "overmaps": [
       { "point":[0,0,0], "overmap": "pit_topside" },
       { "point":[0,0,-1], "overmap": "pit_dusk_horror"}
@@ -49,7 +49,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "Evac Camp Site",
+    "id": "Evac Camps Site",
     "overmaps": [
       { "point":[-1,-1,0], "overmap": "forest" },
       { "point":[-1,0,0], "overmap": "forest" },
@@ -65,7 +65,7 @@
     "locations": [ "forest" ],
     "city_distance": [10, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 2],
+    "occurrences": [0, 3],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },
@@ -345,18 +345,28 @@
     "type": "overmap_special",
     "id": "Anthill",
     "copy-from" : "Anthill",
-    "locations": [ "land", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [5, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 10],
+    "occurrences": [1, 5],
     "spawns": { "group": "GROUP_ANT", "population":[600,1800], "radius":[25,65] }
+  },
+  {
+    "type" : "overmap_special",
+    "id" : "Acid Anthill",
+    "copy-from" : "Acid_Anthill",
+    "city_distance" : [5, -1],
+    "city_sizes" : [0, 20],
+    "occurrences" : [0, 3],
+    "rotate" : false,
+    "spawns": { "group": "GROUP_ANT", "population":[500,1600], "radius":[20,50] }
   },
   {
     "type": "overmap_special",
     "id": "Spider Pit",
     "copy-from" : "Spider Pit",
     "city_distance": [0, -1],
-    "occurrences": [2, 15],
+    "occurrences": [2, 8],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[20,60], "radius":[4,12] }
   },
@@ -370,7 +380,7 @@
     "locations": [ "forest" ],
     "city_distance": [0, 10],
     "city_sizes": [1, 12],
-    "occurrences": [1, 6],
+    "occurrences": [1, 4],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER", "population":[18,54], "radius":[4,10] }
   },
@@ -384,7 +394,7 @@
     "locations": [ "field" ],
     "city_distance": [0, 8],
     "city_sizes": [4, 16],
-    "occurrences": [2, 8],
+    "occurrences": [2, 4],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,12] }
   },
@@ -398,7 +408,7 @@
     "locations": [ "field" ],
     "city_distance": [2, -1],
     "city_sizes": [4, 16],
-    "occurrences": [2, 15],
+    "occurrences": [2, 6],
     "rotate": false,
     "spawns": { "group":  "GROUP_SPIDER_TRAP", "population":[15,40], "radius":[4,10] }
   },
@@ -559,7 +569,7 @@
     "connections": [
     { "point": [2,-1,0], "terrain": "road" }
     ],
-    "locations": [ "wilderness", "swamp" ],
+    "locations": [ "land" ],
     "city_distance": [3, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 2],
@@ -684,7 +694,7 @@
     "connections": [
     { "point": [-2,5,0], "terrain": "road" }
     ],
-    "locations": [ "swamp", "wilderness" ],
+    "locations": [ "land" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 16],
     "occurrences": [0, 1],
@@ -751,7 +761,7 @@
     "locations": [ "swamp" ],
     "city_distance": [18, -1],
     "city_sizes": [4, 16],
-    "occurrences": [0, 2],
+    "occurrences": [1, 2],
     "rotate": false
   }
 ]
