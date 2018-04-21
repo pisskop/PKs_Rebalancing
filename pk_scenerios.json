@@ -3,7 +3,7 @@
     "type": "scenario",
     "ident": "PRM_Doomguy",
     "name": "Doom",
-    "points": -2,
+    "points": -4,
     "description": "After defeating your foes in Hell you find they fled to Earth.",
     "start_name": "Doom Structures",
     "allowed_locs": [ "hell_church", "doomlabs", "hell_fort" ],
@@ -17,7 +17,6 @@
     "description": "You were assigned to the last of the real riots; one of the last to flee when the rioters stopped breathing but kept moving.",
     "start_name": "Public Holdout",
     "allowed_locs": [ "s_bookstore", "s_grocery", "police", "s_garage", "s_library", "hospital_2", "mall_a_30", "religous_church", "religous_cemetery", "public_cemetery" ],
-    "professions": [ "riot_cop", "cop", "sniper_police", "riot_police", "bionic_cop", "swat", "swat_heavy", "a pisskop" ],
     "flags": [ "SUR_START" ]
   },
   {
@@ -25,8 +24,18 @@
     "ident": "isolationist",
     "name": "Out of Town",
     "points": 1,
-    "description": "You were outside of civilization when the bombs fell; you didn't even know the end had come, or that everyone was (un)dead.  Will this ignorance save you from the fate of the rest?",
+    "description": "You were outside of civilization when the bombs fell; you don't even know the end had come, or that everyone was (un)dead.  Will this ignorance save you from the fate of the rest?",
     "start_name": "Out of City",
     "allowed_locs": [ "Swamp Shack", "campground", "survivalist farm", "farm unsettled", "cabin_woods" ]
+  },
+  {
+    "type": "scenario",
+    "ident": "teleported",
+    "name": "Warped In",
+    "points": -1,
+    "description": "You were somewhere else; where the world was not like this.  Then there was some kind of light.  Now you are here.  Where it is and why you are here, you do not know.",
+    "start_name": "Warp Zone",
+    "allowed_locs": [ "sky anomalie", "sludge pit", "Strange Cabin", "Crater", "doom_lab_warp" ],
+    "professions": [ "churl", "unemployed", "riot_cop", "doomguy", "huntsman", "mutant_crafter", "a pisskop", "scoundrel", "soldier", "survivalist", "crackhead", "tweaker", "salesman", "patient", "hitchhiker", "clown", "lost_sub", "bionic_firefighter", "bionic_spy", "cyberjunkie", "blackbelt", "archaeologist", "road_warrior", "naturalist", "reenactor", "jdelinquent", "photojournalist"  ]
   }
 ]

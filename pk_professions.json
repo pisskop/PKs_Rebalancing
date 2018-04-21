@@ -49,7 +49,7 @@
     "ident": "riot_cop",
     "name": "SWAT Pointman",
     "description": "You are a pointman for the statewide SWAT force.  You are dispatched in small groups to settle disputes that the politicians want handled with a more 'human' touch for public relations purposes.  Something spit gooey-hot acid all over your armor and mask, but you still have your shield and arbiter.",
-    "points": 6,
+    "points": 5,
     "skills": [
       { "name": "gun", "level": 3 },
       { "name": "launcher", "level": 2 },
@@ -227,7 +227,7 @@
       ],
       "female": [
         "sports_bra",
-        "panties"
+        "boy_shorts"
       ],
       "both": {
         "items": [

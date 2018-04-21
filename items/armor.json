@@ -13,8 +13,9 @@
     "covers": [ "TORSO", "ARMS", "MOUTH" ],
     "coverage": 98,
     "encumbrance": 10,
-    "warmth": 40,
-    "material_thickness": 3,
+    "warmth": 35,
+    "material_thickness": 2,
+    "environmental_protection": 1,
     "use_action": {
           "target": "turtleneck_rolled",
           "msg": "You adjust the neck and collar of the turtleneck.",
@@ -36,8 +37,9 @@
     "covers": [ "TORSO", "ARMS" ],
     "coverage": 95,
     "encumbrance": 10,
-    "warmth": 40,
-    "material_thickness": 3,
+    "warmth": 35,
+    "material_thickness": 2,
+    "environmental_protection": 1,
     "use_action": {
           "target": "turtleneck",
           "msg": "You adjust the neck and collar of the turtleneck.",
