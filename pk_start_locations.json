@@ -94,5 +94,11 @@
     "ident": "doom_lab_warp",
     "name": "doomlab warp region",
     "target": "doomlab_redacted"
+  },
+  {
+    "type": "start_location",
+    "ident": "Standing stones",
+    "name": "strange stones",
+    "target": "standing_stones"
   }
 ]
