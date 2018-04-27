@@ -285,5 +285,13 @@
     "field": "fd_bile",
     "qty": 2,
     "chance": 4
+  },
+  {
+    "id": "emit_relax_plume",
+    "type": "emit",
+    "//": "stat-draining gas (example: vortex emission)",
+    "field": "fd_relax_gas",
+    "density": 2,
+    "chance": 1
   }
 ]

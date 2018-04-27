@@ -406,7 +406,7 @@
       "dex_mod": [-0.6],
       "speed_mod": [-4],
       "pain_min": [1],
-      "pain_max_val": [30],
+      "pain_max_val": [20],
       "pain_chance": [25],
       "pain_tick": [15]
     },
@@ -431,8 +431,8 @@
     "base_mods": {
        "dex_mod": [-0.5],
        "pain_min": [1],
-       "pain_max_val": [50],
-       "pain_chance": [3],
+       "pain_max_val": [40],
+       "pain_chance": [9],
        "pain_tick": [10],
        "hurt_min": [1],
        "hurt_chance": [25],
@@ -590,7 +590,7 @@
     "miss_messages": [[ "This goo makes you slip", 6]],
     "base_mods": {
       "dex_mod": [-2],
-      "speed_mod": [-25],
+      "speed_mod": [-20],
       "vomit_chance": [1900]
     },
     "scaling_mods": {

@@ -1219,7 +1219,7 @@
     "city_sizes": [1, 16],
     "occurrences": [0, 2],
     "rotate": false,
-    "spawns": { "group": "GROUP_RAZORCLAW", "population":[40,120], "radius":[75, 175] }
+    "spawns": { "group": "GROUP_RAZORCLAW", "population":[15,50], "radius":[50, 155] }
   },
   {
     "type": "overmap_special",

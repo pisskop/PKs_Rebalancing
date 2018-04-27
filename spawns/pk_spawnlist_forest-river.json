@@ -4,7 +4,7 @@
     "name": "GROUP_FOREST",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_null", "freq": 15, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
+      { "monster": "mon_null", "freq": 25, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
       { "monster": "mon_null", "freq": 150, "cost_multiplier": 1, "conditions": ["WINTER"] },
       { "monster": "mon_null", "freq": 50, "cost_multiplier": 1, "conditions": ["DAWN", "DUSK", "NIGHT", "WINTER"] },
 
@@ -558,7 +558,7 @@
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_null", "freq": 100, "cost_multiplier": 1 },
-      { "monster": "mon_null", "freq": 25, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
+      { "monster": "mon_null", "freq": 35, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
       { "monster": "mon_null", "freq": 75, "cost_multiplier": 1, "conditions": ["WINTER"] },
       { "monster": "mon_null", "freq": 75, "cost_multiplier": 1, "conditions": ["DAWN", "DUSK", "NIGHT", "WINTER"] },
 
@@ -704,7 +704,7 @@
     "name": "GROUP_FIELD",
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_null", "freq": 25, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
+      { "monster": "mon_null", "freq": 35, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
       { "monster": "mon_null", "freq": 200, "cost_multiplier": 1, "conditions": ["WINTER"] },
       { "monster": "mon_null", "freq": 100, "cost_multiplier": 1, "conditions": ["DAWN", "DUSK", "NIGHT", "WINTER"] },
 

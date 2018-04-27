@@ -1170,6 +1170,7 @@
     "id": "mon_zombie_master",
     "type": "MONSTER",
     "copy-from": "mon_zombie_master",
+    "speed": 100,
     "vision_day": 50,
     "vision_night": 9,
     "special_attacks": [
@@ -1188,6 +1189,7 @@
     "id": "mon_zombie_necro",
     "type": "MONSTER",
     "copy-from": "mon_zombie_necro",
+    "speed": 100,
     "vision_day": 50,
     "vision_night": 9,
     "special_attacks": [

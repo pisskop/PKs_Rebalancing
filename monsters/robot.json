@@ -101,11 +101,9 @@
     "dodge": 3,
     "armor_bash": 10,
     "armor_cut": 18,
-    "vision_day": 5,
-    "vision_night": 5,
     "special_attacks": [
       [ "slash", 10 ],
-      { "type": "leap", "cooldown": 30, "max_range": 3, "allow_no_target": false }
+      [ "PARROT", 25 ]
     ],
     "death_drops": {
       "groups": [
@@ -114,8 +112,8 @@
       ]
     },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ],
-    "anger_triggers": ["HURT", "FRIEND_DIED", "PLAYER_CLOSE", "STALK"]
+    "flags": [ "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ],
+    "anger_triggers": ["HURT", "FRIEND_DIED", "PLAYER_CLOSE"]
   },
   {
     "id": "mon_broken_cyborg",

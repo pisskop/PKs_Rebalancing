@@ -4,7 +4,7 @@
     "type": "MONSTER",
     "name": "razorclaw",
     "copy-from": "mon_razorclaw",
-    "path_settings": { "max_dist": 5 },
+    "path_settings": { "max_dist": 12 },
     "attack_effs": [
       { "id": "rad_tenths", "duration": 10 },
       { "id": "flu_zed", "duration": 14400, "chance": 5 }
@@ -105,6 +105,7 @@
     "color": "ltgray",
     "aggression": 50,
     "morale": 80,
+    "dodge": 6,
     "attack_effs": [
       { "id": "rad_tenths", "duration": 30 }
     ],
@@ -139,7 +140,7 @@
     ],
     "special_attacks": [ [ "sliming", 30 ] ],
     "emit_fields": [ "emit_sludge" ],
-    "dodge": 10,
+    "dodge": 5,
     "armor_bash": 8,
     "vision_day": 10,
     "vision_night": 30,

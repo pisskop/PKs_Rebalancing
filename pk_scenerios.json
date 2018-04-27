@@ -36,6 +36,6 @@
     "description": "You were somewhere else; where the world was not like this.  Then there was some kind of light.  Now you are here.  Where it is and why you are here, you do not know.",
     "start_name": "Warp Zone",
     "allowed_locs": [ "sky anomalie", "sludge pit", "Strange Cabin", "Crater", "doom_lab_warp", "Standing stones" ],
-    "professions": [ "churl", "unemployed", "riot_cop", "doomguy", "huntsman", "mutant_crafter", "a pisskop", "scoundrel", "soldier", "survivalist", "crackhead", "tweaker", "salesman", "patient", "hitchhiker", "clown", "lost_sub", "bionic_firefighter", "bionic_spy", "cyberjunkie", "blackbelt", "archaeologist", "road_warrior", "naturalist", "reenactor", "jdelinquent", "photojournalist"  ]
+    "professions": [ "churl", "unemployed", "riot_cop", "doomguy", "huntsman", "mutant_crafter", "a pisskop", "scoundrel", "soldier", "survivalist", "crackhead", "tweaker", "salesman", "hitchhiker", "clown", "lost_sub", "bionic_firefighter", "bionic_spy", "cyberjunkie", "blackbelt", "archaeologist", "road_warrior", "naturalist", "reenactor", "jdelinquent", "photojournalist"  ]
   }
 ]

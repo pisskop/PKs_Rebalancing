@@ -252,8 +252,8 @@
         "........................"
       ],
       "mapping": {
-        "V": { "items": { "item": "vending_food", "repeat": [ 0, 7 ] } },
-        "v": { "items": { "item": "vending_drink", "repeat": [ 0, 5 ] } },
+        "V": { "items": { "item": "vending_food", "repeat": [ 2, 7 ] } },
+        "v": { "items": { "item": "vending_drink", "repeat": [ 2, 5 ] } },
         ".": { "items": { "item": "trash", "chance": 2 } },
         " ": { "items": { "item": "subway", "chance": 4 } },
         "b": { "items": { "item": "bed", "chance": 35 } },
@@ -278,7 +278,9 @@
         "b": "f_bed",
         "c": "f_chair",
         "C": "f_counter",
-        "t": "f_table"
+        "t": "f_table",
+        "V": "f_vending_c",
+        "v": "f_vending_c"
       },
       "toilets": {
         "T": {}

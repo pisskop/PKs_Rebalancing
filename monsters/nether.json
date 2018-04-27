@@ -16,7 +16,11 @@
     "attack_effs": [
       { "id": "rad_tenths", "duration": 5 }
     ],
-    "emit_fields": [ "emit_radiation_plume" ]
+    "emit_fields": [ "emit_radiation_plume", "emit_relax_plume" ],
+    "special_attacks": [
+      [ "hallucinations", 20 ]
+    ],
+    "flags": [ "HEARS", "GOODHEARING", "STUMBLES", "NOHEAD", "HARDTOSHOOT", "FLIES", "PLASTIC", "NO_BREATHE", "NOGIB", "HIT_AND_RUN" ]
   },
   {
     "id": "mon_stemcell_nether",
@@ -44,7 +48,7 @@
       [ "PARROT", 30 ]
     ],
     "upgrades": {
-      "half_life": 1,
+      "half_life": 2,
       "into_group": "GROUP_NETHER"
     },
     "death_function": [ "MELT" ],
@@ -155,7 +159,7 @@
     "type": "MONSTER",
     "copy-from": "mon_mi_go",
     "name": "mi-go",
-    "hp": 180,
+    "hp": 200,
     "description": "A flexuous monstrosity seeming as a giant crab covered in writhing antennae, clawed tentacles, and star-shaped growths, with a head like the insides of a fish but for its dire utterance."
   },
   {
@@ -210,17 +214,17 @@
           { "damage_type": "bash", "amount": 14 }
         ]
       },
-      { "type": "bite", "cooldown": 20, "no_infection_chance": 4,
+      { "type": "bite", "cooldown": 25, "no_infection_chance": 4,
         "damage_max_instance": [
           { "damage_type": "acid", "amount": 4, "armor_multiplier": 0.75 },
           { "damage_type": "bash", "amount": 22, "armor_multiplier": 0.75 }
         ],
         "effects": [
-          { "id": "paralyzepoison", "duration": 150, "chance": 75 },
-          { "id": "paralyzepoison", "duration": 150, "chance": 75 },
-          { "id": "paralyzepoison", "duration": 150, "chance": 75 },
-          { "id": "paralyzepoison", "duration": 150, "chance": 75 },
-          { "id": "infection_minor", "duration": 28800, "chance": 35 }
+          { "id": "paralyzepoison", "duration": 150, "chance": 30 },
+          { "id": "paralyzepoison", "duration": 150, "chance": 30 },
+          { "id": "paralyzepoison", "duration": 150, "chance": 30 },
+          { "id": "paralyzepoison", "duration": 150, "chance": 30 },
+          { "id": "infection_minor", "duration": 28800, "chance": 50 }
         ]
       }
     ],
@@ -250,6 +254,6 @@
     "armor_acid": 6,
     "vision_day": 40,
     "vision_night": 5,
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BONES", "POISON", "PLASTIC", "REGEN_MORALE", "BLEED", "PATH_AVOID_DANGER_2", "SWARMS", "SUNDEATH", "QUEEN" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BONES", "POISON", "PLASTIC", "REGEN_MORALE", "BLEED", "PATH_AVOID_DANGER_2", "SWARMS", "QUEEN" ]
   }
 ]

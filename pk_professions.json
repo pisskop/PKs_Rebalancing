@@ -4,7 +4,7 @@
     "ident": "doomguy",
     "name": "Doomguy",
     "description": "Having just torn a hole through hell itself, you stepped into a teleporter to find yourself... here.  Your radio is dead, you're out of supplies, and you're still knee-deep in the dead.  There's a whole new world to purge, but you see some old enemies ahead.",
-    "points": 8,
+    "points": 7,
     "skills": [
       { "name": "gun", "level": 4 },
       { "name": "dodge", "level": 5 },
@@ -100,7 +100,7 @@
     "ident": "huntsman",
     "name": "Hunter",
     "description": "Taking to the woods for long periods of isolated hunting, your reliance on techonology has been limited compared to others of your generation.  In addition to your gear, you carry a bow for hunting and a stub revolver for protection.",
-    "points": 6,
+    "points": 5,
     "skills": [
       { "name": "survival", "level": 3 },
       { "name": "archery", "level": 3 },
@@ -156,7 +156,7 @@
     "ident": "mutant_crafter",
     "name": "MuCo Lab Assistant",
     "description": "You were a staff member for the clinical tests for a new product called 'mutagen' when the bombs fell.  In the chaos you grabbed some gear and left the others.",
-    "points": 5,
+    "points": 4,
       "skills": [
         { "name": "computer", "level": 3 },
         { "name": "cooking", "level": 2 },
@@ -212,14 +212,13 @@
       "skills": [
         { "name": "swimming", "level": 2 },
         { "name": "speech", "level": 2 },
-        { "name": "computer", "level": 1 },
+        { "name": "computer", "level": 2 },
         { "name": "firstaid", "level": 1 },
         { "name": "gun", "level": 1 }
       ],
       "traits": [
         "PRETTY",
-        "FORGETFUL",
-        "LUNGS"
+        "FORGETFUL"
       ],
       "items": {
         "male": [
@@ -250,7 +249,7 @@
           "newest_newspaper"
         ],
         "entries": [
-          { "item": "flask_hip", "ammo-item": "protein_drink", "charges": 1 }
+          { "item": "protein_drink", "charges": 1, "container-item": "flask_hip" }
         ]
       }
     }

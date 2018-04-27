@@ -256,5 +256,19 @@
     "hit_dmg_npc": "The %1$s injects <npcname> with a numbing poison!",
     "no_dmg_msg_u": "The %1$s stab at you, but fails.",
     "no_dmg_msg_npc": "The %1$s tries to stab at <npcname>, but fails."
+  },
+  {
+    "type": "monster_attack",
+    "attack_type": "melee",
+    "id": "hallucinations",
+    "cooldown": 30,
+    "move_cost": 200,
+    "effects": [
+      { "id": "visuals", "duration": 900, "chance": 50 },
+      { "id": "hallu", "duration": 1100, "chance": 33 },
+      { "id": "rad_tenths", "duration": 5, "chance": 25 }
+    ],
+    "hit_dmg_u": "The %1$s whiffs you!",
+    "hit_dmg_npc": "The %1$s whiffs <npcname>!"
   }
 ]
