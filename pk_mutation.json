@@ -96,7 +96,11 @@
     "cancels": [ "GILLS", "GILLS_CEPH" ],
     "changes_to": [ "LUNGS_2" ],
     "category": [ "MUTCAT_BEAST", "MUTCAT_LUPINE", "MUTCAT_FELINE", "MUTCAT_ALPHA", "MUTCAT_CHIMERA", "MUTCAT_BIRD" ],
+<<<<<<< HEAD
     "stamina_regen_modifier": 0.2
+=======
+    "stamina_regen_modifier": 0.15
+>>>>>>> 24dc8f077ec5e17d92a41e47526e45560c9f9ea2
   },
   {
     "type": "mutation",
