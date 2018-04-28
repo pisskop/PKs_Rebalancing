@@ -37,11 +37,14 @@
     "special_attacks": [
       [ "wound_minor", 20 ],
       { "type": "bite", "cooldown": 2, "accuracy": 4 },
-      { "id": "diseased swipe", "cooldown": 12, "accuracy": 3,
-          "damage_max_instance": [
-            { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
-            { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
-          ]
+      {
+        "id": "diseased swipe",
+        "cooldown": 12,
+        "accuracy": 3,
+        "damage_max_instance": [
+          { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
+          { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
+        ]
       }
     ],
     "upgrades": {
@@ -55,7 +58,10 @@
     "copy-from": "mon_dog_zombie_rot",
     "special_attacks": [
       { "type": "bite", "cooldown": 2, "accuracy": 4, "no_infection_chance": 12 },
-      { "id": "diseased swipe", "cooldown": 12, "accuracy": 3,
+      {
+        "id": "diseased swipe",
+        "cooldown": 12,
+        "accuracy": 3,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
           { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
@@ -73,7 +79,10 @@
     "copy-from": "mon_dog_zombie_rot",
     "special_attacks": [
       { "type": "bite", "cooldown": 2, "accuracy": 4, "no_infection_chance": 12 },
-      { "id": "diseased swipe", "cooldown": 12, "accuracy": 3,
+      {
+        "id": "diseased swipe",
+        "cooldown": 12,
+        "accuracy": 3,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
           { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
@@ -137,8 +146,7 @@
     "armor_cut": 1,
     "special_attacks": [
       [ "HOWL", 20 ],
-      { "type": "bite", "cooldown": 7,"min_mul": 0.5,
-        "//": "strong jaws" }
+      { "type": "bite", "cooldown": 7, "min_mul": 0.5 }
     ],
     "burn_into": "mon_zolf_scorched"
   },
@@ -157,9 +165,7 @@
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 3,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 3 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 3 } ],
     "dodge": 4,
     "armor_bash": 3,
     "armor_cut": 1,
@@ -168,8 +174,7 @@
     "special_attacks": [
       [ "HOWL", 20 ],
       [ "LUNGE", 20 ],
-      { "type": "bite", "cooldown": 20,"min_mul": 0.7,
-        "//": "strong jaws" }
+      { "type": "bite", "cooldown": 20, "min_mul": 0.7 }
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zolf_scorched",
@@ -197,15 +202,10 @@
     "copy-from": "mon_zombear",
     "melee_dice": 2,
     "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 12 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 12 } ],
     "melee_cut": 8,
     "emit_fields": [ "emit_flesh_slough" ],
-    "special_attacks": [
-      { "type": "bite", "cooldown": 15,"min_mul": 0.5,
-        "//": "strong jaws" }
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 15, "min_mul": 0.5 } ],
     "burn_into": "mon_bear_smoky_pk"
   },
   {
@@ -227,18 +227,14 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 7,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 14 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 14 } ],
     "dodge": 1,
     "armor_bash": 4,
     "armor_cut": 2,
     "armor_acid": 2,
     "vision_day": 35,
     "emit_fields": [ "emit_flesh_slough" ],
-    "special_attacks": [
-      [ "hammer", 30 ]
-    ],
+    "special_attacks": [ [ "hammer", 30 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_horse_zombie_scorched",
     "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "BONES", "FAT", "NO_BREATHE", "POISON", "REVIVES", "PUSH_MON", "STUMBLES", "BASHES" ],
@@ -266,17 +262,12 @@
     "melee_dice_sides": 12,
     "melee_cut": 3,
     "dodge": 2,
-    "attack_effs": [
-      { "id": "flu_zed", "duration": 8000, "chance": 1 }
-    ],
+    "attack_effs": [ { "id": "flu_zed", "duration": 8000, "chance": 1 } ],
     "armor_bash": 1,
     "armor_cut": 1,
     "vision_day": 40,
     "vision_night": 3,
-    "special_attacks": [
-      { "type": "bite", "cooldown": 7,"min_mul": 0.3,
-        "//": "strong jaws" }
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 7, "min_mul": 0.3 } ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_skeleton_pk",
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "BLEED", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES" ]
@@ -300,9 +291,7 @@
     "melee_skill": 9,
     "melee_dice": 3,
     "melee_dice_sides": 5,
-    "melee_damage": [
-      { "damage_type": "heat", "amount": 3 }
-    ],
+    "melee_damage": [ { "damage_type": "heat", "amount": 3 } ],
     "melee_cut": 7,
     "dodge": 4,
     "attack_effs": [
@@ -345,14 +334,10 @@
     "melee_skill": 6,
     "melee_dice": 2,
     "melee_dice_sides": 7,
-    "melee_damage": [
-      { "damage_type": "acid",  "amount": 2 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 2 } ],
     "melee_cut": 2,
     "dodge": 1,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 10 }
-    ],
+    "attack_effs": [ { "id": "rad_tenths", "duration": 10 } ],
     "armor_bash": 20,
     "armor_cut": 1,
     "armor_stab": 4,
@@ -383,15 +368,13 @@
     "speed": 90,
     "material": [ "bone" ],
     "symbol": "B",
-    "color": "ltgray",
+    "color": "light_gray",
     "aggression": 100,
     "morale": 100,
     "melee_dice": 2,
     "melee_dice_sides": 11,
     "melee_cut": 9,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 60 }
-    ],
+    "attack_effs": [ { "id": "rad_tenths", "duration": 60 } ],
     "dodge": 1,
     "armor_bash": 6,
     "armor_cut": 12,
@@ -399,9 +382,7 @@
     "vision_day": 30,
     "vision_night": 10,
     "emit_fields": [ "emit_smoke_stream" ],
-    "special_attacks": [
-      { "type": "bite", "cooldown": 7,"min_mul": 0.5, "no_infection_chance": 3 }
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 7, "min_mul": 0.5, "no_infection_chance": 3 } ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "ATTACKMON", "BONES", "FIREPROOF", "NO_BREATHE", "POISON", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO" ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
@@ -410,8 +391,8 @@
   {
     "id": "mon_zombie_child_scorched",
     "type": "MONSTER",
-    "edit-mode": "override",
     "name": "zombie kinderling",
+    "name_plural": "zombie kinderlings",
     "description": "A tiny, still-smoldering body, jumping and kicking and flailing around in a mockery of playground exercise.  It does not need a face for you to feel bad about killing it.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
@@ -427,9 +408,7 @@
     "melee_skill": 2,
     "melee_dice": 2,
     "melee_dice_sides": 3,
-    "melee_damage": [
-      { "damage_type": "heat", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "heat", "amount": 1 } ],
     "melee_cut": 2,
     "dodge": 0,
     "armor_bash": 3,
@@ -446,7 +425,6 @@
   {
     "id": "mon_zombie_scorched",
     "type": "MONSTER",
-    "edit-mode": "override",
     "name": "scorched zombie",
     "description": "Heavily burned zombie that still reeks of charred flesh.  Its skin has hardened and cracked in several areas.",
     "default_faction": "zombie",
@@ -571,9 +549,7 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 4,
-    "melee_damage": [
-      { "damage_type": "electric", "amount": 4 }
-    ],
+    "melee_damage": [ { "damage_type": "electric", "amount": 4 } ],
     "melee_cut": 4,
     "dodge": 0,
     "armor_bash": 5,
@@ -642,9 +618,7 @@
     "melee_skill": 5,
     "melee_dice": 2,
     "melee_dice_sides": 8,
-    "melee_damage": [
-      { "damage_type": "electric", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "electric", "amount": 6 } ],
     "melee_cut": 6,
     "dodge": 0,
     "armor_bash": 8,
@@ -676,7 +650,7 @@
     "speed": 35,
     "material": [ "flesh" ],
     "symbol": "Z",
-    "color": "dkgray_green",
+    "color": "dark_gray_green",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 3,
@@ -707,7 +681,7 @@
     "speed": 85,
     "material": [ "flesh" ],
     "symbol": "Z",
-    "color": "dkgray",
+    "color": "dark_gray",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 3,
@@ -800,9 +774,8 @@
   {
     "id": "mon_zombie_child_scorched_2",
     "type": "MONSTER",
-    "edit-mode": "override",
     "name": "burned child zombie",
-    "description": "A tiny, horribly charred body, jumping and kicked and flailing around in a mockery of playground exercise.  It does not need a face for you to feel bad about killing it.",
+    "description": "A tiny, horribly charred body, jumping and kicking and flailing around in a mockery of playground exercise.  It does not need a face for you to feel bad about killing it.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
     "diff": 15,
@@ -848,9 +821,7 @@
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 10,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 6 } ],
     "dodge": 1,
     "armor_bash": 10,
     "armor_cut": 8,
@@ -919,9 +890,7 @@
     "melee_skill": 2,
     "melee_dice": 1,
     "melee_dice_sides": 8,
-    "melee_damage": [
-      { "damage_type": "acid", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 0,
     "dodge": 0,
     "attack_effs": [
@@ -964,9 +933,7 @@
     "melee_dice_sides": 8,
     "melee_cut": 0,
     "dodge": 0,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 }
-    ],
+    "attack_effs": [ { "id": "rad_tenths", "duration": 15 } ],
     "armor_bash": 10,
     "armor_cut": 0,
     "armor_stab": 8,
@@ -1022,9 +989,7 @@
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 18,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 4 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 4 } ],
     "melee_cut": 12,
     "dodge": 2,
     "armor_bash": 16,
@@ -1035,10 +1000,11 @@
       [ "FLESH_GOLEM", 40 ],
       [ "SMASH", 40 ],
       { "type": "bite", "cooldown": 30, "accuracy": 6 },
-      { "id": "hammer", "cooldown": 15, "moves": 150,
-        "damage_max_instance": [
-          { "damage_type": "bash", "amount": 30, "armor_multiplier": 0.75 }
-        ]
+      {
+        "id": "hammer",
+        "cooldown": 15,
+        "moves": 150,
+        "damage_max_instance": [ { "damage_type": "bash", "amount": 30, "armor_multiplier": 0.75 } ]
       }
     ],
     "death_function": [ "NORMAL" ],
