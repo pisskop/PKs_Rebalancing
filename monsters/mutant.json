@@ -974,13 +974,7 @@
     "armor_bash": 3,
     "armor_cut": 2,
     "special_attacks": [
-      [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 5, "no_infection_chance": 9,
-        "damage_max_instance": [
-          { "damage_type": "bash", "amount": 11, "armor_multiplier": 0.9 },
-          { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.9 }
-        ]
-      }
+      [ "wound_minor", 30 ]
     ],
     "flags": [ "DIGS", "HEARS", "GOODHEARING", "WARM", "LEATHER", "REGENERATES_10", "REGEN_MORALE" ],
     "anger_trigger": [ "SOUND", "FRIEND_ATTACKED", "PLAYER_WEAK" ],

@@ -73,7 +73,7 @@
             "mx_anomaly": 3
           }
         },
-        "building": {
+        "build": {
           "//": "More drugs and craters and kids",
           "chance": 50,
           "extras": {
