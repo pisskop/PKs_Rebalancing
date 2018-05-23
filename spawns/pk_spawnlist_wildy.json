@@ -48,6 +48,7 @@
     "name": "GROUP_ANT",
     "default": "mon_null",
     "monsters": [
+      { "monster": "mon_null", "freq": 650, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
       { "monster": "mon_ant", "freq": 330, "cost_multiplier": 0 },
       { "monster": "mon_ant_terminal", "freq": 10, "cost_multiplier": 0 },
       { "monster": "mon_ant_scrib", "freq": 250, "cost_multiplier": 0 },
@@ -59,6 +60,22 @@
       { "monster": "mon_ant_soldier", "freq": 200, "cost_multiplier": 5 },
       { "monster": "mon_ant_queen_firebug", "freq": 0, "cost_multiplier": 0 },
       { "monster": "mon_ant_queen", "freq": 0, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "type":"monstergroup",
+    "name" : "GROUP_ANT_ACID",
+    "default" : "mon_null",
+    "monsters" : [
+      { "monster": "mon_null", "freq": 650, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
+      { "monster": "mon_ant_acid", "freq": 300, "cost_multiplier": 0 },
+      { "monster": "mon_ant_acid_terminal", "freq": 95, "cost_multiplier": 0 },
+      { "monster": "mon_ant_acid_soldier", "freq": 200, "cost_multiplier": 5 },
+      { "monster": "mon_ant_acid_kwama", "freq": 40, "cost_multiplier": 12, "starts":   50 },
+      { "monster": "mon_ant_acid_ultralisk", "freq": 4, "cost_multiplier": 15, "starts":   100 },
+      { "monster": "mon_ant_fungus", "freq": 1, "cost_multiplier": 20, "pack_size": [1,2], "conditions": [ "SPRING", "SUMMER" ], "starts":   50 },
+      { "monster" : "mon_ant_acid_larva", "freq" : 10, "cost_multiplier" : 5, "conditions": [ "SPRING", "SUMMER" ] },
+      { "monster" : "mon_ant_acid_queen", "freq" : 0, "cost_multiplier" : 0 }
     ]
   },
   {

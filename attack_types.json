@@ -224,16 +224,17 @@
     "id": "scrib",
     "cooldown": 20,
     "move_cost": 150,
+    "body_parts": [ [ "FOOT_L", 2 ],[ "FOOT_R", 2 ], [ "LEG_L", 3 ], [ "LEG_R", 3 ], [ "HAND_L", 2 ], [ "HAND_R", 2 ], [ "HEAD", 3 ], [ "EYES", 2 ], [ "MOUTH", 1 ], [ "ARM_L", 3 ], [ "ARM_R", 3 ], [ "TORSO", 4 ] ],
     "damage_max_instance": [
-      { "damage_type": "biological", "amount": 1 }
+      { "damage_type": "biological", "amount": 2, "armor_multiplier": 0.5 }
     ],
     "effects": [
-      { "id": "scrib", "duration": 30, "chance": 10 }
+      { "id": "scrib", "duration": 30, "chance": 33 }
     ],
     "hit_dmg_u": "The %1$s emits a green glow!",
     "hit_dmg_npc": "The %1$s emits a green glow!",
-    "no_dmg_msg_u": "The %1$s emits a green glow!",
-    "no_dmg_msg_npc": "The %1$s emits a green glow!"
+    "no_dmg_msg_u": "The %1$s hisses and emits a green glow!",
+    "no_dmg_msg_npc": "The %1$s hisses and emits a green glow!"
   },
   {
     "type": "monster_attack",

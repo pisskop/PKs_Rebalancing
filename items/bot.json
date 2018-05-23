@@ -718,5 +718,26 @@
       "monster_id": "mon_zombie_acidic_pk",
       "place_randomly": true
     }
+  },
+  {
+    "id": "bot_ant_acid_ultralisk",
+    "type": "TOOL",
+    "name": "Ultralisk Spawner",
+    "description": "Spawns an ultralisk.",
+    "weight": 330,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "revert_to": "null",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ant_acid_ultralisk",
+      "place_randomly": true
+    }
   }
 ]

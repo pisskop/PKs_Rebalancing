@@ -346,7 +346,7 @@
     "id": "Anthill",
     "copy-from" : "Anthill",
     "locations": [ "land" ],
-    "city_distance": [5, -1],
+    "city_distance": [3, -1],
     "city_sizes": [4, 16],
     "occurrences": [1, 5],
     "spawns": { "group": "GROUP_ANT", "population":[600,1800], "radius":[25,65] }
@@ -355,11 +355,11 @@
     "type" : "overmap_special",
     "id" : "Acid Anthill",
     "copy-from" : "Acid_Anthill",
-    "city_distance" : [5, -1],
+    "city_distance" : [3, -1],
     "city_sizes" : [0, 20],
     "occurrences" : [0, 3],
     "rotate" : false,
-    "spawns": { "group": "GROUP_ANT", "population":[500,1600], "radius":[20,50] }
+"spawns" : { "group" : "GROUP_ANT_ACID", "population":[450,1350], "radius":[20,60] }
   },
   {
     "type": "overmap_special",

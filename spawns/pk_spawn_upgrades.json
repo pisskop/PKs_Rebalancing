@@ -252,6 +252,15 @@
     ]
     },{
     "type":"monstergroup",
+    "name": "GROUP_ANT_ACID_UPGRADE",
+    "default": "mon_ant_acid_terminal",
+    "monsters": [
+      { "monster": "mon_ant_acid_soldier", "freq": 150, "cost_multiplier": 5 },
+      { "monster": "mon_ant_acid_kwama", "freq": 50, "cost_multiplier": 10 },
+      { "monster": "mon_ant_acid_ultralisk", "freq": 5, "cost_multiplier": 20 }
+    ]
+    },{
+    "type":"monstergroup",
     "name": "WEB_SPIDER_UPGRADE",
     "default": "mon_spider_web",
     "//": "Web spiders specialize into 1 of 3 types.",

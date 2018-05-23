@@ -361,7 +361,6 @@
   {
     "type": "effect_type",
     "id": "scrib",
-    "chance": 95,
     "name": [ "Paralyzed" ],
     "desc": [ "You are paralyzed!" ],
     "apply_message": "Your joints lock up!",
