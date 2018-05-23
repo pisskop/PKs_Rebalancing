@@ -123,8 +123,8 @@
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": "powered marine armor",
-    "description": "A rusty red suit of exoskeleton armor; not powered by UPS, but by plutonium.  Granting the user more strength and speed at the cost of potential protection and dexterity, this 'late-stage prototype' was deemed fit for field testing under 'abnormal or otherwise abhorrent' conditions.  Burdensome without its power, this suit will, unlike most powered armor, not prevent the use of clothing over it due to its encased seromotors, though it may be uncomfortable to do so.",
-    "weight": 6464,
+    "description": "A rusty red suit of exoskeleton armor; not powered by UPS, but by plutonium and charged ionic impulses.  Granting the user more strength and running speed at the cost of potential protection and dexterity, this 'late-stage prototype' was deemed fit for field testing under 'abnormal or otherwise abhorrent' conditions against 'both electric and bionic spectrums'.  Burdensome without its power, this suit will, unlike most powered armor, not prevent the use of clothing over it due to its encased seromotors, though it may be uncomfortable to do so.",
+    "weight": 8764,
     "volume": 76,
     "price": 15000000,
     "material": [ "spess_plastic", "hardsteel" ],
@@ -136,9 +136,9 @@
     "encumbrance": 38,
     "storage": 14,
     "warmth": 40,
-    "material_thickness": 5,
+    "material_thickness": 2,
     "environmental_protection": 7,
-    "max_charges": 500,
+    "max_charges": 1000,
     "ammo": "plutonium",
     "artifact_data" : {
         "effects_worn": [ "AEP_DEX_DOWN", "AEP_RESIST_ELECTRICITY" ]
@@ -151,15 +151,15 @@
         "target": "megaarmor_torso_3_act",
         "active": true
       },
-    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "STURDY" ]
+    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "STURDY", "NO_REPAIR" ]
   },
   {
     "id": "megaarmor_torso_3_act",
     "type": "TOOL_ARMOR",
     "category": "armor",
     "name": "powered marine armor (on)",
-    "description": "A rusty red suit of exoskeleton armor; not powered by UPS, but by plutonium.  Granting the user more strength and speed at the cost of potential protection and dexterity, this 'late-stage prototype' was deemed fit for field testing under 'abnormal or otherwise abhorrent' conditions.  Burdensome without its power, this suit will, unlike most powered armor, not prevent the use of clothing over it due to its encased seromotors, though it may be uncomfortable to do so.",
-    "weight": 6464,
+    "description": "A rusty red suit of exoskeleton armor; not powered by UPS, but by plutonium and charged ionic impulses.  Granting the user more strength and speed at the cost of potential protection and dexterity, this 'late-stage prototype' was deemed fit for field testing under 'abnormal or otherwise abhorrent' conditions against 'both electric and bionic spectrums'.  While on it offers increased resistance to 'biologically generated waves and electrostatic impulses', as well as improving running speed and strength.",
+    "weight": 8764,
     "volume": 76,
     "price": 1300000,
     "material": [ "spess_plastic", "hardsteel" ],
@@ -167,13 +167,13 @@
     "color": "ltred",
     "covers": [ "TORSO", "LEGS", "FEET", "ARMS", "HANDS" ],
     "coverage": 100,
-    "encumbrance": 26,
+    "encumbrance": 22,
     "storage": 14,
     "warmth": 25,
-    "material_thickness": 5,
-    "environmental_protection": 7,
-    "max_charges": 500,
-    "turns_per_charge": 8,
+    "material_thickness": 4,
+    "environmental_protection": 8,
+    "max_charges": 1000,
+    "turns_per_charge": 6,
     "ammo": "plutonium",
     "revert_to": "megaarmor_torso_3",
     "artifact_data" : {
@@ -184,7 +184,7 @@
         "msg": "The exoskeleton silently powers down.",
         "target": "megaarmor_torso_3"
     },
-    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "STURDY" ]
+    "flags": [ "VARSIZE", "OVERSIZE", "WATERPROOF", "STURDY", "NO_REPAIR" ]
   },
   {
     "id": "megaarmor_head_1",

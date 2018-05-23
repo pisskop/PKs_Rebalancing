@@ -29,7 +29,7 @@
     "symbol": "E",
     "color": "white",
     "aggression": 25,
-    "morale": 50,
+    "morale": 65,
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 9,

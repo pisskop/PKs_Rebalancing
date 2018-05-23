@@ -1,4 +1,35 @@
   {
+    "type":"monstergroup",
+    "name": "GROUP_LARVAL_ANT",
+    "default": "mon_ant",
+    "monsters": [
+      { "monster": "mon_ant", "freq": 500, "cost_multiplier": 0 },
+      { "monster": "mon_ant_scrib", "freq": 150, "cost_multiplier": 0 },
+      { "monster": "mon_ant_soldier_pk_weak", "freq": 50, "cost_multiplier": 5 },
+      { "monster": "mon_ant_queen_young", "freq": 5, "cost_multiplier": 9, "conditions": ["SPRING"] },
+      { "monster": "mon_ant_male", "freq": 45, "cost_multiplier": 7, "conditions": ["SPRING"] },
+      { "monster": "mon_ant_soldier", "freq": 250, "cost_multiplier": 5 }
+    ]
+  },
+  {
+    "id": "mon_ant_queen",
+    "type": "MONSTER",
+    "copy-from": "mon_ant_queen",
+    "default_faction": "ant_hack",
+    "special_attacks": [
+      [ "ant_dinject", 40 ],
+      [ "ANTQUEEN", 3 ],
+      [ "SHRIEK_ALERT", 30 ],
+      [ "UPGRADE", 0 ]
+    ],
+    "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
+    "upgrades": {
+      "half_life": 14,
+      "into": "mon_ant_queen_firebug"
+    },
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "QUEEN", "CHITIN", "FAT", "CLIMBS", "BASHES" ]
+  },
+  {
     "type": "recipe",
     "result": "bomblet_shock",
     "note": "crafted shock bomblets",

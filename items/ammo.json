@@ -405,7 +405,7 @@
     "type": "AMMO",
     "name": "410 shot",
     "name_plural": "410 shot",
-    "description": "A small caliber shotgun shell full of damaging iron pellets.  The dimensions of the shell match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
+    "description": "A small caliber shotgun shell full of damaging iron pellets.  The dimensions of the shell have grown over the past 40 years, to match .45 rounds closely enough to be interchangable, although it is both less accurate and less damaging than its larger cousins.",
     "weight": 24,
     "volume": 1,
     "price": 5000,

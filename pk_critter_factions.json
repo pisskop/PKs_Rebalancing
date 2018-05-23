@@ -71,6 +71,18 @@
   },
   {
     "type": "MONSTER_FACTION",
+    "name": "ant",
+    "//": "work around the antqueen redesign, makes larvae upgrade to ants that will not devolve into larvae.  Effectively weakens queen power.",
+    "by_mood": [ "bot" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "ant_hack",
+    "//": "work around the antqueen redesign, makes larvae upgrade to ants that will not devolve into larvae.  Effectively weakens queen power.",
+    "base_faction": "ant"
+  },
+  {
+    "type": "MONSTER_FACTION",
     "name": "ant_male",
     "base_faction": "ant",
     "by_mood": [ "ant_male" ]
