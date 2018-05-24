@@ -29,7 +29,8 @@
       [ "candle_smoke", 12 ],
       [ "lobotomizer", 1 ],
       [ "dr_stem_cell", 1 ],
-      [ "oxy_torch", 1 ]
+      [ "oxy_torch", 1 ],
+      [ "molotov_micro", 4 ]
     ]
   },
   {
@@ -386,7 +387,8 @@
       [ "candle_smoke", 8 ],
       [ "1st_aid_survivor", 20 ],
       [ "medical_gauze", 4 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "molotov_micro", 5 ]
     ]
   },
   {
@@ -593,9 +595,9 @@
       { "group": "prefab_chems", "prob": 1 },
       { "item": "bot_manhack_fire", "prob": 2 },
       { "item": "bot_manhack", "prob": 10 },
-      { "item": "acidbomb_medium", "prob": 2 },
-      { "item": "acidbomb_small", "prob": 4 },
-      { "item": "acidbomb_micro", "prob": 5 }
+      { "item": "acidbomb_medium", "prob": 3 },
+      { "item": "acidbomb_small", "prob": 5 },
+      { "item": "molotov_micro", "prob": 3 }
     ]
   },
   {
@@ -703,7 +705,8 @@
       [ "lobotomizer", 1 ],
       [ "vortex_stone", 4 ],
       [ "dr_stem_cell", 1 ],
-      [ "bomblet_launcher_brute", 1 ]
+      [ "bomblet_launcher_brute", 1 ],
+      [ "molotov_micro", 2 ]
     ]
   },
   {
@@ -969,7 +972,8 @@
       [ "tinyweldtank", 4 ],
       [ "ref_lighter_dare", 5 ],
       [ "fridge_cargo", 3 ],
-      [ "oxy_torch", 5 ]
+      [ "oxy_torch", 5 ],
+      [ "molotov_micro", 5 ]
     ]
   },
   {
@@ -1049,7 +1053,8 @@
       [ "1st_aid_survivor", 30 ],
       [ "medical_gauze", 25 ],
       [ "vortex_stone", 4 ],
-      [ "dr_stem_cell", 1 ]
+      [ "dr_stem_cell", 1 ],
+      [ "molotov_micro", 8 ]
     ]
   },
   {

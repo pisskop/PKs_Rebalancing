@@ -155,13 +155,13 @@
     "type": "profession",
     "ident": "mutant_crafter",
     "name": "MuCo Lab Assistant",
-    "description": "You were a staff member for the clinical tests for a new product called 'mutagen' when the bombs fell.  In the chaos you grabbed some gear and left the others.",
+    "description": "You were a staff member for the clinical tests of a new product called 'mutagen' when the bombs fell.  In the chaos you grabbed some gear and left the others.",
     "points": 4,
       "skills": [
         { "name": "computer", "level": 3 },
         { "name": "cooking", "level": 2 },
+        { "name": "firstaid", "level": 2 },
         { "name": "survival", "level": 1 },
-        { "name": "firstaid", "level": 1 },
         { "name": "speech", "level": 1 }
       ],
       "items": {
@@ -205,7 +205,7 @@
   {
     "type": "profession",
     "ident": "a pisskop",
-    "name": "pk, on an average day",
+    "name": "Generation Xer",
     "description": "You are a rakishly handsome young person who was in their late-20s 20 years ago.  In good shape, and with a perchant for hording sentimental items, you set off on Z-day much as you did any other day . . .",
     "points": 4,
     "//": "gotta keep in mind balance . . .",

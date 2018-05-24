@@ -240,31 +240,6 @@
     "id": "acidbomb_large",
     "type": "AMMO",
     "category": "weapons",
-    "name": "large acidbomb",
-    "description": "There is enough frothing fluid inside this acidbomb to coat a relatively large area with fields of acid.",
-    "weight": 1640,
-    "volume": 2,
-    "price": 10000,
-    "to_hit": -1,
-    "bashing": 8,
-    "material": [ "glass" ],
-    "symbol": "*",
-    "color": "i_green",
-    "ammo_type": "thrown",
-    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
-    "emits": [ "emit_acid_large" ],
-    "countdown_interval": 7,
-    "countdown_destroy": true,
-    "countdown_action": {
-        "type": "explosion",
-        "explosion": {
-        }
-    }
-  },
-  {
-    "id": "acidbomb_medium",
-    "type": "AMMO",
-    "category": "weapons",
     "name": "medium acidbomb",
     "description": "There is enough frothing fluid inside this acidbomb to coat a relatively large area with sprays of acid.",
     "weight": 1231,
@@ -277,8 +252,8 @@
     "color": "i_ltgreen",
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
-    "emits": [ "emit_acid_medium" ],
-    "countdown_interval": 7,
+    "emits": [ "emit_acid_large" ],
+    "countdown_interval": 8,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",
@@ -302,36 +277,12 @@
     "color": "green",
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
-    "emits": [ "emit_acid_small" ],
-    "countdown_interval": 7,
+    "emits": [ "emit_acid_small", "emit_acid_trail_slow" ],
+    "countdown_interval": 21,
     "countdown_destroy": true,
     "countdown_action": {
         "type": "explosion",
-        "explosion": {
-        }
-    }
-  },
-  {
-    "id": "acidbomb_micro",
-    "type": "AMMO",
-    "category": "weapons",
-    "name": "micro acidbomb",
-    "description": "A single glass flask filled with caustic chemicals.  When exposed to the air they will spray out in every direction, creating a modest field of acid.",
-    "weight": 285,
-    "volume": 1,
-    "price": 4500,
-    "to_hit": -1,
-    "bashing": 8,
-    "material": [ "glass" ],
-    "symbol": "*",
-    "color": "ltgreen",
-    "ammo_type": "thrown",
-    "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
-    "emits": [ "emit_acid_trail_slow" ],
-    "countdown_interval": 13,
-    "countdown_destroy": true,
-    "countdown_action": {
-        "type": "explosion",
+        "no_deactivate_msg": "The acid bubbles caustically.",
         "explosion": {
         }
     }

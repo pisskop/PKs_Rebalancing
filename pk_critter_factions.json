@@ -84,21 +84,6 @@
   },
   {
     "type": "MONSTER_FACTION",
-    "name": "ant_acid",
-    "//": "work around the antqueen redesign, makes larvae upgrade to ants that will not devolve into larvae.  Effectively weakens queen power.",
-    "base_faction": "insect",
-    "neutral": [ "small_animal" ],
-    "by_mood": [ "insect", "zombie", "triffid", "spore" ]
-  },
-  {
-    "type": "MONSTER_FACTION",
-    "name": "ant_acid_hack",
-    "//": "work around the antqueen redesign, makes larvae upgrade to ants that will not devolve into larvae.  Effectively weakens queen power.  Not sure if needed.",
-    "base_faction": "ant_acid",
-    "friendly": [ "ant_acid" ]
-  },
-  {
-    "type": "MONSTER_FACTION",
     "name": "triffid",
     "friendly": [ "spider", "bee" ],
     "neutral": [ "small_animal" ],

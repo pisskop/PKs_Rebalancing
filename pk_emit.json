@@ -81,13 +81,14 @@
     "type": "emit",
     "//": "light acid trail (example: giant slug)",
     "field": "fd_acid",
-    "density": 1,
+    "qty": 1,
+    "density": 2,
     "chance": 90
   },
   {
     "id": "emit_slime_trail",
     "type": "emit",
-    "//": "light acid trail (example: snail man)",
+    "//": "light slime trail (example: snail man)",
     "field": "fd_slime",
     "density": 2,
     "chance": 75
@@ -221,14 +222,6 @@
     "field": "fd_tear_gas",
     "density": 2,
     "qty": 2
-  },
-  {
-    "id": "emit_acid_medium",
-    "type": "emit",
-    "//": "A medium spray of acid. (example: acidbomb medium)",
-    "field": "fd_acid",
-    "density": 2,
-    "qty": 9
   },
   {
     "id": "emit_acid_large",

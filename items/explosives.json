@@ -25,7 +25,7 @@
     "id": "manhack_firebomb_act",
     "type": "TOOL",
     "category": "weapons",
-    "name": "manhack acidbomb",
+    "name": "manhack firebomb",
     "description": "This is an acidbomb fitted into a manhack and rigged so the manhack can self-activate it.  Due to the manhack exploding the effective radius is somewhat larger.",
     "weight": 180,
     "volume": 1,
