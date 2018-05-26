@@ -30,7 +30,7 @@
       [ "lobotomizer", 1 ],
       [ "dr_stem_cell", 1 ],
       [ "oxy_torch", 1 ],
-      [ "molotov_micro", 4 ]
+      [ "molotov_micro", 5 ]
     ]
   },
   {
@@ -595,7 +595,7 @@
       { "group": "prefab_chems", "prob": 1 },
       { "item": "bot_manhack_fire", "prob": 2 },
       { "item": "bot_manhack", "prob": 10 },
-      { "item": "acidbomb_medium", "prob": 3 },
+      { "item": "acidbomb_large", "prob": 3 },
       { "item": "acidbomb_small", "prob": 5 },
       { "item": "molotov_micro", "prob": 3 }
     ]

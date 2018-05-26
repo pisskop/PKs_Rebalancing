@@ -248,8 +248,8 @@
     "effects": [
       { "id": "paralyzepoison", "duration": 600, "chance": 30 },
       { "id": "paralyzepoison", "duration": 30 },
-      { "id": "pkill1", "duration": 400, "chance": 30 },
-      { "id": "pkill2", "duration": 800, "chance": 30 },
+      { "id": "pkill1", "duration": 15, "chance": 67 },
+      { "id": "pkill2", "duration": 15, "chance": 67 },
       { "id": "infection_minor", "duration": 6800, "chance": 15 },
       { "id": "flu_zed", "duration": 32000, "chance": 1 }
     ],
