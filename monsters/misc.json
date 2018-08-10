@@ -298,8 +298,12 @@
     "aggression": -10,
     "morale": 60,
     "melee_skill": 6,
-    "melee_dice": 2,
+    "melee_dice": 3,
     "melee_dice_sides": 12,
+    "melee_damage": {
+      "damage_type": "cut",
+      "amount": 8
+    },
     "melee_cut": 8,
     "dodge": 3,
     "armor_bash": 1,
@@ -308,7 +312,7 @@
     "vision_night": 15,
     "path_settings": { "max_dist": 30 },
     "special_attacks": [
-      [ "hammer", 30 ],
+      [ "hammer", 30 ], [ "EAT_FOOD", 20 ],
       { "type": "bite", "cooldown": 15, "no_infection_chance": 18,
         "//": "strong jaws",
         "damage_max_instance": [
@@ -318,7 +322,7 @@
           { "id": "infection_minor", "duration": 5200 }
         ]
       }
-    ],
+    ], 
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "fear_triggers": [],
     "placate_triggers": [ "MEAT", "SOUND" ]
