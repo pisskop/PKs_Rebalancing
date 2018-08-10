@@ -152,8 +152,11 @@
     "fun": -20,
     "spoils_in": 128,
     "parasites": 0,
-    "use_action": "MUTAGEN",
-    "flags": [ "MUTAGEN_WEAK", "TRADER_AVOID" ]
+    "use_action" : {
+      "type" : "mutagen",
+      "is_weak" : true
+    },
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "spider_steak",
@@ -174,8 +177,11 @@
     "fun": -12,
     "spoils_in": 96,
     "parasites": 0,
-    "use_action": "MUTAGEN",
-    "flags": [ "MUTAGEN_WEAK", "TRADER_AVOID" ]
+    "use_action" : {
+      "type" : "mutagen",
+      "is_weak" : true
+    },
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "spider_steak_cooked",
