@@ -1366,7 +1366,7 @@
     "color": "brown",
     "techniques" : [ "WBLOCK_1", "stuck_in_2" ],
     "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ] ],
-    "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ]
+    "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "FRAGILE_MELEE", "SHEATH_SPEAR" ]
   },
   {
     "type":"GENERIC",
@@ -1382,7 +1382,7 @@
     "volume" : 5,
     "bashing" : 5,
     "cutting" : 13,
-    "flags" : [ "SPEAR", "REACH_ATTACK", "NPC_THROWN" ],
+    "flags" : [ "SPEAR", "REACH_ATTACK", "NPC_THROWN", "SHEATH_SPEAR" ],
     "price" : 4000,
     "qualities": [ [ "COOK", 1] ]
   },
@@ -1400,7 +1400,7 @@
     "volume" : 6,
     "bashing" : 5,
     "cutting" : 16,
-    "flags" : [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ],
+    "flags" : [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
     "price" : 1400,
     "qualities": [ [ "COOK", 1] ]
   },
@@ -1418,7 +1418,7 @@
     "volume" : 12,
     "bashing" : 5,
     "cutting" : 29,
-    "flags" : [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ],
+    "flags" : [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
     "price" : 16000,
     "qualities": [[ "COOK", 1]]
   },
@@ -1437,7 +1437,7 @@
     "volume" : 5,
     "bashing" : 6,
     "cutting" : 20,
-    "flags" : [ "SPEAR", "REACH_ATTACK" ],
+    "flags" : [ "SPEAR", "REACH_ATTACK", "SHEATH_SPEAR" ],
     "price" : 8000,
     "qualities": [ [ "COOK", 1] ]
   },
@@ -1455,7 +1455,7 @@
     "volume" : 10,
     "bashing" : 4,
     "cutting" : 28,
-    "flags" : [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE" ],
+    "flags" : [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
     "price" : 80000,
     "qualities": [ [ "COOK", 1] ]
   },
@@ -1536,7 +1536,7 @@
             { "damage_type": "bash", "amount": 5 },
             { "damage_type": "stab", "amount": 11 }
         ],
-    "flags" : [ "SPEAR" ],
+    "flags" : [ "SPEAR", "SHEATH_SPEAR" ],
     "price" : 4000,
     "qualities": [ [ "COOK", 1] ]
   },
@@ -1558,7 +1558,7 @@
             { "damage_type": "bash", "amount": 5 },
             { "damage_type": "stab", "amount": 17 }
         ],
-    "flags" : [ "SPEAR", "NONCONDUCTIVE" ],
+    "flags" : [ "SPEAR", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
     "price" : 9000,
     "qualities": [ [ "COOK", 1] ]
   },

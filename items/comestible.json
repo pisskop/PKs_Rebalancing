@@ -168,12 +168,10 @@
       "type": "heal",
       "move_cost": 3300,
       "long_action": true,
-      "bleed": 0.98,
-      "bite": 0.4,
-      "infect": 0.2,
-      "limb_power": 20,
-      "head_power": 20,
-      "torso_power": 20,
+      "bandages_power" : 8,
+      "disinfectant_power" : 8,
+      "bleed" : 0.95,
+      "bite" : 0.99,
       "effects": [
         { "id": "doom_unhealth", "duration": 10 },
         { "id": "pkill1", "duration": 300 },
@@ -275,19 +273,15 @@
     "healthy": 1,
     "revert_to": "paper",
     "comestible_type": "MED",
-    "use_action": {
-      "type": "heal",
-      "move_cost": 1200,
-      "bleed": 0.70,
-      "bite": 0.40,
-      "infect": 0.22,
-      "limb_power": 1,
-      "head_power": 2,
-      "torso_power": 1,
-      "effects": [
+        "use_action" : {
+          "type" : "heal",
+          "disinfectant_power" : 3,
+		  "move_cost": 1200,
+          "long_action" : true,
+		  "effects": [
         { "id": "stung", "duration": 12 }
-      ]
-    },
+	  ]
+     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
@@ -494,65 +488,12 @@
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
-    "type": "COMESTIBLE",
-    "id": "medical_gauze",
-    "copy-from":"medical_gauze",
-    "name": "medical gauze",
-    "description": "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe for long periods of time.",
-    "stack_size": 6,
-    "use_action": {
-      "type": "heal",
-      "move_cost": 400,
-      "bleed": 1.0,
-      "bite": 0.7,
-      "infect": 0.3,
-      "limb_power": 6,
-      "head_power": 5,
-      "torso_power": 3,
-      "effects": [
-        { "id": "gauze", "duration": 30000 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
     "type": "AMMO",
     "id": "medical_tape",
     "copy-from": "medical_tape",
     "name": "medical tape",
     "description": "A roll of medical tape, similar to duct tape.",
     "count": 100
-  },
-  {
-    "id": "antibiotics",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "antibiotic",
-    "copy-from": "antibiotics",
-    "description": "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Provides some immunity to disease and invasive parasites such as fungus and infections, but somehwat detrimental to long-term health.",
-    "stack_size": 7,
-    "count": 7,
-    "fun": -1,
-    "healthy": 5,
-    "addiction_potential": 20,
-    "use_action": {
-      "type": "heal",
-      "limb_power": 0,
-      "head_power": 0,
-      "torso_power": 1,
-      "limb_scaling": 0,
-      "torso_scaling": 0,
-      "head_scaling": 0,
-      "bleed": 0,
-      "bite": 1.0,
-      "infect": 0.99,
-      "move_cost": 125,
-      "effects": [
-        { "id": "antibiotics_1", "duration": 20000 },
-        { "id": "antibiotics_2", "duration": 4800 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
     "id": "flu_shot",
@@ -562,97 +503,6 @@
     "copy-from": "flu_shot",
     "description": "Pharmaceutical flu shot designed for mass vaccinations, still in the packaging.  Purported to provide immunity to influenza.  Most work by infecting you with a weakened or inert strain or proteins of the virus to allow your natural immune response to develop.",
     "healthy": 3,
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "bandages",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "bandage",
-    "description": "Simple cloth bandages.  Used for healing small amounts of damage.",
-    "weight": 70,
-    "volume": 1,
-    "price": 600,
-    "material": "cotton",
-    "symbol": "!",
-    "color": "white",
-    "charges": 3,
-    "stack_size": 6,
-    "use_action": {
-      "type": "heal",
-      "limb_power": 3,
-      "head_power": 1,
-      "torso_power": 4,
-      "bleed": 0.9,
-      "move_cost": 300,
-      "effects": [
-        { "id": "gauze", "duration": 9800 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "1st_aid",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "first aid kit",
-    "description": "A full medical kit, with bandages, local anesthetics, and rapid healing agents.  Used for healing large amounts of damage.",
-    "weight": 240,
-    "volume": 1,
-    "price": 3000,
-    "charges": 2,
-    "stack_size": 3,
-    "material": "plastic",
-    "symbol": "!",
-    "color": "red",
-    "use_action": {
-      "type": "heal",
-      "limb_power": 12,
-      "head_power": 8,
-      "torso_power": 16,
-      "bleed": 0.95,
-      "bite": 0.99,
-      "infect": 0.90,
-      "move_cost": 6000,
-      "long_action": true,
-      "effects": [
-        { "id": "pkill1", "duration": 120 },
-        { "id": "gauze", "duration": 7700 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "1st_aid_survivor",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "improvised first aid kit",
-    "description": "A medical kit made with cheap, subpar components.  For when nothing else is available.",
-    "weight": 240,
-    "volume": 2,
-    "price": 100,
-    "stack_size": 2,
-    "count": 2,
-    "material": "cotton",
-    "symbol": "!",
-    "color": "dkgray",
-    "use_action": {
-      "type": "heal",
-      "limb_power": 8,
-      "head_power": 4,
-      "torso_power": 6,
-      "limb_scaling": 1,
-      "torso_scaling": 1,
-      "head_scaling": 1,
-      "bleed": 1,
-      "bite": 0.65,
-      "infect": 0.35,
-      "move_cost": 7000,
-      "long_action": true,
-      "effects": [
-        { "id": "gauze", "duration": 4000 }
-      ]
-    },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {

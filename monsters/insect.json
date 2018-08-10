@@ -127,7 +127,7 @@
     "armor_acid": 6,
     "armor_fire": 7,
     "emit_fields": [ "emit_web" ],
-    "special_when_hit": [ "ACIDSPLASH", 75 ],
+    "special_when_hit": [ "ACIDSPLASH", 10 ],
     "death_function": [ "NORMAL" ],
     "flags": [ "NOHEAD", "WEBWALK", "STUMBLES", "IMMOBILE" ]
   },
@@ -158,7 +158,7 @@
     "armor_acid": 6,
     "armor_fire": 7,
     "emit_fields": [ "emit_web" ],
-    "special_when_hit": [ "ACIDSPLASH", 75 ],
+    "special_when_hit": [ "ACIDSPLASH", 10 ],
     "death_function": [ "NORMAL" ],
     "flags": [ "NOHEAD", "WEBWALK", "STUMBLES", "IMMOBILE" ]
   },
