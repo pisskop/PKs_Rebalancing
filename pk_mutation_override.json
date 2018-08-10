@@ -82,8 +82,8 @@
     "description": "You heal faster when sleeping and will even recover small amount of HP when not sleeping.  This change in body chemistry strains your metabolism.",
     "starting_trait": true,
     "category": [ "MUTCAT_LIZARD" ],
-    "healing_awake": 0.002,
-    "healing_resting": 0.005,
+    "healing_awake": 0.2,
+    "healing_resting": 0.5,
     "metabolism_modifier": 0.4,
     "stamina_regen_modifier": 0.1
   },
@@ -287,7 +287,7 @@
     "points": -2,
     "description": "You heal a little slower than most; sleeping will heal less lost HP.",
     "starting_trait": true,
-    "healing_resting": -0.0025,
+    "healing_resting": -0.25,
     "metabolism_modifier": -0.05
   },
   {
@@ -299,7 +299,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-    "healing_resting": -0.0066,
+    "healing_resting": -0.66,
     "metabolism_modifier": -0.1
   },
   {
@@ -311,7 +311,7 @@
     "starting_trait": true,
     "valid": false,
     "purifiable": false,
-    "healing_resting": -0.009,
+    "healing_resting": -0.9,
     "metabolism_modifier": -0.15
   },
   {
@@ -381,7 +381,7 @@
     "starting_trait": true,
     "category": [ "MUTCAT_MEDICAL", "MUTCAT_CEPHALOPOD" ],
     "armor": [ { "parts": "ALL", "cut": -2 } ],
-    "healing_awake": -0.0005
+    "healing_awake": -0.05
   },
   {
     "type": "mutation",
@@ -1445,8 +1445,8 @@
     "name": "Deterioration",
     "points": -8,
     "description": "Your body is very slowly wasting away.",
-    "healing_awake": -0.0002,
-    "healing_resting": -0.0033
+    "healing_awake": -0.02,
+    "healing_resting": -0.33
   },
   {
     "type": "mutation",
@@ -1454,8 +1454,8 @@
     "name": "Disintegration",
     "points": -10,
     "description": "Your body is slowly wasting away!",
-    "healing_awake": -0.0008,
-    "healing_resting": -0.005
+    "healing_awake": -0.08,
+    "healing_resting": -0.5
   },
   {
     "type": "mutation",
