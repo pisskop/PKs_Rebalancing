@@ -7,7 +7,7 @@
     "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_RAPTOR", "MUTCAT_BEAST" ],
+    "category": [ "RAPTOR", "BEAST" ],
     "metabolism_modifier": 0.05
   },
   {
@@ -18,7 +18,7 @@
     "description": "Your hearing is better than average, and you can hear distant sounds more easily.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_BIRD", "MUTCAT_ELFA", "MUTCAT_FELINE" ]
+    "category": [ "BIRD", "ELFA", "FELINE" ]
   },
   {
     "type": "mutation",
@@ -29,7 +29,7 @@
     "starting_trait": true,
     "valid": false,
     "threshreq": [ "THRESH_FELINE" ],
-    "category": [ "MUTCAT_FELINE" ]
+    "category": [ "FELINE" ]
   },
   {
     "type": "mutation",
@@ -39,7 +39,7 @@
     "description": "You can't even think about putting filthy clothes on yourself, especially from zombies' corpses.  For being such a wuss, you get a 5% penalty to all hit points.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_ALPHA", "MUTCAT_ELFA" ],
+    "category": [ "ALPHA", "ELFA" ],
     "hp_modifier_secondary": -0.05
   },
   {
@@ -50,7 +50,7 @@
     "description": "Whether due to exercise and good diet, or due to a natural propensity to physical endurance, you tire due to physical exertion much less readily than others.  Your maximum stamina is 25% higher than usual.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CHIMERA", "MUTCAT_RAPTOR" ],
+    "category": [ "CHIMERA", "RAPTOR" ],
     "stamina_regen_modifier": 0.02
   },
   {
@@ -61,7 +61,7 @@
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_FELINE" ],
+    "category": [ "FELINE" ],
     "metabolism_modifier": 0.05
   },
   {
@@ -72,7 +72,7 @@
     "description": "Nothing gets you down!  You savor the joys of life, ignore its hardships, and are generally happier than most people.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CATTLE" ]
+    "category": [ "CATTLE" ]
   },
   {
     "type": "mutation",
@@ -81,7 +81,7 @@
     "points": 2,
     "description": "You heal faster when sleeping and will even recover small amount of HP when not sleeping.  This change in body chemistry strains your metabolism.",
     "starting_trait": true,
-    "category": [ "MUTCAT_LIZARD" ],
+    "category": [ "LIZARD" ],
     "healing_awake": 0.2,
     "healing_resting": 0.5,
     "metabolism_modifier": 0.4,
@@ -94,7 +94,7 @@
     "points": 2,
     "description": "Your metabolism is a little slower, and you require less food than most.",
     "starting_trait": true,
-    "category": [ "MUTCAT_LIZARD" ],
+    "category": [ "LIZARD" ],
     "metabolism_modifier": -0.333
   },
   {
@@ -105,7 +105,7 @@
     "description": "You have always been able to fall asleep easily, even when sleeping in less than ideal circumstances.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CHIMERA" ]
+    "category": [ "CHIMERA" ]
   },
   {
     "type": "mutation",
@@ -115,7 +115,7 @@
     "description": "You have a high tolerance for pain.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CHIMERA" ]
+    "category": [ "CHIMERA" ]
   },
   {
     "type": "mutation",
@@ -124,7 +124,7 @@
     "points": 2,
     "description": "You possess natural night vision, and can see further in the dark than most.  Activate to toggle NV-visible areas on or off.",
     "starting_trait": true,
-    "category": [ "MUTCAT_LIZARD" ],
+    "category": [ "LIZARD" ],
     "active": true,
     "starts_active": true
   },
@@ -136,7 +136,7 @@
     "description": "The bottoms of your feet are tough (feet: +1 bash, +1 cut) and you are accustomed to going barefoot.  You receive no movement penalty for not wearing shoes and get a 5% bonus to all hit points.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CATTLE", "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_TROGLOBITE" ],
+    "category": [ "CATTLE", "SLIME", "CHIMERA", "PLANT", "TROGLOBITE" ],
     "armor": [ { "parts": [ "FOOT_L", "FOOT_R" ], "bash": 1, "cut": 1 } ],
     "hp_modifier_secondary": 0.05
   },
@@ -147,7 +147,7 @@
     "points": 2,
     "description": "It takes a lot to bring you down!  You get a 20% bonus to all hit points.",
     "starting_trait": true,
-    "category": [ "MUTCAT_CATTLE", "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_URSINE", "MUTCAT_TROGLOBITE" ],
+    "category": [ "CATTLE", "CHIMERA", "PLANT", "URSINE", "TROGLOBITE" ],
     "hp_modifier": 0.2
   },
   {
@@ -156,7 +156,7 @@
     "name": "Durable",
     "points": 3,
     "description": "You can shrug off almost anything!  You get a 30% bonus to all hit points.",
-    "category": [ "MUTCAT_CHIMERA", "MUTCAT_PLANT", "MUTCAT_URSINE" ],
+    "category": [ "CHIMERA", "PLANT", "URSINE" ],
     "hp_modifier": 0.3
   },
   {
@@ -165,7 +165,7 @@
     "name": "Unbreakable",
     "points": 4,
     "description": "Nothing can break you!  You get a 40% bonus to all hit points.",
-    "category": [ "MUTCAT_CHIMERA" ],
+    "category": [ "CHIMERA" ],
     "hp_modifier": 0.4
   },
   {
@@ -184,7 +184,7 @@
     "description": "You can manage to find space for anything!  You can carry 40% more volume.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_RAT" ]
+    "category": [ "RAT" ]
   },
   {
     "type": "mutation",
@@ -194,7 +194,7 @@
     "description": "You are capable of carrying far more than someone with similar strength could.  Your maximum weight carried is increased by 35%.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CATTLE", "MUTCAT_TROGLOBITE", "MUTCAT_INSECT" ]
+    "category": [ "CATTLE", "TROGLOBITE", "INSECT" ]
   },
   {
     "type": "mutation",
@@ -205,7 +205,7 @@
     "starting_trait": true,
     "cancels": [ "NAUSEA" ],
     "threshreq": [ "THRESH_SLIME", "THRESH_CHIMERA", "THRESH_RAT" ],
-    "category": [ "MUTCAT_SLIME", "MUTCAT_CHIMERA", "MUTCAT_RAT" ],
+    "category": [ "SLIME", "CHIMERA", "RAT" ],
     "active": true,
     "metabolism_modifier": 0.05,
     "thirst_modifier": 0.05
@@ -228,7 +228,7 @@
     "description": "You're an excellent navigator and your ability to spot distant landmarks is unmatched.  Your sight radius on the overmap extends beyond the normal range.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_FISH", "MUTCAT_BIRD" ]
+    "category": [ "FISH", "BIRD" ]
   },
   {
     "type": "mutation",
@@ -238,7 +238,7 @@
     "description": "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_RAT", "MUTCAT_CHIMERA", "MUTCAT_INSECT", "MUTCAT_TROGLOBITE" ],
+    "category": [ "RAT", "CHIMERA", "INSECT", "TROGLOBITE" ],
     "flags": [ "CANNIBAL" ]
   },
   {
@@ -248,7 +248,7 @@
     "points": 1,
     "description": "Your scent is quite weak.  Animals that track your scent will do so with more difficulty.",
     "starting_trait": true,
-    "category": [ "MUTCAT_ELFA", "MUTCAT_PLANT", "MUTCAT_LIZARD" ]
+    "category": [ "ELFA", "PLANT", "LIZARD" ]
   },
   {
     "type": "mutation",
@@ -258,7 +258,7 @@
     "description": "Whether due to injury or age, your knees aren't particularly strong or flexible.  Moving over rough terrain will slow you down more than normal.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_FISH", "MUTCAT_CATTLE", "MUTCAT_CEPHALOPOD", "MUTCAT_MEDICAL" ]
+    "category": [ "FISH", "CATTLE", "CEPHALOPOD", "MEDICAL" ]
   },
   {
     "type": "mutation",
@@ -268,7 +268,7 @@
     "description": "Whether due to lack of exercise and poor diet, or due to a natural disinclination to physical endurance, you tire due to physical exertion much more readily than others and find it harder to catch your breath afterwards.  Your maximum stamina is 25% lower than usual.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_RAT", "MUTCAT_BEAST", "MUTCAT_CATTLE", "MUTCAT_ELFA" ],
+    "category": [ "RAT", "BEAST", "CATTLE", "ELFA" ],
     "stamina_regen_modifier": -0.2
   },
   {
@@ -340,7 +340,7 @@
     "description": "You are terrible at organizing and storing your possessions.  You can carry 40% less volume.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_LUPINE" ]
+    "category": [ "LUPINE" ]
   },
   {
     "type": "mutation",
@@ -349,7 +349,7 @@
     "points": -2,
     "description": "Your hearing is poor, and you may not hear quiet or far-off noises.",
     "starting_trait": true,
-    "category": [ "MUTCAT_MEDICAL" ]
+    "category": [ "MEDICAL" ]
   },
   {
     "type": "mutation",
@@ -359,7 +359,7 @@
     "description": "You have a hard time falling asleep, even under the best circumstances!",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_ALPHA" ],
+    "category": [ "ALPHA" ],
     "fatigue_regen_modifier": -0.01
   },
   {
@@ -370,7 +370,7 @@
     "description": "You have problems with eating meat.  It's possible for you to eat it, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_CATTLE", "MUTCAT_PLANT" ]
+    "category": [ "CATTLE", "PLANT" ]
   },
   {
     "type": "mutation",
@@ -379,7 +379,7 @@
     "points": -1,
     "description": "Your skin is fragile.  Cutting damage is slightly increased for you (all: -2 cut).",
     "starting_trait": true,
-    "category": [ "MUTCAT_MEDICAL", "MUTCAT_CEPHALOPOD" ],
+    "category": [ "MEDICAL", "CEPHALOPOD" ],
     "armor": [ { "parts": "ALL", "cut": -2 } ],
     "healing_awake": -0.05
   },
@@ -391,7 +391,7 @@
     "description": "You, like many, hate eating your vegetables.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_SPIDER", "MUTCAT_LUPINE" ]
+    "category": [ "SPIDER", "LUPINE" ]
   },
   {
     "type": "mutation",
@@ -401,7 +401,7 @@
     "description": "You despise eating fruits.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
     "valid": false,
-    "category": [ "MUTCAT_BEAST", "MUTCAT_FELINE" ]
+    "category": [ "BEAST", "FELINE" ]
   },
   {
     "type": "mutation",
@@ -410,7 +410,7 @@
     "points": -1,
     "description": "You, like 75 percent of the world, cannot tolerate milk or milk based products.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
-    "category": [ "MUTCAT_TROGLOBITE", "MUTCAT_FISH", "MUTCAT_PLANT" ]
+    "category": [ "TROGLOBITE", "FISH", "PLANT" ]
   },
   {
     "type": "mutation",
@@ -419,7 +419,7 @@
     "points": -1,
     "description": "Something in those heavily processed foods doesn't agree with you.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
-    "category": [ "MUTCAT_FELINE" ]
+    "category": [ "FELINE" ]
   },
   {
     "type": "mutation",
@@ -428,7 +428,7 @@
     "points": -2,
     "description": "You have a rare allergy that prevents you from eating most types of grains such as wheat or oats.  It's possible for you to eat them, but you will suffer morale penalties due to nausea.",
     "starting_trait": true,
-    "category": [ "MUTCAT_CHIMERA", "MUTCAT_ELFA", "MUTCAT_LIZARD" ]
+    "category": [ "CHIMERA", "ELFA", "LIZARD" ]
   },
   {
     "type": "mutation",
@@ -437,7 +437,7 @@
     "points": -2,
     "description": "It's easier for you to become addicted to substances, and harder to rid yourself of these addictions.",
     "starting_trait": true,
-    "category": [ "MUTCAT_ALPHA" ]
+    "category": [ "ALPHA" ]
   },
   {
     "type": "mutation",
@@ -447,7 +447,7 @@
     "description": "On rare occasion, you will go full-auto when you intended to fire a single shot.  This has no effect when firing semi-automatic firearms.",
     "starting_trait": true,
     "threshreq": [ "THRESH_MEDICAL", "THRESH_RAT", "THRESH_LUPINE" ],
-    "category": [ "MUTCAT_MEDICAL", "MUTCAT_RAT", "MUTCAT_LUPINE" ]
+    "category": [ "MEDICAL", "RAT", "LUPINE" ]
   },
   {
     "type": "mutation",
@@ -458,7 +458,7 @@
     "starting_trait": true,
     "cancels": [ "SAVANT", "CHEMREBALANCE", "CHEMREBALANCE2" ],
     "threshreq": [ "THRESH_SLIME", "THRESH_MEDICAL", "THRESH_CHIMERA", "THRESH_ELFA", "THRESH_CATTLE" ],
-    "category": [ "MUTCAT_CATTLE" ]
+    "category": [ "CATTLE" ]
   },
   {
     "type": "mutation",
@@ -468,7 +468,7 @@
     "description": "You don't feel right unless you're carrying as much as you can.  You suffer morale penalties for carrying less than maximum volume (weight is ignored).  Xanax can help control this anxiety.",
     "starting_trait": true,
     "threshreq": [ "THRESH_RAT" ],
-    "category": [ "MUTCAT_RAT" ]
+    "category": [ "RAT" ]
   },
   {
     "type": "mutation",
@@ -479,7 +479,7 @@
     "starting_trait": true,
     "cancels": [ "CHEMIMBALANCE", "CHEMREBALANCE", "CHEMREBALANCE2" ],
     "threshreq": [ "THRESH_ALPHA", "THRESH_CHIMERA" ],
-    "category": [ "MUTCAT_ALPHA", "MUTCAT_CHIMERA" ]
+    "category": [ "ALPHA", "CHIMERA" ]
   },
   {
     "type": "mutation",
@@ -490,7 +490,7 @@
     "starting_trait": true,
     "valid": false,
     "threshreq": [ "THRESH_CATTLE" ],
-    "category": [ "MUTCAT_CATTLE" ]
+    "category": [ "CATTLE" ]
   },
   {
     "type": "mutation",
@@ -517,7 +517,7 @@
     "points": -4,
     "description": "Your body can't take much abuse.  Its maximum HP is 25% lower than usual and you heal slightly slower.  Stacks with Glass Jaw.",
     "starting_trait": true,
-    "category": [ "MUTCAT_CEPHALOPOD", "MUTCAT_MEDICAL" ],
+    "category": [ "CEPHALOPOD", "MEDICAL" ],
     "hp_modifier": -0.25
   },
   {
@@ -899,7 +899,7 @@
     "visibility": 1,
     "ugliness": 2,
     "description": "Your skin is covered with fine spines.  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive moderate damage.",
-    "category": [ "MUTCAT_CEPHALOPOD", "MUTCAT_FISH", "MUTCAT_CHIMERA", "MUTCAT_LIZARD", "MUTCAT_MEDICAL" ]
+    "category": [ "CEPHALOPOD", "FISH", "CHIMERA", "LIZARD", "MEDICAL" ]
   },
   {
     "type": "mutation",
@@ -909,7 +909,7 @@
     "visibility": 3,
     "ugliness": 3,
     "description": "Your body is covered with large quills (all: +1 bash, +2 cut, +1 heat).  Whenever an unarmed opponent strikes a part of your body that is not covered by clothing, they will receive significant damage.",
-    "category": [ "MUTCAT_CHIMERA" ],
+    "category": [ "CHIMERA" ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "heat": 1 } ]
   },
   {
@@ -1000,7 +1000,7 @@
     "visibility": 1,
     "description": "Your limbs seem to have a little more 'give' to them.  +1 Dexterity.",
     "threshreq": [ "THRESH_CEPHALOPOD", "THRESH_PLANT", "THRESH_SPIDER" ],
-    "category": [ "MUTCAT_CEPHALOPOD", "MUTCAT_PLANT", "MUTCAT_SPIDER" ]
+    "category": [ "CEPHALOPOD", "PLANT", "SPIDER" ]
   },
   {
     "type": "mutation",
@@ -1012,7 +1012,7 @@
     "description": "Your limbs are significantly more flexible than any pathetic human arm or leg.  +3 Dexterity, -2 Strength.",
     "purifiable": false,
     "threshreq": [ "THRESH_CEPHALOPOD" ],
-    "category": [ "MUTCAT_CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD" ],
     "hp_adjustment": 3
   },
   {
@@ -1081,7 +1081,7 @@
     "name": "Road-Runner",
     "points": 3,
     "description": "Your legs are extremely limber and fast-moving.  You move 30% faster on flat surfaces.",
-    "category": [ "MUTCAT_INSECT" ],
+    "category": [ "INSECT" ],
     "metabolism_modifier": 0.08
   },
   {
@@ -1092,7 +1092,7 @@
     "visibility": 6,
     "ugliness": 3,
     "description": "You have a long tail that ends in a vicious stinger, like that of a scorpion.  It does not improve your balance at all, but allows for a powerful piercing attack.  Prevents wearing non-fabric pants.",
-    "category": [ "MUTCAT_CHIMERA" ],
+    "category": [ "CHIMERA" ],
     "allow_soft_gear": true
   },
   {
@@ -1113,7 +1113,7 @@
     "points": 2,
     "description": "You can survive injuries that would incapacitate humans: you get a 20% bonus to all hit points.  Stacks with Tough, etc.",
     "threshreq": [ "THRESH_LUPINE" ],
-    "category": [ "MUTCAT_LUPINE" ],
+    "category": [ "LUPINE" ],
     "hp_modifier_secondary": 0.2
   },
   {
@@ -1124,7 +1124,7 @@
     "description": "Not much scares you.  You get a 30% bonus to all hit points.  Stacks with Tough, etc.",
     "valid": false,
     "threshreq": [ "THRESH_BEAST" ],
-    "category": [ "MUTCAT_BEAST" ],
+    "category": [ "BEAST" ],
     "hp_modifier_secondary": 0.3
   },
   {
@@ -1169,7 +1169,7 @@
     "ugliness": 1,
     "mixed_effect": true,
     "description": "You have grown noticeably taller and broader (torso, arms: +2 bash).  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).", 
-    "category": [ "MUTCAT_BEAST", "MUTCAT_CHIMERA", "MUTCAT_PLANT" ],
+    "category": [ "BEAST", "CHIMERA", "PLANT" ],
     "armor": [ { "parts": [ "TORSO", "ARM_L", "ARM_R" ], "bash": 2 } ],
     "hp_adjustment": -2,
     "metabolism_modifier": 0.2,
@@ -1183,7 +1183,7 @@
     "visibility": 1,
     "description": "You carry your rugged body with the dignity you deserve (torso, arms: +2 bash).  Strength +2.",
     "threshreq": [ "THRESH_BEAST", "THRESH_PLANT" ],
-    "category": [ "MUTCAT_BEAST", "MUTCAT_PLANT" ],
+    "category": [ "BEAST", "PLANT" ],
     "armor": [ { "parts": [ "TORSO", "ARM_L", "ARM_R" ], "bash": 2 } ],
     "hp_adjustment": -2,
     "metabolism_modifier": 0.2,
@@ -1200,7 +1200,7 @@
     "prereqs2": [ "STR_UP_3", "STR_UP_4" ],
     "changes_to": [ "HUGE_OK" ],
     "leads_to": [ "MUT_TOUGH" ],
-    "category": [ "MUTCAT_CHIMERA" ],
+    "category": [ "CHIMERA" ],
     "encumbrance_always": [
       [ "HEAD", 5 ],
       [ "MOUTH", 5 ],
@@ -1248,7 +1248,7 @@
     "mixed_effect": true,
     "description": "Your cardiovascular system has caught up with your huge muscular physique (all: +4 bash, +1 cut), so who needs pathetic human cars?  Strength +5.",
     "threshreq": [ "THRESH_CHIMERA" ],
-    "category": [ "MUTCAT_CHIMERA" ],
+    "category": [ "CHIMERA" ],
     "passive_mods": {
       "str_mod": 5
     },
@@ -1313,7 +1313,7 @@
     "name": "Dextrous",
     "points": 1,
     "description": "You are a little nimbler.  Dexterity + 1",
-    "category": [ "MUTCAT_LUPINE" ]
+    "category": [ "LUPINE" ]
   },
   {
     "type": "mutation",
@@ -1321,7 +1321,7 @@
     "name": "Extremely Dextrous",
     "points": 3,
     "description": "You are nimble and quick.  Dexterity + 4",
-    "category": [ "MUTCAT_RAPTOR" ]
+    "category": [ "RAPTOR" ]
   },
   {
     "type": "mutation",
@@ -1353,7 +1353,7 @@
     "visibility": 3,
     "ugliness": 1,
     "description": "Your skin is rather pale.",
-    "category": [ "MUTCAT_TROGLOBITE" ]
+    "category": [ "TROGLOBITE" ]
   },
   {
     "type": "mutation",
@@ -1363,7 +1363,7 @@
     "visibility": -4,
     "ugliness": -4,
     "description": "You're a real head-turner.  Some people will react well to your appearance, and most people have an easier time trusting you.",
-    "category": [ "MUTCAT_FELINE", "MUTCAT_ELFA", "MUTCAT_BIRD" ]
+    "category": [ "FELINE", "ELFA", "BIRD" ]
   },
   {
     "type": "mutation",
