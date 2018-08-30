@@ -131,7 +131,6 @@
         "type": "town",
         "shop_radius": 80,              "//": "determine radial frequency of shops / parks / houses for towns. tldr: less means more",
         "park_radius": 130,             "//": "this is not a cut and dry % but rather an inverse voodoo number; rng(0,99) > VOODOO * distance / citysize;",
-        "house_basement_chance": 5,     "//": "one_in(n) chance a house has a basement",
         "parks": {                        "//": "weighted list for park overmap terrains",
             "park": 4,
             "pool": 1,
@@ -150,11 +149,6 @@
             "house_base": 333,
             "duplex": 50,
             "emptyresidentiallot": 20
-        },
-        "basements": {
-            "basement": 1000,
-            "basement_hidden_lab_stairs": 50,
-            "basement_bionic": 50
         },
         "shops": {                        "//": "weighted list of oterrains for commercial zoning",
             "s_gas": 5,
@@ -235,6 +229,12 @@
             "s_thrift": 1,
             "s_petstore": 1,
             "house": 3
+        },
+        "house_basement_chance": 5,     "//": "one_in(n) chance a house has a basement",
+        "basements": {
+            "basement": 1000,
+            "basement_hidden_lab_stairs": 50,
+            "basement_bionic": 50
         }
       },
       "weather": {
