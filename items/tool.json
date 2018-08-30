@@ -277,7 +277,7 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "symbol": ",",
-    "color": "ltblue",
+    "color": "light_blue",
     "explode_in_fire": true,
     "use_action": {
       "target": "rocket_core_act",
@@ -299,7 +299,7 @@
     "bashing": 6,
     "material": [ "steel", "plastic" ],
     "symbol": ",",
-    "color": "ltred",
+    "color": "light_red",
     "initial_charges": 1,
     "max_charges": 4,
     "turns_per_charge": 1,
@@ -308,7 +308,7 @@
     "use_action": {
       "type": "explosion",
       "draw_explosion_radius": 2,
-      "draw_explosion_color": "ltblue",
+      "draw_explosion_color": "light_blue",
       "emp_blast_radius": 2,
       "sound_volume": 0,
       "sound_msg": "Tick.",
@@ -425,7 +425,7 @@
     "bashing": 2,
     "material": [ "plastic", "veggy" ],
     "symbol": "o",
-    "color": "dkgray",
+    "color": "dark_gray",
     "revert_to": "canister_empty",
     "use_action": {
       "target": "bot_fungal_boil",
@@ -512,7 +512,7 @@
     "to_hit": -3,
     "material": [ "steel", "superalloy" ],
     "symbol": "H",
-    "color": "ltgreen",
+    "color": "light_green",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_robot_drone",
@@ -534,7 +534,7 @@
     "to_hit": -3,
     "material": [ "steel", "superalloy" ],
     "symbol": "H",
-    "color": "ltgreen"
+    "color": "light_green"
   },
   {
     "type": "GENERIC",

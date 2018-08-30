@@ -20,7 +20,7 @@
     "bashing": 8,
     "material": [ "glass" ],
     "symbol": "*",
-    "color": "ltgreen",
+    "color": "light_green",
     "ammo_type": "thrown",
     "flags": [ "ACT_ON_RANGED_HIT", "RECOVER_9" ],
     "emits": [ "emit_acid_trail_slow" ],

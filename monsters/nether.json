@@ -72,7 +72,7 @@
     "speed": 180,
     "material": [ "flesh" ],
     "symbol": "h",
-    "color": "ltred",
+    "color": "light_red",
     "aggression": 0,
     "morale": 50,
     "melee_skill": 10,

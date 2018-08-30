@@ -462,7 +462,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
@@ -485,7 +485,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
@@ -508,7 +508,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
@@ -531,7 +531,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
@@ -554,7 +554,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
@@ -577,7 +577,7 @@
     "cutting": 6,
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
-    "color": "ltgray",
+    "color": "light_gray",
     "revert_to": "null",
     "use_action": {
       "type": "place_monster",
