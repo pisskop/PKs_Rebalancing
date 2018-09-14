@@ -74,6 +74,7 @@
         "calories": 0.5,
         "parasites": 2.0
     },
+    "flags": [ "SMOKABLE" ],
     "relative": {
         "vitamins": [ [ "vitA", 6 ] ],
         "fun": -5
@@ -93,6 +94,7 @@
     "volume": 1,
     "price": 500,
     "spoils_in": 12,
+    "flags": [ "SMOKABLE" ],
     "calories": 200,
     "effects": [
       { "id": "rad_tenths", "duration": 6 }
@@ -106,6 +108,7 @@
     "name_plural": "human fleshes",
     "description": "Freshly butchered from a human body. [4/10 rad]",
     "material": "hflesh",
+    "flags": [ "SMOKABLE" ],
       "effects": [
         { "id": "rad_tenths", "duration": 4 }
       ]
@@ -121,6 +124,7 @@
     "volume": 1,
     "price": 500,
     "spoils_in": 24,
+    "flags": [ "SMOKABLE" ],
     "calories": 250,
     "healthy": -1,
     "fun": -10,
@@ -141,7 +145,7 @@
     "symbol": "%",
     "quench": -7,
     "healthy": -2,
-    "nutrition": 24,
+    "calories": 208,
     "description": "Carl JR. appreciates your business.  Enjoy your order of 'EXTRA BIG-ASS FRIES'.  Please come back when you can afford to make another purchase of 'EXTRA BIG-ASS FRIES'.",
     "price": 500,
     "material": "junk",
@@ -248,7 +252,7 @@
     "color": "blue",
     "comestible_type": "MED",
     "charges": 3,
-    "nutrition": 12,
+    "calories": 104,
     "fun": -5,
     "use_action": {
       "type": "consume_drug",
@@ -359,7 +363,7 @@
     "description": "A fresh piece of clay.  Can be used in crafting, boiled to remove harmful bacteria, or eaten raw to satiate hunger and cleanse the body of some radiation.",
     "comestible_type": "MED",
     "charges": 1,
-    "nutrition": 2,
+    "calories": 17,
     "quench": -10,
     "fun": -8,
     "parasites": 12,
@@ -383,7 +387,7 @@
     "description": "A portion of clay that has been boiled in salt to remove hard minerals and parasites.  Removes ambient radiation and has improved taste over raw clay, but is not suitable for sculpting.",
     "comestible_type": "MED",
     "charges": 1,
-    "nutrition": 2,
+    "calories": 17,
     "quench": -13,
     "fun": -4,
     "parasites": 0,
@@ -421,7 +425,7 @@
     "type": "COMESTIBLE",
     "name": "gummy vitamin",
     "description": "Essential dietary nutrients conveniently packaged in a fruit-flavored chewy candy form to disguise the ionized iron contained within.  An option of last resort when a balanced diet is not possible, this will also cleanse the body of minor toxins and radioactive particles.  Excess use can cause hypervitaminosis and in some cases overdose.",
-    "nutrition": 1,
+    "calories": 9,
     "stim": -1,
     "fun": 4,
     "charges": 10,
@@ -469,7 +473,7 @@
     "name": "aquarium fertilizer",
     "name_plural": "aquarium fertilizer",
     "color": "ltred",
-    "nutrition": 4,
+    "calories": 35,
     "stim": -2,
     "healthy": -4,
     "fun": -20,
