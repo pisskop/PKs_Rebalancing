@@ -536,6 +536,7 @@
       }
     ],
     "death_function": [ "JABBERWOCKY" ],
+    "harvest": "jabberwock",
     "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "DESTROYS", "ATTACKMON", "FUR", "LEATHER", "BONES", "POISON", "BONES", "FAT", "REVIVES", "NO_NECRO" ]
   },
   {
