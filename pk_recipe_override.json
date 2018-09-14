@@ -405,7 +405,9 @@
     ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "raw_leather", 2 ] ],
+      [ [ "bone", 5 ] ],
+      [ [ "offal", 3 ] ],
+      [ [ "raw_fur", 1 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
