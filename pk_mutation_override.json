@@ -1464,8 +1464,8 @@
     "points": 2,
     "visibility": 7,
     "ugliness": 6,
-    "description": "Your body is coated with a fine slime (all: +1 cut, -1 heat).  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits.",
-    "armor": [ { "parts": "ALL", "cut": 1, "heat": -1 } ]
+    "description": "Your body is coated with a fine slime (all: +1 cut).  Protects from long term effects of acid, though not short term ones.  Greatly increases wet benefits.",
+    "armor": [ { "parts": "ALL", "cut": 1 } ]
   },
   {
     "type": "mutation",
