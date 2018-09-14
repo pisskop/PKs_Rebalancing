@@ -770,7 +770,6 @@
     "components": [
       [ [ "mutagen", 1 ] ],
       [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
-      [ [ "raw_tainted_leather", 1 ], [ "raw_tainted_fur", 1 ], [ "tallow_tainted", 4 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 20 ] ]
     ]
   },
