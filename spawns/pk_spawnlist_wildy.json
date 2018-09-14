@@ -2,11 +2,13 @@
   {
     "type":"monstergroup",
     "name": "GROUP_PEST",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_maggot",
     "monsters": [
       { "monster": "mon_bat", "freq": 65, "cost_multiplier": 0, "pack_size": [6,12], "conditions": ["DAWN", "DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_bat_vampire", "freq": 65, "cost_multiplier": 0, "pack_size": [6,12], "conditions": ["DAWN", "DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN"], "starts": 5 },
-      { "monster": "mon_molebot", "freq": 1, "cost_multiplier": 3, "pack_size": [1,3] },
+      { "monster": "mon_molebot", "freq": 20, "cost_multiplier": 3, "pack_size": [1,3] },
 
       { "monster": "mon_spider_widow_giant", "freq": 50, "cost_multiplier": 0, "pack_size": [2,4] },
       { "monster": "mon_giant_cockroach", "freq": 50, "cost_multiplier": 1, "pack_size": [3,6] },
@@ -24,13 +26,15 @@
       { "monster": "mon_caterpillar", "freq":  25, "cost_multiplier": 1, "pack_size": [1,4], "conditions": ["SPRING", "SUMMER"] },
       { "monster": "mon_pupae", "freq":  25, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_pupae_pk", "freq":  25, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
-      { "monster": "mon_worm", "freq":  10, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,2] },
-      { "monster": "mon_graboid", "freq":  5, "cost_multiplier": 5, "starts": 100, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,3] }
+      { "monster": "mon_worm", "freq":  15, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,2] },
+      { "monster": "mon_graboid", "freq":  10, "cost_multiplier": 5, "starts": 100, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,3] }
       ]
   },
   {
     "type":"monstergroup",
     "name": "GROUP_PEST_FLYING",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_crow",
     "monsters": [
       { "monster": "mon_bat", "freq": 200, "cost_multiplier": 1, "pack_size": [6,12], "conditions": ["DAWN", "DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
@@ -46,14 +50,15 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ANT",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
-      { "monster": "mon_null", "freq": 650, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
       { "monster": "mon_ant", "freq": 330, "cost_multiplier": 0 },
       { "monster": "mon_ant_terminal", "freq": 10, "cost_multiplier": 0 },
       { "monster": "mon_ant_scrib", "freq": 250, "cost_multiplier": 0 },
       { "monster": "mon_ant_soldier_pk_weak", "freq": 40, "cost_multiplier": 5 },
-      { "monster": "mon_ant_queen_young", "freq": 10, "cost_multiplier": 9, "conditions": ["SPRING"], "starts":   75 },
+      { "monster": "mon_ant_queen_young", "freq": 25, "cost_multiplier": 9, "conditions": ["SPRING"], "starts":   75 },
       { "monster": "mon_ant_male", "freq": 60, "cost_multiplier": 7, "conditions": ["SPRING"], "starts":   25 },
       { "monster": "mon_ant_larva", "freq": 20, "cost_multiplier": 0, "conditions": ["SPRING"] },
       { "monster": "mon_ant_fungus", "freq": 1, "cost_multiplier": 20, "pack_size": [1,2], "conditions": [ "SPRING", "SUMMER" ], "starts":   50 },
@@ -64,23 +69,9 @@
   },
   {
     "type":"monstergroup",
-    "name" : "GROUP_ANT_ACID",
-    "default" : "mon_null",
-    "monsters" : [
-      { "monster": "mon_null", "freq": 650, "cost_multiplier": 1, "conditions": [ "WINTER" ] },
-      { "monster": "mon_ant_acid", "freq": 300, "cost_multiplier": 0 },
-      { "monster": "mon_ant_acid_terminal", "freq": 95, "cost_multiplier": 0 },
-      { "monster": "mon_ant_acid_soldier", "freq": 200, "cost_multiplier": 5 },
-      { "monster": "mon_ant_acid_kwama", "freq": 40, "cost_multiplier": 12, "starts":   50 },
-      { "monster": "mon_ant_acid_ultralisk", "freq": 4, "cost_multiplier": 15, "starts":   100 },
-      { "monster": "mon_ant_fungus", "freq": 1, "cost_multiplier": 20, "pack_size": [1,2], "conditions": [ "SPRING", "SUMMER" ], "starts":   50 },
-      { "monster" : "mon_ant_acid_larva", "freq" : 10, "cost_multiplier" : 5, "conditions": [ "SPRING", "SUMMER" ] },
-      { "monster" : "mon_ant_acid_queen", "freq" : 0, "cost_multiplier" : 0 }
-    ]
-  },
-  {
-    "type":"monstergroup",
     "name": "GROUP_SPIDER",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_spider_web",
     "monsters": [
       { "monster": "mon_null", "freq": 1000, "cost_multiplier": 0, "conditions": ["WINTER"] },
@@ -96,6 +87,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_SPIDER_TRAP",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_spider_trapdoor_giant",
     "monsters": [
       { "monster": "mon_null", "freq": 1000, "cost_multiplier": 0, "conditions": ["WINTER"] },
@@ -111,6 +104,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_CAVE",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_furvivor", "freq": 1, "cost_multiplier": 5, "conditions": ["DUSK", "SPRING"], "pack_size": [3,5] },
@@ -151,6 +146,8 @@
     "type":"monstergroup",
     "name": "GROUP_SAFE",
     "is_safe": true,
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_null", "freq": 50, "cost_multiplier": 1, "conditions": ["SPRING", "AUTUMN"] },
@@ -160,7 +157,7 @@
       { "monster": "mon_copbot", "freq": 2, "cost_multiplier": 3, "pack_size": [ 1 , 3 ] },
       { "monster": "mon_riotbot", "freq": 2, "cost_multiplier": 3, "pack_size": [ 1 , 3 ] },
       { "monster": "mon_eyebot", "freq": 25, "cost_multiplier": 1, "pack_size": [ 1 , 3 ] },
-      { "monster": "mon_molebot", "freq": 2, "cost_multiplier": 3, "pack_size": [ 1,3 ] },
+      { "monster": "mon_molebot", "freq": 20, "cost_multiplier": 3, "pack_size": [ 1,3 ] },
       { "monster": "mon_ant_queen_young", "freq": 10, "cost_multiplier": 10, "conditions": ["DAWN", "DUSK", "SPRING"], "starts":   75 },
       { "monster": "mon_black_rat", "freq": 15, "cost_multiplier": 1, "pack_size": [1,3], "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_black_rat", "freq": 5, "cost_multiplier": 5, "pack_size": [6,12], "conditions": ["DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
@@ -209,6 +206,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_DOMESTIC",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_dog",
     "monsters": [
       { "monster": "mon_horse_zombie", "freq":  10, "cost_multiplier": 20, "starts":   75, "pack_size": [1,2] },
@@ -248,6 +247,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_BEE",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_bee", "freq": 200, "cost_multiplier": 0 },
@@ -261,6 +262,8 @@
   {
     "type": "monstergroup",
     "name": "CAMPERS",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_thing_swamp", "freq": 10, "cost_multiplier": 5 },
@@ -284,8 +287,8 @@
       { "monster": "mon_maggot", "freq":  25, "cost_multiplier": 1, "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_maggot", "freq":  10, "cost_multiplier": 5, "pack_size": [ 5 , 16 ], "conditions": ["SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_pig_saber", "freq":  50, "cost_multiplier": 5, "starts":   50, "pack_size": [1,3] },
-      { "monster": "mon_worm", "freq":  10, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,2] },
-      { "monster": "mon_graboid", "freq":  5, "cost_multiplier": 5, "starts": 100, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,3] },
+      { "monster": "mon_worm", "freq":  15, "cost_multiplier": 3, "conditions": ["SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,2] },
+      { "monster": "mon_graboid", "freq":  10, "cost_multiplier": 5, "starts": 100, "conditions": ["NIGHT", "SPRING", "SUMMER", "AUTUMN"], "pack_size": [1,3] },
 
       { "monster": "mon_feer", "freq": 5, "cost_multiplier": 3, "pack_size": [1,2], "conditions": ["DAWN", "DUSK", "SPRING", "SUMMER", "AUTUMN"] },
       { "monster": "mon_fant", "freq": 5, "cost_multiplier": 3, "conditions": ["SUMMER", "AUTUMN"] },
@@ -308,6 +311,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_HORROR",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_null",
     "monsters": [
       { "monster": "mon_horror_dusk", "freq": 250, "cost_multiplier": 0, "conditions": ["NIGHT", "DUSK"] },

@@ -134,6 +134,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_LAB",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_zombie_scientist",
     "monsters": [
       { "monster": "mon_crawler", "freq": 25, "cost_multiplier": 3 },
@@ -161,6 +163,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ICE_LAB",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_zombie_scientist",
     "monsters": [
       { "monster": "mon_crawler", "freq": 25, "cost_multiplier": 3 },
@@ -187,6 +191,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_CO",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_eyebot",
     "monsters": [
       { "monster": "mon_robot_drone", "freq": 50, "cost_multiplier": 0 },
@@ -207,6 +213,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_TURRET",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_turret",
     "monsters": [
       { "monster": "mon_copbot", "freq": 100, "cost_multiplier": 3, "pack_size": [2,4] },
@@ -221,6 +229,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ROBOT",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_manhack",
     "monsters": [
       { "monster": "mon_cyborg_cop", "freq": 50, "cost_multiplier": 0 },
@@ -240,6 +250,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_ROBOCOP",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_eyebot",
     "monsters": [
       { "monster": "mon_copbot", "freq": 250, "cost_multiplier": 0 },
@@ -257,6 +269,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_MIL_BLOCK",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_chickenbot",
     "monsters": [
       { "monster": "mon_null", "freq": 200, "cost_multiplier": 0 },
@@ -272,6 +286,8 @@
   {
     "type":"monstergroup",
     "name": "GROUP_POL_BLOCK",
+	"override": true,
+	"freq_total": 1001,
     "default": "mon_zombie_cop",
     "monsters": [
       { "monster": "mon_null", "freq": 200, "cost_multiplier": 0 },
