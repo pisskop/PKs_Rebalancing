@@ -477,10 +477,6 @@
 		"house_basement_chance": 5,
         "shop_radius": 80,              "//": "determine radial frequency of shops / parks / houses for towns. tldr: less means more",
         "park_radius": 130,             "//": "this is not a cut and dry % but rather an inverse voodoo number; rng(0,99) > VOODOO * distance / citysize;",
-        "parks": {                  "//": "weighted list for park overmap terrains",
-          "park": 4,
-          "pool": 1
-        },
         "houses": {
               "house_two_story_basement": 1,
               "house": 1000,
