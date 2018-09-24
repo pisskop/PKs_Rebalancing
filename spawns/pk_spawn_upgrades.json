@@ -16,6 +16,13 @@
     ]
     },{
     "type":"monstergroup",
+    "name": "GROUP_ZOMBIE_ELECTRIC",
+    "default": "mon_zombie_electric_pk",
+    "monsters": [
+      { "monster": "mon_zombie_nullfield", "freq": 400, "cost_multiplier": 10 }
+    ]
+    },{
+    "type":"monstergroup",
     "name": "GROUP_ZOMBIE_SMOKER",
     "default": "mon_zombie_smoker",
     "monsters": [
