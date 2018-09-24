@@ -4,9 +4,13 @@
     "type": "harvest",
     "entries": [
       { "drop": "megabear_skull_unclean", "scale_num": [ 0.2, 0.4 ], "max": 1 },
-      { "drop": "offal", "base_num": [ 0, 1 ], "scale_num": [ 0.2, 0.4 ], "max": 3 },
-      { "drop": "stomach" },
-      { "drop": "bone", "base_num": [ 1, 2 ], "scale_num": [ 0.4, 0.5 ], "max": 18 }
+      { "drop": "meat", "base_num": [ 30, 50 ], "scale_num": [ 0.8, 0.9 ], "max": 60 },
+      { "drop": "offal", "base_num": [ 3, 6 ], "scale_num": [ 0.5, 0.7 ], "max": 7 },
+      { "drop": "stomach_large", "scale_num": [ 1, 1 ], "max": 1 },
+      { "drop": "bone", "base_num": [ 10, 30 ], "scale_num": [ 0.8, 0.9 ], "max": 40 },
+      { "drop": "sinew", "base_num": [ 50, 100 ], "scale_num": [ 0.6, 0.9 ], "max": 120 },
+      { "drop": "raw_fur", "base_num": [ 2, 4 ], "scale_num": [ 0.6, 0.8 ], "max": 5 },
+      { "drop": "fat", "base_num": [ 20, 40 ], "scale_num": [ 0.8, 0.9 ], "max": 50 }
     ]
   }
 ]

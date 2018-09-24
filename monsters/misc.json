@@ -975,7 +975,7 @@
     "fear_triggers": [ "HURT", "FRIEND_DIED", "FIRE" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
-    "butchery_harvest": "megabear_head",
+    "harvest": "megabear_head",
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "BLEED", "BASHES", "PUSH_MON", "BONES", "FAT", "LEATHER", "SWARMS", "GROUP_MORALE" ]
   },
   {
