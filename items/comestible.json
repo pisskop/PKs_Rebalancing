@@ -280,6 +280,7 @@
         "use_action" : {
           "type" : "heal",
           "disinfectant_power" : 3,
+          "bite" : 0.35,
 		  "move_cost": 1200,
           "long_action" : true,
 		  "effects": [
