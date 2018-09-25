@@ -13,7 +13,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_thing_head",
@@ -34,7 +33,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_thing_spider",
@@ -55,7 +53,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_gray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_tripod",
@@ -76,7 +73,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_cherub",
@@ -97,7 +93,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_cherub_fly",
@@ -118,7 +113,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_imp_revive",
@@ -139,7 +133,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_pinky_revive",
@@ -160,7 +153,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_hell_knight_revive",
@@ -181,7 +173,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_cacodemon_revive",
@@ -205,7 +196,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_churl_revive",
@@ -229,7 +219,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_imp",
@@ -250,7 +239,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_imp_black",
@@ -271,7 +259,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_pinky",
@@ -292,7 +279,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_lostsoul",
@@ -313,7 +299,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_revenant",
@@ -334,7 +319,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_hell_knight",
@@ -355,7 +339,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_hell_baron",
@@ -376,7 +359,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_mancubus",
@@ -397,7 +379,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_cacodemon",
@@ -421,7 +402,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_mechaspider",
@@ -442,7 +422,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_cyberdemon",
@@ -463,7 +442,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_black_rat",
@@ -486,7 +464,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_s",
@@ -509,7 +486,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_web_omega",
@@ -532,7 +508,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_s",
@@ -555,7 +530,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant",
@@ -578,7 +552,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ".",
     "color": "ltgray",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_spider_trapdoor_giant_guardian",
@@ -628,7 +601,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_shady",
@@ -649,7 +621,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_hollow",
@@ -670,7 +641,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_blind_pk",
@@ -691,7 +661,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_grabber",
@@ -712,7 +681,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_zombie_acidic_pk",
@@ -733,7 +701,6 @@
     "material": [ "aluminum", "plastic" ],
     "symbol": ",",
     "color": "light_green",
-    "revert_to": "null",
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_ant_acid_ultralisk",
