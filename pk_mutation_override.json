@@ -930,7 +930,7 @@
     "points": 5,
     "visibility": 10,
     "ugliness": 3,
-    "description": "Your skin is coated in a light bark, like that of a tree.  This provides resistance to bashing and cutting damage but makes you vulnerable against fire (all: +5 bash, +2 cut, -2 heat).  Greatly reduces wet effects.",
+    "description": "Your skin is coated in a light bark, like that of a tree.  This provides resistance to bashing and cutting damage but makes you vulnerable against fire (all: +5 bash, +2 cut).  Greatly reduces wet effects.",
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 2 } ]
   },
   {
@@ -940,7 +940,7 @@
     "points": 6,
     "visibility": 8,
     "ugliness": 3,
-    "description": "All the hair on your body has turned to long, grass-like leaves (all: +1 cut, -1 heat).  Apart from being physically striking, these provide you with a minor amount of nutrition while in sunlight.  Slightly reduces wet effects.",
+    "description": "All the hair on your body has turned to long, grass-like leaves (all: +1 cut).  Apart from being physically striking, these provide you with a minor amount of nutrition while in sunlight.  Slightly reduces wet effects.",
     "armor": [ { "parts": "ALL", "cut": 1 } ],
     "thirst_modifier": 0.04
   },
@@ -951,7 +951,7 @@
     "points": 2,
     "visibility": 10,
     "ugliness": -4,
-    "description": "You've started blooming where your scalp used to be (head: -1 heat).  Your blossoms have a pleasant aroma, are visually striking, and are quite sensitive.",
+    "description": "You've started blooming where your scalp used to be. Your blossoms have a pleasant aroma, are visually striking, and are quite sensitive.",
     "metabolism_modifier": 0.04
   },
   {
@@ -961,7 +961,7 @@
     "points": 4,
     "visibility": 10,
     "ugliness": 3,
-    "description": "We have developed local blossoms (all: -1 heat).  The Mycus must grow.",
+    "description": "We have developed local blossoms. The Mycus must grow.",
     "valid": false
   },
   {
@@ -971,7 +971,7 @@
     "points": 6,
     "visibility": 10,
     "ugliness": 1,
-    "description": "Local organisms seem to regard open spore-dispersal as a danger, and attack the Mycus.  Accordingly our local blossoms remain quiescent (all: -1 heat), until local guidance determines that it is safe to germinate.  Rapid development taxes local nutrient reserves but ensures rapid and effective growth.",
+    "description": "Local organisms seem to regard open spore-dispersal as a danger, and attack the Mycus.  Accordingly our local blossoms remain quiescent, until local guidance determines that it is safe to germinate.  Rapid development taxes local nutrient reserves but ensures rapid and effective growth.",
     "valid": false,
     "active": true,
     "cost": 10,
@@ -986,7 +986,7 @@
     "points": 1,
     "visibility": 5,
     "ugliness": 4,
-    "description": "The skin on your hands is a mucous membrane and produces a thick, acrid slime (all: +1 cut, +3 acid, -1 heat).  Attacks using your hand will cause minor acid damage.  Slightly increases wet benefits.",
+    "description": "The skin on your hands is a mucous membrane and produces a thick, acrid slime (all: +1 cut, +3 acid).  Attacks using your hand will cause minor acid damage.  Slightly increases wet benefits.",
     "armor": [ { "parts": "ALL", "cut": 1, "acid": 3 } ]
   },
   {
@@ -1481,7 +1481,7 @@
     "points": -2,
     "visibility": 10,
     "ugliness": 10,
-    "description": "Your flesh is a pleasing gel-like consistency (all: +6 bash, +1 cut, -2 heat).  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably.",
+    "description": "Your flesh is a pleasing gel-like consistency (all: +6 bash, +1 cut).  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably.",
     "purifiable": false,
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 1 } ]
   },
