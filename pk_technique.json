@@ -2,7 +2,7 @@
   {
     "type": "technique",
     "id": "heavy_blow",
-    "name": "hammerblow",
+    "name": "Hammerblow",
     "description": "Heavy Knockback Attack",
     "unarmed_allowed": true,
     "melee_allowed": true,
@@ -24,7 +24,7 @@
   {
     "id": "repose",
     "type": "technique",
-    "name": "repose",
+    "name": "Repose",
     "description": "Grab Breaking Attack",
     "min_melee": 0,
     "weighting": -3,
@@ -47,7 +47,7 @@
   {
     "id": "stuck_in_1",
     "type": "technique",
-    "name": "lodge-in risk",
+    "name": "Lodge-in risk",
     "description": "Slow Attack [66%]",
     "min_melee": 0,
     "max_melee": 3,
@@ -69,7 +69,7 @@
   {
     "id": "stuck_in_2",
     "type": "technique",
-    "name": "stuck-in risk",
+    "name": "Stuck-in risk",
     "description": "Slightly Slower Attack [33%]",
     "min_melee": 0,
     "max_melee": 6,
@@ -90,7 +90,7 @@
   {
     "id": "stuck_in_3",
     "type": "technique",
-    "name": "wedge-in chance",
+    "name": "Wedge-in chance",
     "description": "Slow Attack to Down and Stun an Enemy",
     "min_melee": 4,
     "weighting": -5,
