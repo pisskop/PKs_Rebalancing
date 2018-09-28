@@ -143,6 +143,9 @@
                           "t_water_sh": 1
                       }
                   }
+              },
+              "clear_terrain_furniture": false,
+              "terrain_furniture": {
               }
           },
           "forest_thick": {
@@ -238,6 +241,9 @@
                           "t_water_sh": 1
                       }
                   }
+              },
+              "clear_terrain_furniture": false,
+              "terrain_furniture": {
               }
           },
           "forest_water": {
@@ -325,6 +331,16 @@
                           "t_swater_sh": 16,
                           "t_swater_dp": 1,
                           "t_water_sh": 8
+                      }
+                  }
+              },
+              "clear_terrain_furniture": false,
+              "terrain_furniture": {
+                  "t_water_sh" : {
+                      "chance": 2,
+                      "clear_furniture": false,
+                      "furniture": {
+                          "f_cattails": 1
                       }
                   }
               }
