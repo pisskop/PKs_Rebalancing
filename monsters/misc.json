@@ -1059,7 +1059,7 @@
       { "type": "bite", "cooldown": 30, "accuracy": 9, "no_infection_chance": 12 }
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_WEAK", "MEAT", "FIRE", "FIRE" ],
-    "fear_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED" ],
+    "fear_triggers": [ "HURT", "PLAYER_CLOSE", "FRIEND_DIED", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "HIT_AND_RUN", "KEENNOSE", "BLEED", "BONES", "SWARMS", "GROUP_MORALE" ]
   },
