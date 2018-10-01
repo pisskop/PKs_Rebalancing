@@ -1838,21 +1838,6 @@
     "burn_into": "mon_zombie_scorched_pk"
   },
   {
-    "id": "mon_skeleton",
-    "type": "MONSTER",
-    "copy-from": "mon_skeleton",
-    "burn_into": "mon_skeleton_scorched",
-    "armor_bash": 0,
-    "armor_cut": 10,
-    "armor_stab": 16,
-    "special_attacks": [ [ "scratch", 10 ] ],
-    "upgrades": {
-      "half_life": 19,
-      "into": "mon_skeleton_pk"
-    },
-    "flags": [ "SEES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON" ]
-  },
-  {
     "id": "mon_skeleton_pk",
     "type": "MONSTER",
     "name": "zombie mangler",
