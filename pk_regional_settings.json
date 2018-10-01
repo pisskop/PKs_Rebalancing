@@ -324,7 +324,7 @@
                   "t_grass_long": 3,
                   "t_grass_tall": 1,
                   "t_moss": 2,
-                  "t_dirt": 2                "//": "Replace dirt with mud when Whaley adds mud."
+                  "t_dirt": 2
               },
               "clear_components": false,
               "components": {
