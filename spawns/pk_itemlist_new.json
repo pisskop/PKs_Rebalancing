@@ -14,6 +14,7 @@
       [ "chem_hydrogen_peroxide", 15 ],
       [ "pepto", 40 ],
       [ "aspirin", 20 ],
+	  [ "weak_antibiotic", 10],
       [ "clay_boiled", 12 ],
       [ "dr_stem_cell", 8 ]
     ]
@@ -333,6 +334,7 @@
       [ "codeine", 18 ],
       [ "tramadol", 18 ],
       [ "aspirin", 15 ],
+	  [ "weak_antibiotic", 10 ],
       [ "pepto", 20 ],
       [ "adrenaline_injector", 12 ],
       [ "berserker_drug", 12 ],
