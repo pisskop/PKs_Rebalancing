@@ -420,7 +420,7 @@
     "special_attacks": [ [ "scratch", 15 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched_2",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched",
@@ -456,7 +456,7 @@
       "half_life": 24,
       "into": "mon_zombie_scorched_pk"
     },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fiend",
@@ -496,7 +496,7 @@
       "half_life": 24,
       "into": "mon_zombie_fiend_pk"
     },
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_pk",
@@ -528,7 +528,7 @@
     "special_attacks": [ [ "slash", 30 ] ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_shocker",
@@ -562,7 +562,7 @@
     "special_when_hit": [ "ZAPBACK", 25 ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_CIV", "ELECTRIC" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_CIV", "ELECTRIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fiend_pk",
@@ -597,7 +597,7 @@
     ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fiend_shocker",
@@ -635,7 +635,7 @@
     "special_when_hit": [ "ZAPBACK", 20 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend_pk",
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_SUBS", "ELECTRIC" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_SUBS", "ELECTRIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_crawler_scorched",
@@ -666,7 +666,7 @@
     "vision_night": 3,
     "death_function": [ "SMOKEBURST", "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_skeleton_scorched",
-    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "REVIVES", "NO_NECRO", "SWIMS" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "REVIVES", "NO_NECRO", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_skeleton_scorched",
@@ -697,7 +697,7 @@
     "vision_day": 10,
     "vision_night": 3,
     "death_function": [ "DISINTEGRATE" ],
-    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "SWIMS" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_necro",
@@ -733,7 +733,7 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_function": [ "BLOBSPLIT", "BLOBSPLIT" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_master",
@@ -769,7 +769,7 @@
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_function": [ "BLOBSPLIT", "BLOBSPLIT" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child_scorched_2",
@@ -800,7 +800,7 @@
     "vision_night": 3,
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_skeleton_scorched",
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS" ]
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS", "FILTHY" ]
   },
   {
     "id": "mon_horse_zombie_scorched",
