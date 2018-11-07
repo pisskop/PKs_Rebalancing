@@ -37,7 +37,7 @@
     "locations": [ "land" ],
     "city_distance": [12, -1],
     "city_sizes": [4, 16],
-    "occurrences": [1, 3]
+    "occurrences": [0, 3]
   },{
     "type": "overmap_special",
     "id": "Mine Entrace By Road",
@@ -74,7 +74,7 @@
     "locations": [ "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 4],
+    "occurrences": [0, 4],
     "flags": [ "CLASSIC" ],
     "spawns": { "group": "GROUP_MUTATIONS", "population":[80,240], "radius":[100,300] }
   },{
@@ -107,7 +107,7 @@
     "copy-from": "Gas Station",
     "locations": [ "land" ],
     "city_distance": [12, -1],
-    "occurrences": [1, 4]
+    "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "Hazardous Waste Sarcophagus",
@@ -156,7 +156,7 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [1, 12],
-    "occurrences": [1, 4]
+    "occurrences": [0, 4]
   },{
     "type": "overmap_special",
     "id": "Evac Shelter",
@@ -207,7 +207,7 @@
     "type": "overmap_special",
     "id": "Public Works",
     "copy-from": "Public Works",
-    "city_distance": [2, 12],
+    "city_distance": [1, 12],
     "rotate": true
   },{
     "type": "overmap_special",
@@ -752,7 +752,7 @@
     "id": "Strange Temple",
     "copy-from": "Strange Temple",
     "locations": [ "forest" ],
-    "occurrences": [1, 2]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "Strangle Temple_swamp",
@@ -767,7 +767,7 @@
     "locations": [ "swamp" ],
     "city_distance": [20, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 2]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "bandit_cabin",
@@ -813,7 +813,7 @@
     ],
     "locations": [ "land" ],
     "city_distance": [0, 20],
-    "occurrences": [1, 6],
+    "occurrences": [1, 4],
     "rotate": false,
     "spawns": { "group": "GROUP_SMALL_STATION", "population":[4, 12], "radius":[2, 5] }
   },{
@@ -888,7 +888,7 @@
     "id": "LMOE Shelter",
     "copy-from": "LMOE Shelter",
     "city_distance": [0, -1],
-    "occurrences": [1, 3]
+    "occurrences": [0, 2]
   },{
     "type": "overmap_special",
     "id": "LMOE Shelter_swamp",
@@ -900,7 +900,7 @@
     "locations": [ "swamp" ],
     "city_distance": [15, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 3],
+    "occurrences": [0, 2],
     "rotate": false,
     "flags": [ "CLASSIC" ]
   },{
@@ -923,7 +923,7 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [20, -1],
     "city_sizes": [4, 12],
-    "occurrences": [1, 1],
+    "occurrences": [0, 1],
     "rotate": false,
     "flags": [ "CLASSIC" ],
     "spawns": { "group": "GROUP_CABIN", "population":[40,120], "radius":[80, 240] }
@@ -937,14 +937,14 @@
     "locations": [ "forest", "swamp" ],
     "city_distance": [20, -1],
     "city_sizes": [0, 6],
-    "occurrences": [1, 1],
+    "occurrences": [0, 1],
     "spawns": { "group": "GROUP_CABIN", "population":[25,80], "radius":[250, 500] }
   },{
     "type": "overmap_special",
     "id": "Cabin",
     "copy-from": "Cabin",
     "locations": [ "forest" ],
-    "occurrences": [1, 3]
+    "occurrences": [0, 3]
   },{
     "type": "overmap_special",
     "id": "Cabin_swamp",
@@ -1076,7 +1076,7 @@
     "id": "Mansion_Road",
     "copy-from": "Mansion_Road",
     "city_distance": [0, -1],
-    "occurrences": [1, 2],
+    "occurrences": [0, 2],
     "rotate": true
   },{
     "type": "overmap_special",

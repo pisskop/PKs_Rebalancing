@@ -796,7 +796,8 @@
     "id": "softrugs",
     "items": [
       [ "stamina_vial", 35 ],
-      ["1st_aid", 15],
+      [ "1st_aid", 15],
+	  [ "weak_antibiotic", 10],
       [ "medikit", 20 ],
       [ "antidote_posion", 15 ],
       [ "antidote_badpoison", 5 ],

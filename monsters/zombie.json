@@ -107,7 +107,7 @@
     "attack_effs": [ { "id": "rad_tenths", "duration": 5 } ],
     "armor_bash": 8,
     "armor_cut": 5,
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_armored",
@@ -181,7 +181,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_pk_weak",
-    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_rot",
@@ -403,7 +403,7 @@
     "special_when_hit": [ "ACIDSPLASH", 65 ],
     "death_function": [ "ACID", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "ACID_BLOOD", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ACIDPROOF", "ACID_BLOOD", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
 },
   {
     "id": "mon_zombie_acidic",
@@ -463,7 +463,7 @@
       "half_life": 5,
       "into_group": "GROUP_ZOMBIE_DECAY"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_blind",
@@ -501,7 +501,7 @@
       "half_life": 5,
       "into": "mon_zombie_blind_pk"
     },
-    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_blind_pk",
@@ -541,7 +541,7 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "STUMBLES", "HARDTOSHOOT", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "STUMBLES", "HARDTOSHOOT", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_2",
@@ -582,7 +582,7 @@
       "half_life": 10,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_3",
@@ -623,7 +623,7 @@
       "half_life": 10,
       "into_group": "GROUP_ZOMBIE_UPGRADE"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_pk",
@@ -664,7 +664,7 @@
       "half_life": 30,
       "into_group": "GROUP_ZOMBIE_EVO"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child",
@@ -723,7 +723,7 @@
       "half_life": 14,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child_3",
@@ -770,7 +770,7 @@
       "half_life": 14,
       "into_group": "GROUP_CHILD_ZOMBIE_UPGRADE"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_hollow_pk",
@@ -805,7 +805,7 @@
       [ "STRETCH_ATTACK", 10 ]
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "REVIVES", "WARM", "BASHES", "GRABS", "GROUP_BASH", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "REVIVES", "WARM", "BASHES", "GRABS", "GROUP_BASH", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fat_2",
@@ -843,7 +843,7 @@
       "half_life": 11,
       "into_group": "GROUP_ZOMBIE_FAT"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fat_3",
@@ -880,7 +880,7 @@
       "half_life": 11,
       "into_group": "GROUP_ZOMBIE_FAT"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_beekeeper_pk",
@@ -925,7 +925,7 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
-    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC" ]
+    "flags": [ "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "ELECTRIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child_pk",
@@ -970,7 +970,7 @@
       "half_life": 24,
       "into": "mon_zombie_child_reaver"
     },
-    "flags": [ "GRABS", "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "GRABS", "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "BLEED", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_child_reaver",
@@ -1014,7 +1014,7 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched_pk",
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "BLEED", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "BLEED", "POISON", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_survivor",
@@ -1085,7 +1085,7 @@
       "half_life": 24,
       "into_group": "GROUP_ZOMBIE_TOUGH"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_tough_2",
@@ -1125,7 +1125,7 @@
       "half_life": 22,
       "into_group": "GROUP_ZOMBIE_TOUGH"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_tough_3",
@@ -1166,7 +1166,7 @@
       "half_life": 22,
       "into_group": "GROUP_ZOMBIE_TOUGH"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_master",
@@ -1300,7 +1300,7 @@
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched_shocker",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_CIV", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "CBM_CIV", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_brute",
@@ -1517,7 +1517,7 @@
       "half_life": 28,
       "into": "mon_zombie_shady_ghost"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "NIGHT_INVISIBILITY", "FILTHY" ]
   },
   {
     "id": "mon_zombie_shady_ghost",
@@ -1559,7 +1559,7 @@
     "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED", "STALK", "HURT" ],
     "placate_triggers": [ "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "PATH_AVOID_DANGER_1", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "NIGHT_INVISIBILITY", "SWIMS", "PLASTIC" ]
+    "flags": [ "HARDTOSHOOT", "SEES", "HEARS", "PATH_AVOID_DANGER_1", "SMELLS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "BLEED", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "NIGHT_INVISIBILITY", "SWIMS", "PLASTIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_hollow",
@@ -1581,7 +1581,7 @@
       "half_life": 44,
       "into": "mon_zombie_hollow_pk"
     },
-    "flags": [ "SEES", "HEARS", "REVIVES", "STUMBLES", "SMELLS", "WARM", "BASHES", "GRABS", "GROUP_BASH", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "REVIVES", "STUMBLES", "SMELLS", "WARM", "BASHES", "GRABS", "GROUP_BASH", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_zombie_master_pk",
@@ -1621,7 +1621,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_necro_pk",
@@ -1660,7 +1660,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_lord",
@@ -1706,7 +1706,7 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_zombie_scorched_necro",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "SMELLS", "WARM", "BASHES", "POISON", "NO_BREATHE", "NO_NECRO", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_zombie_swimmer",
@@ -1761,7 +1761,7 @@
       "half_life": 17,
       "into": "mon_zombie_scales"
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "BLEED", "SWIMS", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "BLEED", "SWIMS", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scales",
@@ -1802,7 +1802,7 @@
     },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "CHITIN", "SEES", "HEARS", "GOODHEARING", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "BLEED", "SWIMS", "REVIVES", "BONES", "PUSH_MON" ]
+    "flags": [ "CHITIN", "SEES", "HEARS", "GOODHEARING", "SMELLS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "BLEED", "SWIMS", "REVIVES", "BONES", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_mancroc",
@@ -1877,7 +1877,7 @@
       "half_life": 39,
       "into": "mon_skeleton_husk"
     },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON", "FILTHY" ]
   },
   {
     "id": "mon_skeleton_husk",
@@ -1914,7 +1914,7 @@
     ],
     "death_function": [ "SMOKEBURST" ],
     "burn_into": "mon_skeleton_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "HARDTOSHOOT", "REVIVES", "NO_BREATHE", "BONES", "NO_NECRO", "POISON", "FILTHY" ]
   },
   {
     "id": "mon_zombie_crawler_pk_weak",
@@ -1952,7 +1952,7 @@
     "special_when_hit": [ "ACIDSPLASH", 25 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_pk",
-    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "SWIMS" ]
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_crawler_pk",
@@ -1993,7 +1993,7 @@
     "special_when_hit": [ "ACIDSPLASH", 10 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
-    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "PLASTIC", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "ABSORBS", "SWIMS" ]
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "SEES", "HEARS", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "REVIVES_HEALTHY", "PLASTIC", "SLUDGEPROOF", "FLAMMABLE", "NIGHT_INVISIBILITY", "ABSORBS", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_hulk_pk",
@@ -2029,7 +2029,7 @@
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend_pk",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "DESTROYS", "POISON", "ATTACKMON", "LEATHER", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "BLEED", "DESTROYS", "POISON", "ATTACKMON", "LEATHER", "NO_BREATHE", "REVIVES", "BONES", "FAT", "PUSH_MON", "FILTHY" ]
   },
   {
     "id": "mon_boomer_huge_pk",
@@ -2065,7 +2065,7 @@
     ],
     "death_drops": "default_zombie_items",
     "death_function": [ "BOOMER_GLOW" ],
-    "flags": [ "SEES", "GOODHEARING", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BILE_BLOOD", "BONES", "FAT", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "GOODHEARING", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "POISON", "NO_BREATHE", "REVIVES", "BILE_BLOOD", "BONES", "FAT", "PUSH_MON", "PATH_AVOID_DANGER_1", "FILTHY" ]
   },
   {
     "id": "mon_charred_nightmare",
@@ -2073,35 +2073,35 @@
     "copy-from": "mon_charred_nightmare",
     "attack_effs": [ { "id": "rad_fives", "duration": 20 } ],
     "emit_fields": [ "emit_radiation_plume" ],
-    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_irradiated_wanderer_1",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_1",
     "attack_effs": [ { "id": "rad_tenths", "duration": 10 } ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_irradiated_wanderer_2",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_2",
     "attack_effs": [ { "id": "rad_tenths", "duration": 12 } ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_irradiated_wanderer_3",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_3",
     "attack_effs": [ { "id": "rad_tenths", "duration": 20 } ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_irradiated_wanderer_4",
     "type": "MONSTER",
     "copy-from": "mon_irradiated_wanderer_4",
     "attack_effs": [ { "id": "rad_fives", "duration": 5 } ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "BASHES", "GROUP_BASH", "NOGIB", "BONES", "POISON", "NO_BREATHE", "FILTHY" ]
   },
   {
     "id": "mon_zombie_gasbag_pk",
@@ -2137,7 +2137,7 @@
       [ "STRETCH_ATTACK", 15 ]
     ],
     "death_function": [ "GAS", "BOOMER_GLOW" ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "HARDTOSHOOT", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "PATH_AVOID_DANGER_1" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "BASHES", "GROUP_BASH", "POISON", "HARDTOSHOOT", "NO_BREATHE", "REVIVES", "BONES", "PUSH_MON", "PATH_AVOID_DANGER_1", "FILTHY" ]
   },
   {
     "id": "mon_zombie_radbag",
@@ -2174,7 +2174,7 @@
     "special_attacks": [ [ "GRAB", 20 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY", "FILTHY" ]
   },
   {
     "id": "mon_zombie_smoker_pk",
@@ -2221,6 +2221,6 @@
     ],
     "death_drops": "mon_zombie_hulk_death_drops",
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY", "FILTHY" ]
   }
 ]
