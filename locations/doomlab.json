@@ -2,12 +2,12 @@
   {
     "type": "mapgen",
     "om_terrain": [ "doomlab_f00_20" ],
-    "//":  "base model",
+    "//": "base model",
     "method": "json",
     "weight": 150,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "----------&oo-----------",
         "-----------??-----------",
         "--LBB   C-    -XX  XXX--",
@@ -34,13 +34,28 @@
         "------------------------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_strconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
-        "?": ["t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o"],
-        "o": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c"]
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
+        "?": [
+          "t_door_metal_pickable",
+          "t_door_metal_pickable",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c",
+          "t_door_metal_o",
+          "t_door_metal_o"
+        ],
+        "o": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c"
+        ]
       },
       "furniture": {
         "^": "f_rubble",
@@ -55,14 +70,12 @@
         ")": "f_indoor_plant",
         "B": "f_bed",
         "L": "f_locker",
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "(": "f_shower",
         "*": "f_sink",
         "t": "f_toilet"
       },
-      "monster": {
-        "@": { "monster": "mon_turret" }
-      },
+      "monster": { "@": { "monster": "mon_turret" } },
       "mapping": {
         "L": { "items": { "item": "mil_accessories", "chance": 10 } },
         "B": { "items": { "item": "bed", "chance": 20 } },
@@ -70,25 +83,21 @@
         "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_f00_20"
-    ],
-    "//":  "everything is left open model",
+    "om_terrain": [ "doomlab_f00_20" ],
+    "//": "everything is left open model",
     "method": "json",
     "weight": 150,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "----------&??-----------",
         "-----------??-----------",
         "--LBB   C-    -XX  XXX--",
@@ -115,13 +124,21 @@
         "------------------------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_strconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
-        "?": ["t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o", "t_door_metal_o"],
-        "o": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c"]
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
+        "?": [ "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o", "t_door_metal_o" ],
+        "o": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c"
+        ]
       },
       "furniture": {
         "^": "f_rubble",
@@ -135,7 +152,7 @@
         ")": "f_indoor_plant",
         "B": "f_bed",
         "L": "f_locker",
-        "X": ["f_crate_c", "f_crate_o", "f_crate_o", "f_crate_o", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_o", "f_crate_o", "f_crate_o", "f_crate_o" ],
         "(": "f_shower",
         "*": "f_sink",
         "t": "f_toilet"
@@ -146,25 +163,21 @@
         "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 12, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 12, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_f00_20"
-    ],
-    "//":  "broke out the back model",
+    "om_terrain": [ "doomlab_f00_20" ],
+    "//": "broke out the back model",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "----------&oo-----------",
         "-----------??-----------",
         "--LBB   C-    -XX  ^XX--",
@@ -191,13 +204,29 @@
         "^^----------------------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_reader_broken", "t_card_reader_broken", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_reader_broken", "t_card_reader_broken", "t_card_reader_broken" ],
         "-": "t_strconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "?": ["t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o"],
-        "o": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c"],
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_o"]
+        "?": [
+          "t_door_metal_pickable",
+          "t_door_metal_pickable",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c",
+          "t_door_metal_o",
+          "t_door_metal_o"
+        ],
+        "o": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c"
+        ],
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ]
       },
       "furniture": {
         "^": "f_rubble",
@@ -212,7 +241,7 @@
         ")": "f_indoor_plant",
         "B": "f_bed",
         "L": "f_locker",
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "(": "f_shower",
         "*": "f_sink",
         "t": "f_toilet"
@@ -223,28 +252,22 @@
         "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 8 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "place_fields": [
-                { "x": [ 1 , 22 ], "y": [ 1 , 22 ], "field": "fd_blood", "age": 2, "density": 2, "repeat": 60 }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "place_fields": [ { "x": [ 1, 22 ], "y": [ 1, 22 ], "field": "fd_blood", "age": 2, "density": 2, "repeat": 60 } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_f00_20"
-    ],
-    "//":  "baracks fight model",
+    "om_terrain": [ "doomlab_f00_20" ],
+    "//": "baracks fight model",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "----------&oo-----------",
         "-^^^^------??-----------",
         "-^^^^   x-    -XX  XXX--",
@@ -271,13 +294,29 @@
         "------------------------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_strconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
-        "?": ["t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o"],
-        "o": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c"]
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
+        "?": [
+          "t_door_metal_pickable",
+          "t_door_metal_pickable",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c",
+          "t_door_metal_o",
+          "t_door_metal_o"
+        ],
+        "o": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c"
+        ]
       },
       "furniture": {
         "^": "f_rubble",
@@ -293,7 +332,7 @@
         ")": "f_indoor_plant",
         "B": "f_bed",
         "L": "f_locker",
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o", "f_ash", "f_ash", "f_ash", "f_ash"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o", "f_ash", "f_ash", "f_ash", "f_ash" ],
         "(": "f_shower",
         "*": "f_sink",
         "t": "f_toilet"
@@ -304,28 +343,22 @@
         "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "place_fields": [
-                { "x": [ 1 , 22 ], "y": [ 1 , 22 ], "field": "fd_blood", "age": 2, "density": 2, "repeat": 60 }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "place_fields": [ { "x": [ 1, 22 ], "y": [ 1, 22 ], "field": "fd_blood", "age": 2, "density": 2, "repeat": 60 } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_f00_20"
-    ],
-    "//":  "broke out the front model",
+    "om_terrain": [ "doomlab_f00_20" ],
+    "//": "broke out the front model",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "----------&o^-----------",
         "-----------^^-----------",
         "--LBB   C- ^^ -XX  XXX--",
@@ -352,13 +385,29 @@
         "------------------------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_reader_broken" ],
         "-": "t_strconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
-        "?": ["t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o", "t_door_metal_o"],
-        "o": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c"]
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
+        "?": [
+          "t_door_metal_pickable",
+          "t_door_metal_pickable",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c",
+          "t_door_metal_o",
+          "t_door_metal_o"
+        ],
+        "o": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c"
+        ]
       },
       "furniture": {
         "^": "f_rubble",
@@ -374,7 +423,7 @@
         ")": "f_indoor_plant",
         "B": "f_bed",
         "L": "f_locker",
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "(": "f_shower",
         "*": "f_sink",
         "t": "f_toilet"
@@ -385,25 +434,21 @@
         "X": { "items": [ { "item": "softdrugs", "chance": 15 }, { "item": "grenades", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 10, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_f01_20"
-    ],
-    "//":  "Nonfighted in Reception(?) area.",
+    "om_terrain": [ "doomlab_f01_20" ],
+    "//": "Nonfighted in Reception(?) area.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "------------------------",
         "-[][][.F--------k-LXXXX-",
         "-.......-1 << 1-k_   XX-",
@@ -431,7 +476,7 @@
       ],
       "terrain": {
         "?": "t_door_metal_locked",
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "_": "t_rock_smooth",
         " ": "t_thconc_floor",
@@ -439,7 +484,7 @@
         "<": "t_stairs_up",
         "1": "t_column",
         "x": "t_door_c",
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
         "A": "t_atm"
       },
       "furniture": {
@@ -448,47 +493,42 @@
         "C": "f_counter",
         "c": "f_chair",
         "^": "f_indoor_plant",
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "B": "f_bookcase",
         "V": "f_vending_c"
       },
       "mapping": {
         "T": { "items": { "item": "mags_pawnshop", "chance": 50 } },
-        "L": { "items": { "item": "office", "chance": 40 },
-               "terrain": "t_rock_floor", "furniture": "f_locker" },
+        "L": { "items": { "item": "office", "chance": 40 }, "terrain": "t_rock_floor", "furniture": "f_locker" },
         "D": { "items": { "item": "mags_surplus", "chance": 35 } },
         "t": { "terrain": "t_rock_floor", "furniture": "f_toilet" },
         "]": { "terrain": "t_rock_floor", "furniture": "f_sink" },
         "[": { "terrain": "t_rock_floor", "furniture": "f_chair" },
-        "f": { "items": { "item": "mil_hw", "chance": 15 },
-               "terrain": "t_rock_floor", "furniture": "f_rack" },
+        "f": { "items": { "item": "mil_hw", "chance": 15 }, "terrain": "t_rock_floor", "furniture": "f_rack" },
         "V": { "items": { "item": "vending_food_items", "chance": 60 } },
-        "k": { "items": { "item": "rare", "chance": 90 },
-               "terrain": "t_rock_floor", "furniture": "f_locker" },
+        "k": { "items": { "item": "rare", "chance": 90 }, "terrain": "t_rock_floor", "furniture": "f_locker" },
         "X": { "items": [ { "item": "office", "chance": 25 }, { "item": "softdrugs", "chance": 10 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 15, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 2, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 15, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "doom_corpse", "chance": 65, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] }
+        { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "doom_corpse", "chance": 65, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_comms"
-    ],
-    "//":  "communications room.",
+    "om_terrain": [ "doomlab_comms" ],
+    "//": "communications room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-----------  -----------",
         "--                    --",
@@ -518,33 +558,26 @@
         "-": "t_sconc_wall",
         "_": "t_guardrail_bg_dp",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "6": "t_console_broken",
         "1": "t_radio_controls",
         "9": "t_console"
       },
-      "furniture": {
-        "f": "f_rack",
-        "T": "f_table",
-        "c": "f_chair"
-      },
+      "furniture": { "f": "f_rack", "T": "f_table", "c": "f_chair" },
       "mapping": {
-        "L": { "items": { "item": "office", "chance": 40 },
-               "terrain": "t_rock_floor", "furniture": "f_locker" },
-        "f": { "items": { "item": "prison_weapons", "chance": 10 },
-               "terrain": "t_rock_floor", "furniture": "f_rack" }
+        "L": { "items": { "item": "office", "chance": 40 }, "terrain": "t_rock_floor", "furniture": "f_locker" },
+        "f": { "items": { "item": "prison_weapons", "chance": 10 }, "terrain": "t_rock_floor", "furniture": "f_rack" }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ] } ],
       "computers": {
         "6": {
           "security": 3,
-          "name": "Comm Unit Array", "options": [
+          "name": "Comm Unit Array",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "Transmit Files", "action": "tower_unresponsive" }
@@ -555,15 +588,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_comms"
-    ],
-    "//":  "communications room.",
+    "om_terrain": [ "doomlab_comms" ],
+    "//": "communications room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-S  ^  ^        ^  ^  S-",
         "-                      -",
@@ -593,9 +624,9 @@
         "-": "t_sconc_wall",
         "_": "t_reinforced_glass",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "X": ["t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked"],
-        "6": ["t_console_broken", "t_console"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "X": [ "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked" ],
+        "6": [ "t_console_broken", "t_console" ],
         "1": "t_radio_controls",
         "9": "t_console"
       },
@@ -612,21 +643,19 @@
       "mapping": {
         "}": { "items": { "item": "fridge", "chance": 50 } },
         "L": { "items": { "item": "office", "chance": 30 } },
-        "B": { "items": { "item": "textbooks", "chance": 10 },
-               "terrain": "t_rock_floor", "furniture": "f_bookcase" }
+        "B": { "items": { "item": "textbooks", "chance": 10 }, "terrain": "t_rock_floor", "furniture": "f_bookcase" }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 3,
-          "name": "Comm Unit Array", "options": [
+          "name": "Comm Unit Array",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "Transmit Files", "action": "tower_unresponsive" }
@@ -637,15 +666,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_comms"
-    ],
-    "//":  "communications room.",
+    "om_terrain": [ "doomlab_comms" ],
+    "//": "communications room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -676,8 +703,8 @@
         "_": "t_reinforced_glass",
         " ": "t_thconc_floor",
         "=": "t_wall_metal",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "x": ["t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "x": [ "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_locked" ],
         "6": "t_console_broken",
         "1": "t_radio_controls",
         "9": "t_console"
@@ -696,20 +723,18 @@
         "f": { "items": { "item": "radio", "chance": 15 } },
         "L": { "items": { "item": "office", "chance": 30 } },
         "T": { "items": { "item": "bookstore_misc", "chance": 10 } },
-        "B": { "items": { "item": "cubical_office", "chance": 35 },
-               "terrain": "t_rock_floor", "furniture": "f_bookcase" }
+        "B": { "items": { "item": "cubical_office", "chance": 35 }, "terrain": "t_rock_floor", "furniture": "f_bookcase" }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 3,
-          "name": "Comm Unit Array", "options": [
+          "name": "Comm Unit Array",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "Transmit Files", "action": "tower_unresponsive" }
@@ -720,15 +745,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_comms"
-    ],
-    "//":  "communications room.",
+    "om_terrain": [ "doomlab_comms" ],
+    "//": "communications room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -755,22 +778,16 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_reader_broken", "t_card_reader_broken", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_reader_broken", "t_card_reader_broken", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "_": "t_reinforced_glass",
         " ": "t_thconc_floor",
         "=": "t_wall_metal",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "x": "t_door_metal_locked",
-        "6": ["t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
-        "f": "f_rack",
-        "C": "f_counter",
-        "c": "f_chair",
-        "L": "f_locker"
-      },
+      "furniture": { "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ], "f": "f_rack", "C": "f_counter", "c": "f_chair", "L": "f_locker" },
       "mapping": {
         "f": { "items": { "item": "office", "chance": 15 } },
         "L": { "items": [ { "item": "office", "chance": 20 }, { "item": "novels", "chance": 5 } ] },
@@ -778,16 +795,15 @@
         "X": { "items": { "item": "prison_armor", "chance": 4 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 3,
-          "name": "Comm Unit Array", "options": [
+          "name": "Comm Unit Array",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "Transmit Files", "action": "tower_unresponsive" }
@@ -798,15 +814,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "office room.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "office room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------  -----------",
         "-----------XX9----------",
         "-----------  -----------",
@@ -838,10 +852,17 @@
         "_": "t_reinforced_glass",
         " ": "t_thconc_floor",
         "+": "t_door_c",
-        "X": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"]
+        "X": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_c",
+          "t_door_metal_pickable",
+          "t_door_metal_o"
+        ],
+        "6": [ "t_console_broken", "t_console" ],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ]
       },
       "furniture": {
         "d": "f_desk",
@@ -860,21 +881,20 @@
         "d": { "items": { "item": "cubical_office", "chance": 10 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 4, "x": [ 3 , 4 ], "y": [ 15 , 16 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 4, "x": [ 3, 4 ], "y": [ 15, 16 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
         { "item": "ammo_shotgun_rare", "chance": 50, "x": 8, "y": 15 }
       ],
-      "place_loot": [
-        { "item": "television", "chance": 60, "x": 3, "y": [ 18 , 19 ] }
-      ],
+      "place_loot": [ { "item": "television", "chance": 60, "x": 3, "y": [ 18, 19 ] } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -885,15 +905,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "office room.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "office room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-BB     ^~    x       ^-",
         "-B  cccc ~    x        -",
@@ -923,10 +941,10 @@
         "-": "t_sconc_wall",
         "x": "t_door_c",
         "o": "t_fencegate_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "~": "t_wall",
         " ": "t_thconc_floor",
-        "6": ["t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "=": "f_canvas_wall",
@@ -946,19 +964,16 @@
         "d": { "items": { "item": "cubical_office", "chance": 10 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "place_loot": [
-        { "item": "television", "chance": 75, "x": 8, "y": 3 }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "place_loot": [ { "item": "television", "chance": 75, "x": 8, "y": 3 } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -969,15 +984,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "office room.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "office room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-^                    ^-",
         "-                      -",
@@ -1005,33 +1018,22 @@
       ],
       "terrain": {
         "-": "t_sconc_wall",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor",
-        "6": ["t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "=": "f_canvas_wall",
-        "d": "f_desk",
-        "T": "f_table",
-        "C": "f_counter",
-        "c": "f_chair",
-        "^": "f_indoor_plant"
-      },
-      "mapping": {
-        "T": { "items": { "item": "office", "chance": 75 } },
-        "d": { "items": { "item": "cubical_office", "chance": 10 } }
-      },
+      "furniture": { "=": "f_canvas_wall", "d": "f_desk", "T": "f_table", "C": "f_counter", "c": "f_chair", "^": "f_indoor_plant" },
+      "mapping": { "T": { "items": { "item": "office", "chance": 75 } }, "d": { "items": { "item": "cubical_office", "chance": 10 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -1042,15 +1044,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "cubicles room.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "cubicles room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-66d  LLLL    BBBB  d66-",
         "-6 c                c 6-",
@@ -1080,10 +1080,10 @@
         "-": "t_sconc_wall",
         "x": "t_door_c",
         "o": "t_fencegate_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "~": "t_wall",
         " ": "t_thconc_floor",
-        "6": ["t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "=": "f_canvas_wall",
@@ -1103,16 +1103,15 @@
         "d": { "items": { "item": "office", "chance": 15 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -1123,15 +1122,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "storage room, filler space.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "storage room, filler space.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -1159,29 +1156,23 @@
       ],
       "terrain": {
         "-": "t_sconc_wall",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "~": "t_wall",
         " ": "t_thconc_floor",
-        "6": ["t_console_broken", "t_console_broken", "t_console_broken", "t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console_broken", "t_console_broken", "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "c": "f_chair",
-        "L": "f_locker"
-      },
-      "mapping": {
-        "L": { "items": { "item": "office", "chance": 15 } }
-      },
+      "furniture": { "c": "f_chair", "L": "f_locker" },
+      "mapping": { "L": { "items": { "item": "office", "chance": 15 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -1192,15 +1183,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_office"
-    ],
-    "//":  "storage room, filler space.",
+    "om_terrain": [ "doomlab_office" ],
+    "//": "storage room, filler space.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -1228,29 +1217,23 @@
       ],
       "terrain": {
         "-": "t_sconc_wall",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         "~": "t_wall",
         " ": "t_thconc_floor",
-        "6": ["t_console_broken", "t_console_broken", "t_console_broken", "t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console_broken", "t_console_broken", "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "c": "f_chair",
-        "L": "f_locker"
-      },
-      "mapping": {
-        "L": { "items": { "item": "office", "chance": 15 } }
-      },
+      "furniture": { "c": "f_chair", "L": "f_locker" },
+      "mapping": { "L": { "items": { "item": "office", "chance": 15 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 2,
-          "name": "Workspace Terminal", "options": [
+          "name": "Workspace Terminal",
+          "options": [
             { "name": "Send Email", "action": "tower_unresponsive" },
             { "name": "Weekly Inventory Report", "action": "list_bionics" },
             { "name": "Log Out", "action": "disconnect" }
@@ -1261,14 +1244,12 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------  -----------",
         "-B B B B B-  -B B B B B-",
         "-B B B B B-++-B B B B B-",
@@ -1296,39 +1277,32 @@
       ],
       "terrain": {
         "-": "t_sconc_wall",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor"
       },
-      "furniture": {
-        "x": "f_canvas_wall",
-        "X": "f_canvas_door",
-        "B": "f_bed",
-        "L": "f_locker"
-      },
+      "furniture": { "x": "f_canvas_wall", "X": "f_canvas_door", "B": "f_bed", "L": "f_locker" },
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 20 } },
-        "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
+        "L": { "items": [ { "item": "dresser", "chance": 20 }, { "item": "lab_dorm", "chance": 8 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lab_dorm", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lab_dorm", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------  -----------",
         "-BBL B B B-  -B B B LBB-",
         "-    B B B-++-B B B    -",
@@ -1359,36 +1333,29 @@
         "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor"
       },
-      "furniture": {
-        "x": "f_canvas_wall",
-        "X": "f_canvas_door",
-        "B": "f_bed",
-        "L": "f_locker"
-      },
+      "furniture": { "x": "f_canvas_wall", "X": "f_canvas_door", "B": "f_bed", "L": "f_locker" },
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 20 } },
-        "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] }
+        "L": { "items": [ { "item": "dresser", "chance": 20 }, { "item": "lab_dorm", "chance": 8 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lab_dorm", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lab_dorm", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-BBL   LBB=  ==========-",
         "-         =  =tx ?? x]=-",
@@ -1435,29 +1402,27 @@
       "mapping": {
         "}": { "items": { "item": "vending_food_items", "chance": 60 } },
         "B": { "items": { "item": "bed", "chance": 20 } },
-        "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
+        "L": { "items": [ { "item": "dresser", "chance": 20 }, { "item": "lab_dorm", "chance": 8 } ] },
         "b": { "items": { "item": "softdrugs", "chance": 10 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lab_dorm", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lab_dorm", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-==========  =BBL   LBB-",
         "-=tx ?? x[=  =         -",
@@ -1487,7 +1452,7 @@
         "-": "t_sconc_wall",
         "=": "t_wall",
         "x": "t_door_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor"
       },
       "furniture": {
@@ -1503,29 +1468,27 @@
       "mapping": {
         "}": { "items": { "item": "vending_food_items", "chance": 60 } },
         "B": { "items": { "item": "bed", "chance": 20 } },
-        "L": { "items": [ { "item": "dresser", "chance": 20 },  { "item": "lab_dorm", "chance": 8 } ] },
+        "L": { "items": [ { "item": "dresser", "chance": 20 }, { "item": "lab_dorm", "chance": 8 } ] },
         "b": { "items": { "item": "softdrugs", "chance": 10 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lab_dorm", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lab_dorm", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-B c= =c B=  =B c= =c B-",
         "-B T= =T B=  =B T= =T B-",
@@ -1555,44 +1518,36 @@
         "-": "t_sconc_wall",
         "=": "t_wall",
         "x": "t_door_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor"
       },
-      "furniture": {
-        "L": "f_locker",
-        "B": "f_bed",
-        "b": "f_bookcase",
-        "c": "f_chair",
-        "T": "f_table"
-      },
-      "toilets": {
-        "t": { }
-      },
+      "furniture": { "L": "f_locker", "B": "f_bed", "b": "f_bookcase", "c": "f_chair", "T": "f_table" },
+      "toilets": { "t": {  } },
       "mapping": {
         "B": { "items": { "item": "bed", "chance": 20 } },
         "b": { "items": { "item": "textbooks", "chance": 10 } },
-        "L": { "items": [ { "item": "dresser", "chance": 25 }, { "item": "lab_dorm", "chance": 15 }, { "item": "softdrugs", "chance": 10 } ] }
+        "L": {
+          "items": [ { "item": "dresser", "chance": 25 }, { "item": "lab_dorm", "chance": 15 }, { "item": "softdrugs", "chance": 10 } ]
+        }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lab_dorm", "chance": 50, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 3 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lab_dorm", "chance": 50, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 3 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-t+ [[-] ]-  -S PP ssT^-",
         "---   --+--  -A       a-",
@@ -1622,7 +1577,7 @@
         "-": "t_sconc_wall",
         ".": "t_pavement",
         "x": "t_door_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor",
         "{": "t_atm"
       },
@@ -1651,9 +1606,7 @@
         "}": "f_glass_fridge",
         "G": "f_sign"
       },
-      "toilets": {
-        "t": { }
-      },
+      "toilets": { "t": {  } },
       "mapping": {
         "L": { "items": { "item": "gym", "chance": 5 } },
         "T": { "items": { "item": "magazines", "chance": 50 } },
@@ -1661,25 +1614,23 @@
         "D": { "items": { "item": "trash", "chance": 25 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "bedroom", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "bedroom", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_dorm"
-    ],
+    "om_terrain": [ "doomlab_dorm" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-MEEEE eee     DD=L b L-",
         "-                =L b L-",
@@ -1711,7 +1662,7 @@
         "=": "t_wall",
         "1": "t_little_column",
         "x": "t_door_c",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
         " ": "t_thconc_floor"
       },
       "furniture": {
@@ -1731,27 +1682,25 @@
         "D": { "items": { "item": "trash", "chance": 25 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "bedroom", "chance": 30, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "bedroom", "chance": 30, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-^ddd fff =  =C C]C   d-",
         "-  c     C=  =C      cd-",
@@ -1781,8 +1730,8 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "C": "f_counter",
@@ -1800,32 +1749,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-         =  =         -",
         "- C  C  C =  = CCCCCCC -",
@@ -1855,34 +1794,26 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ]
       },
-      "furniture": {
-        "C": "f_counter"
-      },
-      "mapping": {
-        "C": { "items": { "item": "chem_lab", "chance": 5 } }
-      },
+      "furniture": { "C": "f_counter" },
+      "mapping": { "C": { "items": { "item": "chem_lab", "chance": 5 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-CCCCLLLCC=  =CCCCCCCCC-",
         "-C       C=  =C       C-",
@@ -1912,40 +1843,31 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "C": "f_counter",
-        "f": "f_rack",
-        "L": "f_locker",
-        "]": "f_sink"
-      },
+      "furniture": { "C": "f_counter", "f": "f_rack", "L": "f_locker", "]": "f_sink" },
       "mapping": {
         "L": { "items": { "item": "office", "chance": 35 } },
         "C": { "items": { "item": "chem_lab", "chance": 8 } },
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-         =  =         -",
         "-         =  =    C    -",
@@ -1975,8 +1897,8 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "C": "f_counter",
@@ -1987,30 +1909,23 @@
         "]": "f_sink",
         "^": "f_indoor_plant"
       },
-      "mapping": {
-        "L": { "items": { "item": "mags_obscure", "chance": 4 } },
-        "C": { "items": { "item": "chem_lab", "chance": 8 } }
-      },
+      "mapping": { "L": { "items": { "item": "mags_obscure", "chance": 4 } }, "C": { "items": { "item": "chem_lab", "chance": 8 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -2040,8 +1955,8 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "C": "f_counter",
@@ -2052,30 +1967,24 @@
         "]": "f_sink",
         "^": "f_indoor_plant"
       },
-      "mapping": {
-        "C": { "items": { "item": "rare", "chance": 15 } }
-      },
+      "mapping": { "C": { "items": { "item": "rare", "chance": 15 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-         =  =6 c    LL-",
         "-  CCCCC  =  =6dCCC   L-",
@@ -2102,16 +2011,16 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
         "x": "t_door_metal_locked",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "C": "f_counter",
         "c": "f_chair",
         "d": "f_desk",
@@ -2127,32 +2036,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "~c6743", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "~c6743", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "===========++===========",
         "=L   ^   L=,,=   LLLLL =",
         "=L c   c L=,,=p        =",
@@ -2179,14 +2078,21 @@
         "===========++==========="
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "t": "t_recycler"
       },
       "furniture": {
@@ -2209,32 +2115,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "===========++===========",
         "=DDDDCDDDD=,,=LLCCCCCcd=",
         "=         =,,=        6=",
@@ -2261,14 +2157,21 @@
         "===========++==========="
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "t": "t_water_pump",
         "#": "t_dirtmound",
         ".": "t_dirtfloor"
@@ -2281,9 +2184,11 @@
         "f": "f_rack",
         "L": "f_locker",
         "}": "f_glass_fridge",
-        "D": "f_displaycase",
-        "1": "f_plant_seedling",
-        "2": "f_plant_mature"
+        "D": "f_displaycase"
+      },
+      "sealed_item": {
+        "1": { "items": { "item": "farming_seeds", "chance": 100 }, "furniture": "f_plant_seedling" },
+        "2": { "items": { "item": "farming_seeds", "chance": 100 }, "furniture": "f_plant_mature" }
       },
       "mapping": {
         "#": { "items": { "item": "hydro", "chance": 15 } },
@@ -2295,32 +2200,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-pp   c-        - XXXXX-",
         "-C   dd-        - XXXX -",
@@ -2347,17 +2242,17 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
         "4": "t_door_c",
         "x": "t_door_metal_locked",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "C": "f_counter",
         "c": "f_chair",
         "p": "f_cupboard",
@@ -2375,32 +2270,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_open"
-    ],
-    "//":  "open labs room.",
+    "om_terrain": [ "doomlab_lab_open" ],
+    "//": "open labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-p     -p     CC-LL    -",
         "-p CCC -p      C-    Cp-",
@@ -2427,16 +2312,16 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
         "x": "t_door_metal_locked",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "C": "f_counter",
         "c": "f_chair",
         "p": "f_cupboard",
@@ -2454,32 +2339,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 10 }, { "item": "prison_armor", "chance": 10 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "c6743", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "c6743", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-BB Ct_ppp=,,=fLL_pL  B-",
         "-    ]_   =,,=f  _    B-",
@@ -2506,14 +2381,21 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "1": "t_column",
         "_": "t_reinforced_glass",
         "|": "t_bars",
@@ -2531,9 +2413,7 @@
         "}": "f_glass_fridge",
         "D": "f_displaycase"
       },
-      "toilets": {
-        "t": { }
-      },
+      "toilets": { "t": {  } },
       "mapping": {
         "}": { "items": { "item": "fridge", "chance": 50 } },
         "B": { "items": { "item": "bed", "chance": 5 } },
@@ -2545,32 +2425,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "===========++===========",
         "=  _p6p_  =,,=LL_   _CC=",
         "=___C C___=,,=L _   _ ]=",
@@ -2597,14 +2467,21 @@
         "===========++==========="
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "1": "t_column",
         "_": "t_reinforced_glass"
       },
@@ -2627,37 +2504,25 @@
         "d": { "items": { "item": "cubical_office", "chance": 15 } },
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
-      "toilets": {
-        "t": { }
-      },
+      "toilets": { "t": {  } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "===========++===========",
         "=                      =",
         "=                      =",
@@ -2684,47 +2549,46 @@
         "===========++==========="
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_metal_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "1": "t_column",
         "~": "t_utility_light",
         "_": "t_reinforced_glass"
       },
-      "furniture": {
-        "f": "f_rack",
-        "L": "f_locker",
-        "D": "f_displaycase"
-      },
+      "furniture": { "f": "f_rack", "L": "f_locker", "D": "f_displaycase" },
       "mapping": {
         "L": { "items": { "item": "office", "chance": 35 } },
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ]
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "========================",
         "=,,,,,,,,,,,,,,,,,,,,,,=",
         "=,,,,,,,,,,,,,,,,,,,,,,=",
@@ -2751,22 +2615,29 @@
         "========================"
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ",": "t_thconc_floor",
         "X": "t_door_metal_locked",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
-        "5": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
+        "5": [ "t_console_broken", "t_console" ],
         "7": "t_gates_control_metal",
         "8": "t_thconc_floor",
         "_": "t_reinforced_glass"
       },
       "furniture": {
-        "O": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "O": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "C": "f_counter",
         "c": "f_chair",
         "p": "f_cupboard",
@@ -2776,9 +2647,7 @@
         "}": "f_glass_fridge",
         "8": "f_shackle"
       },
-      "monster": {
-        ".": { "monster": "mon_turret_shockcannon" }
-      },
+      "monster": { ".": { "monster": "mon_turret_shockcannon" } },
       "mapping": {
         "X": { "items": { "item": "home_hw", "chance": 10 } },
         "}": { "items": { "item": "chem_lab", "chance": 50 } },
@@ -2789,43 +2658,35 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 4,
-          "name": "Lab Function Interface", "options": [
+          "name": "Lab Function Interface",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "TERMINATE SUBJECTS", "action": "terminate" }
           ]
         },
-        "5": {
-          "security": 2,
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
+        "5": { "security": 2, "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] }
       }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
-      "===========++===========",
+      "rows": [
+        "===========++===========",
         "=,,,,,,,,,,,,,,,,,,,,,,=",
         "=,,,,,,,,,,,,,,,,,,,,,,=",
         "=,,==================,,=",
@@ -2851,27 +2712,27 @@
         "===========++==========="
       ],
       "terrain": {
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         ".": "t_metal_floor",
         ",": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "7": "t_gates_control_metal",
         "_": "t_reinforced_glass",
         "3": "t_machinery_light"
       },
-      "furniture": {
-        "C": "f_counter",
-        "c": "f_chair",
-        "p": "f_cupboard",
-        "d": "f_desk",
-        "f": "f_rack",
-        "L": "f_locker"
-      },
+      "furniture": { "C": "f_counter", "c": "f_chair", "p": "f_cupboard", "d": "f_desk", "f": "f_rack", "L": "f_locker" },
       "mapping": {
         "p": { "items": { "item": "chem_home", "chance": 20 } },
         "L": { "items": { "item": "office", "chance": 35 } },
@@ -2879,18 +2740,19 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "child_items", "chance": 15, "x": [ 4 , 6 ], "y": [ 4 , 8 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "child_items", "chance": 15, "x": [ 4, 6 ], "y": [ 4, 8 ] }
       ],
       "computers": {
         "6": {
           "security": 4,
-          "name": "Lab Function Interface", "options": [
+          "name": "Lab Function Interface",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "TERMINATE SUBJECTS", "action": "terminate" }
@@ -2901,15 +2763,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_lab_prm"
-    ],
-    "//":  "doom labs room.",
+    "om_terrain": [ "doomlab_lab_prm" ],
+    "//": "doom labs room.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "===========++===========",
         "=6c ppppf      fpppp c6=",
         "=                      =",
@@ -2939,20 +2799,21 @@
         "-": "t_sconc_wall",
         "=": "t_wall_metal",
         " ": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "t": "t_water_pump",
         "#": "t_dirtmound",
         ".": "t_dirtfloor"
       },
-      "furniture": {
-        "C": "f_counter",
-        "c": "f_chair",
-        "p": "f_cupboard",
-        "f": "f_rack",
-        "L": "f_locker"
-      },
+      "furniture": { "C": "f_counter", "c": "f_chair", "p": "f_cupboard", "f": "f_rack", "L": "f_locker" },
       "mapping": {
         "#": { "items": { "item": "hydro", "chance": 15 } },
         "2": { "items": { "item": "hydro", "chance": 35 } },
@@ -2963,32 +2824,22 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "auxiliary barracks",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "auxiliary barracks",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "------------------------",
         "-BBL - ^-B B-B B-B B- B-",
         "-    4  -B B-B B-B B- B-",
@@ -3015,14 +2866,21 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         "4": "t_door_c",
         "?": "t_fencegate_c",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "C": "f_counter",
@@ -3048,36 +2906,32 @@
         "C": { "items": { "item": "waitingroom", "chance": 10 } },
         "T": { "items": { "item": "dining", "chance": 10 } },
         "b": { "items": { "item": "waitingroom", "chance": 25 } },
-        "L": { "items": [ { "item": "office", "chance": 35 }, { "item": "army_personal_locker", "chance": 20 }, { "item": "military", "chance": 10 } ] },
+        "L": {
+          "items": [
+            { "item": "office", "chance": 35 },
+            { "item": "army_personal_locker", "chance": 20 },
+            { "item": "military", "chance": 10 }
+          ]
+        },
         "f": { "items": [ { "item": "prison_weapons", "chance": 15 }, { "item": "prison_armor", "chance": 15 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "prison",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "prison",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-SS          -f=  ?   L-",
         "-            -fX  dc  L-",
@@ -3104,15 +2958,22 @@
         "------------------------"
       ],
       "terrain": {
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_reinforced_glass",
         " ": "t_thconc_floor",
         "?": "t_fencegate_c",
         "X": "t_door_metal_locked",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
         "C": "f_counter",
@@ -3137,33 +2998,25 @@
         "f": { "items": { "item": "harddrugs", "chance": 5 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "lmoe_guns", "chance": 85, "x": 14, "y": [ 1 , 3 ], "repeat": [ 1 , 3 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "lmoe_guns", "chance": 85, "x": 14, "y": [ 1, 3 ], "repeat": [ 1, 3 ] }
       ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "holding cells",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "holding cells",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -3193,48 +3046,36 @@
         "-": "t_sconc_wall",
         "=": "t_reinforced_glass",
         " ": "t_thconc_floor",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"]
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ]
       },
-      "furniture": {
-        "C": "f_counter",
-        "c": "f_chair",
-        "B": "f_bed",
-        "d": "f_desk",
-        "t": "f_toilet"
-      },
-      "mapping": {
-        "B": { "items": { "item": "bed", "chance": 20 } },
-        "d": { "items": { "item": "cubical_office", "chance": 15 } }
-      },
+      "furniture": { "C": "f_counter", "c": "f_chair", "B": "f_bed", "d": "f_desk", "t": "f_toilet" },
+      "mapping": { "B": { "items": { "item": "bed", "chance": 20 } }, "d": { "items": { "item": "cubical_office", "chance": 15 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "spectator room",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "spectator room",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "- c cc c L-       LLLLL-",
         "-        f-            -",
@@ -3261,17 +3102,24 @@
         "------------------------"
       ],
       "terrain": {
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
-        "9": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
+        "9": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "=": "t_reinforced_glass",
         ",": "t_metal_floor",
         " ": "t_thconc_floor",
         "4": "t_door_c",
         "?": "t_fencegate_c",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "1": "t_radio_controls"
       },
       "furniture": {
@@ -3291,17 +3139,16 @@
         "f": { "items": [ { "item": "prison_weapons", "chance": 4 }, { "item": "prison_armor", "chance": 4 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
       "computers": {
         "6": {
           "security": 4,
-          "name": "Lab Function Interface", "options": [
+          "name": "Lab Function Interface",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "TERMINATE SUBJECTS", "action": "terminate" }
@@ -3312,15 +3159,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "machine shop.",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "machine shop.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_metal_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-         =  =         -",
         "- 3323222 =  = 222 222 -",
@@ -3349,53 +3194,44 @@
       "terrain": {
         "-": "t_sconc_wall",
         "=": "t_reinforced_glass",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "7": "t_generator_broken",
         "2": "t_conveyor",
         "3": "t_machinery_light",
         "4": "t_machinery_heavy",
         "5": "t_machinery_electronic"
       },
-      "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
-        "&": "f_robotic_arm",
-        "c": "f_chair",
-        "L": "f_locker",
-        "d": "f_desk"
-      },
+      "furniture": { "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ], "&": "f_robotic_arm", "c": "f_chair", "L": "f_locker", "d": "f_desk" },
       "mapping": {
         "L": { "items": { "item": "home_hw", "chance": 40 } },
         "X": { "items": [ { "item": "home_hw", "chance": 5 }, { "item": "hardware_bulk", "chance": 10 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_redacted"
-    ],
-    "//":  "teleporter room",
+    "om_terrain": [ "doomlab_redacted" ],
+    "//": "teleporter room",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "------------------------",
         "-777-SD -LLL  LLL-dXXXX-",
         "-,,7-   +        +   XX-",
@@ -3422,16 +3258,23 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "0": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "0": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         "_": "t_wall_metal",
         "=": "t_reinforced_glass",
         "2": "t_metal_floor",
         ",": "t_metal_floor",
         "D": "t_door_metal_locked",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_locked",
+          "t_door_metal_pickable",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_pickable", "t_door_metal_pickable", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "7": "t_generator_broken",
         "5": "t_machinery_electronic",
         "?": "t_fault",
@@ -3460,21 +3303,20 @@
         "X": { "items": [ { "item": "cannedfood", "chance": 20 }, { "item": "harddrugs", "chance": 10 } ] }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 3, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] },
-        { "item": "child_items", "chance": 15, "x": [ 20 , 22 ], "y": [ 19 , 18 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] },
+        { "item": "child_items", "chance": 15, "x": [ 20, 22 ], "y": [ 19, 18 ] }
       ],
-      "place_fields": [
-                { "x": [ 20 , 22 ], "y": [ 9 , 14 ], "field": "fd_fatigue", "age": 2, "density": 2, "repeat": [ 4 , 11 ] }
-      ],
+      "place_fields": [ { "x": [ 20, 22 ], "y": [ 9, 14 ], "field": "fd_fatigue", "age": 2, "density": 2, "repeat": [ 4, 11 ] } ],
       "computers": {
         "6": {
           "security": 4,
-          "name": "Lab Function Interface", "options": [
+          "name": "Lab Function Interface",
+          "options": [
             { "name": "Connect to External Network", "action": "maps" },
             { "name": "Unlock Door", "action": "unlock" },
             { "name": "TERMINATE SUBJECTS", "action": "terminate" }
@@ -3485,15 +3327,13 @@
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_finale"
-    ],
-    "//":  "Finale Room part 1.",
+    "om_terrain": [ "doomlab_finale" ],
+    "//": "Finale Room part 1.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "------------------------",
         "------------------------",
         "-------  16~LL   -------",
@@ -3521,27 +3361,20 @@
       ],
       "terrain": {
         "&": "t_card_science",
-        "%": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "%": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         "~": "t_utility_light",
         "X": "t_door_metal_locked",
         "=": "t_reinforced_glass",
-        "+": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o"],
+        "+": [ "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_c", "t_door_metal_o" ],
         "6": "t_console_broken",
         "1": "t_radio_controls",
         ">": "t_ladder_down",
         ";": "t_elevator",
         "9": "t_elevator_control_off"
       },
-      "furniture": {
-        "T": "f_table",
-        "c": "f_chair",
-        "l": "f_locker",
-        "L": "f_locker",
-        "f": "f_rack",
-        "k": "f_rack"
-      },
+      "furniture": { "T": "f_table", "c": "f_chair", "l": "f_locker", "L": "f_locker", "f": "f_rack", "k": "f_rack" },
       "mapping": {
         "L": { "items": { "item": "mil_armor", "chance": 50 } },
         "T": { "items": { "item": "magazines", "chance": 25 } },
@@ -3550,33 +3383,23 @@
         "l": { "items": { "item": "mil_armor", "chance": 20 } }
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1 , 12 ], "y": [ 2 , 21 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 6, "x": [ 1, 12 ], "y": [ 2, 21 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 8 ] }
-      ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "place_items": [ { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 8 ] } ],
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_finale_II"
-    ],
-    "//":  "Finale Room part 2.",
+    "om_terrain": [ "doomlab_finale_II" ],
+    "//": "Finale Room part 2.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
-      "########################",
+      "rows": [
+        "########################",
         "########################",
         "#######..;;;;;9<.#######",
         "##   ##..;;;;;;..##   ##",
@@ -3602,8 +3425,8 @@
         "########################"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
-        "%": ["t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
+        "%": [ "t_card_military", "t_card_military", "t_card_military", "t_card_reader_broken" ],
         "#": "t_rock",
         "-": "t_wall_metal",
         ".": "t_thconc_floor",
@@ -3612,7 +3435,7 @@
         "~": "t_utility_light",
         "=": "t_reinforced_glass",
         "X": "t_door_metal_locked",
-        "^": ["t_rock", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor"],
+        "^": [ "t_rock", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor" ],
         "6": "t_console_broken",
         "7": "t_gates_control_metal",
         "1": "t_radio_controls",
@@ -3620,41 +3443,29 @@
         ";": "t_elevator",
         "9": "t_elevator_control_off"
       },
-      "furniture": {
-        "T": "f_table",
-        "c": "f_chair",
-        "8": "f_shackle",
-        "@": "f_shackle",
-        "f": "f_rack"
-      },
-      "mapping": {
-        "T": { "items": { "item": "dining", "chance": 10 } }
-      },
+      "furniture": { "T": "f_table", "c": "f_chair", "8": "f_shackle", "@": "f_shackle", "f": "f_rack" },
+      "mapping": { "T": { "items": { "item": "dining", "chance": 10 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM_PRIEST", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 4, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] },
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] },
-        { "item": "doom_corpse", "chance": 55, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 2 ] }
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] },
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] },
+        { "item": "doom_corpse", "chance": 55, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 2 ] }
       ],
-      "monster": {
-        "@": { "monster": "mon_doom_archdemon" }
-            }
-        }
+      "monster": { "@": { "monster": "mon_doom_archdemon" } }
+    }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_stairs"
-    ],
-    "//":  "stairs down.",
+    "om_terrain": [ "doomlab_stairs" ],
+    "//": "stairs down.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -3684,12 +3495,12 @@
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
         "_": "t_guardrail_bg_dp",
-        "6": ["t_console_broken", "t_console"]
+        "6": [ "t_console_broken", "t_console" ]
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "d": "f_desk",
         "C": "f_counter",
         "c": "f_chair",
@@ -3697,39 +3508,28 @@
         "L": "f_locker",
         "]": "f_sink"
       },
-      "mapping": {
-        "X": { "items": { "item": "electronics", "chance": 10 } },
-        "p": { "items": { "item": "softdrugs", "chance": 20 } }
-      },
+      "mapping": { "X": { "items": { "item": "electronics", "chance": 10 } }, "p": { "items": { "item": "softdrugs", "chance": 20 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "item": "doom_corpse", "chance": 65, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "doom_corpse", "chance": 65, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_stairs"
-    ],
-    "//":  "stairs down.",
+    "om_terrain": [ "doomlab_stairs" ],
+    "//": "stairs down.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -3759,14 +3559,14 @@
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         ">": "t_stairs_down",
-        "+": ["t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o"],
-        "6": ["t_console_broken", "t_console"],
+        "+": [ "t_door_metal_c", "t_door_metal_c", "t_door_metal_c", "t_door_metal_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "7": "t_generator_broken",
         "3": "t_machinery_light",
         "5": "t_machinery_electronic"
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "d": "f_desk",
         "C": "f_counter",
         "c": "f_chair",
@@ -3774,34 +3574,26 @@
         "L": "f_locker"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "item": "doom_corpse", "chance": 65, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "doom_corpse", "chance": 65, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "computers": {
-        "6": {
-          "name": "ERROR", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "computers": { "6": { "name": "ERROR", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_stairs_II"
-    ],
-    "//":  "stairs up.",
+    "om_terrain": [ "doomlab_stairs_II" ],
+    "//": "stairs up.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -3831,14 +3623,14 @@
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         "<": "t_stairs_up",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
+        "x": [ "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o" ],
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
         "_": "t_guardrail_bg_dp",
-        "6": ["t_console_broken", "t_console"],
+        "6": [ "t_console_broken", "t_console" ],
         "3": "t_machinery_light"
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "d": "f_desk",
         "C": "f_counter",
         "c": "f_chair",
@@ -3846,38 +3638,28 @@
         "]": "f_sink",
         "L": "f_locker"
       },
-      "mapping": {
-        "p": { "items": { "item": "chem_school", "chance": 20 } }
-      },
+      "mapping": { "p": { "items": { "item": "chem_school", "chance": 20 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "item": "doom_corpse", "chance": 65, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "doom_corpse", "chance": 65, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [
-      "doomlab_stairs_II"
-    ],
-    "//":  "stairs up.",
+    "om_terrain": [ "doomlab_stairs_II" ],
+    "//": "stairs up.",
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_thconc_floor",
-        "rows": [
+      "rows": [
         "-----------++-----------",
         "-                      -",
         "-                      -",
@@ -3904,13 +3686,13 @@
         "-----------++-----------"
       ],
       "terrain": {
-        "&": ["t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken"],
+        "&": [ "t_card_science", "t_card_science", "t_card_science", "t_card_reader_broken" ],
         "-": "t_sconc_wall",
         " ": "t_thconc_floor",
         "<": "t_stairs_up",
-        "x": ["t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o"],
-        "+": ["t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o"],
-        "6": ["t_console_broken", "t_console"],
+        "x": [ "t_door_metal_locked", "t_door_metal_locked", "t_door_metal_pickable", "t_door_metal_c", "t_door_metal_o" ],
+        "+": [ "t_door_bar_c", "t_door_bar_c", "t_door_bar_c", "t_door_bar_o" ],
+        "6": [ "t_console_broken", "t_console" ],
         "7": "t_generator_broken",
         "2": "t_conveyor",
         "3": "t_machinery_light",
@@ -3918,7 +3700,7 @@
         "5": "t_machinery_electronic"
       },
       "furniture": {
-        "X": ["f_crate_c", "f_crate_c", "f_crate_o"],
+        "X": [ "f_crate_c", "f_crate_c", "f_crate_o" ],
         "d": "f_desk",
         "C": "f_counter",
         "c": "f_chair",
@@ -3927,25 +3709,17 @@
         "]": "f_sink",
         "&": "f_robotic_arm"
       },
-      "mapping": {
-        "X": { "items": { "item": "hardware_plumbing", "chance": 15 } }
-      },
+      "mapping": { "X": { "items": { "item": "hardware_plumbing", "chance": 15 } } },
       "place_monsters": [
-        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "monster": "GROUP_DOOM", "chance": 8, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOM_HELP", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "monster": "GROUP_DOOMLAB", "chance": 6, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
       "place_items": [
-        { "item": "doom_corpse", "chance": 45, "x": [ 1 , 22 ], "y": [ 1 , 22 ] },
-        { "item": "doom_corpse", "chance": 65, "x": [ 1 , 22 ], "y": [ 1 , 22 ] }
+        { "item": "doom_corpse", "chance": 45, "x": [ 1, 22 ], "y": [ 1, 22 ] },
+        { "item": "doom_corpse", "chance": 65, "x": [ 1, 22 ], "y": [ 1, 22 ] }
       ],
-      "computers": {
-        "6": {
-          "name": "Manufactorum HUD", "options": [
-            { "name": "Log Out", "action": "disconnect" }
-          ]
-        }
-      }
+      "computers": { "6": { "name": "Manufactorum HUD", "options": [ { "name": "Log Out", "action": "disconnect" } ] } }
     }
   }
 ]

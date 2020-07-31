@@ -1,41 +1,22 @@
 [
   {
     "id": "mon_ant_queen",
-    "type": "MONSTER",
     "copy-from": "mon_ant_queen",
+    "type": "MONSTER",
     "name": "queen ant",
     "description": "A colossal red ant with a bulging, bloated thorax.  It moves slowly and deliberately, tending to nearby eggs and continually laying more.  Its antennae seem almost aesthetic, or at the least not used for sensing . . .",
-    "default_faction": "ant",
-    "species": [ "INSECT" ],
-    "diff": 18,
-    "size": "LARGE",
     "hp": 140,
-    "speed": 40,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "ltred",
-    "aggression": 0,
-    "morale": 100,
     "melee_skill": 4,
     "melee_dice": 2,
     "melee_dice_sides": 4,
     "melee_cut": 3,
-    "dodge": 1,
     "armor_bash": 16,
     "armor_cut": 25,
     "armor_acid": 2,
     "vision_day": 5,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ant_dinject", 40 ],
-      [ "ANTQUEEN", 3 ],
-      [ "FLAMETHROWER", 20 ],
-      [ "SHRIEK_ALERT", 5 ],
-      [ "UPGRADE", 3 ]
-    ],
-    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "FIRE" ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "QUEEN", "CHITIN", "FAT", "CLIMBS", "FIREPROOF", "BASHES" ]
+    "special_attacks": [ [ "ant_dinject", 40 ], [ "ANTQUEEN", 3 ], [ "FLAMETHROWER", 20 ], [ "SHRIEK_ALERT", 5 ], [ "UPGRADE", 3 ] ],
+    "extend": { "anger_triggers": [ "FIRE" ], "flags": [ "SEES", "KEENNOSE", "PATH_AVOID_DANGER_1", "FIREPROOF", "BASHES" ] }
   },
   {
     "id": "mon_ant_queen_young",
@@ -46,11 +27,12 @@
     "species": [ "INSECT" ],
     "diff": 25,
     "size": "LARGE",
+    "harvest": "arachnid",
     "hp": 90,
     "speed": 90,
     "material": [ "iflesh" ],
     "symbol": "a",
-    "color": "i_ltred",
+    "color": "i_light_red",
     "aggression": 0,
     "morale": 100,
     "melee_skill": 4,
@@ -63,16 +45,10 @@
     "armor_acid": 4,
     "vision_day": 20,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ant_dinject", 30 ],
-      [ "ANTQUEEN", 90 ],
-      [ "FLAMETHROWER", 50 ],
-      [ "SHRIEK_ALERT", 15 ],
-      [ "SHRIEK_STUN", 1 ]
-    ],
+    "special_attacks": [ [ "ant_dinject", 30 ], [ "ANTQUEEN", 90 ], [ "FLAMETHROWER", 50 ], [ "SHRIEK_ALERT", 15 ], [ "SHRIEK_STUN", 1 ] ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CHITIN", "FAT", "CLIMBS", "FIREPROOF", "FLIES", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CLIMBS", "FIREPROOF", "FLIES", "BASHES" ]
   },
   {
     "id": "mon_ant_male",
@@ -83,19 +59,18 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "arachnid",
     "hp": 80,
     "speed": 105,
     "material": [ "iflesh" ],
     "symbol": "a",
-    "color": "dkgray",
+    "color": "dark_gray",
     "aggression": 30,
     "morale": 70,
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 10,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 6 } ],
     "dodge": 2,
     "armor_bash": 5,
     "armor_cut": 8,
@@ -108,81 +83,83 @@
     "fear_triggers": [ "FRIEND_DIED", "HURT" ],
     "placate_triggers": [ "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "FAT", "CLIMBS", "FLIES", "BASHES" ]
+    "flags": [ "SEES", "SMELLS", "KEENNOSE", "CLIMBS", "FLIES", "BASHES" ]
   },
   {
     "id": "mon_ant_larva",
+    "copy-from": "mon_ant_larva",
     "type": "MONSTER",
-    "edit-mode": "overwrite",
     "name": "ant larva",
     "description": "A writhing mass of yellowing flesh, this little guy is capable of only paltry self-defense.",
-    "default_faction": "ant",
-    "species": [ "INSECT" ],
-    "size": "SMALL",
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "white",
-    "aggression": -1,
-    "speed": 15,
-    "morale": 10,
     "hp": 15,
-    "melee_skill": 2,
-    "melee_dice": 1,
     "melee_dice_sides": 2,
     "armor_bash": 4,
     "armor_cut": 4,
     "armor_acid": 5,
+    "harvest": "meatslug",
     "special_attacks": [ [ "ant_dinject", 30 ], [ "wound_minor", 20 ] ],
     "anger_triggers": [ "HURT", "PLAYER_WEAK" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": [ "NORMAL" ],
-    "upgrades": { "into": "mon_ant", "half_life": 0 },
-    "flags": [ "HEARS", "SMELLS", "LARVA", "SWARMS" ]
+    "extend": { "flags": [ "HEARS", "SWARMS" ] }
   },
   {
     "id": "mon_ant",
+    "copy-from": "mon_ant",
     "type": "MONSTER",
-    "edit-mode": "override",
     "name": "giant ant",
-    "description": "An enormous red ant covered in chitinous plates.  It possesses a pair of wriggling antennae and vicious-looking mandibles.",
-    "default_faction": "ant_hack",
-    "species": [ "INSECT" ],
-    "diff": 7,
-    "size": "MEDIUM",
-    "hp": 40,
-    "speed": 90,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "brown",
-    "morale": 60,
     "melee_skill": 4,
-    "melee_dice": 1,
     "melee_dice_sides": 8,
     "melee_cut": 3,
-    "dodge": 1,
     "armor_bash": 6,
     "armor_cut": 10,
     "armor_fire": 2,
-    "vision_day": 5,
-    "vision_night": 5,
     "special_attacks": [
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 5, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
         ]
       }
     ],
-    "upgrades":{
-      "into_group": "GROUP_DRONE",
-      "half_life": 5
-    },
-    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_WEAK" ],
+    "extend": { "upgrades": { "into_group": "GROUP_DRONE", "half_life": 5 } },
+    "delete": { "upgrades": { "age_grow": 14, "into": "mon_ant_soldier" } }
+  },
+  {
+    "id": "mon_ant_soldier",
+    "type": "MONSTER",
+    "name": "soldier ant",
+    "description": "A huge and hairy red ant almost twice the size of other giant ants.  Bulging pincers extend from its jaws.",
+    "default_faction": "ant",
+    "species": [ "INSECT" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 80,
+    "speed": 100,
+    "material": [ "iflesh" ],
+    "symbol": "a",
+    "color": "red",
+    "aggression": 30,
+    "morale": 100,
+    "melee_skill": 7,
+    "melee_dice": 1,
+    "melee_dice_sides": 8,
+    "melee_cut": 6,
+    "dodge": 2,
+    "armor_bash": 10,
+    "armor_cut": 12,
+    "vision_day": 5,
+    "vision_night": 5,
+    "harvest": "arachnid",
+    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "CHITIN", "CLIMBS" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS" ]
   },
   {
     "id": "mon_ant_soldier",
@@ -195,9 +172,7 @@
     "melee_skill": 5,
     "melee_dice": 1,
     "melee_dice_sides": 8,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 2 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 2 } ],
     "melee_cut": 5,
     "dodge": 2,
     "armor_bash": 8,
@@ -208,19 +183,19 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 7, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 15,
+        "accuracy": 7,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 6, "armor_multiplier": 0.8 }
         ]
       }
     ],
-    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "FIRE" ],
-    "upgrades": {
-      "half_life": 21,
-      "into_group": "GROUP_SOLDIER"
-    },
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS" ]
+    "upgrades": { "half_life": 21, "into_group": "GROUP_SOLDIER" },
+    "extend": { "anger_triggers": [ "FIRE" ], "flags": [ "KEENNOSE" ] }
   },
   {
     "id": "mon_ant_scrib",
@@ -231,11 +206,12 @@
     "species": [ "INSECT" ],
     "diff": 7,
     "size": "SMALL",
+    "harvest": "arachnid",
     "hp": 40,
     "speed": 90,
     "material": [ "iflesh" ],
     "symbol": "s",
-    "color": "ltgray",
+    "color": "light_gray",
     "aggression": -1,
     "morale": 50,
     "melee_skill": 5,
@@ -248,11 +224,7 @@
     "armor_fire": 5,
     "vision_day": 7,
     "vision_night": 7,
-    "special_attacks": [
-      [ "scrib", 40 ],
-      [ "SHRIEK_ALERT", 40 ],
-      [ "SHRIEK_STUN", 1 ]
-    ],
+    "special_attacks": [ [ "scrib", 40 ], [ "SHRIEK_ALERT", 40 ], [ "SHRIEK_STUN", 1 ] ],
     "anger_triggers": [ "FRIEND_DIED", "HURT" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "CHITIN", "CLIMBS" ]
@@ -266,6 +238,7 @@
     "species": [ "INSECT" ],
     "diff": 10,
     "size": "MEDIUM",
+    "harvest": "arachnid",
     "hp": 65,
     "speed": 105,
     "material": [ "iflesh" ],
@@ -276,9 +249,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 10,
-    "melee_damage": [
-      { "damage_type": "bash", "amount": 3 }
-    ],
+    "melee_damage": [ { "damage_type": "bash", "amount": 3 } ],
     "melee_cut": 4,
     "dodge": 1,
     "armor_bash": 8,
@@ -290,7 +261,11 @@
       [ "ant_dinject", 40 ],
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 12, "accuracy": 7, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 12,
+        "accuracy": 7,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 10, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 8, "armor_multiplier": 0.8 }
@@ -310,6 +285,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
+    "harvest": "arachnid",
     "hp": 90,
     "speed": 110,
     "material": [ "iflesh" ],
@@ -330,7 +306,11 @@
     "special_attacks": [
       [ "GRAB", 60 ],
       [ "ant_sinject", 20 ],
-      { "type": "bite", "cooldown": 15, "accuracy": 9, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 15,
+        "accuracy": 9,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 9, "armor_multiplier": 0.8 }
@@ -350,6 +330,7 @@
     "species": [ "INSECT" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "arachnid",
     "hp": 60,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -360,9 +341,7 @@
     "melee_skill": 6,
     "melee_dice": 1,
     "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "acid", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 4,
     "dodge": 2,
     "armor_bash": 8,
@@ -376,7 +355,11 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 8, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 25,
+        "accuracy": 8,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "bash", "amount": 10, "armor_multiplier": 0.8 }
@@ -384,7 +367,8 @@
       },
       {
         "id": "hammer",
-        "cooldown": 40, "moves": 250,
+        "cooldown": 40,
+        "moves": 250,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 6, "armor_multiplier": 0.8 }
@@ -394,10 +378,7 @@
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK", "FIRE" ],
     "death_function": [ "NORMAL" ],
-    "upgrades": {
-      "half_life": 28,
-      "into": "mon_ant_soldier_pk"
-    },
+    "upgrades": { "half_life": 28, "into": "mon_ant_soldier_pk" },
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "BASHES" ]
   },
   {
@@ -409,6 +390,7 @@
     "species": [ "INSECT" ],
     "diff": 20,
     "size": "MEDIUM",
+    "harvest": "arachnid",
     "hp": 75,
     "speed": 125,
     "material": [ "iflesh" ],
@@ -419,9 +401,7 @@
     "melee_skill": 7,
     "melee_dice": 2,
     "melee_dice_sides": 6,
-    "melee_damage": [
-      { "damage_type": "acid", "amount": 1 }
-    ],
+    "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 4,
     "dodge": 3,
     "armor_bash": 12,
@@ -435,13 +415,20 @@
       [ "ant_dinject", 40 ],
       [ "ant_sinject", 40 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 25, "accuracy": 10, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 25,
+        "accuracy": 10,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 14, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
         ]
       },
-      { "id": "hammer", "cooldown": 40, "moves": 250,
+      {
+        "id": "hammer",
+        "cooldown": 40,
+        "moves": 250,
         "damage_max_instance": [
           { "damage_type": "bash", "amount": 16, "armor_multiplier": 0.8 },
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 }
@@ -454,20 +441,15 @@
     "flags": [ "SEES", "SMELLS", "KEENNOSE", "CHITIN", "CLIMBS", "BASHES" ]
   },
   {
+    "copy-from": "mon_ant_acid_queen",
     "id": "mon_ant_acid_queen",
     "type": "MONSTER",
-    "copy-from": "mon_ant_acid_queen",
-    "name": "acidic ant queen",
+    "name": "acidic queen ant",
     "description": "An enormous brown ant with an elongated, pulsating abdomen.  It seems more interested in tending its eggs than using acid . . .",
     "default_faction": "ant",
-    "species": [ "INSECT" ],
     "diff": 16,
-    "size": "LARGE",
     "hp": 170,
     "speed": 30,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "green",
     "aggression": 0,
     "morale": 90,
     "melee_skill": 5,
@@ -481,17 +463,8 @@
     "vision_day": 5,
     "vision_night": 10,
     "starting_ammo": { "bot_ant_acid_ultralisk": 1 },
-    "special_attacks": [
-      [ "GRENADIER_ELITE", 5 ],
-      [ "ANTQUEEN", 3 ],
-      [ "UPGRADE", 3 ],
-      [ "scrib", 20 ]
-    ],
-    "emit_fields": [ "emit_acid_small" ],
-    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
-    "death_function": [ "NORMAL", "ACID" ],
-    "harvest": "acidant_queen",
-    "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "QUEEN", "SEES", "SMELLS", "KEENNOSE" ]
+    "special_attacks": [ [ "GRENADIER_ELITE", 5 ], [ "ANTQUEEN", 3 ], [ "UPGRADE", 3 ], [ "scrib", 20 ] ],
+    "death_function": [ "NORMAL", "ACID" ]
   },
   {
     "id": "mon_ant_acid_larva",
@@ -500,45 +473,23 @@
     "name": "acidic larval ant",
     "description": "A squirming yellow grub that seems to be oozing liquid from both ends of its body.  It has soft-looking chitin - kind of like a crab.",
     "default_faction": "ant",
-    "species": [ "INSECT" ],
-    "size": "SMALL",
-    "hp": 20,
+    "harvest": "meatslug",
     "speed": 10,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "yellow",
-    "aggression": -1,
-    "morale": 10,
-    "melee_skill": 2,
-    "melee_dice": 1,
     "melee_dice_sides": 2,
     "melee_cut": 2,
-    "special_attacks": [ [ "ACID_BARF", 30 ] ],
-    "upgrades": { "into": "mon_ant_acid", "half_life": 0 },
-    "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_larva",
-    "flags": [ "LARVA", "POISON", "SMELLS" ]
+    "special_attacks": [ [ "ACID_BARF", 30 ] ]
   },
   {
     "id": "mon_ant_acid",
     "type": "MONSTER",
-    "edit-mode": "overwrite",
+    "copy-from": "mon_ant_acid",
     "name": "giant acidic ant",
     "description": "An almost blind monstrous red ant with a swollen abdomen, that ends with a small orifice at the tip.  Glistening liquid seems to drip out periodically.",
     "default_faction": "ant_hack",
-    "species": [ "INSECT" ],
     "diff": 13,
-    "size": "MEDIUM",
     "hp": 65,
     "speed": 75,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "green",
-    "morale": 60,
     "melee_skill": 4,
-    "melee_dice": 1,
-    "melee_dice_sides": 6,
-    "melee_cut": 6,
     "dodge": 0,
     "armor_bash": 4,
     "armor_stab": 5,
@@ -548,7 +499,11 @@
     "special_attacks": [
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 30,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 4, "armor_multiplier": 0.5 }
@@ -562,7 +517,7 @@
         "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
         "fake_dex": 2,
         "fake_per": 2,
-        "require_targeting_player": "false",
+        "require_targeting_player": false,
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "description": "The acidic drone spurts a glaze of acid!",
@@ -571,14 +526,11 @@
         "ranges": [ [ 2, 3, "DEFAULT" ] ]
       }
     ],
-    "upgrades":{
-      "into_group": "GROUP_ANT_ACID_UPGRADE",
-      "half_life": 5
-    },
-    "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
-    "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_med",
-    "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS" ]
+    "extend": { "anger_triggers": [ "FIRE" ], "upgrades": { "into_group": "GROUP_ANT_ACID_UPGRADE", "half_life": 5 } },
+    "delete": {
+      "anger_triggers": [ "FRIEND_ATTACKED", "PLAYER_CLOSE" ],
+      "upgrades": { "age_grow": 14, "into": "mon_ant_acid_soldier" }
+    }
   },
   {
     "id": "mon_ant_acid_terminal",
@@ -589,6 +541,7 @@
     "species": [ "INSECT" ],
     "diff": 13,
     "size": "MEDIUM",
+    "harvest": "arachnid_acid",
     "hp": 70,
     "speed": 75,
     "material": [ "iflesh" ],
@@ -608,7 +561,11 @@
     "special_attacks": [
       [ "GRAB", 20 ],
       [ "wound_minor", 30 ],
-      { "type": "bite", "cooldown": 30, "accuracy": 5, "no_infection_chance": 18,
+      {
+        "type": "bite",
+        "cooldown": 30,
+        "accuracy": 5,
+        "no_infection_chance": 18,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 8, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 4, "armor_multiplier": 0.5 }
@@ -622,7 +579,7 @@
         "fake_skills": [ [ "gun", 1 ], [ "rifle", 1 ] ],
         "fake_dex": 2,
         "fake_per": 2,
-        "require_targeting_player": "false",
+        "require_targeting_player": false,
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "description": "The acidic drone spurts a glaze of acid!",
@@ -633,7 +590,6 @@
     ],
     "anger_triggers": [ "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_med",
     "flags": [ "ACIDPROOF", "CLIMBS", "HEARS", "POISON", "SEES", "SMELLS" ]
   },
   {
@@ -643,20 +599,13 @@
     "name": "acidic soldier ant",
     "description": "A massive, woolly brown ant that towers over the worker ants with a giant head crest.  Along with its huge mandibles, a corrosive liquid seeps from the end of its bloated abdomen, which prevents it from climbing.",
     "default_faction": "ant_hack",
-    "species": [ "INSECT" ],
     "diff": 25,
-    "size": "MEDIUM",
     "hp": 115,
     "speed": 85,
-    "material": [ "iflesh" ],
-    "symbol": "a",
-    "color": "brown",
     "aggression": 7,
-    "morale": 100,
     "melee_skill": 6,
     "melee_dice": 2,
     "melee_dice_sides": 6,
-    "melee_cut": 8,
     "dodge": 1,
     "armor_bash": 9,
     "armor_stab": 13,
@@ -665,7 +614,11 @@
     "vision_night": 4,
     "special_attacks": [
       [ "wound_minor", 20 ],
-      { "type": "bite", "cooldown": 20, "accuracy": 6, "no_infection_chance": 16,
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 6,
+        "no_infection_chance": 16,
         "damage_max_instance": [
           { "damage_type": "stab", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 5, "armor_multiplier": 0.5 }
@@ -680,7 +633,7 @@
         "fake_skills": [ [ "gun", 3 ], [ "rifle", 3 ] ],
         "fake_dex": 5,
         "fake_per": 5,
-        "require_targeting_player": "false",
+        "require_targeting_player": false,
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "description": "The acidic drone spurts a glaze of acid!",
@@ -689,11 +642,7 @@
         "ranges": [ [ 2, 4, "DEFAULT" ] ]
       }
     ],
-    "emit_fields": [ "emit_acid_small" ],
-    "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE" ],
-    "death_function": [ "ACID", "NORMAL" ],
-    "harvest": "acidant_med",
-    "flags": [ "ACIDPROOF", "HEARS", "POISON", "SEES", "SMELLS" ]
+    "harvest": "arachnid_acid"
   },
   {
     "type": "MONSTER",
@@ -705,7 +654,7 @@
     "symbol": "A",
     "color": "red",
     "size": "MEDIUM",
-    "material": "iflesh",
+    "material": [ "iflesh" ],
     "diff": 20,
     "hp": 120,
     "aggression": 7,
@@ -721,14 +670,9 @@
     "armor_cut": 14,
     "vision_day": 25,
     "vision_night": 5,
-    "special_attacks": [
-      [ "ACID", 60 ],
-      [ "ACID_BARF", 60 ],
-      [ "wound_minor", 40 ],
-      [ "scrib", 60 ]
-   ],
+    "special_attacks": [ [ "ACID", 60 ], [ "ACID_BARF", 60 ], [ "wound_minor", 40 ], [ "scrib", 60 ] ],
     "death_function": "NORMAL",
-    "harvest": "acidant_med",
+    "harvest": "arachnid_acid",
     "flags": [ "ACIDPROOF", "POISON", "SEES", "HEARS", "SMELLS", "CLIMBS" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_CLOSE", "FIRE" ],
     "fear_triggers": [ "HURT" ]
@@ -743,7 +687,7 @@
     "symbol": "A",
     "color": "green_red",
     "size": "HUGE",
-    "material": "iflesh",
+    "material": [ "iflesh" ],
     "diff": 30,
     "hp": 260,
     "aggression": 30,
@@ -765,21 +709,27 @@
       [ "SMASH", 90 ],
       [ "ACID", 75 ],
       [ "hammer", 30 ],
-      { "id": "wound_minor", "cooldown": 30, "accuracy": 6,
+      {
+        "id": "wound_minor",
+        "cooldown": 30,
+        "accuracy": 6,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 8, "armor_multiplier": 0.5 }
         ]
       },
-      { "id": "slash", "cooldown": 30, "accuracy": 6,
+      {
+        "id": "slash",
+        "cooldown": 30,
+        "accuracy": 6,
         "damage_max_instance": [
           { "damage_type": "cut", "amount": 16, "armor_multiplier": 0.8 },
           { "damage_type": "acid", "amount": 6, "armor_multiplier": 0.5 }
         ]
       }
-   ],
+    ],
     "death_function": "NORMAL",
-    "harvest": "acidant_med",
+    "harvest": "arachnid_acid",
     "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "CHITIN" ],
     "anger_triggers": [ "FRIEND_DIED", "PLAYER_CLOSE", "FIRE", "HURT" ]
   }

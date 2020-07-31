@@ -44,30 +44,19 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
-      "monster": {
-        "Z": { "monster": "mon_doom_sacrifice" },
-        "L": { "monster": "mon_lostsoul_mount" }
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
+      "monster": { "Z": { "monster": "mon_doom_sacrifice" }, "L": { "monster": "mon_lostsoul_mount" } },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3, "repeat": [ 2, 5 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 0, 16], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 14 ], "y": [  17, 23 ], "repeat": [ 15, 40 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 0, 16 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 14 ], "y": [ 17, 23 ], "repeat": [ 15, 40 ] },
         { "point": "furniture", "id": "f_ash", "x": [ 0, 6 ], "y": 23, "repeat": [ 1, 6 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 16], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 14 ], "y": [  17, 23 ], "repeat": [ 15, 40 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 16 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 14 ], "y": [ 17, 23 ], "repeat": [ 15, 40 ] },
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 6 ], "y": 23, "repeat": [ 1, 6 ] },
         { "point": "trap", "id": "tr_drain", "x": 23, "y": 19 },
         { "point": "trap", "id": "tr_drain", "x": [ 15, 23 ], "y": [ 17, 23 ], "repeat": [ 2, 5 ], "chance": 5 },
@@ -81,9 +70,9 @@
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
-        { "item": "doom_victim_corpse", "chance": 65, "x": [ 7,7 ], "y": [ 23,23 ] },
+        { "item": "doom_victim_corpse", "chance": 65, "x": [ 7, 7 ], "y": [ 23, 23 ] },
         { "item": "doom_stimpack", "chance": 50, "x": [ 15, 23 ], "y": [ 17, 23 ], "repeat": [ 1, 2 ] }
       ]
     }
@@ -133,30 +122,19 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
-      "monster": {
-        "Z": { "monster": "mon_doom_sacrifice" },
-        "L": { "monster": "mon_lostsoul_mount" }
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
+      "monster": { "Z": { "monster": "mon_doom_sacrifice" }, "L": { "monster": "mon_lostsoul_mount" } },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 6, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3, "repeat": [ 2, 5 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 0, 16], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 11, 23 ], "y": [  17, 23 ], "repeat": [ 15, 40 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 0, 16 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 11, 23 ], "y": [ 17, 23 ], "repeat": [ 15, 40 ] },
         { "point": "furniture", "id": "f_ash", "x": [ 18, 23 ], "y": 23, "repeat": [ 1, 5 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 16], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 11, 23 ], "y": [  17, 23 ], "repeat": [ 15, 40 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 16 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 11, 23 ], "y": [ 17, 23 ], "repeat": [ 15, 40 ] },
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 18, 23 ], "y": 23, "repeat": [ 1, 5 ] },
         { "point": "trap", "id": "tr_drain", "x": 0, "y": 19 },
         { "point": "trap", "id": "tr_drain", "x": [ 0, 8 ], "y": [ 17, 23 ], "repeat": [ 2, 5 ], "chance": 5 },
@@ -170,9 +148,9 @@
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
-        { "item": "doom_victim_corpse", "chance": 65, "x": [ 8,8 ], "y": [ 20,20 ] },
+        { "item": "doom_victim_corpse", "chance": 65, "x": [ 8, 8 ], "y": [ 20, 20 ] },
         { "item": "doom_stimpack", "chance": 50, "x": [ 0, 8 ], "y": [ 17, 23 ], "repeat": [ 1, 2 ] }
       ]
     }
@@ -222,27 +200,19 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3, "repeat": [ 2, 5 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 7 ], "y": [ 0, 5], "repeat": [ 10, 20 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 13 ], "y": [ 6, 9], "repeat": [ 15, 30 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 16 ], "y": [  10, 16 ], "repeat": [ 25, 50 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [17, 23 ], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 7 ], "y": [ 0, 5], "repeat": [ 10, 20 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 13 ], "y": [ 6, 9], "repeat": [ 15, 30 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 16 ], "y": [  10, 16 ], "repeat": [ 25, 50 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 7 ], "y": [ 0, 5 ], "repeat": [ 10, 20 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 13 ], "y": [ 6, 9 ], "repeat": [ 15, 30 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 16 ], "y": [ 10, 16 ], "repeat": [ 25, 50 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 17, 23 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 7 ], "y": [ 0, 5 ], "repeat": [ 10, 20 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 13 ], "y": [ 6, 9 ], "repeat": [ 15, 30 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 16 ], "y": [ 10, 16 ], "repeat": [ 25, 50 ] },
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 18 ], "y": [ 17, 23 ], "repeat": [ 50, 100 ] },
         { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 },
         { "point": "trap", "id": "tr_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 3 ], "chance": 5 },
@@ -257,7 +227,7 @@
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 19 ], "y": [ 19 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 19 ], "y": [ 22 ] },
@@ -311,27 +281,19 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "set": [
         { "point": "terrain", "id": "t_pit_corpsed", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 5, "repeat": [ 3, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "terrain", "id": "t_column", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 2, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3, "repeat": [ 2, 5 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 16, 23 ], "y": [ 0, 5], "repeat": [ 10, 20 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 11, 23 ], "y": [ 6, 9], "repeat": [ 15, 30 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 9, 23 ], "y": [  10, 16 ], "repeat": [ 25, 50 ] },
-        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [17, 23 ], "repeat": [ 50, 100 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 16, 23 ], "y": [ 0, 5], "repeat": [ 10, 20 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 11, 23 ], "y": [ 6, 9], "repeat": [ 15, 30 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 9, 23 ], "y": [  10, 16 ], "repeat": [ 25, 50 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 16, 23 ], "y": [ 0, 5 ], "repeat": [ 10, 20 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 11, 23 ], "y": [ 6, 9 ], "repeat": [ 15, 30 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 9, 23 ], "y": [ 10, 16 ], "repeat": [ 25, 50 ] },
+        { "point": "furniture", "id": "f_ash", "x": [ 0, 23 ], "y": [ 17, 23 ], "repeat": [ 50, 100 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 16, 23 ], "y": [ 0, 5 ], "repeat": [ 10, 20 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 11, 23 ], "y": [ 6, 9 ], "repeat": [ 15, 30 ] },
+        { "point": "furniture", "id": "f_rubble_rock", "x": [ 9, 23 ], "y": [ 10, 16 ], "repeat": [ 25, 50 ] },
         { "point": "furniture", "id": "f_rubble_rock", "x": [ 5, 23 ], "y": [ 17, 23 ], "repeat": [ 50, 100 ] },
         { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 },
         { "point": "trap", "id": "tr_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 3 ], "chance": 5 },
@@ -346,7 +308,7 @@
         { "monster": "GROUP_DOOM_PRIEST", "x": 3, "y": 20, "chance": 10 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 3 }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "doom_victim_corpse", "chance": 20, "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 4 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 4 ], "y": [ 19 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 4 ], "y": [ 22 ] },
@@ -362,7 +324,7 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock",
-        "rows": [
+      "rows": [
         "     ##########         ",
         "     #........#         ",
         "     #........#   ~     ",
@@ -399,15 +361,7 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "monster": {
         "Z": { "monster": "mon_doom_sacrifice" },
         "L": { "monster": "mon_lostsoul_mount" },
@@ -426,9 +380,9 @@
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 10, 15 ], "y": [ 16, 19 ], "chance": 5 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 3 }
       ],
-      "place_items": [ 
-        { "item": "doom_stimpack", "chance": 40, "x": 7, "y": 1, "repeat": [1,3] },
-        { "item": "gear_survival", "chance": 35, "x": [ 8, 12 ], "y": [ 1, 2 ], "repeat": [2,5] },
+      "place_items": [
+        { "item": "doom_stimpack", "chance": 40, "x": 7, "y": 1, "repeat": [ 1, 3 ] },
+        { "item": "gear_survival", "chance": 35, "x": [ 8, 12 ], "y": [ 1, 2 ], "repeat": [ 2, 5 ] },
         { "item": "guns_pistol_common", "chance": 20, "x": [ 7, 9 ], "y": [ 4, 5 ] },
         { "item": "guns_rifle_common", "chance": 20, "x": [ 7, 9 ], "y": [ 4, 5 ] },
         { "item": "ammo_pistol_common", "chance": 25, "x": [ 8, 12 ], "y": [ 1, 2 ] },
@@ -436,7 +390,7 @@
         { "item": "ammo_rifle_common", "chance": 35, "x": [ 7, 9 ], "y": [ 4, 5 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 10, 13 ], "y": [ 17, 19 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 10 ], "y": [ 17 ] },
-        { "item": "doom_armor", "chance": 15, "x": [ 8, 12 ], "y": [ 1, 2 ], "repeat": [ 1, 2] }
+        { "item": "doom_armor", "chance": 15, "x": [ 8, 12 ], "y": [ 1, 2 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
@@ -447,7 +401,7 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "####11######S1S#####11##",
         "####11......~Z~.....11##",
         "#####....1.......1...###",
@@ -485,15 +439,7 @@
         "0": "t_window_stained_green",
         "+": "t_door_bar_c"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "monster": {
         "Z": { "monster": "mon_doom_sacrifice" },
         "L": { "monster": "mon_lostsoul_mount" },
@@ -514,9 +460,9 @@
         { "point": "furniture", "id": "f_statue", "x": 13, "y": 22 },
         { "point": "furniture", "id": "f_blade", "x": 9, "y": 13 }
       ],
-      "place_items": [ 
-        { "item": "gear_survival", "chance": 65, "x": [ 6, 8 ], "y": [ 11, 12], "repeat": [ 2, 3 ] },
-        { "item": "ammo_shotgun_rare", "chance": 15, "x": [ 6, 8 ], "y": [ 11, 12], "repeat": [ 1, 3 ] },
+      "place_items": [
+        { "item": "gear_survival", "chance": 65, "x": [ 6, 8 ], "y": [ 11, 12 ], "repeat": [ 2, 3 ] },
+        { "item": "ammo_shotgun_rare", "chance": 15, "x": [ 6, 8 ], "y": [ 11, 12 ], "repeat": [ 1, 3 ] },
         { "item": "child_items", "chance": 35, "x": 6, "y": [ 14, 23 ], "repeat": [ 1, 2 ] },
         { "item": "knifeblock", "chance": 55, "x": [ 18 ], "y": [ 11, 23 ], "repeat": [ 1, 2 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 18 ], "y": [ 11, 23 ] },
@@ -530,14 +476,15 @@
         { "item": "doom_victim_corpse", "chance": 55, "x": [ 9 ], "y": [ 16 ] }
       ]
     }
-    },{
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_city_tunnel_prison_S" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "######..+............###",
         "#########....18......###",
         "######.##............###",
@@ -575,15 +522,7 @@
         "0": "t_window_stained_green",
         "+": "t_door_bar_c"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "place_monsters": [
         { "monster": "GROUP_ZOMBIE_MID", "x": 14, "y": 9, "chance": 2 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": 14, "y": 6 },
@@ -598,21 +537,19 @@
         { "point": "terrain", "id": "t_column", "x": 13, "y": 9, "chance": 2 },
         { "point": "terrain", "id": "t_column", "x": 16, "y": 9, "chance": 2 }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "child_items", "chance": 45, "x": 6, "y": [ 0, 3 ] },
         { "item": "knifeblock", "chance": 25, "x": [ 18 ], "y": [ 0, 4 ] },
         { "item": "guns_shotgun_milspec", "chance": 75, "x": [ 15, 16 ], "y": [ 11, 12 ] },
         { "item": "ammo_shotgun_milspec", "chance": 65, "x": [ 15, 16 ], "y": [ 11, 12 ] },
         { "item": "ammo_milspec", "chance": 65, "x": [ 15, 16 ], "y": [ 11, 12 ], "repeat": [ 1, 3 ] },
-        { "item": "doom_armor", "chance": 60, "x": [ 15, 16 ], "y": [ 11, 12 ], "repeat": [ 1, 2] },
+        { "item": "doom_armor", "chance": 60, "x": [ 15, 16 ], "y": [ 11, 12 ], "repeat": [ 1, 2 ] },
         { "item": "doom_victim_corpse", "chance": 15, "x": [ 6 ], "y": [ 0 ] },
         { "item": "doom_victim_corpse", "chance": 35, "x": [ 6 ], "y": [ 2, 3 ] },
         { "item": "doom_victim_corpse", "chance": 65, "x": [ 14 ], "y": [ 1 ] },
         { "item": "doom_stimpack", "chance": 65, "x": [ 19, 23 ], "y": [ 0, 5 ], "repeat": [ 1, 2 ] }
       ],
-      "monster": {
-        "A": { "monster": "mon_doom_archvile" }
-      }
+      "monster": { "A": { "monster": "mon_doom_archvile" } }
     }
   },
   {
@@ -622,7 +559,7 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock",
-        "rows": [
+      "rows": [
         "                        ",
         "                        ",
         "                        ",
@@ -659,15 +596,7 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "set": [
         { "point": "furniture", "id": "f_statue", "x": 1, "y": 19 },
         { "point": "furniture", "id": "f_statue", "x": [ 15, 18 ], "y": 12, "repeat": 4 },
@@ -689,7 +618,7 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "########################",
         "########################",
         "#~#~###~~###############",
@@ -726,43 +655,34 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 16, 20 ], "y": [ 3, 6 ], "chance": 3 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 16, 20 ], "y": [ 3, 6 ], "chance": 4 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 11, 13 ], "y": [ 13, 14 ], "chance": 4 },
         { "monster": "GROUP_DOOM_HELP", "x": [ 2, 6 ], "y": [ 6, 13 ], "chance": 2 }
       ],
-      "place_items": [ 
-        { "item": "military", "chance": 45, "x": [ 1,2 ], "y": [ 17, 18 ], "repeat": [1,2] },
-        { "item": "military", "chance": 25, "x": [ 1,2 ], "y": [ 16 ] },
-        { "item": "doom_armor", "chance": 10, "x": [ 1, 2 ], "y": [ 16 ], "repeat": [ 1, 2] },
-        { "item": "doom_stimpack", "chance": 45, "x": [ 1, 2], "y": [ 16, 18 ], "repeat": [ 1, 2 ] },
+      "place_items": [
+        { "item": "military", "chance": 45, "x": [ 1, 2 ], "y": [ 17, 18 ], "repeat": [ 1, 2 ] },
+        { "item": "military", "chance": 25, "x": [ 1, 2 ], "y": [ 16 ] },
+        { "item": "doom_armor", "chance": 10, "x": [ 1, 2 ], "y": [ 16 ], "repeat": [ 1, 2 ] },
+        { "item": "doom_stimpack", "chance": 45, "x": [ 1, 2 ], "y": [ 16, 18 ], "repeat": [ 1, 2 ] },
         { "item": "guns_rifle_common", "chance": 35, "x": [ 11, 13 ], "y": [ 13, 14 ] },
         { "item": "ammo_rifle_common", "chance": 35, "x": [ 11, 13 ], "y": [ 13, 14 ], "repeat": [ 1, 2 ] },
         { "item": "doom_stimpack", "chance": 85, "x": [ 4, 6 ], "y": [ 18, 19 ], "repeat": [ 1, 2 ] },
         { "item": "doom_victim_corpse", "chance": 65, "x": [ 20, 21 ], "y": [ 11 ] },
-        { "item": "doom_victim_corpse", "chance": 65, "x": [ 12,12 ], "y": [ 14,14 ] }
+        { "item": "doom_victim_corpse", "chance": 65, "x": [ 12, 12 ], "y": [ 14, 14 ] }
       ]
     }
-    },
-        
-    {
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "hell_city_B3N" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "########################",
         "########################",
         "########################",
@@ -799,34 +719,33 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 5 },
         { "monster": "GROUP_DOOM_INFANTRY", "x": [ 10, 15 ], "y": [ 8, 13 ], "chance": 2 },
         { "monster": "GROUP_ZOMBIE_MID", "x": [ 11, 12 ], "y": [ 5 ] }
       ],
-      "place_items": [ 
-        { "item": "doom_stimpack", "chance": 85, "x": [ 21,21 ], "y": [ 19, 22 ], "repeat": [ 2, 3 ] },
+      "place_items": [
+        { "item": "doom_stimpack", "chance": 85, "x": [ 21, 21 ], "y": [ 19, 22 ], "repeat": [ 2, 3 ] },
         { "item": "gear_survival", "chance": 45, "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "item": "doom_victim_corpse", "chance": 45, "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "item": "doom_victim_corpse", "chance": 45, "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "item": "doom_victim_corpse", "chance": 45, "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "item": "doom_victim_corpse", "chance": 55, "x": [ 9,9 ], "y": [ 18,18 ] },
-        { "item": "doom_victim_corpse", "chance": 55, "x": [ 15,15 ], "y": [ 18,18 ] }
+        { "item": "doom_victim_corpse", "chance": 55, "x": [ 9, 9 ], "y": [ 18, 18 ] },
+        { "item": "doom_victim_corpse", "chance": 55, "x": [ 15, 15 ], "y": [ 18, 18 ] }
       ],
       "set": [
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4, "repeat": [ 2, 4 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4, "repeat": [ 2, 4 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 10 ] },
+        {
+          "point": "furniture",
+          "id": "f_rubble_rock",
+          "x": [ 0, 23 ],
+          "y": [ 0, 23 ],
+          "chance": 10,
+          "repeat": [ 2, 10 ]
+        },
         { "point": "trap", "id": "tr_sinkhole", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 },
         { "point": "trap", "id": "tr_sinkhole", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 }
       ]
@@ -839,7 +758,7 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
-        "rows": [
+      "rows": [
         "11                    11",
         "11                    11",
         "1                      1",
@@ -876,21 +795,13 @@
         "p": "t_pit_spiked",
         "0": "t_window_stained_green"
       },
-      "furniture": {
-        "^": "f_rubble_rock",
-        "S": "f_statue",
-        "x": "f_ash",
-        "n": "f_slab",
-        "J": "f_spike",
-        "/": "f_blade",
-        "8": "f_shackle"
-      },
+      "furniture": { "^": "f_rubble_rock", "S": "f_statue", "x": "f_ash", "n": "f_slab", "J": "f_spike", "/": "f_blade", "8": "f_shackle" },
       "place_monsters": [
         { "monster": "GROUP_DOOM", "x": [ 7, 11 ], "y": [ 7, 10 ], "chance": 4 },
         { "monster": "GROUP_DOOM", "x": [ 12, 17 ], "y": [ 7, 10 ], "chance": 4 },
         { "monster": "GROUP_DOOM_PRIEST", "x": [ 11, 12 ], "y": [ 19, 21 ] }
       ],
-      "place_items": [ 
+      "place_items": [
         { "item": "doom_stimpack", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ] },
         { "item": "doom_lootpack", "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 3 ] },
         { "item": "doom_lootpack", "chance": 75, "x": [ 10, 14 ], "y": [ 19, 21 ], "repeat": [ 1, 2 ] }
@@ -899,18 +810,23 @@
         { "point": "terrain", "id": "t_pit_spiked", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 5 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4, "repeat": [ 2, 4 ] },
         { "point": "furniture", "id": "f_statue", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 4, "repeat": [ 2, 4 ] },
-        { "point": "furniture", "id": "f_rubble_rock", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 10, "repeat": [ 2, 10 ] },
+        {
+          "point": "furniture",
+          "id": "f_rubble_rock",
+          "x": [ 0, 23 ],
+          "y": [ 0, 23 ],
+          "chance": 10,
+          "repeat": [ 2, 10 ]
+        },
         { "point": "trap", "id": "tr_sinkhole", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 },
         { "point": "trap", "id": "tr_sinkhole", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 6 ], "chance": 4 },
         { "point": "trap", "id": "tr_lava", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 5 ], "chance": 4 }
       ],
-      "monster": {
-        "A": { "monster": "mon_doom_archvile_queen" }
-      },
-        "place_signs": [
+      "monster": { "A": { "monster": "mon_doom_archvile_queen" } },
+      "place_signs": [
         { "x": 10, "y": 22, "signage": "Help me make more mapgen, you lazy bum" },
         { "x": 13, "y": 22, "signage": "The other sign chastizes you for being a lazy bum and not helping me" }
       ]
     }
-    }
+  }
 ]

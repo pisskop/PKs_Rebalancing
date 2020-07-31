@@ -1,8 +1,8 @@
 [
   {
-    "type" : "vehicle_group",
-    "id" : "city_vehicles",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "city_vehicles",
+    "vehicles": [
       [ "car", 2500 ],
       [ "electric_car", 500 ],
       [ "car_sports", 300 ],
@@ -50,9 +50,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "city_pileup",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "city_pileup",
+    "vehicles": [
       [ "car", 7000 ],
       [ "electric_car", 1000 ],
       [ "car_sports", 500 ],
@@ -74,9 +74,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "highway",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "highway",
+    "vehicles": [
       [ "car", 3000 ],
       [ "electric_car", 500 ],
       [ "car_sports", 1000 ],
@@ -109,9 +109,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "suburban_home",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "suburban_home",
+    "vehicles": [
       [ "car", 1500 ],
       [ "car_mini", 500 ],
       [ "electric_car", 500 ],
@@ -130,9 +130,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "dirtlot",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "dirtlot",
+    "vehicles": [
       [ "quad_bike", 400 ],
       [ "pickup", 700 ],
       [ "cube_van", 300 ],
@@ -145,9 +145,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "parkinglot",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "parkinglot",
+    "vehicles": [
       [ "military_cargo_truck", 100 ],
       [ "humvee", 100 ],
       [ "humvee_gl", 50 ],
@@ -206,9 +206,9 @@
     ]
   },
   {
-    "type" : "vehicle_group",
-    "id" : "military_vehicles",
-    "vehicles" : [
+    "type": "vehicle_group",
+    "id": "military_vehicles",
+    "vehicles": [
       [ "military_cargo_truck", 1000 ],
       [ "humvee", 500 ],
       [ "humvee_gl", 250 ],
@@ -222,9 +222,9 @@
     ]
   },
   {
-    "type":"vehicle_group",
-    "id":"farm_vehicles",
-    "vehicles":[
+    "type": "vehicle_group",
+    "id": "farm_vehicles",
+    "vehicles": [
       [ "tractor_plow", 1000 ],
       [ "tractor_seed", 1000 ],
       [ "tractor_reaper", 1000 ],
@@ -237,46 +237,24 @@
     "id": "industrial_vehicles",
     "type": "vehicle_group",
     "//": "Industrial and construction vehicles found at public works depot and similar locations",
-    "vehicles": [
-      [ "autosweeper", 25 ],
-      [ "excavator", 160 ],
-      [ "flatbed_truck", 80 ],
-      [ "pickup", 80 ],
-      [ "road_roller", 100 ]
-    ]
+    "vehicles": [ [ "autosweeper", 25 ], [ "excavator", 160 ], [ "flatbed_truck", 80 ], [ "pickup", 80 ], [ "road_roller", 100 ] ]
   },
   {
     "id": "bandit_vehicles",
     "type": "vehicle_group",
     "//": "Vehicles used by Hell's Raiders for scouting and assaults",
-    "vehicles": [
-      [ "quad_bike", 600 ],
-      [ "motorcycle", 400 ],
-      [ "pickup", 600 ],
-      [ "cube_van", 200 ],
-      [ "meth_lab", 200 ]
-    ]
+    "vehicles": [ [ "quad_bike", 600 ], [ "motorcycle", 400 ], [ "pickup", 600 ], [ "cube_van", 200 ], [ "meth_lab", 200 ] ]
   },
   {
     "id": "warehouse_vehicles",
     "type": "vehicle_group",
     "//": "Lifting and hauling vehicles for warehouses, loading bays, and similar locations",
-    "vehicles": [
-      [ "engine_crane", 100 ],
-      [ "handjack", 200 ],
-      [ "wheelbarrow", 50 ]
-    ]
+    "vehicles": [ [ "engine_crane", 100 ], [ "handjack", 200 ], [ "wheelbarrow", 50 ] ]
   },
   {
     "id": "school_vehicles",
     "type": "vehicle_group",
     "//": "School bus or fire truck found near school locations",
-    "vehicles": [
-      [ "schoolbus", 400 ],
-      [ "fire_truck", 100 ],
-      [ "ambulance", 150 ],
-      [ "policecar", 200 ]
-    ]
+    "vehicles": [ [ "schoolbus", 400 ], [ "fire_truck", 100 ], [ "ambulance", 150 ], [ "policecar", 200 ] ]
   }
 ]
-

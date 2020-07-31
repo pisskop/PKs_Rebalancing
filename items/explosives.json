@@ -5,20 +5,15 @@
     "category": "weapons",
     "name": "manhack firebomb",
     "description": "This is an firebomb fitted into a manhack and rigged so the manhack can self-activate it.  This one is active.",
-    "weight": 180,
-    "volume": 1,
+    "weight": "180 g",
+    "volume": "250 ml",
     "price": 0,
     "to_hit": -1,
     "bashing": 6,
     "material": [ "glass", "plastic" ],
     "symbol": "*",
     "color": "red",
-    "use_action": {
-      "target": "manhack_firebomb_act",
-      "target_charges": 1,
-      "active": true,
-      "type": "transform"
-    },
+    "use_action": { "target": "manhack_firebomb_act", "target_charges": 1, "active": true, "type": "transform" },
     "flags": [ "BOMB" ]
   },
   {
@@ -27,8 +22,8 @@
     "category": "weapons",
     "name": "manhack firebomb",
     "description": "This is an acidbomb fitted into a manhack and rigged so the manhack can self-activate it.  Due to the manhack exploding the effective radius is somewhat larger.",
-    "weight": 180,
-    "volume": 1,
+    "weight": "180 g",
+    "volume": "250 ml",
     "price": 0,
     "to_hit": -1,
     "bashing": 6,
@@ -56,8 +51,8 @@
     "category": "weapons",
     "name": "soulbomb",
     "description": "Haaaaaaaaaaaaaaaaaaaaaaaaaaax!",
-    "weight": 236,
-    "volume": 1,
+    "weight": "236 g",
+    "volume": "250 ml",
     "price": 0,
     "to_hit": -1,
     "bashing": 5,
@@ -79,8 +74,8 @@
     "category": "weapons",
     "name": "active soulbomb",
     "description": "Haaaaaaaaaaaaaaaaaaaaaaaaaaax!",
-    "weight": 236,
-    "volume": 1,
+    "weight": "236 g",
+    "volume": "250 ml",
     "price": 0,
     "to_hit": -1,
     "bashing": 5,
@@ -99,11 +94,7 @@
       "sound_volume": 0,
       "sound_msg": "Tick.",
       "no_deactivate_msg": "You try to turn it off, but it just turns right back on.",
-      "explosion": {
-        "power": 20,
-        "distance_factor": 0.2,
-        "shrapnel": 40
-      }
+      "explosion": { "power": 20, "distance_factor": 0.2, "shrapnel": 40 }
     }
   }
 ]

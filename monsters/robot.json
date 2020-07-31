@@ -9,8 +9,7 @@
     "id": "mon_secubot",
     "type": "MONSTER",
     "copy-from": "mon_secubot",
-    "vision_night": 10,
-    "death_function": [ "SMOKEBURST" ]
+    "vision_night": 10
   },
   {
     "id": "mon_copbot",
@@ -24,22 +23,28 @@
     "copy-from": "mon_tripod",
     "description": "The Honda Minuteman, a 4-foot tall robot walking on three spidery legs, used as aids in tactical infiltrations, guerilla warfare, and small deep field operations.  For weapons, it has a trio of spiked retractable cables and a powerful welder for cutting into steel and concrete.",
     "size": "MEDIUM",
-    "hp": "60",
+    "hp": 60,
     "melee_skill": 8,
     "melee_dice": 3,
     "melee_dice_sides": 5,
     "melee_cut": 0,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 6 },
-      { "damage_type": "heat", "amount": 4 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 6 }, { "damage_type": "heat", "amount": 4 } ],
     "vision_night": 25,
     "path_settings": { "max_dist": 30 },
-    "special_attacks": [
-      [ "GRAB", 5 ],
-      [ "hammer", 20 ]
-    ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "BASHES", "BORES", "PUSH_MON", "PATH_AVOID_DANGER_1", "NO_BREATHE", "ELECTRONIC", "CLIMBS", "PRIORITIZE_TARGETS" ]
+    "special_attacks": [ [ "GRAB", 5 ], [ "hammer", 20 ] ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "BASHES",
+      "BORES",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1",
+      "NO_BREATHE",
+      "ELECTRONIC",
+      "CLIMBS",
+      "PRIORITIZE_TARGETS"
+    ]
   },
   {
     "id": "mon_chickenbot",
@@ -55,11 +60,8 @@
     "armor_cut": 14,
     "vision_night": 20,
     "path_settings": { "max_dist": 25 },
-    "starting_ammo": { "40mm_frag": 100, "556": 1000, "bot_tripod": 2 },
-    "special_attacks": [
-      [ "CHICKENBOT", 4 ],
-      [ "GRENADIER", 20 ]
-    ],
+    "starting_ammo": { "40x46mm_m433": 100, "556": 1000, "bot_tripod": 2 },
+    "special_attacks": [ [ "CHICKENBOT", 4 ], [ "GRENADIER", 20 ] ],
     "flags": [ "SEES", "HEARS", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS" ]
   },
   {
@@ -95,25 +97,15 @@
     "melee_dice": 1,
     "melee_dice_sides": 6,
     "melee_cut": 6,
-    "melee_damage": [
-      { "damage_type": "stab", "amount": 18 }
-    ],
+    "melee_damage": [ { "damage_type": "stab", "amount": 18 } ],
     "dodge": 3,
     "armor_bash": 10,
     "armor_cut": 18,
-    "special_attacks": [
-      [ "slash", 10 ],
-      [ "PARROT", 25 ]
-    ],
-    "death_drops": {
-      "groups": [
-        [ "robots", 70 ],
-        [ "molebot", 30 ]
-      ]
-    },
+    "special_attacks": [ [ "slash", 10 ], [ "PARROT", 25 ] ],
+    "death_drops": { "groups": [ [ "robots", 70 ], [ "molebot", 30 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "HEARS", "GOODHEARING", "BORES", "CAN_DIG", "NO_BREATHE", "ELECTRONIC", "PATH_AVOID_DANGER_1" ],
-    "anger_triggers": ["HURT", "FRIEND_DIED", "PLAYER_CLOSE"]
+    "anger_triggers": [ "HURT", "FRIEND_DIED", "PLAYER_CLOSE" ]
   },
   {
     "id": "mon_broken_cyborg",
@@ -123,11 +115,11 @@
     "special_attacks": [
       [ "PARROT", 20 ],
       [ "wound_minor", 10 ],
-      { "id": "diseased swipe", "cooldown": 40, "accuracy": 1,
-          "effects": [
-            { "id": "nausea", "duration": 10 },
-            { "id": "tetanus", "duration": 121000 }
-          ]
+      {
+        "id": "diseased swipe",
+        "cooldown": 40,
+        "accuracy": 1,
+        "effects": [ { "id": "nausea", "duration": 10 }, { "id": "tetanus", "duration": 121000 } ]
       }
     ]
   },
@@ -144,7 +136,7 @@
     "speed": 75,
     "material": [ "steel" ],
     "symbol": "@",
-    "color": "dkgray",
+    "color": "dark_gray",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 4,
@@ -159,11 +151,11 @@
     "special_attacks": [
       [ "wound_minor", 30 ],
       [ "PARROT", 12 ],
-      { "id": "diseased swipe", "cooldown": 30, "accuracy": 2,
-          "effects": [
-            { "id": "nausea", "duration": 10 },
-            { "id": "tetanus", "duration": 121000 }
-          ]
+      {
+        "id": "diseased swipe",
+        "cooldown": 30,
+        "accuracy": 2,
+        "effects": [ { "id": "nausea", "duration": 10 }, { "id": "tetanus", "duration": 121000 } ]
       },
       {
         "type": "gun",
@@ -178,14 +170,31 @@
         "require_targeting_npc": true,
         "require_targeting_monster": true,
         "targeting_sound": "\"Acquiring target.\"",
-        "targeting_volume": 30,
-        "targeting_cost": 300,
+        "targeting_volume": 40,
+        "targeting_cost": 400,
         "description": "Target acquired.  Lasers charged.  Termination imminent.",
         "no_ammo_sound": "\"Power cells depleted.\""
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "BASHES",
+      "DESTROYS",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "REVIVES",
+      "WARM",
+      "STUMBLES",
+      "CBM_POWER",
+      "CBM_TECH",
+      "HUMAN",
+      "BONES",
+      "NO_NECRO"
+    ]
   },
   {
     "id": "mon_cyborg_cop",
@@ -205,14 +214,14 @@
     "morale": 140,
     "melee_skill": 5,
     "melee_dice": 2,
-    "melee_dice_sides":11,
+    "melee_dice_sides": 11,
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 16,
     "vision_day": 50,
     "vision_night": 5,
     "starting_ammo": { "bomblet_stun": 100 },
-    "special_attacks": [ 
+    "special_attacks": [
       [ "COPBOT", 3 ],
       [ "PARROT", 20 ],
       {
@@ -225,11 +234,7 @@
         "fake_dex": 4,
         "fake_per": 12,
         "max_ammo": 1000,
-        "ranges":
-        [
-          [ 3, 7, "AUTO" ],
-          [ 8, 13, "DEFAULT" ]
-        ],
+        "ranges": [ [ 3, 7, "AUTO" ], [ 8, 13, "DEFAULT" ] ],
         "targeting_sound": "Cease and Desist, non-human.",
         "targeting_volume": 20,
         "require_targeting_player": false,
@@ -240,8 +245,26 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "BASHES", "DESTROYS", "PUSH_MON", "PATH_AVOID_DANGER_1", "PRIORITIZE_TARGETS", "ELECTRONIC", "NO_BREATHE", "REVIVES", "WARM", "STUMBLES", "CBM_POWER", "CBM_TECH", "HUMAN", "BONES", "NO_NECRO" ],
-    "anger_triggers": ["HURT", "FRIEND_ATTACKED", "SOUND", "PLAYER_CLOSE"]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "BASHES",
+      "DESTROYS",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1",
+      "PRIORITIZE_TARGETS",
+      "ELECTRONIC",
+      "NO_BREATHE",
+      "REVIVES",
+      "WARM",
+      "STUMBLES",
+      "CBM_POWER",
+      "CBM_TECH",
+      "HUMAN",
+      "BONES",
+      "NO_NECRO"
+    ],
+    "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "SOUND", "PLAYER_CLOSE" ]
   },
   {
     "id": "mon_manhack_missile",
@@ -270,10 +293,7 @@
     "revert_to_itype": "bot_manhack_missile",
     "starting_ammo": { "rocket_core": 1 },
     "emit_fields": [ "emit_radiation_plume" ],
-    "special_attacks": [
-      [ "KAMIKAZE", 0 ],
-      [ "DISAPPEAR", 300 ]
-    ],
+    "special_attacks": [ [ "KAMIKAZE", 0 ], [ "DISAPPEAR", 300 ] ],
     "death_drops": "rocket_drops",
     "death_function": [ "DISINTEGRATE" ],
     "flags": [ "SEES", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "FLIES", "NOHEAD", "ELECTRONIC", "NO_BREATHE", "INTERIOR_AMMO" ]
@@ -282,6 +302,7 @@
     "id": "mon_manhack_fire",
     "type": "MONSTER",
     "name": "firebomb hack",
+    "copy-from": "mon_manhack",
     "description": "This manhack carries an incendiary explosive within its core.",
     "default_faction": "defense_bot",
     "species": [ "ROBOT" ],
@@ -291,7 +312,7 @@
     "speed": 250,
     "material": [ "steel" ],
     "symbol": "e",
-    "color": "i_ltgreen",
+    "color": "i_light_green",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 0,
@@ -304,11 +325,7 @@
     "revert_to_itype": "bot_manhack_fire",
     "starting_ammo": { "manhack_firebomb": 1 },
     "special_attacks": [ [ "KAMIKAZE", 0 ] ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [ [ "robots", 80 ] ],
-      "//": "80% chance of an item from group robots"
-    },
+    "death_drops": { "subtype": "collection", "groups": [ [ "robots", 80 ] ], "//": "80% chance of an item from group robots" },
     "death_function": [ "BROKEN_AMMO" ],
     "flags": [ "SEES", "FLIES", "NOHEAD", "ELECTRONIC", "NO_BREATHE", "INTERIOR_AMMO" ]
   },
@@ -333,14 +350,7 @@
     "luminance": 40,
     "revert_to_itype": "bot_turret_shockcannon",
     "starting_ammo": { "battery": 10000 },
-    "special_attacks": [
-      {
-        "type": "gun",
-        "cooldown": 1,
-        "gun_type": "shockcannon",
-        "ranges": [ [ 0, 5, "DEFAULT" ] ]
-      }
-    ],
+    "special_attacks": [ { "type": "gun", "cooldown": 1, "gun_type": "shockcannon", "ranges": [ [ 0, 5, "DEFAULT" ] ] } ],
     "death_drops": { "groups": [ [ "Shockcannon_turret", 80 ] ] },
     "death_function": [ "EXPLODE" ],
     "flags": [ "SEES", "NOHEAD", "ELECTRONIC", "ELECTRIC", "IMMOBILE", "NO_BREATHE" ]
@@ -358,7 +368,7 @@
     "speed": 190,
     "material": [ "steel" ],
     "symbol": "H",
-    "color": "i_ltgreen",
+    "color": "i_light_green",
     "aggression": 100,
     "morale": 100,
     "melee_skill": 4,
@@ -383,10 +393,7 @@
         "fake_skills": [ [ "gun", 6 ], [ "rifle", 4 ] ],
         "fake_dex": 10,
         "range": 18,
-        "ranges": [
-          [ 2, 7, "AUTO" ],
-          [ 8, 15, "DEFAULT" ]
-        ],
+        "ranges": [ [ 2, 7, "AUTO" ], [ 8, 15, "DEFAULT" ] ],
         "targeting_sound": "Bleerp~blip",
         "targeting_volume": 12,
         "targeting_cost": 150,
@@ -394,12 +401,7 @@
         "no_ammo_sound": "\"Bleepblop.\""
       }
     ],
-    "death_drops": {
-      "groups": [
-        [ "robots", 90 ],
-        [ "robots", 90 ]
-      ]
-    },
+    "death_drops": { "groups": [ [ "robots", 90 ], [ "robots", 90 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "FLIES", "PATH_AVOID_DANGER_1", "ELECTRONIC", "HIT_AND_RUN", "NO_BREATHE", "INTERIOR_AMMO" ]
   },
@@ -411,6 +413,7 @@
     "default_faction": "bot",
     "species": [ "UNKNOWN" ],
     "size": "HUGE",
+    "harvest": "exempt",
     "hp": 200,
     "speed": 100,
     "material": [ "steel" ],

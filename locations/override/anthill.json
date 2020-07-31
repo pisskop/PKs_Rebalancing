@@ -1,9 +1,7 @@
 [
   {
     "type": "mapgen",
-    "om_terrain": [
-      "anthill"
-    ],
+    "om_terrain": [ "anthill" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -33,23 +31,36 @@
         "                        ",
         "                        ",
         "                        "
-        ],
+      ],
       "terrain": {
         ">": "t_slope_down",
         "#": "t_dirtmound",
         "O": "t_open_air",
-        " ": ["t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass"],
-        "X": ["t_dirtmound", "t_dirtmound", "t_dirtmound", "t_dirtmound", "t_dirt", "t_dirt", "t_dirt"],
-        "x": ["t_grass", "t_dirtmound", "t_dirtmound", "t_dirt", "t_dirt", "t_dirt"]
+        " ": [ "t_dirt", "t_dirt", "t_dirt", "t_grass", "t_grass" ],
+        "X": [ "t_dirtmound", "t_dirtmound", "t_dirtmound", "t_dirtmound", "t_dirt", "t_dirt", "t_dirt" ],
+        "x": [ "t_grass", "t_dirtmound", "t_dirtmound", "t_dirt", "t_dirt", "t_dirt" ]
       },
       "furniture": {
-        "#": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
-        "X": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"],
-        "x": ["f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null"]
+        "#": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
+        "X": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
+        "x": [
+          "f_rubble_rock",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null"
+        ]
       },
-      "set": [
-        { "point": "radiation", "amount": [50, 60], "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 15 , 75 ] }
-      ]
+      "set": [ { "point": "radiation", "amount": [ 50, 60 ], "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 15, 75 ] } ]
     }
   }
 ]

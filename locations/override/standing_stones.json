@@ -39,21 +39,13 @@
         "o": "t_dirt",
         "s": "t_dirt"
       },
-      "furniture": {
-        "O": "f_boulder_large",
-        "o": "f_boulder_small",
-        "#": "f_brazier"
-      },
-      "loot": {
-        "#": { "item": "stick", "repeat": [ 1, 2 ] }
-      },
-      "monster": {
-        "#": { "monster": "mon_darkman" }
-      },
+      "furniture": { "O": "f_boulder_large", "o": "f_boulder_small", "#": "f_brazier" },
+      "loot": { "#": { "item": "stick", "repeat": [ 1, 2 ] } },
+      "monster": { "#": { "monster": "mon_darkman" } },
       "place_monsters": [
-        { "monster": "GROUP_CABIN", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_CABIN", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_CABIN", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 }
+        { "monster": "GROUP_CABIN", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_CABIN", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_CABIN", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 }
       ]
     }
   }

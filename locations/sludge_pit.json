@@ -1,9 +1,7 @@
 [
   {
     "type": "mapgen",
-    "om_terrain": [
-      "sludge_pit"
-    ],
+    "om_terrain": [ "sludge_pit" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -33,25 +31,75 @@
         "##                    ##",
         "########################",
         "########################"
-            ],
+      ],
       "terrain": {
         ">": "t_slope_down",
         "x": [ "t_sludge", "t_tar" ],
         "o": [ "t_sludge", "t_tar" ],
         "l": [ "t_sludge", "t_tar" ],
-        " ": [ "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt" ],
+        " ": [
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_dirt"
+        ],
         "#": [ "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_dirt" ]
       },
       "furniture": {
-        " ": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
-        "#": [ "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_rubble_rock", "f_null" ]
+        " ": [
+          "f_rubble_rock",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null"
+        ],
+        "#": [
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_rubble_rock",
+          "f_null"
+        ]
       },
-      "set": [
-        { "point": "radiation", "amount": [20, 30], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 100 , 200 ] }
-      ],
+      "set": [ { "point": "radiation", "amount": [ 20, 30 ], "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 100, 200 ] } ],
       "place_fields": [
-        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 5 ] },
-        { "field": "fd_gas_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 1, "repeat": [ 0 , 3 ] }
+        { "field": "fd_fire_vent", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 3, "repeat": [ 0, 5 ] },
+        { "field": "fd_gas_vent", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 1, "repeat": [ 0, 3 ] }
       ],
       "monster": {
         "x": { "monster": "mon_sludge_crawler" },
@@ -59,18 +107,17 @@
         "o": { "monster": "mon_twisted_body" }
       },
       "place_items": [
-        { "item": "corpses_human", "chance": 90, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "default_zombie_items", "chance": 95, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "spider", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "survivorzed_extra", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "science", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1 , 4 ] }
+        { "item": "corpses_human", "chance": 90, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "default_zombie_items", "chance": 95, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "spider", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "survivorzed_extra", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "science", "chance": 35, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] }
       ]
     }
-  },{
+  },
+  {
     "type": "mapgen",
-    "om_terrain": [
-      "sludge_pit_under"
-    ],
+    "om_terrain": [ "sludge_pit_under" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -100,25 +147,67 @@
         "##              o     ##",
         "########################",
         "########################"
-        ],
+      ],
       "terrain": {
         "<": "t_slope_up",
         "X": [ "t_sludge", "t_tar" ],
         "x": [ "t_sludge", "t_tar" ],
         "o": [ "t_sludge", "t_tar" ],
         "l": [ "t_sludge", "t_tar" ],
-        " ": [ "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_tar", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge",  "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_sludge", "t_rock" ],
+        " ": [
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_tar",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_sludge",
+          "t_rock"
+        ],
         "#": [ "t_tar", "t_sludge", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock", "t_rock" ]
       },
       "furniture": {
-        " ": [ "f_rubble_rock", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ]
+        " ": [
+          "f_rubble_rock",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null"
+        ]
       },
-      "set": [
-        { "point": "radiation", "amount": [25, 35], "x": [ 0 , 23 ], "y": [ 0 , 23 ], "repeat": [ 100 , 200 ] }
-      ],
+      "set": [ { "point": "radiation", "amount": [ 25, 35 ], "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 100, 200 ] } ],
       "place_fields": [
-        { "field": "fd_fire_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 3, "repeat": [ 0 , 3 ] },
-        { "field": "fd_gas_vent", "x": [ 2 , 21 ], "y": [ 2 , 21 ], "density": 1, "repeat": [ 0 , 2 ] }
+        { "field": "fd_fire_vent", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 3, "repeat": [ 0, 3 ] },
+        { "field": "fd_gas_vent", "x": [ 2, 21 ], "y": [ 2, 21 ], "density": 1, "repeat": [ 0, 2 ] }
       ],
       "monster": {
         "x": { "monster": "mon_sludge_crawler" },
@@ -127,11 +216,11 @@
         "o": { "monster": "mon_twisted_body" }
       },
       "place_items": [
-        { "item": "corpses_human", "chance": 85, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "default_zombie_items", "chance": 85, "x": [ 1 , 22 ], "y": [ 1 , 22 ], "repeat": [ 1 , 4 ] },
-        { "item": "spider", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1 , 4 ] },
-        { "item": "survivorzed_extra", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1 , 4 ] },
-        { "item": "science", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1 , 4 ] }
+        { "item": "corpses_human", "chance": 85, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "default_zombie_items", "chance": 85, "x": [ 1, 22 ], "y": [ 1, 22 ], "repeat": [ 1, 4 ] },
+        { "item": "spider", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1, 4 ] },
+        { "item": "survivorzed_extra", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1, 4 ] },
+        { "item": "science", "chance": 75, "x": [ 3, 20 ], "y": [ 3, 20 ], "repeat": [ 1, 4 ] }
       ]
     }
   }

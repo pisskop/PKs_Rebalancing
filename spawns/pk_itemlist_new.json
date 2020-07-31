@@ -1,4 +1,4 @@
- [
+[
   {
     "type": "item_group",
     "id": "prefab_chems",
@@ -14,11 +14,11 @@
       [ "chem_hydrogen_peroxide", 15 ],
       [ "pepto", 40 ],
       [ "aspirin", 20 ],
-	  [ "weak_antibiotic", 10],
+      [ "weak_antibiotic", 10 ],
       [ "clay_boiled", 12 ],
       [ "dr_stem_cell", 8 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "mutagen_science",
@@ -70,137 +70,112 @@
       [ "iv_mutagen_ursine", 1 ],
       [ "dr_stem_cell", 1 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "9mm drops",
     "id": "furvivor_glock",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [3, 4 ]  },
-      { "group": "bags", "damage": [1, 4 ], "prob": 10  },
-      { "group": "furvivor_ninemm", "damage": [2, 4 ], "prob": 75, "count": [1, 2 ] }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 3, 4 ] },
+      { "group": "bags", "damage": [ 1, 4 ], "prob": 10 },
+      { "group": "furvivor_ninemm", "damage": [ 2, 4 ], "prob": 75, "count": [ 1, 2 ] }
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "shot drops",
     "id": "furvivor_shotgun",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [3, 4 ]  },
-      { "group": "bags", "damage": [2, 4 ], "prob": 10  },
-      { "group": "furvivor_shot_gun", "damage": [2, 4 ], "prob": 80 },
-      { "group": "furvivor_shot_ammo", "damage": [2, 4 ], "prob": 25 }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 3, 4 ] },
+      { "group": "bags", "damage": [ 2, 4 ], "prob": 10 },
+      { "group": "furvivor_shot_gun", "damage": [ 2, 4 ], "prob": 80 },
+      { "group": "furvivor_shot_ammo", "damage": [ 2, 4 ], "prob": 25 }
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "deagle drops",
     "id": "furvivor_deagle",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [3, 4 ]  },
-      { "group": "bags", "damage": [1, 4 ], "prob": 10  },
-      { "group": "furvivor_deagle_gun", "damage": [2, 4 ], "prob": 80 },
-      { "group": "furvivor_deagle_ammo", "damage": [2, 4 ], "prob": 15 }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 3, 4 ] },
+      { "group": "bags", "damage": [ 1, 4 ], "prob": 10 },
+      { "group": "furvivor_deagle_gun", "damage": [ 2, 4 ], "prob": 80 },
+      { "group": "furvivor_deagle_ammo", "damage": [ 2, 4 ], "prob": 15 }
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "smg drops",
     "id": "furvivor_smg",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [3, 4 ]  },
-      { "group": "bags", "damage": [1, 4 ], "prob": 10  },
-      { "group": "furvivor_uzi", "damage": [2, 4 ], "prob": 75, "count": [1, 2 ] }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 3, 4 ] },
+      { "group": "bags", "damage": [ 1, 4 ], "prob": 10 },
+      { "group": "furvivor_uzi", "damage": [ 2, 4 ], "prob": 75, "count": [ 1, 2 ] }
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "melee drops",
     "id": "spearmelee_pk",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [3, 4 ]  },
-      { "group": "bags", "damage": [1, 4 ], "prob": 10  },
-      { "group": "pk_melee", "damage": [2, 4 ], "prob": 50 }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 3, 4 ] },
+      { "group": "bags", "damage": [ 1, 4 ], "prob": 10 },
+      { "group": "pk_melee", "damage": [ 2, 4 ], "prob": 50 }
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "shot drops",
     "id": "marloss_man_drops",
     "entries": [
-      { "group": "mon_zombie_survivor_death_drops", "damage": [2, 4 ]  },
-      { "group": "bags", "damage": [1, 4 ], "prob": 10  },
-      { "group": "marloss_man_gear", "damage": [2, 4 ], "prob": 33  },
-      { "group": "marloss_man_nommies", "damage": [0, 1 ], "prob": 95, "count": [3, 5 ]  }
+      { "group": "mon_zombie_survivor_death_drops", "damage": [ 2, 4 ] },
+      { "group": "bags", "damage": [ 1, 4 ], "prob": 10 },
+      { "group": "marloss_man_gear", "damage": [ 2, 4 ], "prob": 33 },
+      { "group": "marloss_man_nommies", "damage": [ 0, 1 ], "prob": 95, "count": [ 3, 5 ] }
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "furvivor_ninemm",
     "//": "cheap glock and mag for glock",
-    "items": [
-      [ "glockmag", 10 ],
-      [ "glock_19", 10 ],
-      [ "9mm", 4 ],
-      [ "reloaded_9mm", 1 ]
-    ]
-   },
+    "items": [ [ "glockmag", 10 ], [ "glock_19", 10 ], [ "9mm", 4 ], [ "reloaded_9mm", 1 ] ]
+  },
   {
     "type": "item_group",
     "id": "furvivor_shot_gun",
     "//": "cheap shot guns",
-    "items": [
-      [ "pipe_shotgun", 15 ],
-      [ "shotgun_s", 10 ],
-      [ "shotgun_d", 5 ],
-      [ "mossberg_500", 3 ],
-      [ "ithaca_doom", 1 ]
-    ]
-   },
+    "items": [ [ "pipe_shotgun", 15 ], [ "shotgun_s", 10 ], [ "shotgun_d", 5 ], [ "mossberg_500", 3 ], [ "ithaca_doom", 1 ] ]
+  },
   {
     "type": "item_group",
     "id": "furvivor_shot_ammo",
     "//": "cheap shot ammo",
-    "items": [
-      [ "reloaded_shot_00", 5 ],
-      [ "reloaded_shot_bird", 5 ]
-    ]
-   },
+    "items": [ [ "reloaded_shot_00", 5 ], [ "reloaded_shot_bird", 5 ] ]
+  },
   {
     "type": "item_group",
     "id": "furvivor_deagle_gun",
     "//": "cheap .44 gun",
-    "items": [
-      [ "deagle_44", 5 ],
-      [ "sw629", 2 ]
-    ]
-   },
+    "items": [ [ "deagle_44", 5 ], [ "sw629", 2 ] ]
+  },
   {
     "type": "item_group",
     "id": "furvivor_deagle_ammo",
     "//": "cheap .44 ammo",
-    "items": [
-      [ "deaglemag", 4 ],
-      [ "44fmj", 1 ],
-      [ "reloaded_44fmj", 5 ]
-    ]
-   },
+    "items": [ [ "deaglemag", 4 ], [ "44fmj", 1 ], [ "reloaded_44fmj", 5 ] ]
+  },
   {
     "type": "item_group",
     "id": "furvivor_uzi",
     "//": "cheap 9mm ammo",
-    "items": [
-      [ "uzimag", 4 ],
-      [ "9mm", 1 ],
-      [ "uzi", 5 ]
-    ]
-   },
+    "items": [ [ "uzimag", 4 ], [ "9mm", 1 ], [ "uzi", 5 ] ]
+  },
   {
     "type": "item_group",
     "id": "pk_melee",
@@ -219,7 +194,6 @@
       [ "homewrecker", 5 ],
       [ "makeshift_halberd", 4 ],
       [ "makeshift_machete", 4 ],
-      [ "javelin_iron", 4 ],
       [ "bwirebat", 4 ],
       [ "makeshift_crowbar", 4 ],
       [ "e_tool_chinese", 4 ],
@@ -247,7 +221,7 @@
       [ "spear_steel", 1 ],
       [ "bomblet_launcher_brute", 1 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "marloss_man_gear",
@@ -255,8 +229,8 @@
     "items": [
       [ "m249", 12 ],
       [ "l_lmg_223", 7 ],
-      [ "lw223mag", 2 ],
-      [ "lw223bigmag", 1 ],
+      [ "stanag30", 2 ],
+      [ "stanag50", 1 ],
       [ "stanag50", 1 ],
       [ "stanag30", 2 ],
       [ "belt223", 2 ],
@@ -264,64 +238,52 @@
       [ "223", 4 ],
       [ "reloaded_556_incendiary", 3 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "marloss_man_nommies",
     "//": "This is what he's eating.  We've decided that killing our brethren is not the way to attain enlightenment.",
-    "items": [
-      [ "marloss_berry", 4 ],
-      [ "marloss_seed", 1 ]
-    ]
-   },
+    "items": [ [ "marloss_berry", 4 ], [ "marloss_seed", 1 ] ]
+  },
   {
     "type": "item_group",
     "id": "rocket_drops",
     "//": "rocket drops",
-    "items": [
-      [ "null", 40 ],
-      [ "rocket_core", 5 ],
-      [ "scrap", 30 ],
-      [ "e_scrap", 25 ]
-    ]
-   },
+    "items": [ [ "null", 40 ], [ "rocket_core", 5 ], [ "scrap", 30 ], [ "e_scrap", 25 ] ]
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "revenant rocket drops",
     "id": "revenant_death_drops",
     "entries": [
-      {"group": "revenant_rockets", "prob": 35, "count": [0, 4 ] },
-      {"group": "revenant_rocket_cores", "prob": 5, "count": [0, 2 ] }
+      { "group": "revenant_rockets", "prob": 35, "count": [ 0, 4 ] },
+      { "group": "revenant_rocket_cores", "prob": 5, "count": [ 0, 2 ] }
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "revenant_rockets",
     "//": "revenant rocket bots.",
-    "items": [
-      [ "bot_manhack_missile", 25 ]
-    ]
-   },
+    "items": [ [ "bot_manhack_missile", 25 ] ]
+  },
   {
     "type": "item_group",
     "id": "revenant_rocket_cores",
     "//": "rockets in bomb form.",
-    "items": [
-      [ "rocket_core", 25 ]
-    ]
-   },
+    "items": [ [ "rocket_core", 25 ] ]
+  },
   {
     "type": "item_group",
     "id": "doom_corpse",
     "items": [
-      { "group": "doom_stimpack", "damage": [1, 3 ], "prob": 3  },
-      { "group": "ammo_common", "damage": [1, 3 ], "prob": 3  },
-      { "group": "doom_armor", "damage": [1, 3 ], "prob": 3  },
+      { "group": "doom_stimpack", "damage": [ 1, 3 ], "prob": 3 },
+      { "group": "ammo_common", "damage": [ 1, 3 ], "prob": 3 },
+      { "group": "doom_armor", "damage": [ 1, 3 ], "prob": 3 },
       [ "corpse", 7 ],
       [ "human_flesh", 1 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "doom_stimpack",
@@ -334,7 +296,7 @@
       [ "codeine", 18 ],
       [ "tramadol", 18 ],
       [ "aspirin", 15 ],
-	  [ "weak_antibiotic", 10 ],
+      [ "weak_antibiotic", 10 ],
       [ "pepto", 20 ],
       [ "adrenaline_injector", 12 ],
       [ "berserker_drug", 12 ],
@@ -355,7 +317,7 @@
       [ "ref_lighter_dare", 8 ],
       [ "dr_stem_cell", 4 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "doom_lootpack",
@@ -420,7 +382,7 @@
       [ "bomblet_launcher_brute", 5 ],
       [ "purifier", 3 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "doom_armor",
@@ -435,19 +397,19 @@
       [ "megaarmor_torso_3", 10 ],
       [ "megaarmor_head_1", 10 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "subtype": "collection",
     "comment": "Tortured dead person.",
     "id": "doom_victim_corpse",
     "entries": [
-      { "group": "default_zombie_items", "damage": [1, 4 ]  },
-      { "group": "doom_corpse", "damage": [ 1, 5 ]  },
-      { "group": "knifeblock", "damage": [ 1, 3 ], "prob": 40, "count": [1, 2 ]  },
-      { "group": "doom_armor", "prob": 20, "damage": [0, 4 ]  }
+      { "group": "default_zombie_items", "damage": [ 1, 4 ] },
+      { "group": "doom_corpse", "damage": [ 1, 5 ] },
+      { "group": "knifeblock", "damage": [ 1, 3 ], "prob": 40, "count": [ 1, 2 ] },
+      { "group": "doom_armor", "prob": 20, "damage": [ 0, 4 ] }
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "bomblet_ammo",
@@ -461,27 +423,23 @@
       [ "bomblet_launcher_dualshot", 5 ],
       [ "bomblet_undermod", 5 ]
     ]
-   },
+  },
   {
     "type": "item_group",
     "id": "spider_eggs",
-    "items": [
-      {"item": "spider_egg", "count-min": 8, "count-max": 20 }
-    ]
-   },
+    "items": [ { "item": "spider_egg", "count-min": 8, "count-max": 20 } ]
+  },
   {
     "type": "item_group",
     "id": "fungal_fighter_sting",
-    "items": [
-      { "item": "fighter_sting", "damage": [0, 1 ], "count": [ 1, 6 ]  }
-    ]
-   },
+    "items": [ { "item": "fighter_sting", "damage": [ 0, 1 ], "count": [ 1, 6 ] } ]
+  },
   {
     "type": "item_group",
     "id": "Shockcannon_turret",
     "items": [
-      { "item": "shockcannon", "damage": [2, 4 ], "prob": 10  },
-      { "item": "robot_controls", "damage": [1, 4 ], "prob": 20  },
+      { "item": "shockcannon", "damage": [ 2, 4 ], "prob": 10 },
+      { "item": "robot_controls", "damage": [ 1, 4 ], "prob": 20 },
       [ "battery", 50 ],
       [ "battery", 50 ],
       [ "battery", 50 ],
@@ -492,15 +450,43 @@
       [ "processor", 20 ],
       [ "steel_chunk", 40 ]
     ]
-   },
+  },
   {
     "type": "item_group",
-    "id": "slime_death_drops",
-    "items": [
-      { "item": "bone_tainted", "damage": [0, 3 ], "prob": 50, "count": [ 0 , 3 ]  },
-      { "item": "bone_tainted", "damage": [0, 3 ], "prob": 50, "count": [ 0 , 3 ]  },
-      { "item": "slime_scrap", "prob": 75, "count": [ 0 , 2 ]  },
-      { "item": "slime_scrap", "prob": 75, "count": [ 0 , 2 ]  }
+    "id": "mon_gelatin_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bone_tainted", "damage": [ 0, 3 ], "prob": 50, "count": [ 1, 3 ] },
+      { "item": "slime_scrap", "prob": 75, "count": [ 1, 2 ] }
     ]
-   }
- ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_biollante_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 },
+      { "group": "biollante", "prob": 35 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_triffid_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "fungal_sting", "prob": 10 },
+      { "group": "biollante", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_fungal_fighter_death_drops",
+    "subtype": "collection",
+    "entries": [
+      { "group": "fungal_sting", "prob": 100 },
+      { "group": "fungal_fighter_sting", "prob": 75 },
+      { "group": "fungal_fighter_sting", "prob": 75 }
+    ]
+  }
+]
