@@ -1,52 +1,52 @@
 [
   {
-    "type" : "vehicle_group",
-    "id" : "plantation_vehicles",
-    "vehicles" : [
-      ["motorcycle", 200],
-      ["superbike", 100],
-      ["motorcycle_sidecart", 100],
-      ["quad_bike", 200],
-      ["pickup", 100],
-      ["portable_generator", 50 ],
-      ["excavator", 100],
-      ["meth_lab", 50],
-      ["heavy_plow_tractor", 100]
+    "type": "vehicle_group",
+    "id": "plantation_vehicles",
+    "vehicles": [
+      [ "motorcycle", 200 ],
+      [ "superbike", 100 ],
+      [ "motorcycle_sidecart", 100 ],
+      [ "quad_bike", 200 ],
+      [ "pickup", 100 ],
+      [ "portable_generator", 50 ],
+      [ "excavator", 100 ],
+      [ "meth_lab", 50 ],
+      [ "heavy_plow_tractor", 100 ]
     ]
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : "barn",
+    "type": "mapgen",
+    "om_terrain": "barn",
     "method": "json",
     "//": "Created and donated by Kedryn on the C:DDA Forums.",
     "weight": 100,
     "fill_ter": "t_dirtfloor",
     "object": {
-      "rows":[
-      "#......,,,,,,,,.........",
-      "#......,,,,,,,,.........",
-      "#......,,,,,,,,.........",
-      "#......,,,,,,,,&........",
-      "#.|-1--MMMMMMMM--1-|....",
-      "#.|HHH         &   |....",
-      "#.1HHH             1....",
-      "#.1HHH             1....",
-      "#.|                |....",
-      "#.|~~~          ~~~|....",
-      "#.|  ]          ]  |....",
-      "#.|  ]          ]  |....",
-      "#.1  [          [  1....",
-      "#.1  [          [  1....",
-      "#.|  ]          ]  |....",
-      "#.|  ]          ]  |....",
-      "#.|~~~          ~~~|....",
-      "#.|                |....",
-      "#.1                1....",
-      "#.1                1....",
-      "#.|LLLL        &   |....",
-      "#.|-1--MMMMMMMM--1-|....",
-      "#.....#________&#.......",
-      "#######________.########"
+      "rows": [
+        "#......,,,,,,,,.........",
+        "#......,,,,,,,,.........",
+        "#......,,,,,,,,.........",
+        "#......,,,,,,,,&........",
+        "#.|-1--MMMMMMMM--1-|....",
+        "#.|HHH         &   |....",
+        "#.1HHH             1....",
+        "#.1HHH             1....",
+        "#.|                |....",
+        "#.|~~~          ~~~|....",
+        "#.|  ]          ]  |....",
+        "#.|  ]          ]  |....",
+        "#.1  [          [  1....",
+        "#.1  [          [  1....",
+        "#.|  ]          ]  |....",
+        "#.|  ]          ]  |....",
+        "#.|~~~          ~~~|....",
+        "#.|                |....",
+        "#.1                1....",
+        "#.1                1....",
+        "#.|LLLL        &   |....",
+        "#.|-1--MMMMMMMM--1-|....",
+        "#.....#________&#.......",
+        "#######________.########"
       ],
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
@@ -67,23 +67,26 @@
         "[": "t_fencegate_c"
       },
       "mapping": {
-        ".": { "item": { "item": "rock", "chance": [ 1,300 ] } },
-        "H": { "terrain": "t_dirtfloor", "furniture": "f_hay", "item": { "item": "straw_pile", "amount": [ 0,4 ] } },
-        "L": { "terrain": "t_dirtfloor", "furniture": "f_locker", "items": [ { "item": "farming_tools", "chance": [ 10,30 ] }, { "item": "home_hw", "chance": [ 10,30 ] }, { "item": "tools_common", "chance": [ 10,30 ] } ] }
+        ".": { "item": { "item": "rock", "chance": [ 1, 300 ] } },
+        "H": { "terrain": "t_dirtfloor", "furniture": "f_hay", "item": { "item": "straw_pile", "amount": [ 0, 4 ] } },
+        "L": {
+          "terrain": "t_dirtfloor",
+          "furniture": "f_locker",
+          "items": [
+            { "item": "farming_tools", "chance": [ 10, 30 ] },
+            { "item": "home_hw", "chance": [ 10, 30 ] },
+            { "item": "tools_common", "chance": [ 10, 30 ] }
+          ]
+        }
       },
-      "place_vehicles": [
-        { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 70 }
-      ],
+      "place_vehicles": [ { "vehicle": "plantation_vehicles", "x": 10, "y": 12, "rotation": -90, "chance": 70 } ],
       "place_items": [
-        { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 10 },
-        { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 10 },
-        { "item": "mine_storage", "chance": 25, "x": [3,4],   "y": 15 },
-        { "item": "mine_storage", "chance": 25, "x": [17,18],   "y": 15 }
+        { "item": "mine_storage", "chance": 25, "x": [ 3, 4 ], "y": 10 },
+        { "item": "mine_storage", "chance": 25, "x": [ 17, 18 ], "y": 10 },
+        { "item": "mine_storage", "chance": 25, "x": [ 3, 4 ], "y": 15 },
+        { "item": "mine_storage", "chance": 25, "x": [ 17, 18 ], "y": 15 }
       ],
-      "place_npcs": [
-        { "class": "bandit", "x": 6, "y": 16 },
-        { "class": "thug", "x": 5, "y": 15 }
-      ]
+      "place_npcs": [ { "class": "bandit", "x": 6, "y": 16 }, { "class": "thug", "x": 5, "y": 15 } ]
     }
   },
   {
@@ -120,7 +123,7 @@
         "z,,,,,,z................"
       ],
       "terrain": {
-        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "|": "t_wall",
         "#": "t_rock_wall_half",
         "2": "t_window_domestic",
@@ -163,30 +166,28 @@
         "G": "f_oven",
         "I": "f_bluebell"
       },
-      "toilets": {
-        ";": { }
-      },
+      "toilets": { ";": {  } },
       "place_items": [
-        { "item": "bed",        "chance": 65, "x": [8,9 ],    "y": [4,5 ] },
-        { "item": "bed",        "chance": 65, "x": [18,19],   "y": [4,5 ] },
-        { "item": "stash_wood", "chance": 50, "x": [ 8,8 ],   "y": [ 11,11 ] },
-        { "item": "dresser",    "chance": 75, "x": [ 8,8 ],   "y": [ 6,6 ] },
-        { "item": "home_hw",    "chance": 40, "x": [ 15,16 ],  "y": [ 5,6 ] },
-        { "item": "dresser",    "chance": 65, "x": [ 23,23 ], "y": [ 6,6 ] },
-        { "item": "cannedfood", "chance": 60, "x": [ 8,10 ],   "y": [ 13,13 ] },
-        { "item": "pasta",      "chance": 50, "x": [ 8,10 ],   "y": [ 13,13 ] },
-        { "item": "stash_food", "chance": 65, "x": [ 12,14 ],   "y": [ 13,13 ] },
-        { "item": "camping",    "chance": 25, "x": [ 16,17 ], "y": [ 8,8 ] },
-        { "item": "homebooks",  "chance": 65, "x": [ 19,19 ], "y": [ 11,14 ] },
-        { "item": "kitchen",    "chance": 75, "x": [ 23,23 ], "y": [ 12,15 ] },
-        { "item": "fridge",     "chance": 50, "x": [ 23,23 ], "y": [ 14,15 ] },
-        { "item": "dining",     "chance": 75, "x": [ 23,23 ], "y": [ 14,15 ] }
+        { "item": "bed", "chance": 65, "x": [ 8, 9 ], "y": [ 4, 5 ] },
+        { "item": "bed", "chance": 65, "x": [ 18, 19 ], "y": [ 4, 5 ] },
+        { "item": "stash_wood", "chance": 50, "x": [ 8, 8 ], "y": [ 11, 11 ] },
+        { "item": "dresser", "chance": 75, "x": [ 8, 8 ], "y": [ 6, 6 ] },
+        { "item": "home_hw", "chance": 40, "x": [ 15, 16 ], "y": [ 5, 6 ] },
+        { "item": "dresser", "chance": 65, "x": [ 23, 23 ], "y": [ 6, 6 ] },
+        { "item": "cannedfood", "chance": 60, "x": [ 8, 10 ], "y": [ 13, 13 ] },
+        { "item": "pasta", "chance": 50, "x": [ 8, 10 ], "y": [ 13, 13 ] },
+        { "item": "stash_food", "chance": 65, "x": [ 12, 14 ], "y": [ 13, 13 ] },
+        { "item": "camping", "chance": 25, "x": [ 16, 17 ], "y": [ 8, 8 ] },
+        { "item": "homebooks", "chance": 65, "x": [ 19, 19 ], "y": [ 11, 14 ] },
+        { "item": "kitchen", "chance": 75, "x": [ 23, 23 ], "y": [ 12, 15 ] },
+        { "item": "fridge", "chance": 50, "x": [ 23, 23 ], "y": [ 14, 15 ] },
+        { "item": "dining", "chance": 75, "x": [ 23, 23 ], "y": [ 14, 15 ] }
       ],
       "place_npcs": [
-        { "class": "bandit", "x": [ 6 , 22 ], "y": [ 5 , 21 ] },
-        { "class": "bandit", "x": [ 6 , 22 ], "y": [ 5 , 21 ] },
-        { "class": "bandit", "x": [ 6 , 22 ], "y": [ 5 , 21 ] },
-        { "class": "thug", "x": [ 6 , 22 ], "y": [ 5 , 21 ] }
+        { "class": "bandit", "x": [ 6, 22 ], "y": [ 5, 21 ] },
+        { "class": "bandit", "x": [ 6, 22 ], "y": [ 5, 21 ] },
+        { "class": "bandit", "x": [ 6, 22 ], "y": [ 5, 21 ] },
+        { "class": "thug", "x": [ 6, 22 ], "y": [ 5, 21 ] }
       ],
       "place_vehicles": [
         { "vehicle": "plantation_vehicles", "x": 2, "y": 9, "rotation": -90, "chance": 75 },
@@ -228,7 +229,7 @@
         ".......#...s['''''''''''"
       ],
       "terrain": {
-        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "|": "t_wall",
         "#": "t_rock_wall_half",
         "2": "t_window_domestic",
@@ -270,28 +271,21 @@
         "G": "f_oven",
         "I": "f_bluebell"
       },
-      "toilets": {
-        ";": { }
-      },
-      "place_npcs": [
-        { "class": "thug", "x": [ 0 , 11 ], "y": [ 0 , 23 ] },
-        { "class": "bandit", "x": [ 0 , 11 ], "y": [ 0 , 23 ] }
-      ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } }
-      },
+      "toilets": { ";": {  } },
+      "place_npcs": [ { "class": "thug", "x": [ 0, 11 ], "y": [ 0, 23 ] }, { "class": "bandit", "x": [ 0, 11 ], "y": [ 0, 23 ] } ],
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } } },
       "place_items": [
-        { "item": "kitchen",    "chance": 40, "x": [ 3,3 ], "y": [ 12,15 ] },
-        { "item": "fridge",     "chance": 65, "x": [ 3,3 ], "y": [ 12,12 ] },
-        { "item": "oven",       "chance": 50, "x": [ 3,3 ], "y": [ 13,13 ] },
-        { "item": "fridge",     "chance": 35, "x": [ 0,0 ], "y": [ 17,17 ] },
-        { "item": "dining",     "chance": 50, "x": [ 0,0 ], "y": [ 17,17 ] },
-        { "item": "fridge",     "chance": 35, "x": [ 0,0 ], "y": [ 14,15 ] },
-        { "item": "dining",     "chance": 50, "x": [ 0,0 ], "y": [ 14,15 ] },
-        { "item": "homebooks",  "chance": 65, "x": [ 0,0 ], "y": [ 17,17 ] },
-        { "item": "softdrugs",  "chance": 35, "x": [ 1,3 ], "y": [ 4,6 ] },
-        { "item": "cleaning",   "chance": 50, "x": [ 1,3 ], "y": [ 4,6 ] },
-        { "item": "harddrugs",  "chance": 10, "x": [ 1,3 ], "y": [ 4,6 ] }
+        { "item": "kitchen", "chance": 40, "x": [ 3, 3 ], "y": [ 12, 15 ] },
+        { "item": "fridge", "chance": 65, "x": [ 3, 3 ], "y": [ 12, 12 ] },
+        { "item": "oven", "chance": 50, "x": [ 3, 3 ], "y": [ 13, 13 ] },
+        { "item": "fridge", "chance": 35, "x": [ 0, 0 ], "y": [ 17, 17 ] },
+        { "item": "dining", "chance": 50, "x": [ 0, 0 ], "y": [ 17, 17 ] },
+        { "item": "fridge", "chance": 35, "x": [ 0, 0 ], "y": [ 14, 15 ] },
+        { "item": "dining", "chance": 50, "x": [ 0, 0 ], "y": [ 14, 15 ] },
+        { "item": "homebooks", "chance": 65, "x": [ 0, 0 ], "y": [ 17, 17 ] },
+        { "item": "softdrugs", "chance": 35, "x": [ 1, 3 ], "y": [ 4, 6 ] },
+        { "item": "cleaning", "chance": 50, "x": [ 1, 3 ], "y": [ 4, 6 ] },
+        { "item": "harddrugs", "chance": 10, "x": [ 1, 3 ], "y": [ 4, 6 ] }
       ]
     }
   },
@@ -303,33 +297,33 @@
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
-      "z______z................",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z..,',,',,',,',,'",
-      "z______z................",
-      "z______z................",
-      "z______z................",
-      "z______z................",
-      "z______z################"
+        "z______z................",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z..,',,',,',,',,'",
+        "z______z................",
+        "z______z................",
+        "z______z................",
+        "z______z................",
+        "z______z################"
       ],
       "terrain": {
-        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "#": "t_rock_wall_half",
         "z": "t_shrub",
         "S": "t_sidewalk",
@@ -339,15 +333,11 @@
         "_": "t_pavement"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } }
-      },
-      "place_vehicles": [
-        { "vehicle": "plantation_vehicles", "x": 2, "y": 5, "rotation": -90, "chance": 75 }
-      ]
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } } },
+      "place_vehicles": [ { "vehicle": "plantation_vehicles", "x": 2, "y": 5, "rotation": -90, "chance": 75 } ]
     }
   },
   {
@@ -384,7 +374,7 @@
         "########ssssssssssssssss"
       ],
       "terrain": {
-        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt"],
+        ".": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_dirt" ],
         "s": [ "t_grass", "t_grass", "t_grass", "t_tree", "t_shrub" ],
         "|": "t_wall",
         "#": "t_rock_wall_half",
@@ -398,22 +388,20 @@
         "~": "t_fence_h"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 11 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 11 }
       ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } }
-      }
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } } }
     }
   },
   {
-    "type" : "mapgen",
+    "type": "mapgen",
     "om_terrain": [ "farm_lot" ],
     "method": "json",
     "weight": 100,
     "object": {
       "fill_ter": "t_dirt",
-      "rows":[
+      "rows": [
         "########################",
         "#.....................^.",
         "#........----...........",
@@ -450,12 +438,8 @@
         "#": "t_rock_wall_half",
         ">": "t_slope_down"
       },
-      "mapping": {
-            ".": { "item": { "item": "rock", "chance": [ 1,600 ] } }
-      },
-      "place_monsters": [
-            { "monster": "GROUP_PEST", "x": [ 7 , 14 ], "y": [ 4 , 9 ], "chance": 4 }
-      ]
+      "mapping": { ".": { "item": { "item": "rock", "chance": [ 1, 600 ] } } },
+      "place_monsters": [ { "monster": "GROUP_PEST", "x": [ 7, 14 ], "y": [ 4, 9 ], "chance": 4 } ]
     }
   },
   {
@@ -500,16 +484,16 @@
         "_": "t_pavement"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -556,16 +540,16 @@
         "_": "t_pavement"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -613,16 +597,16 @@
         "_": "t_pavement"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",":{ 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -670,15 +654,16 @@
         "_": "t_pavement"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": {  "item": [
-          { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+        ",": {
+          "item": [
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -716,21 +701,18 @@
         ",,',,',,',,',,',,',,',,'",
         ",,',,',,',,',,',,',,',,'"
       ],
-      "terrain": {
-        ",": [ "t_dirtmound", "t_dirt" ],
-        "'": [ "t_dirt", "t_grass" ]
-      },
+      "terrain": { ",": [ "t_dirtmound", "t_dirt" ], "'": [ "t_dirt", "t_grass" ] },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -775,16 +757,16 @@
         "[": "t_fence_barbed"
       },
       "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 },
-        { "monster": "GROUP_PEST", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 10 }
+        { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 },
+        { "monster": "GROUP_PEST", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 10 }
       ],
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -827,21 +809,15 @@
         "'": [ "t_dirt", "t_dirt", "t_dirt", "t_grass" ],
         ",": [ "t_dirtmound", "t_dirt" ],
         "~": "t_water_dp",
-        "w": ["t_water_dp", "t_water_sh", "t_water_sh", "t_water_sh", "t_water_sh"],
-        "W": ["t_water_dp", "t_water_dp", "t_water_dp", "t_water_dp", "t_water_dp", "t_water_sh"],
+        "w": [ "t_water_dp", "t_water_sh", "t_water_sh", "t_water_sh", "t_water_sh" ],
+        "W": [ "t_water_dp", "t_water_dp", "t_water_dp", "t_water_dp", "t_water_dp", "t_water_sh" ],
         "^": [ "t_water_sh", "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub", "t_underbrush" ],
         "[": "t_fence_barbed",
         ">": "t_slope_down"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4 }
-      ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
-          "items": { "item": "hydro", "chance": 5 }
-          }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 4 } ],
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 5 } } }
+    }
   },
   {
     "type": "mapgen",
@@ -882,15 +858,9 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 4 }
-      ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
-          "items": { "item": "hydro", "chance": 3 }
-          }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 4 } ],
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 3 } } }
+    }
   },
   {
     "type": "mapgen",
@@ -931,14 +901,8 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
-      ],
-      "mapping": {
-        ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ],
-          "items": { "item": "hydro", "chance": 3 }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 } ],
+      "mapping": { ",": { "terrain": [ "t_dirtmound", "t_dirtmound", "t_dirt" ], "items": { "item": "hydro", "chance": 3 } } }
     }
   },
   {
@@ -980,13 +944,8 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
-      ],
-      "mapping": {
-        ",": { "items": { "item": "hydro", "chance": 3 }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 } ],
+      "mapping": { ",": { "items": { "item": "hydro", "chance": 3 } } }
     }
   },
   {
@@ -1028,13 +987,8 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
-      ],
-      "mapping": {
-        ",": { "items": { "item": "hydro", "chance": 3 }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 } ],
+      "mapping": { ",": { "items": { "item": "hydro", "chance": 3 } } }
     }
   },
   {
@@ -1076,13 +1030,8 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
-      ],
-      "mapping": {
-        ",": { "items": { "item": "hydro", "chance": 3 }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 } ],
+      "mapping": { ",": { "items": { "item": "hydro", "chance": 3 } } }
     }
   },
   {
@@ -1124,13 +1073,8 @@
         "^": [ "t_dirt", "t_dirt", "t_grass", "t_tree", "t_shrub" ],
         "[": "t_fence_barbed"
       },
-      "place_monsters": [
-        { "monster": "GROUP_DOMESTIC", "x": [ 2 , 20 ], "y": [ 2 , 20 ], "chance": 5 }
-      ],
-      "mapping": {
-        ",": { "items": { "item": "hydro", "chance": 3 }
-        }
-      }
+      "place_monsters": [ { "monster": "GROUP_DOMESTIC", "x": [ 2, 20 ], "y": [ 2, 20 ], "chance": 5 } ],
+      "mapping": { ",": { "items": { "item": "hydro", "chance": 3 } } }
     }
   },
   {
@@ -1174,12 +1118,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1226,12 +1170,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1278,12 +1222,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1331,12 +1275,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1387,12 +1331,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1440,12 +1384,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1493,12 +1437,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1549,12 +1493,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,300 ] },
-            { "item": "seed_wheat", "chance": [ 1,300 ] },
-            { "item": "straw_pile", "chance": [ 1,300 ] },
-            { "item": "withered", "chance": [ 1,100 ] }
+            { "item": "wheat", "chance": [ 1, 300 ] },
+            { "item": "seed_wheat", "chance": [ 1, 300 ] },
+            { "item": "straw_pile", "chance": [ 1, 300 ] },
+            { "item": "withered", "chance": [ 1, 100 ] }
           ]
         }
       }
@@ -1602,12 +1546,12 @@
         "_": "t_pavement"
       },
       "mapping": {
-        ",": { 
+        ",": {
           "item": [
-            { "item": "wheat", "chance": [ 1,240 ] },
-            { "item": "seed_wheat", "chance": [ 1,240 ] },
-            { "item": "straw_pile", "chance": [ 1,240 ] },
-            { "item": "withered", "chance": [ 1,60 ] }
+            { "item": "wheat", "chance": [ 1, 240 ] },
+            { "item": "seed_wheat", "chance": [ 1, 240 ] },
+            { "item": "straw_pile", "chance": [ 1, 240 ] },
+            { "item": "withered", "chance": [ 1, 60 ] }
           ]
         }
       }
@@ -1749,8 +1693,8 @@
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : "farm_wine_cellar",
+    "type": "mapgen",
+    "om_terrain": "farm_wine_cellar",
     "method": "json",
     "weight": 100,
     "object": {
@@ -1780,46 +1724,59 @@
         "#  cTTc          + #####",
         "#^       kFFC&kkC# bb###",
         "########################"
-    ],
-    "terrain": {
-      " ": "t_rock_floor",
-      "#": "t_rock",
-      "1": "t_little_column",
-      "+": [ "t_door_c", "t_door_c", "t_door_o"],
-      "x": "t_door_bar_c",
-      "<": "t_stairs_up"
-    },
-    "furniture": {
-      "8": "f_shackle",
-      "K": "f_standing_tank",
-      "l": "f_clay_kiln",
-      "3": [ "f_hay", "f_hay", "f_hay", "f_hay", "f_null"],
-      "=": "f_large_canvas_wall",
-      "X": "f_crate_o",
-      "B": "f_bookcase",
-      "^": "f_indoor_plant",
-      "c": "f_chair",
-      "T": "f_table",
-      "b": "f_bed",
-      "d": "f_dresser",
-      "S": "f_sofa",
-      "A": "f_armchair",
-      "D": "f_rack",
-      "k": "f_counter",
-      "F": "f_fridge",
-      "C": "f_cupboard",
-      "&": "f_sink",
-      "w": "f_washer",
-      "W": "f_dryer"
-    },
-    "mapping": {
-      "D": { "items": [{ "item": "wines_worthy", "chance": [12] }, { "item": "alcohol", "chance": [8] }, { "item": "trash_cart", "chance": [4] }]},
-      "X": { "items": [{ "item": "stash_wood", "chance": [35] }, { "item": "stash_food", "chance": [20] }, { "item": "stash_drugs", "chance": [15] },  { "item": "tools_common", "chance": [10] }]},
-      "B": { "items": [{ "item": "homebooks", "chance": [20] }, { "item": "bookstore_misc", "chance": [15] }]},
-      "d": { "items": { "item": "dresser", "chance": [60] }},
-      "k": { "items": { "item": "kitchen", "chance": [15] }},
-      "W": { "items": { "item": "allclothes", "chance": [25] }},
-      "w": { "items": { "item": "allclothes", "chance": [25] }}
+      ],
+      "terrain": {
+        " ": "t_rock_floor",
+        "#": "t_rock",
+        "1": "t_little_column",
+        "+": [ "t_door_c", "t_door_c", "t_door_o" ],
+        "x": "t_door_bar_c",
+        "<": "t_stairs_up"
+      },
+      "furniture": {
+        "8": "f_shackle",
+        "K": "f_standing_tank",
+        "l": "f_clay_kiln",
+        "3": [ "f_hay", "f_hay", "f_hay", "f_hay", "f_null" ],
+        "=": "f_large_canvas_wall",
+        "X": "f_crate_o",
+        "B": "f_bookcase",
+        "^": "f_indoor_plant",
+        "c": "f_chair",
+        "T": "f_table",
+        "b": "f_bed",
+        "d": "f_dresser",
+        "S": "f_sofa",
+        "A": "f_armchair",
+        "D": "f_rack",
+        "k": "f_counter",
+        "F": "f_fridge",
+        "C": "f_cupboard",
+        "&": "f_sink",
+        "w": "f_washer",
+        "W": "f_dryer"
+      },
+      "mapping": {
+        "D": {
+          "items": [
+            { "item": "wines_worthy", "chance": [ 12 ] },
+            { "item": "alcohol", "chance": [ 8 ] },
+            { "item": "trash_cart", "chance": [ 4 ] }
+          ]
+        },
+        "X": {
+          "items": [
+            { "item": "stash_wood", "chance": [ 35 ] },
+            { "item": "stash_food", "chance": [ 20 ] },
+            { "item": "stash_drugs", "chance": [ 15 ] },
+            { "item": "tools_common", "chance": [ 10 ] }
+          ]
+        },
+        "B": { "items": [ { "item": "homebooks", "chance": [ 20 ] }, { "item": "bookstore_misc", "chance": [ 15 ] } ] },
+        "d": { "items": { "item": "dresser", "chance": [ 60 ] } },
+        "k": { "items": { "item": "kitchen", "chance": [ 15 ] } },
+        "W": { "items": { "item": "allclothes", "chance": [ 25 ] } },
+        "w": { "items": { "item": "allclothes", "chance": [ 25 ] } }
       }
     }
   }

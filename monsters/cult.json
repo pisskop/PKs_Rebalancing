@@ -6,38 +6,30 @@
     "copy-from": "mon_darkman",
     "description": "A large humanoid shadow, chaotically changing in shape and volume , two piercing orbs of light dominate what can only be described as its head.",
     "default_faction": "shadow",
-    "species": [ "NETHER" ],
-    "diff": 50,
-    "size": "LARGE",
     "hp": 90,
-    "speed": 140,
-    "symbol": "S",
-    "color": "dkgray",
     "aggression": 25,
     "morale": 99,
     "melee_skill": 5,
-    "melee_dice": 3,
     "melee_dice_sides": 5,
-    "melee_cut": 3,
     "dodge": 8,
     "armor_bash": 14,
     "armor_stab": 2,
     "armor_cut": 14,
     "vision_day": 20,
     "vision_night": 40,
-    "luminance": 6,
     "special_attacks": [
       [ "DARKMAN", 15 ],
       { "id": "impale", "cooldown": 30, "accuracy": 3 },
-      { "id": "scratch", "cooldown": 15, "accuracy": 3,
+      {
+        "id": "scratch",
+        "cooldown": 15,
+        "accuracy": 3,
         "damage_max_instance": [
-          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.90 },
-          { "damage_type": "stab", "amount": 4, "armor_multiplier": 0.90 }
+          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.9 },
+          { "damage_type": "stab", "amount": 4, "armor_multiplier": 0.9 }
         ]
       }
     ],
-    "death_function": [ "DARKMAN" ],
-    "flags": [ "NOHEAD", "HARDTOSHOOT", "WEBWALK", "FLIES", "PLASTIC", "ELECTRIC", "ACIDPROOF", "SUNDEATH", "REGENERATES_IN_DARK", "NO_BREATHE" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
@@ -47,29 +39,17 @@
     "name": "shadow",
     "copy-from": "mon_shadow",
     "default_faction": "shadow",
-    "species": [ "NETHER" ],
-    "diff": 14,
-    "size": "SMALL",
     "hp": 40,
     "speed": 130,
-    "symbol": "A",
-    "color": "dkgray",
     "aggression": 60,
     "morale": 60,
-    "melee_skill": 6,
-    "melee_dice": 1,
     "melee_dice_sides": 1,
     "melee_cut": 4,
     "dodge": 7,
-    "melee_damage": [
-      { "damage_type": "cold", "amount": 2 }
-    ],
+    "melee_damage": [ { "damage_type": "cold", "amount": 2 } ],
     "vision_day": 10,
     "vision_ngiht": 50,
     "special_attacks": [ [ "DISAPPEAR", 180 ] ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
-    "death_function": [ "MELT" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "HARDTOSHOOT", "GRABS", "WEBWALK", "FLIES", "PLASTIC", "SUNDEATH", "ELECTRIC", "ACIDPROOF", "HIT_AND_RUN", "NO_BREATHE", "NOGIB" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ]
   },
@@ -78,26 +58,11 @@
     "type": "MONSTER",
     "name": "flesh angel",
     "copy-from": "mon_flesh_angel",
-    "description": "A tall and slender man lacking skin and any normalcy of countenance.  Wings of muscle curl forth from its back and a third eye dominates the forehead.",
-    "default_faction": "cult",
-    "species": [ "ZOMBIE" ],
-    "diff": 20,
-    "size": "LARGE",
     "hp": 210,
     "speed": 105,
-    "material": [ "flesh" ],
-    "symbol": "H",
-    "color": "red",
     "aggression": 60,
-    "morale": 99,
-    "melee_skill": 9,
-    "melee_dice": 3,
-    "melee_dice_sides": 4,
     "melee_cut": 3,
-    "attack_effs": [
-      { "id": "attention", "duration": 7700 },
-      { "id": "evil", "duration": 14400 }
-    ],
+    "attack_effs": [ { "id": "attention", "duration": 7700 }, { "id": "evil", "duration": 14400 } ],
     "dodge": 3,
     "vision_day": 40,
     "vision_night": 20,
@@ -105,15 +70,12 @@
       [ "FEAR_PARALYZE", 5 ],
       [ "FLESH_GOLEM", 20 ],
       [ "hammer", 20 ],
-      { "type": "bite", "cooldown": 20,
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.75 }
-        ]
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 15, "armor_multiplier": 0.75 } ]
       }
-    ],
-    "death_drops": "default_zombie_clothes",
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BLEED", "ATTACKMON", "HUMAN", "POISON", "REVIVES", "BONES" ]
+    ]
   },
   {
     "id": "mon_homunculus",
@@ -121,37 +83,24 @@
     "name": "homunculus",
     "name_plural": "homunculuses",
     "copy-from": "mon_homunculus",
-    "description": "A pale hairless man with an impressive athletic physique.  Its lidless eyes are totally black, and seeping with blood.",
-    "default_faction": "cult",
-    "species": [ "ZOMBIE" ],
     "diff": 13,
-    "size": "MEDIUM",
     "hp": 160,
     "speed": 100,
-    "material": [ "flesh" ],
-    "symbol": "h",
-    "color": "white",
     "aggression": 90,
     "morale": 99,
-    "melee_skill": 8,
-    "melee_dice": 3,
     "melee_dice_sides": 8,
     "melee_cut": 3,
-    "dodge": 6,
-    "armor_bash": 4,
-    "armor_cut": 2,
     "vision_day": 15,
     "vision_night": 15,
     "special_attacks": [
       [ "hammer", 15 ],
-      { "id": "diseased swipe", "cooldown": 30, "accuracy": 6,
-        "damage_max_instance": [
-          { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.85 }
-        ]
+      {
+        "id": "diseased swipe",
+        "cooldown": 30,
+        "accuracy": 6,
+        "damage_max_instance": [ { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.85 } ]
       }
-    ],
-    "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "REVIVES", "CLIMBS", "LEATHER", "BONES" ]
+    ]
   },
   {
     "id": "mon_cult_churl",
@@ -162,6 +111,7 @@
     "species": [ "MAMMAL" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "human",
     "material": [ "flesh" ],
     "symbol": "@",
     "color": "red",
@@ -176,19 +126,10 @@
     "dodge": 3,
     "armor_bash": 5,
     "armor_cut": 5,
-    "attack_effs": [
-      { "id": "attention", "duration": 4400 },
-      { "id": "evil", "duration": 3000 }
-    ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "spearmelee_pk", 50 ],
-        [ "church", 95 ]
-      ]
-    },
+    "attack_effs": [ { "id": "attention", "duration": 4400 }, { "id": "evil", "duration": 3000 } ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 50 ], [ "church", 95 ] ] },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "FRIEND_ATTACKED", "MEAT" ]
   },
@@ -201,6 +142,7 @@
     "species": [ "MAMMAL" ],
     "diff": 13,
     "size": "MEDIUM",
+    "harvest": "human",
     "material": [ "flesh" ],
     "symbol": "@",
     "color": "magenta",
@@ -215,19 +157,10 @@
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 3,
-    "special_attacks": [
-      [ "impale", 20 ],
-      [ "wound_minor", 5 ]
-    ],
-    "death_drops": {
-      "subtype": "collection",
-      "groups": [
-        [ "spearmelee_pk", 10 ],
-        [ "church", 95 ]
-      ]
-    },
+    "special_attacks": [ [ "impale", 20 ], [ "wound_minor", 5 ] ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "spearmelee_pk", 10 ], [ "church", 95 ] ] },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "BLEED", "HUMAN", "CLIMBS", "LEATHER", "BONES" ],
+    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "WARM", "BASHES", "GROUP_BASH", "HUMAN", "CLIMBS" ],
     "anger_triggers": [ "PLAYER_WEAK", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT", "HURT" ]
@@ -241,6 +174,7 @@
     "species": [ "NETHER" ],
     "diff": 25,
     "size": "HUGE",
+    "harvest": "mr_bones",
     "hp": 800,
     "speed": 60,
     "material": [ "flesh", "bone" ],
@@ -268,18 +202,11 @@
       [ "RANGED_PULL", 5 ],
       [ "impale", 20 ],
       [ "wound_minor", 3 ],
-      { "id": "scratch",
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.8 }
-        ]
-      }
+      { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.8 } ] }
     ],
-    "upgrades": {
-      "half_life": 700,
-      "into": "mon_nuculais"
-    },
+    "upgrades": { "half_life": 700, "into": "mon_nuculais" },
     "death_function": [ "MELT" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "BONES", "QUEEN" ],
+    "flags": [ "SEES", "SMELLS", "HEARS", "WARM", "GRABS", "QUEEN" ],
     "placate_triggers": [ "MEAT" ]
   },
   {
@@ -291,6 +218,7 @@
     "species": [ "NETHER" ],
     "diff": 35,
     "size": "LARGE",
+    "harvest": "zombie",
     "hp": 800,
     "speed": 90,
     "symbol": "&",
@@ -302,9 +230,7 @@
     "melee_dice_sides": 7,
     "melee_cut": 0,
     "dodge": 3,
-    "melee_damage": [
-      { "damage_type": "biological", "amount": 6 }
-    ],
+    "melee_damage": [ { "damage_type": "biological", "amount": 6 } ],
     "armor_bash": 6,
     "armor_stab": 2,
     "armor_cut": 6,
@@ -316,11 +242,11 @@
     "special_attacks": [
       [ "impale", 30 ],
       { "id": "slash", "cooldown": 20, "accuracy": 6 },
-      { "id": "scratch", "cooldown": 30, "accuracy": 6,
-        "damage_max_instance": [
-          { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 },
-          { "damage_type": "true", "amount": 6 }
-        ]
+      {
+        "id": "scratch",
+        "cooldown": 30,
+        "accuracy": 6,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 20, "armor_multiplier": 0.8 }, { "damage_type": "true", "amount": 6 } ]
       }
     ],
     "death_function": [ "MELT" ],

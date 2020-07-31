@@ -1,40 +1,27 @@
 [
   {
     "id": "water",
+    "copy-from": "water",
     "type": "COMESTIBLE",
     "comestible_type": "DRINK",
     "category": "food",
     "name": "water",
     "name_plural": "water",
     "description": "Water, the stuff of life, the best thirst-quencher available.  Not quite clean, but some dirt and radiation won't hurt too much, right?  [1 rad]",
-    "weight": 250,
-    "volume": 1,
-    "price": 50,
-    "symbol": "~",
-    "color": "light_cyan",
-    "phase": "liquid",
-    "container": "bottle_plastic",
-    "quench": 50,
-    "ammo_data": { "ammo_type": "water" },
-    "flags": [ "EATEN_COLD" ],
-      "effects": [
-        { "id": "rad_tenths", "duration": 10 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 10 } ]
   },
   {
     "id": "water_clean",
-    "copy-from": "water",
+    "copy-from": "water_clean",
     "type": "COMESTIBLE",
     "name": "clean water",
     "name_plural": "clean water",
     "description": "Fresh, clean water.  Truly the best thing to quench your thirst.  Mostly free of radiation and dirt. [1/10 rad]",
-      "effects": [
-        { "id": "rad_tenths", "duration": 1 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 1 } ]
   },
   {
     "id": "water_mineral",
-    "copy-from": "water",
+    "copy-from": "water_mineral",
     "type": "COMESTIBLE",
     "name": "mineral water",
     "name_plural": "mineral water",
@@ -42,98 +29,57 @@
     "container": "bottle_glass",
     "proportional": { "quench": 1.3 },
     "relative": { "fun": 4 },
-      "effects": [
-        { "id": "rad_tenths", "duration": 1 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 1 } ]
   },
   {
     "id": "stomach",
-    "copy-from": "flesh",
+    "copy-from": "stomach",
     "type": "COMESTIBLE",
     "name": "stomach",
     "description": "The stomach of a woodland creature.  It is surprisingly durable. [3/10 rad]",
-    "weight": 72,
-    "volume": 1,
-    "price": 200,
-    "spoils_in": 8,
-    "calories": 40,
-    "quench": 1,
-    "healthy": -1,
-    "fun": -15,
-      "effects": [
-        { "id": "rad_tenths", "duration": 3 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 3 } ]
   },
   {
     "id": "offal",
-    "copy-from": "meat",
+    "copy-from": "offal",
     "type": "COMESTIBLE",
     "name": "raw offal",
     "description": "Uncooked internal organs and entrails.  Unappealing to eat but filled with essential vitamins. [3/10 rad]",
-    "proportional": {
-        "calories": 0.5,
-        "parasites": 2.0
-    },
-    "relative": {
-        "vitamins": [ [ "vitA", 6 ] ],
-        "fun": -5
-    },
-    "effects": [
-      { "id": "rad_tenths", "duration": 3 }
-    ]
+    "effects": [ { "id": "rad_tenths", "duration": 3 } ]
   },
   {
     "id": "fish",
-    "copy-from": "flesh",
+    "copy-from": "fish",
     "type": "COMESTIBLE",
     "name": "fillet of fish",
     "name_plural": "fillets of fish",
     "description": "Freshly caught fish.  Makes a passable meal raw. [6/10 rad]",
-    "weight": 200,
-    "volume": 1,
-    "price": 500,
-    "spoils_in": 12,
-    "calories": 200,
-    "effects": [
-      { "id": "rad_tenths", "duration": 6 }
-    ]
+    "effects": [ { "id": "rad_tenths", "duration": 6 } ]
   },
   {
     "id": "human_flesh",
-    "copy-from": "flesh",
+    "copy-from": "human_flesh",
     "type": "COMESTIBLE",
     "name": "human flesh",
     "name_plural": "human fleshes",
     "description": "Freshly butchered from a human body. [4/10 rad]",
-    "material": "hflesh",
-      "effects": [
-        { "id": "rad_tenths", "duration": 4 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 4 } ]
   },
   {
     "id": "meat",
-    "copy-from": "flesh",
+    "copy-from": "meat",
     "type": "COMESTIBLE",
     "name": "chunk of meat",
     "name_plural": "chunks of meat",
     "description": "Freshly butchered meat.  You could eat it raw, but cooking it is better. [4/10 rad]",
-    "weight": 200,
-    "volume": 1,
-    "price": 500,
-    "spoils_in": 24,
-    "calories": 250,
-    "healthy": -1,
-    "fun": -10,
-      "effects": [
-        { "id": "rad_tenths", "duration": 4 }
-      ]
+    "effects": [ { "id": "rad_tenths", "duration": 4 } ]
   },
   {
     "type": "COMESTIBLE",
     "id": "fresh_fries_big",
     "name": "EXTRA BIG-ASS FRIES",
     "name_plural": " EXTRA BIG-ASS FRIES",
-    "weight": 175,
+    "weight": "175 g",
     "color": "yellow",
     "spoils_in": 200,
     "container": "box_small",
@@ -141,13 +87,13 @@
     "symbol": "%",
     "quench": -7,
     "healthy": -2,
-    "nutrition": 24,
+    "calories": 208,
     "description": "Carl JR. appreciates your business.  Enjoy your order of 'EXTRA BIG-ASS FRIES'.  Please come back when you can afford to make another purchase of 'EXTRA BIG-ASS FRIES'.",
     "price": 500,
-    "material": "junk",
-    "volume": 1,
+    "material": [ "junk" ],
+    "volume": "250 ml",
     "charges": 2,
-    "flags": ["EATEN_HOT"],
+    "flags": [ "EATEN_HOT" ],
     "fun": 9
   },
   {
@@ -155,10 +101,10 @@
     "type": "COMESTIBLE",
     "name": "medikit",
     "description": "A PRM brand medikit.  Can be quickly applied in battlefield situations; though it is designed to quickly attach itself to damaged tissue, not disinfect.",
-    "weight": 400,
-    "volume": 2,
+    "weight": "400 g",
+    "volume": "500 ml",
     "price": 50000,
-    "material": "spess_plastic",
+    "material": [ "spess_plastic" ],
     "symbol": "+",
     "color": "red",
     "comestible_type": "MED",
@@ -168,17 +114,11 @@
       "type": "heal",
       "move_cost": 3300,
       "long_action": true,
-      "bleed": 0.98,
-      "bite": 0.4,
-      "infect": 0.2,
-      "limb_power": 20,
-      "head_power": 20,
-      "torso_power": 20,
-      "effects": [
-        { "id": "doom_unhealth", "duration": 10 },
-        { "id": "pkill1", "duration": 300 },
-        { "id": "gauze", "duration": 17200 }
-      ]
+      "bandages_power": 8,
+      "disinfectant_power": 8,
+      "bleed": 1,
+      "bite": 0.99,
+      "effects": [ { "id": "doom_unhealth", "duration": 10 }, { "id": "pkill1", "duration": 300 }, { "id": "gauze", "duration": 17200 } ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -187,13 +127,13 @@
     "type": "TOOL_ARMOR",
     "name": "berserker stimpack",
     "description": "An iv drip in a protective case.  PRM patented stimulants will push the body to its limits for a brief period, making intense combat easier.",
-    "weight": 360,
-    "volume": 2,
+    "weight": "360 g",
+    "volume": "500 ml",
     "price": 1000000,
     "to_hit": -1,
     "material": [ "plastic" ],
     "symbol": "|",
-    "color": "ltgray",
+    "color": "light_gray",
     "covers": [ "HAND_EITHER", "ARM_EITHER" ],
     "coverage": 10,
     "encumbrance": 1,
@@ -213,13 +153,13 @@
     "type": "TOOL_ARMOR",
     "name": "berserker stimpack (active)",
     "description": "An iv drip in a protective case.  Inside, PRM brand chemicals are surging through the needle, providing incredible strength and agility to its user.",
-    "weight": 360,
-    "volume": 2,
+    "weight": "360 g",
+    "volume": "500 ml",
     "price": 1000000,
     "to_hit": -1,
     "material": [ "plastic" ],
     "symbol": "|",
-    "color": "i_dkgray",
+    "color": "i_dark_gray",
     "initial_charges": 7,
     "max_charges": 7,
     "turns_per_charge": 1,
@@ -228,10 +168,7 @@
     "coverage": 10,
     "encumbrance": 1,
     "material_thickness": 0,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "doom_stimpack", "duration": 40 } ]
-    },
+    "use_action": { "type": "consume_drug", "effects": [ { "id": "doom_stimpack", "duration": 40 } ] },
     "flags": [ "WATER_FRIENDLY", "BELTED", "ALLOWS_NATURAL_ATTACKS", "NO_RELOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
@@ -239,8 +176,8 @@
     "type": "COMESTIBLE",
     "name": "stamina tonic",
     "description": "Containing a slew of charged organic chemicals, this 3-layer slurry might go down hard but provides a noticeable endurance boost for hardcore athletes and demanding soldiers alike.  Like most PRM products it is designed for short-term use only, and may upset the body's balance.",
-    "weight": 720,
-    "volume": 3,
+    "weight": "720 g",
+    "volume": "750 ml",
     "price": 100000,
     "to_hit": -1,
     "phase": "liquid",
@@ -250,14 +187,11 @@
     "color": "blue",
     "comestible_type": "MED",
     "charges": 3,
-    "nutrition": 12,
+    "calories": 104,
     "fun": -5,
     "use_action": {
       "type": "consume_drug",
-      "effects": [
-        { "id": "doom_unhealth", "duration": 3 },
-        { "id": "stamina_regen", "duration": 150 }
-      ]
+      "effects": [ { "id": "doom_unhealth", "duration": 3 }, { "id": "stamina_regen", "duration": 150 } ]
     },
     "flags": [ "NO_RELOAD", "NO_UNLOAD", "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -266,27 +200,22 @@
     "type": "COMESTIBLE",
     "name": "homebrew antiseptic",
     "description": "A desperate concoction of materials found in the wilderness, that will hopefully treat a wound and halt or prevent infection.  It may be susperstition, but it may also have healing properties too.  It had better, for all the stinging it does.",
-    "weight": 450,
-    "volume": 1,
+    "weight": "450 g",
+    "volume": "250 ml",
     "price": 500,
     "symbol": "%",
-    "color": "lt_green",
+    "color": "light_green",
     "fun": -8,
     "healthy": 1,
     "revert_to": "paper",
     "comestible_type": "MED",
     "use_action": {
       "type": "heal",
+      "disinfectant_power": 3,
+      "bite": 0.35,
       "move_cost": 1200,
-      "bleed": 0.70,
-      "bite": 0.40,
-      "infect": 0.22,
-      "limb_power": 1,
-      "head_power": 2,
-      "torso_power": 1,
-      "effects": [
-        { "id": "stung", "duration": 12 }
-      ]
+      "long_action": true,
+      "effects": [ { "id": "stung", "duration": 12 } ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -295,22 +224,19 @@
     "type": "COMESTIBLE",
     "name": "triffid antidote",
     "description": "A handmade brew to ward off basic poisons.  Works on a wide variety of known poisons, but may not be up to the task of the nastier venoms.  Cures and blocks biological poisons.",
-    "weight": 175,
-    "volume": 1,
+    "weight": "175 g",
+    "volume": "250 ml",
     "price": 35000,
     "phase": "liquid",
     "container": "flask_glass",
     "material": [ "powder" ],
     "symbol": ",",
-    "color": "ltgreen",
+    "color": "light_green",
     "comestible_type": "MED",
     "use_action": {
       "type": "consume_drug",
-      "tools_needed": "syringe",
-      "effects": [
-        { "id": "triffid_cure", "duration": 1 },
-        { "id": "doom_unhealth", "duration": 5 }
-      ]
+      "tools_needed": { "syringe": 1 },
+      "effects": [ { "id": "triffid_cure", "duration": 1 }, { "id": "doom_unhealth", "duration": 5 } ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -319,42 +245,21 @@
     "type": "COMESTIBLE",
     "name": "triffid neutralizer",
     "description": "A concentrated medical brew to neutralize most known toxins and flush them out of the system.  Unlike royal jelly, it blocks future attacks for a time.",
-    "weight": 175,
-    "volume": 1,
+    "weight": "175 g",
+    "volume": "250 ml",
     "price": 35000,
     "phase": "liquid",
     "container": "flask_glass",
     "material": [ "powder" ],
     "symbol": ",",
-    "color": "ltgreen",
+    "color": "light_green",
     "comestible_type": "MED",
     "use_action": {
       "type": "consume_drug",
-      "tools_needed": "syringe",
+      "tools_needed": { "syringe": 1 },
       "effects": [ { "id": "triffid_neutralization", "duration": 1 } ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "pepto",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "heartburn medicine",
-    "description": "Creamy pink heartburn syrup that soothes upset stomachs and quells vomitus urges; with a twist off cap that doubles as a dosage cup.  Repeated doses may cause drowsiness.",
-    "weight": 1,
-    "volume": 1,
-    "price": 1000,
-    "container": "bottle_plastic_small",
-    "charges": 10,
-    "symbol": "%",
-    "phase": "liquid",
-    "color": "white",
-    "use_action": {
-      "type": "consume_drug",
-      "activation_message": "You take some heartburn medicine.",
-      "effects": [ { "id": "tummy_tablet", "duration": 6400 } ],
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-    }
   },
   {
     "type": "COMESTIBLE",
@@ -365,7 +270,7 @@
     "description": "A fresh piece of clay.  Can be used in crafting, boiled to remove harmful bacteria, or eaten raw to satiate hunger and cleanse the body of some radiation.",
     "comestible_type": "MED",
     "charges": 1,
-    "nutrition": 2,
+    "calories": 17,
     "quench": -10,
     "fun": -8,
     "parasites": 12,
@@ -373,10 +278,7 @@
       "type": "consume_drug",
       "activation_message": "You consume a helping of the %s.",
       "effects": [ { "id": "rad_reduce", "duration": 360 } ],
-      "vitamins": [
-         [ "calcium", 0, 4 ],
-         [ "iron", 0, 8 ]
-      ]
+      "vitamins": [ [ "calcium", 0, 4 ], [ "iron", 0, 8 ] ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -389,7 +291,7 @@
     "description": "A portion of clay that has been boiled in salt to remove hard minerals and parasites.  Removes ambient radiation and has improved taste over raw clay, but is not suitable for sculpting.",
     "comestible_type": "MED",
     "charges": 1,
-    "nutrition": 2,
+    "calories": 17,
     "quench": -13,
     "fun": -4,
     "parasites": 0,
@@ -397,9 +299,7 @@
       "type": "consume_drug",
       "activation_message": "You consume a helping of the %s.",
       "effects": [ { "id": "rad_reduce", "duration": 360 }, { "id": "rad_reduce", "duration": 120 } ],
-      "vitamins": [
-         [ "iron", 0, 4 ]
-      ]
+      "vitamins": [ [ "iron", 0, 4 ] ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -411,13 +311,7 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You take the %s.",
-      "vitamins": [
-         [ "calcium", 16, 32 ],
-         [ "iron", 16, 32 ],
-         [ "vitA", 16, 32 ],
-         [ "vitB", 16, 32 ],
-         [ "vitC", 16, 32 ]
-      ]
+      "vitamins": [ [ "calcium", 16, 32 ], [ "iron", 16, 32 ], [ "vitA", 16, 32 ], [ "vitB", 16, 32 ], [ "vitC", 16, 32 ] ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -427,7 +321,7 @@
     "type": "COMESTIBLE",
     "name": "gummy vitamin",
     "description": "Essential dietary nutrients conveniently packaged in a fruit-flavored chewy candy form to disguise the ionized iron contained within.  An option of last resort when a balanced diet is not possible, this will also cleanse the body of minor toxins and radioactive particles.  Excess use can cause hypervitaminosis and in some cases overdose.",
-    "nutrition": 1,
+    "calories": 9,
     "stim": -1,
     "fun": 4,
     "charges": 10,
@@ -436,46 +330,40 @@
       "type": "consume_drug",
       "activation_message": "You take the %s.",
       "effects": [ { "id": "chelated_iron", "duration": 600 }, { "id": "rad_reduce", "duration": 600 } ],
-      "vitamins": [
-         [ "calcium", 25, 50 ],
-         [ "iron", 25, 50 ],
-         [ "vitA", 25, 50 ],
-         [ "vitB", 25, 50 ],
-         [ "vitC", 25, 50 ]
-      ]
+      "vitamins": [ [ "calcium", 25, 50 ], [ "iron", 25, 50 ], [ "vitA", 25, 50 ], [ "vitB", 25, 50 ], [ "vitC", 25, 50 ] ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
-    "id" : "prussian_blue",
-    "type" : "COMESTIBLE",
-    "comestible_type" : "MED",
-    "name" : "Prussian blue tablet",
-    "description" : "Tablets containing oxidized ferrous ferrocyanide salts.  Capable of purging nuclear contaminants from the body if taken after radiation exposure.  Results take hours to manifest, lasts all day, and can be amplified by taking multiple doses.",
-    "weight" : 1,
-    "volume" : 1,
-    "price" : 3000,
-    "charges" : 10,
-    "stack_size" : 200,
-    "material" : "powder",
-    "flags" : "NPC_SAFE",
-    "symbol" : "!",
-    "color" : "blue",
-    "use_action" : {
-      "type" : "consume_drug",
-      "activation_message" : "You take some Prussian blue.",
-      "effects" : [ { "id" : "pblue", "duration" : 14400 } ]
+    "id": "prussian_blue",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "Prussian blue tablet",
+    "description": "Tablets containing oxidized ferrous ferrocyanide salts.  Capable of purging nuclear contaminants from the body if taken after radiation exposure.  Results take hours to manifest, lasts all day, and can be amplified by taking multiple doses.",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "price": 3000,
+    "charges": 10,
+    "stack_size": 200,
+    "material": [ "powder" ],
+    "flags": "NPC_SAFE",
+    "symbol": "!",
+    "color": "blue",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You take some Prussian blue.",
+      "effects": [ { "id": "pblue", "duration": 14400 } ]
     }
   },
   {
     "type": "COMESTIBLE",
     "id": "fertilizer_chelated",
-    "copy-from":"fungicide",
+    "copy-from": "fungicide",
     "sub": "fertilizer_commercial",
     "name": "aquarium fertilizer",
     "name_plural": "aquarium fertilizer",
-    "color": "ltred",
-    "nutrition": 4,
+    "color": "light_red",
+    "calories": 35,
     "stim": -2,
     "healthy": -4,
     "fun": -20,
@@ -486,32 +374,14 @@
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You consume a helping of the %s.",
-      "effects": [ { "id": "chelated_iron", "duration": 1200 }, { "id": "chelated_iron", "duration": 800 }, { "id": "chelated_iron", "duration": 600 },              { "id": "rad_reduce", "duration": 600 }, { "id": "rad_reduce", "duration": 300 } ],
-      "vitamins": [
-         [ "iron", 30, 60 ]
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "medical_gauze",
-    "copy-from":"medical_gauze",
-    "name": "medical gauze",
-    "description": "This is decent sized piece of cotton, sterilized and sealed.  It's designed for medical purposes, and will help keep the wound clean and safe for long periods of time.",
-    "stack_size": 6,
-    "use_action": {
-      "type": "heal",
-      "move_cost": 400,
-      "bleed": 1.0,
-      "bite": 0.7,
-      "infect": 0.3,
-      "limb_power": 6,
-      "head_power": 5,
-      "torso_power": 3,
       "effects": [
-        { "id": "gauze", "duration": 30000 }
-      ]
+        { "id": "chelated_iron", "duration": 1200 },
+        { "id": "chelated_iron", "duration": 800 },
+        { "id": "chelated_iron", "duration": 600 },
+        { "id": "rad_reduce", "duration": 600 },
+        { "id": "rad_reduce", "duration": 300 }
+      ],
+      "vitamins": [ [ "iron", 30, 60 ] ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
@@ -524,37 +394,6 @@
     "count": 100
   },
   {
-    "id": "antibiotics",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "antibiotic",
-    "copy-from": "antibiotics",
-    "description": "Antibacterial medication designed to prevent or stop the spread of infection.  Once regulated for fear of creating resistant bacteria, the death of most of humanity has rendered that point rather moot.  Provides some immunity to disease and invasive parasites such as fungus and infections, but somehwat detrimental to long-term health.",
-    "stack_size": 7,
-    "count": 7,
-    "fun": -1,
-    "healthy": 5,
-    "addiction_potential": 20,
-    "use_action": {
-      "type": "heal",
-      "limb_power": 0,
-      "head_power": 0,
-      "torso_power": 1,
-      "limb_scaling": 0,
-      "torso_scaling": 0,
-      "head_scaling": 0,
-      "bleed": 0,
-      "bite": 1.0,
-      "infect": 0.99,
-      "move_cost": 125,
-      "effects": [
-        { "id": "antibiotics_1", "duration": 20000 },
-        { "id": "antibiotics_2", "duration": 4800 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
     "id": "flu_shot",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
@@ -565,103 +404,12 @@
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   },
   {
-    "id": "bandages",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "bandage",
-    "description": "Simple cloth bandages.  Used for healing small amounts of damage.",
-    "weight": 70,
-    "volume": 1,
-    "price": 600,
-    "material": "cotton",
-    "symbol": "!",
-    "color": "white",
-    "charges": 3,
-    "stack_size": 6,
-    "use_action": {
-      "type": "heal",
-      "limb_power": 3,
-      "head_power": 1,
-      "torso_power": 4,
-      "bleed": 0.9,
-      "move_cost": 300,
-      "effects": [
-        { "id": "gauze", "duration": 9800 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "1st_aid",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "first aid kit",
-    "description": "A full medical kit, with bandages, local anesthetics, and rapid healing agents.  Used for healing large amounts of damage.",
-    "weight": 240,
-    "volume": 1,
-    "price": 3000,
-    "charges": 2,
-    "stack_size": 3,
-    "material": "plastic",
-    "symbol": "!",
-    "color": "red",
-    "use_action": {
-      "type": "heal",
-      "limb_power": 12,
-      "head_power": 8,
-      "torso_power": 16,
-      "bleed": 0.95,
-      "bite": 0.99,
-      "infect": 0.90,
-      "move_cost": 6000,
-      "long_action": true,
-      "effects": [
-        { "id": "pkill1", "duration": 120 },
-        { "id": "gauze", "duration": 7700 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
-    "id": "1st_aid_survivor",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": "improvised first aid kit",
-    "description": "A medical kit made with cheap, subpar components.  For when nothing else is available.",
-    "weight": 240,
-    "volume": 2,
-    "price": 100,
-    "stack_size": 2,
-    "count": 2,
-    "material": "cotton",
-    "symbol": "!",
-    "color": "dkgray",
-    "use_action": {
-      "type": "heal",
-      "limb_power": 8,
-      "head_power": 4,
-      "torso_power": 6,
-      "limb_scaling": 1,
-      "torso_scaling": 1,
-      "head_scaling": 1,
-      "bleed": 1,
-      "bite": 0.65,
-      "infect": 0.35,
-      "move_cost": 7000,
-      "long_action": true,
-      "effects": [
-        { "id": "gauze", "duration": 4000 }
-      ]
-    },
-    "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
-  },
-  {
     "id": "dr_stem_cell",
     "type": "COMESTIBLE",
     "name": "Dr Stem Cell jr",
     "description": "A heavily regulated dose of stem cells.  Though availible for sporting and industrial accidents, the majority of treatments are reserved for those who can afford its hefty cost.  Users may experience crippling pain.  Not all users may experience the same level of results.  Use as directed.  Consult your doctor if you have artifical limbs, plan to live past the age of 30, or are already over the age of 30.",
-    "weight": 175,
-    "volume": 1,
+    "weight": "175 g",
+    "volume": "250 ml",
     "price": 777000,
     "phase": "liquid",
     "container": "flask_glass",
@@ -671,11 +419,8 @@
     "comestible_type": "MED",
     "use_action": {
       "type": "consume_drug",
-      "tools_needed": "syringe",
-      "effects": [
-        { "id": "stemcell_treatment", "duration": 30 },
-        { "id": "slashed", "duration": 30 }
-      ]
+      "tools_needed": { "syringe": 1 },
+      "effects": [ { "id": "stemcell_treatment", "duration": 30 }, { "id": "slashed", "duration": 30 } ]
     },
     "flags": [ "USE_ON_NPC", "NPC_SAFE" ]
   }

@@ -38,23 +38,21 @@
       { "x": 0, "y": 0, "part": "controls" },
       { "x": 0, "y": 0, "part": "seat" },
       { "x": 2, "y": 0, "part": "halfboard_nw" },
-      { "x": 2, "y": -1, "part": "wheel_wide_steerable" },
-      { "x": 2, "y": 2, "part": "wheel_wide_steerable" },
+      { "x": 2, "y": -1, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
+      { "x": 2, "y": 2, "parts": [ "wheel_mount_medium_steerable", "wheel_wide_or" ] },
       { "x": 1, "y": 0, "part": "halfboard_vertical" },
       { "x": 2, "y": 1, "part": "halfboard_ne" },
       { "x": 1, "y": 1, "part": "halfboard_vertical" },
       { "x": -1, "y": 0, "part": "halfboard_vertical" },
       { "x": -1, "y": 1, "part": "halfboard_vertical" },
       { "x": 0, "y": 1, "part": "box" },
-      { "x": -1, "y": -1, "part": "wheel_wide" },
-      { "x": -1, "y": 2, "part": "wheel_wide" },
+      { "x": -1, "y": -1, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
+      { "x": -1, "y": 2, "parts": [ "wheel_mount_medium", "wheel_wide_or" ] },
       { "x": -2, "y": 0, "part": "plow" },
       { "x": -2, "y": 1, "part": "plow" },
       { "x": -2, "y": 3, "part": "plow" },
       { "x": -2, "y": -2, "part": "plow" }
     ],
-    "items" : [
-      { "x": 0, "y": 1, "chance": 20, "item_groups": "farming_tools" }
-    ]
+    "items": [ { "x": 0, "y": 1, "chance": 20, "item_groups": "farming_tools" } ]
   }
 ]

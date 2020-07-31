@@ -36,7 +36,7 @@
     "flags" : [ "MUTAGEN_ANY", "MUTAGEN_STRONG" ]
   },
   {
-    "abstract" : "mutagen_flavor",
+    "id" : "mutagen_flavor",
     "copy-from" : "mutagen",
     "type" : "COMESTIBLE",
     "name" : "abstract mutagen flavor",

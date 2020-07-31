@@ -12,10 +12,7 @@
       { "name": "shotgun", "level": 4 },
       { "name": "firstaid", "level": 3 }
     ],
-    "traits": [
-      "PSYCHOPATH",
-      "TERRIFYING"
-    ],
+    "traits": [ "PSYCHOPATH", "TERRIFYING" ],
     "items": {
       "both": {
         "items": [
@@ -38,7 +35,7 @@
           { "item": "m1911", "ammo-item": "45_jhp", "charges": 7, "container-item": "holster" },
           { "item": "45_jhp", "charges": 7, "container-item": "m1911mag" },
           { "item": "45_jhp", "charges": 16 },
-          { "item": "ithaca_doom", "ammo-item": "shot_00", "charges": 12, "container-item":  "megaarmor_torso_1" },
+          { "item": "ithaca_doom", "ammo-item": "shot_00", "charges": 12, "container-item": "megaarmor_torso_1" },
           { "item": "shot_00", "charges": 8 }
         ]
       }
@@ -57,9 +54,7 @@
       { "name": "unarmed", "level": 2 },
       { "name": "bashing", "level": 1 }
     ],
-    "traits": [
-      "PROF_SWAT"
-    ],
+    "traits": [ "PROF_SWAT" ],
     "items": {
       "both": {
         "items": [
@@ -67,10 +62,10 @@
           "socks",
           "boots_combat",
           "gloves_tactical",
-          "technician_pants_blue",
+          "technician_pants_gray",
           "knee_pads",
           "legrig",
-          "technician_shirt_blue",
+          "technician_shirt_gray",
           "armguard_hard",
           "fanny",
           "fanny",
@@ -82,17 +77,10 @@
           "bomblet_explosive",
           "stamina_vial"
         ],
-        "entries": [
-          { "item": "bomblet_launcher_dualshot", "ammo-item": "bomblet_stun", "charges": 6 }
-        ]
+        "entries": [ { "item": "bomblet_launcher_dualshot", "ammo-item": "bomblet_stun", "charges": 6 } ]
       },
-      "male": [
-        "boxer_briefs"
-      ],
-      "female": [
-        "bra",
-        "boxer_shorts"
-      ]
+      "male": [ "boxer_briefs" ],
+      "female": [ "bra", "boxer_shorts" ]
     }
   },
   {
@@ -106,12 +94,9 @@
       { "name": "archery", "level": 3 },
       { "name": "fabrication", "level": 2 },
       { "name": "gun", "level": 2 },
-      { "name": "traps",  "level": 2 }
+      { "name": "traps", "level": 2 }
     ],
-    "traits": [
-      "LIGHTSTEP",
-      "OUTDOORSMAN"
-    ],
+    "traits": [ "LIGHTSTEP", "OUTDOORSMAN" ],
     "items": {
       "both": {
         "items": [
@@ -145,9 +130,7 @@
           "beartrap",
           "beartrap"
         ],
-        "entries": [
-          { "item": "ruger_lcr_38", "ammo-item": "38_special", "charges": 6 }
-        ]
+        "entries": [ { "item": "ruger_lcr_38", "ammo-item": "38_special", "charges": 6 } ]
       }
     }
   },
@@ -157,21 +140,16 @@
     "name": "MuCo Lab Assistant",
     "description": "You were a staff member for the clinical tests of a new product called 'mutagen' when the bombs fell.  In the chaos you grabbed some gear and left the others.",
     "points": 4,
-      "skills": [
-        { "name": "computer", "level": 3 },
-        { "name": "cooking", "level": 2 },
-        { "name": "firstaid", "level": 2 },
-        { "name": "survival", "level": 1 },
-        { "name": "speech", "level": 1 }
-      ],
-      "items": {
-        "male": [
-        "briefs"
-      ],
-      "female": [
-        "bra",
-        "panties"
-      ],
+    "skills": [
+      { "name": "computer", "level": 3 },
+      { "name": "cooking", "level": 2 },
+      { "name": "firstaid", "level": 2 },
+      { "name": "survival", "level": 1 },
+      { "name": "speech", "level": 1 }
+    ],
+    "items": {
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ],
       "both": {
         "items": [
           "dress_shirt",
@@ -196,9 +174,7 @@
           "tallow_tainted",
           "tallow_tainted"
         ],
-        "entries": [
-          { "item": "chemistry_set", "ammo-item": "battery", "charges": 100 }
-        ]
+        "entries": [ { "item": "chemistry_set", "ammo-item": "battery", "charges": 100 } ]
       }
     }
   },
@@ -209,25 +185,17 @@
     "description": "You are a rakishly handsome young person who was in their late-20s 20 years ago.  In good shape, and with a perchant for hording sentimental items, you set off on Z-day much as you did any other day . . .",
     "points": 4,
     "//": "gotta keep in mind balance . . .",
-      "skills": [
-        { "name": "swimming", "level": 2 },
-        { "name": "speech", "level": 2 },
-        { "name": "computer", "level": 2 },
-        { "name": "firstaid", "level": 1 },
-        { "name": "gun", "level": 1 }
-      ],
-      "traits": [
-        "PRETTY",
-        "FORGETFUL"
-      ],
-      "items": {
-        "male": [
-        "boxer_shorts"
-      ],
-      "female": [
-        "sports_bra",
-        "boy_shorts"
-      ],
+    "skills": [
+      { "name": "swimming", "level": 2 },
+      { "name": "speech", "level": 2 },
+      { "name": "computer", "level": 2 },
+      { "name": "firstaid", "level": 1 },
+      { "name": "gun", "level": 1 }
+    ],
+    "traits": [ "PRETTY", "FORGETFUL" ],
+    "items": {
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ],
       "both": {
         "items": [
           "sneakers",
@@ -248,9 +216,7 @@
           "maple_candy",
           "newest_newspaper"
         ],
-        "entries": [
-          { "item": "protein_drink", "charges": 1, "container-item": "flask_hip" }
-        ]
+        "entries": [ { "item": "protein_drink", "charges": 1, "container-item": "flask_hip" } ]
       }
     }
   }

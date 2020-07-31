@@ -4,20 +4,14 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie_dog",
     "burn_into": "mon_zanimal_scorched",
-    "upgrades": {
-      "half_life": 11,
-      "into": "mon_zombie_dog_pk"
-    }
+    "upgrades": { "half_life": 11, "into": "mon_zombie_dog_pk" }
   },
   {
     "id": "mon_dog_zombie_cop",
     "type": "MONSTER",
     "copy-from": "mon_dog_zombie_cop",
     "burn_into": "mon_zanimal_scorched",
-    "upgrades": {
-      "half_life": 19,
-      "into": "mon_dog_zombie_cop_pk"
-    }
+    "upgrades": { "half_life": 19, "into": "mon_dog_zombie_cop_pk" }
   },
   {
     "id": "mon_dog_zombie_rot",
@@ -30,10 +24,7 @@
     "melee_dice_sides": 4,
     "melee_cut": 4,
     "dodge": 1,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 },
-      { "id": "rad_tenths", "duration": 20 }
-    ],
+    "attack_effs": [ { "id": "rad_tenths", "duration": 15 }, { "id": "rad_tenths", "duration": 20 } ],
     "special_attacks": [
       [ "wound_minor", 20 ],
       { "type": "bite", "cooldown": 2, "accuracy": 4 },
@@ -47,10 +38,7 @@
         ]
       }
     ],
-    "upgrades": {
-      "half_life": 21,
-      "into": "mon_dog_zombie_cop_pk"
-    }
+    "upgrades": { "half_life": 21, "into": "mon_dog_zombie_cop_pk" }
   },
   {
     "id": "mon_dog_zombie_rot_worms",
@@ -66,10 +54,7 @@
           { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
           { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
         ],
-        "effects": [
-          { "id": "nausea", "duration": 660 },
-          { "id": "tapeworm", "duration": 446400, "chance": 35 }
-        ]
+        "effects": [ { "id": "nausea", "duration": 660 }, { "id": "tapeworm", "duration": 446400, "chance": 35 } ]
       }
     ]
   },
@@ -87,10 +72,7 @@
           { "damage_type": "bash", "amount": 4, "armor_multiplier": 0.85 },
           { "damage_type": "cut", "amount": 5, "armor_multiplier": 0.85 }
         ],
-        "effects": [
-          { "id": "nausea", "duration": 660 },
-          { "id": "paincysts", "duration": 446400, "chance": 35 }
-        ]
+        "effects": [ { "id": "nausea", "duration": 660 }, { "id": "paincysts", "duration": 446400, "chance": 35 } ]
       }
     ]
   },
@@ -99,14 +81,8 @@
     "type": "MONSTER",
     "copy-from": "mon_dog_skeleton",
     "burn_into": "mon_zanimal_skeleton_dead",
-    "upgrades": {
-      "half_life": 35,
-      "into": "mon_dog_skeleton_pk"
-    },
-        "effects": [
-          { "id": "nausea", "duration": 660 },
-          { "id": "flu_zed", "duration": 4400, "chance": 35 }
-        ]
+    "upgrades": { "half_life": 35, "into": "mon_dog_skeleton_pk" },
+    "effects": [ { "id": "nausea", "duration": 660 }, { "id": "flu_zed", "duration": 4400, "chance": 35 } ]
   },
   {
     "id": "mon_zombie_pig",
@@ -129,7 +105,7 @@
     "special_attacks": [ [ "SMASH", 50 ] ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE", "FIRE", "FRIEND_ATTACKED" ],
     "burn_into": "mon_horse_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "BASHES", "WARM", "FUR", "BLEED", "ATTACKMON", "BONES", "FAT", "POISON", "NO_BREATHE", "REVIVES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "BASHES", "WARM", "ATTACKMON", "POISON", "NO_BREATHE", "REVIVES" ]
   },
   {
     "id": "mon_zolf",
@@ -144,10 +120,7 @@
     "dodge": 2,
     "armor_bash": 3,
     "armor_cut": 1,
-    "special_attacks": [
-      [ "HOWL", 20 ],
-      { "type": "bite", "cooldown": 7, "min_mul": 0.5 }
-    ],
+    "special_attacks": [ [ "HOWL", 20 ], { "type": "bite", "cooldown": 7, "min_mul": 0.5 } ],
     "burn_into": "mon_zolf_scorched"
   },
   {
@@ -171,15 +144,24 @@
     "armor_cut": 1,
     "vision_day": 10,
     "vision_night": 40,
-    "special_attacks": [
-      [ "HOWL", 20 ],
-      [ "LUNGE", 20 ],
-      { "type": "bite", "cooldown": 20, "min_mul": 0.7 }
-    ],
+    "special_attacks": [ [ "HOWL", 20 ], [ "LUNGE", 20 ], { "type": "bite", "cooldown": 20, "min_mul": 0.7 } ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zolf_scorched",
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "SWARMS" ]
-},
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "KEENNOSE",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "SWARMS"
+    ]
+  },
   {
     "id": "mon_zougar",
     "type": "MONSTER",
@@ -189,11 +171,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 8,
     "dodge": 4,
-    "special_attacks": [
-      [ "LUNGE", 40 ],
-      { "type": "leap", "cooldown": 12, "max_range": 5 },
-      [ "scratch", 30 ]
-    ],
+    "special_attacks": [ [ "LUNGE", 40 ], { "type": "leap", "cooldown": 12, "max_range": 5 }, [ "scratch", 30 ] ],
     "burn_into": "mon_zanimal_scorched"
   },
   {
@@ -217,6 +195,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 16,
     "size": "LARGE",
+    "harvest": "zombie_leather",
     "hp": 140,
     "speed": 180,
     "material": [ "flesh" ],
@@ -237,7 +216,20 @@
     "special_attacks": [ [ "hammer", 30 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_horse_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "BONES", "FAT", "NO_BREATHE", "POISON", "REVIVES", "PUSH_MON", "STUMBLES", "BASHES" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "PATH_AVOID_DANGER_1",
+      "ANIMAL",
+      "WARM",
+      "NO_BREATHE",
+      "POISON",
+      "REVIVES",
+      "PUSH_MON",
+      "STUMBLES",
+      "BASHES"
+    ],
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "PLAYER_WEAK" ]
   },
@@ -250,6 +242,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 15,
     "size": "SMALL",
+    "harvest": "zombie",
     "hp": 55,
     "speed": 110,
     "material": [ "flesh" ],
@@ -270,7 +263,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 7, "min_mul": 0.3 } ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_dog_skeleton_pk",
-    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "BLEED", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "KEENNOSE", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES" ]
   },
   {
     "id": "mon_dog_skeleton_pk",
@@ -281,6 +274,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 20,
     "size": "SMALL",
+    "harvest": "mr_bones",
     "hp": 60,
     "speed": 110,
     "material": [ "bone" ],
@@ -293,11 +287,8 @@
     "melee_dice_sides": 5,
     "melee_damage": [ { "damage_type": "heat", "amount": 3 } ],
     "melee_cut": 7,
-    "dodge": 4,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 },
-      { "id": "rad_fives", "duration": 45 }
-    ],
+    "dodge": 3,
+    "attack_effs": [ { "id": "rad_tenths", "duration": 15 }, { "id": "rad_fives", "duration": 45 } ],
     "armor_bash": 4,
     "armor_cut": 12,
     "armor_stab": 24,
@@ -306,13 +297,20 @@
     "vision_day": 40,
     "vision_night": 4,
     "emit_fields": [ "emit_smoke_stream", "emit_radiation_plume" ],
-    "special_attacks": [
-      { "type": "bite", "cooldown": 5, "min_mul": 0.6, "accuracy": 12 },
-      [ "SHRIEK_ALERT", 50 ],
-      [ "SHRIEK_STUN", 1 ]
-    ],
+    "special_attacks": [ { "type": "bite", "cooldown": 5, "min_mul": 0.6, "accuracy": 12 }, [ "SHRIEK_ALERT", 50 ], [ "SHRIEK_STUN", 1 ] ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "NO_BREATHE", "HARDTOSHOOT", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BASHES", "WARM" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_1",
+      "NO_BREATHE",
+      "HARDTOSHOOT",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO",
+      "BASHES",
+      "WARM"
+    ]
   },
   {
     "id": "mon_dog_zombie_cop_pk",
@@ -324,6 +322,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 16,
     "size": "SMALL",
+    "harvest": "zombie_fur",
     "hp": 50,
     "speed": 95,
     "material": [ "flesh" ],
@@ -351,12 +350,12 @@
       { "id": "diseased swipe", "cooldown": 12, "accuracy": 3 }
     ],
     "death_function": [ "BOOMER_GLOW" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "FUR", "BONES", "PUSH_MON" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "PUSH_MON" ]
   },
   {
     "id": "mon_bear_smoky_pk",
     "type": "MONSTER",
-    "copy_from": "mon_bear_smoky",
+    "copy_from": "mon_zombear",
     "name": "smoky bear",
     "description": "A smoking husk is all that remains of this once proud bear.  Its black eyes gaze at you with malice... and hunger.",
     "default_faction": "bear",
@@ -364,6 +363,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 10,
     "size": "LARGE",
+    "harvest": "mr_bones",
     "hp": 100,
     "speed": 90,
     "material": [ "bone" ],
@@ -384,7 +384,20 @@
     "emit_fields": [ "emit_smoke_stream" ],
     "special_attacks": [ { "type": "bite", "cooldown": 7, "min_mul": 0.5, "no_infection_chance": 3 } ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "ANIMAL", "BASHES", "ATTACKMON", "BONES", "FIREPROOF", "NO_BREATHE", "POISON", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO" ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_1",
+      "ANIMAL",
+      "BASHES",
+      "ATTACKMON",
+      "FIREPROOF",
+      "NO_BREATHE",
+      "POISON",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO"
+    ],
     "anger_triggers": [ "HURT", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ]
   },
@@ -398,6 +411,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 15,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 35,
     "speed": 95,
     "material": [ "flesh" ],
@@ -420,7 +434,20 @@
     "special_attacks": [ [ "scratch", 15 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_child_scorched_2",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "STUMBLES",
+      "POISON",
+      "GRABS",
+      "NO_BREATHE",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO",
+      "GUILT",
+      "CLIMBS",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_zombie_scorched",
@@ -431,6 +458,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 5,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 50,
     "speed": 85,
     "material": [ "flesh" ],
@@ -452,11 +480,8 @@
     "special_attacks": [ [ "scratch", 30 ] ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
-    "upgrades": {
-      "half_life": 24,
-      "into": "mon_zombie_scorched_pk"
-    },
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "upgrades": { "half_life": 24, "into": "mon_zombie_scorched_pk" },
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fiend",
@@ -486,17 +511,12 @@
     "armor_fire": 12,
     "vision_day": 20,
     "vision_night": 10,
-    "special_attacks": [
-      [ "GRAB", 15 ],
-      [ "hammer", 15 ]
-    ],
+    "special_attacks": [ [ "GRAB", 15 ], [ "hammer", 15 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_crawler_scorched",
-    "upgrades": {
-      "half_life": 24,
-      "into": "mon_zombie_fiend_pk"
-    },
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ],
+    "extend": { "upgrades": { "half_life": 24, "into": "mon_zombie_fiend_pk" } },
+    "delete": { "upgrades": { "half_life": 21, "into_group": "GROUP_ZOMBIE_BRUTE" } }
   },
   {
     "id": "mon_zombie_scorched_pk",
@@ -507,6 +527,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 14,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 65,
     "speed": 90,
     "material": [ "flesh" ],
@@ -528,7 +549,7 @@
     "special_attacks": [ [ "slash", 30 ] ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_shocker",
@@ -539,6 +560,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 18,
     "size": "MEDIUM",
+    "harvest": "CBM_CIV",
     "hp": 70,
     "speed": 95,
     "material": [ "flesh" ],
@@ -562,7 +584,19 @@
     "special_when_hit": [ "ZAPBACK", 25 ],
     "death_function": [ "SMOKEBURST", "NORMAL" ],
     "burn_into": "mon_zombie_scorched_pk",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_CIV", "ELECTRIC" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "STUMBLES",
+      "POISON",
+      "GRABS",
+      "NO_BREATHE",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO",
+      "ELECTRIC",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_zombie_fiend_pk",
@@ -573,6 +607,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "mr_bones",
     "hp": 140,
     "speed": 65,
     "material": [ "flesh" ],
@@ -591,13 +626,10 @@
     "armor_fire": 15,
     "vision_day": 25,
     "vision_night": 12,
-    "special_attacks": [
-      [ "GRAB", 15 ],
-      [ "hammer", 10 ]
-    ],
+    "special_attacks": [ [ "GRAB", 15 ], [ "hammer", 10 ] ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "FILTHY" ]
   },
   {
     "id": "mon_zombie_fiend_shocker",
@@ -608,6 +640,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 20,
     "size": "MEDIUM",
+    "harvest": "CBM_SUBS",
     "hp": 180,
     "speed": 75,
     "material": [ "flesh" ],
@@ -628,14 +661,11 @@
     "vision_day": 25,
     "vision_night": 10,
     "luminance": 6,
-    "special_attacks": [
-      [ "GRAB", 15 ],
-      [ "hammer", 10 ]
-    ],
+    "special_attacks": [ [ "GRAB", 15 ], [ "hammer", 10 ] ],
     "special_when_hit": [ "ZAPBACK", 20 ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend_pk",
-    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "CBM_SUBS", "ELECTRIC" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "ELECTRIC", "FILTHY" ]
   },
   {
     "id": "mon_zombie_crawler_scorched",
@@ -646,6 +676,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 1,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 35,
     "speed": 35,
     "material": [ "flesh" ],
@@ -666,7 +697,7 @@
     "vision_night": 3,
     "death_function": [ "SMOKEBURST", "NORMAL", "BLOBSPLIT" ],
     "burn_into": "mon_skeleton_scorched",
-    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "REVIVES", "NO_NECRO", "SWIMS" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "NO_NECRO", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_skeleton_scorched",
@@ -677,6 +708,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 1,
     "size": "MEDIUM",
+    "harvest": "mr_bones",
     "hp": 20,
     "speed": 85,
     "material": [ "flesh" ],
@@ -697,7 +729,7 @@
     "vision_day": 10,
     "vision_night": 3,
     "death_function": [ "DISINTEGRATE" ],
-    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "BONES", "SWIMS" ]
+    "flags": [ "SEES", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "SWIMS", "FILTHY" ]
   },
   {
     "id": "mon_zombie_scorched_necro",
@@ -708,6 +740,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 20,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 120,
     "speed": 5,
     "material": [ "flesh" ],
@@ -726,14 +759,22 @@
     "armor_fire": 20,
     "vision_day": 22,
     "vision_night": 10,
-    "special_attacks": [
-      [ "RESURRECT", 90 ],
-      [ "FORMBLOB", 600 ]
-    ],
+    "special_attacks": [ [ "RESURRECT", 90 ], [ "FORMBLOB", 600 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_function": [ "BLOBSPLIT", "BLOBSPLIT" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_2",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "NIGHT_INVISIBILITY",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_zombie_scorched_master",
@@ -744,6 +785,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 20,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 120,
     "speed": 5,
     "material": [ "flesh" ],
@@ -762,14 +804,22 @@
     "armor_fire": 20,
     "vision_day": 22,
     "vision_night": 10,
-    "special_attacks": [
-      [ "UPGRADE", 90 ],
-      [ "FORMBLOB", 600 ]
-    ],
+    "special_attacks": [ [ "UPGRADE", 90 ], [ "FORMBLOB", 600 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "fear_triggers": [ "HURT" ],
     "death_function": [ "BLOBSPLIT", "BLOBSPLIT" ],
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_2", "WARM", "BASHES", "POISON", "NO_BREATHE", "REVIVES", "BONES", "NIGHT_INVISIBILITY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_2",
+      "WARM",
+      "BASHES",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "NIGHT_INVISIBILITY",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_zombie_child_scorched_2",
@@ -780,6 +830,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 15,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 30,
     "speed": 75,
     "material": [ "flesh" ],
@@ -800,7 +851,21 @@
     "vision_night": 3,
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_skeleton_scorched",
-    "flags": [ "SEES", "HEARS", "PATH_AVOID_DANGER_1", "STUMBLES", "POISON", "GRABS", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "GUILT", "CLIMBS" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "PATH_AVOID_DANGER_1",
+      "STUMBLES",
+      "POISON",
+      "GRABS",
+      "NO_BREATHE",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO",
+      "GUILT",
+      "CLIMBS",
+      "FILTHY"
+    ]
   },
   {
     "id": "mon_horse_zombie_scorched",
@@ -809,6 +874,7 @@
     "description": "Blackened hooves adorn the charred limbs of this monstrous being.  It lumbers after prey with horrifying  speed, snuffing them out with brutal force.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
+    "harvest": "zombie",
     "diff": 16,
     "size": "LARGE",
     "hp": 110,
@@ -831,7 +897,7 @@
     "anger_triggers": [ "FRIEND_ATTACKED" ],
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zolf_scorched",
-    "flags": [ "SEES", "HEARS", "WARM", "BONES", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "PUSH_MON", "STUMBLES", "BASHES" ]
+    "flags": [ "SEES", "HEARS", "WARM", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "PUSH_MON", "STUMBLES", "BASHES" ]
   },
   {
     "id": "mon_zolf_scorched",
@@ -842,6 +908,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 16,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 50,
     "speed": 40,
     "material": [ "flesh" ],
@@ -861,15 +928,22 @@
     "armor_fire": 20,
     "vision_day": 5,
     "vision_night": 15,
-    "special_attacks": [
-      [ "SHRIEK", 120 ],
-      [ "FORMBLOB", 150 ],
-      [ "LONGSWIPE", 50 ],
-      [ "scratch", 20 ]
-    ],
+    "special_attacks": [ [ "SHRIEK", 120 ], [ "FORMBLOB", 150 ], [ "LONGSWIPE", 50 ], [ "scratch", 20 ] ],
     "death_function": [ "MELT" ],
     "burn_into": "mon_zanimal_scorched",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "REVIVES_HEALTHY", "NO_NECRO", "BONES", "SWIMS", "NIGHT_INVISIBILITY" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "STUMBLES",
+      "WARM",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "REVIVES_HEALTHY",
+      "NO_NECRO",
+      "SWIMS",
+      "NIGHT_INVISIBILITY"
+    ]
   },
   {
     "id": "mon_zanimal_scorched",
@@ -880,6 +954,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 12,
     "size": "MEDIUM",
+    "harvest": "zombie",
     "hp": 50,
     "speed": 70,
     "material": [ "flesh" ],
@@ -893,24 +968,18 @@
     "melee_damage": [ { "damage_type": "acid", "amount": 1 } ],
     "melee_cut": 0,
     "dodge": 0,
-    "attack_effs": [
-      { "id": "rad_tenths", "duration": 15 },
-      { "id": "rad_tenths", "duration": 30 }
-    ],
+    "attack_effs": [ { "id": "rad_tenths", "duration": 15 }, { "id": "rad_tenths", "duration": 30 } ],
     "armor_bash": 10,
     "armor_cut": 0,
     "armor_stab": 8,
     "armor_acid": 4,
     "vision_day": 2,
     "vision_night": 5,
-    "special_attacks": [
-      [ "FORMBLOB", 240 ],
-      [ "sliming", 30 ]
-    ],
+    "special_attacks": [ [ "FORMBLOB", 240 ], [ "sliming", 30 ] ],
     "emit_fields": [ "emit_radiation_plume" ],
     "death_function": [ "MELT", "BLOBSPLIT" ],
     "burn_into": "mon_zanimal_skeleton",
-    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "BONES", "SWIMS", "NIGHT_INVISIBILITY" ]
+    "flags": [ "SEES", "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "SWIMS", "NIGHT_INVISIBILITY" ]
   },
   {
     "id": "mon_zanimal_skeleton",
@@ -921,6 +990,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 8,
     "size": "MEDIUM",
+    "harvest": "mr_bones",
     "hp": 30,
     "speed": 70,
     "material": [ "flesh" ],
@@ -940,7 +1010,7 @@
     "armor_acid": 4,
     "death_function": [ "MELT", "BLOBSPLIT" ],
     "burn_into": "mon_zanimal_skeleton_dead",
-    "flags": [ "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "BONES", "REVIVES", "NO_NECRO", "SWIMS", "NIGHT_INVISIBILITY" ]
+    "flags": [ "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "NO_NECRO", "SWIMS", "NIGHT_INVISIBILITY" ]
   },
   {
     "id": "mon_zanimal_skeleton_dead",
@@ -951,6 +1021,7 @@
     "species": [ "ZOMBIE" ],
     "diff": 8,
     "size": "MEDIUM",
+    "harvest": "mr_bones",
     "hp": 30,
     "speed": 70,
     "material": [ "flesh" ],
@@ -968,7 +1039,7 @@
     "armor_stab": 8,
     "armor_acid": 4,
     "death_function": [ "MELT", "BLOBSPLIT" ],
-    "flags": [ "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "BONES", "SWIMS", "NIGHT_INVISIBILITY" ]
+    "flags": [ "HEARS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "SWIMS", "NIGHT_INVISIBILITY" ]
   },
   {
     "id": "mon_zombie_bear_mega",
@@ -979,6 +1050,7 @@
     "species": [ "MAMMAL" ],
     "diff": 30,
     "size": "HUGE",
+    "harvest": "zombie_fur",
     "hp": 380,
     "speed": 110,
     "material": [ "flesh" ],
@@ -1008,6 +1080,21 @@
       }
     ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "ANIMAL", "WARM", "FUR", "BLEED", "BASHES", "DESTROYS", "ATTACKMON", "BONES", "FAT", "LEATHER", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES" ]
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "PATH_AVOID_DANGER_1",
+      "ANIMAL",
+      "WARM",
+      "BASHES",
+      "DESTROYS",
+      "ATTACKMON",
+      "STUMBLES",
+      "WARM",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES"
+    ]
   }
 ]

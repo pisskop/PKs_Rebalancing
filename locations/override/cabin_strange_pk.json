@@ -1,20 +1,44 @@
 [
   {
-    "type":"monstergroup",
-    "name" : "GROUP_BS",
-    "default" : "mon_null",
-    "monsters" : [
-      { "monster": "mon_dementia", "freq": 200, "cost_multiplier": 0, "pack_size": [1,2] },
+    "type": "monstergroup",
+    "name": "GROUP_BS",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_dementia", "freq": 200, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "mon_cult_churl", "freq": 100, "cost_multiplier": 2 },
       { "monster": "mon_cult_slave", "freq": 100, "cost_multiplier": 1 },
       { "monster": "mon_blood_sacrifice", "freq": 75, "cost_multiplier": 1 },
-      { "monster": "mon_shadow", "freq": 75, "cost_multiplier": 2, "pack_size": [1,4] },
-      { "monster": "mon_cult_churl", "freq": 75, "cost_multiplier": 3, "pack_size": [1,5], "conditions": ["DAWN", "DUSK", "NIGHT"] },
-      { "monster": "mon_cult_slave", "freq": 75, "cost_multiplier": 2, "pack_size": [1,5], "conditions": ["DAWN", "DUSK", "NIGHT"] },
-      { "monster": "mon_flesh_angel", "freq": 50, "cost_multiplier": 5, "pack_size": [1,2], "conditions": ["DUSK", "NIGHT", "DAWN"] },
-      { "monster": "mon_homunculus", "freq": 50, "cost_multiplier": 5, "conditions": ["DAWN", "DUSK", "NIGHT"] },
-      { "monster": "mon_bat_vampire", "freq": 50, "cost_multiplier": 0, "conditions": ["SPRING", "SUMMER", "AUTUMN"], "pack_size": [4,7] },
-      { "monster": "mon_darkman", "freq":  25, "cost_multiplier": 9, "conditions": ["DUSK", "NIGHT"] }
+      { "monster": "mon_shadow", "freq": 75, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
+      {
+        "monster": "mon_cult_churl",
+        "freq": 75,
+        "cost_multiplier": 3,
+        "pack_size": [ 1, 5 ],
+        "conditions": [ "DAWN", "DUSK", "NIGHT" ]
+      },
+      {
+        "monster": "mon_cult_slave",
+        "freq": 75,
+        "cost_multiplier": 2,
+        "pack_size": [ 1, 5 ],
+        "conditions": [ "DAWN", "DUSK", "NIGHT" ]
+      },
+      {
+        "monster": "mon_flesh_angel",
+        "freq": 50,
+        "cost_multiplier": 5,
+        "pack_size": [ 1, 2 ],
+        "conditions": [ "DUSK", "NIGHT", "DAWN" ]
+      },
+      { "monster": "mon_homunculus", "freq": 50, "cost_multiplier": 5, "conditions": [ "DAWN", "DUSK", "NIGHT" ] },
+      {
+        "monster": "mon_bat_vampire",
+        "freq": 50,
+        "cost_multiplier": 0,
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ],
+        "pack_size": [ 4, 7 ]
+      },
+      { "monster": "mon_darkman", "freq": 25, "cost_multiplier": 9, "conditions": [ "DUSK", "NIGHT" ] }
     ]
   },
   {
@@ -51,10 +75,7 @@
         "......._         *      ",
         "......._______   _______"
       ],
-      "mapping": {
-        ".": { "items": { "item": "trash", "chance": 2 } },
-        " ": { "items": { "item": "subway", "chance": 4 } }
-      },
+      "mapping": { ".": { "items": { "item": "trash", "chance": 2 } }, " ": { "items": { "item": "subway", "chance": 4 } } },
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_dirt", "t_dirt" ],
         "-": "t_fence_h",
@@ -65,17 +86,12 @@
         "?": "t_fencegate_c",
         "_": "t_wall"
       },
-      "furniture": {
-        "c": "f_chair",
-        "t": "f_table"
-      },
-      "place_monster": [
-        { "monster": "mon_darkman", "x": 16, "y": 16 }
-      ],
+      "furniture": { "c": "f_chair", "t": "f_table" },
+      "place_monster": [ { "monster": "mon_darkman", "x": 16, "y": 16 } ],
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 }
       ]
     }
   },
@@ -134,19 +150,12 @@
         "_": "t_wall",
         "-": "t_fence_v"
       },
-      "furniture": {
-        "b": "f_bed",
-        "C": "f_counter",
-        "c": "f_chair",
-        "t": "f_table"
-      },
-      "monster": {
-        "*": { "monster": "mon_shadow" }
-      },
+      "furniture": { "b": "f_bed", "C": "f_counter", "c": "f_chair", "t": "f_table" },
+      "monster": { "*": { "monster": "mon_shadow" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 }
       ]
     }
   },
@@ -187,7 +196,10 @@
         "B": { "furniture": "f_bookcase", "items": [ { "item": "mansion_books", "chance": 15 } ] },
         "T": { "furniture": "f_table", "items": [ { "item": "waitingroom", "chance": 35 } ] },
         "D": { "furniture": "f_desk", "items": [ { "item": "office", "chance": 50 } ] },
-        "L": { "furniture": "f_locker", "items": [ { "item": "office", "chance": 40, "repeat": [1, 3] }, { "item": "antique", "chance": 50 } ] },
+        "L": {
+          "furniture": "f_locker",
+          "items": [ { "item": "office", "chance": 40, "repeat": [ 1, 3 ] }, { "item": "antique", "chance": 50 } ]
+        },
         ".": { "items": { "item": "trash", "chance": 2 } },
         " ": { "items": { "item": "subway", "chance": 4 } }
       },
@@ -200,21 +212,12 @@
         ">": "t_stairs_down",
         "_": "t_wall"
       },
-      "furniture": {
-        "S": [ "f_statue", "f_rubble" ],
-        "b": "f_bench",
-        "C": "f_counter",
-        "c": "f_chair",
-        "A": "f_armchair",
-        "s": "f_sofa"
-      },
-      "monster": {
-        "*": { "monster": "mon_shadow" }
-      },
+      "furniture": { "S": [ "f_statue", "f_rubble" ], "b": "f_bench", "C": "f_counter", "c": "f_chair", "A": "f_armchair", "s": "f_sofa" },
+      "monster": { "*": { "monster": "mon_shadow" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 }
       ]
     }
   },
@@ -282,16 +285,12 @@
         "V": "f_vending_c",
         "v": "f_vending_c"
       },
-      "toilets": {
-        "T": {}
-      },
-      "monster": {
-        "*": { "monster": "mon_shadow" }
-      },
+      "toilets": { "T": {  } },
+      "monster": { "*": { "monster": "mon_shadow" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 5 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 5 }
       ]
     }
   },
@@ -331,7 +330,14 @@
       ],
       "mapping": {
         " ": { "items": { "item": "subway", "chance": 6 } },
-        "X": { "items": [ { "item": "art", "chance": 1 }, { "item": "medieval", "chance": 1 }, { "item": "dresser", "chance": 15 }, { "item": "church", "chance": 10 } ] },
+        "X": {
+          "items": [
+            { "item": "art", "chance": 1 },
+            { "item": "medieval", "chance": 1 },
+            { "item": "dresser", "chance": 15 },
+            { "item": "church", "chance": 10 }
+          ]
+        },
         "B": { "furniture": "f_bookcase", "items": { "item": "novels", "chance": 40 } },
         "f": { "items": { "item": "cannedfood", "chance": 30 } },
         "D": { "furniture": "f_desk", "items": { "item": "art", "chance": 25 } },
@@ -352,20 +358,66 @@
         "c": "f_chair",
         "t": "f_table",
         "f": [ "f_rack", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
-        "X": [ "f_crate_c", "f_crate_c", "f_crate_c", "f_crate_o", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
-        "x": [ "f_crate_c", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null", "f_null" ],
+        "X": [
+          "f_crate_c",
+          "f_crate_c",
+          "f_crate_c",
+          "f_crate_o",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null"
+        ],
+        "x": [
+          "f_crate_c",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null",
+          "f_null"
+        ],
         "L": "f_locker",
         "1": "f_grave_monument",
         "#": "f_brazier"
       },
-      "monster": {
-        "*": { "monster": "mon_flesh_angel" },
-        "^": { "monster": "mon_blood_sacrifice" }
-      },
+      "monster": { "*": { "monster": "mon_flesh_angel" }, "^": { "monster": "mon_blood_sacrifice" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 }
       ]
     }
   },
@@ -406,8 +458,11 @@
         " ": { "items": { "item": "trash", "chance": 3 } },
         "B": { "furniture": "f_makeshift_bed", "items": { "item": "bed", "chance": 10 } },
         "D": { "furniture": "f_desk", "items": [ { "item": "office", "chance": 50 } ] },
-        "L": { "furniture": "f_locker", "items": [ { "item": "npc_misc", "chance": 10 }, { "item": "dresser", "chance": 30 }, { "item": "church", "chance": 25 } ] },
-        "l": { "furniture": "f_locker", "items": [ { "item": "office", "chance": 50, "repeat": [1, 3] } ] },
+        "L": {
+          "furniture": "f_locker",
+          "items": [ { "item": "npc_misc", "chance": 10 }, { "item": "dresser", "chance": 30 }, { "item": "church", "chance": 25 } ]
+        },
+        "l": { "furniture": "f_locker", "items": [ { "item": "office", "chance": 50, "repeat": [ 1, 3 ] } ] },
         ".": { "item": { "item": "bucket" } }
       },
       "terrain": {
@@ -418,20 +473,12 @@
         "=": "t_floor",
         "|": "t_bars"
       },
-      "furniture": {
-        "S": "f_statue",
-        "=": "f_large_canvas_wall",
-        "c": "f_chair",
-        "s": "f_sink",
-        "b": "f_straw_bed"
-      },
-      "toilets": {
-        "T": {}
-      },
+      "furniture": { "S": "f_statue", "=": "f_large_canvas_wall", "c": "f_chair", "s": "f_sink", "b": "f_straw_bed" },
+      "toilets": { "T": {  } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 }
       ]
     }
   },
@@ -484,16 +531,11 @@
         ".": "t_rock_floor",
         "t": "t_rock_floor"
       },
-      "furniture": {
-        "=": "f_large_canvas_wall",
-        "f": "f_rack",
-        "c": "f_chair",
-        "t": "f_table"
-      },
+      "furniture": { "=": "f_large_canvas_wall", "f": "f_rack", "c": "f_chair", "t": "f_table" },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 }
       ]
     }
   },
@@ -547,7 +589,26 @@
         "G": "t_door_bar_locked",
         "_": "t_rock_smooth",
         ".": "t_rock_floor",
-        "-": [ "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_wall_half", "t_rock_wall_half", "t_rock_smooth" ]
+        "-": [
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_wall_half",
+          "t_rock_wall_half",
+          "t_rock_smooth"
+        ]
       },
       "furniture": {
         "=": "f_large_canvas_wall",
@@ -562,9 +623,9 @@
         "n": "f_slab"
       },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 3 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 3 }
       ]
     }
   },
@@ -602,26 +663,36 @@
         "########################",
         "########################"
       ],
-      "mapping": {
-        ".": { "items": { "item": "doom_lootpack", "chance": 1 } }
-      },
+      "mapping": { ".": { "items": { "item": "doom_lootpack", "chance": 1 } } },
       "terrain": {
         " ": [ "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor" ],
-        ".": [ "t_dirtfloor", "t_dirtfloor", "t_dirtfloor", "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock", "t_rock_smooth" ],
+        ".": [
+          "t_dirtfloor",
+          "t_dirtfloor",
+          "t_dirtfloor",
+          "t_dirtfloor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock",
+          "t_rock_smooth"
+        ],
         "#": "t_rock",
         "<": "t_ladder_up"
       },
-      "furniture": {
-        "c": "f_chair"
-      },
-      "monster": {
-        "&": { "monster": "mon_legion" },
-        "^": { "monster": "mon_blood_sacrifice" }
-      },
+      "furniture": { "c": "f_chair" },
+      "monster": { "&": { "monster": "mon_legion" }, "^": { "monster": "mon_blood_sacrifice" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 }
       ]
     }
   },
@@ -659,26 +730,29 @@
         "########################",
         "########################"
       ],
-      "mapping": {
-        ".": { "items": { "item": "doom_lootpack", "chance": 1 } }
-      },
+      "mapping": { ".": { "items": { "item": "doom_lootpack", "chance": 1 } } },
       "terrain": {
         " ": [ "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor" ],
-        ".": [ "t_dirtfloor", "t_dirtfloor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock", "t_rock_smooth" ],
+        ".": [
+          "t_dirtfloor",
+          "t_dirtfloor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock_floor",
+          "t_rock",
+          "t_rock_smooth"
+        ],
         "#": "t_rock",
         "<": "t_ladder_up"
       },
-      "furniture": {
-        "c": "f_chair"
-      },
-      "monster": {
-        "&": { "monster": "mon_nuculais" },
-        "^": { "monster": "mon_blood_sacrifice" }
-      },
+      "furniture": { "c": "f_chair" },
+      "monster": { "&": { "monster": "mon_nuculais" }, "^": { "monster": "mon_blood_sacrifice" } },
       "place_monsters": [
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 },
-        { "monster": "GROUP_BS", "x": [ 1 , 22 ], "y": [ 1 , 22 ], "chance": 6 }
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 },
+        { "monster": "GROUP_BS", "x": [ 1, 22 ], "y": [ 1, 22 ], "chance": 6 }
       ]
     }
   }
